@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progi specjalizacyjne</title>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+        background: #f7f8fb;
+        color: #1f2937;
+      }
+
+      main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1rem 3rem;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.6rem, 3vw, 2.4rem);
+        color: #0f172a;
+      }
+
+      p {
+        margin: 0.75rem 0 1.5rem;
+        line-height: 1.5;
+        max-width: 70ch;
+      }
+
+      .report-wrap {
+        background: #fff;
+        border-radius: 14px;
+        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+        padding: 0.5rem;
+      }
+
+      iframe {
+        width: 100%;
+        min-height: 80vh;
+        border: 0;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Progi punktowe – specjalizacja lekarska</h1>
+      <p>
+        Cześć! Jestem młodym lekarzem i publikuję tutaj prosty, przejrzysty raport z progami punktowymi
+        rekrutacji na specjalizację. Dane są dostępne poniżej w osadzonym raporcie Power BI.
+      </p>
+
+      <section class="report-wrap" aria-label="Raport Power BI z progami punktowymi">
+        <iframe
+          title="Plik Pawła - progi specka powerBI"
+          src="https://app.powerbi.com/view?r=eyJrIjoiNDJiYjgyMDctNDM1Yi00NzkxLTg0NDctY2I1MTAzMmYyMGRjIiwidCI6IjQ1NDIwZThkLTg1NTItNGEwMy05YjkyLWE5MzFlZjgzOWQzZiIsImMiOjh9&pageName=72594d30035d4d320064"
+          allowfullscreen="true"
+          loading="lazy"
+        ></iframe>
+      </section>
+    </main>
+  </body>
+</html>
