@@ -197,25 +197,30 @@
             layoutType: mobileLayout,
             panes: {
               filters: { visible: !isMobile },
-              pageNavigation: { visible: !isMobile }
+              pageNavigation: { visible: false }
             }
           }
         };
 
         const report = powerbiClient.embed(reportContainer, embedConfig);
+        const targetPageDisplayName = "Page 1";
 
         report.on("loaded", async () => {
-          if (!isMobile) return;
-
           try {
             const pages = await report.getPages();
-            if (pages.length > 0) {
-              const hasMobilePortrait = await pages[0].hasLayout(models.LayoutType.MobilePortrait);
-              if (!hasMobilePortrait) {
-                await report.updateSettings({
-                  layoutType: models.LayoutType.MobileLandscape
-                });
-              }
+            const targetPage = pages.find((page) => page.displayName === targetPageDisplayName);
+
+            if (targetPage) {
+              await targetPage.setActive();
+            }
+
+            if (!isMobile || pages.length === 0) return;
+
+            const hasMobilePortrait = await pages[0].hasLayout(models.LayoutType.MobilePortrait);
+            if (!hasMobilePortrait) {
+              await report.updateSettings({
+                layoutType: models.LayoutType.MobileLandscape
+              });
             }
           } catch (_error) {
             // Ignore API errors to avoid interrupting fallback report usage.
