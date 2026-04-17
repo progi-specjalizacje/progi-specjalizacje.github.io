@@ -75,19 +75,19 @@
 
       .wip-button {
         position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
+        left: 50%;
+        bottom: 0.9rem;
+        transform: translateX(-50%);
         z-index: 100;
-        border-top: 1px solid #cbd5e1;
+        border: 1px solid #cbd5e1;
+        border-radius: 999px;
         background: #ffffff;
         color: #0f172a;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         line-height: 1;
-        padding: 0.8rem 1rem;
-        text-align: center;
+        padding: 0.55rem 0.9rem;
         text-decoration: none;
-        box-shadow: 0 -6px 16px rgba(15, 23, 42, 0.08);
+        box-shadow: 0 6px 14px rgba(15, 23, 42, 0.12);
       }
 
       .wip-button:hover,
@@ -98,7 +98,7 @@
       @media (max-width: 768px) {
         main {
           padding: 0.85rem;
-          padding-bottom: 4.3rem;
+          padding-bottom: 4.5rem;
         }
 
         .report-wrap {
