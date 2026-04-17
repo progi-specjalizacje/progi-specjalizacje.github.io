@@ -9,6 +9,10 @@
         color-scheme: light;
       }
 
+      * {
+        box-sizing: border-box;
+      }
+
       body {
         margin: 0;
         font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
@@ -17,66 +21,220 @@
       }
 
       main {
-        width: 100%;
-        margin: 0;
+        width: min(1100px, 100%);
+        margin: 0 auto;
+        padding: clamp(1rem, 2.5vw, 2rem);
+        padding-bottom: 5rem;
       }
 
       h1 {
         margin: 0;
-        font-size: clamp(1.6rem, 3vw, 2.4rem);
+        font-size: clamp(1.5rem, 4vw, 2.4rem);
         color: #0f172a;
       }
 
       p {
-        margin: 0.75rem 0 1.5rem;
-        line-height: 1.5;
-        max-width: 70ch;
+        margin: 0.75rem 0 1rem;
+        line-height: 1.55;
+        max-width: 75ch;
+      }
+
+      .muted {
+        color: #475569;
       }
 
       .report-wrap {
         width: 100%;
+        border-radius: 14px;
+        overflow: hidden;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 12px 26px rgba(15, 23, 42, 0.08);
+        margin-top: 1rem;
       }
 
-      iframe {
+      #reportContainer,
+      #reportContainer iframe {
         display: block;
         width: 100%;
-        min-height: 100vh;
         border: 0;
+        background: #fff;
+      }
+
+      #reportContainer {
+        min-height: clamp(580px, 78vh, 900px);
+      }
+
+      #reportContainer iframe {
+        min-height: inherit;
+      }
+
+      .helper {
+        margin-top: 0.75rem;
+        font-size: 0.95rem;
+      }
+
+      .wip-button {
+        position: fixed;
+        left: 50%;
+        bottom: 0.9rem;
+        transform: translateX(-50%);
+        z-index: 100;
+        border: 1px solid #cbd5e1;
+        border-radius: 999px;
+        background: #ffffff;
+        color: #0f172a;
+        font-size: 0.85rem;
+        line-height: 1;
+        padding: 0.55rem 0.9rem;
+        text-decoration: none;
+        box-shadow: 0 6px 14px rgba(15, 23, 42, 0.12);
+      }
+
+      .wip-button:hover,
+      .wip-button:focus-visible {
+        background: #f8fafc;
+      }
+
+      @media (max-width: 768px) {
+        main {
+          padding: 0.85rem;
+          padding-bottom: 4.5rem;
+        }
+
+        #reportContainer {
+          min-height: 76vh;
+        }
+
+        .report-wrap {
+          border-radius: 10px;
+        }
       }
     </style>
   </head>
   <body>
-  <main>
-    <h1>Progi na specjalizacje – stomatologia</h1>
+    <main>
+      <h1>Progi na specjalizacje – stomatologia</h1>
 
-    <p><strong>
-      Tabela poniżej przedstawia progi punktowe na specjalizacje,
-      z podziałem na województwa i lata.</strong>
-    </p>
+      <p>
+        <strong>
+          Tabela poniżej przedstawia progi punktowe na specjalizacje, z podziałem
+          na województwa i lata.
+        </strong>
+      </p>
 
-    <p>
-      Z tego co wiem, w internecie nie ma obecnie równie kompleksowego zestawienia dla specjalizacji stomatologicznych. 
-      Zebrałem te dane przygotowując się do wyboru specki, i udostępniam je z myślą, że mogą się jeszcze komuś przydać.
-    </p>
+      <p>
+        Z tego co wiem, w internecie nie ma obecnie równie kompleksowego
+        zestawienia dla specjalizacji stomatologicznych. Zebrałem te dane
+        przygotowując się do wyboru specki i udostępniam je z myślą, że mogą się
+        jeszcze komuś przydać.
+      </p>
 
-    <p>
-      Dane pochodzą z:
-      <a href="https://www.cmkp.edu.pl/ksztalcenie/postepowania-kwalifikacyjne" target="_blank">
-        Centrum Medycznego Kształcenia Podyplomowego 
-      </a><br> Ostatnia aktualizacja: wiosna 2026 
-      <p> jak będę miał czas to może coś fajnego jeszcze tu powrzucam
-    </p>
+      <p>
+        Dane pochodzą z:
+        <a
+          href="https://www.cmkp.edu.pl/ksztalcenie/postepowania-kwalifikacyjne"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Centrum Medycznego Kształcenia Podyplomowego</a
+        >.<br />
+        Ostatnia aktualizacja: wiosna 2026.
+      </p>
 
-    
+      <p class="muted">Jak będę miał czas, to może coś fajnego jeszcze tu dorzucę 😊</p>
 
       <section class="report-wrap" aria-label="Raport Power BI z progami punktowymi">
-        <iframe
-          title="progi specka powerBI"
-          src="https://app.powerbi.com/view?r=eyJrIjoiNzNmYzRmN2EtYzdjNC00ODY1LTk5YTEtNzZiMjQ3ZWRmNzEyIiwidCI6IjQ1NDIwZThkLTg1NTItNGEwMy05YjkyLWE5MzFlZjgzOWQzZiIsImMiOjh9"
-          allowfullscreen="true"
-          loading="lazy"
-        ></iframe>
+        <div id="reportContainer"></div>
       </section>
+
+      <p class="helper muted">
+        Na telefonie strona automatycznie próbuje użyć układu Power BI
+        <code>MobilePortrait</code> (jeśli raport ma przygotowany mobile layout).
+      </p>
     </main>
+
+    <a class="wip-button" href="wip.html">work in progress</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.23.1/dist/powerbi.min.js"></script>
+    <script>
+      (function () {
+        const reportContainer = document.getElementById("reportContainer");
+        const publishToWebUrl =
+          "https://app.powerbi.com/view?r=eyJrIjoiNzNmYzRmN2EtYzdjNC00ODY1LTk5YTEtNzZiMjQ3ZWRmNzEyIiwidCI6IjQ1NDIwZThkLTg1NTItNGEwMy05YjkyLWE5MzFlZjgzOWQzZiIsImMiOjh9";
+
+        function renderIframeFallback() {
+          reportContainer.innerHTML = `
+            <iframe
+              title="progi specka powerBI"
+              src="${publishToWebUrl}"
+              allowfullscreen="true"
+              loading="lazy"
+            ></iframe>
+          `;
+        }
+
+        const powerbiClient = window["powerbi-client"];
+        const models = powerbiClient && powerbiClient.models;
+        const config = window.POWERBI_EMBED_CONFIG;
+
+        if (!powerbiClient || !models || !config || !config.id || !config.embedUrl || !config.accessToken) {
+          renderIframeFallback();
+          return;
+        }
+
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+        const mobileLayout = isMobile
+          ? models.LayoutType.MobilePortrait
+          : models.LayoutType.MobileLandscape;
+
+        const embedConfig = {
+          type: "report",
+          id: config.id,
+          embedUrl: config.embedUrl,
+          accessToken: config.accessToken,
+          tokenType: config.tokenType ?? models.TokenType.Embed,
+          settings: {
+            layoutType: mobileLayout,
+            panes: {
+              filters: { visible: !isMobile },
+              pageNavigation: { visible: !isMobile }
+            }
+          }
+        };
+
+        const report = powerbiClient.embed(reportContainer, embedConfig);
+
+        report.on("loaded", async () => {
+          if (!isMobile) return;
+
+          try {
+            const pages = await report.getPages();
+            if (pages.length > 0) {
+              const hasMobilePortrait = await pages[0].hasLayout(models.LayoutType.MobilePortrait);
+              if (!hasMobilePortrait) {
+                await report.updateSettings({
+                  layoutType: models.LayoutType.MobileLandscape
+                });
+              }
+            }
+          } catch (_error) {
+            // Ignore API errors to avoid interrupting fallback report usage.
+          }
+        });
+
+        const mediaQuery = window.matchMedia("(max-width: 768px)");
+        mediaQuery.addEventListener("change", async (event) => {
+          const newLayoutType = event.matches
+            ? models.LayoutType.MobilePortrait
+            : models.LayoutType.MobileLandscape;
+
+          try {
+            await report.updateSettings({ layoutType: newLayoutType });
+          } catch (_error) {
+            // Ignored: updateSettings can fail when iframe is in public-view mode.
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

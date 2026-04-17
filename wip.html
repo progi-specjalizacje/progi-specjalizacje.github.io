@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work in progress</title>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+        background: #f7f8fb;
+        color: #0f172a;
+      }
+
+      main {
+        width: min(1200px, 100%);
+        margin: 0 auto;
+        padding: 0.9rem;
+      }
+
+      h1 {
+        margin: 0 0 0.8rem;
+        font-size: clamp(1.2rem, 3.6vw, 1.9rem);
+      }
+
+      .frame-wrap {
+        width: 100%;
+        min-height: clamp(620px, 84vh, 1100px);
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .frame-wrap iframe {
+        width: 100%;
+        min-height: inherit;
+        border: 0;
+        display: block;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-top: 0.9rem;
+        color: #334155;
+        text-decoration: none;
+      }
+
+      .back-link:hover,
+      .back-link:focus-visible {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 768px) {
+        main {
+          padding: 0.7rem;
+        }
+
+        .frame-wrap {
+          min-height: 86vh;
+          border-radius: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Work in progress</h1>
+
+      <section class="frame-wrap" aria-label="Datastudio report">
+        <iframe
+          title="Datastudio report"
+          src="https://datastudio.google.com/embed/reporting/1c01d33c-233e-485f-965d-54406dd9ca5a/page/ACYvF"
+          allowfullscreen
+          sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </section>
+
+      <a class="back-link" href="index.html">← wróć do strony głównej</a>
+    </main>
+  </body>
+</html>
