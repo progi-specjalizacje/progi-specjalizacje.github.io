@@ -45,7 +45,7 @@
 
       .report-stack {
         display: grid;
-        gap: clamp(1rem, 2vw, 1.5rem);
+        gap: clamp(0.65rem, 1.8vw, 1rem);
         margin-top: 1rem;
       }
 
@@ -66,12 +66,17 @@
         background: #fff;
       }
 
+      .embed-note {
+        margin: 0;
+        text-align: center;
+        color: #334155;
+        font-size: 0.92rem;
+      }
+
       .wip-button {
-        position: fixed;
-        left: 50%;
-        bottom: 0.9rem;
-        transform: translateX(-50%);
-        z-index: 100;
+        display: block;
+        width: fit-content;
+        margin: 1.2rem auto 0;
         border: 1px solid #cbd5e1;
         border-radius: 999px;
         background: #ffffff;
@@ -139,23 +144,17 @@
         <div class="report-wrap">
           <iframe
             title="Progi specjalizacyjne - tabela 1"
-            src="https://app.powerbi.com/view?r=eyJrIjoiNzNmYzRmN2EtYzdjNC00ODY1LTk5YTEtNzZiMjQ3ZWRmNzEyIiwidCI6IjQ1NDIwZThkLTg1NTItNGEwMy05YjkyLWE5MzFlZjgzOWQzZiIsImMiOjh9&pageName=72594d30035d4d320064&navContentPaneEnabled=false&filterPaneEnabled=false"
+            src="https://app.powerbi.com/view?r=eyJrIjoiNzNmYzRmN2EtYzdjNC00ODY1LTk5YTEtNzZiMjQ3ZWRmNzEyIiwidCI6IjQ1NDIwZThkLTg1NTItNGEwMy05YjkyLWE5MzFlZjgzOWQzZiIsImMiOjh9&pageName=72594d30035d4d320064"
             allowfullscreen="true"
             loading="lazy"
           ></iframe>
         </div>
-
-        <div class="report-wrap">
-          <iframe
-            title="Progi specjalizacyjne - tabela 2"
-            src="https://app.powerbi.com/view?r=eyJrIjoiNzNmYzRmN2EtYzdjNC00ODY1LTk5YTEtNzZiMjQ3ZWRmNzEyIiwidCI6IjQ1NDIwZThkLTg1NTItNGEwMy05YjkyLWE5MzFlZjgzOWQzZiIsImMiOjh9&pageName=befc06878996204d5042&navContentPaneEnabled=false&filterPaneEnabled=false"
-            allowfullscreen="true"
-            loading="lazy"
-          ></iframe>
-        </div>
+        <p class="embed-note">
+          Wskazówka: strony raportu możesz przełączać wewnątrz embeda na dole.
+        </p>
       </section>
-    </main>
 
-    <a class="wip-button" href="wip.html">work in progress</a>
+      <a class="wip-button" href="wip.html">work in progress</a>
+    </main>
   </body>
 </html>
