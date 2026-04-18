@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Progi specjalizacyjne</title>
+    <title>Progi na specjalizacje - stomatologia</title>
+    <meta
+      name="description"
+      content="Progi punktowe na specjalizacje stomatologiczne porówanie według województw i lat.; dane z CMKP; ile miejsc na specjalizacje;ortodoncja i chirurgia stomatologiczna -progi punktowe"
+    />
     <style>
       :root {
         color-scheme: light;
@@ -99,6 +103,16 @@
         letter-spacing: 0.01em;
       }
 
+      .page-meta {
+        margin-top: clamp(1.35rem, 3.2vw, 2.1rem);
+        padding-top: clamp(1rem, 2.4vw, 1.5rem);
+        border-top: 1px solid #e2e8f0;
+      }
+
+      .page-meta p:last-child {
+        margin-bottom: 0;
+      }
+
       .wip-button {
         position: fixed;
         right: clamp(0.7rem, 2vw, 1.1rem);
@@ -148,7 +162,7 @@
       <section class="report-stack" aria-label="Raporty Power BI z progami punktowymi">
         <div class="report-wrap">
           <iframe
-            title="Progi specjalizacyjne - tabela 1"
+            title="PowerBI Report"
             src="https://app.powerbi.com/view?r=eyJrIjoiNzNmYzRmN2EtYzdjNC00ODY1LTk5YTEtNzZiMjQ3ZWRmNzEyIiwidCI6IjQ1NDIwZThkLTg1NTItNGEwMy05YjkyLWE5MzFlZjgzOWQzZiIsImMiOjh9&pageName=72594d30035d4d320064"
             allowfullscreen="true"
             loading="lazy"
@@ -159,24 +173,28 @@
           <span class="embed-note-text">Przełącz na następną stronę</span>
         </p>
       </section>
-      
-      <p>
-        Zobacz także: 
-        <a href="https://www.gov.pl/web/uw-mazowiecki/punkty-przyznawane-w-postepowaniu" target="_blank" rel="noopener noreferrer">
-          Punkty przyznawane w postępowaniu - Mazowiecki Urząd Wojewódzki w Warszawie - Portal Gov.pl
-        </a>
- 
 
-
-        Dane pochodzą z:
-        <a
-          href="https://www.cmkp.edu.pl/ksztalcenie/postepowania-kwalifikacyjne"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Centrum Medycznego Kształcenia Podyplomowego</a
-        >.<br />
-        Ostatnia aktualizacja: wiosna 2026.
-      </p>
+      <section class="page-meta muted" aria-label="Źródła danych i materiały urzędowe">
+        <p>
+          Żeby porównać swój wynik z progami, trzeba najpierw policzyć punkty rekrutacyjne.
+          Zasady opisuje m.in.
+          <a
+            href="https://www.gov.pl/web/uw-mazowiecki/punkty-przyznawane-w-postepowaniu"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Mazowiecki Urząd Wojewódzki — punkty przyznawane w postępowaniu (Gov.pl)</a
+          >.
+        </p>
+        <p>
+          Dane w raportach pochodzą z
+          <a
+            href="https://www.cmkp.edu.pl/ksztalcenie/postepowania-kwalifikacyjne"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Centrum Medycznego Kształcenia Podyplomowego</a
+          >. Ostatnia aktualizacja: wiosna 2026.
+        </p>
+      </section>
       <a class="wip-button" href="wip.html">work in progress</a>
     </main>
   </body>
