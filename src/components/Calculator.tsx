@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useCalculatorStore } from "../state/calculatorStore";
 import { formatNumber, formatPercentPoints } from "../utils/formatters";
 
@@ -18,6 +19,9 @@ export function Calculator() {
     setIsAcademicTeacher,
     setPublicationsCount,
   } = useCalculatorStore();
+
+  // Keep incomplete keyboard input separate from the value used in calculations.
+  const [maxExamPointsDraft, setMaxExamPointsDraft] = useState<string | null>(null);
 
   const actualExamPoints = Math.min(examPoints, maxExamPoints);
 
@@ -115,16 +119,33 @@ export function Calculator() {
         {/* Max Exam Points (for revoked questions) */}
         <div className="calculator-group">
           <div className="input-row-between">
-            <label className="calculator-label">Max punktów z egzaminu (np. po anulowaniu pytań)</label>
+            <label className="calculator-label" htmlFor="max-exam-points">Max punktów z egzaminu (np. po anulowaniu pytań)</label>
             <input
+              id="max-exam-points"
               type="number"
+              inputMode="numeric"
               className="numeric-input compact-input"
-              value={maxExamPoints}
+              value={maxExamPointsDraft ?? maxExamPoints}
               min={190}
               max={200}
               step={1}
-              onChange={(e) => handleMaxExamPointsChange(Number(e.target.value))}
-              onBlur={(e) => handleMaxExamPointsChange(Number(e.target.value))}
+              onChange={(e) => {
+                const draft = e.target.value;
+                setMaxExamPointsDraft(draft);
+                const value = Number(draft);
+                if (draft !== "" && value >= 190 && value <= 200) {
+                  handleMaxExamPointsChange(value);
+                }
+              }}
+              onBlur={(e) => {
+                if (e.target.value !== "") {
+                  handleMaxExamPointsChange(Number(e.target.value));
+                }
+                setMaxExamPointsDraft(null);
+              }}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") e.currentTarget.blur();
+              }}
             />
           </div>
         </div>

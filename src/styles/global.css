@@ -45,7 +45,8 @@ button {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(180deg, #000b, #0007 55%, #171020b3),
+  background: linear-gradient(90deg, #100b20e6, #100b2099 52%, #100b2026),
+    linear-gradient(180deg, #0003, #0002 55%, #171020b3),
     url('/assets/poz1/hero.jpg') center / cover no-repeat;
   pointer-events: none;
 }
@@ -63,20 +64,20 @@ button {
 
 .sponsor-logo { display: block; flex-shrink: 0; }
 .sponsor-logo img { display: block; width: 150px; height: auto; }
-.sponsor-actions { display: flex; align-items: center; gap: 24px; }
-.sponsor-label { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
 .sponsor-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  min-height: 44px;
-  padding: 10px 24px;
-  border-radius: 28px;
+  min-height: 58px;
+  padding: 16px 36px;
+  border: 2px solid #c9aff0;
+  border-radius: 32px;
+  box-shadow: 0 6px 20px #100b2459;
   background: #6843a2;
   color: #fff;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 700;
   text-decoration: none;
 }
 .sponsor-button:hover { background: #7954b6; }
@@ -85,8 +86,10 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   outline-offset: 4px;
 }
 .sponsor-hero {
+  width: min(1480px, calc(100% - 64px));
+  margin: 0 auto;
   min-height: 250px;
-  padding: 20px 24px 32px;
+  padding: 24px 0 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,23 +99,21 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   font-family: Roboto, 'Segoe UI', Arial, sans-serif;
 }
 .sponsor-title {
-  max-width: 1080px;
+  max-width: 720px;
   margin: 0;
-  font-size: clamp(24px, 2.5vw, 32px);
-  line-height: 1.3;
-  font-weight: 900;
-  text-wrap: balance;
+  font-size: clamp(23px, 2.2vw, 29px);
+  line-height: 1.35;
+  font-weight: 700;
 }
-.sponsor-proof { margin: 18px 0 20px; font-size: 16px; line-height: 1.6; text-wrap: balance; }
+.sponsor-description { max-width: 520px; margin: 24px 0 0; font-size: clamp(18px, 1.6vw, 21px); line-height: 1.55; }
+.sponsor-proof { max-width: 720px; margin: 22px 0 24px; font-size: 14px; line-height: 1.65; color: #ede8f5; }
 
 @media (max-width: 768px) {
   .sponsor-header { width: calc(100% - 32px); gap: 12px; }
   .sponsor-logo img { width: 125px; }
-  .sponsor-actions { gap: 8px; flex-direction: column; align-items: flex-end; }
-  .sponsor-label { font-size: 9px; letter-spacing: .04em; }
-  .sponsor-button { padding: 8px 16px; font-size: 12px; }
-  .sponsor-hero { min-height: 0; padding: 18px 20px 28px; }
-  .sponsor-proof { font-size: 14px; }
+  .sponsor-button { padding: 14px 28px; font-size: 18px; }
+  .sponsor-hero { width: calc(100% - 40px); min-height: 0; padding: 18px 0 32px; }
+  .sponsor-proof { font-size: 13px; }
   .dashboard-shell { width: calc(100% - 24px); border-radius: 14px; margin-bottom: 24px; }
 }
 
