@@ -1,0 +1,803 @@
+rekrutacja,wojewodztwo,dziedzina_medycyny,sciezka,egzamin,liczba_miejsc,prawdopodobienstwo_pelnej_puli,historyczne_pelne_pule,grupa_pilotazowa
+j-2026,Śląskie,Endokrynologia,lekarska,LEK,1,0.998334,6,A_stabilny_pilotaz
+j-2026,Mazowieckie,Endokrynologia,lekarska,LEK,3,0.99823,6,A_stabilny_pilotaz
+j-2026,Zachodniopomorskie,Dermatologia i wenerologia,lekarska,LEK,2,0.988917,5,A_stabilny_pilotaz
+j-2026,Śląskie,Reumatologia,lekarska,LEK,5,0.996946,7,A_stabilny_pilotaz
+j-2026,Dolnośląskie,Okulistyka,lekarska,LEK,4,0.998747,7,A_stabilny_pilotaz
+j-2026,Małopolskie,Ortodoncja,stomatologiczna,LDEK,1,0.997314,5,A_stabilny_pilotaz
+j-2026,Lubelskie,Okulistyka,lekarska,LEK,2,0.997935,5,A_stabilny_pilotaz
+j-2026,Łódzkie,Urologia,lekarska,LEK,2,0.997796,7,A_stabilny_pilotaz
+j-2026,Łódzkie,Okulistyka,lekarska,LEK,3,0.998541,6,A_stabilny_pilotaz
+j-2026,Wielkopolskie,Okulistyka,lekarska,LEK,15,0.993536,6,A_stabilny_pilotaz
+j-2026,Pomorskie,Urologia,lekarska,LEK,3,0.996867,6,A_stabilny_pilotaz
+j-2026,Kujawsko-pomorskie,Okulistyka,lekarska,LEK,6,0.99605,7,A_stabilny_pilotaz
+j-2026,Mazowieckie,Ortodoncja,stomatologiczna,LDEK,5,0.998346,7,A_stabilny_pilotaz
+j-2026,Opolskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,5,0.997148,7,A_stabilny_pilotaz
+j-2026,Śląskie,Kardiologia,lekarska,LEK,6,0.999446,7,A_stabilny_pilotaz
+j-2026,Wielkopolskie,Kardiologia,lekarska,LEK,20,0.99735,7,A_stabilny_pilotaz
+j-2026,Mazowieckie,Urologia,lekarska,LEK,8,0.997734,6,A_stabilny_pilotaz
+j-2026,Małopolskie,Kardiologia,lekarska,LEK,8,0.999122,6,A_stabilny_pilotaz
+j-2026,Śląskie,Otorynolaryngologia,lekarska,LEK,4,0.996438,5,A_stabilny_pilotaz
+j-2026,Łódzkie,Otorynolaryngologia,lekarska,LEK,2,0.99655,5,A_stabilny_pilotaz
+j-2026,Wielkopolskie,Otorynolaryngologia,lekarska,LEK,4,0.993674,5,A_stabilny_pilotaz
+j-2026,Dolnośląskie,Ortodoncja,stomatologiczna,LDEK,3,0.997427,6,A_stabilny_pilotaz
+j-2026,Zachodniopomorskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,19,0.992291,7,A_stabilny_pilotaz
+j-2026,Wielkopolskie,Urologia,lekarska,LEK,5,0.993125,5,A_stabilny_pilotaz
+j-2026,Śląskie,Urologia,lekarska,LEK,6,0.995982,5,A_stabilny_pilotaz
+j-2026,Podlaskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,6,0.997429,6,A_stabilny_pilotaz
+j-2026,Śląskie,Diabetologia,lekarska,LEK,6,0.993196,7,A_stabilny_pilotaz
+j-2026,Lubuskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,3,0.996516,5,A_stabilny_pilotaz
+j-2026,Podkarpackie,Radiologia i diagnostyka obrazowa,lekarska,LEK,9,0.997772,6,A_stabilny_pilotaz
+j-2026,Kujawsko-pomorskie,Otorynolaryngologia,lekarska,LEK,6,0.98681,6,A_stabilny_pilotaz
+j-2026,Pomorskie,Kardiologia,lekarska,LEK,15,0.998534,5,A_stabilny_pilotaz
+j-2026,Podkarpackie,Urologia,lekarska,LEK,6,0.989941,6,A_stabilny_pilotaz
+j-2026,Łódzkie,Kardiologia,lekarska,LEK,15,0.996552,5,A_stabilny_pilotaz
+j-2026,Śląskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,5,0.993424,6,A_stabilny_pilotaz
+j-2026,Opolskie,Kardiologia,lekarska,LEK,5,0.995087,5,A_stabilny_pilotaz
+j-2026,Śląskie,Chirurgia naczyniowa,lekarska,LEK,2,0.989421,6,A_stabilny_pilotaz
+j-2026,Dolnośląskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,0.996446,4,A_stabilny_pilotaz
+j-2026,Podkarpackie,Kardiologia,lekarska,LEK,10,0.996413,6,A_stabilny_pilotaz
+j-2026,Łódzkie,Diabetologia,lekarska,LEK,5,0.986001,5,A_stabilny_pilotaz
+j-2026,Łódzkie,Psychiatria dzieci i młodzieży,lekarska,LEK,5,0.992536,7,A_stabilny_pilotaz
+j-2026,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,9,0.994056,5,A_stabilny_pilotaz
+j-2026,Lubelskie,Diabetologia,lekarska,LEK,5,0.975201,4,A_stabilny_pilotaz
+j-2026,Mazowieckie,Położnictwo i ginekologia,lekarska,LEK,35,0.999285,5,A_stabilny_pilotaz
+j-2026,Kujawsko-pomorskie,Anestezjologia i intensywna terapia,lekarska,LEK,3,0.995774,5,A_stabilny_pilotaz
+j-2026,Pomorskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,6,0.997199,6,A_stabilny_pilotaz
+j-2026,Łódzkie,Protetyka stomatologiczna,stomatologiczna,LDEK,3,0.991009,5,A_stabilny_pilotaz
+j-2026,Wielkopolskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,16,0.993966,5,A_stabilny_pilotaz
+j-2026,Kujawsko-pomorskie,Choroby płuc,lekarska,LEK,6,0.987033,7,A_stabilny_pilotaz
+j-2026,Małopolskie,Dermatologia i wenerologia,lekarska,LEK,1,0.997508,5,B_wysoki_prog_mala_pula
+j-2026,Śląskie,Dermatologia i wenerologia,lekarska,LEK,1,0.997725,5,B_wysoki_prog_mala_pula
+j-2026,Łódzkie,Endokrynologia,lekarska,LEK,1,0.997889,6,B_wysoki_prog_mala_pula
+j-2026,Małopolskie,Endokrynologia,lekarska,LEK,2,0.995773,4,B_wysoki_prog_mala_pula
+j-2026,Wielkopolskie,Endokrynologia,lekarska,LEK,2,0.995668,5,B_wysoki_prog_mala_pula
+j-2026,Podkarpackie,Dermatologia i wenerologia,lekarska,LEK,1,0.996956,7,B_wysoki_prog_mala_pula
+j-2026,Pomorskie,Dermatologia i wenerologia,lekarska,LEK,1,0.997514,4,B_wysoki_prog_mala_pula
+j-2026,Łódzkie,Dermatologia i wenerologia,lekarska,LEK,2,0.996973,6,B_wysoki_prog_mala_pula
+j-2026,Lubelskie,Chirurgia plastyczna,lekarska,LEK,1,0.991907,6,B_wysoki_prog_mala_pula
+j-2026,Małopolskie,Reumatologia,lekarska,LEK,1,0.99863,6,B_wysoki_prog_mala_pula
+j-2026,Lubelskie,Dermatologia i wenerologia,lekarska,LEK,2,0.994413,5,B_wysoki_prog_mala_pula
+j-2026,Mazowieckie,Gastroenterologia,lekarska,LEK,2,0.998505,7,B_wysoki_prog_mala_pula
+j-2026,Zachodniopomorskie,Endokrynologia,lekarska,LEK,1,0.992361,4,B_wysoki_prog_mala_pula
+j-2026,Śląskie,Gastroenterologia,lekarska,LEK,2,0.996,6,B_wysoki_prog_mala_pula
+j-2026,Podlaskie,Dermatologia i wenerologia,lekarska,LEK,2,0.990415,5,B_wysoki_prog_mala_pula
+j-2026,Podlaskie,Endokrynologia,lekarska,LEK,2,0.988815,4,B_wysoki_prog_mala_pula
+j-2026,Pomorskie,Chirurgia plastyczna,lekarska,LEK,2,0.986092,3,B_wysoki_prog_mala_pula
+j-2026,Zachodniopomorskie,Reumatologia,lekarska,LEK,1,0.994413,6,B_wysoki_prog_mala_pula
+j-2026,Zachodniopomorskie,Chirurgia plastyczna,lekarska,LEK,1,0.972498,3,B_wysoki_prog_mala_pula
+j-2026,Lubelskie,Reumatologia,lekarska,LEK,2,0.995883,5,B_wysoki_prog_mala_pula
+j-2026,Kujawsko-pomorskie,Reumatologia,lekarska,LEK,1,0.995555,4,B_wysoki_prog_mala_pula
+j-2026,Dolnośląskie,Otorynolaryngologia,lekarska,LEK,1,0.997344,5,B_wysoki_prog_mala_pula
+j-2026,Wielkopolskie,Reumatologia,lekarska,LEK,2,0.996151,4,B_wysoki_prog_mala_pula
+j-2026,Śląskie,Alergologia,lekarska,LEK,1,0.995031,5,B_wysoki_prog_mala_pula
+j-2026,Świętokrzyskie,Reumatologia,lekarska,LEK,2,0.993245,6,B_wysoki_prog_mala_pula
+j-2026,Podkarpackie,Reumatologia,lekarska,LEK,2,0.995567,6,B_wysoki_prog_mala_pula
+j-2026,Śląskie,Endokrynologia i diabetologia dziecięca,lekarska,LEK,2,0.991041,6,B_wysoki_prog_mala_pula
+j-2026,Podlaskie,Otorynolaryngologia,lekarska,LEK,1,0.995578,7,B_wysoki_prog_mala_pula
+j-2026,Podlaskie,Gastroenterologia,lekarska,LEK,5,0.980186,7,B_wysoki_prog_mala_pula
+j-2026,Śląskie,Ortodoncja,stomatologiczna,LDEK,3,0.997469,7,B_wysoki_prog_mala_pula
+j-2026,Łódzkie,Reumatologia,lekarska,LEK,4,0.996198,6,B_wysoki_prog_mala_pula
+j-2026,Dolnośląskie,Urologia,lekarska,LEK,2,0.997177,5,B_wysoki_prog_mala_pula
+j-2026,Mazowieckie,Neurochirurgia,lekarska,LEK,1,0.997195,5,B_wysoki_prog_mala_pula
+j-2026,Pomorskie,Alergologia,lekarska,LEK,1,0.994989,5,B_wysoki_prog_mala_pula
+j-2026,Łódzkie,Gastroenterologia,lekarska,LEK,6,0.989831,6,B_wysoki_prog_mala_pula
+j-2026,Pomorskie,Otorynolaryngologia,lekarska,LEK,3,0.996873,6,B_wysoki_prog_mala_pula
+j-2026,Małopolskie,Urologia,lekarska,LEK,4,0.995498,5,B_wysoki_prog_mala_pula
+j-2026,Małopolskie,Otorynolaryngologia,lekarska,LEK,4,0.996434,6,B_wysoki_prog_mala_pula
+j-2026,Zachodniopomorskie,Gastroenterologia,lekarska,LEK,2,0.985107,5,B_wysoki_prog_mala_pula
+j-2026,Łódzkie,Radiologia i diagnostyka obrazowa,lekarska,LEK,7,0.998523,6,B_wysoki_prog_mala_pula
+j-2026,Podkarpackie,Okulistyka,lekarska,LEK,4,0.997184,7,B_wysoki_prog_mala_pula
+j-2026,Wielkopolskie,Ortodoncja,stomatologiczna,LDEK,3,0.995044,6,B_wysoki_prog_mala_pula
+j-2026,Małopolskie,Alergologia,lekarska,LEK,3,0.989602,5,B_wysoki_prog_mala_pula
+j-2026,Podlaskie,Kardiologia,lekarska,LEK,2,0.998442,7,B_wysoki_prog_mala_pula
+j-2026,Podlaskie,Urologia,lekarska,LEK,1,0.99503,5,B_wysoki_prog_mala_pula
+j-2026,Opolskie,Otorynolaryngologia,lekarska,LEK,1,0.991043,4,B_wysoki_prog_mala_pula
+j-2026,Podlaskie,Okulistyka,lekarska,LEK,2,0.995295,4,B_wysoki_prog_mala_pula
+j-2026,Świętokrzyskie,Otorynolaryngologia,lekarska,LEK,1,0.995196,5,B_wysoki_prog_mala_pula
+j-2026,Mazowieckie,Endokrynologia i diabetologia dziecięca,lekarska,LEK,7,0.987741,4,B_wysoki_prog_mala_pula
+j-2026,Mazowieckie,Alergologia,lekarska,LEK,3,0.995318,4,B_wysoki_prog_mala_pula
+j-2026,Pomorskie,Ortodoncja,stomatologiczna,LDEK,3,0.995475,5,B_wysoki_prog_mala_pula
+j-2026,Mazowieckie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,0.998413,6,B_wysoki_prog_mala_pula
+j-2026,Wielkopolskie,Diabetologia,lekarska,LEK,1,0.992439,3,B_wysoki_prog_mala_pula
+j-2026,Pomorskie,Reumatologia,lekarska,LEK,6,0.991938,4,B_wysoki_prog_mala_pula
+j-2026,Kujawsko-pomorskie,Neurochirurgia,lekarska,LEK,1,0.982703,5,B_wysoki_prog_mala_pula
+j-2026,Pomorskie,Neurochirurgia,lekarska,LEK,1,0.993505,3,B_wysoki_prog_mala_pula
+j-2026,Podlaskie,Ortodoncja,stomatologiczna,LDEK,1,0.991655,4,B_wysoki_prog_mala_pula
+j-2026,Lubelskie,Otorynolaryngologia,lekarska,LEK,3,0.992349,4,B_wysoki_prog_mala_pula
+j-2026,Warmińsko-mazurskie,Reumatologia,lekarska,LEK,3,0.986996,4,B_wysoki_prog_mala_pula
+j-2026,Śląskie,Neurochirurgia,lekarska,LEK,2,0.987357,4,B_wysoki_prog_mala_pula
+j-2026,Łódzkie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,0.996726,7,B_wysoki_prog_mala_pula
+j-2026,Opolskie,Okulistyka,lekarska,LEK,5,0.988137,4,B_wysoki_prog_mala_pula
+j-2026,Lubelskie,Psychiatria dzieci i młodzieży,lekarska,LEK,1,0.996648,6,B_wysoki_prog_mala_pula
+j-2026,Małopolskie,Neurochirurgia,lekarska,LEK,2,0.986143,3,B_wysoki_prog_mala_pula
+j-2026,Kujawsko-pomorskie,Urologia,lekarska,LEK,5,0.989388,5,B_wysoki_prog_mala_pula
+j-2026,Świętokrzyskie,Okulistyka,lekarska,LEK,3,0.99198,3,B_wysoki_prog_mala_pula
+j-2026,Świętokrzyskie,Urologia,lekarska,LEK,2,0.991758,4,B_wysoki_prog_mala_pula
+j-2026,Lubelskie,Alergologia,lekarska,LEK,2,0.977761,3,B_wysoki_prog_mala_pula
+j-2026,Łódzkie,Alergologia,lekarska,LEK,2,0.989645,3,B_wysoki_prog_mala_pula
+j-2026,Łódzkie,Ortodoncja,stomatologiczna,LDEK,3,0.993533,4,B_wysoki_prog_mala_pula
+j-2026,Lubuskie,Okulistyka,lekarska,LEK,3,0.992468,4,B_wysoki_prog_mala_pula
+j-2026,Mazowieckie,Neurologia dziecięca,lekarska,LEK,2,0.986853,5,B_wysoki_prog_mala_pula
+j-2026,Wielkopolskie,Neurologia dziecięca,lekarska,LEK,1,0.961858,4,B_wysoki_prog_mala_pula
+j-2026,Lubelskie,Urologia,lekarska,LEK,7,0.988706,4,B_wysoki_prog_mala_pula
+j-2026,Lubuskie,Urologia,lekarska,LEK,4,0.986384,6,B_wysoki_prog_mala_pula
+j-2026,Zachodniopomorskie,Okulistyka,lekarska,LEK,8,0.985089,4,B_wysoki_prog_mala_pula
+j-2026,Małopolskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,3,0.993617,4,B_wysoki_prog_mala_pula
+j-2026,Wielkopolskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,0.993213,4,B_wysoki_prog_mala_pula
+j-2026,Śląskie,Otorynolaryngologia dziecięca,lekarska,LEK,2,0.988163,5,B_wysoki_prog_mala_pula
+j-2026,Zachodniopomorskie,Psychiatria dzieci i młodzieży,lekarska,LEK,1,0.993226,6,B_wysoki_prog_mala_pula
+j-2026,Mazowieckie,Choroby płuc dzieci,lekarska,LEK,5,0.918893,4,B_wysoki_prog_mala_pula
+j-2026,Warmińsko-mazurskie,Okulistyka,lekarska,LEK,7,0.98935,5,B_wysoki_prog_mala_pula
+j-2026,Warmińsko-mazurskie,Otorynolaryngologia,lekarska,LEK,1,0.991417,4,B_wysoki_prog_mala_pula
+j-2026,Małopolskie,Psychiatria dzieci i młodzieży,lekarska,LEK,2,0.993919,3,B_wysoki_prog_mala_pula
+j-2026,Warmińsko-mazurskie,Urologia,lekarska,LEK,2,0.988762,4,B_wysoki_prog_mala_pula
+j-2026,Dolnośląskie,Diabetologia,lekarska,LEK,2,0.989728,4,B_wysoki_prog_mala_pula
+j-2026,Świętokrzyskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,8,0.993196,4,B_wysoki_prog_mala_pula
+j-2026,Zachodniopomorskie,Urologia,lekarska,LEK,5,0.974144,4,B_wysoki_prog_mala_pula
+j-2026,Zachodniopomorskie,Ortodoncja,stomatologiczna,LDEK,2,0.985919,5,B_wysoki_prog_mala_pula
+j-2026,Wielkopolskie,Chirurgia naczyniowa,lekarska,LEK,2,0.983817,5,B_wysoki_prog_mala_pula
+j-2026,Mazowieckie,Periodontologia,stomatologiczna,LDEK,2,0.998099,4,B_wysoki_prog_mala_pula
+j-2026,Mazowieckie,Gastroenterologia dziecięca,lekarska,LEK,4,0.963949,3,B_wysoki_prog_mala_pula
+j-2026,Wielkopolskie,Psychiatria dzieci i młodzieży,lekarska,LEK,3,0.991279,4,B_wysoki_prog_mala_pula
+j-2026,Podlaskie,Diabetologia,lekarska,LEK,5,0.970924,6,B_wysoki_prog_mala_pula
+j-2026,Pomorskie,Psychiatria dzieci i młodzieży,lekarska,LEK,3,0.993024,4,B_wysoki_prog_mala_pula
+j-2026,Świętokrzyskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,0.98632,5,B_wysoki_prog_mala_pula
+j-2026,Pomorskie,Choroby płuc,lekarska,LEK,2,0.994067,6,B_wysoki_prog_mala_pula
+j-2026,Mazowieckie,Chirurgia naczyniowa,lekarska,LEK,3,0.989142,4,B_wysoki_prog_mala_pula
+j-2026,Podkarpackie,Otorynolaryngologia,lekarska,LEK,4,0.984704,4,B_wysoki_prog_mala_pula
+j-2026,Zachodniopomorskie,Kardiologia,lekarska,LEK,8,0.99188,5,B_wysoki_prog_mala_pula
+j-2026,Podlaskie,Psychiatria dzieci i młodzieży,lekarska,LEK,2,0.985438,4,B_wysoki_prog_mala_pula
+j-2026,Śląskie,Kardiologia dziecięca,lekarska,LEK,4,0.934439,3,B_wysoki_prog_mala_pula
+j-2026,Wielkopolskie,Chirurgia onkologiczna,lekarska,LEK,4,0.899039,5,B_wysoki_prog_mala_pula
+j-2026,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,lekarska,LEK,4,0.970762,4,B_wysoki_prog_mala_pula
+j-2026,Mazowieckie,Dermatologia i wenerologia,lekarska,LEK,1,0.999005,3,C_poza_pilotazem
+j-2026,Podkarpackie,Endokrynologia,lekarska,LEK,1,0.993031,3,C_poza_pilotazem
+j-2026,Świętokrzyskie,Endokrynologia,lekarska,LEK,1,0.988222,3,C_poza_pilotazem
+j-2026,Świętokrzyskie,Dermatologia i wenerologia,lekarska,LEK,1,0.988122,3,C_poza_pilotazem
+j-2026,Opolskie,Endokrynologia,lekarska,LEK,2,0.982234,3,C_poza_pilotazem
+j-2026,Mazowieckie,Chirurgia plastyczna,lekarska,LEK,1,0.994422,1,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Endokrynologia,lekarska,LEK,2,0.987334,2,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Dermatologia i wenerologia,lekarska,LEK,1,0.991484,3,C_poza_pilotazem
+j-2026,Lubelskie,Gastroenterologia,lekarska,LEK,1,0.991725,3,C_poza_pilotazem
+j-2026,Pomorskie,Gastroenterologia,lekarska,LEK,1,0.994956,2,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Endokrynologia,lekarska,LEK,1,0.980945,2,C_poza_pilotazem
+j-2026,Małopolskie,Endokrynologia i diabetologia dziecięca,lekarska,LEK,1,0.991194,2,C_poza_pilotazem
+j-2026,Śląskie,Chirurgia plastyczna,lekarska,LEK,3,0.978511,1,C_poza_pilotazem
+j-2026,Małopolskie,Okulistyka,lekarska,LEK,5,0.996793,4,C_poza_pilotazem
+j-2026,Mazowieckie,Reumatologia,lekarska,LEK,6,0.997538,4,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Gastroenterologia,lekarska,LEK,1,0.982952,1,C_poza_pilotazem
+j-2026,Mazowieckie,Okulistyka,lekarska,LEK,2,0.999143,2,C_poza_pilotazem
+j-2026,Pomorskie,Okulistyka,lekarska,LEK,3,0.998554,3,C_poza_pilotazem
+j-2026,Dolnośląskie,Endokrynologia i diabetologia dziecięca,lekarska,LEK,1,0.985291,1,C_poza_pilotazem
+j-2026,Dolnośląskie,Gastroenterologia,lekarska,LEK,3,0.984293,3,C_poza_pilotazem
+j-2026,Pomorskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,8,0.998809,4,C_poza_pilotazem
+j-2026,Małopolskie,Diabetologia,lekarska,LEK,1,0.993105,2,C_poza_pilotazem
+j-2026,Wielkopolskie,Endokrynologia i diabetologia dziecięca,lekarska,LEK,2,0.978259,1,C_poza_pilotazem
+j-2026,Małopolskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,8,0.998115,3,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,25,0.984517,4,C_poza_pilotazem
+j-2026,Śląskie,Okulistyka,lekarska,LEK,10,0.996239,3,C_poza_pilotazem
+j-2026,Mazowieckie,Kardiologia,lekarska,LEK,20,0.999712,4,C_poza_pilotazem
+j-2026,Wielkopolskie,Choroby płuc dzieci,lekarska,LEK,1,0.877611,2,C_poza_pilotazem
+j-2026,Opolskie,Alergologia,lekarska,LEK,1,0.970145,3,C_poza_pilotazem
+j-2026,Podkarpackie,Gastroenterologia,lekarska,LEK,7,0.965664,3,C_poza_pilotazem
+j-2026,Łódzkie,Neurochirurgia,lekarska,LEK,1,0.988502,3,C_poza_pilotazem
+j-2026,Mazowieckie,Diabetologia,lekarska,LEK,4,0.995126,4,C_poza_pilotazem
+j-2026,Dolnośląskie,Neurochirurgia,lekarska,LEK,1,0.985727,2,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Endokrynologia i diabetologia dziecięca,lekarska,LEK,2,0.954155,3,C_poza_pilotazem
+j-2026,Śląskie,Psychiatria dzieci i młodzieży,lekarska,LEK,1,0.997,4,C_poza_pilotazem
+j-2026,Mazowieckie,Otorynolaryngologia,lekarska,LEK,12,0.996168,4,C_poza_pilotazem
+j-2026,Śląskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,20,0.996387,2,C_poza_pilotazem
+j-2026,Wielkopolskie,Neurochirurgia,lekarska,LEK,2,0.982661,3,C_poza_pilotazem
+j-2026,Śląskie,Gastroenterologia dziecięca,lekarska,LEK,1,0.933196,2,C_poza_pilotazem
+j-2026,Łódzkie,Endokrynologia i diabetologia dziecięca,lekarska,LEK,2,0.973814,1,C_poza_pilotazem
+j-2026,Dolnośląskie,Choroby płuc dzieci,lekarska,LEK,1,0.89783,2,C_poza_pilotazem
+j-2026,Wielkopolskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,12,0.99713,2,C_poza_pilotazem
+j-2026,Małopolskie,Kardiologia dziecięca,lekarska,LEK,1,0.954087,3,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,1,0.992956,5,C_poza_pilotazem
+j-2026,Mazowieckie,Radiologia i diagnostyka obrazowa,lekarska,LEK,7,0.998845,1,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Endokrynologia i diabetologia dziecięca,lekarska,LEK,1,0.961823,2,C_poza_pilotazem
+j-2026,Opolskie,Ortodoncja,stomatologiczna,LDEK,1,0.983126,2,C_poza_pilotazem
+j-2026,Małopolskie,Chirurgia naczyniowa,lekarska,LEK,1,0.988328,3,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Alergologia,lekarska,LEK,2,0.969144,3,C_poza_pilotazem
+j-2026,Łódzkie,Kardiologia dziecięca,lekarska,LEK,1,0.958244,4,C_poza_pilotazem
+j-2026,Dolnośląskie,Periodontologia,stomatologiczna,LDEK,1,0.997058,5,C_poza_pilotazem
+j-2026,Lubelskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,14,0.994772,3,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Gastroenterologia,lekarska,LEK,2,0.959462,1,C_poza_pilotazem
+j-2026,Lubelskie,Kardiologia,lekarska,LEK,20,0.992359,4,C_poza_pilotazem
+j-2026,Lubelskie,Choroby płuc dzieci,lekarska,LEK,1,0.866398,2,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Kardiologia,lekarska,LEK,24,0.986198,4,C_poza_pilotazem
+j-2026,Dolnośląskie,Kardiologia,lekarska,LEK,14,0.997976,4,C_poza_pilotazem
+j-2026,Mazowieckie,Farmakologia kliniczna,lekarska,LEK,2,0.749169,2,C_poza_pilotazem
+j-2026,Dolnośląskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,12,0.995858,1,C_poza_pilotazem
+j-2026,Wielkopolskie,Hematologia,lekarska,LEK,1,0.907208,3,C_poza_pilotazem
+j-2026,Małopolskie,Protetyka stomatologiczna,stomatologiczna,LDEK,1,0.994323,4,C_poza_pilotazem
+j-2026,Pomorskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,0.993803,3,C_poza_pilotazem
+j-2026,Podkarpackie,Psychiatria dzieci i młodzieży,lekarska,LEK,1,0.993002,5,C_poza_pilotazem
+j-2026,Łódzkie,Neurologia dziecięca,lekarska,LEK,1,0.964667,3,C_poza_pilotazem
+j-2026,Podkarpackie,Neurochirurgia,lekarska,LEK,1,0.971873,3,C_poza_pilotazem
+j-2026,Pomorskie,Periodontologia,stomatologiczna,LDEK,1,0.996317,3,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Diabetologia,lekarska,LEK,2,0.973752,5,C_poza_pilotazem
+j-2026,Wielkopolskie,Periodontologia,stomatologiczna,LDEK,3,0.993163,5,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Gastroenterologia dziecięca,lekarska,LEK,1,0.801205,1,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Diabetologia,lekarska,LEK,3,0.966185,3,C_poza_pilotazem
+j-2026,Małopolskie,Choroby płuc dzieci,lekarska,LEK,2,0.680646,0,C_poza_pilotazem
+j-2026,Małopolskie,Chirurgia onkologiczna,lekarska,LEK,1,0.951945,3,C_poza_pilotazem
+j-2026,Łódzkie,Otorynolaryngologia dziecięca,lekarska,LEK,2,0.983162,4,C_poza_pilotazem
+j-2026,Opolskie,Diabetologia,lekarska,LEK,2,0.941348,2,C_poza_pilotazem
+j-2026,Małopolskie,Periodontologia,stomatologiczna,LDEK,3,0.993371,3,C_poza_pilotazem
+j-2026,Pomorskie,Diabetologia,lekarska,LEK,2,0.976501,0,C_poza_pilotazem
+j-2026,Małopolskie,Immunologia kliniczna,lekarska,LEK,1,0.828104,2,C_poza_pilotazem
+j-2026,Podlaskie,Endokrynologia i diabetologia dziecięca,lekarska,LEK,3,0.898658,2,C_poza_pilotazem
+j-2026,Pomorskie,Protetyka stomatologiczna,stomatologiczna,LDEK,2,0.994038,5,C_poza_pilotazem
+j-2026,Lubelskie,Nefrologia dziecięca,lekarska,LEK,2,0.824641,5,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Ortodoncja,stomatologiczna,LDEK,2,0.979213,2,C_poza_pilotazem
+j-2026,Wielkopolskie,Medycyna morska i tropikalna,lekarska,LEK,1,0.875333,2,C_poza_pilotazem
+j-2026,Dolnośląskie,Kardiologia dziecięca,lekarska,LEK,2,0.932181,1,C_poza_pilotazem
+j-2026,Wielkopolskie,Kardiologia dziecięca,lekarska,LEK,1,0.915194,1,C_poza_pilotazem
+j-2026,Lubuskie,Diabetologia,lekarska,LEK,1,0.95574,2,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Choroby płuc dzieci,lekarska,LEK,2,0.606387,1,C_poza_pilotazem
+j-2026,Pomorskie,Chirurgia naczyniowa,lekarska,LEK,2,0.981747,3,C_poza_pilotazem
+j-2026,Śląskie,Nefrologia dziecięca,lekarska,LEK,2,0.827478,3,C_poza_pilotazem
+j-2026,Dolnośląskie,Protetyka stomatologiczna,stomatologiczna,LDEK,2,0.992971,5,C_poza_pilotazem
+j-2026,Mazowieckie,Chirurgia dziecięca,lekarska,LEK,4,0.965476,4,C_poza_pilotazem
+j-2026,Lubelskie,Choroby płuc,lekarska,LEK,2,0.988953,6,C_poza_pilotazem
+j-2026,Opolskie,Psychiatria dzieci i młodzieży,lekarska,LEK,1,0.978221,2,C_poza_pilotazem
+j-2026,Mazowieckie,Genetyka kliniczna,lekarska,LEK,1,0.957829,2,C_poza_pilotazem
+j-2026,Świętokrzyskie,Kardiologia,lekarska,LEK,8,0.988815,2,C_poza_pilotazem
+j-2026,Wielkopolskie,Chirurgia dziecięca,lekarska,LEK,3,0.916962,3,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Otorynolaryngologia,lekarska,LEK,3,0.966723,2,C_poza_pilotazem
+j-2026,Pomorskie,Otorynolaryngologia dziecięca,lekarska,LEK,3,0.981436,2,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Chirurgia dziecięca,lekarska,LEK,1,0.864915,4,C_poza_pilotazem
+j-2026,Małopolskie,Stomatologia dziecięca,stomatologiczna,LDEK,1,0.994805,4,C_poza_pilotazem
+j-2026,Dolnośląskie,Chirurgia dziecięca,lekarska,LEK,2,0.919687,3,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Alergologia,lekarska,LEK,3,0.927678,2,C_poza_pilotazem
+j-2026,Opolskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,0.970656,2,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Periodontologia,stomatologiczna,LDEK,1,0.989695,2,C_poza_pilotazem
+j-2026,Dolnośląskie,Psychiatria dzieci i młodzieży,lekarska,LEK,9,0.98274,4,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,0.985484,6,C_poza_pilotazem
+j-2026,Mazowieckie,Kardiologia dziecięca,lekarska,LEK,4,0.97703,2,C_poza_pilotazem
+j-2026,Lubuskie,Kardiologia,lekarska,LEK,11,0.980058,3,C_poza_pilotazem
+j-2026,Podlaskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,3,0.978669,3,C_poza_pilotazem
+j-2026,Śląskie,Chirurgia dziecięca,lekarska,LEK,4,0.895575,3,C_poza_pilotazem
+j-2026,Śląskie,Położnictwo i ginekologia,lekarska,LEK,40,0.986119,2,C_poza_pilotazem
+j-2026,Małopolskie,Nefrologia,lekarska,LEK,4,0.871232,2,C_poza_pilotazem
+j-2026,Śląskie,Protetyka stomatologiczna,stomatologiczna,LDEK,3,0.991157,4,C_poza_pilotazem
+j-2026,Śląskie,Hematologia,lekarska,LEK,3,0.858298,3,C_poza_pilotazem
+j-2026,Mazowieckie,Anestezjologia i intensywna terapia,lekarska,LEK,25,0.997258,2,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Neurochirurgia,lekarska,LEK,3,0.901245,1,C_poza_pilotazem
+j-2026,Lubelskie,Chirurgia onkologiczna,lekarska,LEK,1,0.872262,2,C_poza_pilotazem
+j-2026,Podlaskie,Neurochirurgia,lekarska,LEK,2,0.937542,1,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Diabetologia,lekarska,LEK,4,0.91951,2,C_poza_pilotazem
+j-2026,Łódzkie,Genetyka kliniczna,lekarska,LEK,1,0.897216,3,C_poza_pilotazem
+j-2026,Podlaskie,Alergologia,lekarska,LEK,2,0.88874,1,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Neurologia dziecięca,lekarska,LEK,2,0.810926,1,C_poza_pilotazem
+j-2026,Lubelskie,Nefrologia,lekarska,LEK,5,0.776279,2,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Otorynolaryngologia dziecięca,lekarska,LEK,2,0.959739,2,C_poza_pilotazem
+j-2026,Małopolskie,Anestezjologia i intensywna terapia,lekarska,LEK,18,0.992351,2,C_poza_pilotazem
+j-2026,Lubelskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,6,0.987412,3,C_poza_pilotazem
+j-2026,Lubuskie,Psychiatria dzieci i młodzieży,lekarska,LEK,1,0.972603,3,C_poza_pilotazem
+j-2026,Wielkopolskie,Pediatria metaboliczna,lekarska,LEK,1,0.315591,0,C_poza_pilotazem
+j-2026,Śląskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,20,0.995802,4,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Chirurgia naczyniowa,lekarska,LEK,1,0.956094,4,C_poza_pilotazem
+j-2026,Wielkopolskie,Anestezjologia i intensywna terapia,lekarska,LEK,18,0.985607,4,C_poza_pilotazem
+j-2026,Małopolskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,15,0.992804,3,C_poza_pilotazem
+j-2026,Podkarpackie,Kardiologia dziecięca,lekarska,LEK,1,0.851753,0,C_poza_pilotazem
+j-2026,Śląskie,Anestezjologia i intensywna terapia,lekarska,LEK,18,0.993026,3,C_poza_pilotazem
+j-2026,Pomorskie,Chirurgia dziecięca,lekarska,LEK,3,0.892621,2,C_poza_pilotazem
+j-2026,Łódzkie,Chirurgia dziecięca,lekarska,LEK,1,0.853174,1,C_poza_pilotazem
+j-2026,Małopolskie,Nefrologia dziecięca,lekarska,LEK,3,0.653243,1,C_poza_pilotazem
+j-2026,Świętokrzyskie,Choroby płuc dzieci,lekarska,LEK,1,0.575249,0,C_poza_pilotazem
+j-2026,Podlaskie,Periodontologia,stomatologiczna,LDEK,2,0.984696,3,C_poza_pilotazem
+j-2026,Łódzkie,Periodontologia,stomatologiczna,LDEK,3,0.992226,2,C_poza_pilotazem
+j-2026,Podkarpackie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,0.983969,1,C_poza_pilotazem
+j-2026,Małopolskie,Chirurgia dziecięca,lekarska,LEK,3,0.917122,3,C_poza_pilotazem
+j-2026,Podlaskie,Kardiologia dziecięca,lekarska,LEK,1,0.725853,0,C_poza_pilotazem
+j-2026,Mazowieckie,Nefrologia dziecięca,lekarska,LEK,2,0.878339,3,C_poza_pilotazem
+j-2026,Mazowieckie,Protetyka stomatologiczna,stomatologiczna,LDEK,6,0.994938,4,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Kardiologia,lekarska,LEK,7,0.990366,2,C_poza_pilotazem
+j-2026,Pomorskie,Kardiochirurgia,lekarska,LEK,2,0.954302,5,C_poza_pilotazem
+j-2026,Dolnośląskie,Chirurgia naczyniowa,lekarska,LEK,4,0.949469,2,C_poza_pilotazem
+j-2026,Opolskie,Periodontologia,stomatologiczna,LDEK,1,0.967502,0,C_poza_pilotazem
+j-2026,Śląskie,Neurologia dziecięca,lekarska,LEK,3,0.880336,1,C_poza_pilotazem
+j-2026,Mazowieckie,Psychiatria,lekarska,LEK,53,0.997652,1,C_poza_pilotazem
+j-2026,Świętokrzyskie,Otorynolaryngologia dziecięca,lekarska,LEK,1,0.912847,0,C_poza_pilotazem
+j-2026,Mazowieckie,Pediatria metaboliczna,lekarska,LEK,1,0.494528,0,C_poza_pilotazem
+j-2026,Łódzkie,Nefrologia dziecięca,lekarska,LEK,3,0.703726,2,C_poza_pilotazem
+j-2026,Mazowieckie,Choroby płuc,lekarska,LEK,9,0.989246,3,C_poza_pilotazem
+j-2026,Łódzkie,Stomatologia dziecięca,stomatologiczna,LDEK,2,0.992468,5,C_poza_pilotazem
+j-2026,Podkarpackie,Neurologia dziecięca,lekarska,LEK,3,0.885631,2,C_poza_pilotazem
+j-2026,Lubelskie,Anestezjologia i intensywna terapia,lekarska,LEK,6,0.990654,3,C_poza_pilotazem
+j-2026,Pomorskie,Położnictwo i ginekologia,lekarska,LEK,12,0.996272,4,C_poza_pilotazem
+j-2026,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,8,0.994856,4,C_poza_pilotazem
+j-2026,Wielkopolskie,Pediatria,lekarska,LEK,30,0.958144,3,C_poza_pilotazem
+j-2026,Łódzkie,Farmakologia kliniczna,lekarska,LEK,2,0.275494,0,C_poza_pilotazem
+j-2026,Łódzkie,Choroby płuc dzieci,lekarska,LEK,2,0.619687,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Chirurgia dziecięca,lekarska,LEK,2,0.812097,2,C_poza_pilotazem
+j-2026,Śląskie,Genetyka kliniczna,lekarska,LEK,1,0.822362,1,C_poza_pilotazem
+j-2026,Łódzkie,Gastroenterologia dziecięca,lekarska,LEK,4,0.742795,1,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Choroby płuc,lekarska,LEK,1,0.970729,4,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Neurologia dziecięca,lekarska,LEK,1,0.730327,0,C_poza_pilotazem
+j-2026,Małopolskie,Psychiatria,lekarska,LEK,38,0.958456,1,C_poza_pilotazem
+j-2026,Łódzkie,Położnictwo i ginekologia,lekarska,LEK,15,0.993375,4,C_poza_pilotazem
+j-2026,Pomorskie,Anestezjologia i intensywna terapia,lekarska,LEK,10,0.989648,2,C_poza_pilotazem
+j-2026,Wielkopolskie,Położnictwo i ginekologia,lekarska,LEK,31,0.981671,2,C_poza_pilotazem
+j-2026,Lubelskie,Medycyna sportowa,lekarska,LEK,1,0.88475,2,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Protetyka stomatologiczna,stomatologiczna,LDEK,4,0.974145,4,C_poza_pilotazem
+j-2026,Dolnośląskie,Choroby płuc,lekarska,LEK,7,0.97949,4,C_poza_pilotazem
+j-2026,Łódzkie,Nefrologia,lekarska,LEK,10,0.816423,3,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Psychiatria dzieci i młodzieży,lekarska,LEK,6,0.957929,3,C_poza_pilotazem
+j-2026,Śląskie,Choroby płuc,lekarska,LEK,10,0.966917,3,C_poza_pilotazem
+j-2026,Łódzkie,Patomorfologia,lekarska,LEK,3,0.848975,4,C_poza_pilotazem
+j-2026,Łódzkie,Kardiochirurgia,lekarska,LEK,1,0.920112,4,C_poza_pilotazem
+j-2026,Dolnośląskie,Kardiochirurgia,lekarska,LEK,1,0.895555,2,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Genetyka kliniczna,lekarska,LEK,1,0.701937,2,C_poza_pilotazem
+j-2026,Dolnośląskie,Nefrologia,lekarska,LEK,15,0.650564,1,C_poza_pilotazem
+j-2026,Mazowieckie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,10,0.998718,2,C_poza_pilotazem
+j-2026,Lubelskie,Położnictwo i ginekologia,lekarska,LEK,19,0.987427,3,C_poza_pilotazem
+j-2026,Mazowieckie,Patomorfologia,lekarska,LEK,3,0.919562,4,C_poza_pilotazem
+j-2026,Małopolskie,Onkologia i hematologia dziecięca,lekarska,LEK,1,0.452284,1,C_poza_pilotazem
+j-2026,Łódzkie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,10,0.992833,4,C_poza_pilotazem
+j-2026,Podlaskie,Protetyka stomatologiczna,stomatologiczna,LDEK,3,0.975868,5,C_poza_pilotazem
+j-2026,Pomorskie,Chirurgia onkologiczna,lekarska,LEK,2,0.950137,1,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Farmakologia kliniczna,lekarska,LEK,1,0.189959,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,4,0.993654,3,C_poza_pilotazem
+j-2026,Świętokrzyskie,Immunologia kliniczna,lekarska,LEK,1,0.53655,1,C_poza_pilotazem
+j-2026,Podlaskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,5,0.990571,4,C_poza_pilotazem
+j-2026,Podlaskie,Chirurgia onkologiczna,lekarska,LEK,1,0.761775,1,C_poza_pilotazem
+j-2026,Lubelskie,Chirurgia dziecięca,lekarska,LEK,2,0.76667,1,C_poza_pilotazem
+j-2026,Śląskie,Stomatologia dziecięca,stomatologiczna,LDEK,4,0.985008,4,C_poza_pilotazem
+j-2026,Małopolskie,Genetyka kliniczna,lekarska,LEK,3,0.769548,0,C_poza_pilotazem
+j-2026,Małopolskie,Pediatria,lekarska,LEK,60,0.733097,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Choroby płuc,lekarska,LEK,4,0.945998,4,C_poza_pilotazem
+j-2026,Dolnośląskie,Medycyna nuklearna,lekarska,LEK,1,0.911441,2,C_poza_pilotazem
+j-2026,Dolnośląskie,Immunologia kliniczna,lekarska,LEK,1,0.529134,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Psychiatria,lekarska,LEK,18,0.994319,4,C_poza_pilotazem
+j-2026,Śląskie,Farmakologia kliniczna,lekarska,LEK,2,0.249011,0,C_poza_pilotazem
+j-2026,Lubuskie,Anestezjologia i intensywna terapia,lekarska,LEK,2,0.984203,2,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Nefrologia,lekarska,LEK,4,0.678499,3,C_poza_pilotazem
+j-2026,Dolnośląskie,Nefrologia dziecięca,lekarska,LEK,3,0.686487,2,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Położnictwo i ginekologia,lekarska,LEK,3,0.994082,3,C_poza_pilotazem
+j-2026,Łódzkie,Anestezjologia i intensywna terapia,lekarska,LEK,16,0.978415,3,C_poza_pilotazem
+j-2026,Małopolskie,Kardiochirurgia,lekarska,LEK,3,0.840314,2,C_poza_pilotazem
+j-2026,Dolnośląskie,Hematologia,lekarska,LEK,5,0.749761,1,C_poza_pilotazem
+j-2026,Opolskie,Anestezjologia i intensywna terapia,lekarska,LEK,4,0.958132,2,C_poza_pilotazem
+j-2026,Wielkopolskie,Stomatologia dziecięca,stomatologiczna,LDEK,2,0.987927,2,C_poza_pilotazem
+j-2026,Dolnośląskie,Choroby zakaźne,lekarska,LEK,3,0.752442,2,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Kardiochirurgia,lekarska,LEK,1,0.842756,3,C_poza_pilotazem
+j-2026,Opolskie,Neurologia dziecięca,lekarska,LEK,3,0.710574,1,C_poza_pilotazem
+j-2026,Wielkopolskie,Protetyka stomatologiczna,stomatologiczna,LDEK,4,0.97518,1,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Periodontologia,stomatologiczna,LDEK,4,0.974415,3,C_poza_pilotazem
+j-2026,Podkarpackie,Protetyka stomatologiczna,stomatologiczna,LDEK,2,0.975843,2,C_poza_pilotazem
+j-2026,Łódzkie,Chirurgia onkologiczna,lekarska,LEK,3,0.835397,2,C_poza_pilotazem
+j-2026,Śląskie,Psychiatria,lekarska,LEK,30,0.991224,2,C_poza_pilotazem
+j-2026,Dolnośląskie,Stomatologia dziecięca,stomatologiczna,LDEK,4,0.984251,4,C_poza_pilotazem
+j-2026,Mazowieckie,Medycyna paliatywna,lekarska,LEK,2,0.577488,2,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,lekarska,LEK,6,0.985199,4,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Medycyna sportowa,lekarska,LEK,1,0.845289,2,C_poza_pilotazem
+j-2026,Pomorskie,Onkologia kliniczna,lekarska,LEK,8,0.284148,0,C_poza_pilotazem
+j-2026,Śląskie,Chirurgia onkologiczna,lekarska,LEK,4,0.801247,2,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Stomatologia dziecięca,stomatologiczna,LDEK,2,0.975296,4,C_poza_pilotazem
+j-2026,Małopolskie,Położnictwo i ginekologia,lekarska,LEK,25,0.985934,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Hematologia,lekarska,LEK,2,0.492183,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Chirurgia naczyniowa,lekarska,LEK,1,0.834494,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Chirurgia naczyniowa,lekarska,LEK,2,0.874831,2,C_poza_pilotazem
+j-2026,Świętokrzyskie,Chirurgia dziecięca,lekarska,LEK,1,0.6711,1,C_poza_pilotazem
+j-2026,Łódzkie,Immunologia kliniczna,lekarska,LEK,3,0.562354,1,C_poza_pilotazem
+j-2026,Opolskie,Hematologia,lekarska,LEK,2,0.573389,1,C_poza_pilotazem
+j-2026,Podlaskie,Onkologia kliniczna,lekarska,LEK,2,0.255224,0,C_poza_pilotazem
+j-2026,Pomorskie,Choroby zakaźne,lekarska,LEK,6,0.593129,2,C_poza_pilotazem
+j-2026,Wielkopolskie,Medycyna nuklearna,lekarska,LEK,2,0.778097,3,C_poza_pilotazem
+j-2026,Małopolskie,Hematologia,lekarska,LEK,11,0.819661,3,C_poza_pilotazem
+j-2026,Wielkopolskie,Nefrologia,lekarska,LEK,6,0.644487,0,C_poza_pilotazem
+j-2026,Łódzkie,Hematologia,lekarska,LEK,5,0.735572,2,C_poza_pilotazem
+j-2026,Mazowieckie,Stomatologia dziecięca,stomatologiczna,LDEK,8,0.988482,3,C_poza_pilotazem
+j-2026,Lubelskie,Genetyka kliniczna,lekarska,LEK,1,0.722825,2,C_poza_pilotazem
+j-2026,Lubuskie,Nefrologia,lekarska,LEK,5,0.489656,1,C_poza_pilotazem
+j-2026,Dolnośląskie,Anestezjologia i intensywna terapia,lekarska,LEK,15,0.970825,0,C_poza_pilotazem
+j-2026,Lubelskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,10,0.987858,1,C_poza_pilotazem
+j-2026,Mazowieckie,Nefrologia,lekarska,LEK,12,0.926178,3,C_poza_pilotazem
+j-2026,Mazowieckie,Pediatria,lekarska,LEK,40,0.968495,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Anestezjologia i intensywna terapia,lekarska,LEK,13,0.943683,2,C_poza_pilotazem
+j-2026,Lubelskie,Immunologia kliniczna,lekarska,LEK,1,0.465039,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Położnictwo i ginekologia,lekarska,LEK,18,0.991463,1,C_poza_pilotazem
+j-2026,Podkarpackie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,12,0.984448,4,C_poza_pilotazem
+j-2026,Śląskie,Nefrologia,lekarska,LEK,14,0.496985,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Pediatria metaboliczna,lekarska,LEK,2,0.121038,0,C_poza_pilotazem
+j-2026,Śląskie,Onkologia i hematologia dziecięca,lekarska,LEK,2,0.422363,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Medycyna sądowa,lekarska,LEK,1,0.688881,2,C_poza_pilotazem
+j-2026,Pomorskie,Psychiatria,lekarska,LEK,12,0.992931,3,C_poza_pilotazem
+j-2026,Pomorskie,Medycyna morska i tropikalna,lekarska,LEK,4,0.631887,0,C_poza_pilotazem
+j-2026,Opolskie,Nefrologia,lekarska,LEK,3,0.771396,1,C_poza_pilotazem
+j-2026,Łódzkie,Choroby płuc,lekarska,LEK,8,0.965315,3,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Onkologia i hematologia dziecięca,lekarska,LEK,1,0.410619,2,C_poza_pilotazem
+j-2026,Opolskie,Choroby płuc,lekarska,LEK,5,0.876392,2,C_poza_pilotazem
+j-2026,Wielkopolskie,Choroby płuc,lekarska,LEK,6,0.979285,2,C_poza_pilotazem
+j-2026,Opolskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,14,0.951177,2,C_poza_pilotazem
+j-2026,Podkarpackie,Stomatologia dziecięca,stomatologiczna,LDEK,1,0.98633,3,C_poza_pilotazem
+j-2026,Lubuskie,Położnictwo i ginekologia,lekarska,LEK,2,0.990439,2,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Chirurgia onkologiczna,lekarska,LEK,2,0.720231,1,C_poza_pilotazem
+j-2026,Pomorskie,Medycyna nuklearna,lekarska,LEK,3,0.820825,3,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Genetyka kliniczna,lekarska,LEK,1,0.618353,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Nefrologia,lekarska,LEK,3,0.631966,1,C_poza_pilotazem
+j-2026,Małopolskie,Choroby płuc,lekarska,LEK,9,0.870445,0,C_poza_pilotazem
+j-2026,Łódzkie,Onkologia kliniczna,lekarska,LEK,8,0.2135,0,C_poza_pilotazem
+j-2026,Mazowieckie,Medycyna sądowa,lekarska,LEK,1,0.875041,1,C_poza_pilotazem
+j-2026,Podkarpackie,Hematologia,lekarska,LEK,3,0.625908,1,C_poza_pilotazem
+j-2026,Małopolskie,Patomorfologia,lekarska,LEK,3,0.727841,1,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Nefrologia dziecięca,lekarska,LEK,2,0.423363,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Protetyka stomatologiczna,stomatologiczna,LDEK,1,0.944253,1,C_poza_pilotazem
+j-2026,Podlaskie,Anestezjologia i intensywna terapia,lekarska,LEK,8,0.956787,2,C_poza_pilotazem
+j-2026,Lubelskie,Onkologia i hematologia dziecięca,lekarska,LEK,2,0.324023,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,15,0.947287,2,C_poza_pilotazem
+j-2026,Podkarpackie,Chirurgia onkologiczna,lekarska,LEK,1,0.704669,1,C_poza_pilotazem
+j-2026,Małopolskie,Onkologia kliniczna,lekarska,LEK,28,0.172845,1,C_poza_pilotazem
+j-2026,Podlaskie,Immunologia kliniczna,lekarska,LEK,1,0.346028,0,C_poza_pilotazem
+j-2026,Podkarpackie,Medycyna paliatywna,lekarska,LEK,1,0.320353,1,C_poza_pilotazem
+j-2026,Mazowieckie,Onkologia kliniczna,lekarska,LEK,32,0.332228,0,C_poza_pilotazem
+j-2026,Śląskie,Pediatria,lekarska,LEK,50,0.921439,1,C_poza_pilotazem
+j-2026,Lubuskie,Nefrologia dziecięca,lekarska,LEK,2,0.426124,0,C_poza_pilotazem
+j-2026,Łódzkie,Psychiatria,lekarska,LEK,21,0.990653,3,C_poza_pilotazem
+j-2026,Podlaskie,Medycyna pracy,lekarska,LEK,1,0.879479,4,C_poza_pilotazem
+j-2026,Mazowieckie,Hematologia,lekarska,LEK,10,0.884717,2,C_poza_pilotazem
+j-2026,Wielkopolskie,Kardiochirurgia,lekarska,LEK,8,0.724151,3,C_poza_pilotazem
+j-2026,Małopolskie,Medycyna paliatywna,lekarska,LEK,2,0.332509,1,C_poza_pilotazem
+j-2026,Łódzkie,Toksykologia kliniczna,lekarska,LEK,1,0.481828,1,C_poza_pilotazem
+j-2026,Podlaskie,Chirurgia dziecięca,lekarska,LEK,3,0.578668,1,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Medycyna pracy,lekarska,LEK,1,0.875195,3,C_poza_pilotazem
+j-2026,Świętokrzyskie,Nefrologia,lekarska,LEK,5,0.44165,0,C_poza_pilotazem
+j-2026,Lubelskie,Stomatologia dziecięca,stomatologiczna,LDEK,3,0.970652,1,C_poza_pilotazem
+j-2026,Łódzkie,Neurologia,lekarska,LEK,26,0.960399,3,C_poza_pilotazem
+j-2026,Opolskie,Choroby zakaźne,lekarska,LEK,3,0.216862,0,C_poza_pilotazem
+j-2026,Podlaskie,Onkologia i hematologia dziecięca,lekarska,LEK,1,0.280065,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Protetyka stomatologiczna,stomatologiczna,LDEK,4,0.928903,3,C_poza_pilotazem
+j-2026,Lubelskie,Kardiochirurgia,lekarska,LEK,4,0.698662,1,C_poza_pilotazem
+j-2026,Lubelskie,Medycyna paliatywna,lekarska,LEK,1,0.317089,1,C_poza_pilotazem
+j-2026,Mazowieckie,Onkologia i hematologia dziecięca,lekarska,LEK,6,0.586489,2,C_poza_pilotazem
+j-2026,Lubelskie,Medycyna sądowa,lekarska,LEK,1,0.586798,2,C_poza_pilotazem
+j-2026,Mazowieckie,Choroby wewnętrzne,lekarska,LEK,58,0.959248,0,C_poza_pilotazem
+j-2026,Opolskie,Chirurgia dziecięca,lekarska,LEK,2,0.483085,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,12,0.944451,2,C_poza_pilotazem
+j-2026,Lubuskie,Choroby zakaźne,lekarska,LEK,2,0.298736,1,C_poza_pilotazem
+j-2026,Lubuskie,Chirurgia dziecięca,lekarska,LEK,1,0.582784,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Onkologia i hematologia dziecięca,lekarska,LEK,2,0.340081,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Stomatologia dziecięca,stomatologiczna,LDEK,2,0.951041,2,C_poza_pilotazem
+j-2026,Opolskie,Onkologia kliniczna,lekarska,LEK,4,0.144728,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Nefrologia dziecięca,lekarska,LEK,2,0.32326,0,C_poza_pilotazem
+j-2026,Śląskie,Kardiochirurgia,lekarska,LEK,3,0.834133,1,C_poza_pilotazem
+j-2026,Mazowieckie,Toksykologia kliniczna,lekarska,LEK,1,0.544122,1,C_poza_pilotazem
+j-2026,Dolnośląskie,Neurologia,lekarska,LEK,5,0.99081,3,C_poza_pilotazem
+j-2026,Dolnośląskie,Medycyna pracy,lekarska,LEK,3,0.88009,2,C_poza_pilotazem
+j-2026,Pomorskie,Radioterapia onkologiczna,lekarska,LEK,1,0.802325,2,C_poza_pilotazem
+j-2026,Pomorskie,Stomatologia dziecięca,stomatologiczna,LDEK,4,0.982888,2,C_poza_pilotazem
+j-2026,Podlaskie,Hematologia,lekarska,LEK,3,0.451378,0,C_poza_pilotazem
+j-2026,Podlaskie,Choroby płuc,lekarska,LEK,5,0.945296,2,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Nefrologia,lekarska,LEK,15,0.290128,0,C_poza_pilotazem
+j-2026,Mazowieckie,Neurologia,lekarska,LEK,25,0.994851,2,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Hematologia,lekarska,LEK,2,0.46255,0,C_poza_pilotazem
+j-2026,Małopolskie,Toksykologia kliniczna,lekarska,LEK,3,0.370699,2,C_poza_pilotazem
+j-2026,Opolskie,Położnictwo i ginekologia,lekarska,LEK,9,0.952511,1,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Położnictwo i ginekologia,lekarska,LEK,10,0.977504,3,C_poza_pilotazem
+j-2026,Podkarpackie,Chirurgia dziecięca,lekarska,LEK,2,0.646618,0,C_poza_pilotazem
+j-2026,Podlaskie,Położnictwo i ginekologia,lekarska,LEK,12,0.96002,2,C_poza_pilotazem
+j-2026,Dolnośląskie,Psychiatria,lekarska,LEK,20,0.988616,2,C_poza_pilotazem
+j-2026,Lubuskie,Onkologia kliniczna,lekarska,LEK,2,0.200934,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Położnictwo i ginekologia,lekarska,LEK,7,0.978251,0,C_poza_pilotazem
+j-2026,Śląskie,Medycyna paliatywna,lekarska,LEK,2,0.282884,0,C_poza_pilotazem
+j-2026,Mazowieckie,Kardiochirurgia,lekarska,LEK,5,0.902605,2,C_poza_pilotazem
+j-2026,Podkarpackie,Medycyna pracy,lekarska,LEK,1,0.882477,2,C_poza_pilotazem
+j-2026,Lubuskie,Kardiochirurgia,lekarska,LEK,1,0.659414,1,C_poza_pilotazem
+j-2026,Łódzkie,Medycyna nuklearna,lekarska,LEK,3,0.730699,3,C_poza_pilotazem
+j-2026,Wielkopolskie,Toksykologia kliniczna,lekarska,LEK,2,0.279409,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Onkologia kliniczna,lekarska,LEK,3,0.28232,0,C_poza_pilotazem
+j-2026,Łódzkie,Pediatria,lekarska,LEK,40,0.834309,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Medycyna paliatywna,lekarska,LEK,2,0.256179,0,C_poza_pilotazem
+j-2026,Podlaskie,Genetyka kliniczna,lekarska,LEK,3,0.550823,0,C_poza_pilotazem
+j-2026,Mazowieckie,Medycyna pracy,lekarska,LEK,3,0.921223,2,C_poza_pilotazem
+j-2026,Lubelskie,Psychiatria,lekarska,LEK,6,0.987356,2,C_poza_pilotazem
+j-2026,Świętokrzyskie,Położnictwo i ginekologia,lekarska,LEK,7,0.975637,2,C_poza_pilotazem
+j-2026,Opolskie,Patomorfologia,lekarska,LEK,1,0.468513,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Psychiatria,lekarska,LEK,10,0.979895,2,C_poza_pilotazem
+j-2026,Śląskie,Onkologia kliniczna,lekarska,LEK,10,0.214262,0,C_poza_pilotazem
+j-2026,Mazowieckie,Chirurgia onkologiczna,lekarska,LEK,10,0.839975,1,C_poza_pilotazem
+j-2026,Pomorskie,Pediatria,lekarska,LEK,25,0.963831,1,C_poza_pilotazem
+j-2026,Łódzkie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,2,0.992831,4,C_poza_pilotazem
+j-2026,Wielkopolskie,Neurologia,lekarska,LEK,19,0.982539,4,C_poza_pilotazem
+j-2026,Podlaskie,Nefrologia,lekarska,LEK,10,0.350335,1,C_poza_pilotazem
+j-2026,Małopolskie,Neurologia,lekarska,LEK,31,0.90566,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Anestezjologia i intensywna terapia,lekarska,LEK,6,0.927907,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Medycyna pracy,lekarska,LEK,2,0.853861,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Hematologia,lekarska,LEK,7,0.424283,1,C_poza_pilotazem
+j-2026,Lubelskie,Hematologia,lekarska,LEK,8,0.373561,1,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Chirurgia dziecięca,lekarska,LEK,2,0.530253,0,C_poza_pilotazem
+j-2026,Małopolskie,Medycyna nuklearna,lekarska,LEK,3,0.626506,0,C_poza_pilotazem
+j-2026,Podlaskie,Stomatologia dziecięca,stomatologiczna,LDEK,6,0.929213,3,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Psychiatria,lekarska,LEK,6,0.983072,4,C_poza_pilotazem
+j-2026,Opolskie,Geriatria,lekarska,LEK,2,0.158299,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Onkologia kliniczna,lekarska,LEK,6,0.131336,0,C_poza_pilotazem
+j-2026,Podlaskie,Psychiatria,lekarska,LEK,11,0.98331,4,C_poza_pilotazem
+j-2026,Lubelskie,Onkologia kliniczna,lekarska,LEK,11,0.14765,0,C_poza_pilotazem
+j-2026,Opolskie,Psychiatria,lekarska,LEK,4,0.970271,1,C_poza_pilotazem
+j-2026,Śląskie,Choroby zakaźne,lekarska,LEK,13,0.182871,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Choroby zakaźne,lekarska,LEK,2,0.245724,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Kardiochirurgia,lekarska,LEK,1,0.606955,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Choroby zakaźne,lekarska,LEK,2,0.22651,0,C_poza_pilotazem
+j-2026,Podkarpackie,Nefrologia,lekarska,LEK,6,0.602677,1,C_poza_pilotazem
+j-2026,Śląskie,Medycyna nuklearna,lekarska,LEK,5,0.574168,2,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Onkologia i hematologia dziecięca,lekarska,LEK,2,0.178076,0,C_poza_pilotazem
+j-2026,Podkarpackie,Onkologia i hematologia dziecięca,lekarska,LEK,2,0.249099,0,C_poza_pilotazem
+j-2026,Opolskie,Medycyna paliatywna,lekarska,LEK,1,0.131632,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Pediatria,lekarska,LEK,33,0.973803,3,C_poza_pilotazem
+j-2026,Łódzkie,Medycyna sądowa,lekarska,LEK,1,0.65102,2,C_poza_pilotazem
+j-2026,Mazowieckie,Diagnostyka laboratoryjna,lekarska,LEK,1,0.486698,2,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Hematologia,lekarska,LEK,3,0.398094,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Choroby zakaźne,lekarska,LEK,10,0.228151,0,C_poza_pilotazem
+j-2026,Opolskie,Pediatria,lekarska,LEK,18,0.765658,0,C_poza_pilotazem
+j-2026,Łódzkie,Choroby zakaźne,lekarska,LEK,6,0.334072,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Geriatria,lekarska,LEK,1,0.232379,1,C_poza_pilotazem
+j-2026,Łódzkie,Medycyna sportowa,lekarska,LEK,3,0.713139,0,C_poza_pilotazem
+j-2026,Podkarpackie,Anestezjologia i intensywna terapia,lekarska,LEK,13,0.941,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Onkologia kliniczna,lekarska,LEK,15,0.154487,0,C_poza_pilotazem
+j-2026,Pomorskie,Medycyna sądowa,lekarska,LEK,1,0.566938,0,C_poza_pilotazem
+j-2026,Lubelskie,Medycyna pracy,lekarska,LEK,1,0.877773,2,C_poza_pilotazem
+j-2026,Lubuskie,Chirurgia onkologiczna,lekarska,LEK,3,0.493494,1,C_poza_pilotazem
+j-2026,Pomorskie,Patomorfologia,lekarska,LEK,6,0.648084,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Medycyna paliatywna,lekarska,LEK,1,0.11745,1,C_poza_pilotazem
+j-2026,Małopolskie,Medycyna sądowa,lekarska,LEK,2,0.469819,0,C_poza_pilotazem
+j-2026,Śląskie,Medycyna pracy,lekarska,LEK,2,0.783682,1,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Kardiochirurgia,lekarska,LEK,1,0.602536,0,C_poza_pilotazem
+j-2026,Pomorskie,Medycyna paliatywna,lekarska,LEK,2,0.251973,0,C_poza_pilotazem
+j-2026,Pomorskie,Hematologia,lekarska,LEK,16,0.548211,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Chirurgia onkologiczna,lekarska,LEK,5,0.67347,1,C_poza_pilotazem
+j-2026,Dolnośląskie,Patomorfologia,lekarska,LEK,3,0.560384,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Pediatria,lekarska,LEK,12,0.819407,1,C_poza_pilotazem
+j-2026,Mazowieckie,Medycyna nuklearna,lekarska,LEK,9,0.73145,1,C_poza_pilotazem
+j-2026,Dolnośląskie,Rehabilitacja medyczna,lekarska,LEK,4,0.758529,1,C_poza_pilotazem
+j-2026,Mazowieckie,Chirurgia klatki piersiowej,lekarska,LEK,1,0.781276,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Onkologia kliniczna,lekarska,LEK,16,0.182644,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Stomatologia dziecięca,stomatologiczna,LDEK,2,0.938209,2,C_poza_pilotazem
+j-2026,Pomorskie,Toksykologia kliniczna,lekarska,LEK,2,0.322934,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Toksykologia kliniczna,lekarska,LEK,3,0.291392,0,C_poza_pilotazem
+j-2026,Małopolskie,Choroby zakaźne,lekarska,LEK,10,0.249709,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Geriatria,lekarska,LEK,4,0.238556,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Chirurgia klatki piersiowej,lekarska,LEK,2,0.603398,1,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Geriatria,lekarska,LEK,1,0.214156,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Diagnostyka laboratoryjna,lekarska,LEK,1,0.231822,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Medycyna paliatywna,lekarska,LEK,1,0.12394,0,C_poza_pilotazem
+j-2026,Podlaskie,Medycyna nuklearna,lekarska,LEK,3,0.44617,1,C_poza_pilotazem
+j-2026,Świętokrzyskie,Psychiatria,lekarska,LEK,5,0.967034,2,C_poza_pilotazem
+j-2026,Dolnośląskie,Geriatria,lekarska,LEK,4,0.272075,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Medycyna pracy,lekarska,LEK,2,0.692731,1,C_poza_pilotazem
+j-2026,Lubelskie,Medycyna nuklearna,lekarska,LEK,1,0.620363,0,C_poza_pilotazem
+j-2026,Podlaskie,Kardiochirurgia,lekarska,LEK,2,0.564348,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Patomorfologia,lekarska,LEK,3,0.400622,0,C_poza_pilotazem
+j-2026,Lubelskie,Pediatria,lekarska,LEK,18,0.915838,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,9,0.984857,5,C_poza_pilotazem
+j-2026,Opolskie,Medycyna ratunkowa,lekarska,LEK,6,0.141181,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Chirurgia onkologiczna,lekarska,LEK,3,0.455391,0,C_poza_pilotazem
+j-2026,Małopolskie,Chirurgia klatki piersiowej,lekarska,LEK,2,0.560442,1,C_poza_pilotazem
+j-2026,Lubuskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,6,0.970789,1,C_poza_pilotazem
+j-2026,Dolnośląskie,Chirurgia klatki piersiowej,lekarska,LEK,1,0.664949,1,C_poza_pilotazem
+j-2026,Dolnośląskie,Medycyna paliatywna,lekarska,LEK,5,0.172754,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,10,0.944635,1,C_poza_pilotazem
+j-2026,Świętokrzyskie,Medycyna nuklearna,lekarska,LEK,2,0.489023,0,C_poza_pilotazem
+j-2026,Łódzkie,Geriatria,lekarska,LEK,4,0.367019,2,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Medycyna nuklearna,lekarska,LEK,1,0.507713,2,C_poza_pilotazem
+j-2026,Opolskie,Neonatologia,lekarska,LEK,1,0.455656,1,C_poza_pilotazem
+j-2026,Łódzkie,Medycyna paliatywna,lekarska,LEK,2,0.238614,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Onkologia kliniczna,lekarska,LEK,10,0.078594,0,C_poza_pilotazem
+j-2026,Małopolskie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,9,0.976528,3,C_poza_pilotazem
+j-2026,Wielkopolskie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,7,0.972188,3,C_poza_pilotazem
+j-2026,Pomorskie,Chirurgia ogólna,lekarska,LEK,7,0.977344,4,C_poza_pilotazem
+j-2026,Małopolskie,Geriatria,lekarska,LEK,10,0.186902,0,C_poza_pilotazem
+j-2026,Opolskie,Medycyna sądowa,lekarska,LEK,1,0.256325,0,C_poza_pilotazem
+j-2026,Śląskie,Patomorfologia,lekarska,LEK,8,0.630477,2,C_poza_pilotazem
+j-2026,Łódzkie,Medycyna ratunkowa,lekarska,LEK,38,0.061058,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Choroby zakaźne,lekarska,LEK,8,0.199668,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Medycyna paliatywna,lekarska,LEK,1,0.159476,0,C_poza_pilotazem
+j-2026,Pomorskie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,2,0.989388,2,C_poza_pilotazem
+j-2026,Lubuskie,Psychiatria,lekarska,LEK,6,0.972975,2,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Chirurgia onkologiczna,lekarska,LEK,3,0.39529,0,C_poza_pilotazem
+j-2026,Podlaskie,Neurologia,lekarska,LEK,4,0.954081,1,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Medycyna ratunkowa,lekarska,LEK,4,0.190912,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Onkologia kliniczna,lekarska,LEK,11,0.083643,0,C_poza_pilotazem
+j-2026,Pomorskie,Neurologia,lekarska,LEK,16,0.977318,1,C_poza_pilotazem
+j-2026,Podlaskie,Pediatria,lekarska,LEK,20,0.718989,0,C_poza_pilotazem
+j-2026,Łódzkie,Chirurgia klatki piersiowej,lekarska,LEK,1,0.697183,2,C_poza_pilotazem
+j-2026,Świętokrzyskie,Neurologia,lekarska,LEK,11,0.913276,3,C_poza_pilotazem
+j-2026,Opolskie,Medycyna nuklearna,lekarska,LEK,2,0.357823,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Radioterapia onkologiczna,lekarska,LEK,3,0.443574,0,C_poza_pilotazem
+j-2026,Lubelskie,Chirurgia klatki piersiowej,lekarska,LEK,1,0.522106,0,C_poza_pilotazem
+j-2026,Podkarpackie,Neurologia,lekarska,LEK,26,0.897913,1,C_poza_pilotazem
+j-2026,Małopolskie,Medycyna rodzinna,lekarska,LEK,60,0.98948,0,C_poza_pilotazem
+j-2026,Mazowieckie,Radioterapia onkologiczna,lekarska,LEK,10,0.692757,2,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Medycyna sądowa,lekarska,LEK,1,0.423331,1,C_poza_pilotazem
+j-2026,Lubelskie,Toksykologia kliniczna,lekarska,LEK,5,0.166593,0,C_poza_pilotazem
+j-2026,Podkarpackie,Choroby zakaźne,lekarska,LEK,10,0.164216,0,C_poza_pilotazem
+j-2026,Podkarpackie,Patomorfologia,lekarska,LEK,3,0.452394,0,C_poza_pilotazem
+j-2026,Podkarpackie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,1,0.982829,3,C_poza_pilotazem
+j-2026,Lubuskie,Choroby płuc,lekarska,LEK,4,0.797269,0,C_poza_pilotazem
+j-2026,Łódzkie,Medycyna rodzinna,lekarska,LEK,60,0.961342,0,C_poza_pilotazem
+j-2026,Śląskie,Medycyna ratunkowa,lekarska,LEK,30,0.109626,0,C_poza_pilotazem
+j-2026,Podkarpackie,Położnictwo i ginekologia,lekarska,LEK,16,0.96511,1,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Geriatria,lekarska,LEK,2,0.144762,0,C_poza_pilotazem
+j-2026,Lubuskie,Hematologia,lekarska,LEK,8,0.231089,0,C_poza_pilotazem
+j-2026,Podkarpackie,Onkologia kliniczna,lekarska,LEK,11,0.134607,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Patomorfologia,lekarska,LEK,5,0.291655,0,C_poza_pilotazem
+j-2026,Lubelskie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,4,0.972856,2,C_poza_pilotazem
+j-2026,Mazowieckie,Rehabilitacja medyczna,lekarska,LEK,8,0.669635,0,C_poza_pilotazem
+j-2026,Lubuskie,Geriatria,lekarska,LEK,2,0.143164,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Medycyna sądowa,lekarska,LEK,2,0.297279,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Radioterapia onkologiczna,lekarska,LEK,3,0.323192,0,C_poza_pilotazem
+j-2026,Mazowieckie,Choroby zakaźne,lekarska,LEK,19,0.444103,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Medycyna paliatywna,lekarska,LEK,4,0.102228,0,C_poza_pilotazem
+j-2026,Podkarpackie,Geriatria,lekarska,LEK,2,0.259611,1,C_poza_pilotazem
+j-2026,Lubuskie,Pediatria,lekarska,LEK,10,0.864886,1,C_poza_pilotazem
+j-2026,Śląskie,Chirurgia klatki piersiowej,lekarska,LEK,2,0.601762,1,C_poza_pilotazem
+j-2026,Małopolskie,Rehabilitacja medyczna,lekarska,LEK,17,0.182626,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Neonatologia,lekarska,LEK,2,0.367868,0,C_poza_pilotazem
+j-2026,Pomorskie,Geriatria,lekarska,LEK,4,0.222318,0,C_poza_pilotazem
+j-2026,Śląskie,Neurologia,lekarska,LEK,20,0.974804,1,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Psychiatria,lekarska,LEK,4,0.976469,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Choroby zakaźne,lekarska,LEK,7,0.119044,1,C_poza_pilotazem
+j-2026,Podkarpackie,Neonatologia,lekarska,LEK,4,0.617071,1,C_poza_pilotazem
+j-2026,Śląskie,Choroby wewnętrzne,lekarska,LEK,60,0.750625,0,C_poza_pilotazem
+j-2026,Lubelskie,Choroby zakaźne,lekarska,LEK,14,0.180621,0,C_poza_pilotazem
+j-2026,Mazowieckie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,9,0.989056,2,C_poza_pilotazem
+j-2026,Wielkopolskie,Medycyna ratunkowa,lekarska,LEK,18,0.233522,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Pediatria,lekarska,LEK,15,0.801398,0,C_poza_pilotazem
+j-2026,Łódzkie,Radioterapia onkologiczna,lekarska,LEK,6,0.404971,2,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Medycyna nuklearna,lekarska,LEK,3,0.42324,0,C_poza_pilotazem
+j-2026,Pomorskie,Rehabilitacja medyczna,lekarska,LEK,9,0.377074,0,C_poza_pilotazem
+j-2026,Pomorskie,Medycyna rodzinna,lekarska,LEK,60,0.974854,0,C_poza_pilotazem
+j-2026,Lubelskie,Patomorfologia,lekarska,LEK,4,0.385043,0,C_poza_pilotazem
+j-2026,Podkarpackie,Kardiochirurgia,lekarska,LEK,3,0.503237,1,C_poza_pilotazem
+j-2026,Łódzkie,Medycyna pracy,lekarska,LEK,3,0.756305,0,C_poza_pilotazem
+j-2026,Podlaskie,Choroby zakaźne,lekarska,LEK,19,0.066561,0,C_poza_pilotazem
+j-2026,Pomorskie,Medycyna ratunkowa,lekarska,LEK,39,0.145042,0,C_poza_pilotazem
+j-2026,Podlaskie,Radioterapia onkologiczna,lekarska,LEK,2,0.296073,0,C_poza_pilotazem
+j-2026,Śląskie,Balneologia i medycyna fizykalna,lekarska,LEK,1,0.386766,1,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,5,0.972312,3,C_poza_pilotazem
+j-2026,Wielkopolskie,Patomorfologia,lekarska,LEK,18,0.240238,0,C_poza_pilotazem
+j-2026,Podkarpackie,Pediatria,lekarska,LEK,30,0.795221,1,C_poza_pilotazem
+j-2026,Podlaskie,Geriatria,lekarska,LEK,4,0.133892,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Neonatologia,lekarska,LEK,4,0.290486,0,C_poza_pilotazem
+j-2026,Pomorskie,Chirurgia klatki piersiowej,lekarska,LEK,2,0.55147,0,C_poza_pilotazem
+j-2026,Małopolskie,Balneologia i medycyna fizykalna,lekarska,LEK,1,0.444475,0,C_poza_pilotazem
+j-2026,Pomorskie,Pediatria metaboliczna,lekarska,LEK,3,0.142848,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Radioterapia onkologiczna,lekarska,LEK,3,0.285604,1,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Neurologia,lekarska,LEK,10,0.88685,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Choroby płuc,lekarska,LEK,6,0.718075,0,C_poza_pilotazem
+j-2026,Lubelskie,Neurologia,lekarska,LEK,30,0.831911,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Medycyna ratunkowa,lekarska,LEK,10,0.100903,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Balneologia i medycyna fizykalna,lekarska,LEK,1,0.381906,1,C_poza_pilotazem
+j-2026,Wielkopolskie,Medycyna rodzinna,lekarska,LEK,50,0.986951,1,C_poza_pilotazem
+j-2026,Lubelskie,Rehabilitacja medyczna,lekarska,LEK,7,0.285876,0,C_poza_pilotazem
+j-2026,Śląskie,Neonatologia,lekarska,LEK,10,0.492947,1,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Kardiochirurgia,lekarska,LEK,3,0.425465,1,C_poza_pilotazem
+j-2026,Lubelskie,Medycyna ratunkowa,lekarska,LEK,15,0.124438,0,C_poza_pilotazem
+j-2026,Łódzkie,Mikrobiologia lekarska,lekarska,LEK,1,0.63969,3,C_poza_pilotazem
+j-2026,Lubuskie,Medycyna ratunkowa,lekarska,LEK,10,0.071507,0,C_poza_pilotazem
+j-2026,Mazowieckie,Geriatria,lekarska,LEK,10,0.288256,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Medycyna sądowa,lekarska,LEK,4,0.427442,1,C_poza_pilotazem
+j-2026,Opolskie,Radioterapia onkologiczna,lekarska,LEK,3,0.209398,0,C_poza_pilotazem
+j-2026,Podlaskie,Medycyna sądowa,lekarska,LEK,2,0.245177,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Pediatria,lekarska,LEK,20,0.788094,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Medycyna sądowa,lekarska,LEK,3,0.198064,0,C_poza_pilotazem
+j-2026,Podkarpackie,Psychiatria,lekarska,LEK,20,0.892908,0,C_poza_pilotazem
+j-2026,Łódzkie,Neonatologia,lekarska,LEK,3,0.623704,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Medycyna pracy,lekarska,LEK,3,0.514014,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Diagnostyka laboratoryjna,lekarska,LEK,1,0.094483,0,C_poza_pilotazem
+j-2026,Mazowieckie,Chirurgia ogólna,lekarska,LEK,47,0.908121,0,C_poza_pilotazem
+j-2026,Podlaskie,Balneologia i medycyna fizykalna,lekarska,LEK,1,0.336477,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Pediatria,lekarska,LEK,20,0.883083,0,C_poza_pilotazem
+j-2026,Mazowieckie,Neonatologia,lekarska,LEK,18,0.604666,1,C_poza_pilotazem
+j-2026,Wielkopolskie,Rehabilitacja medyczna,lekarska,LEK,13,0.200873,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Choroby wewnętrzne,lekarska,LEK,60,0.336868,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Patomorfologia,lekarska,LEK,5,0.263163,0,C_poza_pilotazem
+j-2026,Opolskie,Rehabilitacja medyczna,lekarska,LEK,8,0.162939,1,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Radioterapia onkologiczna,lekarska,LEK,3,0.208001,1,C_poza_pilotazem
+j-2026,Mazowieckie,Medycyna ratunkowa,lekarska,LEK,30,0.262993,0,C_poza_pilotazem
+j-2026,Podlaskie,Rehabilitacja medyczna,lekarska,LEK,5,0.236443,0,C_poza_pilotazem
+j-2026,Mazowieckie,Medycyna rodzinna,lekarska,LEK,60,0.999754,0,C_poza_pilotazem
+j-2026,Łódzkie,Balneologia i medycyna fizykalna,lekarska,LEK,1,0.413264,0,C_poza_pilotazem
+j-2026,Opolskie,Neurologia,lekarska,LEK,20,0.694041,1,C_poza_pilotazem
+j-2026,Lubelskie,Geriatria,lekarska,LEK,7,0.076921,1,C_poza_pilotazem
+j-2026,Małopolskie,Medycyna ratunkowa,lekarska,LEK,25,0.149838,0,C_poza_pilotazem
+j-2026,Podkarpackie,Medycyna ratunkowa,lekarska,LEK,11,0.137992,0,C_poza_pilotazem
+j-2026,Śląskie,Rehabilitacja medyczna,lekarska,LEK,16,0.215459,0,C_poza_pilotazem
+j-2026,Lubelskie,Choroby wewnętrzne,lekarska,LEK,40,0.720239,1,C_poza_pilotazem
+j-2026,Dolnośląskie,Radioterapia onkologiczna,lekarska,LEK,6,0.37393,0,C_poza_pilotazem
+j-2026,Śląskie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,6,0.958259,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Neonatologia,lekarska,LEK,6,0.27581,1,C_poza_pilotazem
+j-2026,Dolnośląskie,Medycyna rodzinna,lekarska,LEK,60,0.982505,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Neonatologia,lekarska,LEK,8,0.272078,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,2,0.953007,2,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Neurologia,lekarska,LEK,15,0.784143,0,C_poza_pilotazem
+j-2026,Lubuskie,Patomorfologia,lekarska,LEK,5,0.223842,0,C_poza_pilotazem
+j-2026,Małopolskie,Neonatologia,lekarska,LEK,20,0.279034,0,C_poza_pilotazem
+j-2026,Pomorskie,Neonatologia,lekarska,LEK,10,0.403035,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Neurologia,lekarska,LEK,20,0.854337,0,C_poza_pilotazem
+j-2026,Mazowieckie,Mikrobiologia lekarska,lekarska,LEK,2,0.461832,1,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Medycyna ratunkowa,lekarska,LEK,20,0.049442,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Rehabilitacja medyczna,lekarska,LEK,12,0.072876,1,C_poza_pilotazem
+j-2026,Śląskie,Radioterapia onkologiczna,lekarska,LEK,7,0.428188,0,C_poza_pilotazem
+j-2026,Lubelskie,Neonatologia,lekarska,LEK,11,0.276697,0,C_poza_pilotazem
+j-2026,Podkarpackie,Balneologia i medycyna fizykalna,lekarska,LEK,2,0.321585,1,C_poza_pilotazem
+j-2026,Małopolskie,Chirurgia ogólna,lekarska,LEK,25,0.799724,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Chirurgia ogólna,lekarska,LEK,30,0.915989,1,C_poza_pilotazem
+j-2026,Lubuskie,Radioterapia onkologiczna,lekarska,LEK,4,0.185859,0,C_poza_pilotazem
+j-2026,Śląskie,Transfuzjologia kliniczna,lekarska,LEK,1,0.345517,2,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Medycyna ratunkowa,lekarska,LEK,30,0.060538,1,C_poza_pilotazem
+j-2026,Podlaskie,Neonatologia,lekarska,LEK,7,0.243055,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Chirurgia klatki piersiowej,lekarska,LEK,1,0.352859,1,C_poza_pilotazem
+j-2026,Śląskie,Geriatria,lekarska,LEK,20,0.109486,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Medycyna rodzinna,lekarska,LEK,35,0.891159,1,C_poza_pilotazem
+j-2026,Świętokrzyskie,Balneologia i medycyna fizykalna,lekarska,LEK,1,0.198883,0,C_poza_pilotazem
+j-2026,Małopolskie,Radioterapia onkologiczna,lekarska,LEK,16,0.208017,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Neonatologia,lekarska,LEK,15,0.243866,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Geriatria,lekarska,LEK,10,0.067532,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Rehabilitacja medyczna,lekarska,LEK,9,0.156567,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Chirurgia ogólna,lekarska,LEK,6,0.876181,1,C_poza_pilotazem
+j-2026,Wielkopolskie,Choroby wewnętrzne,lekarska,LEK,40,0.865433,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Rehabilitacja medyczna,lekarska,LEK,6,0.194691,0,C_poza_pilotazem
+j-2026,Podkarpackie,Radioterapia onkologiczna,lekarska,LEK,8,0.18916,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Radioterapia onkologiczna,lekarska,LEK,8,0.138732,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Rehabilitacja medyczna,lekarska,LEK,5,0.161574,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Mikrobiologia lekarska,lekarska,LEK,2,0.251481,1,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Medycyna rodzinna,lekarska,LEK,30,0.94001,1,C_poza_pilotazem
+j-2026,Podlaskie,Choroby wewnętrzne,lekarska,LEK,60,0.332792,0,C_poza_pilotazem
+j-2026,Łódzkie,Rehabilitacja medyczna,lekarska,LEK,12,0.210466,0,C_poza_pilotazem
+j-2026,Lubelskie,Chirurgia ogólna,lekarska,LEK,12,0.794964,0,C_poza_pilotazem
+j-2026,Lubuskie,Neurologia,lekarska,LEK,7,0.773855,1,C_poza_pilotazem
+j-2026,Lubelskie,Radioterapia onkologiczna,lekarska,LEK,17,0.138511,0,C_poza_pilotazem
+j-2026,Opolskie,Medycyna rodzinna,lekarska,LEK,40,0.862463,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Mikrobiologia lekarska,lekarska,LEK,3,0.236348,0,C_poza_pilotazem
+j-2026,Śląskie,Medycyna rodzinna,lekarska,LEK,20,0.997597,0,C_poza_pilotazem
+j-2026,Lubuskie,Rehabilitacja medyczna,lekarska,LEK,9,0.141051,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Neonatologia,lekarska,LEK,20,0.216897,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Choroby wewnętrzne,lekarska,LEK,60,0.288719,0,C_poza_pilotazem
+j-2026,Pomorskie,Choroby wewnętrzne,lekarska,LEK,60,0.945793,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Medycyna ratunkowa,lekarska,LEK,25,0.189193,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Choroby wewnętrzne,lekarska,LEK,35,0.772209,1,C_poza_pilotazem
+j-2026,Podkarpackie,Rehabilitacja medyczna,lekarska,LEK,10,0.166534,0,C_poza_pilotazem
+j-2026,Lubuskie,Neonatologia,lekarska,LEK,5,0.195316,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Chirurgia klatki piersiowej,lekarska,LEK,2,0.232051,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Patomorfologia,lekarska,LEK,15,0.126516,0,C_poza_pilotazem
+j-2026,Podlaskie,Chirurgia ogólna,lekarska,LEK,12,0.610451,0,C_poza_pilotazem
+j-2026,Lubuskie,Medycyna rodzinna,lekarska,LEK,45,0.695687,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Medycyna rodzinna,lekarska,LEK,50,0.902634,0,C_poza_pilotazem
+j-2026,Podlaskie,Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,9,0.864105,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Chirurgia ogólna,lekarska,LEK,10,0.605579,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Choroby wewnętrzne,lekarska,LEK,60,0.922724,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Chirurgia ogólna,lekarska,LEK,20,0.858797,0,C_poza_pilotazem
+j-2026,Podlaskie,Medycyna ratunkowa,lekarska,LEK,20,0.099344,0,C_poza_pilotazem
+j-2026,Podkarpackie,Chirurgia ogólna,lekarska,LEK,13,0.826044,1,C_poza_pilotazem
+j-2026,Lubelskie,Transfuzjologia kliniczna,lekarska,LEK,1,0.219011,0,C_poza_pilotazem
+j-2026,Łódzkie,Chirurgia ogólna,lekarska,LEK,29,0.723495,0,C_poza_pilotazem
+j-2026,Mazowieckie,Transfuzjologia kliniczna,lekarska,LEK,3,0.302633,1,C_poza_pilotazem
+j-2026,Opolskie,Choroby wewnętrzne,lekarska,LEK,24,0.588498,0,C_poza_pilotazem
+j-2026,Opolskie,Chirurgia ogólna,lekarska,LEK,15,0.447194,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Transfuzjologia kliniczna,lekarska,LEK,2,0.132603,0,C_poza_pilotazem
+j-2026,Dolnośląskie,Transfuzjologia kliniczna,lekarska,LEK,2,0.2187,0,C_poza_pilotazem
+j-2026,Kujawsko-pomorskie,Chirurgia ogólna,lekarska,LEK,18,0.70815,0,C_poza_pilotazem
+j-2026,Lubuskie,Choroby wewnętrzne,lekarska,LEK,25,0.46418,0,C_poza_pilotazem
+j-2026,Opolskie,Transfuzjologia kliniczna,lekarska,LEK,2,0.087113,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Medycyna rodzinna,lekarska,LEK,39,0.873144,0,C_poza_pilotazem
+j-2026,Podlaskie,Medycyna rodzinna,lekarska,LEK,30,0.926463,0,C_poza_pilotazem
+j-2026,Lubuskie,Transfuzjologia kliniczna,lekarska,LEK,1,0.120645,0,C_poza_pilotazem
+j-2026,Pomorskie,Transfuzjologia kliniczna,lekarska,LEK,4,0.196131,0,C_poza_pilotazem
+j-2026,Śląskie,Chirurgia ogólna,lekarska,LEK,25,0.856148,0,C_poza_pilotazem
+j-2026,Zachodniopomorskie,Transfuzjologia kliniczna,lekarska,LEK,2,0.100479,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Chirurgia ogólna,lekarska,LEK,19,0.474023,0,C_poza_pilotazem
+j-2026,Świętokrzyskie,Transfuzjologia kliniczna,lekarska,LEK,2,0.094595,0,C_poza_pilotazem
+j-2026,Lubuskie,Chirurgia ogólna,lekarska,LEK,8,0.587242,0,C_poza_pilotazem
+j-2026,Łódzkie,Choroby wewnętrzne,lekarska,LEK,50,0.825894,0,C_poza_pilotazem
+j-2026,Podkarpackie,Choroby wewnętrzne,lekarska,LEK,50,0.584876,0,C_poza_pilotazem
+j-2026,Lubelskie,Medycyna rodzinna,lekarska,LEK,60,0.942957,0,C_poza_pilotazem
+j-2026,Podlaskie,Transfuzjologia kliniczna,lekarska,LEK,4,0.070071,0,C_poza_pilotazem
+j-2026,Małopolskie,Choroby wewnętrzne,lekarska,LEK,60,0.880865,0,C_poza_pilotazem
+j-2026,Podkarpackie,Transfuzjologia kliniczna,lekarska,LEK,3,0.114695,0,C_poza_pilotazem
+j-2026,Wielkopolskie,Transfuzjologia kliniczna,lekarska,LEK,5,0.103806,0,C_poza_pilotazem
+j-2026,Warmińsko-mazurskie,Choroby wewnętrzne,lekarska,LEK,30,0.673911,0,C_poza_pilotazem
+j-2026,Podkarpackie,Medycyna rodzinna,lekarska,LEK,50,0.853215,0,C_poza_pilotazem

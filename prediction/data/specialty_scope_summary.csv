@@ -1,0 +1,72 @@
+dziedzina_medycyny,sciezka,egzamin,rundy_z_oferta,rundy_z_obserwowanym_progiem,rundy_z_pelna_pula,udzial_rund_z_pelna_pula,mediana_liczby_miejsc,mediana_liczby_zakwalifikowanych,mediana_progu_pelnych_pul,minimum_progu_pelnych_pul,maksimum_progu_pelnych_pul,grupa_pilotazowa,regiony_stabilnego_pilotazu,regiony_wysokiego_progu_malej_puli
+Kardiologia,lekarska,LEK,112,111,76,0.679,7,6,87.08,77.29,91.79,B_wysoki_prog_mala_pula,7,2
+Urologia,lekarska,LEK,90,86,79,0.878,2,2,87.44,81.37,93.14,B_wysoki_prog_mala_pula,6,9
+Radiologia i diagnostyka obrazowa,lekarska,LEK,109,109,66,0.606,6,5,87.345,84.31,91.87,B_wysoki_prog_mala_pula,6,2
+Okulistyka,lekarska,LEK,99,98,74,0.747,3,3,88.52,85.99,91.39,A_stabilny_pilotaz,5,7
+Otorynolaryngologia,lekarska,LEK,91,87,76,0.835,2,2,87.015,80.88,91.87,B_wysoki_prog_mala_pula,4,10
+Ortodoncja,stomatologiczna,LDEK,63,62,61,0.968,2,2,87.08,85.24,94.02,B_wysoki_prog_mala_pula,3,7
+Diabetologia,lekarska,LEK,76,67,56,0.737,2,2,86.795,76.33,90.73,B_wysoki_prog_mala_pula,3,4
+Endokrynologia,lekarska,LEK,67,66,64,0.955,2,2,92.16,88.89,95.69,B_wysoki_prog_mala_pula,2,8
+Dermatologia i wenerologia,lekarska,LEK,66,66,59,0.894,2,2,92.27,89.71,94.26,B_wysoki_prog_mala_pula,2,7
+Chirurgia stomatologiczna,stomatologiczna,LDEK,73,71,61,0.836,2,2,85.1,82.62,88.89,B_wysoki_prog_mala_pula,2,5
+Ortopedia i traumatologia narządu ruchu,lekarska,LEK,112,109,48,0.429,7,5,83.33,54.29,88.89,C_poza_pilotazem,2,0
+Reumatologia,lekarska,LEK,90,87,76,0.844,2,2,89.175,80.68,92.34,B_wysoki_prog_mala_pula,1,12
+Psychiatria dzieci i młodzieży,lekarska,LEK,85,82,66,0.776,2,2,86.305,63.24,92.16,B_wysoki_prog_mala_pula,1,7
+Chirurgia naczyniowa,lekarska,LEK,63,52,43,0.683,1,1,84.88,69.27,92.27,C_poza_pilotazem,1,3
+Choroby płuc,lekarska,LEK,106,91,50,0.472,3.5,3,83.695,66.67,90.34,C_poza_pilotazem,1,1
+Anestezjologia i intensywna terapia,lekarska,LEK,111,108,36,0.324,12,8,83.21,66.99,88.89,C_poza_pilotazem,1,0
+Protetyka stomatologiczna,stomatologiczna,LDEK,68,64,46,0.676,2,2,83.015,70.67,87.86,C_poza_pilotazem,1,0
+Położnictwo i ginekologia,lekarska,LEK,112,111,35,0.313,10,6,82.11,66.83,89.37,C_poza_pilotazem,1,0
+Alergologia,lekarska,LEK,58,51,44,0.759,1,1,87.92,70.05,91.22,B_wysoki_prog_mala_pula,0,7
+Gastroenterologia,lekarska,LEK,62,58,56,0.903,1.5,2,90.22,85.54,94.63,B_wysoki_prog_mala_pula,0,6
+Neurochirurgia,lekarska,LEK,55,48,44,0.8,1,1,87.2,54.37,91.3,B_wysoki_prog_mala_pula,0,6
+Chirurgia plastyczna,lekarska,LEK,29,27,25,0.862,1,1,92.2,89.27,94.69,B_wysoki_prog_mala_pula,0,5
+Neurologia dziecięca,lekarska,LEK,65,45,33,0.508,2,1,87.08,65.69,90.73,C_poza_pilotazem,0,3
+Otorynolaryngologia dziecięca,lekarska,LEK,37,33,30,0.811,2,2,85.27,60,91.87,B_wysoki_prog_mala_pula,0,3
+Endokrynologia i diabetologia dziecięca,lekarska,LEK,37,33,29,0.784,1,1,89.37,82.13,93.24,B_wysoki_prog_mala_pula,0,2
+Gastroenterologia dziecięca,lekarska,LEK,46,26,22,0.478,1,1,87.38,79.41,90.73,C_poza_pilotazem,0,2
+Choroby płuc dzieci,lekarska,LEK,61,36,18,0.295,2,1,87.38,73.04,89.86,C_poza_pilotazem,0,1
+Nefrologia,lekarska,LEK,106,69,24,0.226,3,2,85.68,71.71,91.79,C_poza_pilotazem,0,1
+Kardiologia dziecięca,lekarska,LEK,35,24,18,0.514,2,1,85.23,75.73,91.18,C_poza_pilotazem,0,1
+Genetyka kliniczna,lekarska,LEK,34,19,15,0.441,1,1,85.12,68.29,91.22,C_poza_pilotazem,0,1
+Chirurgia onkologiczna,lekarska,LEK,91,60,24,0.264,2,2,84.66,63.29,88.76,C_poza_pilotazem,0,1
+Periodontologia,stomatologiczna,LDEK,51,50,43,0.843,2,1,84.06,78.1,86.67,C_poza_pilotazem,0,1
+Farmakologia kliniczna,lekarska,LEK,23,4,2,0.087,1,1,86.17,85.02,87.32,C_poza_pilotazem,0,0
+Angiologia,lekarska,LEK,30,11,10,0.333,1,1,86.15,67.65,87.75,C_poza_pilotazem,0,0
+Choroby zakaźne,lekarska,LEK,110,57,6,0.055,6,2,85.025,70.53,89.61,C_poza_pilotazem,0,0
+Onkologia kliniczna,lekarska,LEK,110,71,1,0.009,9.5,3,85.02,85.02,85.02,C_poza_pilotazem,0,0
+Hematologia,lekarska,LEK,107,66,18,0.168,4,2,84.79,63.73,91.18,C_poza_pilotazem,0,0
+Immunologia kliniczna,lekarska,LEK,28,8,6,0.214,1,1,84.23,67.56,87.25,C_poza_pilotazem,0,0
+Nefrologia dziecięca,lekarska,LEK,58,24,19,0.328,1,1,83.81,72.38,89.02,C_poza_pilotazem,0,0
+Chirurgia dziecięca,lekarska,LEK,101,67,28,0.277,2,2,83.41,72.06,89.86,C_poza_pilotazem,0,0
+Geriatria,lekarska,LEK,110,36,5,0.045,3,1,83.33,57.97,87.92,C_poza_pilotazem,0,0
+Pediatria,lekarska,LEK,112,106,11,0.098,17,7,83.33,71.9,85.61,C_poza_pilotazem,0,0
+Medycyna morska i tropikalna,lekarska,LEK,4,2,2,0.5,1,1.5,82.965,82.6,83.33,C_poza_pilotazem,0,0
+Medycyna pracy,lekarska,LEK,66,44,22,0.333,1.5,1,82.725,53.62,91.18,C_poza_pilotazem,0,0
+Neurologia,lekarska,LEK,112,102,21,0.188,14,6,82.61,56.67,89.23,C_poza_pilotazem,0,0
+Medycyna nuklearna,lekarska,LEK,80,36,20,0.25,1,1,82.13,57.28,88.89,C_poza_pilotazem,0,0
+Kardiochirurgia,lekarska,LEK,96,50,27,0.281,2,1,82.06,55.39,90.58,C_poza_pilotazem,0,0
+Audiologia i foniatria,lekarska,LEK,34,18,14,0.412,1,1,82.04,53.66,89.05,C_poza_pilotazem,0,0
+Onkologia i hematologia dziecięca,lekarska,LEK,75,25,8,0.107,2,1,81.465,68.14,90.1,C_poza_pilotazem,0,0
+Medycyna ratunkowa,lekarska,LEK,112,63,1,0.009,10,2,81.16,81.16,81.16,C_poza_pilotazem,0,0
+Patomorfologia,lekarska,LEK,111,67,12,0.108,5,2,80.32,60.29,89.9,C_poza_pilotazem,0,0
+Medycyna paliatywna,lekarska,LEK,78,16,6,0.077,2,1,80.205,64.42,86.83,C_poza_pilotazem,0,0
+Medycyna sportowa,lekarska,LEK,17,9,8,0.471,1,1,80.195,70.24,86.47,C_poza_pilotazem,0,0
+Stomatologia dziecięca,stomatologiczna,LDEK,65,60,41,0.631,2,2,80,71.15,89.05,C_poza_pilotazem,0,0
+Toksykologia kliniczna,lekarska,LEK,37,8,6,0.162,1,1,79.95,66.83,88.89,C_poza_pilotazem,0,0
+Psychiatria,lekarska,LEK,112,107,33,0.295,13,10,79.51,62.25,88.04,C_poza_pilotazem,0,0
+Stomatologia zachowawcza z endodoncją,stomatologiczna,LDEK,75,72,34,0.453,3,2,79.19,58.37,84.21,C_poza_pilotazem,0,0
+Rehabilitacja medyczna,lekarska,LEK,109,63,3,0.028,5,1,79.02,60.58,89.22,C_poza_pilotazem,0,0
+Neonatologia,lekarska,LEK,111,81,5,0.045,6,2,78.92,69.86,80.49,C_poza_pilotazem,0,0
+Radioterapia onkologiczna,lekarska,LEK,109,57,8,0.073,5,2,78.89,66.99,85.24,C_poza_pilotazem,0,0
+Medycyna sądowa,lekarska,LEK,56,18,10,0.179,1,1,76.66,62.93,89,C_poza_pilotazem,0,0
+Chirurgia klatki piersiowej,lekarska,LEK,69,27,14,0.203,1,1,76.515,57.28,87.92,C_poza_pilotazem,0,0
+Mikrobiologia lekarska,lekarska,LEK,28,6,5,0.179,1,1,74.15,57.97,75.36,C_poza_pilotazem,0,0
+Choroby wewnętrzne,lekarska,LEK,112,108,2,0.018,30,9,73.965,64.76,83.17,C_poza_pilotazem,0,0
+Diagnostyka laboratoryjna,lekarska,LEK,27,3,2,0.074,1,1,73.765,70.24,77.29,C_poza_pilotazem,0,0
+Neuropatologia,lekarska,LEK,7,1,1,0.143,1,1,71.71,71.71,71.71,C_poza_pilotazem,0,0
+Medycyna rodzinna,lekarska,LEK,112,110,3,0.027,28.5,16.5,70.19,62.93,71.77,C_poza_pilotazem,0,0
+Chirurgia ogólna,lekarska,LEK,112,104,7,0.063,14,5,69.76,66.99,83.82,C_poza_pilotazem,0,0
+Transfuzjologia kliniczna,lekarska,LEK,88,9,4,0.045,2,1,65.715,58.54,75.36,C_poza_pilotazem,0,0
+Balneologia i medycyna fizykalna,lekarska,LEK,25,3,3,0.12,1,1,65.7,64.29,80,C_poza_pilotazem,0,0
+Pediatria metaboliczna,lekarska,LEK,18,2,0,0,1,2,,,,C_poza_pilotazem,0,0

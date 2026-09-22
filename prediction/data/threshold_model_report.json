@@ -1,0 +1,1207 @@
+{
+  "generated_at": "2026-09-22T20:47:29.178Z",
+  "model": {
+    "type": "ridge_regression",
+    "lambda": 20,
+    "exam_blend_weight": 0.25,
+    "target": "prog_min_proc dla pełnych pul miejsc",
+    "validation": "rolling-origin; każda runda jest przewidywana wyłącznie z wcześniejszych rund",
+    "historical_test_rounds": [
+      "j-2024",
+      "w-2025",
+      "j-2025",
+      "w-2026"
+    ],
+    "numeric_features_without_exam": [
+      "log_miejsca",
+      "zmiana_miejsc",
+      "poprzednie_miejsca",
+      "poprzednio_zakwalifikowani",
+      "poprzednie_wypelnienie",
+      "ostatni_obserwowany_wynik",
+      "ostatni_konkurencyjny_prog",
+      "sredni_historyczny_prog_konkurencyjny",
+      "liczba_historycznych_pelnych_pul",
+      "sredni_prog_specjalizacji_przed_runda",
+      "sredni_prog_wojewodztwa_przed_runda",
+      "sredni_prog_globalny_przed_runda"
+    ],
+    "additional_exam_features": [
+      "egzamin_srednia_proc",
+      "log_liczba_przystepujacych",
+      "egzamin_odsetek_ponizej_56_proc",
+      "egzamin_zmiana_sredniej_proc",
+      "egzamin_srednia_proc_4_sesje",
+      "egzamin_odchylenie_od_4_sesji"
+    ],
+    "exam_sd_experimental_features": [
+      "egzamin_srednia_proc",
+      "log_liczba_przystepujacych",
+      "egzamin_odsetek_ponizej_56_proc",
+      "egzamin_zmiana_sredniej_proc",
+      "egzamin_srednia_proc_4_sesje",
+      "egzamin_odchylenie_od_4_sesji",
+      "egzamin_sd_dostepne_proc"
+    ],
+    "exam_sd_comparison_previous_features": [
+      "egzamin_srednia_proc",
+      "log_liczba_przystepujacych",
+      "egzamin_odsetek_ponizej_56_proc",
+      "egzamin_zmiana_sredniej_proc",
+      "egzamin_srednia_proc_4_sesje",
+      "egzamin_odchylenie_od_4_sesji",
+      "egzamin_poprzednie_sd_proc"
+    ],
+    "exam_sd_feature_as_of_forecast": "odchylenie bieżącej sesji, gdy jest opublikowane; jesień 2026 tymczasowo korzysta z poprzedniej sesji",
+    "exam_anchored_features": [
+      "log_miejsca",
+      "zmiana_miejsc",
+      "poprzednie_miejsca",
+      "poprzednio_zakwalifikowani",
+      "poprzednie_wypelnienie",
+      "ostatni_obserwowany_wynik",
+      "ostatni_konkurencyjny_prog",
+      "sredni_historyczny_prog_konkurencyjny",
+      "liczba_historycznych_pelnych_pul",
+      "sredni_prog_specjalizacji_przed_runda",
+      "sredni_prog_wojewodztwa_przed_runda",
+      "sredni_prog_globalny_przed_runda",
+      "log_liczba_przystepujacych",
+      "egzamin_odsetek_ponizej_56_proc",
+      "egzamin_zmiana_sredniej_proc",
+      "egzamin_odchylenie_od_4_sesji"
+    ],
+    "categorical_features": [
+      "dziedzina_medycyny",
+      "wojewodztwo",
+      "sezon",
+      "egzamin"
+    ]
+  },
+  "fill_model": {
+    "type": "ridge_logistic_regression",
+    "lambda": 2,
+    "target": "prawdopodobieństwo pełnego obsadzenia puli miejsc w województwie",
+    "validation": "rolling-origin; każda runda jest przewidywana wyłącznie z wcześniejszych rund",
+    "exam_features": "pominięte zgodnie z założeniem; model zapełnienia nie używa danych LEK/LDEK",
+    "numeric_features": [
+      "log_miejsca",
+      "log_miejsca_kraj_specjalizacja",
+      "liczba_wojewodztw_z_oferta_specjalizacja",
+      "zmiana_miejsc_kraj_specjalizacja",
+      "udzial_miejsc_wojewodztwa_w_specjalizacji",
+      "zmiana_miejsc",
+      "poprzednie_miejsca",
+      "poprzednio_zakwalifikowani",
+      "poprzednie_wypelnienie",
+      "liczba_historycznych_ofert",
+      "liczba_historycznych_pelnych_pul",
+      "historyczny_udzial_pelnych_komorki",
+      "historyczny_udzial_pelnych_specjalizacji",
+      "historyczny_udzial_pelnych_wojewodztwa",
+      "historyczny_udzial_pelnych_globalny",
+      "ostatni_obserwowany_wynik",
+      "sredni_historyczny_prog_konkurencyjny"
+    ],
+    "categorical_features": [
+      "dziedzina_medycyny",
+      "wojewodztwo",
+      "sezon"
+    ],
+    "rows": 1712,
+    "logistic": {
+      "n": 1712,
+      "observed_rate": 0.665,
+      "mean_probability": 0.625,
+      "brier": 0.1035,
+      "log_loss": 0.3476,
+      "auc": 0.9211,
+      "accuracy_050": 0.8557
+    },
+    "calibration": [
+      {
+        "przedzial": "0.0-0.2",
+        "n": 428,
+        "srednie_prawdopodobienstwo": 0.0691,
+        "rzeczywisty_udzial_pelnych": 0.1285
+      },
+      {
+        "przedzial": "0.2-0.4",
+        "n": 158,
+        "srednie_prawdopodobienstwo": 0.2904,
+        "rzeczywisty_udzial_pelnych": 0.4494
+      },
+      {
+        "przedzial": "0.4-0.6",
+        "n": 99,
+        "srednie_prawdopodobienstwo": 0.4981,
+        "rzeczywisty_udzial_pelnych": 0.5657
+      },
+      {
+        "przedzial": "0.6-0.8",
+        "n": 142,
+        "srednie_prawdopodobienstwo": 0.71,
+        "rzeczywisty_udzial_pelnych": 0.7887
+      },
+      {
+        "przedzial": "0.8-1.0",
+        "n": 885,
+        "srednie_prawdopodobienstwo": 0.9536,
+        "rzeczywisty_udzial_pelnych": 0.9537
+      }
+    ],
+    "smoothed_history_baseline": {
+      "n": 1712,
+      "observed_rate": 0.665,
+      "mean_probability": 0.441,
+      "brier": 0.1921,
+      "log_loss": 0.5834,
+      "auc": 0.8781,
+      "accuracy_050": 0.7284
+    },
+    "by_round": {
+      "j-2024": {
+        "rows": 437,
+        "logistic": {
+          "n": 437,
+          "observed_rate": 0.693,
+          "mean_probability": 0.706,
+          "brier": 0.1108,
+          "log_loss": 0.3665,
+          "auc": 0.9088,
+          "accuracy_050": 0.8398
+        },
+        "smoothed_history_baseline": {
+          "n": 437,
+          "observed_rate": 0.693,
+          "mean_probability": 0.451,
+          "brier": 0.2053,
+          "log_loss": 0.6201,
+          "auc": 0.8586,
+          "accuracy_050": 0.7071
+        }
+      },
+      "w-2025": {
+        "rows": 430,
+        "logistic": {
+          "n": 430,
+          "observed_rate": 0.542,
+          "mean_probability": 0.465,
+          "brier": 0.1145,
+          "log_loss": 0.3837,
+          "auc": 0.9247,
+          "accuracy_050": 0.8419
+        },
+        "smoothed_history_baseline": {
+          "n": 430,
+          "observed_rate": 0.542,
+          "mean_probability": 0.406,
+          "brier": 0.1548,
+          "log_loss": 0.4802,
+          "auc": 0.8921,
+          "accuracy_050": 0.793
+        }
+      },
+      "j-2025": {
+        "rows": 461,
+        "logistic": {
+          "n": 461,
+          "observed_rate": 0.761,
+          "mean_probability": 0.735,
+          "brier": 0.0838,
+          "log_loss": 0.2835,
+          "auc": 0.9289,
+          "accuracy_050": 0.8829
+        },
+        "smoothed_history_baseline": {
+          "n": 461,
+          "observed_rate": 0.761,
+          "mean_probability": 0.464,
+          "brier": 0.2211,
+          "log_loss": 0.6588,
+          "auc": 0.8831,
+          "accuracy_050": 0.6746
+        }
+      },
+      "w-2026": {
+        "rows": 384,
+        "logistic": {
+          "n": 384,
+          "observed_rate": 0.654,
+          "mean_probability": 0.579,
+          "brier": 0.1063,
+          "log_loss": 0.3625,
+          "auc": 0.9214,
+          "accuracy_050": 0.8568
+        },
+        "smoothed_history_baseline": {
+          "n": 384,
+          "observed_rate": 0.654,
+          "mean_probability": 0.439,
+          "brier": 0.1843,
+          "log_loss": 0.5665,
+          "auc": 0.8885,
+          "accuracy_050": 0.7448
+        }
+      }
+    }
+  },
+  "backtest": {
+    "rows": 952,
+    "baseline_previous_threshold": {
+      "n": 952,
+      "mae": 3.775,
+      "rmse": 5.9,
+      "bias": -0.419,
+      "error_p80": 5.304
+    },
+    "ridge_without_exam": {
+      "n": 952,
+      "mae": 2.831,
+      "rmse": 4.357,
+      "bias": -0.202,
+      "error_p80": 4.063
+    },
+    "ridge_with_exam": {
+      "n": 952,
+      "mae": 3.119,
+      "rmse": 4.539,
+      "bias": -0.433,
+      "error_p80": 4.589
+    },
+    "ridge_with_exam_and_current_sd": {
+      "n": 952,
+      "mae": 3.59,
+      "rmse": 4.898,
+      "bias": -1.343,
+      "error_p80": 5.474
+    },
+    "ridge_with_exam_and_previous_sd": {
+      "n": 952,
+      "mae": 3.213,
+      "rmse": 4.583,
+      "bias": -0.341,
+      "error_p80": 4.72
+    },
+    "exam_anchored_model": {
+      "n": 952,
+      "mae": 3.472,
+      "rmse": 4.683,
+      "bias": -1.409,
+      "error_p80": 5.174
+    },
+    "blended_model": {
+      "n": 952,
+      "mae": 2.867,
+      "rmse": 4.371,
+      "bias": -0.26,
+      "error_p80": 4.157
+    },
+    "highest_confidence_pre_round": {
+      "definition": "Przed rundą: co najmniej 5 ofert, 4 pełne pule, udział pełnych >=70%, mediana przyjętych >=3 i mediana progu >=75%",
+      "rows": 47,
+      "rounds": {
+        "j-2024": 0,
+        "w-2025": 0,
+        "j-2025": 16,
+        "w-2026": 31
+      },
+      "variants": {
+        "poprzedni_prog": {
+          "n": 47,
+          "mae": 2.149,
+          "rmse": 2.984,
+          "bias": -0.356,
+          "error_p80": 3.086
+        },
+        "bez_egzaminu": {
+          "n": 47,
+          "mae": 1.149,
+          "rmse": 1.462,
+          "bias": -0.166,
+          "error_p80": 1.772
+        },
+        "z_egzaminem": {
+          "n": 47,
+          "mae": 1.538,
+          "rmse": 1.905,
+          "bias": 0.155,
+          "error_p80": 2.67
+        },
+        "z_biezacym_sd": {
+          "n": 47,
+          "mae": 1.47,
+          "rmse": 1.836,
+          "bias": -0.006,
+          "error_p80": 2.662
+        },
+        "z_poprzednim_sd": {
+          "n": 47,
+          "mae": 1.355,
+          "rmse": 1.783,
+          "bias": -0.46,
+          "error_p80": 2.324
+        },
+        "kotwiczony_egzaminem": {
+          "n": 47,
+          "mae": 1.74,
+          "rmse": 2.072,
+          "bias": -0.964,
+          "error_p80": 2.812
+        },
+        "laczony": {
+          "n": 47,
+          "mae": 1.148,
+          "rmse": 1.505,
+          "bias": -0.085,
+          "error_p80": 1.961
+        }
+      }
+    },
+    "at_least_three_prior_full_rounds": {
+      "rows": 426,
+      "variants": {
+        "poprzedni_prog": {
+          "n": 426,
+          "mae": 2.881,
+          "rmse": 4.598,
+          "bias": -0.14,
+          "error_p80": 3.95
+        },
+        "bez_egzaminu": {
+          "n": 426,
+          "mae": 1.823,
+          "rmse": 2.838,
+          "bias": -0.016,
+          "error_p80": 2.727
+        },
+        "z_egzaminem": {
+          "n": 426,
+          "mae": 2.125,
+          "rmse": 3.058,
+          "bias": -0.15,
+          "error_p80": 3.135
+        },
+        "z_biezacym_sd": {
+          "n": 426,
+          "mae": 2.364,
+          "rmse": 3.258,
+          "bias": -0.713,
+          "error_p80": 3.548
+        },
+        "z_poprzednim_sd": {
+          "n": 426,
+          "mae": 2.23,
+          "rmse": 3.11,
+          "bias": -0.328,
+          "error_p80": 3.408
+        },
+        "kotwiczony_egzaminem": {
+          "n": 426,
+          "mae": 2.455,
+          "rmse": 3.231,
+          "bias": -1.144,
+          "error_p80": 3.769
+        },
+        "laczony": {
+          "n": 426,
+          "mae": 1.845,
+          "rmse": 2.847,
+          "bias": -0.049,
+          "error_p80": 2.686
+        }
+      }
+    },
+    "by_history_depth": {
+      "at_least_2_prior_full_rounds": {
+        "n": 696,
+        "mae": 2.324,
+        "rmse": 3.567,
+        "bias": -0.387,
+        "error_p80": 3.381
+      },
+      "at_least_3_prior_full_rounds": {
+        "n": 426,
+        "mae": 1.845,
+        "rmse": 2.847,
+        "bias": -0.049,
+        "error_p80": 2.686
+      }
+    },
+    "by_exam": {
+      "LEK": {
+        "rows": 798,
+        "baseline": {
+          "n": 798,
+          "mae": 3.984,
+          "rmse": 6.17,
+          "bias": -0.397,
+          "error_p80": 6.016
+        },
+        "ridge_without_exam": {
+          "n": 798,
+          "mae": 3.051,
+          "rmse": 4.626,
+          "bias": -0.271,
+          "error_p80": 4.457
+        },
+        "ridge_with_exam": {
+          "n": 798,
+          "mae": 3.345,
+          "rmse": 4.804,
+          "bias": -0.589,
+          "error_p80": 4.924
+        },
+        "ridge_with_exam_and_current_sd": {
+          "n": 798,
+          "mae": 3.905,
+          "rmse": 5.207,
+          "bias": -1.662,
+          "error_p80": 6.057
+        },
+        "ridge_with_exam_and_previous_sd": {
+          "n": 798,
+          "mae": 3.384,
+          "rmse": 4.799,
+          "bias": -0.544,
+          "error_p80": 4.953
+        },
+        "exam_anchored_model": {
+          "n": 798,
+          "mae": 3.762,
+          "rmse": 4.964,
+          "bias": -1.748,
+          "error_p80": 5.598
+        },
+        "blended_model": {
+          "n": 798,
+          "mae": 3.085,
+          "rmse": 4.638,
+          "bias": -0.35,
+          "error_p80": 4.579
+        }
+      },
+      "LDEK": {
+        "rows": 154,
+        "baseline": {
+          "n": 154,
+          "mae": 2.695,
+          "rmse": 4.24,
+          "bias": -0.534,
+          "error_p80": 3.724
+        },
+        "ridge_without_exam": {
+          "n": 154,
+          "mae": 1.695,
+          "rmse": 2.538,
+          "bias": 0.154,
+          "error_p80": 2.613
+        },
+        "ridge_with_exam": {
+          "n": 154,
+          "mae": 1.945,
+          "rmse": 2.788,
+          "bias": 0.373,
+          "error_p80": 3.094
+        },
+        "ridge_with_exam_and_current_sd": {
+          "n": 154,
+          "mae": 1.955,
+          "rmse": 2.797,
+          "bias": 0.307,
+          "error_p80": 3.106
+        },
+        "ridge_with_exam_and_previous_sd": {
+          "n": 154,
+          "mae": 2.33,
+          "rmse": 3.239,
+          "bias": 0.711,
+          "error_p80": 3.444
+        },
+        "exam_anchored_model": {
+          "n": 154,
+          "mae": 1.968,
+          "rmse": 2.804,
+          "bias": 0.347,
+          "error_p80": 3.132
+        },
+        "blended_model": {
+          "n": 154,
+          "mae": 1.737,
+          "rmse": 2.579,
+          "bias": 0.208,
+          "error_p80": 2.585
+        }
+      }
+    },
+    "by_round": {
+      "j-2024": {
+        "rows": 228,
+        "baseline": {
+          "n": 228,
+          "mae": 3.327,
+          "rmse": 5.025,
+          "bias": -1.374,
+          "error_p80": 4.74
+        },
+        "ridge_without_exam": {
+          "n": 228,
+          "mae": 2.567,
+          "rmse": 3.548,
+          "bias": -0.781,
+          "error_p80": 3.936
+        },
+        "ridge_with_exam": {
+          "n": 228,
+          "mae": 2.379,
+          "rmse": 3.418,
+          "bias": -0.062,
+          "error_p80": 3.579
+        },
+        "ridge_with_exam_and_current_sd": {
+          "n": 228,
+          "mae": 4.255,
+          "rmse": 5.11,
+          "bias": -3.349,
+          "error_p80": 6.468
+        },
+        "ridge_with_exam_and_previous_sd": {
+          "n": 228,
+          "mae": 2.661,
+          "rmse": 3.746,
+          "bias": 1.376,
+          "error_p80": 3.929
+        },
+        "exam_anchored_model": {
+          "n": 228,
+          "mae": 2.566,
+          "rmse": 3.55,
+          "bias": -0.72,
+          "error_p80": 3.885
+        },
+        "blended_model": {
+          "n": 228,
+          "mae": 2.506,
+          "rmse": 3.5,
+          "bias": -0.602,
+          "error_p80": 3.723
+        }
+      },
+      "w-2025": {
+        "rows": 200,
+        "baseline": {
+          "n": 200,
+          "mae": 3.86,
+          "rmse": 6.264,
+          "bias": 1.161,
+          "error_p80": 5.112
+        },
+        "ridge_without_exam": {
+          "n": 200,
+          "mae": 3.172,
+          "rmse": 5.178,
+          "bias": 1.039,
+          "error_p80": 4.326
+        },
+        "ridge_with_exam": {
+          "n": 200,
+          "mae": 3.408,
+          "rmse": 5.08,
+          "bias": -0.561,
+          "error_p80": 5.114
+        },
+        "ridge_with_exam_and_current_sd": {
+          "n": 200,
+          "mae": 3.549,
+          "rmse": 5.126,
+          "bias": -0.918,
+          "error_p80": 5.349
+        },
+        "ridge_with_exam_and_previous_sd": {
+          "n": 200,
+          "mae": 3.428,
+          "rmse": 5.086,
+          "bias": -0.613,
+          "error_p80": 5.084
+        },
+        "exam_anchored_model": {
+          "n": 200,
+          "mae": 4.052,
+          "rmse": 5.387,
+          "bias": -1.913,
+          "error_p80": 6.291
+        },
+        "blended_model": {
+          "n": 200,
+          "mae": 3.172,
+          "rmse": 5.105,
+          "bias": 0.639,
+          "error_p80": 4.775
+        }
+      },
+      "j-2025": {
+        "rows": 295,
+        "baseline": {
+          "n": 295,
+          "mae": 4.142,
+          "rmse": 6.047,
+          "bias": -2.377,
+          "error_p80": 5.742
+        },
+        "ridge_without_exam": {
+          "n": 295,
+          "mae": 2.766,
+          "rmse": 4.147,
+          "bias": -1.094,
+          "error_p80": 4.03
+        },
+        "ridge_with_exam": {
+          "n": 295,
+          "mae": 3.653,
+          "rmse": 4.708,
+          "bias": -2.011,
+          "error_p80": 5.331
+        },
+        "ridge_with_exam_and_current_sd": {
+          "n": 295,
+          "mae": 3.654,
+          "rmse": 4.709,
+          "bias": -2.008,
+          "error_p80": 5.33
+        },
+        "ridge_with_exam_and_previous_sd": {
+          "n": 295,
+          "mae": 3.753,
+          "rmse": 4.78,
+          "bias": -2.129,
+          "error_p80": 5.473
+        },
+        "exam_anchored_model": {
+          "n": 295,
+          "mae": 4.072,
+          "rmse": 5.026,
+          "bias": -2.563,
+          "error_p80": 5.918
+        },
+        "blended_model": {
+          "n": 295,
+          "mae": 2.948,
+          "rmse": 4.256,
+          "bias": -1.323,
+          "error_p80": 4.394
+        }
+      },
+      "w-2026": {
+        "rows": 229,
+        "baseline": {
+          "n": 229,
+          "mae": 3.675,
+          "rmse": 6.182,
+          "bias": 1.673,
+          "error_p80": 5.962
+        },
+        "ridge_without_exam": {
+          "n": 229,
+          "mae": 2.881,
+          "rmse": 4.561,
+          "bias": 0.439,
+          "error_p80": 4.083
+        },
+        "ridge_with_exam": {
+          "n": 229,
+          "mae": 2.913,
+          "rmse": 4.788,
+          "bias": 1.34,
+          "error_p80": 3.828
+        },
+        "ridge_with_exam_and_current_sd": {
+          "n": 229,
+          "mae": 2.879,
+          "rmse": 4.715,
+          "bias": 1.139,
+          "error_p80": 3.758
+        },
+        "ridge_with_exam_and_previous_sd": {
+          "n": 229,
+          "mae": 2.881,
+          "rmse": 4.616,
+          "bias": 0.49,
+          "error_p80": 4.155
+        },
+        "exam_anchored_model": {
+          "n": 229,
+          "mae": 3.093,
+          "rmse": 4.552,
+          "bias": -0.168,
+          "error_p80": 4.579
+        },
+        "blended_model": {
+          "n": 229,
+          "mae": 2.856,
+          "rmse": 4.597,
+          "bias": 0.664,
+          "error_p80": 4.056
+        }
+      }
+    }
+  },
+  "national": {
+    "target": "Równa średnia progów województw z pełną pulą miejsc; województwo bez progu konkurencyjnego nie ma wartości do uśrednienia",
+    "prediction": "Równa średnia prognoz regionalnych we wszystkich województwach z ofertą; skład regionów znany przed rekrutacją",
+    "evaluation_filter": "Co najmniej 3 województwa z ofertą, 3 pełne pule i 80% udziału pełnych pul",
+    "selected_forecast": "empiryczna_wazona_prognoza_model_bez_egzaminu; nowy model logistyczny lepiej przewiduje zapełnienie, ale w tym małym krajowym backteście nie obniżył błędu agregowanego progu",
+    "test_rows": 49,
+    "by_round_rows": {
+      "j-2024": 11,
+      "w-2025": 8,
+      "j-2025": 17,
+      "w-2026": 13
+    },
+    "variants": {
+      "poprzedni_prog": {
+        "n": 49,
+        "mae": 1.598,
+        "rmse": 2.034,
+        "bias": -0.708,
+        "error_p80": 2.392
+      },
+      "bez_egzaminu": {
+        "n": 49,
+        "mae": 1.431,
+        "rmse": 1.82,
+        "bias": -0.915,
+        "error_p80": 2.074
+      },
+      "z_egzaminem": {
+        "n": 49,
+        "mae": 1.929,
+        "rmse": 2.407,
+        "bias": -1.131,
+        "error_p80": 3.192
+      },
+      "z_biezacym_sd": {
+        "n": 49,
+        "mae": 2.492,
+        "rmse": 3.053,
+        "bias": -1.952,
+        "error_p80": 4.096
+      },
+      "z_poprzednim_sd": {
+        "n": 49,
+        "mae": 2.115,
+        "rmse": 2.573,
+        "bias": -1.075,
+        "error_p80": 3.268
+      },
+      "kotwiczony_egzaminem": {
+        "n": 49,
+        "mae": 2.566,
+        "rmse": 2.997,
+        "bias": -2.012,
+        "error_p80": 4.264
+      },
+      "laczony": {
+        "n": 49,
+        "mae": 1.482,
+        "rmse": 1.915,
+        "bias": -0.969,
+        "error_p80": 2.245
+      }
+    },
+    "matched_regional_reference": {
+      "rows": 410,
+      "note": "Te same tury specjalizacji, lecz tylko regionalne pełne pule z co najmniej jedną wcześniejszą pełną pulą; porównanie orientacyjne",
+      "variants": {
+        "poprzedni_prog": {
+          "n": 410,
+          "mae": 2.31,
+          "rmse": 3.295,
+          "bias": -0.72,
+          "error_p80": 3.566
+        },
+        "bez_egzaminu": {
+          "n": 410,
+          "mae": 1.744,
+          "rmse": 2.347,
+          "bias": -0.711,
+          "error_p80": 2.747
+        },
+        "z_egzaminem": {
+          "n": 410,
+          "mae": 2.135,
+          "rmse": 2.768,
+          "bias": -0.947,
+          "error_p80": 3.356
+        },
+        "z_biezacym_sd": {
+          "n": 410,
+          "mae": 2.665,
+          "rmse": 3.303,
+          "bias": -1.727,
+          "error_p80": 4.219
+        },
+        "z_poprzednim_sd": {
+          "n": 410,
+          "mae": 2.299,
+          "rmse": 2.911,
+          "bias": -0.897,
+          "error_p80": 3.624
+        },
+        "kotwiczony_egzaminem": {
+          "n": 410,
+          "mae": 2.645,
+          "rmse": 3.246,
+          "bias": -1.813,
+          "error_p80": 4.265
+        },
+        "laczony": {
+          "n": 410,
+          "mae": 1.794,
+          "rmse": 2.404,
+          "bias": -0.77,
+          "error_p80": 2.707
+        }
+      }
+    },
+    "weighted_by_prior_full_probability": {
+      "method": "Regresja logistyczna ridge z cechami historii zapełnienia, wielkości puli, specjalizacji, województwa i sezonu; bez danych egzaminacyjnych; wyłącznie wcześniejsze rundy",
+      "variants": {
+        "poprzedni_prog": {
+          "n": 49,
+          "mae": 1.569,
+          "rmse": 2.019,
+          "bias": -0.66,
+          "error_p80": 2.336
+        },
+        "bez_egzaminu": {
+          "n": 49,
+          "mae": 1.411,
+          "rmse": 1.798,
+          "bias": -0.86,
+          "error_p80": 2.064
+        },
+        "z_egzaminem": {
+          "n": 49,
+          "mae": 1.905,
+          "rmse": 2.384,
+          "bias": -1.074,
+          "error_p80": 3.155
+        },
+        "z_biezacym_sd": {
+          "n": 49,
+          "mae": 2.448,
+          "rmse": 3.013,
+          "bias": -1.896,
+          "error_p80": 4.047
+        },
+        "z_poprzednim_sd": {
+          "n": 49,
+          "mae": 2.089,
+          "rmse": 2.553,
+          "bias": -1.018,
+          "error_p80": 3.2
+        },
+        "kotwiczony_egzaminem": {
+          "n": 49,
+          "mae": 2.533,
+          "rmse": 2.958,
+          "bias": -1.953,
+          "error_p80": 4.207
+        },
+        "laczony": {
+          "n": 49,
+          "mae": 1.466,
+          "rmse": 1.892,
+          "bias": -0.913,
+          "error_p80": 2.246
+        }
+      },
+      "empirical_smoothing_baseline": {
+        "poprzedni_prog": {
+          "n": 49,
+          "mae": 1.534,
+          "rmse": 1.988,
+          "bias": -0.617,
+          "error_p80": 2.3
+        },
+        "bez_egzaminu": {
+          "n": 49,
+          "mae": 1.365,
+          "rmse": 1.737,
+          "bias": -0.79,
+          "error_p80": 2.03
+        },
+        "z_egzaminem": {
+          "n": 49,
+          "mae": 1.861,
+          "rmse": 2.322,
+          "bias": -1,
+          "error_p80": 3.113
+        },
+        "z_biezacym_sd": {
+          "n": 49,
+          "mae": 2.395,
+          "rmse": 2.939,
+          "bias": -1.823,
+          "error_p80": 3.732
+        },
+        "z_poprzednim_sd": {
+          "n": 49,
+          "mae": 2.052,
+          "rmse": 2.501,
+          "bias": -0.945,
+          "error_p80": 3.143
+        },
+        "kotwiczony_egzaminem": {
+          "n": 49,
+          "mae": 2.474,
+          "rmse": 2.878,
+          "bias": -1.874,
+          "error_p80": 3.997
+        },
+        "laczony": {
+          "n": 49,
+          "mae": 1.421,
+          "rmse": 1.829,
+          "bias": -0.842,
+          "error_p80": 2.159
+        }
+      }
+    },
+    "all_offered_regions_full": {
+      "rows": 22,
+      "variants": {
+        "poprzedni_prog": {
+          "n": 22,
+          "mae": 1.398,
+          "rmse": 1.758,
+          "bias": -0.984,
+          "error_p80": 1.991
+        },
+        "bez_egzaminu": {
+          "n": 22,
+          "mae": 1.383,
+          "rmse": 1.707,
+          "bias": -1.333,
+          "error_p80": 1.916
+        },
+        "z_egzaminem": {
+          "n": 22,
+          "mae": 1.992,
+          "rmse": 2.488,
+          "bias": -1.738,
+          "error_p80": 3.187
+        },
+        "z_biezacym_sd": {
+          "n": 22,
+          "mae": 2.422,
+          "rmse": 2.974,
+          "bias": -2.236,
+          "error_p80": 4.002
+        },
+        "z_poprzednim_sd": {
+          "n": 22,
+          "mae": 2.215,
+          "rmse": 2.665,
+          "bias": -1.812,
+          "error_p80": 3.24
+        },
+        "kotwiczony_egzaminem": {
+          "n": 22,
+          "mae": 2.864,
+          "rmse": 3.319,
+          "bias": -2.722,
+          "error_p80": 4.695
+        },
+        "laczony": {
+          "n": 22,
+          "mae": 1.502,
+          "rmse": 1.854,
+          "bias": -1.434,
+          "error_p80": 1.886
+        }
+      },
+      "weighted_variants": {
+        "poprzedni_prog": {
+          "n": 22,
+          "mae": 1.364,
+          "rmse": 1.725,
+          "bias": -0.947,
+          "error_p80": 1.991
+        },
+        "bez_egzaminu": {
+          "n": 22,
+          "mae": 1.342,
+          "rmse": 1.664,
+          "bias": -1.293,
+          "error_p80": 1.93
+        },
+        "z_egzaminem": {
+          "n": 22,
+          "mae": 1.953,
+          "rmse": 2.451,
+          "bias": -1.696,
+          "error_p80": 3.141
+        },
+        "z_biezacym_sd": {
+          "n": 22,
+          "mae": 2.383,
+          "rmse": 2.94,
+          "bias": -2.194,
+          "error_p80": 3.945
+        },
+        "z_poprzednim_sd": {
+          "n": 22,
+          "mae": 2.175,
+          "rmse": 2.625,
+          "bias": -1.77,
+          "error_p80": 3.187
+        },
+        "kotwiczony_egzaminem": {
+          "n": 22,
+          "mae": 2.822,
+          "rmse": 3.278,
+          "bias": -2.678,
+          "error_p80": 4.625
+        },
+        "laczony": {
+          "n": 22,
+          "mae": 1.462,
+          "rmse": 1.812,
+          "bias": -1.393,
+          "error_p80": 1.87
+        }
+      }
+    },
+    "all_observed_regional_minima": {
+      "definition": "Średnia najniższych wyników przyjętych ze wszystkich województw z obserwowanym wynikiem, także przy niepełnej puli; nie jest progiem konkurencyjnym",
+      "filter": "Co najmniej 3 województwa z ofertą i obserwowanym wynikiem oraz >=80% pokrycia ofert",
+      "rows": 150,
+      "variants": {
+        "poprzedni_prog": {
+          "n": 150,
+          "mae": 2.636,
+          "rmse": 3.678,
+          "bias": 0.101,
+          "error_p80": 4.123
+        },
+        "bez_egzaminu": {
+          "n": 150,
+          "mae": 3.095,
+          "rmse": 4.785,
+          "bias": 1.619,
+          "error_p80": 4.625
+        },
+        "z_egzaminem": {
+          "n": 150,
+          "mae": 3.288,
+          "rmse": 4.672,
+          "bias": 1.373,
+          "error_p80": 5.099
+        },
+        "z_biezacym_sd": {
+          "n": 150,
+          "mae": 3.416,
+          "rmse": 4.663,
+          "bias": 0.32,
+          "error_p80": 5.201
+        },
+        "z_poprzednim_sd": {
+          "n": 150,
+          "mae": 3.491,
+          "rmse": 4.788,
+          "bias": 1.535,
+          "error_p80": 5.144
+        },
+        "kotwiczony_egzaminem": {
+          "n": 150,
+          "mae": 3.284,
+          "rmse": 4.376,
+          "bias": 0.397,
+          "error_p80": 4.736
+        },
+        "laczony": {
+          "n": 150,
+          "mae": 3.095,
+          "rmse": 4.727,
+          "bias": 1.557,
+          "error_p80": 4.658
+        }
+      },
+      "weighted_variants": {
+        "poprzedni_prog": {
+          "n": 150,
+          "mae": 2.824,
+          "rmse": 3.957,
+          "bias": 0.293,
+          "error_p80": 4.57
+        },
+        "bez_egzaminu": {
+          "n": 150,
+          "mae": 3.188,
+          "rmse": 4.974,
+          "bias": 1.826,
+          "error_p80": 4.651
+        },
+        "z_egzaminem": {
+          "n": 150,
+          "mae": 3.373,
+          "rmse": 4.847,
+          "bias": 1.593,
+          "error_p80": 5.38
+        },
+        "z_biezacym_sd": {
+          "n": 150,
+          "mae": 3.468,
+          "rmse": 4.794,
+          "bias": 0.54,
+          "error_p80": 5.3
+        },
+        "z_poprzednim_sd": {
+          "n": 150,
+          "mae": 3.589,
+          "rmse": 4.965,
+          "bias": 1.755,
+          "error_p80": 5.574
+        },
+        "kotwiczony_egzaminem": {
+          "n": 150,
+          "mae": 3.355,
+          "rmse": 4.512,
+          "bias": 0.626,
+          "error_p80": 4.708
+        },
+        "laczony": {
+          "n": 150,
+          "mae": 3.187,
+          "rmse": 4.913,
+          "bias": 1.768,
+          "error_p80": 4.719
+        }
+      }
+    },
+    "forecast_specialties": 68,
+    "forecast_with_broader_history": 12
+  },
+  "forecast": {
+    "round": "j-2026",
+    "rows": 802,
+    "stable_pilot_rows": 48,
+    "high_threshold_small_pool_rows": 104,
+    "interval_method": "prognoza modelu łączonego ± 80. percentyl bezwzględnego błędu w backteście",
+    "interval_error_p80": {
+      "low_confidence": 4.157,
+      "medium_confidence": 3.381,
+      "high_confidence": 2.686
+    }
+  },
+  "limitations": [
+    "Pełne obsadzenie miejsc jest wskaźnikiem zastępczym konkurencji.",
+    "Dostępnych jest siedem zakończonych rund, więc wpływ egzaminu jest identyfikowany na niewielkiej liczbie zmian w czasie.",
+    "Odchylenie z bieżącej sesji jest w archiwum CEM dostępne tylko do wiosny 2026; w prognozie jesieni 2026 używane jest odchylenie poprzedniej sesji.",
+    "Przedział 80% jest empiryczny i wspólny dla wszystkich grup; kolejne wersje powinny kalibrować go według wielkości puli i historii.",
+    "Krajowy backtest dotyczy tur z wysokim rzeczywistym udziałem pełnych pul; jest to warunkowa ocena i nie dowodzi takiej samej dokładności dla wszystkich specjalizacji.",
+    "Krajowa prognoza uśrednia wszystkie regiony z ofertą, a historyczny cel tylko regiony z pełną pulą. Różnica składu może powodować obciążenie przy niepełnym obsadzeniu.",
+    "Model zapełnienia przewiduje wskaźnik zastępczy pełnej puli, nie liczbę kandydatów ani faktyczny popyt; jakość zależy od poprawności liczby oferowanych miejsc i statusu obsadzenia."
+  ]
+}

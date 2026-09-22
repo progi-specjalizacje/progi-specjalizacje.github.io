@@ -1,0 +1,153 @@
+rekrutacja,wojewodztwo,dziedzina_medycyny,sciezka,egzamin,liczba_miejsc,historyczne_pelne_pule,grupa_pilotazowa,poziom_pewnosci,egzamin_sd_zrodlo,prawdopodobienstwo_pelnej_puli,prognoza_bez_egzaminu,prognoza_z_egzaminem,prognoza_z_egzaminem_i_sd,prognoza_z_egzaminem_i_poprzednim_sd,prognoza_kotwiczona_egzaminem,prognoza_modelowa,dolna_granica_80_proc,gorna_granica_80_proc
+j-2026,Śląskie,Endokrynologia,lekarska,LEK,1,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.998334,96.999,96.635,95.95,97.206,96.406,96.908,94.222,99.594
+j-2026,Mazowieckie,Endokrynologia,lekarska,LEK,3,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.99823,95.92,95.576,94.879,96.144,95.368,95.834,93.148,98.52
+j-2026,Zachodniopomorskie,Dermatologia i wenerologia,lekarska,LEK,2,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.988917,93.647,93.264,92.605,93.819,92.97,93.551,90.865,96.237
+j-2026,Śląskie,Reumatologia,lekarska,LEK,5,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.996946,92.902,92.633,91.92,93.219,92.498,92.835,90.149,95.521
+j-2026,Dolnośląskie,Okulistyka,lekarska,LEK,4,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.998747,92.252,91.971,91.258,92.599,91.893,92.182,89.496,94.868
+j-2026,Małopolskie,Ortodoncja,stomatologiczna,LDEK,1,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.997314,91.851,92.582,92.269,92.231,93.399,92.034,89.348,94.72
+j-2026,Lubelskie,Okulistyka,lekarska,LEK,2,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.997935,91.842,91.409,90.732,91.995,91.053,91.734,89.048,94.42
+j-2026,Łódzkie,Urologia,lekarska,LEK,2,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.997796,91.783,91.484,90.777,92.092,91.384,91.708,89.022,94.394
+j-2026,Łódzkie,Okulistyka,lekarska,LEK,3,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.998541,91.723,91.374,90.693,91.962,91.15,91.636,88.95,94.322
+j-2026,Wielkopolskie,Okulistyka,lekarska,LEK,15,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.993536,91.371,90.972,90.346,91.572,90.636,91.271,88.585,93.957
+j-2026,Pomorskie,Urologia,lekarska,LEK,3,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.996867,91.184,90.847,90.167,91.447,90.621,91.1,88.414,93.786
+j-2026,Kujawsko-pomorskie,Okulistyka,lekarska,LEK,6,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.99605,90.959,90.717,90.016,91.364,90.685,90.898,88.212,93.584
+j-2026,Mazowieckie,Ortodoncja,stomatologiczna,LDEK,5,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.998346,90.663,91.582,91.222,91.199,92.675,90.893,88.207,93.579
+j-2026,Opolskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,5,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.997148,90.946,90.706,89.992,91.295,90.7,90.886,88.2,93.572
+j-2026,Śląskie,Kardiologia,lekarska,LEK,6,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.999446,90.941,90.685,89.991,91.285,90.633,90.877,88.191,93.563
+j-2026,Wielkopolskie,Kardiologia,lekarska,LEK,20,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.99735,90.821,90.453,89.857,91.109,90.248,90.729,88.043,93.415
+j-2026,Mazowieckie,Urologia,lekarska,LEK,8,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.997734,90.676,90.348,89.658,90.906,90.113,90.594,87.908,93.28
+j-2026,Małopolskie,Kardiologia,lekarska,LEK,8,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.999122,90.611,90.299,89.627,90.937,90.163,90.533,87.847,93.219
+j-2026,Śląskie,Otorynolaryngologia,lekarska,LEK,4,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.996438,90.591,90.221,89.577,90.795,89.878,90.498,87.812,93.184
+j-2026,Łódzkie,Otorynolaryngologia,lekarska,LEK,2,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.99655,90.565,90.139,89.488,90.715,89.751,90.458,87.772,93.144
+j-2026,Wielkopolskie,Otorynolaryngologia,lekarska,LEK,4,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.993674,90.45,90.033,89.402,90.642,89.675,90.345,87.659,93.031
+j-2026,Dolnośląskie,Ortodoncja,stomatologiczna,LDEK,3,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.997427,90.095,90.979,90.643,90.613,91.976,90.316,87.63,93.002
+j-2026,Zachodniopomorskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,19,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.992291,90.222,89.88,89.234,90.485,89.631,90.136,87.45,92.822
+j-2026,Wielkopolskie,Urologia,lekarska,LEK,5,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.993125,90.21,89.805,89.156,90.399,89.454,90.109,87.423,92.795
+j-2026,Śląskie,Urologia,lekarska,LEK,6,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.995982,90.172,89.835,89.174,90.384,89.514,90.088,87.402,92.774
+j-2026,Podlaskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,6,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.997429,90.037,89.724,89.053,90.301,89.519,89.959,87.273,92.645
+j-2026,Śląskie,Diabetologia,lekarska,LEK,6,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.993196,89.769,89.561,88.835,90.143,89.508,89.717,87.031,92.403
+j-2026,Lubuskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,3,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.996516,89.518,89.138,88.497,89.748,88.861,89.423,86.737,92.109
+j-2026,Podkarpackie,Radiologia i diagnostyka obrazowa,lekarska,LEK,9,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.997772,89.49,89.192,88.532,89.795,88.973,89.416,86.73,92.102
+j-2026,Kujawsko-pomorskie,Otorynolaryngologia,lekarska,LEK,6,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.98681,89.306,88.998,88.319,89.623,88.793,89.229,86.543,91.915
+j-2026,Pomorskie,Kardiologia,lekarska,LEK,15,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.998534,89.204,88.809,88.204,89.369,88.406,89.105,86.419,91.791
+j-2026,Podkarpackie,Urologia,lekarska,LEK,6,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.989941,88.754,88.479,87.818,89.109,88.316,88.685,85.999,91.371
+j-2026,Łódzkie,Kardiologia,lekarska,LEK,15,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.996552,88.666,88.245,87.658,88.867,87.834,88.561,85.875,91.247
+j-2026,Śląskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,5,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.993424,88.159,89.01,88.623,88.611,89.955,88.372,85.686,91.058
+j-2026,Opolskie,Kardiologia,lekarska,LEK,5,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.995087,88.381,88.022,87.368,88.603,87.791,88.291,85.605,90.977
+j-2026,Śląskie,Chirurgia naczyniowa,lekarska,LEK,2,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.989421,88.268,87.951,87.252,88.57,87.819,88.189,85.503,90.875
+j-2026,Dolnośląskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,4,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.996446,87.903,88.634,88.294,88.216,89.364,88.086,85.4,90.772
+j-2026,Podkarpackie,Kardiologia,lekarska,LEK,10,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.996413,88.163,87.845,87.206,88.472,87.636,88.083,85.397,90.769
+j-2026,Łódzkie,Diabetologia,lekarska,LEK,5,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.986001,88.029,87.699,87.039,88.299,87.406,87.946,85.26,90.632
+j-2026,Łódzkie,Psychiatria dzieci i młodzieży,lekarska,LEK,5,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.992536,87.863,87.584,86.843,88.177,87.506,87.793,85.107,90.479
+j-2026,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,9,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.994056,87.787,87.46,86.807,88.014,87.158,87.705,85.019,90.391
+j-2026,Lubelskie,Diabetologia,lekarska,LEK,5,4,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.975201,87.764,87.39,86.736,87.978,86.997,87.67,84.984,90.356
+j-2026,Mazowieckie,Położnictwo i ginekologia,lekarska,LEK,35,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.999285,86.328,85.905,85.392,86.488,85.602,86.222,83.536,88.908
+j-2026,Kujawsko-pomorskie,Anestezjologia i intensywna terapia,lekarska,LEK,3,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.995774,86.209,85.913,85.192,86.488,85.74,86.135,83.449,88.821
+j-2026,Pomorskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,6,6,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.997199,86.175,85.82,85.159,86.486,85.698,86.086,83.4,88.772
+j-2026,Łódzkie,Protetyka stomatologiczna,stomatologiczna,LDEK,3,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.991009,85.475,86.306,85.978,85.964,87.217,85.683,82.997,88.369
+j-2026,Wielkopolskie,Ortopedia i traumatologia narządu ruchu,lekarska,LEK,16,5,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.993966,85.719,85.287,84.718,85.945,85.006,85.611,82.925,88.297
+j-2026,Kujawsko-pomorskie,Choroby płuc,lekarska,LEK,6,7,A_stabilny_pilotaz,wyzszy,poprzednia_sesja,0.987033,85.122,84.871,84.106,85.433,84.803,85.059,82.373,87.745
+j-2026,Małopolskie,Dermatologia i wenerologia,lekarska,LEK,1,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.997508,96.842,96.391,95.724,96.993,96.071,96.729,93.348,100
+j-2026,Śląskie,Dermatologia i wenerologia,lekarska,LEK,1,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.997725,96.302,95.858,95.204,96.418,95.493,96.191,92.81,99.572
+j-2026,Łódzkie,Endokrynologia,lekarska,LEK,1,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.997889,96.217,95.859,95.182,96.444,95.646,96.128,92.747,99.509
+j-2026,Małopolskie,Endokrynologia,lekarska,LEK,2,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995773,95.691,95.234,94.572,95.803,94.792,95.577,92.196,98.958
+j-2026,Wielkopolskie,Endokrynologia,lekarska,LEK,2,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995668,95.614,95.199,94.55,95.781,94.87,95.51,92.129,98.891
+j-2026,Podkarpackie,Dermatologia i wenerologia,lekarska,LEK,1,7,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.996956,95.456,95.165,94.48,95.787,95.126,95.383,92.002,98.764
+j-2026,Pomorskie,Dermatologia i wenerologia,lekarska,LEK,1,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.997514,95.5,95.018,94.408,95.588,94.556,95.38,91.999,98.761
+j-2026,Łódzkie,Dermatologia i wenerologia,lekarska,LEK,2,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.996973,95.216,94.876,94.195,95.454,94.684,95.131,91.75,98.512
+j-2026,Lubelskie,Chirurgia plastyczna,lekarska,LEK,1,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.991907,94.888,94.537,93.83,95.122,94.369,94.8,91.419,98.181
+j-2026,Małopolskie,Reumatologia,lekarska,LEK,1,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.99863,94.872,94.472,93.781,95.095,94.233,94.772,91.391,98.153
+j-2026,Lubelskie,Dermatologia i wenerologia,lekarska,LEK,2,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.994413,94.805,94.401,93.721,94.974,94.086,94.704,91.323,98.085
+j-2026,Mazowieckie,Gastroenterologia,lekarska,LEK,2,7,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.998505,94.752,94.464,93.756,95.056,94.384,94.68,91.299,98.061
+j-2026,Zachodniopomorskie,Endokrynologia,lekarska,LEK,1,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.992361,94.107,93.662,93.028,94.196,93.229,93.996,90.615,97.377
+j-2026,Śląskie,Gastroenterologia,lekarska,LEK,2,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.996,93.865,93.539,92.857,94.129,93.32,93.783,90.402,97.164
+j-2026,Podlaskie,Dermatologia i wenerologia,lekarska,LEK,2,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.990415,93.74,93.358,92.713,93.917,93.073,93.645,90.264,97.026
+j-2026,Podlaskie,Endokrynologia,lekarska,LEK,2,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.988815,93.478,93.058,92.426,93.582,92.629,93.373,89.992,96.754
+j-2026,Pomorskie,Chirurgia plastyczna,lekarska,LEK,2,3,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.986092,92.924,92.435,91.816,92.947,91.859,92.802,89.421,96.183
+j-2026,Zachodniopomorskie,Reumatologia,lekarska,LEK,1,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.994413,92.429,92.039,91.354,92.612,91.772,92.331,88.95,95.712
+j-2026,Zachodniopomorskie,Chirurgia plastyczna,lekarska,LEK,1,3,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.972498,92.223,91.725,91.111,92.231,91.18,92.099,88.718,95.48
+j-2026,Lubelskie,Reumatologia,lekarska,LEK,2,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995883,92.145,91.723,91.039,92.307,91.345,92.039,88.658,95.42
+j-2026,Kujawsko-pomorskie,Reumatologia,lekarska,LEK,1,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995555,92.091,91.616,90.992,92.208,91.14,91.972,88.591,95.353
+j-2026,Dolnośląskie,Otorynolaryngologia,lekarska,LEK,1,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.997344,91.876,91.41,90.767,92.026,91.011,91.759,88.378,95.14
+j-2026,Wielkopolskie,Reumatologia,lekarska,LEK,2,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.996151,91.88,91.394,90.772,91.953,90.929,91.759,88.378,95.14
+j-2026,Śląskie,Alergologia,lekarska,LEK,1,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995031,91.652,91.259,90.596,91.848,90.948,91.554,88.173,94.935
+j-2026,Świętokrzyskie,Reumatologia,lekarska,LEK,2,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.993245,91.598,91.316,90.634,91.899,91.168,91.528,88.147,94.909
+j-2026,Podkarpackie,Reumatologia,lekarska,LEK,2,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995567,91.604,91.269,90.599,91.878,91.044,91.52,88.139,94.901
+j-2026,Śląskie,Endokrynologia i diabetologia dziecięca,lekarska,LEK,2,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.991041,91.459,91.212,90.503,91.763,91.168,91.397,88.016,94.778
+j-2026,Podlaskie,Otorynolaryngologia,lekarska,LEK,1,7,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995578,91.409,91.069,90.385,91.686,90.955,91.324,87.943,94.705
+j-2026,Podlaskie,Gastroenterologia,lekarska,LEK,5,7,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.980186,91.323,91.104,90.401,91.706,91.061,91.268,87.887,94.649
+j-2026,Śląskie,Ortodoncja,stomatologiczna,LDEK,3,7,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.997469,90.962,91.88,91.521,91.51,92.964,91.192,87.811,94.573
+j-2026,Łódzkie,Reumatologia,lekarska,LEK,4,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.996198,91.233,90.927,90.246,91.504,90.745,91.157,87.776,94.538
+j-2026,Dolnośląskie,Urologia,lekarska,LEK,2,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.997177,91.239,90.836,90.184,91.45,90.505,91.138,87.757,94.519
+j-2026,Mazowieckie,Neurochirurgia,lekarska,LEK,1,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.997195,91.215,90.773,90.099,91.335,90.435,91.105,87.724,94.486
+j-2026,Pomorskie,Alergologia,lekarska,LEK,1,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.994989,91.177,90.778,90.118,91.383,90.465,91.077,87.696,94.458
+j-2026,Łódzkie,Gastroenterologia,lekarska,LEK,6,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.989831,91.115,90.857,90.177,91.43,90.713,91.051,87.67,94.432
+j-2026,Pomorskie,Otorynolaryngologia,lekarska,LEK,3,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.996873,91.132,90.793,90.128,91.398,90.559,91.048,87.667,94.429
+j-2026,Małopolskie,Urologia,lekarska,LEK,4,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995498,91.13,90.742,90.063,91.352,90.431,91.033,87.652,94.414
+j-2026,Małopolskie,Otorynolaryngologia,lekarska,LEK,4,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.996434,91.029,90.715,90.033,91.354,90.588,90.951,87.57,94.332
+j-2026,Zachodniopomorskie,Gastroenterologia,lekarska,LEK,2,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.985107,91.009,90.667,90.008,91.231,90.412,90.924,87.543,94.305
+j-2026,Łódzkie,Radiologia i diagnostyka obrazowa,lekarska,LEK,7,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.998523,90.927,90.588,89.918,91.186,90.327,90.843,87.462,94.224
+j-2026,Podkarpackie,Okulistyka,lekarska,LEK,4,7,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.997184,90.811,90.55,89.852,91.168,90.484,90.746,87.365,94.127
+j-2026,Wielkopolskie,Ortodoncja,stomatologiczna,LDEK,3,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995044,90.494,91.322,91.008,90.963,92.275,90.701,87.32,94.082
+j-2026,Małopolskie,Alergologia,lekarska,LEK,3,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.989602,90.708,90.362,89.679,91.005,90.134,90.621,87.24,94.002
+j-2026,Podlaskie,Kardiologia,lekarska,LEK,2,7,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.998442,90.671,90.334,89.638,90.925,90.23,90.587,87.206,93.968
+j-2026,Podlaskie,Urologia,lekarska,LEK,1,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.99503,90.514,90.085,89.437,90.649,89.741,90.406,87.025,93.787
+j-2026,Opolskie,Otorynolaryngologia,lekarska,LEK,1,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.991043,90.459,90.008,89.391,90.541,89.599,90.346,86.965,93.727
+j-2026,Podlaskie,Okulistyka,lekarska,LEK,2,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995295,90.353,89.87,89.236,90.39,89.371,90.232,86.851,93.613
+j-2026,Świętokrzyskie,Otorynolaryngologia,lekarska,LEK,1,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995196,90.301,89.957,89.336,90.566,89.734,90.215,86.834,93.596
+j-2026,Mazowieckie,Endokrynologia i diabetologia dziecięca,lekarska,LEK,7,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.987741,90.145,89.762,89.08,90.257,89.313,90.049,86.668,93.43
+j-2026,Mazowieckie,Alergologia,lekarska,LEK,3,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995318,90.041,89.63,88.973,90.177,89.225,89.938,86.557,93.319
+j-2026,Pomorskie,Ortodoncja,stomatologiczna,LDEK,3,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.995475,89.734,90.531,90.23,90.136,91.335,89.934,86.553,93.315
+j-2026,Mazowieckie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.998413,89.674,90.471,90.093,90.079,91.431,89.873,86.492,93.254
+j-2026,Wielkopolskie,Diabetologia,lekarska,LEK,1,3,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.992439,89.701,89.171,88.57,89.708,88.615,89.568,86.187,92.949
+j-2026,Pomorskie,Reumatologia,lekarska,LEK,6,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.991938,89.616,89.203,88.568,89.728,88.772,89.513,86.132,92.894
+j-2026,Kujawsko-pomorskie,Neurochirurgia,lekarska,LEK,1,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.982703,89.558,89.166,88.505,89.807,88.901,89.46,86.079,92.841
+j-2026,Pomorskie,Neurochirurgia,lekarska,LEK,1,3,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.993505,89.58,89.073,88.464,89.618,88.505,89.453,86.072,92.834
+j-2026,Podlaskie,Ortodoncja,stomatologiczna,LDEK,1,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.991655,89.271,89.97,89.689,89.501,90.626,89.446,86.065,92.827
+j-2026,Lubelskie,Otorynolaryngologia,lekarska,LEK,3,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.992349,89.538,89.077,88.427,89.657,88.592,89.423,86.042,92.804
+j-2026,Warmińsko-mazurskie,Reumatologia,lekarska,LEK,3,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.986996,89.43,89.046,88.403,89.563,88.605,89.334,85.953,92.715
+j-2026,Śląskie,Neurochirurgia,lekarska,LEK,2,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.987357,89.437,88.989,88.335,89.55,88.531,89.325,85.944,92.706
+j-2026,Łódzkie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,7,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.996726,89.097,89.977,89.574,89.602,91.064,89.317,85.936,92.698
+j-2026,Opolskie,Okulistyka,lekarska,LEK,5,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.988137,89.41,89.02,88.394,89.572,88.66,89.313,85.932,92.694
+j-2026,Lubelskie,Psychiatria dzieci i młodzieży,lekarska,LEK,1,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.996648,89.339,88.962,88.252,89.591,88.81,89.245,85.864,92.626
+j-2026,Małopolskie,Neurochirurgia,lekarska,LEK,2,3,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.986143,89.262,88.758,88.124,89.376,88.242,89.136,85.755,92.517
+j-2026,Kujawsko-pomorskie,Urologia,lekarska,LEK,5,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.989388,89.149,88.807,88.137,89.395,88.509,89.064,85.683,92.445
+j-2026,Świętokrzyskie,Okulistyka,lekarska,LEK,3,3,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.99198,89.086,88.655,88.066,89.228,88.179,88.978,85.597,92.359
+j-2026,Świętokrzyskie,Urologia,lekarska,LEK,2,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.991758,89.053,88.692,88.07,89.266,88.364,88.963,85.582,92.344
+j-2026,Lubelskie,Alergologia,lekarska,LEK,2,3,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.977761,89.068,88.597,87.951,89.16,88.064,88.95,85.569,92.331
+j-2026,Łódzkie,Alergologia,lekarska,LEK,2,3,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.989645,89.062,88.611,87.99,89.149,88.082,88.949,85.568,92.33
+j-2026,Łódzkie,Ortodoncja,stomatologiczna,LDEK,3,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.993533,88.759,89.52,89.259,89.136,90.242,88.949,85.568,92.33
+j-2026,Lubuskie,Okulistyka,lekarska,LEK,3,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.992468,89.004,88.589,87.962,89.144,88.201,88.901,85.52,92.282
+j-2026,Mazowieckie,Neurologia dziecięca,lekarska,LEK,2,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.986853,88.986,88.629,87.943,89.194,88.377,88.897,85.516,92.278
+j-2026,Wielkopolskie,Neurologia dziecięca,lekarska,LEK,1,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.961858,88.797,88.31,87.633,88.83,87.834,88.675,85.294,92.056
+j-2026,Lubelskie,Urologia,lekarska,LEK,7,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.988706,88.726,88.308,87.643,88.854,87.832,88.622,85.241,92.003
+j-2026,Lubuskie,Urologia,lekarska,LEK,4,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.986384,88.618,88.356,87.687,88.968,88.267,88.552,85.171,91.933
+j-2026,Zachodniopomorskie,Okulistyka,lekarska,LEK,8,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.985089,88.647,88.22,87.596,88.763,87.737,88.54,85.159,91.921
+j-2026,Małopolskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,3,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.993617,88.312,89.043,88.703,88.67,89.805,88.495,85.114,91.876
+j-2026,Wielkopolskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.993213,88.301,88.981,88.667,88.58,89.679,88.471,85.09,91.852
+j-2026,Śląskie,Otorynolaryngologia dziecięca,lekarska,LEK,2,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.988163,88.491,88.137,87.46,88.721,87.86,88.402,85.021,91.783
+j-2026,Zachodniopomorskie,Psychiatria dzieci i młodzieży,lekarska,LEK,1,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.993226,88.449,88.084,87.38,88.644,87.913,88.358,84.977,91.739
+j-2026,Mazowieckie,Choroby płuc dzieci,lekarska,LEK,5,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.918893,88.462,88.043,87.382,88.61,87.631,88.357,84.976,91.738
+j-2026,Warmińsko-mazurskie,Okulistyka,lekarska,LEK,7,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.98935,88.397,88.076,87.42,88.63,87.781,88.317,84.936,91.698
+j-2026,Warmińsko-mazurskie,Otorynolaryngologia,lekarska,LEK,1,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.991417,88.417,87.972,87.335,88.484,87.546,88.306,84.925,91.687
+j-2026,Małopolskie,Psychiatria dzieci i młodzieży,lekarska,LEK,2,3,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.993919,88.418,87.886,87.236,88.446,87.34,88.285,84.904,91.666
+j-2026,Warmińsko-mazurskie,Urologia,lekarska,LEK,2,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.988762,88.356,87.948,87.3,88.475,87.519,88.254,84.873,91.635
+j-2026,Dolnośląskie,Diabetologia,lekarska,LEK,2,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.989728,88.213,87.808,87.162,88.373,87.47,88.112,84.731,91.493
+j-2026,Świętokrzyskie,Radiologia i diagnostyka obrazowa,lekarska,LEK,8,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.993196,88.185,87.827,87.214,88.397,87.463,88.096,84.715,91.477
+j-2026,Zachodniopomorskie,Urologia,lekarska,LEK,5,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.974144,87.976,87.562,86.914,88.092,87.099,87.872,84.491,91.253
+j-2026,Zachodniopomorskie,Ortodoncja,stomatologiczna,LDEK,2,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.985919,87.624,88.449,88.145,88.032,89.401,87.83,84.449,91.211
+j-2026,Wielkopolskie,Chirurgia naczyniowa,lekarska,LEK,2,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.983817,87.921,87.52,86.847,88.097,87.24,87.821,84.44,91.202
+j-2026,Mazowieckie,Periodontologia,stomatologiczna,LDEK,2,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.998099,87.523,88.215,87.893,87.72,88.946,87.696,84.315,91.077
+j-2026,Mazowieckie,Gastroenterologia dziecięca,lekarska,LEK,4,3,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.963949,87.775,87.294,86.648,87.802,86.781,87.654,84.273,91.035
+j-2026,Wielkopolskie,Psychiatria dzieci i młodzieży,lekarska,LEK,3,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.991279,87.764,87.291,86.64,87.844,86.855,87.646,84.265,91.027
+j-2026,Podlaskie,Diabetologia,lekarska,LEK,5,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.970924,87.632,87.383,86.71,87.992,87.27,87.57,84.189,90.951
+j-2026,Pomorskie,Psychiatria dzieci i młodzieży,lekarska,LEK,3,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.993024,87.528,87.07,86.415,87.624,86.61,87.413,84.032,90.794
+j-2026,Świętokrzyskie,Chirurgia stomatologiczna,stomatologiczna,LDEK,2,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.98632,86.969,87.816,87.464,87.411,88.758,87.181,83.8,90.562
+j-2026,Pomorskie,Choroby płuc,lekarska,LEK,2,6,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.994067,87.122,86.739,86.059,87.362,86.504,87.026,83.645,90.407
+j-2026,Mazowieckie,Chirurgia naczyniowa,lekarska,LEK,3,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.989142,87.106,86.647,85.95,87.136,86.186,86.991,83.61,90.372
+j-2026,Podkarpackie,Otorynolaryngologia,lekarska,LEK,4,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.984704,86.956,86.553,85.929,87.103,86.178,86.855,83.474,90.236
+j-2026,Zachodniopomorskie,Kardiologia,lekarska,LEK,8,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.99188,86.887,86.496,85.857,87.087,86.193,86.789,83.408,90.17
+j-2026,Podlaskie,Psychiatria dzieci i młodzieży,lekarska,LEK,2,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.985438,86.777,86.329,85.681,86.855,85.911,86.665,83.284,90.046
+j-2026,Śląskie,Kardiologia dziecięca,lekarska,LEK,4,3,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.934439,86.301,85.882,85.238,86.433,85.424,86.196,82.815,89.577
+j-2026,Wielkopolskie,Chirurgia onkologiczna,lekarska,LEK,4,5,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.899039,86.068,85.697,85.026,86.305,85.511,85.975,82.594,89.356
+j-2026,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,lekarska,LEK,4,4,B_wysoki_prog_mala_pula,sredni,poprzednia_sesja,0.970762,84.936,84.541,83.847,85.01,84.115,84.837,81.456,88.218

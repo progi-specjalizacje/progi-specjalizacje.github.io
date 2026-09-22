@@ -4,7 +4,7 @@
  */
 export const LIMIT_SPECIALTY_SEARCH = false;
 
-export const ALLOWED_SPECIALTIES_FOR_SEARCH = [
+export const DENTAL_SPECIALTIES = [
   "Ortodoncja",
   "Protetyka stomatologiczna",
   "Chirurgia stomatologiczna",
@@ -14,3 +14,13 @@ export const ALLOWED_SPECIALTIES_FOR_SEARCH = [
   "Chirurgia szczękowo-twarzowa",
   "Zdrowie publiczne",
 ] as const;
+
+const dentalSpecialtySet = new Set<string>(DENTAL_SPECIALTIES);
+
+export function getMedicalSpecialties(allSpecialties: readonly string[]): string[] {
+  return allSpecialties.filter((specialty) => !dentalSpecialtySet.has(specialty));
+}
+
+export function isDentalSpecialty(specialty: string): boolean {
+  return dentalSpecialtySet.has(specialty);
+}

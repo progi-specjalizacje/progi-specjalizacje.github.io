@@ -1,6 +1,7 @@
 import {
-  ALLOWED_SPECIALTIES_FOR_SEARCH,
+  DENTAL_SPECIALTIES,
   LIMIT_SPECIALTY_SEARCH,
+  getMedicalSpecialties,
 } from "../config/specialtySearchFilter";
 import type { PrzedstawWynikJako, ReportFilters, ReportRow, TrybSzkolenia } from "../types";
 import * as metadata from "./reportMetadata";
@@ -22,12 +23,14 @@ function calculateWynikProcLubPunkty(row: ReportRow, przedstawWynikJako: Przedst
   return row.punktacja_proc;
 }
 
+export const MEDICAL_SPECIALTIES = getMedicalSpecialties(metadata.dziedziny);
+
 function getSearchableDziedziny(): string[] {
   if (!LIMIT_SPECIALTY_SEARCH) {
     return metadata.dziedziny;
   }
 
-  const allowed = new Set<string>(ALLOWED_SPECIALTIES_FOR_SEARCH);
+  const allowed = new Set<string>(DENTAL_SPECIALTIES);
   return metadata.dziedziny.filter((dziedzina) => allowed.has(dziedzina));
 }
 

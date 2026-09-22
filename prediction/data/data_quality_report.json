@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-09-22T20:02:22.242Z",
+  "sources": {
+    "ranking_files": [
+      "j-2023_parsed.csv",
+      "j-2024_parsed.csv",
+      "j-2025_parsed.csv",
+      "w-2023_parsed.csv",
+      "w-2024_parsed.csv",
+      "w-2025_parsed.csv",
+      "w-2026_parsed.csv"
+    ],
+    "exam_file": "even more source data/cem_lek_ldek_wyniki_2023w_2026j.csv",
+    "exam_sd_file": "prediction/sources/cem_exam_standard_deviation.csv",
+    "places_file": "prediction/data/cmkp_places.csv"
+  },
+  "filters": {
+    "tryb_szkolenia": "Rezydencki",
+    "miejsca_doktoranckie": "wykluczone",
+    "specjalizacje_mieszane": [
+      "Chirurgia szczękowo-twarzowa",
+      "Epidemiologia",
+      "Zdrowie publiczne"
+    ]
+  },
+  "counts": {
+    "source_ranking_rows": 25767,
+    "model_groups": 6008,
+    "groups_with_observed_threshold": 3827,
+    "offered_groups_without_accepted_candidate": 1379,
+    "future_groups_ready_for_prediction": 802,
+    "medical_groups": 5541,
+    "dental_groups": 467,
+    "single_person_groups": 1357,
+    "groups_with_at_least_5_people": 1094,
+    "groups_missing_exam_features": 0,
+    "groups_with_current_exam_sd": 5206,
+    "groups_with_previous_exam_sd": 5236,
+    "groups_with_current_sd_used": 5206,
+    "groups_with_previous_sd_fallback": 802,
+    "competition_statuses": {
+      "niepelna_pula": 1902,
+      "niepelna_pula_bez_zakwalifikowanych": 1379,
+      "pelna_pula_proxy_konkurencji": 1925,
+      "wynik_niedostepny": 802
+    },
+    "excluded_mixed_rows": {
+      "Chirurgia szczękowo-twarzowa": 107,
+      "Epidemiologia": 9,
+      "Zdrowie publiczne": 25
+    }
+  },
+  "accepted_group_size": {
+    "minimum": 1,
+    "median": 2,
+    "maximum": 89
+  },
+  "known_limitations": [
+    "Pełne obsadzenie puli jest wskaźnikiem zastępczym konkurencji, ponieważ listy niezakwalifikowanych nie zawierają wariantów ani wyników.",
+    "Suma przystąpień do egzaminów nie oznacza liczby unikalnych kandydatów.",
+    "Archiwum statystyk CEM zawiera odchylenie standardowe do wiosny 2026; dla jesieni 2026 dostępne jest tylko odchylenie poprzedniej sesji.",
+    "Nie są dostępne górne percentyle wyników kandydatów ani liczba unikalnych osób kandydujących.",
+    "Najniższy wynik zakwalifikowanego nie jest progiem konkurencyjnym przy niewypełnionej puli miejsc."
+  ]
+}
