@@ -1,0 +1,392 @@
+[
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 79.72,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 7,
+    "najnizszy_wynik_proc": 64.81,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 66.51,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 66.36,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 7,
+    "najnizszy_wynik_proc": 68.64,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 61.82,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 6,
+    "najnizszy_wynik_proc": 76.42,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 72.81,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 10,
+    "najnizszy_wynik_proc": 70.91,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 83.41,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 70.79,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 7,
+    "najnizszy_wynik_proc": 71.82,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": 75.45,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 56.6,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 6,
+    "najnizszy_wynik_proc": 74.55,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 82.27,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 70.91,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 80,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 71.59,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": 70.91,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 71.5,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 61.82,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 66.36,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 75,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 7,
+    "najnizszy_wynik_proc": 77.31,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 9,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  }
+]

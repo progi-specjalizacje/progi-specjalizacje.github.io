@@ -1,0 +1,672 @@
+[
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 65,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 84.06,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 83.57,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 88.48,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 80,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 85.37,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 84.06,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 59.43,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 82.61,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 82.61,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 86.23,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 82.84,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 88.16,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 87.8,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 88.29,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 73.39,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 86.47,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 58.26,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 79.76,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 87.08,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 70.91,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 90.19,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 85.65,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 73.17,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 91.87,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 77.98,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 88.05,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 66.36,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 69.18,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 85.17,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 63.47,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 77.98,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 83.82,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 73.38,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 84.54,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 82.13,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 75.36,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 86.83,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 60,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 78.18,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 85.02,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 77.36,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 52.27,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 72.64,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 83.9,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 87.14,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 74.07,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 84.8,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": 71.23,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 85.51,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 77.27,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 75.23,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 85.1,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 6,
+    "najnizszy_wynik_proc": 58.02,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 89.52,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 71.2,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  }
+]

@@ -8,6 +8,7 @@ const __dirname = path.dirname(__filename);
 const SOURCE_DIR = path.join(__dirname, "../source_data");
 const OUTPUT_DIR = path.join(__dirname, "../public/data");
 const METADATA_FILE = path.join(__dirname, "../src/data/reportMetadata.ts");
+const PLACES_FILE = path.join(__dirname, "../prediction/data/cmkp_places.csv");
 
 // Create output directory if it doesn't exist
 if (!fs.existsSync(OUTPUT_DIR)) {
@@ -112,6 +113,23 @@ function parseCsv(csvText) {
   return rows;
 }
 
+function parseRawCsv(csvText) {
+  const lines = csvText.trim().split(/\r?\n/);
+  if (lines.length <= 1) return [];
+  const headers = parseCsvLine(lines[0]);
+
+  return lines.slice(1).filter(Boolean).map((line) => {
+    const values = parseCsvLine(line);
+    return Object.fromEntries(headers.map((header, index) => [header, values[index] ?? ""]));
+  });
+}
+
+function numericOrNull(value) {
+  if (value === "" || value === null || value === undefined) return null;
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
 function slugify(text) {
   const polishChars = {
     'ą': 'a', 'ć': 'c', 'ę': 'e', 'ł': 'l', 'ń': 'n', 'ó': 'o', 'ś': 's', 'ź': 'z', 'ż': 'z',
@@ -167,12 +185,70 @@ const dziedziny = Object.keys(grouped).sort((a, b) => a.localeCompare(b, "pl"));
 
 const rekrutacje = [...new Set(allRows.map((r) => r.rekrutacja).filter(Boolean))];
 rekrutacje.sort((a, b) => (recruitmentOrder[b] || 0) - (recruitmentOrder[a] || 0));
+const completedRecruitments = new Set(rekrutacje);
+
+const placesRows = fs.existsSync(PLACES_FILE)
+  ? parseRawCsv(fs.readFileSync(PLACES_FILE, "utf-8"))
+  : [];
+if (placesRows.length === 0) {
+  console.warn("Nie znaleziono danych CMKP o liczbie miejsc; status progów będzie nieustalony.");
+}
+
+const candidatePools = new Map();
+for (const row of allRows) {
+  if (row.czy_miejsca_doktoranckie === "TAK") continue;
+  const key = [row.rekrutacja, row.wojewodztwo, row.dziedzina_medycyny, row.tryb_szkolenia].join("::");
+  if (!candidatePools.has(key)) candidatePools.set(key, []);
+  candidatePools.get(key).push(row);
+}
+
+const capacityByPool = new Map();
+for (const row of placesRows) {
+  if (!completedRecruitments.has(row.rekrutacja)) continue;
+  const residentKey = [row.rekrutacja, row.wojewodztwo, row.dziedzina_medycyny, "Rezydencki"].join("::");
+  const nonResidentKey = [row.rekrutacja, row.wojewodztwo, row.dziedzina_medycyny, "Pozarezydencki"].join("::");
+  capacityByPool.set(residentKey, numericOrNull(row.miejsca_rezydenckie_zwykle));
+  capacityByPool.set(nonResidentKey, numericOrNull(row.miejsca_pozarezydenckie));
+}
+
+const poolKeys = new Set(candidatePools.keys());
+for (const [key, capacity] of capacityByPool) {
+  if (capacity > 0) poolKeys.add(key);
+}
+
+const poolsBySpecialty = {};
+for (const key of poolKeys) {
+  const [rekrutacja, wojewodztwo, dziedzinaMedycyny, trybSzkolenia] = key.split("::");
+  const candidates = candidatePools.get(key) ?? [];
+  const capacity = capacityByPool.get(key) ?? null;
+  const accepted = candidates.length;
+  const scores = candidates.map((row) => Number(row.punktacja_proc)).filter(Number.isFinite);
+  let status = "missing_capacity";
+  if (capacity !== null && accepted === 0 && capacity > 0) status = "no_accepted";
+  else if (capacity !== null && accepted < capacity) status = "underfilled";
+  else if (capacity !== null && capacity > 0 && accepted === capacity) status = "full";
+  else if (capacity !== null && accepted >= capacity) status = "inconsistent";
+
+  const pool = {
+    rekrutacja,
+    wojewodztwo,
+    dziedzina_medycyny: dziedzinaMedycyny,
+    tryb_szkolenia: trybSzkolenia,
+    liczba_zakwalifikowanych: accepted,
+    liczba_miejsc: capacity,
+    najnizszy_wynik_proc: scores.length > 0 ? Math.min(...scores) : null,
+    status_konkurencyjnosci: status,
+  };
+  if (!poolsBySpecialty[dziedzinaMedycyny]) poolsBySpecialty[dziedzinaMedycyny] = [];
+  poolsBySpecialty[dziedzinaMedycyny].push(pool);
+}
 
 console.log(`Znaleziono specjalizacji: ${dziedziny.length}`);
 console.log("Kolejność rekrutacji (od najnowszej):", rekrutacje);
 
 // Write individual JSON files
 const specialtyFilesMap = {};
+const specialtyPoolFilesMap = {};
 for (const specialty of dziedziny) {
   const slug = slugify(specialty);
   const fileName = `specialty_${slug}.json`;
@@ -180,6 +256,14 @@ for (const specialty of dziedziny) {
   
   fs.writeFileSync(outputPath, JSON.stringify(grouped[specialty], null, 2), "utf-8");
   specialtyFilesMap[specialty] = fileName;
+
+  const poolFileName = `pools_${slug}.json`;
+  fs.writeFileSync(
+    path.join(OUTPUT_DIR, poolFileName),
+    JSON.stringify(poolsBySpecialty[specialty] ?? [], null, 2),
+    "utf-8",
+  );
+  specialtyPoolFilesMap[specialty] = poolFileName;
 }
 
 console.log("Zapisano pliki JSON specjalizacji.");
@@ -200,6 +284,8 @@ export const przedstawWynikJako: PrzedstawWynikJako[] = [
 ];
 
 export const specialtyFilesMap: Record<string, string> = ${JSON.stringify(specialtyFilesMap, null, 2)};
+
+export const specialtyPoolFilesMap: Record<string, string> = ${JSON.stringify(specialtyPoolFilesMap, null, 2)};
 `;
 
 fs.writeFileSync(METADATA_FILE, metadataContent, "utf-8");

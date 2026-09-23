@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { getReportOptions } from "../data/reportData";
 import { useFilteredRows } from "../hooks/useFilteredRows";
+import { useFilteredPools } from "../hooks/useFilteredPools";
 import { useFilterStore } from "../state/filterStore";
 import { formatByType } from "../utils/formatters";
 import { summarizeRecruitments } from "../utils/reportMetrics";
@@ -24,9 +25,13 @@ function scale(value: number, min: number, max: number, outputMin: number, outpu
 export function SummaryChart() {
   const [chartMode, setChartMode] = useState<ChartMode>("points");
   const rows = useFilteredRows();
+  const pools = useFilteredPools();
   const przedstawWynikJako = useFilterStore((state) => state.filters.przedstawWynikJako);
   const scoreAsPoints = przedstawWynikJako === "surowa ilość punktów rekrutacyjnych (poglądowo)";
-  const summaries = useMemo(() => summarizeRecruitments(rows, getReportOptions().rekrutacje), [rows]);
+  const summaries = useMemo(
+    () => summarizeRecruitments(rows, pools, getReportOptions().rekrutacje),
+    [pools, rows],
+  );
   const visibleSeries =
     chartMode === "points"
       ? series.filter((item) => item.key === "averageThreshold" || item.key === "medianQualifiedScore")
@@ -66,7 +71,7 @@ export function SummaryChart() {
             <i style={{ background: item.color }} />
             {item.label}
             {item.key === "averageThreshold" && (
-              <InfoTooltip text="Metryka jest wyliczana poprzez określenie progu kwalifikacji w każdym województwie (wyniku ostatniego zakwalifikowanego kandydata), a następnie obliczenie średniej arytmetycznej tych wartości. Ponieważ każde województwo ma jednakową wagę, wartość ta może być niższa lub wyższa od średniej wyników wszystkich zakwalifikowanych kandydatów." />
+              <InfoTooltip text="Średnia obejmuje wyłącznie województwa, w których obsadzono wszystkie oferowane miejsca. Najniższy wynik z niewypełnionej puli nie jest traktowany jako próg konkurencyjny." />
             )}
           </span>
         ))}

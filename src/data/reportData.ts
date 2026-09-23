@@ -3,7 +3,13 @@ import {
   LIMIT_SPECIALTY_SEARCH,
   getMedicalSpecialties,
 } from "../config/specialtySearchFilter";
-import type { PrzedstawWynikJako, ReportFilters, ReportRow, TrybSzkolenia } from "../types";
+import type {
+  PrzedstawWynikJako,
+  RecruitmentPool,
+  ReportFilters,
+  ReportRow,
+  TrybSzkolenia,
+} from "../types";
 import * as metadata from "./reportMetadata";
 
 export const wynikPresentationOptions: PrzedstawWynikJako[] = [
@@ -45,6 +51,7 @@ export function getReportOptions() {
 
 // In-memory cache for loaded specialty JSONs
 const specialtyCache: Record<string, ReportRow[]> = {};
+const specialtyPoolCache: Record<string, RecruitmentPool[]> = {};
 
 export async function fetchSpecialtyData(specialty: string): Promise<ReportRow[]> {
   if (specialtyCache[specialty]) {
@@ -75,6 +82,26 @@ export async function fetchSpecialtyData(specialty: string): Promise<ReportRow[]
     return parsedData;
   } catch (error) {
     console.error("Error loading specialty data:", error);
+    return [];
+  }
+}
+
+export async function fetchSpecialtyPools(specialty: string): Promise<RecruitmentPool[]> {
+  if (specialtyPoolCache[specialty]) return specialtyPoolCache[specialty];
+
+  const fileName = metadata.specialtyPoolFilesMap[specialty];
+  if (!fileName) return [];
+
+  try {
+    const response = await fetch(`/data/${fileName}`);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch pool data for "${specialty}": ${response.statusText}`);
+    }
+    const data = (await response.json()) as RecruitmentPool[];
+    specialtyPoolCache[specialty] = data;
+    return data;
+  } catch (error) {
+    console.error("Error loading pool data:", error);
     return [];
   }
 }

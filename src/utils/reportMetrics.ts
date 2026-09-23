@@ -1,4 +1,4 @@
-import type { DashboardMetric, ReportRow } from "../types";
+import type { DashboardMetric, RecruitmentPool, ReportRow } from "../types";
 
 export interface RecruitmentSummary {
   rekrutacja: string;
@@ -26,48 +26,55 @@ export function average(values: number[]) {
   return filtered.reduce((total, value) => total + value, 0) / filtered.length;
 }
 
-export function summarizeRecruitment(rows: ReportRow[], rekrutacja: string): RecruitmentSummary {
+function poolKey(pool: RecruitmentPool) {
+  return `${pool.rekrutacja}::${pool.wojewodztwo}`;
+}
+
+export function summarizeRecruitment(
+  rows: ReportRow[],
+  pools: RecruitmentPool[],
+  rekrutacja: string,
+): RecruitmentSummary {
   const recruitmentRows = rows.filter((row) => row.rekrutacja === rekrutacja);
-  const regionKeys = [...new Set(recruitmentRows.map((row) => row.wojewodztwo))];
-  const thresholdsByRegion = regionKeys.map((region) => {
+  const recruitmentPools = pools.filter((pool) => pool.rekrutacja === rekrutacja);
+  const fullRegions = recruitmentPools
+    .filter((pool) => pool.status_konkurencyjnosci === "full")
+    .map((pool) => pool.wojewodztwo);
+  const thresholdsByRegion = fullRegions.map((region) => {
     const regionRows = recruitmentRows.filter((row) => row.wojewodztwo === region);
     return Math.min(...regionRows.map((row) => row.wynik_proc_lub_punkty));
   });
-  const placesByRegion = regionKeys.map((region) => {
-    const regionRows = recruitmentRows.filter((row) => row.wojewodztwo === region);
-    return median(regionRows.map((row) => row.ilosc_zakwalifikowanych_w_trybie));
-  });
+  const offeredPlaces = finiteValues(recruitmentPools.map((pool) => pool.liczba_miejsc ?? Number.NaN));
 
   return {
     rekrutacja,
     averageThreshold: average(thresholdsByRegion),
     medianQualifiedScore: average(recruitmentRows.map((row) => row.wynik_proc_lub_punkty)),
-    totalPlaces:
-      regionKeys.length === 0 ? Number.NaN : finiteValues(placesByRegion).reduce((total, value) => total + value, 0),
+    totalPlaces: offeredPlaces.length === 0 ? Number.NaN : offeredPlaces.reduce((total, value) => total + value, 0),
   };
 }
 
-export function summarizeRecruitments(rows: ReportRow[], rekrutacje: string[]) {
-  return rekrutacje.map((rekrutacja) => summarizeRecruitment(rows, rekrutacja));
+export function summarizeRecruitments(rows: ReportRow[], pools: RecruitmentPool[], rekrutacje: string[]) {
+  return rekrutacje.map((rekrutacja) => summarizeRecruitment(rows, pools, rekrutacja));
 }
 
-export function summarizeActiveFilters(rows: ReportRow[]): Pick<RecruitmentSummary, DashboardMetric> {
-  const regionKeys = [...new Set(rows.map((row) => `${row.rekrutacja}::${row.wojewodztwo}`))];
-  const thresholdsByRegion = regionKeys.map((key) => {
+export function summarizeActiveFilters(
+  rows: ReportRow[],
+  pools: RecruitmentPool[],
+): Pick<RecruitmentSummary, DashboardMetric> {
+  const fullPoolKeys = new Set(
+    pools.filter((pool) => pool.status_konkurencyjnosci === "full").map(poolKey),
+  );
+  const thresholdsByRegion = [...fullPoolKeys].map((key) => {
     const [rekrutacja, wojewodztwo] = key.split("::");
     const regionRows = rows.filter((row) => row.rekrutacja === rekrutacja && row.wojewodztwo === wojewodztwo);
     return Math.min(...regionRows.map((row) => row.wynik_proc_lub_punkty));
   });
-  const placesByRegion = regionKeys.map((key) => {
-    const [rekrutacja, wojewodztwo] = key.split("::");
-    const regionRows = rows.filter((row) => row.rekrutacja === rekrutacja && row.wojewodztwo === wojewodztwo);
-    return median(regionRows.map((row) => row.ilosc_zakwalifikowanych_w_trybie));
-  });
+  const offeredPlaces = finiteValues(pools.map((pool) => pool.liczba_miejsc ?? Number.NaN));
 
   return {
     averageThreshold: average(thresholdsByRegion),
     medianQualifiedScore: average(rows.map((row) => row.wynik_proc_lub_punkty)),
-    totalPlaces:
-      regionKeys.length === 0 ? Number.NaN : finiteValues(placesByRegion).reduce((total, value) => total + value, 0),
+    totalPlaces: offeredPlaces.length === 0 ? Number.NaN : offeredPlaces.reduce((total, value) => total + value, 0),
   };
 }

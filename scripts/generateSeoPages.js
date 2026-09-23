@@ -14,7 +14,7 @@ const EXCLUDED_SPECIALTY_COUNT = 20;
 const SIMILAR_THRESHOLD_TOLERANCE = 1;
 const MODES = ["Rezydencki", "Pozarezydencki"];
 const HISTORY_HEADERS = [
-  "Rekrutacja", "Liczba miejsc", "Uśredniony próg (%)"
+  "Rekrutacja", "Liczba oferowanych miejsc", "Uśredniony próg konkurencyjny (%)"
 ];
 const REGION_LOCATIVE = {
   "dolnośląskie": "dolnośląskim", "kujawsko-pomorskie": "kujawsko-pomorskim",
@@ -94,7 +94,7 @@ function countQualifiedApplicants(rows) {
   return unique.size;
 }
 
-function analyzeSpecialtyData(rows) {
+function analyzeSpecialtyData(rows, pools) {
   const cleanedRows = rows.filter((row) => row.czy_miejsca_doktoranckie !== "TAK");
   const order = {};
   for (const row of cleanedRows) {
@@ -109,32 +109,39 @@ function analyzeSpecialtyData(rows) {
   for (const mode of MODES) {
     const maxPoints = mode === "Rezydencki" ? 210 : 220;
     const modeRows = cleanedRows.filter((row) => row.tryb_szkolenia === mode);
-    if (!modeRows.length) { result[mode] = null; continue; }
+    const modePools = pools.filter((pool) => pool.tryb_szkolenia === mode);
+    if (!modeRows.length && !modePools.length) { result[mode] = null; continue; }
     const history = [];
     const regionalStats = {};
 
     for (const recruitment of recruitments) {
       const recruitmentRows = modeRows.filter((row) => row.rekrutacja === recruitment);
-      if (!recruitmentRows.length) continue;
-      const regions = [...new Set(recruitmentRows.map((row) => row.wojewodztwo).filter(Boolean))];
+      const recruitmentPools = modePools.filter((pool) => pool.rekrutacja === recruitment);
+      if (!recruitmentRows.length && !recruitmentPools.length) continue;
+      const regions = [...new Set(recruitmentPools.map((pool) => pool.wojewodztwo).filter(Boolean))];
       const regionalPlaces = {};
       const regionalThresholds = {};
 
       for (const region of regions) {
-        const regionRows = recruitmentRows.filter((row) => row.wojewodztwo === region);
-        const places = median(regionRows.map((row) => row.ilosc_zakwalifikowanych_w_trybie));
-        const threshold = Math.min(...regionRows.map((row) => row.punktacja_proc));
+        const pool = recruitmentPools.find((item) => item.wojewodztwo === region);
+        const places = pool?.liczba_miejsc;
+        const threshold = pool?.status_konkurencyjnosci === "full" ? pool.najnizszy_wynik_proc : null;
         regionalPlaces[region] = places;
-        regionalThresholds[region] = threshold;
         regionalStats[region] ||= { minScores: [], totalPlaces: 0 };
-        regionalStats[region].minScores.push(threshold);
-        regionalStats[region].totalPlaces += places;
+        if (Number.isFinite(threshold)) {
+          regionalThresholds[region] = threshold;
+          regionalStats[region].minScores.push(threshold);
+        }
+        if (Number.isFinite(places)) regionalStats[region].totalPlaces += places;
       }
+
+      const thresholdValues = Object.values(regionalThresholds);
+      const placeValues = Object.values(regionalPlaces).filter(Number.isFinite);
 
       history.push({
         recruitment,
-        totalPlaces: Object.values(regionalPlaces).reduce((sum, value) => sum + value, 0),
-        averageThreshold: average(Object.values(regionalThresholds)),
+        totalPlaces: placeValues.length ? placeValues.reduce((sum, value) => sum + value, 0) : Number.NaN,
+        averageThreshold: thresholdValues.length ? average(thresholdValues) : Number.NaN,
         meanScore: average(recruitmentRows.map((row) => row.punktacja_proc)),
         lowestScore: Math.min(...recruitmentRows.map((row) => row.punktacja_proc))
       });
@@ -142,13 +149,14 @@ function analyzeSpecialtyData(rows) {
 
     if (!history.length) { result[mode] = null; continue; }
     const latestRecruitment = history[0].recruitment;
-    const latestRows = modeRows.filter((row) => row.rekrutacja === latestRecruitment);
-    const latestRegionalDetails = [...new Set(latestRows.map((row) => row.wojewodztwo).filter(Boolean))]
-      .map((region) => ({ region, places: median(latestRows.filter((row) => row.wojewodztwo === region).map((row) => row.ilosc_zakwalifikowanych_w_trybie)) }))
+    const latestPools = modePools.filter((pool) => pool.rekrutacja === latestRecruitment);
+    const latestRegionalDetails = latestPools
+      .filter((pool) => Number.isFinite(pool.liczba_miejsc))
+      .map((pool) => ({ region: pool.wojewodztwo, places: pool.liczba_miejsc }))
       .sort((a, b) => b.places - a.places || a.region.localeCompare(b.region, "pl"));
 
-    const spring = history.filter((item) => item.recruitment.startsWith("w-"));
-    const autumn = history.filter((item) => item.recruitment.startsWith("j-"));
+    const spring = history.filter((item) => item.recruitment.startsWith("w-") && Number.isFinite(item.averageThreshold));
+    const autumn = history.filter((item) => item.recruitment.startsWith("j-") && Number.isFinite(item.averageThreshold));
     let seasonality = null;
     if (spring.length && autumn.length) {
       const springThreshold = average(spring.map((item) => item.averageThreshold));
@@ -163,7 +171,7 @@ function analyzeSpecialtyData(rows) {
       };
     }
 
-    const regionalAverages = Object.entries(regionalStats).map(([region, data]) => ({
+    const regionalAverages = Object.entries(regionalStats).filter(([, data]) => data.minScores.length).map(([region, data]) => ({
       region, averageThreshold: average(data.minScores), totalPlaces: data.totalPlaces
     }));
     const highest = Math.max(...regionalAverages.map((item) => item.averageThreshold));
@@ -194,18 +202,19 @@ function thresholdRangeHtml(regions, maxPoints) {
 
 function renderSummary(mode, data) {
   const latest = data.history[0];
-  const examPoints = Math.round((latest.averageThreshold / 100) * 200);
+  const hasThreshold = Number.isFinite(latest.averageThreshold);
+  const examPoints = hasThreshold ? Math.round((latest.averageThreshold / 100) * 200) : null;
   return `<div class="summary-group" aria-labelledby="summary-${slugify(mode)}">
     <div class="summary-heading"><h3 id="summary-${slugify(mode)}">${escapeHtml(data.name)} - tryb ${escapeHtml(mode.toLocaleLowerCase("pl"))}</h3><span>${escapeHtml(formatRecruitmentLabel(data.latestRecruitment))}</span></div>
     <div class="metric-grid">
-      <article class="metric"><strong>${Math.round(latest.totalPlaces)}</strong><span>liczba miejsc</span></article>
-      <article class="metric"><strong>${formatPercent(latest.averageThreshold)}</strong><span>uśredniony próg</span></article>
-    </div><p class="exam-equivalent">Co odpowiada wynikowi ok. <strong>${examPoints} pkt</strong> z egzaminu końcowego.*</p></div>`;
+      <article class="metric"><strong>${Number.isFinite(latest.totalPlaces) ? Math.round(latest.totalPlaces) : "—"}</strong><span>liczba oferowanych miejsc</span></article>
+      <article class="metric"><strong>${hasThreshold ? formatPercent(latest.averageThreshold) : "brak progu"}</strong><span>uśredniony próg konkurencyjny</span></article>
+    </div>${hasThreshold ? `<p class="exam-equivalent">Co odpowiada wynikowi ok. <strong>${examPoints} pkt</strong> z egzaminu końcowego.*</p>` : ""}</div>`;
 }
 
 function renderHistoryTable(data) {
   const rows = data.history.map((row) => `<tr><th scope="row">${escapeHtml(formatRecruitmentLabel(row.recruitment))}</th>
-    <td>${Math.round(row.totalPlaces)}</td><td>${formatPercent(row.averageThreshold)}</td></tr>`).join("");
+    <td>${Number.isFinite(row.totalPlaces) ? Math.round(row.totalPlaces) : "—"}</td><td>${Number.isFinite(row.averageThreshold) ? formatPercent(row.averageThreshold) : "brak progu"}</td></tr>`).join("");
   return `<div class="table-scroll" tabindex="0"><table><thead><tr>${HISTORY_HEADERS.map((header) => `<th scope="col">${escapeHtml(header)}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
@@ -217,6 +226,7 @@ function renderSeasonality(data) {
 }
 
 function renderRegionalAnalysis(data) {
+  if (!data.hardestRegions.length) return `<li>Dostępne dane nie pozwalają wyznaczyć konkurencyjnego progu regionalnego.</li>`;
   const hardest = formatRegionLabel(data.hardestRegions.map((item) => item.region));
   return `<li>Historycznie najwyższe progi występowały <strong>${escapeHtml(hardest)}</strong>: ${thresholdRangeHtml(data.hardestRegions, data.maxPoints)}.</li>`;
 }
@@ -305,8 +315,11 @@ function run() {
   const files = fs.readdirSync(DATA_DIR).filter((file) => file.startsWith("specialty_") && file.endsWith(".json"));
   const ranked = files.map((file) => {
     const rows = JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), "utf-8"));
+    const poolsFile = file.replace(/^specialty_/, "pools_");
+    const poolsPath = path.join(DATA_DIR, poolsFile);
+    const pools = fs.existsSync(poolsPath) ? JSON.parse(fs.readFileSync(poolsPath, "utf-8")) : [];
     const specialtyName = rows[0]?.dziedzina_medycyny || file;
-    return { rows, specialtyName, slug: slugify(specialtyName), totalQualified: countQualifiedApplicants(rows) };
+    return { rows, pools, specialtyName, slug: slugify(specialtyName), totalQualified: countQualifiedApplicants(rows) };
   }).sort((a, b) => b.totalQualified - a.totalQualified || a.specialtyName.localeCompare(b.specialtyName, "pl"));
   const included = ranked.slice(0, Math.max(0, ranked.length - EXCLUDED_SPECIALTY_COUNT));
   const excluded = ranked.slice(-EXCLUDED_SPECIALTY_COUNT);
@@ -314,7 +327,7 @@ function run() {
 
   const generated = [];
   for (const specialty of included) {
-    const analysis = analyzeSpecialtyData(specialty.rows);
+    const analysis = analyzeSpecialtyData(specialty.rows, specialty.pools);
     if (!analysis.Rezydencki && !analysis.Pozarezydencki) continue;
     const page = { ...specialty, analysis };
     const output = path.join(OUTPUT_DIR, specialty.slug);

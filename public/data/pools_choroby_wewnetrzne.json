@@ -1,0 +1,2242 @@
+[
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 25,
+    "liczba_miejsc": 29,
+    "najnizszy_wynik_proc": 75.36,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 293,
+    "najnizszy_wynik_proc": 56.22,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 12,
+    "liczba_miejsc": 12,
+    "najnizszy_wynik_proc": 83.17,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 233,
+    "najnizszy_wynik_proc": 66.82,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 12,
+    "liczba_miejsc": 25,
+    "najnizszy_wynik_proc": 72.46,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 265,
+    "najnizszy_wynik_proc": 70.56,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 22,
+    "liczba_miejsc": 25,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 23,
+    "liczba_miejsc": 24,
+    "najnizszy_wynik_proc": 77.78,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 394,
+    "najnizszy_wynik_proc": 68.35,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 36,
+    "liczba_miejsc": 60,
+    "najnizszy_wynik_proc": 55.88,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 621,
+    "najnizszy_wynik_proc": 57.34,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 21,
+    "najnizszy_wynik_proc": 80,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 12,
+    "liczba_miejsc": 60,
+    "najnizszy_wynik_proc": 69.61,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 17,
+    "liczba_miejsc": 30,
+    "najnizszy_wynik_proc": 72.46,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 164,
+    "najnizszy_wynik_proc": 71.03,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 18,
+    "liczba_miejsc": 25,
+    "najnizszy_wynik_proc": 58.33,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 36,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 505,
+    "najnizszy_wynik_proc": 71.56,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 45,
+    "najnizszy_wynik_proc": 70.73,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 25,
+    "najnizszy_wynik_proc": 71.5,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 134,
+    "najnizszy_wynik_proc": 80,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 19,
+    "liczba_miejsc": 20,
+    "najnizszy_wynik_proc": 84.54,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 344,
+    "najnizszy_wynik_proc": 78.5,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 18,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": 76.33,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 168,
+    "najnizszy_wynik_proc": 63.21,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 23,
+    "liczba_miejsc": 42,
+    "najnizszy_wynik_proc": 60.68,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 67,
+    "najnizszy_wynik_proc": 64.68,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 11,
+    "liczba_miejsc": 24,
+    "najnizszy_wynik_proc": 60.78,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 90,
+    "najnizszy_wynik_proc": 67.91,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 14,
+    "liczba_miejsc": 42,
+    "najnizszy_wynik_proc": 74.27,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 111,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 14,
+    "najnizszy_wynik_proc": 80.88,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 55.96,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 17,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 68.12,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 39,
+    "liczba_miejsc": 55,
+    "najnizszy_wynik_proc": 58.45,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 217,
+    "najnizszy_wynik_proc": 79.13,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 44,
+    "liczba_miejsc": 56,
+    "najnizszy_wynik_proc": 56.37,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 230,
+    "najnizszy_wynik_proc": 52.78,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 16,
+    "najnizszy_wynik_proc": 66.67,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 14,
+    "liczba_miejsc": 63,
+    "najnizszy_wynik_proc": 75.36,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 12,
+    "liczba_miejsc": 42,
+    "najnizszy_wynik_proc": 67.65,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 81,
+    "najnizszy_wynik_proc": 80.73,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 31,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 37,
+    "liczba_miejsc": 56,
+    "najnizszy_wynik_proc": 60.78,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 260,
+    "najnizszy_wynik_proc": 65.09,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 79.71,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 41,
+    "najnizszy_wynik_proc": 65.89,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 83.57,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 23,
+    "liczba_miejsc": 28,
+    "najnizszy_wynik_proc": 60.87,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 11,
+    "liczba_miejsc": 42,
+    "najnizszy_wynik_proc": 70.34,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 26,
+    "najnizszy_wynik_proc": 82.95,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 45,
+    "liczba_miejsc": 47,
+    "najnizszy_wynik_proc": 65.07,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 162,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 12,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 60.29,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 121,
+    "najnizszy_wynik_proc": 82.49,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 20,
+    "liczba_miejsc": 20,
+    "najnizszy_wynik_proc": 64.76,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 25,
+    "najnizszy_wynik_proc": 82.3,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 23,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": 55.39,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 35,
+    "liczba_miejsc": 59,
+    "najnizszy_wynik_proc": 57.84,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 263,
+    "najnizszy_wynik_proc": 82.11,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 63,
+    "liczba_miejsc": 80,
+    "najnizszy_wynik_proc": 54.33,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 387,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 10,
+    "liczba_miejsc": 26,
+    "najnizszy_wynik_proc": 60,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 15,
+    "liczba_miejsc": 80,
+    "najnizszy_wynik_proc": 59.31,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 56,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 18,
+    "liczba_miejsc": 25,
+    "najnizszy_wynik_proc": 69.76,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 95,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 28,
+    "liczba_miejsc": 60,
+    "najnizszy_wynik_proc": 63.16,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 32,
+    "liczba_miejsc": 78,
+    "najnizszy_wynik_proc": 58.82,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 270,
+    "najnizszy_wynik_proc": 36.45,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 73.43,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 11,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": 56.46,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 35,
+    "liczba_miejsc": 40,
+    "najnizszy_wynik_proc": 78.1,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 215,
+    "najnizszy_wynik_proc": 65.6,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 20,
+    "liczba_miejsc": 60,
+    "najnizszy_wynik_proc": 69.52,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 48,
+    "najnizszy_wynik_proc": 65.91,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 13,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": 56.52,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 268,
+    "najnizszy_wynik_proc": 51.15,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 21,
+    "najnizszy_wynik_proc": 77.78,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 223,
+    "najnizszy_wynik_proc": 55.96,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 8,
+    "liczba_miejsc": 30,
+    "najnizszy_wynik_proc": 69.08,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 257,
+    "najnizszy_wynik_proc": 66.05,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 10,
+    "najnizszy_wynik_proc": 70.59,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 10,
+    "liczba_miejsc": 29,
+    "najnizszy_wynik_proc": 65.37,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 324,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 14,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": 69.08,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 352,
+    "najnizszy_wynik_proc": 73.61,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 26,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": 66.18,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 616,
+    "najnizszy_wynik_proc": 65.57,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 12,
+    "najnizszy_wynik_proc": 88.73,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 8,
+    "liczba_miejsc": 40,
+    "najnizszy_wynik_proc": 65.05,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 154,
+    "najnizszy_wynik_proc": 61.57,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 158,
+    "najnizszy_wynik_proc": 75.45,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 16,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 64.76,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": 78.1,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 34,
+    "najnizszy_wynik_proc": 77.29,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 69.08,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 138,
+    "najnizszy_wynik_proc": 70.09,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 16,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": 74.51,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 300,
+    "najnizszy_wynik_proc": 78.77,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 9,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": 54.63,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 7,
+    "liczba_miejsc": 42,
+    "najnizszy_wynik_proc": 65.85,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 80.49,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 199,
+    "najnizszy_wynik_proc": 71.73,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 79.02,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 269,
+    "najnizszy_wynik_proc": 54.63,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 87.75,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 67,
+    "najnizszy_wynik_proc": 70.91,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 30,
+    "najnizszy_wynik_proc": 64.88,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 30,
+    "najnizszy_wynik_proc": 62.75,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 380,
+    "najnizszy_wynik_proc": 76.61,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 7,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 64.76,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 643,
+    "najnizszy_wynik_proc": 80.56,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 12,
+    "najnizszy_wynik_proc": 75.85,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 70,
+    "najnizszy_wynik_proc": 71.56,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 158,
+    "najnizszy_wynik_proc": 70.83,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 82.61,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 219,
+    "najnizszy_wynik_proc": 72.94,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 7,
+    "liczba_miejsc": 24,
+    "najnizszy_wynik_proc": 74.63,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 491,
+    "najnizszy_wynik_proc": 75.45,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 42,
+    "najnizszy_wynik_proc": 81.86,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 79.02,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 140,
+    "najnizszy_wynik_proc": 76.42,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 9,
+    "liczba_miejsc": 24,
+    "najnizszy_wynik_proc": 73.43,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 17,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 62.32,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 127,
+    "najnizszy_wynik_proc": 84.55,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 24,
+    "najnizszy_wynik_proc": 65.2,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 20,
+    "najnizszy_wynik_proc": 62.38,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 21,
+    "najnizszy_wynik_proc": 71.63,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 21,
+    "najnizszy_wynik_proc": 80.19,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 11,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 54.41,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 254,
+    "najnizszy_wynik_proc": 66.74,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 16,
+    "liczba_miejsc": 21,
+    "najnizszy_wynik_proc": 59.31,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 353,
+    "najnizszy_wynik_proc": 65.9,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 17,
+    "najnizszy_wynik_proc": 77.62,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 70.1,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 28,
+    "najnizszy_wynik_proc": 56.86,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 12,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 62.93,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 122,
+    "najnizszy_wynik_proc": 78.97,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 13,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 292,
+    "najnizszy_wynik_proc": 70.09,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 73.43,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 44,
+    "najnizszy_wynik_proc": 81.78,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 21,
+    "najnizszy_wynik_proc": 77.56,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 64,
+    "najnizszy_wynik_proc": 56.16,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 9,
+    "liczba_miejsc": 28,
+    "najnizszy_wynik_proc": 67.15,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 195,
+    "najnizszy_wynik_proc": 72.25,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 57.84,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 48,
+    "najnizszy_wynik_proc": 73.39,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 17,
+    "liczba_miejsc": 61,
+    "najnizszy_wynik_proc": 59.33,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 111,
+    "najnizszy_wynik_proc": 67.59,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 25,
+    "najnizszy_wynik_proc": 76.67,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 126,
+    "najnizszy_wynik_proc": 56.02,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 20,
+    "najnizszy_wynik_proc": 74.15,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 16,
+    "najnizszy_wynik_proc": 64.59,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": 58.85,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 189,
+    "najnizszy_wynik_proc": 53.21,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 75,
+    "najnizszy_wynik_proc": 70.95,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 220,
+    "najnizszy_wynik_proc": 55.05,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 23,
+    "liczba_miejsc": 30,
+    "najnizszy_wynik_proc": 70.19,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 410,
+    "najnizszy_wynik_proc": 53.46,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 64.22,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 59,
+    "najnizszy_wynik_proc": 52.78,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 45,
+    "najnizszy_wynik_proc": 66.67,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 83,
+    "najnizszy_wynik_proc": 58.06,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 32,
+    "najnizszy_wynik_proc": 62.2,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 110,
+    "najnizszy_wynik_proc": 69.91,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 21,
+    "liczba_miejsc": 59,
+    "najnizszy_wynik_proc": 54.81,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 132,
+    "najnizszy_wynik_proc": 70.64,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 9,
+    "liczba_miejsc": 30,
+    "najnizszy_wynik_proc": 59.05,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 312,
+    "najnizszy_wynik_proc": 65.75,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 23,
+    "najnizszy_wynik_proc": 74.02,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 30,
+    "najnizszy_wynik_proc": 55.29,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 9,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 72.86,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 201,
+    "najnizszy_wynik_proc": 73.95,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 31,
+    "najnizszy_wynik_proc": 55.34,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 65,
+    "najnizszy_wynik_proc": 84.55,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 15,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 64,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 363,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 63,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 121,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 215,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 102,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 137,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 41,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 54,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 63,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 57,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 132,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 184,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 23,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 190,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 50,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 139,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 73,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 53,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 70,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 71,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 23,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 219,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 494,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 108,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 169,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 266,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 352,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 30,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 147,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 100,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 322,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 36,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 177,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 101,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 145,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 26,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 159,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 52,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 78,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 94,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 182,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 30,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 68,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Choroby wewnętrzne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 71,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  }
+]

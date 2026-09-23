@@ -1,0 +1,482 @@
+[
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 84.65,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 92.2,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 92.27,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 92.27,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 92.2,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 90.34,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 89.51,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 91.79,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 94.69,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 91.71,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 92.68,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 91.18,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 94.12,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": 83.64,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 93.3,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 89.09,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 84.02,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 93.3,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 86.99,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 94.44,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 92.82,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 92.75,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 84.7,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 91.67,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 92.27,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 84.81,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 92.27,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 89.71,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 84.77,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 84.79,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 89.76,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 84.33,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 91.18,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 89.27,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 84.19,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 90.24,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 84.33,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 90.69,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 83.64,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 91.91,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 91.18,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 94.23,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 90.23,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 88.79,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Chirurgia plastyczna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  }
+]

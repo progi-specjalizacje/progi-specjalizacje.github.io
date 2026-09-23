@@ -6,6 +6,24 @@ export type PrzedstawWynikJako =
   | "surowa ilość punktów rekrutacyjnych (poglądowo)";
 export type DashboardMetric = "averageThreshold" | "medianQualifiedScore" | "totalPlaces";
 
+export type CompetitionStatus =
+  | "full"
+  | "underfilled"
+  | "no_accepted"
+  | "missing_capacity"
+  | "inconsistent";
+
+export interface RecruitmentPool {
+  rekrutacja: string;
+  wojewodztwo: string;
+  dziedzina_medycyny: string;
+  tryb_szkolenia: TrybSzkolenia;
+  liczba_zakwalifikowanych: number;
+  liczba_miejsc: number | null;
+  najnizszy_wynik_proc: number | null;
+  status_konkurencyjnosci: CompetitionStatus;
+}
+
 export interface ReportRow {
   rekrutacja: string;
   kolejnosc_plikow: number;

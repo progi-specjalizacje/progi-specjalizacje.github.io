@@ -100,7 +100,7 @@ export const dashboardLayout: DashboardVisual[] = [
     props: {
       label: "Uśredniony próg dla wszystkich województw",
       metric: "averageThreshold",
-      tooltip: "Metryka jest wyliczana poprzez określenie progu kwalifikacji w każdym województwie (wyniku ostatniego zakwalifikowanego kandydata), a następnie obliczenie średniej arytmetycznej tych wartości. Ponieważ każde województwo ma jednakową wagę, wartość ta może być niższa lub wyższa od średniej wyników wszystkich zakwalifikowanych kandydatów.",
+      tooltip: "Średnia obejmuje wyłącznie województwa, w których obsadzono wszystkie oferowane miejsca. Najniższy wynik z niewypełnionej puli nie jest traktowany jako próg konkurencyjny.",
     },
   },
   {
@@ -117,7 +117,7 @@ export const dashboardLayout: DashboardVisual[] = [
     type: "card",
     grid: { column: 10, row: 3, colSpan: 3, rowSpan: 2 },
     props: {
-      label: "Ilość miejsc w Polsce",
+      label: "Liczba oferowanych miejsc w Polsce",
       metric: "totalPlaces",
     },
   },
@@ -132,7 +132,7 @@ export const dashboardLayout: DashboardVisual[] = [
     type: "pivot",
     grid: { column: 1, row: 7, colSpan: 12, rowSpan: 8 },
     props: {
-      title: "Szczegółowy próg punktowy i liczba miejsc",
+      title: "Szczegółowy próg konkurencyjny i obsada miejsc",
       config: {
         rows: ["wojewodztwo"],
         columns: ["rekrutacja"],

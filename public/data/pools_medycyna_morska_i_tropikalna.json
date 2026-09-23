@@ -1,0 +1,122 @@
+[
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 68.64,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 83.33,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 75.94,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 78.8,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 82.6,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 89.09,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 77.73,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna morska i tropikalna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  }
+]

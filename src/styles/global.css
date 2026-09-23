@@ -624,6 +624,90 @@ input[type="range"] {
   border-right: 2px solid #d9cfe4;
 }
 
+.threshold-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  border-bottom: 1px solid #ece6f2;
+  background: #fff;
+  padding: 9px 16px;
+  color: #625a6c;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.threshold-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+}
+
+.status-dot.status-full {
+  background: #16a34a;
+}
+
+.status-dot.status-open {
+  background: #64748b;
+}
+
+.status-dot.status-unknown {
+  background: #d97706;
+}
+
+.threshold-table {
+  min-width: 1420px;
+}
+
+.threshold-table .competition-threshold-cell {
+  min-width: 132px;
+  text-align: left;
+  white-space: normal;
+}
+
+.threshold-table .threshold-primary,
+.threshold-table .threshold-secondary {
+  display: block;
+}
+
+.threshold-table .threshold-secondary {
+  margin-top: 2px;
+  color: #6b6474;
+  font-size: 10px;
+  font-weight: 650;
+}
+
+.threshold-table .status-underfilled,
+.threshold-table .status-no_accepted {
+  background-color: #f1f5f9;
+  color: #475569;
+}
+
+.threshold-table .status-missing_capacity {
+  background-color: #fffbeb;
+  color: #92400e;
+}
+
+.threshold-table .status-inconsistent {
+  background-color: #fff1f2;
+  color: #9f1239;
+}
+
+.threshold-table .occupancy-cell {
+  min-width: 58px;
+  text-align: center;
+}
+
+.threshold-table .empty-cell {
+  color: #aaa2b2;
+  text-align: center;
+}
+
 .summary-chart {
   display: flex;
   min-height: 300px;

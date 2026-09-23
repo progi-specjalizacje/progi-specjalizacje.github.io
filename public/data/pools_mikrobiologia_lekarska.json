@@ -1,0 +1,572 @@
+[
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 75.36,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 71.1,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 74.53,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 74.15,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 64.15,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 55.3,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 64.55,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 2.27,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 71.71,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 68.2,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 71.1,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 66.59,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 65.9,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 74.15,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 86.52,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 51.89,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 68.69,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 57.97,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Mikrobiologia lekarska",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  }
+]
