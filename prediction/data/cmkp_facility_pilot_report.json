@@ -1,0 +1,5572 @@
+{
+  "scope": {
+    "documents": 9,
+    "rounds": [
+      "j-2023",
+      "j-2026",
+      "w-2026"
+    ],
+    "provinces": [
+      "Dolnośląskie",
+      "Mazowieckie",
+      "Warmińsko-mazurskie"
+    ],
+    "production_model_unchanged": true
+  },
+  "counts": {
+    "rows": 4786,
+    "positive_rows": 3294,
+    "positive_capacity": 10483,
+    "positive_capacity_with_city": 10481,
+    "positive_capacity_city_coverage": 0.9998,
+    "cities_extracted": 4785,
+    "city_extraction_rate": 0.9998,
+    "broken_city_glyph_rows": 0,
+    "distinct_city_match_keys": 234,
+    "distinct_postcodes": 452,
+    "duplicate_physical_row_groups": 2,
+    "low_confidence_specialty_rows": 0
+  },
+  "sources": [
+    {
+      "rekrutacja": "j-2023",
+      "wojewodztwo": "Dolnośląskie",
+      "url": "https://www.cmkp.edu.pl/wp-content/uploads/2023/08/DOLNOSLASKIE-miejsca-szkoleniowe-postepowanie-jesien-2023-r.pdf",
+      "source_file": "prediction/sources/cmkp_facility_pdfs/j-2023_dolnoslaskie.pdf",
+      "source_sha256": "ed8c0d97e58155e383958e64af5733cdd94e1b3a3d75d31088b17b23d4c59232",
+      "pages": 38,
+      "tables": 107,
+      "candidate_rows": 440,
+      "city_extracted": 440,
+      "positive_rows": 314,
+      "positive_capacity": 965,
+      "rows": 440,
+      "city_extraction_rate": 1.0,
+      "garbled_city_rate": 0.0,
+      "mean_specialty_match_score": 1.0
+    },
+    {
+      "rekrutacja": "j-2023",
+      "wojewodztwo": "Mazowieckie",
+      "url": "https://www.cmkp.edu.pl/wp-content/uploads/2023/08/MAZOWIECKIE-miejsca-szkoleniowe-postepowanie-jesien-2023-r-2.pdf",
+      "source_file": "prediction/sources/cmkp_facility_pdfs/j-2023_mazowieckie.pdf",
+      "source_sha256": "2d3a2b9e090fefa462c03355f2912c35767b029a5bf42a77cde915b15fea3211",
+      "pages": 85,
+      "tables": 85,
+      "candidate_rows": 920,
+      "city_extracted": 920,
+      "positive_rows": 628,
+      "positive_capacity": 2395,
+      "rows": 920,
+      "city_extraction_rate": 1.0,
+      "garbled_city_rate": 0.0,
+      "mean_specialty_match_score": 1.0
+    },
+    {
+      "rekrutacja": "j-2023",
+      "wojewodztwo": "Warmińsko-mazurskie",
+      "url": "https://www.cmkp.edu.pl/wp-content/uploads/2023/08/WARMINSKO-MAZURSKIE-miejsca-szkoleniowe-postepowanie-jesien-2023-r.pdf",
+      "source_file": "prediction/sources/cmkp_facility_pdfs/j-2023_warminsko-mazurskie.pdf",
+      "source_sha256": "1ba1aa42012067f9e4e45a8e331eefbfbec6d683c02559bc3610fca3d2581853",
+      "pages": 21,
+      "tables": 74,
+      "candidate_rows": 260,
+      "city_extracted": 260,
+      "positive_rows": 194,
+      "positive_capacity": 565,
+      "rows": 260,
+      "city_extraction_rate": 1.0,
+      "garbled_city_rate": 0.0,
+      "mean_specialty_match_score": 1.0
+    },
+    {
+      "rekrutacja": "w-2026",
+      "wojewodztwo": "Dolnośląskie",
+      "url": "https://www.cmkp.edu.pl/wp-content/uploads/2026/01/dolnoslaskie-wykaz-miejsc-szkoleniowych-wiosna-2026.pdf",
+      "source_file": "prediction/sources/cmkp_facility_pdfs/w-2026_dolnoslaskie.pdf",
+      "source_sha256": "f4eb9d1c94b3ba37330d4d33a69f1d9ffb215b5daffe6e5081c9f7ca066dade9",
+      "pages": 39,
+      "tables": 114,
+      "candidate_rows": 509,
+      "city_extracted": 509,
+      "positive_rows": 317,
+      "positive_capacity": 848,
+      "rows": 509,
+      "city_extraction_rate": 1.0,
+      "garbled_city_rate": 0.0,
+      "mean_specialty_match_score": 0.914
+    },
+    {
+      "rekrutacja": "w-2026",
+      "wojewodztwo": "Mazowieckie",
+      "url": "https://www.cmkp.edu.pl/wp-content/uploads/2026/01/mazowieckie-wykaz-miejsc-szkoleniowych-wiosna-2026.pdf",
+      "source_file": "prediction/sources/cmkp_facility_pdfs/w-2026_mazowieckie.pdf",
+      "source_sha256": "b605fc8531ab389e10e0f4a1bc16b71634b2043eab9be5f63db4fa71847a223c",
+      "pages": 29,
+      "tables": 29,
+      "candidate_rows": 867,
+      "city_extracted": 867,
+      "positive_rows": 533,
+      "positive_capacity": 1805,
+      "rows": 867,
+      "city_extraction_rate": 1.0,
+      "garbled_city_rate": 0.0,
+      "mean_specialty_match_score": 0.9987
+    },
+    {
+      "rekrutacja": "w-2026",
+      "wojewodztwo": "Warmińsko-mazurskie",
+      "url": "https://www.cmkp.edu.pl/wp-content/uploads/2026/01/warminsko-mazurskie-wykaz-wolnych-miejsc-wiosna-2026.pdf",
+      "source_file": "prediction/sources/cmkp_facility_pdfs/w-2026_warminsko-mazurskie.pdf",
+      "source_sha256": "5e7f2af70128d14bd707ea9a039657f92e4d3fcf465f27d6f52453f994a586bc",
+      "pages": 15,
+      "tables": 55,
+      "candidate_rows": 165,
+      "city_extracted": 165,
+      "positive_rows": 165,
+      "positive_capacity": 391,
+      "rows": 165,
+      "city_extraction_rate": 1.0,
+      "garbled_city_rate": 0.0,
+      "mean_specialty_match_score": 1.0
+    },
+    {
+      "rekrutacja": "j-2026",
+      "wojewodztwo": "Dolnośląskie",
+      "url": "https://www.cmkp.edu.pl/wp-content/uploads/2026/09/dolnoslaskie-wykaz-miejsc-postepowanie-jesien-2026-akt.-02.09.pdf",
+      "source_file": "prediction/sources/cmkp_facility_pdfs/j-2026_dolnoslaskie.pdf",
+      "source_sha256": "193fd794c0943b598dfb6005383fe134ea6f9313efa1586696f0fdec283272cc",
+      "pages": 45,
+      "tables": 120,
+      "candidate_rows": 530,
+      "city_extracted": 530,
+      "positive_rows": 352,
+      "positive_capacity": 960,
+      "rows": 530,
+      "city_extraction_rate": 1.0,
+      "garbled_city_rate": 0.0,
+      "mean_specialty_match_score": 1.0
+    },
+    {
+      "rekrutacja": "j-2026",
+      "wojewodztwo": "Mazowieckie",
+      "url": "https://www.cmkp.edu.pl/wp-content/uploads/2026/08/mazowieckie-wykaz-miejsc-postepowanie-jesien-2026.pdf",
+      "source_file": "prediction/sources/cmkp_facility_pdfs/j-2026_mazowieckie.pdf",
+      "source_sha256": "3f012e567ca054f170ec0deff8bf626a32cd902ca9eb0f6d0c533a288e0bd27c",
+      "pages": 65,
+      "tables": 65,
+      "candidate_rows": 913,
+      "city_extracted": 912,
+      "positive_rows": 609,
+      "positive_capacity": 2107,
+      "missing_city": 1,
+      "rows": 913,
+      "city_extraction_rate": 0.9989,
+      "garbled_city_rate": 0.0,
+      "mean_specialty_match_score": 0.9998
+    },
+    {
+      "rekrutacja": "j-2026",
+      "wojewodztwo": "Warmińsko-mazurskie",
+      "url": "https://www.cmkp.edu.pl/wp-content/uploads/2026/09/warminsko-mazurskie-wykaz-miejsc-postepowanie-jesien-2026-akt.-02.09.pdf",
+      "source_file": "prediction/sources/cmkp_facility_pdfs/j-2026_warminsko-mazurskie.pdf",
+      "source_sha256": "6c37e33774c1ac84ff18e33cf8ee25ef992f29990d405a5b665bdfa663487fa4",
+      "pages": 15,
+      "tables": 61,
+      "candidate_rows": 182,
+      "city_extracted": 182,
+      "positive_rows": 182,
+      "positive_capacity": 447,
+      "rows": 182,
+      "city_extraction_rate": 1.0,
+      "garbled_city_rate": 0.0,
+      "mean_specialty_match_score": 0.9991
+    }
+  ],
+  "reconciliation": {
+    "compared_specialty_province_rounds": 597,
+    "exact_matches": 434,
+    "exact_match_rate": 0.727,
+    "detailed_capacity_below_allocated": 55,
+    "detailed_capacity_above_allocated": 108,
+    "rows": [
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Alergologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+        "detailed_available_capacity": 43,
+        "aggregate_allocated_places": 38,
+        "difference": 5,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Angiologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Audiologia i foniatria",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Balneologia i medycyna fizykalna",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 8,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia dziecięca",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 8,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia naczyniowa",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 7,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia ogólna",
+        "detailed_available_capacity": 38,
+        "aggregate_allocated_places": 37,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia onkologiczna",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 7,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia plastyczna",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 3,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia stomatologiczna",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 5,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia szczękowo-twarzowa",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby płuc",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 4,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby płuc dzieci",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby wewnętrzne",
+        "detailed_available_capacity": 325,
+        "aggregate_allocated_places": 323,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby zakaźne",
+        "detailed_available_capacity": 11,
+        "aggregate_allocated_places": 11,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Dermatologia i wenerologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Diabetologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Endokrynologia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Endokrynologia i diabetologia dziecięca",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Epidemiologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Farmakologia kliniczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Gastroenterologia",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Gastroenterologia dziecięca",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Genetyka kliniczna",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 3,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Geriatria",
+        "detailed_available_capacity": 11,
+        "aggregate_allocated_places": 11,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Ginekologia onkologiczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Hematologia",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Hipertensjologia",
+        "detailed_available_capacity": 11,
+        "aggregate_allocated_places": 10,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Kardiochirurgia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 5,
+        "difference": -2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Kardiologia",
+        "detailed_available_capacity": 33,
+        "aggregate_allocated_places": 31,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Kardiologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna nuklearna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna paliatywna",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 7,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna pracy",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna ratunkowa",
+        "detailed_available_capacity": 34,
+        "aggregate_allocated_places": 35,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna rodzinna",
+        "detailed_available_capacity": 109,
+        "aggregate_allocated_places": 108,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna sportowa",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna sądowa",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Mikrobiologia lekarska",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Nefrologia",
+        "detailed_available_capacity": 19,
+        "aggregate_allocated_places": 20,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Nefrologia dziecięca",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Neonatologia",
+        "detailed_available_capacity": 19,
+        "aggregate_allocated_places": 19,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Neurochirurgia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Neurologia",
+        "detailed_available_capacity": 42,
+        "aggregate_allocated_places": 41,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Neurologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Okulistyka",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 7,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Onkologia i hematologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Onkologia kliniczna",
+        "detailed_available_capacity": 25,
+        "aggregate_allocated_places": 24,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Ortodoncja",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 9,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Ortopedia i traumatologia narządu ruchu",
+        "detailed_available_capacity": 42,
+        "aggregate_allocated_places": 48,
+        "difference": -6,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Otorynolaryngologia",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 8,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Patomorfologia",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Pediatria",
+        "detailed_available_capacity": 39,
+        "aggregate_allocated_places": 31,
+        "difference": 8,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Perinatologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Periodontologia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Położnictwo i ginekologia",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 27,
+        "difference": -11,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Alergologia",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 3,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+        "detailed_available_capacity": 51,
+        "aggregate_allocated_places": 48,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Angiologia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Audiologia i foniatria",
+        "detailed_available_capacity": 28,
+        "aggregate_allocated_places": 28,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Balneologia i medycyna fizykalna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia dziecięca",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia naczyniowa",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 10,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia ogólna",
+        "detailed_available_capacity": 74,
+        "aggregate_allocated_places": 73,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia onkologiczna",
+        "detailed_available_capacity": 24,
+        "aggregate_allocated_places": 22,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia plastyczna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia stomatologiczna",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia szczękowo-twarzowa",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby płuc",
+        "detailed_available_capacity": 13,
+        "aggregate_allocated_places": 13,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby płuc dzieci",
+        "detailed_available_capacity": 12,
+        "aggregate_allocated_places": 12,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby wewnętrzne",
+        "detailed_available_capacity": 679,
+        "aggregate_allocated_places": 681,
+        "difference": -2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby zakaźne",
+        "detailed_available_capacity": 42,
+        "aggregate_allocated_places": 42,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Dermatologia i wenerologia",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Diabetologia",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 16,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Diagnostyka laboratoryjna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Endokrynologia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Endokrynologia ginekologiczna i rozrodczość",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Endokrynologia i diabetologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Epidemiologia",
+        "detailed_available_capacity": 11,
+        "aggregate_allocated_places": 11,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Farmakologia kliniczna",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 8,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Gastroenterologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Gastroenterologia dziecięca",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Genetyka kliniczna",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Geriatria",
+        "detailed_available_capacity": 11,
+        "aggregate_allocated_places": 11,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Ginekologia onkologiczna",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Hematologia",
+        "detailed_available_capacity": 11,
+        "aggregate_allocated_places": 11,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Hipertensjologia",
+        "detailed_available_capacity": 29,
+        "aggregate_allocated_places": 29,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Immunologia kliniczna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Intensywna terapia",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Kardiochirurgia",
+        "detailed_available_capacity": 13,
+        "aggregate_allocated_places": 13,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Kardiologia",
+        "detailed_available_capacity": 131,
+        "aggregate_allocated_places": 131,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Kardiologia dziecięca",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna nuklearna",
+        "detailed_available_capacity": 12,
+        "aggregate_allocated_places": 12,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna paliatywna",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna pracy",
+        "detailed_available_capacity": 30,
+        "aggregate_allocated_places": 30,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna ratunkowa",
+        "detailed_available_capacity": 105,
+        "aggregate_allocated_places": 106,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna rodzinna",
+        "detailed_available_capacity": 213,
+        "aggregate_allocated_places": 199,
+        "difference": 14,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna sportowa",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna sądowa",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Mikrobiologia lekarska",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Nefrologia",
+        "detailed_available_capacity": 38,
+        "aggregate_allocated_places": 38,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Nefrologia dziecięca",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neonatologia",
+        "detailed_available_capacity": 46,
+        "aggregate_allocated_places": 45,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neurochirurgia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neurologia",
+        "detailed_available_capacity": 82,
+        "aggregate_allocated_places": 81,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neurologia dziecięca",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neuropatologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Okulistyka",
+        "detailed_available_capacity": 12,
+        "aggregate_allocated_places": 10,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Onkologia i hematologia dziecięca",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Onkologia kliniczna",
+        "detailed_available_capacity": 54,
+        "aggregate_allocated_places": 53,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Ortodoncja",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Ortopedia i traumatologia narządu ruchu",
+        "detailed_available_capacity": 84,
+        "aggregate_allocated_places": 80,
+        "difference": 4,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Otorynolaryngologia",
+        "detailed_available_capacity": 17,
+        "aggregate_allocated_places": 17,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Patomorfologia",
+        "detailed_available_capacity": 28,
+        "aggregate_allocated_places": 27,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Pediatria",
+        "detailed_available_capacity": 79,
+        "aggregate_allocated_places": 79,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Pediatria metaboliczna",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Perinatologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 4,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Periodontologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Położnictwo i ginekologia",
+        "detailed_available_capacity": 40,
+        "aggregate_allocated_places": 39,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Protetyka stomatologiczna",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Psychiatria",
+        "detailed_available_capacity": 54,
+        "aggregate_allocated_places": 55,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 6,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Radiologia i diagnostyka obrazowa",
+        "detailed_available_capacity": 40,
+        "aggregate_allocated_places": 39,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Radioterapia onkologiczna",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Rehabilitacja medyczna",
+        "detailed_available_capacity": 72,
+        "aggregate_allocated_places": 72,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Reumatologia",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Seksuologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Stomatologia dziecięca",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Stomatologia zachowawcza z endodoncją",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Toksykologia kliniczna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Transfuzjologia kliniczna",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 10,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Transplantologia kliniczna",
+        "detailed_available_capacity": 31,
+        "aggregate_allocated_places": 31,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Urologia",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 9,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Urologia dziecięca",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Zdrowie publiczne",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 3,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Alergologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+        "detailed_available_capacity": 18,
+        "aggregate_allocated_places": 18,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Audiologia i foniatria",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia naczyniowa",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia ogólna",
+        "detailed_available_capacity": 33,
+        "aggregate_allocated_places": 33,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia onkologiczna",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia stomatologiczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia szczękowo-twarzowa",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Choroby płuc",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Choroby wewnętrzne",
+        "detailed_available_capacity": 159,
+        "aggregate_allocated_places": 159,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Choroby zakaźne",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Dermatologia i wenerologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 2,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Diabetologia",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 8,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Endokrynologia ginekologiczna i rozrodczość",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Endokrynologia i diabetologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Gastroenterologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Gastroenterologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Geriatria",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 0,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Hematologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Kardiochirurgia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Kardiologia",
+        "detailed_available_capacity": 20,
+        "aggregate_allocated_places": 23,
+        "difference": -3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna nuklearna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna paliatywna",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna pracy",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna ratunkowa",
+        "detailed_available_capacity": 25,
+        "aggregate_allocated_places": 25,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna rodzinna",
+        "detailed_available_capacity": 29,
+        "aggregate_allocated_places": 30,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna sportowa",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Nefrologia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Nefrologia dziecięca",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 2,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Neonatologia",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 9,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Neurochirurgia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 3,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Neurologia",
+        "detailed_available_capacity": 31,
+        "aggregate_allocated_places": 30,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Neurologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Okulistyka",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Onkologia i hematologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Onkologia kliniczna",
+        "detailed_available_capacity": 15,
+        "aggregate_allocated_places": 12,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Ortodoncja",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Ortopedia i traumatologia narządu ruchu",
+        "detailed_available_capacity": 22,
+        "aggregate_allocated_places": 21,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Otorynolaryngologia",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 4,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Patomorfologia",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Pediatria",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 16,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Periodontologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Położnictwo i ginekologia",
+        "detailed_available_capacity": 28,
+        "aggregate_allocated_places": 24,
+        "difference": 4,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Protetyka stomatologiczna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 1,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Psychiatria",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 13,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Radiologia i diagnostyka obrazowa",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Radioterapia onkologiczna",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Rehabilitacja medyczna",
+        "detailed_available_capacity": 28,
+        "aggregate_allocated_places": 30,
+        "difference": -2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Reumatologia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Stomatologia dziecięca",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Stomatologia zachowawcza z endodoncją",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 2,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Transfuzjologia kliniczna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Urologia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2023",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Zdrowie publiczne",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Alergologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+        "detailed_available_capacity": 17,
+        "aggregate_allocated_places": 16,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Angiologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Audiologia i foniatria",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Balneologia i medycyna fizykalna",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 1,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia naczyniowa",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia ogólna",
+        "detailed_available_capacity": 28,
+        "aggregate_allocated_places": 28,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia onkologiczna",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia plastyczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia stomatologiczna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia szczękowo-twarzowa",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby płuc",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby płuc dzieci",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby wewnętrzne",
+        "detailed_available_capacity": 185,
+        "aggregate_allocated_places": 191,
+        "difference": -6,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby zakaźne",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Dermatologia i wenerologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Diabetologia",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Endokrynologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Endokrynologia ginekologiczna i rozrodczość",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Endokrynologia i diabetologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Epidemiologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Gastroenterologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Genetyka kliniczna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Geriatria",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Ginekologia onkologiczna",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 0,
+        "difference": 8,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Hipertensjologia",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Immunologia kliniczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Kardiochirurgia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Kardiologia",
+        "detailed_available_capacity": 40,
+        "aggregate_allocated_places": 41,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Kardiologia dziecięca",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna nuklearna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna paliatywna",
+        "detailed_available_capacity": 13,
+        "aggregate_allocated_places": 14,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna pracy",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna ratunkowa",
+        "detailed_available_capacity": 50,
+        "aggregate_allocated_places": 47,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna rodzinna",
+        "detailed_available_capacity": 197,
+        "aggregate_allocated_places": 193,
+        "difference": 4,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna sportowa",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna sądowa",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Mikrobiologia lekarska",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Nefrologia",
+        "detailed_available_capacity": 20,
+        "aggregate_allocated_places": 20,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Nefrologia dziecięca",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Neonatologia",
+        "detailed_available_capacity": 30,
+        "aggregate_allocated_places": 27,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Neurochirurgia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Neurologia",
+        "detailed_available_capacity": 25,
+        "aggregate_allocated_places": 25,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Okulistyka",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 9,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Onkologia i hematologia dziecięca",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Onkologia kliniczna",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 17,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Ortodoncja",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 4,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Ortopedia i traumatologia narządu ruchu",
+        "detailed_available_capacity": 31,
+        "aggregate_allocated_places": 31,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Otorynolaryngologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 1,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Patomorfologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 4,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Pediatria",
+        "detailed_available_capacity": 47,
+        "aggregate_allocated_places": 44,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Pediatria metaboliczna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Periodontologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Położnictwo i ginekologia",
+        "detailed_available_capacity": 21,
+        "aggregate_allocated_places": 21,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Protetyka stomatologiczna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Psychiatria",
+        "detailed_available_capacity": 25,
+        "aggregate_allocated_places": 26,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 10,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Radiologia i diagnostyka obrazowa",
+        "detailed_available_capacity": 24,
+        "aggregate_allocated_places": 25,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Radioterapia onkologiczna",
+        "detailed_available_capacity": 11,
+        "aggregate_allocated_places": 11,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Rehabilitacja medyczna",
+        "detailed_available_capacity": 13,
+        "aggregate_allocated_places": 13,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Reumatologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Stomatologia dziecięca",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Stomatologia zachowawcza z endodoncją",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 9,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Toksykologia kliniczna",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Transfuzjologia kliniczna",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 2,
+        "difference": 14,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Urologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Urologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Zdrowie publiczne",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Alergologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+        "detailed_available_capacity": 27,
+        "aggregate_allocated_places": 27,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Angiologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 2,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Audiologia i foniatria",
+        "detailed_available_capacity": 18,
+        "aggregate_allocated_places": 18,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Balneologia i medycyna fizykalna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia dziecięca",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia naczyniowa",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia ogólna",
+        "detailed_available_capacity": 50,
+        "aggregate_allocated_places": 48,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia onkologiczna",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 16,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia plastyczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia stomatologiczna",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 2,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia szczękowo-twarzowa",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby płuc",
+        "detailed_available_capacity": 25,
+        "aggregate_allocated_places": 24,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby płuc dzieci",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 5,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby wewnętrzne",
+        "detailed_available_capacity": 517,
+        "aggregate_allocated_places": 515,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby zakaźne",
+        "detailed_available_capacity": 29,
+        "aggregate_allocated_places": 29,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Dermatologia i wenerologia",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Diabetologia",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 6,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Diagnostyka laboratoryjna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Endokrynologia",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Endokrynologia ginekologiczna i rozrodczość",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Endokrynologia i diabetologia dziecięca",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Epidemiologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Farmakologia kliniczna",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Gastroenterologia",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 6,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Gastroenterologia dziecięca",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Genetyka kliniczna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 1,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Geriatria",
+        "detailed_available_capacity": 21,
+        "aggregate_allocated_places": 21,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Ginekologia onkologiczna",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Hematologia",
+        "detailed_available_capacity": 14,
+        "aggregate_allocated_places": 12,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Hipertensjologia",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 16,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Immunologia kliniczna",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Intensywna terapia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Kardiochirurgia",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 10,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Kardiologia",
+        "detailed_available_capacity": 118,
+        "aggregate_allocated_places": 118,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Kardiologia dziecięca",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna nuklearna",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 10,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna paliatywna",
+        "detailed_available_capacity": 17,
+        "aggregate_allocated_places": 19,
+        "difference": -2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna pracy",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna ratunkowa",
+        "detailed_available_capacity": 87,
+        "aggregate_allocated_places": 87,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna rodzinna",
+        "detailed_available_capacity": 279,
+        "aggregate_allocated_places": 280,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna sportowa",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna sądowa",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Mikrobiologia lekarska",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 2,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Nefrologia",
+        "detailed_available_capacity": 18,
+        "aggregate_allocated_places": 17,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Nefrologia dziecięca",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neonatologia",
+        "detailed_available_capacity": 20,
+        "aggregate_allocated_places": 20,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neurochirurgia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neurologia",
+        "detailed_available_capacity": 54,
+        "aggregate_allocated_places": 54,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neurologia dziecięca",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 3,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neuropatologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 4,
+        "difference": -2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Okulistyka",
+        "detailed_available_capacity": 26,
+        "aggregate_allocated_places": 26,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Onkologia i hematologia dziecięca",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Onkologia kliniczna",
+        "detailed_available_capacity": 38,
+        "aggregate_allocated_places": 39,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Ortodoncja",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Ortopedia i traumatologia narządu ruchu",
+        "detailed_available_capacity": 66,
+        "aggregate_allocated_places": 57,
+        "difference": 9,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Otorynolaryngologia",
+        "detailed_available_capacity": 12,
+        "aggregate_allocated_places": 13,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Patomorfologia",
+        "detailed_available_capacity": 18,
+        "aggregate_allocated_places": 17,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Pediatria",
+        "detailed_available_capacity": 130,
+        "aggregate_allocated_places": 61,
+        "difference": 69,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Pediatria metaboliczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Perinatologia",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 8,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Periodontologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Położnictwo i ginekologia",
+        "detailed_available_capacity": 41,
+        "aggregate_allocated_places": 43,
+        "difference": -2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Protetyka stomatologiczna",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 10,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Psychiatria",
+        "detailed_available_capacity": 65,
+        "aggregate_allocated_places": 63,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Radiologia i diagnostyka obrazowa",
+        "detailed_available_capacity": 36,
+        "aggregate_allocated_places": 34,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Radioterapia onkologiczna",
+        "detailed_available_capacity": 13,
+        "aggregate_allocated_places": 13,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Rehabilitacja medyczna",
+        "detailed_available_capacity": 74,
+        "aggregate_allocated_places": 73,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Reumatologia",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 8,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Seksuologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Stomatologia dziecięca",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Stomatologia zachowawcza z endodoncją",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 9,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Toksykologia kliniczna",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Transfuzjologia kliniczna",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Transplantologia kliniczna",
+        "detailed_available_capacity": 29,
+        "aggregate_allocated_places": 27,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Urologia",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 8,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Urologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Zdrowie publiczne",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Alergologia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia naczyniowa",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia ogólna",
+        "detailed_available_capacity": 23,
+        "aggregate_allocated_places": 23,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia onkologiczna",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia stomatologiczna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia szczękowo-twarzowa",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Choroby płuc",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Choroby wewnętrzne",
+        "detailed_available_capacity": 103,
+        "aggregate_allocated_places": 91,
+        "difference": 12,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Choroby zakaźne",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Dermatologia i wenerologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Diabetologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Diagnostyka laboratoryjna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Endokrynologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Gastroenterologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Geriatria",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Ginekologia onkologiczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Hematologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Hipertensjologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Intensywna terapia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Kardiochirurgia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Kardiologia",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna paliatywna",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 10,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna pracy",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna ratunkowa",
+        "detailed_available_capacity": 30,
+        "aggregate_allocated_places": 32,
+        "difference": -2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna rodzinna",
+        "detailed_available_capacity": 48,
+        "aggregate_allocated_places": 48,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Neonatologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Neurologia",
+        "detailed_available_capacity": 23,
+        "aggregate_allocated_places": 23,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Neurologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Okulistyka",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Onkologia i hematologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Onkologia kliniczna",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Ortodoncja",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Ortopedia i traumatologia narządu ruchu",
+        "detailed_available_capacity": 15,
+        "aggregate_allocated_places": 14,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Otorynolaryngologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Patomorfologia",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Pediatria",
+        "detailed_available_capacity": 29,
+        "aggregate_allocated_places": 29,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Periodontologia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Położnictwo i ginekologia",
+        "detailed_available_capacity": 13,
+        "aggregate_allocated_places": 13,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Protetyka stomatologiczna",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Psychiatria",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Radiologia i diagnostyka obrazowa",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 9,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Radioterapia onkologiczna",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Rehabilitacja medyczna",
+        "detailed_available_capacity": 17,
+        "aggregate_allocated_places": 18,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Reumatologia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Stomatologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Stomatologia zachowawcza z endodoncją",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "j-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Urologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Alergologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+        "detailed_available_capacity": 10,
+        "aggregate_allocated_places": 9,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Angiologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Audiologia i foniatria",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Balneologia i medycyna fizykalna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia dziecięca",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 4,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia naczyniowa",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia ogólna",
+        "detailed_available_capacity": 24,
+        "aggregate_allocated_places": 24,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia onkologiczna",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia plastyczna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia stomatologiczna",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Chirurgia szczękowo-twarzowa",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby płuc",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby płuc dzieci",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby wewnętrzne",
+        "detailed_available_capacity": 176,
+        "aggregate_allocated_places": 172,
+        "difference": 4,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Choroby zakaźne",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Dermatologia i wenerologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Diabetologia",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Endokrynologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Endokrynologia ginekologiczna i rozrodczość",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Endokrynologia i diabetologia dziecięca",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Epidemiologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Gastroenterologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Gastroenterologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Genetyka kliniczna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Geriatria",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Ginekologia onkologiczna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Hematologia",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Hipertensjologia",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Kardiochirurgia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Kardiologia",
+        "detailed_available_capacity": 41,
+        "aggregate_allocated_places": 41,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Kardiologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna nuklearna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna paliatywna",
+        "detailed_available_capacity": 11,
+        "aggregate_allocated_places": 10,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna pracy",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna ratunkowa",
+        "detailed_available_capacity": 38,
+        "aggregate_allocated_places": 38,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna rodzinna",
+        "detailed_available_capacity": 177,
+        "aggregate_allocated_places": 142,
+        "difference": 35,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna sportowa",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Medycyna sądowa",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Mikrobiologia lekarska",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Nefrologia",
+        "detailed_available_capacity": 22,
+        "aggregate_allocated_places": 22,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Nefrologia dziecięca",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Neonatologia",
+        "detailed_available_capacity": 24,
+        "aggregate_allocated_places": 22,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Neurochirurgia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Neurologia",
+        "detailed_available_capacity": 24,
+        "aggregate_allocated_places": 20,
+        "difference": 4,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Okulistyka",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 6,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Onkologia kliniczna",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 16,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Ortodoncja",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Ortopedia i traumatologia narządu ruchu",
+        "detailed_available_capacity": 25,
+        "aggregate_allocated_places": 24,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Otorynolaryngologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Patomorfologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 2,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Pediatria",
+        "detailed_available_capacity": 38,
+        "aggregate_allocated_places": 36,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Pediatria metaboliczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Perinatologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Periodontologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Położnictwo i ginekologia",
+        "detailed_available_capacity": 18,
+        "aggregate_allocated_places": 16,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Protetyka stomatologiczna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Psychiatria",
+        "detailed_available_capacity": 19,
+        "aggregate_allocated_places": 17,
+        "difference": 2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Radiologia i diagnostyka obrazowa",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Radioterapia onkologiczna",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 9,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Rehabilitacja medyczna",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 16,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Reumatologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 5,
+        "difference": -2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Stomatologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Stomatologia zachowawcza z endodoncją",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 5,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Toksykologia kliniczna",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 5,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Transplantologia kliniczna",
+        "detailed_available_capacity": 15,
+        "aggregate_allocated_places": 15,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Urologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Urologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Dolnośląskie",
+        "dziedzina_medycyny": "Zdrowie publiczne",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 1,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Alergologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+        "detailed_available_capacity": 20,
+        "aggregate_allocated_places": 20,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Audiologia i foniatria",
+        "detailed_available_capacity": 18,
+        "aggregate_allocated_places": 18,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Balneologia i medycyna fizykalna",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia dziecięca",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia naczyniowa",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia ogólna",
+        "detailed_available_capacity": 31,
+        "aggregate_allocated_places": 30,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia onkologiczna",
+        "detailed_available_capacity": 11,
+        "aggregate_allocated_places": 11,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia plastyczna",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia stomatologiczna",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 3,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Chirurgia szczękowo-twarzowa",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby płuc",
+        "detailed_available_capacity": 28,
+        "aggregate_allocated_places": 28,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby płuc dzieci",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby wewnętrzne",
+        "detailed_available_capacity": 429,
+        "aggregate_allocated_places": 440,
+        "difference": -11,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Choroby zakaźne",
+        "detailed_available_capacity": 27,
+        "aggregate_allocated_places": 27,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Dermatologia i wenerologia",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Diabetologia",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Diagnostyka laboratoryjna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Endokrynologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 2,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Endokrynologia ginekologiczna i rozrodczość",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Endokrynologia i diabetologia dziecięca",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Gastroenterologia",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 5,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Gastroenterologia dziecięca",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Geriatria",
+        "detailed_available_capacity": 24,
+        "aggregate_allocated_places": 24,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Ginekologia onkologiczna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Hematologia",
+        "detailed_available_capacity": 14,
+        "aggregate_allocated_places": 14,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Hipertensjologia",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 16,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Immunologia kliniczna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Intensywna terapia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Kardiochirurgia",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 7,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Kardiologia",
+        "detailed_available_capacity": 126,
+        "aggregate_allocated_places": 125,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Kardiologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 2,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna nuklearna",
+        "detailed_available_capacity": 11,
+        "aggregate_allocated_places": 11,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna paliatywna",
+        "detailed_available_capacity": 20,
+        "aggregate_allocated_places": 20,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna pracy",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna ratunkowa",
+        "detailed_available_capacity": 75,
+        "aggregate_allocated_places": 74,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna rodzinna",
+        "detailed_available_capacity": 251,
+        "aggregate_allocated_places": 235,
+        "difference": 16,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Medycyna sportowa",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Mikrobiologia lekarska",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Nefrologia",
+        "detailed_available_capacity": 16,
+        "aggregate_allocated_places": 15,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Nefrologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neonatologia",
+        "detailed_available_capacity": 19,
+        "aggregate_allocated_places": 19,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neurochirurgia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 3,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neurologia",
+        "detailed_available_capacity": 49,
+        "aggregate_allocated_places": 48,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neurologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Neuropatologia",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Okulistyka",
+        "detailed_available_capacity": 43,
+        "aggregate_allocated_places": 42,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Onkologia i hematologia dziecięca",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 5,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Onkologia kliniczna",
+        "detailed_available_capacity": 29,
+        "aggregate_allocated_places": 26,
+        "difference": 3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Ortodoncja",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 4,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Ortopedia i traumatologia narządu ruchu",
+        "detailed_available_capacity": 61,
+        "aggregate_allocated_places": 53,
+        "difference": 8,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Otorynolaryngologia",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 8,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 9,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Patomorfologia",
+        "detailed_available_capacity": 17,
+        "aggregate_allocated_places": 17,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Pediatria",
+        "detailed_available_capacity": 95,
+        "aggregate_allocated_places": 95,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Pediatria metaboliczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Perinatologia",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 8,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Periodontologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Położnictwo i ginekologia",
+        "detailed_available_capacity": 39,
+        "aggregate_allocated_places": 35,
+        "difference": 4,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Protetyka stomatologiczna",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Psychiatria",
+        "detailed_available_capacity": 35,
+        "aggregate_allocated_places": 38,
+        "difference": -3,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+        "detailed_available_capacity": 13,
+        "aggregate_allocated_places": 13,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Radiologia i diagnostyka obrazowa",
+        "detailed_available_capacity": 21,
+        "aggregate_allocated_places": 21,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Radioterapia onkologiczna",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Rehabilitacja medyczna",
+        "detailed_available_capacity": 62,
+        "aggregate_allocated_places": 62,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Reumatologia",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 6,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Seksuologia",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Stomatologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Stomatologia zachowawcza z endodoncją",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 6,
+        "difference": 1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Toksykologia kliniczna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Transfuzjologia kliniczna",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Transplantologia kliniczna",
+        "detailed_available_capacity": 27,
+        "aggregate_allocated_places": 27,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Urologia",
+        "detailed_available_capacity": 7,
+        "aggregate_allocated_places": 7,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Urologia dziecięca",
+        "detailed_available_capacity": 0,
+        "aggregate_allocated_places": 0,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Mazowieckie",
+        "dziedzina_medycyny": "Zdrowie publiczne",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Alergologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+        "detailed_available_capacity": 9,
+        "aggregate_allocated_places": 9,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia naczyniowa",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia ogólna",
+        "detailed_available_capacity": 19,
+        "aggregate_allocated_places": 19,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia onkologiczna",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia stomatologiczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Chirurgia szczękowo-twarzowa",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Choroby płuc",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Choroby wewnętrzne",
+        "detailed_available_capacity": 100,
+        "aggregate_allocated_places": 101,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Choroby zakaźne",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Dermatologia i wenerologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 3,
+        "difference": -2,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Diabetologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Diagnostyka laboratoryjna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Gastroenterologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Geriatria",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Hematologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Hipertensjologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Intensywna terapia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Kardiochirurgia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Kardiologia",
+        "detailed_available_capacity": 15,
+        "aggregate_allocated_places": 16,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Kardiologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna paliatywna",
+        "detailed_available_capacity": 8,
+        "aggregate_allocated_places": 8,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna pracy",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna ratunkowa",
+        "detailed_available_capacity": 29,
+        "aggregate_allocated_places": 25,
+        "difference": 4,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Medycyna rodzinna",
+        "detailed_available_capacity": 39,
+        "aggregate_allocated_places": 40,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Nefrologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Nefrologia dziecięca",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Neonatologia",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Neurochirurgia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Neurologia",
+        "detailed_available_capacity": 21,
+        "aggregate_allocated_places": 22,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Neurologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Okulistyka",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Onkologia i hematologia dziecięca",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Onkologia kliniczna",
+        "detailed_available_capacity": 5,
+        "aggregate_allocated_places": 5,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Ortopedia i traumatologia narządu ruchu",
+        "detailed_available_capacity": 12,
+        "aggregate_allocated_places": 12,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Otorynolaryngologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Patomorfologia",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 7,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Pediatria",
+        "detailed_available_capacity": 22,
+        "aggregate_allocated_places": 22,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Periodontologia",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Położnictwo i ginekologia",
+        "detailed_available_capacity": 12,
+        "aggregate_allocated_places": 12,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Protetyka stomatologiczna",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Psychiatria",
+        "detailed_available_capacity": 4,
+        "aggregate_allocated_places": 4,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Radiologia i diagnostyka obrazowa",
+        "detailed_available_capacity": 6,
+        "aggregate_allocated_places": 6,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Radioterapia onkologiczna",
+        "detailed_available_capacity": 3,
+        "aggregate_allocated_places": 3,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Rehabilitacja medyczna",
+        "detailed_available_capacity": 17,
+        "aggregate_allocated_places": 18,
+        "difference": -1,
+        "exact_match": false
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Reumatologia",
+        "detailed_available_capacity": 1,
+        "aggregate_allocated_places": 1,
+        "difference": 0,
+        "exact_match": true
+      },
+      {
+        "rekrutacja": "w-2026",
+        "wojewodztwo": "Warmińsko-mazurskie",
+        "dziedzina_medycyny": "Stomatologia zachowawcza z endodoncją",
+        "detailed_available_capacity": 2,
+        "aggregate_allocated_places": 2,
+        "difference": 0,
+        "exact_match": true
+      }
+    ]
+  },
+  "interpretation": {
+    "capacity_semantics": "The provincial PDFs expose available training capacity. It must not be described as facility-level residency allocation unless exact reconciliation is established.",
+    "city_semantics": "miasto_raw is the first locality following the first postal code in the address cell; broken PDF glyphs are retained and flagged for later dictionary normalization."
+  }
+}

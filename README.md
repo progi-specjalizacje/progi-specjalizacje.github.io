@@ -18,9 +18,47 @@ Useful validation commands:
 ```bash
 npm run typecheck
 npm run build
+npm run prediction:audit
 ```
 
 Future coding agents should start with `AGENTS.md`; it contains the project map, architecture rules, and handoff checklist.
+
+## Prediction pipeline
+
+The repository also contains a local, backend-free pipeline for forecasting competitive residency thresholds and the probability that a regional pool will be completely filled. Its methodology, exclusions, data sources, validation rules, generated files, and limitations are documented in [`prediction/README.md`](prediction/README.md).
+
+Typical execution order:
+
+```bash
+npm run prediction:data
+npm run prediction:scope
+npm run prediction:model
+```
+
+The threshold and fill-probability models are separate. Generated prediction CSV/JSON files live in `prediction/data/` and should be regenerated through the scripts rather than edited manually.
+
+### Kontrola aktualności danych
+
+Repozytorium zawiera projektowy skill [`$cmkp-cem-data-refresh`](.agents/skills/cmkp-cem-data-refresh/SKILL.md), który sprawdza oficjalne publikacje CEM i CMKP oraz prowadzi przez bezpieczną aktualizację źródeł i ponowne wygenerowanie prognoz. Skill śledzi niezależnie:
+
+- wyniki sesji LEK i LDEK,
+- szczegółowe statystyki CEM z odchyleniem standardowym,
+- wykazy miejsc specjalizacyjnych CMKP,
+- listy osób zakwalifikowanych publikowane przez CMKP.
+
+Lokalny audyt można uruchomić bez pobierania ani zmieniania danych:
+
+```bash
+npm run prediction:audit
+```
+
+Audyt kontroluje schematy CSV, kompletność par LEK/LDEK, duplikaty, zakresy liczb, zgodność SD, manifest i PDF-y CMKP, dostępność rund w `source_data` oraz zakres `[0, 1]` prognoz prawdopodobieństwa. Brak publikacji, która zwykle pojawia się później niż pozostałe dane z tej samej rundy, jest raportowany jako ostrzeżenie, a nie błąd.
+
+W zadaniu Codex można wywołać pełną kontrolę internetu i aktualizację poleceniem:
+
+> Użyj `$cmkp-cem-data-refresh`, sprawdź aktualność danych CEM i CMKP oraz zaktualizuj wszystkie opublikowane źródła.
+
+Oficjalne adresy, znaczenie kolumn i zasady wyboru właściwych tabel opisano w [schemacie źródeł skilla](.agents/skills/cmkp-cem-data-refresh/references/sources-and-schema.md).
 
 ## Source Data
 

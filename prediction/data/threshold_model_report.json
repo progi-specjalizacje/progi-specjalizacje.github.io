@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T20:47:29.178Z",
+  "generated_at": "2026-09-23T10:08:19.113Z",
   "model": {
     "type": "ridge_regression",
     "lambda": 20,
@@ -26,6 +26,81 @@
       "sredni_prog_wojewodztwa_przed_runda",
       "sredni_prog_globalny_przed_runda"
     ],
+    "season_trend_features": [
+      "log_miejsca",
+      "zmiana_miejsc",
+      "poprzednie_miejsca",
+      "poprzednio_zakwalifikowani",
+      "poprzednie_wypelnienie",
+      "ostatni_obserwowany_wynik",
+      "ostatni_konkurencyjny_prog",
+      "sredni_historyczny_prog_konkurencyjny",
+      "liczba_historycznych_pelnych_pul",
+      "sredni_prog_specjalizacji_przed_runda",
+      "sredni_prog_wojewodztwa_przed_runda",
+      "sredni_prog_globalny_przed_runda",
+      "trend_rundy_wiosna",
+      "trend_rundy_jesien"
+    ],
+    "delta_features": [
+      "log_miejsca",
+      "zmiana_miejsc",
+      "poprzednie_miejsca",
+      "poprzednio_zakwalifikowani",
+      "poprzednie_wypelnienie",
+      "ostatni_obserwowany_wynik",
+      "ostatni_konkurencyjny_prog",
+      "sredni_historyczny_prog_konkurencyjny",
+      "liczba_historycznych_pelnych_pul",
+      "sredni_prog_specjalizacji_przed_runda",
+      "sredni_prog_wojewodztwa_przed_runda",
+      "sredni_prog_globalny_przed_runda",
+      "trend_rundy_wiosna",
+      "trend_rundy_jesien",
+      "ostatni_prog_tego_samego_sezonu"
+    ],
+    "delta_anchor": "ostatni konkurencyjny próg z tego samego sezonu; w razie braku ostatni konkurencyjny próg dowolnego sezonu",
+    "region_pool_features": [
+      "log_miejsca",
+      "zmiana_miejsc",
+      "poprzednie_miejsca",
+      "poprzednio_zakwalifikowani",
+      "poprzednie_wypelnienie",
+      "ostatni_obserwowany_wynik",
+      "ostatni_konkurencyjny_prog",
+      "sredni_historyczny_prog_konkurencyjny",
+      "liczba_historycznych_pelnych_pul",
+      "sredni_prog_specjalizacji_przed_runda",
+      "sredni_prog_wojewodztwa_przed_runda",
+      "sredni_prog_globalny_przed_runda",
+      "trend_rundy_wiosna",
+      "trend_rundy_jesien",
+      "sredni_prog_specjalizacji_grupy_wojewodztw_przed_runda",
+      "liczba_prog_specjalizacji_grupy_wojewodztw_przed_runda"
+    ],
+    "trend_delta_ensemble_weights": {
+      "base": 0.6,
+      "seasonTrend": 0.2,
+      "delta": 0.2
+    },
+    "trend_delta_ensemble_note": "Eksploracyjna średnia ważona prognoz: poziom bazowy 60%, sezon × trend 20%, zmiana progu 20%; wagi wybrane po porównaniu wariantów i wymagają potwierdzenia na nowych rundach",
+    "region_peer_groups_experimental": {
+      "duze_osrodki_hipoteza": [
+        "Mazowieckie",
+        "Dolnośląskie",
+        "Małopolskie",
+        "Pomorskie",
+        "Wielkopolskie"
+      ],
+      "regiony_odplywowe_hipoteza": [
+        "Świętokrzyskie",
+        "Podlaskie",
+        "Łódzkie",
+        "Lubelskie",
+        "Podkarpackie"
+      ],
+      "pozostale": "pozostałe województwa"
+    },
     "additional_exam_features": [
       "egzamin_srednia_proc",
       "log_liczba_przystepujacych",
@@ -84,6 +159,7 @@
     "target": "prawdopodobieństwo pełnego obsadzenia puli miejsc w województwie",
     "validation": "rolling-origin; każda runda jest przewidywana wyłącznie z wcześniejszych rund",
     "exam_features": "pominięte zgodnie z założeniem; model zapełnienia nie używa danych LEK/LDEK",
+    "selected_probability": "prawdopodobienstwo_model_logistyczny (surowe); testowane kalibracje pogarszały Brier score i ECE w walidacji rolling-origin, więc nie zastępują głównej prognozy",
     "numeric_features": [
       "log_miejsca",
       "log_miejsca_kraj_specjalizacja",
@@ -109,16 +185,27 @@
       "sezon"
     ],
     "rows": 1712,
-    "logistic": {
+    "logistic_raw": {
       "n": 1712,
       "observed_rate": 0.665,
       "mean_probability": 0.625,
       "brier": 0.1035,
       "log_loss": 0.3476,
       "auc": 0.9211,
+      "expected_calibration_error_10_bins": 0.0446,
       "accuracy_050": 0.8557
     },
-    "calibration": [
+    "logistic_calibrated": {
+      "n": 1712,
+      "observed_rate": 0.665,
+      "mean_probability": 0.626,
+      "brier": 0.1051,
+      "log_loss": 0.3469,
+      "auc": 0.9196,
+      "expected_calibration_error_10_bins": 0.0471,
+      "accuracy_050": 0.854
+    },
+    "calibration_raw": [
       {
         "przedzial": "0.0-0.2",
         "n": 428,
@@ -150,6 +237,89 @@
         "rzeczywisty_udzial_pelnych": 0.9537
       }
     ],
+    "calibration_after_experimental_isotonic": [
+      {
+        "przedzial": "0.0-0.2",
+        "n": 485,
+        "srednie_prawdopodobienstwo": 0.0793,
+        "rzeczywisty_udzial_pelnych": 0.1526
+      },
+      {
+        "przedzial": "0.2-0.4",
+        "n": 117,
+        "srednie_prawdopodobienstwo": 0.2894,
+        "rzeczywisty_udzial_pelnych": 0.5043
+      },
+      {
+        "przedzial": "0.4-0.6",
+        "n": 64,
+        "srednie_prawdopodobienstwo": 0.5047,
+        "rzeczywisty_udzial_pelnych": 0.6563
+      },
+      {
+        "przedzial": "0.6-0.8",
+        "n": 103,
+        "srednie_prawdopodobienstwo": 0.7217,
+        "rzeczywisty_udzial_pelnych": 0.6699
+      },
+      {
+        "przedzial": "0.8-1.0",
+        "n": 943,
+        "srednie_prawdopodobienstwo": 0.946,
+        "rzeczywisty_udzial_pelnych": 0.948
+      }
+    ],
+    "final_calibrator": {
+      "method": "Monotoniczna kalibracja przedziałowa na prognozach cross-fitted z wcześniejszych rund, z wygładzaniem do surowego prawdopodobieństwa",
+      "training_rows": 3304,
+      "points": [
+        {
+          "raw_probability": 0.043125,
+          "calibrated_probability": 0.036927,
+          "n": 330
+        },
+        {
+          "raw_probability": 0.121645,
+          "calibrated_probability": 0.112915,
+          "n": 330
+        },
+        {
+          "raw_probability": 0.224194,
+          "calibrated_probability": 0.173756,
+          "n": 331
+        },
+        {
+          "raw_probability": 0.357138,
+          "calibrated_probability": 0.315873,
+          "n": 330
+        },
+        {
+          "raw_probability": 0.540386,
+          "calibrated_probability": 0.576763,
+          "n": 331
+        },
+        {
+          "raw_probability": 0.727894,
+          "calibrated_probability": 0.810658,
+          "n": 330
+        },
+        {
+          "raw_probability": 0.878065,
+          "calibrated_probability": 0.892617,
+          "n": 330
+        },
+        {
+          "raw_probability": 0.96387,
+          "calibrated_probability": 0.963708,
+          "n": 661
+        },
+        {
+          "raw_probability": 0.992415,
+          "calibrated_probability": 0.977209,
+          "n": 331
+        }
+      ]
+    },
     "smoothed_history_baseline": {
       "n": 1712,
       "observed_rate": 0.665,
@@ -157,18 +327,30 @@
       "brier": 0.1921,
       "log_loss": 0.5834,
       "auc": 0.8781,
+      "expected_calibration_error_10_bins": 0.2242,
       "accuracy_050": 0.7284
     },
     "by_round": {
       "j-2024": {
         "rows": 437,
-        "logistic": {
+        "logistic_raw": {
           "n": 437,
           "observed_rate": 0.693,
           "mean_probability": 0.706,
           "brier": 0.1108,
           "log_loss": 0.3665,
           "auc": 0.9088,
+          "expected_calibration_error_10_bins": 0.0579,
+          "accuracy_050": 0.8398
+        },
+        "logistic_calibrated": {
+          "n": 437,
+          "observed_rate": 0.693,
+          "mean_probability": 0.698,
+          "brier": 0.1153,
+          "log_loss": 0.3704,
+          "auc": 0.9079,
+          "expected_calibration_error_10_bins": 0.0641,
           "accuracy_050": 0.8398
         },
         "smoothed_history_baseline": {
@@ -178,19 +360,31 @@
           "brier": 0.2053,
           "log_loss": 0.6201,
           "auc": 0.8586,
+          "expected_calibration_error_10_bins": 0.2428,
           "accuracy_050": 0.7071
         }
       },
       "w-2025": {
         "rows": 430,
-        "logistic": {
+        "logistic_raw": {
           "n": 430,
           "observed_rate": 0.542,
           "mean_probability": 0.465,
           "brier": 0.1145,
           "log_loss": 0.3837,
           "auc": 0.9247,
+          "expected_calibration_error_10_bins": 0.0785,
           "accuracy_050": 0.8419
+        },
+        "logistic_calibrated": {
+          "n": 430,
+          "observed_rate": 0.542,
+          "mean_probability": 0.475,
+          "brier": 0.1166,
+          "log_loss": 0.3873,
+          "auc": 0.9217,
+          "expected_calibration_error_10_bins": 0.0769,
+          "accuracy_050": 0.8372
         },
         "smoothed_history_baseline": {
           "n": 430,
@@ -199,18 +393,30 @@
           "brier": 0.1548,
           "log_loss": 0.4802,
           "auc": 0.8921,
+          "expected_calibration_error_10_bins": 0.1355,
           "accuracy_050": 0.793
         }
       },
       "j-2025": {
         "rows": 461,
-        "logistic": {
+        "logistic_raw": {
           "n": 461,
           "observed_rate": 0.761,
           "mean_probability": 0.735,
           "brier": 0.0838,
           "log_loss": 0.2835,
           "auc": 0.9289,
+          "expected_calibration_error_10_bins": 0.0412,
+          "accuracy_050": 0.8829
+        },
+        "logistic_calibrated": {
+          "n": 461,
+          "observed_rate": 0.761,
+          "mean_probability": 0.731,
+          "brier": 0.0833,
+          "log_loss": 0.276,
+          "auc": 0.9296,
+          "expected_calibration_error_10_bins": 0.0505,
           "accuracy_050": 0.8829
         },
         "smoothed_history_baseline": {
@@ -220,19 +426,31 @@
           "brier": 0.2211,
           "log_loss": 0.6588,
           "auc": 0.8831,
+          "expected_calibration_error_10_bins": 0.2972,
           "accuracy_050": 0.6746
         }
       },
       "w-2026": {
         "rows": 384,
-        "logistic": {
+        "logistic_raw": {
           "n": 384,
           "observed_rate": 0.654,
           "mean_probability": 0.579,
           "brier": 0.1063,
           "log_loss": 0.3625,
           "auc": 0.9214,
+          "expected_calibration_error_10_bins": 0.0838,
           "accuracy_050": 0.8568
+        },
+        "logistic_calibrated": {
+          "n": 384,
+          "observed_rate": 0.654,
+          "mean_probability": 0.585,
+          "brier": 0.107,
+          "log_loss": 0.3598,
+          "auc": 0.9209,
+          "expected_calibration_error_10_bins": 0.0733,
+          "accuracy_050": 0.8542
         },
         "smoothed_history_baseline": {
           "n": 384,
@@ -241,6 +459,7 @@
           "brier": 0.1843,
           "log_loss": 0.5665,
           "auc": 0.8885,
+          "expected_calibration_error_10_bins": 0.2175,
           "accuracy_050": 0.7448
         }
       }
@@ -261,6 +480,34 @@
       "rmse": 4.357,
       "bias": -0.202,
       "error_p80": 4.063
+    },
+    "ridge_season_trend": {
+      "n": 952,
+      "mae": 2.87,
+      "rmse": 4.343,
+      "bias": 0.265,
+      "error_p80": 4.219
+    },
+    "ridge_delta_threshold": {
+      "n": 952,
+      "mae": 3.348,
+      "rmse": 5.176,
+      "bias": 0.95,
+      "error_p80": 4.763
+    },
+    "ridge_season_trend_region_pool": {
+      "n": 952,
+      "mae": 2.948,
+      "rmse": 4.363,
+      "bias": 0.331,
+      "error_p80": 4.337
+    },
+    "ridge_trend_delta_ensemble": {
+      "n": 952,
+      "mae": 2.744,
+      "rmse": 4.328,
+      "bias": 0.122,
+      "error_p80": 3.872
     },
     "ridge_with_exam": {
       "n": 952,
@@ -321,6 +568,34 @@
           "bias": -0.166,
           "error_p80": 1.772
         },
+        "sezon_trend": {
+          "n": 47,
+          "mae": 1.436,
+          "rmse": 1.74,
+          "bias": -0.436,
+          "error_p80": 2.144
+        },
+        "zmiana_progu": {
+          "n": 47,
+          "mae": 1.935,
+          "rmse": 2.657,
+          "bias": -0.729,
+          "error_p80": 2.89
+        },
+        "sezon_trend_regiony": {
+          "n": 47,
+          "mae": 1.355,
+          "rmse": 1.694,
+          "bias": 0.022,
+          "error_p80": 2.01
+        },
+        "trend_delta_laczony": {
+          "n": 47,
+          "mae": 1.162,
+          "rmse": 1.495,
+          "bias": -0.332,
+          "error_p80": 1.79
+        },
         "z_egzaminem": {
           "n": 47,
           "mae": 1.538,
@@ -374,6 +649,34 @@
           "rmse": 2.838,
           "bias": -0.016,
           "error_p80": 2.727
+        },
+        "sezon_trend": {
+          "n": 426,
+          "mae": 2.041,
+          "rmse": 2.949,
+          "bias": 0.12,
+          "error_p80": 2.935
+        },
+        "zmiana_progu": {
+          "n": 426,
+          "mae": 2.742,
+          "rmse": 4.126,
+          "bias": 0.326,
+          "error_p80": 3.97
+        },
+        "sezon_trend_regiony": {
+          "n": 426,
+          "mae": 2.108,
+          "rmse": 3.003,
+          "bias": 0.323,
+          "error_p80": 3.184
+        },
+        "trend_delta_laczony": {
+          "n": 426,
+          "mae": 1.83,
+          "rmse": 2.88,
+          "bias": 0.08,
+          "error_p80": 2.536
         },
         "z_egzaminem": {
           "n": 426,
@@ -445,6 +748,34 @@
           "bias": -0.271,
           "error_p80": 4.457
         },
+        "ridge_season_trend": {
+          "n": 798,
+          "mae": 2.995,
+          "rmse": 4.539,
+          "bias": 0.201,
+          "error_p80": 4.314
+        },
+        "ridge_delta_threshold": {
+          "n": 798,
+          "mae": 3.518,
+          "rmse": 5.45,
+          "bias": 0.924,
+          "error_p80": 5.072
+        },
+        "ridge_season_trend_region_pool": {
+          "n": 798,
+          "mae": 3.071,
+          "rmse": 4.548,
+          "bias": 0.266,
+          "error_p80": 4.433
+        },
+        "ridge_trend_delta_ensemble": {
+          "n": 798,
+          "mae": 2.924,
+          "rmse": 4.579,
+          "bias": 0.062,
+          "error_p80": 4.091
+        },
         "ridge_with_exam": {
           "n": 798,
           "mae": 3.345,
@@ -496,6 +827,34 @@
           "rmse": 2.538,
           "bias": 0.154,
           "error_p80": 2.613
+        },
+        "ridge_season_trend": {
+          "n": 154,
+          "mae": 2.223,
+          "rmse": 3.138,
+          "bias": 0.598,
+          "error_p80": 3.217
+        },
+        "ridge_delta_threshold": {
+          "n": 154,
+          "mae": 2.47,
+          "rmse": 3.421,
+          "bias": 1.083,
+          "error_p80": 4.076
+        },
+        "ridge_season_trend_region_pool": {
+          "n": 154,
+          "mae": 2.314,
+          "rmse": 3.237,
+          "bias": 0.669,
+          "error_p80": 3.582
+        },
+        "ridge_trend_delta_ensemble": {
+          "n": 154,
+          "mae": 1.807,
+          "rmse": 2.675,
+          "bias": 0.428,
+          "error_p80": 2.734
         },
         "ridge_with_exam": {
           "n": 154,
@@ -551,6 +910,34 @@
           "bias": -0.781,
           "error_p80": 3.936
         },
+        "ridge_season_trend": {
+          "n": 228,
+          "mae": 2.653,
+          "rmse": 3.748,
+          "bias": 1.43,
+          "error_p80": 3.943
+        },
+        "ridge_delta_threshold": {
+          "n": 228,
+          "mae": 3.104,
+          "rmse": 4.266,
+          "bias": 2.152,
+          "error_p80": 4.604
+        },
+        "ridge_season_trend_region_pool": {
+          "n": 228,
+          "mae": 2.958,
+          "rmse": 3.902,
+          "bias": 1.375,
+          "error_p80": 4.46
+        },
+        "ridge_trend_delta_ensemble": {
+          "n": 228,
+          "mae": 2.364,
+          "rmse": 3.422,
+          "bias": 0.247,
+          "error_p80": 3.718
+        },
         "ridge_with_exam": {
           "n": 228,
           "mae": 2.379,
@@ -602,6 +989,34 @@
           "rmse": 5.178,
           "bias": 1.039,
           "error_p80": 4.326
+        },
+        "ridge_season_trend": {
+          "n": 200,
+          "mae": 3.203,
+          "rmse": 5.102,
+          "bias": 0.454,
+          "error_p80": 4.732
+        },
+        "ridge_delta_threshold": {
+          "n": 200,
+          "mae": 3.638,
+          "rmse": 5.752,
+          "bias": 1.499,
+          "error_p80": 5.725
+        },
+        "ridge_season_trend_region_pool": {
+          "n": 200,
+          "mae": 3.237,
+          "rmse": 5.08,
+          "bias": 0.428,
+          "error_p80": 4.462
+        },
+        "ridge_trend_delta_ensemble": {
+          "n": 200,
+          "mae": 3.168,
+          "rmse": 5.18,
+          "bias": 1.014,
+          "error_p80": 4.222
         },
         "ridge_with_exam": {
           "n": 200,
@@ -655,6 +1070,34 @@
           "bias": -1.094,
           "error_p80": 4.03
         },
+        "ridge_season_trend": {
+          "n": 295,
+          "mae": 2.551,
+          "rmse": 4.003,
+          "bias": -0.076,
+          "error_p80": 3.262
+        },
+        "ridge_delta_threshold": {
+          "n": 295,
+          "mae": 2.755,
+          "rmse": 4.355,
+          "bias": 0.139,
+          "error_p80": 3.852
+        },
+        "ridge_season_trend_region_pool": {
+          "n": 295,
+          "mae": 2.633,
+          "rmse": 4.025,
+          "bias": 0.095,
+          "error_p80": 3.628
+        },
+        "ridge_trend_delta_ensemble": {
+          "n": 295,
+          "mae": 2.577,
+          "rmse": 4.003,
+          "bias": -0.644,
+          "error_p80": 3.723
+        },
         "ridge_with_exam": {
           "n": 295,
           "mae": 3.653,
@@ -707,6 +1150,34 @@
           "bias": 0.439,
           "error_p80": 4.083
         },
+        "ridge_season_trend": {
+          "n": 229,
+          "mae": 3.208,
+          "rmse": 4.588,
+          "bias": -0.619,
+          "error_p80": 4.809
+        },
+        "ridge_delta_threshold": {
+          "n": 229,
+          "mae": 4.102,
+          "rmse": 6.319,
+          "bias": 0.318,
+          "error_p80": 5.88
+        },
+        "ridge_season_trend_region_pool": {
+          "n": 229,
+          "mae": 3.092,
+          "rmse": 4.534,
+          "bias": -0.49,
+          "error_p80": 4.852
+        },
+        "ridge_trend_delta_ensemble": {
+          "n": 229,
+          "mae": 2.965,
+          "rmse": 4.704,
+          "bias": 0.203,
+          "error_p80": 4.258
+        },
         "ridge_with_exam": {
           "n": 229,
           "mae": 2.913,
@@ -749,7 +1220,7 @@
     "target": "Równa średnia progów województw z pełną pulą miejsc; województwo bez progu konkurencyjnego nie ma wartości do uśrednienia",
     "prediction": "Równa średnia prognoz regionalnych we wszystkich województwach z ofertą; skład regionów znany przed rekrutacją",
     "evaluation_filter": "Co najmniej 3 województwa z ofertą, 3 pełne pule i 80% udziału pełnych pul",
-    "selected_forecast": "empiryczna_wazona_prognoza_model_bez_egzaminu; nowy model logistyczny lepiej przewiduje zapełnienie, ale w tym małym krajowym backteście nie obniżył błędu agregowanego progu",
+    "selected_forecast": "empiryczna_wazona_prognoza_model_trend_delta_laczony; ensemble regionalny ważony wygładzoną historyczną szansą pełnej puli",
     "test_rows": 49,
     "by_round_rows": {
       "j-2024": 11,
@@ -771,6 +1242,34 @@
         "rmse": 1.82,
         "bias": -0.915,
         "error_p80": 2.074
+      },
+      "sezon_trend": {
+        "n": 49,
+        "mae": 1.499,
+        "rmse": 1.921,
+        "bias": -0.445,
+        "error_p80": 2.464
+      },
+      "zmiana_progu": {
+        "n": 49,
+        "mae": 1.325,
+        "rmse": 1.93,
+        "bias": 0.068,
+        "error_p80": 2.077
+      },
+      "sezon_trend_regiony": {
+        "n": 49,
+        "mae": 1.731,
+        "rmse": 2.109,
+        "bias": -0.275,
+        "error_p80": 2.975
+      },
+      "trend_delta_laczony": {
+        "n": 49,
+        "mae": 1.316,
+        "rmse": 1.703,
+        "bias": -0.624,
+        "error_p80": 1.911
       },
       "z_egzaminem": {
         "n": 49,
@@ -826,6 +1325,34 @@
           "bias": -0.711,
           "error_p80": 2.747
         },
+        "sezon_trend": {
+          "n": 410,
+          "mae": 1.855,
+          "rmse": 2.453,
+          "bias": -0.217,
+          "error_p80": 2.876
+        },
+        "zmiana_progu": {
+          "n": 410,
+          "mae": 2.178,
+          "rmse": 3.324,
+          "bias": 0.138,
+          "error_p80": 3.195
+        },
+        "sezon_trend_regiony": {
+          "n": 410,
+          "mae": 2.009,
+          "rmse": 2.631,
+          "bias": 0.112,
+          "error_p80": 3.312
+        },
+        "trend_delta_laczony": {
+          "n": 410,
+          "mae": 1.686,
+          "rmse": 2.343,
+          "bias": -0.443,
+          "error_p80": 2.5
+        },
         "z_egzaminem": {
           "n": 410,
           "mae": 2.135,
@@ -880,6 +1407,34 @@
           "bias": -0.86,
           "error_p80": 2.064
         },
+        "sezon_trend": {
+          "n": 49,
+          "mae": 1.482,
+          "rmse": 1.914,
+          "bias": -0.39,
+          "error_p80": 2.413
+        },
+        "zmiana_progu": {
+          "n": 49,
+          "mae": 1.317,
+          "rmse": 1.957,
+          "bias": 0.115,
+          "error_p80": 2.07
+        },
+        "sezon_trend_regiony": {
+          "n": 49,
+          "mae": 1.719,
+          "rmse": 2.108,
+          "bias": -0.22,
+          "error_p80": 2.928
+        },
+        "trend_delta_laczony": {
+          "n": 49,
+          "mae": 1.301,
+          "rmse": 1.693,
+          "bias": -0.571,
+          "error_p80": 1.771
+        },
         "z_egzaminem": {
           "n": 49,
           "mae": 1.905,
@@ -930,6 +1485,34 @@
           "rmse": 1.737,
           "bias": -0.79,
           "error_p80": 2.03
+        },
+        "sezon_trend": {
+          "n": 49,
+          "mae": 1.471,
+          "rmse": 1.89,
+          "bias": -0.318,
+          "error_p80": 2.388
+        },
+        "zmiana_progu": {
+          "n": 49,
+          "mae": 1.345,
+          "rmse": 1.999,
+          "bias": 0.15,
+          "error_p80": 1.971
+        },
+        "sezon_trend_regiony": {
+          "n": 49,
+          "mae": 1.712,
+          "rmse": 2.087,
+          "bias": -0.16,
+          "error_p80": 2.901
+        },
+        "trend_delta_laczony": {
+          "n": 49,
+          "mae": 1.274,
+          "rmse": 1.656,
+          "bias": -0.507,
+          "error_p80": 1.632
         },
         "z_egzaminem": {
           "n": 49,
@@ -985,6 +1568,34 @@
           "bias": -1.333,
           "error_p80": 1.916
         },
+        "sezon_trend": {
+          "n": 22,
+          "mae": 1.56,
+          "rmse": 1.877,
+          "bias": -1.096,
+          "error_p80": 2.538
+        },
+        "zmiana_progu": {
+          "n": 22,
+          "mae": 1.062,
+          "rmse": 1.367,
+          "bias": -0.598,
+          "error_p80": 1.518
+        },
+        "sezon_trend_regiony": {
+          "n": 22,
+          "mae": 1.747,
+          "rmse": 2.028,
+          "bias": -1.005,
+          "error_p80": 2.79
+        },
+        "trend_delta_laczony": {
+          "n": 22,
+          "mae": 1.28,
+          "rmse": 1.536,
+          "bias": -1.139,
+          "error_p80": 1.781
+        },
         "z_egzaminem": {
           "n": 22,
           "mae": 1.992,
@@ -1035,6 +1646,34 @@
           "rmse": 1.664,
           "bias": -1.293,
           "error_p80": 1.93
+        },
+        "sezon_trend": {
+          "n": 22,
+          "mae": 1.524,
+          "rmse": 1.831,
+          "bias": -1.054,
+          "error_p80": 2.414
+        },
+        "zmiana_progu": {
+          "n": 22,
+          "mae": 1.03,
+          "rmse": 1.337,
+          "bias": -0.557,
+          "error_p80": 1.318
+        },
+        "sezon_trend_regiony": {
+          "n": 22,
+          "mae": 1.71,
+          "rmse": 1.989,
+          "bias": -0.963,
+          "error_p80": 2.684
+        },
+        "trend_delta_laczony": {
+          "n": 22,
+          "mae": 1.241,
+          "rmse": 1.489,
+          "bias": -1.098,
+          "error_p80": 1.676
         },
         "z_egzaminem": {
           "n": 22,
@@ -1092,6 +1731,34 @@
           "bias": 1.619,
           "error_p80": 4.625
         },
+        "sezon_trend": {
+          "n": 150,
+          "mae": 3.373,
+          "rmse": 5.031,
+          "bias": 2.188,
+          "error_p80": 5.147
+        },
+        "zmiana_progu": {
+          "n": 150,
+          "mae": 3.56,
+          "rmse": 5.318,
+          "bias": 2.77,
+          "error_p80": 5.572
+        },
+        "sezon_trend_regiony": {
+          "n": 150,
+          "mae": 3.252,
+          "rmse": 4.723,
+          "bias": 2.032,
+          "error_p80": 4.541
+        },
+        "trend_delta_laczony": {
+          "n": 150,
+          "mae": 3.143,
+          "rmse": 4.875,
+          "bias": 1.963,
+          "error_p80": 4.754
+        },
         "z_egzaminem": {
           "n": 150,
           "mae": 3.288,
@@ -1143,6 +1810,34 @@
           "bias": 1.826,
           "error_p80": 4.651
         },
+        "sezon_trend": {
+          "n": 150,
+          "mae": 3.502,
+          "rmse": 5.231,
+          "bias": 2.403,
+          "error_p80": 5.562
+        },
+        "zmiana_progu": {
+          "n": 150,
+          "mae": 3.764,
+          "rmse": 5.566,
+          "bias": 3.015,
+          "error_p80": 6.268
+        },
+        "sezon_trend_regiony": {
+          "n": 150,
+          "mae": 3.369,
+          "rmse": 4.909,
+          "bias": 2.245,
+          "error_p80": 5.122
+        },
+        "trend_delta_laczony": {
+          "n": 150,
+          "mae": 3.258,
+          "rmse": 5.077,
+          "bias": 2.179,
+          "error_p80": 5.131
+        },
         "z_egzaminem": {
           "n": 150,
           "mae": 3.373,
@@ -1188,11 +1883,12 @@
     "rows": 802,
     "stable_pilot_rows": 48,
     "high_threshold_small_pool_rows": 104,
-    "interval_method": "prognoza modelu łączonego ± 80. percentyl bezwzględnego błędu w backteście",
+    "selected_regional_forecast": "prognoza_model_trend_delta_laczony; eksploracyjny ensemble 60% model poziomu, 20% sezon × trend, 20% model zmiany",
+    "interval_method": "prognoza ensemble trend-delta ± 80. percentyl bezwzględnego błędu tego wariantu w backteście",
     "interval_error_p80": {
-      "low_confidence": 4.157,
-      "medium_confidence": 3.381,
-      "high_confidence": 2.686
+      "low_confidence": 3.872,
+      "medium_confidence": 3.165,
+      "high_confidence": 2.536
     }
   },
   "limitations": [
@@ -1202,6 +1898,8 @@
     "Przedział 80% jest empiryczny i wspólny dla wszystkich grup; kolejne wersje powinny kalibrować go według wielkości puli i historii.",
     "Krajowy backtest dotyczy tur z wysokim rzeczywistym udziałem pełnych pul; jest to warunkowa ocena i nie dowodzi takiej samej dokładności dla wszystkich specjalizacji.",
     "Krajowa prognoza uśrednia wszystkie regiony z ofertą, a historyczny cel tylko regiony z pełną pulą. Różnica składu może powodować obciążenie przy niepełnym obsadzeniu.",
-    "Model zapełnienia przewiduje wskaźnik zastępczy pełnej puli, nie liczbę kandydatów ani faktyczny popyt; jakość zależy od poprawności liczby oferowanych miejsc i statusu obsadzenia."
+    "Model zapełnienia przewiduje wskaźnik zastępczy pełnej puli, nie liczbę kandydatów ani faktyczny popyt; jakość zależy od poprawności liczby oferowanych miejsc i statusu obsadzenia.",
+    "Grupy województw są hipotezą jakościową, a nie pomiarem migracji; wariant grupowy pozostaje diagnostyczny, ponieważ nie obniżył MAE względem modelu bazowego.",
+    "Wagi ensemble trend-delta dobrano po obejrzeniu obecnego backtestu; poprawa jest obiecująca, lecz jej niezależnym potwierdzeniem będzie dopiero kolejna zakończona runda."
   ]
 }

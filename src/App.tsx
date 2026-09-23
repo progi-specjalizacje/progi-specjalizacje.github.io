@@ -7,6 +7,7 @@ import { SummaryChart } from "./components/SummaryChart";
 import { TextBox } from "./components/TextBox";
 import { Calculator } from "./components/Calculator";
 import { SimulationTable } from "./components/SimulationTable";
+import { DermatologyForecastPilot } from "./components/DermatologyForecastPilot";
 import { dashboardLayout, type DashboardVisual } from "./config/dashboardLayout";
 import { getReportOptions } from "./data/reportData";
 import { useFilterStore } from "./state/filterStore";
@@ -70,7 +71,7 @@ function renderVisual(visual: DashboardVisual) {
   return <FilterPanel {...visual.props} />;
 }
 
-export default function App() {
+function DashboardApp() {
   const isLoading = useFilterStore((state) => state.isLoading);
   const loadSpecialtyData = useFilterStore((state) => state.loadSpecialtyData);
   const setDziedzinaMedycyny = useFilterStore((state) => state.setDziedzinaMedycyny);
@@ -136,4 +137,9 @@ export default function App() {
     </main>
     </>
   );
+}
+
+export default function App() {
+  const isForecastPilot = new URLSearchParams(window.location.search).get("widok") === "prognoza-dermatologia";
+  return isForecastPilot ? <DermatologyForecastPilot /> : <DashboardApp />;
 }

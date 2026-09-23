@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T20:02:22.242Z",
+  "generated_at": "2026-09-23T05:40:48.747Z",
   "sources": {
     "ranking_files": [
       "j-2023_parsed.csv",
@@ -10,7 +10,7 @@
       "w-2025_parsed.csv",
       "w-2026_parsed.csv"
     ],
-    "exam_file": "even more source data/cem_lek_ldek_wyniki_2023w_2026j.csv",
+    "exam_file": "prediction/sources/cem_lek_ldek_wyniki_2023w_2026j.csv",
     "exam_sd_file": "prediction/sources/cem_exam_standard_deviation.csv",
     "places_file": "prediction/data/cmkp_places.csv"
   },

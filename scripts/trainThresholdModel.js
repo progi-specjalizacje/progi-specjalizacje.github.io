@@ -20,6 +20,11 @@ const ROUND_ORDER = ["w-2023", "j-2023", "w-2024", "j-2024", "w-2025", "j-2025",
 const RIDGE_LAMBDA = 20;
 const FILL_RIDGE_LAMBDA = 2;
 const EXAM_BLEND_WEIGHT = 0.25;
+const TREND_DELTA_ENSEMBLE_WEIGHTS = {
+  base: 0.6,
+  seasonTrend: 0.2,
+  delta: 0.2,
+};
 const HISTORICAL_TEST_ROUNDS = ROUND_ORDER.slice(3, -1);
 const FORECAST_ROUND = "j-2026";
 
@@ -36,6 +41,25 @@ const BASE_NUMERIC_FEATURES = [
   "sredni_prog_specjalizacji_przed_runda",
   "sredni_prog_wojewodztwa_przed_runda",
   "sredni_prog_globalny_przed_runda",
+];
+
+const SEASON_TREND_FEATURES = [
+  ...BASE_NUMERIC_FEATURES,
+  "trend_rundy_wiosna",
+  "trend_rundy_jesien",
+];
+
+const DELTA_NUMERIC_FEATURES = [
+  ...BASE_NUMERIC_FEATURES,
+  "trend_rundy_wiosna",
+  "trend_rundy_jesien",
+  "ostatni_prog_tego_samego_sezonu",
+];
+
+const REGION_POOL_FEATURES = [
+  ...SEASON_TREND_FEATURES,
+  "sredni_prog_specjalizacji_grupy_wojewodztw_przed_runda",
+  "liczba_prog_specjalizacji_grupy_wojewodztw_przed_runda",
 ];
 
 const EXAM_FEATURES = [
@@ -177,6 +201,16 @@ function fillTarget(row) {
   return row.status_konkurencyjnosci === "pelna_pula_proxy_konkurencji" ? 1 : 0;
 }
 
+function regionPeerGroup(region) {
+  if (["Mazowieckie", "Dolnośląskie", "Małopolskie", "Pomorskie", "Wielkopolskie"].includes(region)) {
+    return "duze_osrodki_hipoteza";
+  }
+  if (["Świętokrzyskie", "Podlaskie", "Łódzkie", "Lubelskie", "Podkarpackie"].includes(region)) {
+    return "regiony_odplywowe_hipoteza";
+  }
+  return "pozostale";
+}
+
 function addHistoricalFeatures(rows) {
   const roundIndex = new Map(ROUND_ORDER.map((roundName, index) => [roundName, index]));
   const sorted = [...rows].sort((a, b) => roundIndex.get(a.rekrutacja) - roundIndex.get(b.rekrutacja));
@@ -199,6 +233,9 @@ function addHistoricalFeatures(rows) {
     const lastCell = sameCell.at(-1);
     const observedCell = sameCell.filter((candidate) => numeric(candidate.prog_min_proc) !== null);
     const competitiveCell = sameCell.filter(isCompetitiveTarget);
+    const competitiveCellSameSeason = competitiveCell.filter(
+      (candidate) => candidate.sezon === row.sezon,
+    );
     const offeredCell = sameCell.filter(
       isFillObservation,
     );
@@ -216,6 +253,13 @@ function addHistoricalFeatures(rows) {
       (candidate) => candidate.wojewodztwo === row.wojewodztwo && isCompetitiveTarget(candidate),
     );
     const competitiveGlobal = prior.filter(isCompetitiveTarget);
+    const peerGroup = regionPeerGroup(row.wojewodztwo);
+    const competitiveSpecialtyPeerGroup = prior.filter(
+      (candidate) =>
+        candidate.dziedzina_medycyny === row.dziedzina_medycyny &&
+        regionPeerGroup(candidate.wojewodztwo) === peerGroup &&
+        isCompetitiveTarget(candidate),
+    );
     const places = numeric(row.oferowane_miejsca_rezydenckie);
     const nationalSpecialtyPlaces = currentSpecialtyOffer.reduce(
       (sum, candidate) => sum + numeric(candidate.oferowane_miejsca_rezydenckie),
@@ -265,6 +309,20 @@ function addHistoricalFeatures(rows) {
       poprzednie_wypelnienie: numeric(lastCell?.wskaznik_wypelnienia),
       ostatni_obserwowany_wynik: numeric(observedCell.at(-1)?.prog_min_proc),
       ostatni_konkurencyjny_prog: numeric(competitiveCell.at(-1)?.prog_min_proc),
+      ostatni_prog_tego_samego_sezonu: numeric(
+        competitiveCellSameSeason.at(-1)?.prog_min_proc,
+      ),
+      kotwica_zmiany_progu:
+        numeric(competitiveCellSameSeason.at(-1)?.prog_min_proc) ??
+        numeric(competitiveCell.at(-1)?.prog_min_proc),
+      trend_rundy_wiosna: row.sezon === "wiosenna" ? currentIndex : 0,
+      trend_rundy_jesien: row.sezon === "jesienna" ? currentIndex : 0,
+      grupa_wojewodztw_hipoteza: peerGroup,
+      sredni_prog_specjalizacji_grupy_wojewodztw_przed_runda: mean(
+        competitiveSpecialtyPeerGroup.map((candidate) => numeric(candidate.prog_min_proc)),
+      ),
+      liczba_prog_specjalizacji_grupy_wojewodztw_przed_runda:
+        competitiveSpecialtyPeerGroup.length,
       sredni_historyczny_prog_konkurencyjny: mean(
         competitiveCell.map((candidate) => numeric(candidate.prog_min_proc)),
       ),
@@ -392,6 +450,11 @@ function sigmoid(value) {
   return 1 / (1 + Math.exp(-bounded));
 }
 
+function logit(probability) {
+  const bounded = clamp(probability, 1e-6, 1 - 1e-6);
+  return Math.log(bounded / (1 - bounded));
+}
+
 function fitFillLogistic(trainRows) {
   const categoryFields = ["dziedzina_medycyny", "wojewodztwo", "sezon"];
   const categoryLevels = Object.fromEntries(
@@ -459,6 +522,192 @@ function fitFillLogistic(trainRows) {
   };
 }
 
+function identityCalibrator() {
+  return {
+    intercept: 0,
+    slope: 1,
+    predict(probability) {
+      return probability;
+    },
+  };
+}
+
+function stableHash(text) {
+  let hash = 2166136261;
+  for (let index = 0; index < text.length; index += 1) {
+    hash ^= text.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
+function buildCrossFittedFillPredictions(trainingRows, foldCount = 5) {
+  const taggedRows = trainingRows.map((row) => ({
+    row,
+    fold:
+      stableHash(
+        [row.rekrutacja, row.dziedzina_medycyny, row.wojewodztwo].join("::"),
+      ) % foldCount,
+  }));
+  const predictions = [];
+  const models = [];
+  for (let fold = 0; fold < foldCount; fold += 1) {
+    const foldTrainingRows = taggedRows
+      .filter((candidate) => candidate.fold !== fold)
+      .map((candidate) => candidate.row);
+    const validationRows = taggedRows
+      .filter((candidate) => candidate.fold === fold)
+      .map((candidate) => candidate.row);
+    if (!foldTrainingRows.length || !validationRows.length) continue;
+    const foldModel = fitFillLogistic(foldTrainingRows);
+    models.push(foldModel);
+    for (const row of validationRows) {
+      predictions.push({
+        rawProbability: foldModel.predict(row),
+        actual: fillTarget(row),
+      });
+    }
+  }
+  return { predictions, models };
+}
+
+function predictCalibratedFill(bundle, calibrator, row) {
+  const ensembleProbability = mean(bundle.models.map((model) => model.predict(row)));
+  return calibrator.predict(ensembleProbability);
+}
+
+function fitPlattCalibrator(calibrationRows) {
+  if (calibrationRows.length < 50) return identityCalibrator();
+  const predictors = calibrationRows.map((row) => logit(row.rawProbability));
+  const predictorMean = mean(predictors);
+  const predictorStandardDeviation =
+    Math.sqrt(mean(predictors.map((value) => (value - predictorMean) ** 2))) || 1;
+  const standardizedPredictors = predictors.map(
+    (value) => (value - predictorMean) / predictorStandardDeviation,
+  );
+  const prevalence = clamp(mean(calibrationRows.map((row) => row.actual)), 0.001, 0.999);
+  let intercept = logit(prevalence);
+  let slope = 0;
+  const slopePenalty = 1;
+
+  function objective(candidateIntercept, candidateSlope) {
+    let value = (slopePenalty * candidateSlope ** 2) / 2;
+    for (let index = 0; index < calibrationRows.length; index += 1) {
+      const probability = clamp(
+        sigmoid(candidateIntercept + candidateSlope * standardizedPredictors[index]),
+        1e-9,
+        1 - 1e-9,
+      );
+      const actual = calibrationRows[index].actual;
+      value -= actual * Math.log(probability) + (1 - actual) * Math.log(1 - probability);
+    }
+    return value;
+  }
+
+  for (let iteration = 0; iteration < 40; iteration += 1) {
+    let gradientIntercept = 0;
+    let gradientSlope = slopePenalty * (slope - 1);
+    let hessianIntercept = 0;
+    let hessianCross = 0;
+    let hessianSlope = slopePenalty;
+    for (let index = 0; index < calibrationRows.length; index += 1) {
+      const row = calibrationRows[index];
+      const predictor = standardizedPredictors[index];
+      const probability = sigmoid(intercept + slope * predictor);
+      const difference = probability - row.actual;
+      const weight = Math.max(probability * (1 - probability), 1e-6);
+      gradientIntercept += difference;
+      gradientSlope += difference * predictor;
+      hessianIntercept += weight;
+      hessianCross += weight * predictor;
+      hessianSlope += weight * predictor * predictor;
+    }
+    const determinant = hessianIntercept * hessianSlope - hessianCross ** 2;
+    if (Math.abs(determinant) < 1e-12) break;
+    const interceptStep =
+      (gradientIntercept * hessianSlope - gradientSlope * hessianCross) / determinant;
+    const slopeStep =
+      (gradientSlope * hessianIntercept - gradientIntercept * hessianCross) / determinant;
+    const currentObjective = objective(intercept, slope);
+    let stepScale = 1;
+    while (
+      stepScale > 1e-6 &&
+      objective(intercept - stepScale * interceptStep, slope - stepScale * slopeStep) >
+        currentObjective
+    ) {
+      stepScale /= 2;
+    }
+    intercept -= stepScale * interceptStep;
+    slope -= stepScale * slopeStep;
+    if (stepScale <= 1e-6 || Math.max(Math.abs(interceptStep), Math.abs(slopeStep)) * stepScale < 1e-7) {
+      break;
+    }
+  }
+  return {
+    intercept,
+    slope,
+    predict(probability) {
+      const standardizedPredictor = clamp(
+        (logit(probability) - predictorMean) / predictorStandardDeviation,
+        -8,
+        8,
+      );
+      return sigmoid(intercept + slope * standardizedPredictor);
+    },
+  };
+}
+
+function fitIsotonicCalibrator(calibrationRows, requestedBinCount = 10) {
+  if (calibrationRows.length < 50) return { ...identityCalibrator(), method: "identity", points: [] };
+  const sorted = [...calibrationRows].sort(
+    (left, right) => left.rawProbability - right.rawProbability,
+  );
+  const binCount = Math.min(requestedBinCount, Math.floor(sorted.length / 50));
+  const shrinkage = 30;
+  const blocks = [];
+  for (let bin = 0; bin < binCount; bin += 1) {
+    const start = Math.floor((bin * sorted.length) / binCount);
+    const end = Math.floor(((bin + 1) * sorted.length) / binCount);
+    const binRows = sorted.slice(start, end);
+    const rawMean = mean(binRows.map((row) => row.rawProbability));
+    const actualMean = mean(binRows.map((row) => row.actual));
+    const calibratedMean =
+      (binRows.length * actualMean + shrinkage * rawMean) / (binRows.length + shrinkage);
+    blocks.push({ x: rawMean, y: calibratedMean, weight: binRows.length });
+    while (blocks.length >= 2 && blocks.at(-2).y > blocks.at(-1).y) {
+      const right = blocks.pop();
+      const left = blocks.pop();
+      const totalWeight = left.weight + right.weight;
+      blocks.push({
+        x: (left.x * left.weight + right.x * right.weight) / totalWeight,
+        y: (left.y * left.weight + right.y * right.weight) / totalWeight,
+        weight: totalWeight,
+      });
+    }
+  }
+  return {
+    method: "isotonic_binned_shrunk",
+    points: blocks.map((block) => ({
+      raw_probability: round(block.x, 6),
+      calibrated_probability: round(block.y, 6),
+      n: block.weight,
+    })),
+    predict(probability) {
+      if (probability <= blocks[0].x) return clamp(blocks[0].y, 0.001, 0.999);
+      if (probability >= blocks.at(-1).x) return clamp(blocks.at(-1).y, 0.001, 0.999);
+      for (let index = 1; index < blocks.length; index += 1) {
+        if (probability <= blocks[index].x) {
+          const left = blocks[index - 1];
+          const right = blocks[index];
+          const share = (probability - left.x) / (right.x - left.x || 1);
+          return clamp(left.y + share * (right.y - left.y), 0.001, 0.999);
+        }
+      }
+      return clamp(probability, 0.001, 0.999);
+    },
+  };
+}
+
 function baselinePrediction(row, trainRows) {
   if (Number.isFinite(row.ostatni_konkurencyjny_prog)) return row.ostatni_konkurencyjny_prog;
   if (Number.isFinite(row.ostatni_obserwowany_wynik)) return row.ostatni_obserwowany_wynik;
@@ -466,6 +715,13 @@ function baselinePrediction(row, trainRows) {
     return row.sredni_prog_specjalizacji_przed_runda;
   }
   return mean(trainRows.map((candidate) => candidate.target));
+}
+
+function deltaPrediction(row, trainRows, deltaModel, fallbackPrediction = null) {
+  const anchor = numeric(row.kotwica_zmiany_progu);
+  if (anchor !== null) return clamp(anchor + deltaModel.predict(row));
+  if (Number.isFinite(fallbackPrediction)) return fallbackPrediction;
+  return baselinePrediction(row, trainRows);
 }
 
 function metrics(rows, predictionField) {
@@ -484,6 +740,10 @@ function metrics(rows, predictionField) {
 const MODEL_FIELDS = {
   poprzedni_prog: "prognoza_poprzedni_prog",
   bez_egzaminu: "prognoza_model_bez_egzaminu",
+  sezon_trend: "prognoza_model_sezon_trend",
+  zmiana_progu: "prognoza_model_zmiana_progu",
+  sezon_trend_regiony: "prognoza_model_sezon_trend_regiony",
+  trend_delta_laczony: "prognoza_model_trend_delta_laczony",
   z_egzaminem: "prognoza_model_z_egzaminem",
   z_biezacym_sd: "prognoza_model_z_egzaminem_i_sd",
   z_poprzednim_sd: "prognoza_model_z_egzaminem_i_poprzednim_sd",
@@ -567,6 +827,22 @@ function classificationMetrics(rows, probabilityField) {
         ),
       )
     : null;
+  const calibrationError = Array.from({ length: 10 }, (_, index) => {
+    const minimum = index / 10;
+    const maximum = (index + 1) / 10;
+    const bin = observations.filter(
+      ({ probability }) =>
+        probability >= minimum && (index === 9 ? probability <= maximum : probability < maximum),
+    );
+    if (!bin.length) return 0;
+    return (
+      (bin.length / observations.length) *
+      Math.abs(
+        mean(bin.map(({ probability }) => probability)) -
+          mean(bin.map(({ actual }) => actual)),
+      )
+    );
+  }).reduce((sum, value) => sum + value, 0);
   return {
     n: observations.length,
     observed_rate: round(mean(observations.map(({ actual }) => actual))),
@@ -574,6 +850,7 @@ function classificationMetrics(rows, probabilityField) {
     brier: round(brier, 4),
     log_loss: round(logLoss, 4),
     auc: round(pairScore, 4),
+    expected_calibration_error_10_bins: round(calibrationError, 4),
     accuracy_050: round(
       mean(observations.map(({ actual, probability }) => (probability >= 0.5 ? 1 : 0) === actual ? 1 : 0)),
       4,
@@ -610,12 +887,23 @@ function calibrationBins(rows, probabilityField) {
 
 function predictAllVariants(row, trainRows, models) {
   const withoutExam = models.withoutExam.predict(row);
+  const seasonTrend = models.seasonTrend.predict(row);
+  const regionPool = models.regionPool.predict(row);
+  const delta = deltaPrediction(row, trainRows, models.delta, seasonTrend);
+  const trendDeltaEnsemble =
+    TREND_DELTA_ENSEMBLE_WEIGHTS.base * withoutExam +
+    TREND_DELTA_ENSEMBLE_WEIGHTS.seasonTrend * seasonTrend +
+    TREND_DELTA_ENSEMBLE_WEIGHTS.delta * delta;
   const withExam = models.withExam.predict(row);
   const withSd = models.withExamAndSd.predict(row);
   const withPreviousSd = models.withExamAndPreviousSd.predict(row);
   return {
     prognoza_poprzedni_prog: baselinePrediction(row, trainRows),
     prognoza_model_bez_egzaminu: withoutExam,
+    prognoza_model_sezon_trend: seasonTrend,
+    prognoza_model_zmiana_progu: delta,
+    prognoza_model_sezon_trend_regiony: regionPool,
+    prognoza_model_trend_delta_laczony: trendDeltaEnsemble,
     prognoza_model_z_egzaminem: withExam,
     prognoza_model_z_egzaminem_i_sd: withSd,
     prognoza_model_z_egzaminem_i_poprzednim_sd: withPreviousSd,
@@ -632,6 +920,24 @@ const roundIndex = new Map(ROUND_ORDER.map((roundName, index) => [roundName, ind
 const backtestRows = [];
 const nationalBacktestRows = [];
 const fillBacktestRows = [];
+const fillModelsByRound = new Map();
+const fillCalibrationRowsByRound = new Map();
+
+for (let testIndex = 2; testIndex <= roundIndex.get(FORECAST_ROUND); testIndex += 1) {
+  const testRound = ROUND_ORDER[testIndex];
+  const trainingRows = rows.filter(
+    (row) => roundIndex.get(row.rekrutacja) < testIndex && isFillObservation(row),
+  );
+  if (!trainingRows.length) continue;
+  const model = fitFillLogistic(trainingRows);
+  fillModelsByRound.set(testRound, model);
+  if (testIndex >= 3) {
+    fillCalibrationRowsByRound.set(
+      testRound,
+      buildCrossFittedFillPredictions(trainingRows),
+    );
+  }
+}
 
 for (const testRound of HISTORICAL_TEST_ROUNDS) {
   const testIndex = roundIndex.get(testRound);
@@ -653,6 +959,15 @@ for (const testRound of HISTORICAL_TEST_ROUNDS) {
   if (!trainRows.length || !testRows.length || !fillTrainRows.length) continue;
 
   const withoutExam = fitRidge(trainRows, BASE_NUMERIC_FEATURES);
+  const seasonTrend = fitRidge(trainRows, SEASON_TREND_FEATURES);
+  const deltaTrainingRows = trainRows
+    .filter((row) => numeric(row.kotwica_zmiany_progu) !== null)
+    .map((row) => ({
+      ...row,
+      target: row.target - numeric(row.kotwica_zmiany_progu),
+    }));
+  const delta = fitRidge(deltaTrainingRows, DELTA_NUMERIC_FEATURES);
+  const regionPool = fitRidge(trainRows, REGION_POOL_FEATURES);
   const withExam = fitRidge(trainRows, [...BASE_NUMERIC_FEATURES, ...EXAM_FEATURES]);
   const withExamAndSd = fitRidge(trainRows, [...BASE_NUMERIC_FEATURES, ...EXAM_SD_FEATURES]);
   const withExamAndPreviousSd = fitRidge(
@@ -666,12 +981,28 @@ for (const testRound of HISTORICAL_TEST_ROUNDS) {
     })),
     EXAM_ANCHORED_FEATURES,
   );
-  const foldModels = { withoutExam, withExam, withExamAndSd, withExamAndPreviousSd, examAnchored };
-  const fillModel = fitFillLogistic(fillTrainRows);
+  const foldModels = {
+    withoutExam,
+    seasonTrend,
+    delta,
+    regionPool,
+    withExam,
+    withExamAndSd,
+    withExamAndPreviousSd,
+    examAnchored,
+  };
+  const fillModel = fillModelsByRound.get(testRound);
+  const fillCalibrationBundle = fillCalibrationRowsByRound.get(testRound) ?? {
+    predictions: [],
+    models: [fillModel],
+  };
+  const calibrationTrainingRows = fillCalibrationBundle.predictions;
+  const fillCalibrator = fitIsotonicCalibrator(calibrationTrainingRows);
   const priorToRound = rawRows.filter(
     (candidate) => roundIndex.get(candidate.rekrutacja) < testIndex,
   );
   for (const row of fillTestRows) {
+    const rawFillProbability = fillModel.predict(row);
     fillBacktestRows.push({
       rekrutacja: testRound,
       wojewodztwo: row.wojewodztwo,
@@ -679,7 +1010,15 @@ for (const testRound of HISTORICAL_TEST_ROUNDS) {
       egzamin: row.egzamin,
       liczba_miejsc: row.oferowane_miejsca_rezydenckie,
       czy_pelna_pula: fillTarget(row),
-      prawdopodobienstwo_model_logistyczny: round(fillModel.predict(row), 6),
+      prawdopodobienstwo_model_logistyczny: round(rawFillProbability, 6),
+      prawdopodobienstwo_model_skalibrowany: round(
+        predictCalibratedFill(fillCalibrationBundle, fillCalibrator, row),
+        6,
+      ),
+      liczba_obserwacji_kalibracyjnych: calibrationTrainingRows.length,
+      kalibrator_metoda: fillCalibrator.method,
+      kalibrator_wyraz_wolny: round(fillCalibrator.intercept, 6),
+      kalibrator_nachylenie: round(fillCalibrator.slope, 6),
       prawdopodobienstwo_wygladzona_historia: round(
         estimateFullProbability(row, priorToRound),
         6,
@@ -689,6 +1028,13 @@ for (const testRound of HISTORICAL_TEST_ROUNDS) {
   for (const row of testRows) {
     const baseline = baselinePrediction(row, trainRows);
     const predictionWithoutExam = withoutExam.predict(row);
+    const predictionSeasonTrend = seasonTrend.predict(row);
+    const predictionDelta = deltaPrediction(row, trainRows, delta, predictionSeasonTrend);
+    const predictionRegionPool = regionPool.predict(row);
+    const predictionTrendDeltaEnsemble =
+      TREND_DELTA_ENSEMBLE_WEIGHTS.base * predictionWithoutExam +
+      TREND_DELTA_ENSEMBLE_WEIGHTS.seasonTrend * predictionSeasonTrend +
+      TREND_DELTA_ENSEMBLE_WEIGHTS.delta * predictionDelta;
     const predictionWithExam = withExam.predict(row);
     const predictionWithExamAndSd = withExamAndSd.predict(row);
     const predictionWithExamAndPreviousSd = withExamAndPreviousSd.predict(row);
@@ -709,6 +1055,10 @@ for (const testRound of HISTORICAL_TEST_ROUNDS) {
       rzeczywisty_prog: round(row.target),
       prognoza_poprzedni_prog: round(baseline),
       prognoza_model_bez_egzaminu: round(predictionWithoutExam),
+      prognoza_model_sezon_trend: round(predictionSeasonTrend),
+      prognoza_model_zmiana_progu: round(predictionDelta),
+      prognoza_model_sezon_trend_regiony: round(predictionRegionPool),
+      prognoza_model_trend_delta_laczony: round(predictionTrendDeltaEnsemble),
       prognoza_model_z_egzaminem: round(predictionWithExam),
       prognoza_model_z_egzaminem_i_sd: round(predictionWithExamAndSd),
       prognoza_model_z_egzaminem_i_poprzednim_sd: round(predictionWithExamAndPreviousSd),
@@ -716,6 +1066,14 @@ for (const testRound of HISTORICAL_TEST_ROUNDS) {
       prognoza_model_laczony: round(ensemblePrediction),
       blad_bezwzgledny_poprzedni_prog: round(Math.abs(baseline - row.target)),
       blad_bezwzgledny_bez_egzaminu: round(Math.abs(predictionWithoutExam - row.target)),
+      blad_bezwzgledny_sezon_trend: round(Math.abs(predictionSeasonTrend - row.target)),
+      blad_bezwzgledny_zmiana_progu: round(Math.abs(predictionDelta - row.target)),
+      blad_bezwzgledny_sezon_trend_regiony: round(
+        Math.abs(predictionRegionPool - row.target),
+      ),
+      blad_bezwzgledny_trend_delta_laczony: round(
+        Math.abs(predictionTrendDeltaEnsemble - row.target),
+      ),
       blad_bezwzgledny_z_egzaminem: round(Math.abs(predictionWithExam - row.target)),
       blad_bezwzgledny_z_egzaminem_i_sd: round(Math.abs(predictionWithExamAndSd - row.target)),
       blad_bezwzgledny_z_egzaminem_i_poprzednim_sd: round(
@@ -784,6 +1142,11 @@ const backtestColumns = [
   "rzeczywisty_prog",
   "prognoza_poprzedni_prog",
   "prognoza_model_bez_egzaminu",
+  "prognoza_model_sezon_trend",
+  "prognoza_model_zmiana_progu",
+  "prognoza_model_sezon_trend_regiony",
+  "prognoza_model_trend_delta_laczony",
+  "prognoza_model_trend_delta_laczony",
   "prognoza_model_z_egzaminem",
   "prognoza_model_z_egzaminem_i_sd",
   "prognoza_model_z_egzaminem_i_poprzednim_sd",
@@ -791,6 +1154,10 @@ const backtestColumns = [
   "prognoza_model_laczony",
   "blad_bezwzgledny_poprzedni_prog",
   "blad_bezwzgledny_bez_egzaminu",
+  "blad_bezwzgledny_sezon_trend",
+  "blad_bezwzgledny_zmiana_progu",
+  "blad_bezwzgledny_sezon_trend_regiony",
+  "blad_bezwzgledny_trend_delta_laczony",
   "blad_bezwzgledny_z_egzaminem",
   "blad_bezwzgledny_z_egzaminem_i_sd",
   "blad_bezwzgledny_z_egzaminem_i_poprzednim_sd",
@@ -807,6 +1174,11 @@ writeCsv(fillBacktestFile, fillBacktestRows, [
   "liczba_miejsc",
   "czy_pelna_pula",
   "prawdopodobienstwo_model_logistyczny",
+  "prawdopodobienstwo_model_skalibrowany",
+  "liczba_obserwacji_kalibracyjnych",
+  "kalibrator_metoda",
+  "kalibrator_wyraz_wolny",
+  "kalibrator_nachylenie",
   "prawdopodobienstwo_wygladzona_historia",
 ]);
 
@@ -837,6 +1209,15 @@ const scopeIndex = new Map(
   scopeRows.map((row) => [[row.dziedzina_medycyny, row.wojewodztwo].join("::"), row.grupa_pilotazowa]),
 );
 const finalWithoutExam = fitRidge(historicalTrainingRows, BASE_NUMERIC_FEATURES);
+const finalSeasonTrend = fitRidge(historicalTrainingRows, SEASON_TREND_FEATURES);
+const finalDeltaTrainingRows = historicalTrainingRows
+  .filter((row) => numeric(row.kotwica_zmiany_progu) !== null)
+  .map((row) => ({
+    ...row,
+    target: row.target - numeric(row.kotwica_zmiany_progu),
+  }));
+const finalDelta = fitRidge(finalDeltaTrainingRows, DELTA_NUMERIC_FEATURES);
+const finalRegionPool = fitRidge(historicalTrainingRows, REGION_POOL_FEATURES);
 const finalWithExam = fitRidge(historicalTrainingRows, [...BASE_NUMERIC_FEATURES, ...EXAM_FEATURES]);
 const finalWithExamAndSd = fitRidge(historicalTrainingRows, [...BASE_NUMERIC_FEATURES, ...EXAM_SD_FEATURES]);
 const finalWithExamAndPreviousSd = fitRidge(
@@ -850,17 +1231,38 @@ const finalExamAnchored = fitRidge(
   })),
   EXAM_ANCHORED_FEATURES,
 );
-const finalFillTrainingRows = rows.filter(
-  (row) => roundIndex.get(row.rekrutacja) < roundIndex.get(FORECAST_ROUND) && isFillObservation(row),
-);
-const finalFillModel = fitFillLogistic(finalFillTrainingRows);
+const finalFillModel = fillModelsByRound.get(FORECAST_ROUND);
+const finalFillCalibrationBundle = fillCalibrationRowsByRound.get(FORECAST_ROUND) ?? {
+  predictions: [],
+  models: [finalFillModel],
+};
+const finalFillCalibrationRows = finalFillCalibrationBundle.predictions;
+const finalFillCalibrator = fitIsotonicCalibrator(finalFillCalibrationRows);
 const backtestWithTwoRounds = backtestRows.filter((row) => numeric(row.historyczne_pelne_pule) >= 2);
 const backtestWithThreeRounds = backtestRows.filter((row) => numeric(row.historyczne_pelne_pule) >= 3);
-const errorP80Low = metrics(backtestRows, "prognoza_model_laczony").error_p80;
-const errorP80Medium = metrics(backtestWithTwoRounds, "prognoza_model_laczony").error_p80;
-const errorP80High = metrics(backtestWithThreeRounds, "prognoza_model_laczony").error_p80;
+const errorP80Low = metrics(backtestRows, "prognoza_model_trend_delta_laczony").error_p80;
+const errorP80Medium = metrics(
+  backtestWithTwoRounds,
+  "prognoza_model_trend_delta_laczony",
+).error_p80;
+const errorP80High = metrics(
+  backtestWithThreeRounds,
+  "prognoza_model_trend_delta_laczony",
+).error_p80;
 const forecasts = futureRows.map((row) => {
   const predictionWithoutExam = finalWithoutExam.predict(row);
+  const predictionSeasonTrend = finalSeasonTrend.predict(row);
+  const predictionDelta = deltaPrediction(
+    row,
+    historicalTrainingRows,
+    finalDelta,
+    predictionSeasonTrend,
+  );
+  const predictionRegionPool = finalRegionPool.predict(row);
+  const predictionTrendDeltaEnsemble =
+    TREND_DELTA_ENSEMBLE_WEIGHTS.base * predictionWithoutExam +
+    TREND_DELTA_ENSEMBLE_WEIGHTS.seasonTrend * predictionSeasonTrend +
+    TREND_DELTA_ENSEMBLE_WEIGHTS.delta * predictionDelta;
   const predictionWithExam = finalWithExam.predict(row);
   const predictionWithExamAndSd = finalWithExamAndSd.predict(row);
   const predictionWithExamAndPreviousSd = finalWithExamAndPreviousSd.predict(row);
@@ -879,6 +1281,12 @@ const forecasts = futureRows.map((row) => {
         : "niski";
   const intervalError =
     confidence === "wyzszy" ? errorP80High : confidence === "sredni" ? errorP80Medium : errorP80Low;
+  const rawFillProbability = finalFillModel.predict(row);
+  const experimentalCalibratedFillProbability = predictCalibratedFill(
+    finalFillCalibrationBundle,
+    finalFillCalibrator,
+    row,
+  );
   return {
     rekrutacja: FORECAST_ROUND,
     wojewodztwo: row.wojewodztwo,
@@ -890,15 +1298,25 @@ const forecasts = futureRows.map((row) => {
     grupa_pilotazowa: scope,
     poziom_pewnosci: confidence,
     egzamin_sd_zrodlo: row.egzamin_sd_zrodlo,
-    prawdopodobienstwo_pelnej_puli: round(finalFillModel.predict(row), 6),
+    prawdopodobienstwo_pelnej_puli_surowe: round(rawFillProbability, 6),
+    prawdopodobienstwo_pelnej_puli_skalibrowane_eksperymentalne: round(
+      experimentalCalibratedFillProbability,
+      6,
+    ),
+    prawdopodobienstwo_pelnej_puli: round(rawFillProbability, 6),
     prognoza_bez_egzaminu: round(predictionWithoutExam),
+    prognoza_sezon_trend: round(predictionSeasonTrend),
+    prognoza_zmiana_progu: round(predictionDelta),
+    prognoza_sezon_trend_regiony: round(predictionRegionPool),
+    prognoza_trend_delta_laczony: round(predictionTrendDeltaEnsemble),
     prognoza_z_egzaminem: round(predictionWithExam),
     prognoza_z_egzaminem_i_sd: round(predictionWithExamAndSd),
     prognoza_z_egzaminem_i_poprzednim_sd: round(predictionWithExamAndPreviousSd),
     prognoza_kotwiczona_egzaminem: round(predictionExamAnchored),
-    prognoza_modelowa: round(ensemblePrediction),
-    dolna_granica_80_proc: round(clamp(ensemblePrediction - intervalError)),
-    gorna_granica_80_proc: round(clamp(ensemblePrediction + intervalError)),
+    prognoza_laczona_z_egzaminem: round(ensemblePrediction),
+    prognoza_modelowa: round(predictionTrendDeltaEnsemble),
+    dolna_granica_80_proc: round(clamp(predictionTrendDeltaEnsemble - intervalError)),
+    gorna_granica_80_proc: round(clamp(predictionTrendDeltaEnsemble + intervalError)),
   };
 });
 forecasts.sort(
@@ -918,12 +1336,19 @@ const forecastColumns = [
   "grupa_pilotazowa",
   "poziom_pewnosci",
   "egzamin_sd_zrodlo",
+  "prawdopodobienstwo_pelnej_puli_surowe",
+  "prawdopodobienstwo_pelnej_puli_skalibrowane_eksperymentalne",
   "prawdopodobienstwo_pelnej_puli",
   "prognoza_bez_egzaminu",
+  "prognoza_sezon_trend",
+  "prognoza_zmiana_progu",
+  "prognoza_sezon_trend_regiony",
+  "prognoza_trend_delta_laczony",
   "prognoza_z_egzaminem",
   "prognoza_z_egzaminem_i_sd",
   "prognoza_z_egzaminem_i_poprzednim_sd",
   "prognoza_kotwiczona_egzaminem",
+  "prognoza_laczona_z_egzaminem",
   "prognoza_modelowa",
   "dolna_granica_80_proc",
   "gorna_granica_80_proc",
@@ -944,6 +1369,8 @@ writeCsv(
     "sciezka",
     "egzamin",
     "liczba_miejsc",
+    "prawdopodobienstwo_pelnej_puli_surowe",
+    "prawdopodobienstwo_pelnej_puli_skalibrowane_eksperymentalne",
     "prawdopodobienstwo_pelnej_puli",
     "historyczne_pelne_pule",
     "grupa_pilotazowa",
@@ -984,11 +1411,15 @@ const nationalForecasts = [...groupBy(forecasts, (row) => row.dziedzina_medycyny
     };
     const forecastMappings = {
       prognoza_model_bez_egzaminu: "prognoza_bez_egzaminu",
+      prognoza_model_sezon_trend: "prognoza_sezon_trend",
+      prognoza_model_zmiana_progu: "prognoza_zmiana_progu",
+      prognoza_model_sezon_trend_regiony: "prognoza_sezon_trend_regiony",
+      prognoza_model_trend_delta_laczony: "prognoza_trend_delta_laczony",
       prognoza_model_z_egzaminem: "prognoza_z_egzaminem",
       prognoza_model_z_egzaminem_i_sd: "prognoza_z_egzaminem_i_sd",
       prognoza_model_z_egzaminem_i_poprzednim_sd: "prognoza_z_egzaminem_i_poprzednim_sd",
       prognoza_model_kotwiczony_egzaminem: "prognoza_kotwiczona_egzaminem",
-      prognoza_model_laczony: "prognoza_modelowa",
+      prognoza_model_laczony: "prognoza_laczona_z_egzaminem",
     };
     const fillWeights = specialtyRows.map((row) => numeric(row.prawdopodobienstwo_pelnej_puli));
     const empiricalFillWeights = specialtyRows.map((row) => {
@@ -1012,7 +1443,8 @@ const nationalForecasts = [...groupBy(forecasts, (row) => row.dziedzina_medycyny
         ),
       );
     }
-    result.prognoza_krajowa_proc = result.empiryczna_wazona_prognoza_model_bez_egzaminu;
+    result.prognoza_krajowa_proc =
+      result.empiryczna_wazona_prognoza_model_trend_delta_laczony;
     return result;
   },
 );
@@ -1033,18 +1465,29 @@ writeCsv(nationalForecastFile, nationalForecasts, [
   "oczekiwana_liczba_pelnych_pul",
   "prognoza_krajowa_proc",
   "prognoza_model_bez_egzaminu",
+  "prognoza_model_sezon_trend",
+  "prognoza_model_zmiana_progu",
+  "prognoza_model_sezon_trend_regiony",
   "prognoza_model_z_egzaminem",
   "prognoza_model_z_egzaminem_i_sd",
   "prognoza_model_z_egzaminem_i_poprzednim_sd",
   "prognoza_model_kotwiczony_egzaminem",
   "prognoza_model_laczony",
   "wazona_prognoza_model_bez_egzaminu",
+  "wazona_prognoza_model_sezon_trend",
+  "wazona_prognoza_model_zmiana_progu",
+  "wazona_prognoza_model_sezon_trend_regiony",
+  "wazona_prognoza_model_trend_delta_laczony",
   "wazona_prognoza_model_z_egzaminem",
   "wazona_prognoza_model_z_egzaminem_i_sd",
   "wazona_prognoza_model_z_egzaminem_i_poprzednim_sd",
   "wazona_prognoza_model_kotwiczony_egzaminem",
   "wazona_prognoza_model_laczony",
   "empiryczna_wazona_prognoza_model_bez_egzaminu",
+  "empiryczna_wazona_prognoza_model_sezon_trend",
+  "empiryczna_wazona_prognoza_model_zmiana_progu",
+  "empiryczna_wazona_prognoza_model_sezon_trend_regiony",
+  "empiryczna_wazona_prognoza_model_trend_delta_laczony",
   "empiryczna_wazona_prognoza_model_z_egzaminem",
   "empiryczna_wazona_prognoza_model_z_egzaminem_i_sd",
   "empiryczna_wazona_prognoza_model_z_egzaminem_i_poprzednim_sd",
@@ -1088,6 +1531,17 @@ const report = {
     validation: "rolling-origin; każda runda jest przewidywana wyłącznie z wcześniejszych rund",
     historical_test_rounds: HISTORICAL_TEST_ROUNDS,
     numeric_features_without_exam: BASE_NUMERIC_FEATURES,
+    season_trend_features: SEASON_TREND_FEATURES,
+    delta_features: DELTA_NUMERIC_FEATURES,
+    delta_anchor: "ostatni konkurencyjny próg z tego samego sezonu; w razie braku ostatni konkurencyjny próg dowolnego sezonu",
+    region_pool_features: REGION_POOL_FEATURES,
+    trend_delta_ensemble_weights: TREND_DELTA_ENSEMBLE_WEIGHTS,
+    trend_delta_ensemble_note: "Eksploracyjna średnia ważona prognoz: poziom bazowy 60%, sezon × trend 20%, zmiana progu 20%; wagi wybrane po porównaniu wariantów i wymagają potwierdzenia na nowych rundach",
+    region_peer_groups_experimental: {
+      duze_osrodki_hipoteza: ["Mazowieckie", "Dolnośląskie", "Małopolskie", "Pomorskie", "Wielkopolskie"],
+      regiony_odplywowe_hipoteza: ["Świętokrzyskie", "Podlaskie", "Łódzkie", "Lubelskie", "Podkarpackie"],
+      pozostale: "pozostałe województwa",
+    },
     additional_exam_features: EXAM_FEATURES,
     exam_sd_experimental_features: EXAM_SD_FEATURES,
     exam_sd_comparison_previous_features: EXAM_PREVIOUS_SD_FEATURES,
@@ -1101,11 +1555,25 @@ const report = {
     target: "prawdopodobieństwo pełnego obsadzenia puli miejsc w województwie",
     validation: "rolling-origin; każda runda jest przewidywana wyłącznie z wcześniejszych rund",
     exam_features: "pominięte zgodnie z założeniem; model zapełnienia nie używa danych LEK/LDEK",
+    selected_probability: "prawdopodobienstwo_model_logistyczny (surowe); testowane kalibracje pogarszały Brier score i ECE w walidacji rolling-origin, więc nie zastępują głównej prognozy",
     numeric_features: FILL_NUMERIC_FEATURES,
     categorical_features: ["dziedzina_medycyny", "wojewodztwo", "sezon"],
     rows: fillBacktestRows.length,
-    logistic: classificationMetrics(fillBacktestRows, "prawdopodobienstwo_model_logistyczny"),
-    calibration: calibrationBins(fillBacktestRows, "prawdopodobienstwo_model_logistyczny"),
+    logistic_raw: classificationMetrics(fillBacktestRows, "prawdopodobienstwo_model_logistyczny"),
+    logistic_calibrated: classificationMetrics(
+      fillBacktestRows,
+      "prawdopodobienstwo_model_skalibrowany",
+    ),
+    calibration_raw: calibrationBins(fillBacktestRows, "prawdopodobienstwo_model_logistyczny"),
+    calibration_after_experimental_isotonic: calibrationBins(
+      fillBacktestRows,
+      "prawdopodobienstwo_model_skalibrowany",
+    ),
+    final_calibrator: {
+      method: "Monotoniczna kalibracja przedziałowa na prognozach cross-fitted z wcześniejszych rund, z wygładzaniem do surowego prawdopodobieństwa",
+      training_rows: finalFillCalibrationRows.length,
+      points: finalFillCalibrator.points,
+    },
     smoothed_history_baseline: classificationMetrics(
       fillBacktestRows,
       "prawdopodobienstwo_wygladzona_historia",
@@ -1117,7 +1585,14 @@ const report = {
           roundName,
           {
             rows: roundRows.length,
-            logistic: classificationMetrics(roundRows, "prawdopodobienstwo_model_logistyczny"),
+            logistic_raw: classificationMetrics(
+              roundRows,
+              "prawdopodobienstwo_model_logistyczny",
+            ),
+            logistic_calibrated: classificationMetrics(
+              roundRows,
+              "prawdopodobienstwo_model_skalibrowany",
+            ),
             smoothed_history_baseline: classificationMetrics(
               roundRows,
               "prawdopodobienstwo_wygladzona_historia",
@@ -1131,6 +1606,16 @@ const report = {
     rows: backtestRows.length,
     baseline_previous_threshold: metrics(backtestRows, "prognoza_poprzedni_prog"),
     ridge_without_exam: metrics(backtestRows, "prognoza_model_bez_egzaminu"),
+    ridge_season_trend: metrics(backtestRows, "prognoza_model_sezon_trend"),
+    ridge_delta_threshold: metrics(backtestRows, "prognoza_model_zmiana_progu"),
+    ridge_season_trend_region_pool: metrics(
+      backtestRows,
+      "prognoza_model_sezon_trend_regiony",
+    ),
+    ridge_trend_delta_ensemble: metrics(
+      backtestRows,
+      "prognoza_model_trend_delta_laczony",
+    ),
     ridge_with_exam: metrics(backtestRows, "prognoza_model_z_egzaminem"),
     ridge_with_exam_and_current_sd: metrics(backtestRows, "prognoza_model_z_egzaminem_i_sd"),
     ridge_with_exam_and_previous_sd: metrics(backtestRows, "prognoza_model_z_egzaminem_i_poprzednim_sd"),
@@ -1170,6 +1655,16 @@ const report = {
             rows: examRows.length,
             baseline: metrics(examRows, "prognoza_poprzedni_prog"),
             ridge_without_exam: metrics(examRows, "prognoza_model_bez_egzaminu"),
+            ridge_season_trend: metrics(examRows, "prognoza_model_sezon_trend"),
+            ridge_delta_threshold: metrics(examRows, "prognoza_model_zmiana_progu"),
+            ridge_season_trend_region_pool: metrics(
+              examRows,
+              "prognoza_model_sezon_trend_regiony",
+            ),
+            ridge_trend_delta_ensemble: metrics(
+              examRows,
+              "prognoza_model_trend_delta_laczony",
+            ),
             ridge_with_exam: metrics(examRows, "prognoza_model_z_egzaminem"),
             ridge_with_exam_and_current_sd: metrics(examRows, "prognoza_model_z_egzaminem_i_sd"),
             ridge_with_exam_and_previous_sd: metrics(examRows, "prognoza_model_z_egzaminem_i_poprzednim_sd"),
@@ -1191,6 +1686,16 @@ const report = {
             rows: roundRows.length,
             baseline: metrics(roundRows, "prognoza_poprzedni_prog"),
             ridge_without_exam: metrics(roundRows, "prognoza_model_bez_egzaminu"),
+            ridge_season_trend: metrics(roundRows, "prognoza_model_sezon_trend"),
+            ridge_delta_threshold: metrics(roundRows, "prognoza_model_zmiana_progu"),
+            ridge_season_trend_region_pool: metrics(
+              roundRows,
+              "prognoza_model_sezon_trend_regiony",
+            ),
+            ridge_trend_delta_ensemble: metrics(
+              roundRows,
+              "prognoza_model_trend_delta_laczony",
+            ),
             ridge_with_exam: metrics(roundRows, "prognoza_model_z_egzaminem"),
             ridge_with_exam_and_current_sd: metrics(roundRows, "prognoza_model_z_egzaminem_i_sd"),
             ridge_with_exam_and_previous_sd: metrics(roundRows, "prognoza_model_z_egzaminem_i_poprzednim_sd"),
@@ -1208,7 +1713,7 @@ const report = {
     target: "Równa średnia progów województw z pełną pulą miejsc; województwo bez progu konkurencyjnego nie ma wartości do uśrednienia",
     prediction: "Równa średnia prognoz regionalnych we wszystkich województwach z ofertą; skład regionów znany przed rekrutacją",
     evaluation_filter: "Co najmniej 3 województwa z ofertą, 3 pełne pule i 80% udziału pełnych pul",
-    selected_forecast: "empiryczna_wazona_prognoza_model_bez_egzaminu; nowy model logistyczny lepiej przewiduje zapełnienie, ale w tym małym krajowym backteście nie obniżył błędu agregowanego progu",
+    selected_forecast: "empiryczna_wazona_prognoza_model_trend_delta_laczony; ensemble regionalny ważony wygładzoną historyczną szansą pełnej puli",
     test_rows: nationalEvaluation.length,
     by_round_rows: Object.fromEntries(
       HISTORICAL_TEST_ROUNDS.map((name) => [
@@ -1251,7 +1756,8 @@ const report = {
     high_threshold_small_pool_rows: forecasts.filter(
       (row) => row.grupa_pilotazowa === "B_wysoki_prog_mala_pula",
     ).length,
-    interval_method: "prognoza modelu łączonego ± 80. percentyl bezwzględnego błędu w backteście",
+    selected_regional_forecast: "prognoza_model_trend_delta_laczony; eksploracyjny ensemble 60% model poziomu, 20% sezon × trend, 20% model zmiany",
+    interval_method: "prognoza ensemble trend-delta ± 80. percentyl bezwzględnego błędu tego wariantu w backteście",
     interval_error_p80: {
       low_confidence: errorP80Low,
       medium_confidence: errorP80Medium,
@@ -1266,12 +1772,18 @@ const report = {
     "Krajowy backtest dotyczy tur z wysokim rzeczywistym udziałem pełnych pul; jest to warunkowa ocena i nie dowodzi takiej samej dokładności dla wszystkich specjalizacji.",
     "Krajowa prognoza uśrednia wszystkie regiony z ofertą, a historyczny cel tylko regiony z pełną pulą. Różnica składu może powodować obciążenie przy niepełnym obsadzeniu.",
     "Model zapełnienia przewiduje wskaźnik zastępczy pełnej puli, nie liczbę kandydatów ani faktyczny popyt; jakość zależy od poprawności liczby oferowanych miejsc i statusu obsadzenia.",
+    "Grupy województw są hipotezą jakościową, a nie pomiarem migracji; wariant grupowy pozostaje diagnostyczny, ponieważ nie obniżył MAE względem modelu bazowego.",
+    "Wagi ensemble trend-delta dobrano po obejrzeniu obecnego backtestu; poprawa jest obiecująca, lecz jej niezależnym potwierdzeniem będzie dopiero kolejna zakończona runda.",
   ],
 };
 fs.writeFileSync(reportFile, `${JSON.stringify(report, null, 2)}\n`, "utf8");
 
 console.log(`Backtest: ${backtestRows.length} obserwacji.`);
 console.log(`MAE bez egzaminu: ${report.backtest.ridge_without_exam.mae}.`);
+console.log(`MAE sezon × trend: ${report.backtest.ridge_season_trend.mae}.`);
+console.log(`MAE modelu zmiany progu: ${report.backtest.ridge_delta_threshold.mae}.`);
+console.log(`MAE sezon × trend + grupy województw: ${report.backtest.ridge_season_trend_region_pool.mae}.`);
+console.log(`MAE ensemble trend-delta: ${report.backtest.ridge_trend_delta_ensemble.mae}.`);
 console.log(`MAE z egzaminem: ${report.backtest.ridge_with_exam.mae}.`);
 console.log(`MAE z egzaminem i bieżącym SD: ${report.backtest.ridge_with_exam_and_current_sd.mae}.`);
 console.log(`MAE z egzaminem i poprzednim SD: ${report.backtest.ridge_with_exam_and_previous_sd.mae}.`);
@@ -1280,4 +1792,5 @@ console.log(`MAE modelu łączonego: ${report.backtest.blended_model.mae}.`);
 console.log(`Prognoza ${FORECAST_ROUND}: ${forecasts.length} kombinacji.`);
 console.log(`Najwyższa pewność przed rundą: ${strictHighConfidence.length} obserwacji.`);
 console.log(`Krajowy backtest: ${nationalEvaluation.length} tur specjalizacji; prognozy: ${nationalForecasts.length}.`);
-console.log(`Model zapełnienia: Brier ${report.fill_model.logistic.brier}; baza ${report.fill_model.smoothed_history_baseline.brier}.`);
+console.log(`Model zapełnienia surowy: Brier ${report.fill_model.logistic_raw.brier}.`);
+console.log(`Kalibracja eksperymentalna: Brier ${report.fill_model.logistic_calibrated.brier}; baza ${report.fill_model.smoothed_history_baseline.brier}.`);

@@ -6,11 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, "..");
 const RANKING_DIR = path.join(ROOT, "source_data");
-const EXAM_FILE = path.join(
-  ROOT,
-  "even more source data",
-  "cem_lek_ldek_wyniki_2023w_2026j.csv",
-);
+const EXAM_FILE = path.join(ROOT, "prediction", "sources", "cem_lek_ldek_wyniki_2023w_2026j.csv");
 const EXAM_SD_FILE = path.join(ROOT, "prediction", "sources", "cem_exam_standard_deviation.csv");
 const PLACES_FILE = path.join(ROOT, "prediction", "data", "cmkp_places.csv");
 const OUTPUT_DIR = path.join(ROOT, "prediction", "data");
