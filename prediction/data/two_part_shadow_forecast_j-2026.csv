@@ -1,0 +1,803 @@
+rekrutacja,wojewodztwo,dziedzina_medycyny,egzamin,liczba_miejsc,szansa_pelnej_puli_przed_runda,segment,prognoza_produkcyjna,prognoza_dwuczesciowa,przedzial_segmentowy_produkcji_dolny_80,przedzial_segmentowy_produkcji_gorny_80,przedzial_dolny_80,przedzial_gorny_80,status
+j-2026,Kujawsko-pomorskie,Alergologia,LEK,2,0.969144,konkurencyjna,88.791,88.791,86.235,92.548,86.235,92.548,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Alergologia,LEK,2,0.977761,konkurencyjna,89.661,89.661,87.105,93.418,87.105,93.418,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Alergologia,LEK,2,0.989645,konkurencyjna,89.47,89.47,86.914,93.227,86.914,93.227,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Alergologia,LEK,3,0.989602,konkurencyjna,91.032,91.032,88.476,94.789,88.476,94.789,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Alergologia,LEK,3,0.995318,konkurencyjna,90.299,90.299,87.743,94.056,87.743,94.056,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Alergologia,LEK,1,0.970145,konkurencyjna,89.515,89.515,86.959,93.272,86.959,93.272,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Alergologia,LEK,2,0.88874,konkurencyjna,85.03,85.03,82.474,88.787,82.474,88.787,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Alergologia,LEK,1,0.994989,konkurencyjna,91.663,91.663,89.107,95.42,89.107,95.42,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Alergologia,LEK,1,0.995031,konkurencyjna,92.116,92.116,89.56,95.873,89.56,95.873,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Alergologia,LEK,3,0.927678,konkurencyjna,86.086,86.086,83.53,89.843,83.53,89.843,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Anestezjologia i intensywna terapia,LEK,15,0.970825,konkurencyjna,83.248,83.248,80.692,87.005,80.692,87.005,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Anestezjologia i intensywna terapia,LEK,3,0.995774,konkurencyjna,86.813,86.813,84.257,90.57,84.257,90.57,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Anestezjologia i intensywna terapia,LEK,6,0.990654,konkurencyjna,84.502,84.502,81.946,88.259,81.946,88.259,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Anestezjologia i intensywna terapia,LEK,2,0.984203,konkurencyjna,83.523,83.523,80.967,87.28,80.967,87.28,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Anestezjologia i intensywna terapia,LEK,16,0.978415,konkurencyjna,84.526,84.526,81.97,88.283,81.97,88.283,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Anestezjologia i intensywna terapia,LEK,18,0.992351,konkurencyjna,86.356,86.356,83.8,90.113,83.8,90.113,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Anestezjologia i intensywna terapia,LEK,25,0.997258,konkurencyjna,86.566,86.566,84.01,90.323,84.01,90.323,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Anestezjologia i intensywna terapia,LEK,4,0.958132,konkurencyjna,84.016,84.016,81.46,87.773,81.46,87.773,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Anestezjologia i intensywna terapia,LEK,13,0.941,konkurencyjna,81.067,81.067,78.511,84.824,78.511,84.824,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Anestezjologia i intensywna terapia,LEK,8,0.956787,konkurencyjna,82.435,82.435,79.879,86.192,79.879,86.192,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Anestezjologia i intensywna terapia,LEK,10,0.989648,konkurencyjna,84.057,84.057,81.501,87.814,81.501,87.814,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Anestezjologia i intensywna terapia,LEK,18,0.993026,konkurencyjna,86.345,86.345,83.789,90.102,83.789,90.102,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Anestezjologia i intensywna terapia,LEK,6,0.927907,konkurencyjna,81.558,81.558,79.002,85.315,79.002,85.315,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,LEK,6,0.985199,konkurencyjna,84.399,84.399,81.843,88.156,81.843,88.156,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Anestezjologia i intensywna terapia,LEK,18,0.985607,konkurencyjna,86.172,86.172,83.616,89.929,83.616,89.929,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Anestezjologia i intensywna terapia,LEK,13,0.943683,konkurencyjna,84.735,84.735,82.179,88.492,82.179,88.492,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Balneologia i medycyna fizykalna,LEK,1,0.381906,ryzyko_zalamania_progu,77.135,74.045,63.925,82.355,61.778,81.221,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Balneologia i medycyna fizykalna,LEK,1,0.413264,ryzyko_zalamania_progu,77.859,75.023,64.649,83.079,62.756,82.199,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Balneologia i medycyna fizykalna,LEK,1,0.444475,ryzyko_zalamania_progu,78.668,76.257,65.458,83.888,63.99,83.434,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Balneologia i medycyna fizykalna,LEK,2,0.321585,ryzyko_zalamania_progu,77.732,71.177,64.522,82.952,58.91,78.353,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Balneologia i medycyna fizykalna,LEK,1,0.336477,ryzyko_zalamania_progu,78.066,73.116,64.856,83.286,60.849,80.293,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Balneologia i medycyna fizykalna,LEK,1,0.386766,ryzyko_zalamania_progu,77.33,73.881,64.12,82.55,61.614,81.057,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Balneologia i medycyna fizykalna,LEK,1,0.198883,ryzyko_zalamania_progu,76.842,71.696,63.632,82.062,59.429,78.873,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia dziecięca,LEK,2,0.919687,konkurencyjna,86.844,86.844,84.288,90.601,84.288,90.601,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Chirurgia dziecięca,LEK,2,0.812097,konkurencyjna,85.627,85.627,83.071,89.384,83.071,89.384,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia dziecięca,LEK,2,0.76667,ryzyko_zalamania_progu,84.354,84.31,71.144,89.574,72.043,91.486,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Chirurgia dziecięca,LEK,1,0.582784,ryzyko_zalamania_progu,82.278,81.893,69.068,87.498,69.626,89.07,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Chirurgia dziecięca,LEK,1,0.853174,konkurencyjna,85.434,85.434,82.878,89.191,82.878,89.191,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia dziecięca,LEK,3,0.917122,konkurencyjna,85.213,85.213,82.657,88.97,82.657,88.97,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia dziecięca,LEK,4,0.965476,konkurencyjna,87.128,87.128,84.572,90.885,84.572,90.885,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Chirurgia dziecięca,LEK,2,0.483085,ryzyko_zalamania_progu,82.301,82.659,69.091,87.521,70.392,89.836,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Chirurgia dziecięca,LEK,2,0.646618,ryzyko_zalamania_progu,82,82.115,68.79,87.22,69.848,89.292,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Chirurgia dziecięca,LEK,3,0.578668,ryzyko_zalamania_progu,82.632,81.252,69.422,87.852,68.985,88.428,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia dziecięca,LEK,3,0.892621,konkurencyjna,85.635,85.635,83.079,89.392,83.079,89.392,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia dziecięca,LEK,4,0.895575,konkurencyjna,86.346,86.346,83.79,90.103,83.79,90.103,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Chirurgia dziecięca,LEK,1,0.6711,ryzyko_zalamania_progu,83.677,83.401,70.467,88.897,71.134,90.578,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia dziecięca,LEK,2,0.530253,ryzyko_zalamania_progu,81.506,79.924,68.296,86.726,67.657,87.1,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia dziecięca,LEK,3,0.916962,konkurencyjna,86.575,86.575,84.019,90.332,84.019,90.332,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia dziecięca,LEK,1,0.864915,konkurencyjna,86.968,86.968,84.412,90.725,84.412,90.725,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia klatki piersiowej,LEK,1,0.664949,ryzyko_zalamania_progu,79.994,80.29,66.784,85.214,68.023,87.467,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia klatki piersiowej,LEK,1,0.522106,ryzyko_zalamania_progu,79.708,79.39,66.498,84.928,67.123,86.566,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Chirurgia klatki piersiowej,LEK,1,0.697183,ryzyko_zalamania_progu,80.531,80.819,67.321,85.751,68.552,87.996,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia klatki piersiowej,LEK,2,0.560442,ryzyko_zalamania_progu,80.593,78.515,67.383,85.813,66.248,85.692,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia klatki piersiowej,LEK,1,0.781276,ryzyko_zalamania_progu,80.731,79.924,67.521,85.951,67.657,87.101,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia klatki piersiowej,LEK,2,0.55147,ryzyko_zalamania_progu,78.642,78.115,65.432,83.862,65.848,85.291,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia klatki piersiowej,LEK,2,0.601762,ryzyko_zalamania_progu,79.355,77.464,66.145,84.575,65.197,84.641,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia klatki piersiowej,LEK,1,0.352859,ryzyko_zalamania_progu,77.8,75.174,64.59,83.02,62.907,82.35,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia klatki piersiowej,LEK,2,0.603398,ryzyko_zalamania_progu,81.087,78.467,67.877,86.307,66.2,85.644,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia klatki piersiowej,LEK,2,0.232051,ryzyko_zalamania_progu,75.312,72.717,62.102,80.532,60.45,79.894,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia naczyniowa,LEK,4,0.949469,konkurencyjna,85.788,85.788,83.232,89.545,83.232,89.545,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia naczyniowa,LEK,1,0.988328,konkurencyjna,88.95,88.95,86.394,92.707,86.394,92.707,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia naczyniowa,LEK,3,0.989142,konkurencyjna,87.884,87.884,85.328,91.641,85.328,91.641,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia naczyniowa,LEK,2,0.981747,konkurencyjna,86.501,86.501,83.945,90.258,83.945,90.258,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia naczyniowa,LEK,2,0.989421,konkurencyjna,89.467,89.467,86.911,93.224,86.911,93.224,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Chirurgia naczyniowa,LEK,2,0.874831,konkurencyjna,83.803,83.803,81.247,87.56,81.247,87.56,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia naczyniowa,LEK,1,0.956094,konkurencyjna,86.719,86.719,84.163,90.476,84.163,90.476,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia naczyniowa,LEK,2,0.983817,konkurencyjna,88.42,88.42,85.864,92.177,85.864,92.177,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia naczyniowa,LEK,1,0.834494,konkurencyjna,83.526,83.526,80.97,87.283,80.97,87.283,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia ogólna,LEK,20,0.858797,konkurencyjna,74.83,74.83,72.274,78.587,72.274,78.587,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Chirurgia ogólna,LEK,18,0.70815,ryzyko_zalamania_progu,73.752,68.582,60.542,78.972,56.315,75.758,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia ogólna,LEK,12,0.794964,ryzyko_zalamania_progu,76.266,72.194,63.056,81.486,59.927,79.371,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Chirurgia ogólna,LEK,8,0.587242,ryzyko_zalamania_progu,73.202,70.296,59.992,78.422,58.029,77.473,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Chirurgia ogólna,LEK,29,0.723495,ryzyko_zalamania_progu,74.453,68.437,61.243,79.673,56.17,75.614,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia ogólna,LEK,25,0.799724,ryzyko_zalamania_progu,77.164,72.318,63.954,82.384,60.051,79.494,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia ogólna,LEK,47,0.908121,konkurencyjna,78.109,78.109,75.553,81.866,75.553,81.866,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Chirurgia ogólna,LEK,15,0.447194,ryzyko_zalamania_progu,74.105,70.375,60.895,79.325,58.108,77.552,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Chirurgia ogólna,LEK,13,0.826044,konkurencyjna,75.393,75.393,72.837,79.15,72.837,79.15,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Chirurgia ogólna,LEK,12,0.610451,ryzyko_zalamania_progu,75.273,70.323,62.063,80.493,58.056,77.5,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia ogólna,LEK,7,0.977344,konkurencyjna,80.578,80.578,78.022,84.335,78.022,84.335,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia ogólna,LEK,25,0.856148,konkurencyjna,73.529,73.529,70.973,77.286,70.973,77.286,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Chirurgia ogólna,LEK,10,0.605579,ryzyko_zalamania_progu,75.054,70.636,61.844,80.274,58.369,77.812,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia ogólna,LEK,19,0.474023,ryzyko_zalamania_progu,73.26,66.573,60.05,78.48,54.306,73.75,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia ogólna,LEK,30,0.915989,konkurencyjna,77.542,77.542,74.986,81.299,74.986,81.299,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia ogólna,LEK,6,0.876181,konkurencyjna,75.26,75.26,72.704,79.017,72.704,79.017,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia onkologiczna,LEK,5,0.67347,ryzyko_zalamania_progu,80.902,78.029,67.692,86.122,65.761,85.205,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Chirurgia onkologiczna,LEK,2,0.720231,ryzyko_zalamania_progu,83.186,80.814,69.976,88.406,68.547,87.991,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia onkologiczna,LEK,1,0.872262,konkurencyjna,86.494,86.494,83.938,90.251,83.938,90.251,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Chirurgia onkologiczna,LEK,3,0.493494,ryzyko_zalamania_progu,81.501,79.562,68.291,86.721,67.295,86.739,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Chirurgia onkologiczna,LEK,3,0.835397,konkurencyjna,83.596,83.596,81.04,87.353,81.04,87.353,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia onkologiczna,LEK,1,0.951945,konkurencyjna,86.455,86.455,83.899,90.212,83.899,90.212,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia onkologiczna,LEK,10,0.839975,konkurencyjna,82.066,82.066,79.51,85.823,79.51,85.823,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Chirurgia onkologiczna,LEK,1,0.704669,ryzyko_zalamania_progu,83.736,84.605,70.526,88.956,72.338,91.781,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Chirurgia onkologiczna,LEK,1,0.761775,ryzyko_zalamania_progu,84.064,83.446,70.854,89.284,71.179,90.622,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia onkologiczna,LEK,2,0.950137,konkurencyjna,83.978,83.978,81.422,87.735,81.422,87.735,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia onkologiczna,LEK,4,0.801247,konkurencyjna,83.552,83.552,80.996,87.309,80.996,87.309,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia onkologiczna,LEK,3,0.455391,ryzyko_zalamania_progu,80.422,77.899,67.212,85.642,65.632,85.075,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia onkologiczna,LEK,4,0.899039,konkurencyjna,86.28,86.28,83.724,90.037,83.724,90.037,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia onkologiczna,LEK,3,0.39529,ryzyko_zalamania_progu,79.877,77.483,66.667,85.097,65.216,84.659,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia plastyczna,LEK,1,0.991907,konkurencyjna,95.346,95.346,92.79,99.103,92.79,99.103,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia plastyczna,LEK,1,0.994422,konkurencyjna,93.375,93.375,90.819,97.132,90.819,97.132,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia plastyczna,LEK,2,0.986092,konkurencyjna,93.154,93.154,90.598,96.911,90.598,96.911,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia plastyczna,LEK,3,0.978511,konkurencyjna,92.085,92.085,89.529,95.842,89.529,95.842,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia plastyczna,LEK,1,0.972498,konkurencyjna,92.551,92.551,89.995,96.308,89.995,96.308,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia stomatologiczna,LDEK,2,0.996446,konkurencyjna,88.521,88.521,85.965,92.278,85.965,92.278,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Chirurgia stomatologiczna,LDEK,1,0.992956,konkurencyjna,88.735,88.735,86.179,92.492,86.179,92.492,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia stomatologiczna,LDEK,6,0.987412,konkurencyjna,85.709,85.709,83.153,89.466,83.153,89.466,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Chirurgia stomatologiczna,LDEK,2,0.996726,konkurencyjna,89.756,89.756,87.2,93.513,87.2,93.513,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia stomatologiczna,LDEK,3,0.993617,konkurencyjna,88.454,88.454,85.898,92.211,85.898,92.211,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia stomatologiczna,LDEK,2,0.998413,konkurencyjna,90.029,90.029,87.473,93.786,87.473,93.786,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Chirurgia stomatologiczna,LDEK,2,0.970656,konkurencyjna,85.867,85.867,83.311,89.624,83.311,89.624,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Chirurgia stomatologiczna,LDEK,2,0.983969,konkurencyjna,84.892,84.892,82.336,88.649,82.336,88.649,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Chirurgia stomatologiczna,LDEK,3,0.978669,konkurencyjna,85.68,85.68,83.124,89.437,83.124,89.437,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia stomatologiczna,LDEK,2,0.993803,konkurencyjna,87.903,87.903,85.347,91.66,85.347,91.66,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia stomatologiczna,LDEK,5,0.993424,konkurencyjna,88.343,88.343,85.787,92.1,85.787,92.1,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Chirurgia stomatologiczna,LDEK,2,0.98632,konkurencyjna,87.327,87.327,84.771,91.084,84.771,91.084,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia stomatologiczna,LDEK,2,0.985484,konkurencyjna,86.151,86.151,83.595,89.908,83.595,89.908,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia stomatologiczna,LDEK,2,0.993213,konkurencyjna,88.582,88.582,86.026,92.339,86.026,92.339,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Choroby płuc,LEK,7,0.97949,konkurencyjna,85.103,85.103,82.547,88.86,82.547,88.86,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Choroby płuc,LEK,6,0.987033,konkurencyjna,86.407,86.407,83.851,90.164,83.851,90.164,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Choroby płuc,LEK,2,0.988953,konkurencyjna,87.421,87.421,84.865,91.178,84.865,91.178,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Choroby płuc,LEK,4,0.797269,ryzyko_zalamania_progu,79.463,75.394,66.253,84.683,63.127,82.571,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Choroby płuc,LEK,8,0.965315,konkurencyjna,83.424,83.424,80.868,87.181,80.868,87.181,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Choroby płuc,LEK,9,0.870445,konkurencyjna,82.796,82.796,80.24,86.553,80.24,86.553,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Choroby płuc,LEK,9,0.989246,konkurencyjna,85.102,85.102,82.546,88.859,82.546,88.859,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Choroby płuc,LEK,5,0.876392,konkurencyjna,82.981,82.981,80.425,86.738,80.425,86.738,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Choroby płuc,LEK,5,0.945296,konkurencyjna,83.066,83.066,80.51,86.823,80.51,86.823,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Choroby płuc,LEK,2,0.994067,konkurencyjna,88.123,88.123,85.567,91.88,85.567,91.88,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Choroby płuc,LEK,10,0.966917,konkurencyjna,84.833,84.833,82.277,88.59,82.277,88.59,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Choroby płuc,LEK,4,0.945998,konkurencyjna,83.556,83.556,81,87.313,81,87.313,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Choroby płuc,LEK,1,0.970729,konkurencyjna,85.724,85.724,83.168,89.481,83.168,89.481,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Choroby płuc,LEK,6,0.979285,konkurencyjna,84.132,84.132,81.576,87.889,81.576,87.889,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Choroby płuc,LEK,6,0.718075,ryzyko_zalamania_progu,78.593,74.702,65.383,83.813,62.435,81.878,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Choroby płuc dzieci,LEK,1,0.89783,konkurencyjna,88.971,88.971,86.415,92.728,86.415,92.728,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Choroby płuc dzieci,LEK,2,0.606387,ryzyko_zalamania_progu,86.811,82.472,73.601,92.031,70.205,89.649,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Choroby płuc dzieci,LEK,1,0.866398,konkurencyjna,89.019,89.019,86.463,92.776,86.463,92.776,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Choroby płuc dzieci,LEK,2,0.619687,ryzyko_zalamania_progu,84.899,81.955,71.689,90.119,69.688,89.131,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Choroby płuc dzieci,LEK,2,0.680646,ryzyko_zalamania_progu,87.461,85.152,74.251,92.681,72.885,92.328,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Choroby płuc dzieci,LEK,5,0.918893,konkurencyjna,88.859,88.859,86.303,92.616,86.303,92.616,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Choroby płuc dzieci,LEK,1,0.575249,ryzyko_zalamania_progu,85.571,82.328,72.361,90.791,70.061,89.504,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Choroby płuc dzieci,LEK,1,0.877611,konkurencyjna,89.503,89.503,86.947,93.26,86.947,93.26,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Choroby wewnętrzne,LEK,60,0.922724,konkurencyjna,74.967,74.967,72.411,78.724,72.411,78.724,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Choroby wewnętrzne,LEK,35,0.772209,ryzyko_zalamania_progu,77.079,68.396,63.869,82.299,56.129,75.572,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Choroby wewnętrzne,LEK,40,0.720239,ryzyko_zalamania_progu,78.469,69.97,65.259,83.689,57.703,77.146,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Choroby wewnętrzne,LEK,25,0.46418,ryzyko_zalamania_progu,73.692,65.917,60.482,78.912,53.65,73.093,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Choroby wewnętrzne,LEK,50,0.825894,konkurencyjna,73.066,73.066,70.51,76.823,70.51,76.823,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Choroby wewnętrzne,LEK,60,0.880865,konkurencyjna,72.374,72.374,69.818,76.131,69.818,76.131,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Choroby wewnętrzne,LEK,58,0.959248,konkurencyjna,82.277,82.277,79.721,86.034,79.721,86.034,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Choroby wewnętrzne,LEK,24,0.588498,ryzyko_zalamania_progu,74.088,68.153,60.878,79.308,55.886,75.33,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Choroby wewnętrzne,LEK,50,0.584876,ryzyko_zalamania_progu,72.983,62.879,59.773,78.203,50.612,70.055,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Choroby wewnętrzne,LEK,60,0.332792,ryzyko_zalamania_progu,76.237,64.364,63.027,81.457,52.097,71.54,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Choroby wewnętrzne,LEK,60,0.945793,konkurencyjna,75.761,75.761,73.205,79.518,73.205,79.518,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Choroby wewnętrzne,LEK,60,0.750625,ryzyko_zalamania_progu,79.002,67.493,65.792,84.222,55.226,74.67,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Choroby wewnętrzne,LEK,60,0.336868,ryzyko_zalamania_progu,78.038,66.213,64.828,83.258,53.946,73.389,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Choroby wewnętrzne,LEK,30,0.673911,ryzyko_zalamania_progu,71.745,62.877,58.535,76.965,50.61,70.054,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Choroby wewnętrzne,LEK,40,0.865433,konkurencyjna,76.414,76.414,73.858,80.171,73.858,80.171,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Choroby wewnętrzne,LEK,60,0.288719,ryzyko_zalamania_progu,75.909,63.565,62.699,81.129,51.298,70.741,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Choroby zakaźne,LEK,3,0.752442,ryzyko_zalamania_progu,84.17,78.936,70.96,89.39,66.669,86.113,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Choroby zakaźne,LEK,8,0.199668,ryzyko_zalamania_progu,79.942,73.074,66.732,85.162,60.807,80.251,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Choroby zakaźne,LEK,14,0.180621,ryzyko_zalamania_progu,79.009,70.392,65.799,84.229,58.125,77.569,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Choroby zakaźne,LEK,2,0.298736,ryzyko_zalamania_progu,82.487,77.982,69.277,87.707,65.715,85.158,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Choroby zakaźne,LEK,6,0.334072,ryzyko_zalamania_progu,81.073,75.788,67.863,86.293,63.521,82.964,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Choroby zakaźne,LEK,10,0.249709,ryzyko_zalamania_progu,80.654,73.615,67.444,85.874,61.347,80.791,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Choroby zakaźne,LEK,19,0.444103,ryzyko_zalamania_progu,79.246,68.314,66.036,84.466,56.047,75.491,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Choroby zakaźne,LEK,3,0.216862,ryzyko_zalamania_progu,82.357,76.876,69.147,87.577,64.609,84.052,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Choroby zakaźne,LEK,10,0.164216,ryzyko_zalamania_progu,79.504,71.706,66.294,84.724,59.439,78.882,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Choroby zakaźne,LEK,19,0.066561,ryzyko_zalamania_progu,78.782,68.116,65.572,84.002,55.849,75.293,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Choroby zakaźne,LEK,6,0.593129,ryzyko_zalamania_progu,83.982,76.575,70.772,89.202,64.308,83.751,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Choroby zakaźne,LEK,13,0.182871,ryzyko_zalamania_progu,81.396,72.792,68.186,86.616,60.525,79.969,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Choroby zakaźne,LEK,2,0.22651,ryzyko_zalamania_progu,81.384,74.53,68.174,86.604,62.263,81.707,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Choroby zakaźne,LEK,7,0.119044,ryzyko_zalamania_progu,79.709,71.134,66.499,84.929,58.867,78.31,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Choroby zakaźne,LEK,10,0.228151,ryzyko_zalamania_progu,81.12,73.842,67.91,86.34,61.575,81.018,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Choroby zakaźne,LEK,2,0.245724,ryzyko_zalamania_progu,81.364,76.401,68.154,86.584,64.134,83.577,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Dermatologia i wenerologia,LEK,2,0.994413,konkurencyjna,95.016,95.016,92.46,98.773,92.46,98.773,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Dermatologia i wenerologia,LEK,2,0.996973,konkurencyjna,95.693,95.693,93.137,99.45,93.137,99.45,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Dermatologia i wenerologia,LEK,1,0.997508,konkurencyjna,97.102,97.102,94.546,100,94.546,100,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Dermatologia i wenerologia,LEK,1,0.999005,konkurencyjna,95.731,95.731,93.175,99.488,93.175,99.488,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Dermatologia i wenerologia,LEK,1,0.996956,konkurencyjna,95.852,95.852,93.296,99.609,93.296,99.609,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Dermatologia i wenerologia,LEK,2,0.990415,konkurencyjna,94.097,94.097,91.541,97.854,91.541,97.854,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Dermatologia i wenerologia,LEK,1,0.997514,konkurencyjna,95.836,95.836,93.28,99.593,93.28,99.593,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Dermatologia i wenerologia,LEK,1,0.997725,konkurencyjna,96.527,96.527,93.971,100,93.971,100,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Dermatologia i wenerologia,LEK,1,0.988122,konkurencyjna,93.45,93.45,90.894,97.207,90.894,97.207,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Dermatologia i wenerologia,LEK,1,0.991484,konkurencyjna,92.868,92.868,90.312,96.625,90.312,96.625,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Dermatologia i wenerologia,LEK,2,0.988917,konkurencyjna,93.979,93.979,91.423,97.736,91.423,97.736,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Diabetologia,LEK,2,0.989728,konkurencyjna,88.655,88.655,86.099,92.412,86.099,92.412,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Diabetologia,LEK,3,0.966185,konkurencyjna,87.187,87.187,84.631,90.944,84.631,90.944,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Diabetologia,LEK,5,0.975201,konkurencyjna,88.236,88.236,85.68,91.993,85.68,91.993,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Diabetologia,LEK,1,0.95574,konkurencyjna,87.148,87.148,84.592,90.905,84.592,90.905,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Diabetologia,LEK,5,0.986001,konkurencyjna,88.934,88.934,86.378,92.691,86.378,92.691,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Diabetologia,LEK,1,0.993105,konkurencyjna,90.303,90.303,87.747,94.06,87.747,94.06,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Diabetologia,LEK,4,0.995126,konkurencyjna,89.94,89.94,87.384,93.697,87.384,93.697,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Diabetologia,LEK,2,0.941348,konkurencyjna,87.735,87.735,85.179,91.492,85.179,91.492,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Diabetologia,LEK,5,0.970924,konkurencyjna,88.326,88.326,85.77,92.083,85.77,92.083,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Diabetologia,LEK,2,0.976501,konkurencyjna,87.194,87.194,84.638,90.951,84.638,90.951,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Diabetologia,LEK,6,0.993196,konkurencyjna,90.627,90.627,88.071,94.384,88.071,94.384,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Diabetologia,LEK,2,0.973752,konkurencyjna,88.443,88.443,85.887,92.2,85.887,92.2,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Diabetologia,LEK,1,0.992439,konkurencyjna,90.361,90.361,87.805,94.118,87.805,94.118,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Diabetologia,LEK,4,0.91951,konkurencyjna,86.336,86.336,83.78,90.093,83.78,90.093,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Diagnostyka laboratoryjna,LEK,1,0.486698,ryzyko_zalamania_progu,81.056,79.02,67.846,86.276,66.753,86.196,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Diagnostyka laboratoryjna,LEK,1,0.094483,ryzyko_zalamania_progu,78.143,75.109,64.933,83.363,62.842,82.286,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Diagnostyka laboratoryjna,LEK,1,0.231822,ryzyko_zalamania_progu,80.62,79.209,67.41,85.84,66.942,86.386,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Endokrynologia,LEK,2,0.987334,konkurencyjna,92.948,92.948,90.392,96.705,90.392,96.705,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Endokrynologia,LEK,1,0.997889,konkurencyjna,96.739,96.739,94.183,100,94.183,100,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Endokrynologia,LEK,2,0.995773,konkurencyjna,95.919,95.919,93.363,99.676,93.363,99.676,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Endokrynologia,LEK,3,0.99823,konkurencyjna,96.245,96.245,93.689,100,93.689,100,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Endokrynologia,LEK,2,0.982234,konkurencyjna,93.758,93.758,91.202,97.515,91.202,97.515,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Endokrynologia,LEK,1,0.993031,konkurencyjna,93.894,93.894,91.338,97.651,91.338,97.651,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Endokrynologia,LEK,2,0.988815,konkurencyjna,93.741,93.741,91.185,97.498,91.185,97.498,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Endokrynologia,LEK,1,0.998334,konkurencyjna,97.627,97.627,95.071,100,95.071,100,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Endokrynologia,LEK,1,0.988222,konkurencyjna,93.535,93.535,90.979,97.292,90.979,97.292,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Endokrynologia,LEK,1,0.980945,konkurencyjna,92.901,92.901,90.345,96.658,90.345,96.658,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Endokrynologia,LEK,2,0.995668,konkurencyjna,95.937,95.937,93.381,99.694,93.381,99.694,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Endokrynologia,LEK,1,0.992361,konkurencyjna,94.393,94.393,91.837,98.15,91.837,98.15,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Endokrynologia i diabetologia dziecięca,LEK,1,0.985291,konkurencyjna,90.806,90.806,88.25,94.563,88.25,94.563,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Endokrynologia i diabetologia dziecięca,LEK,2,0.973814,konkurencyjna,89.398,89.398,86.842,93.155,86.842,93.155,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Endokrynologia i diabetologia dziecięca,LEK,1,0.991194,konkurencyjna,91.991,91.991,89.435,95.748,89.435,95.748,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Endokrynologia i diabetologia dziecięca,LEK,7,0.987741,konkurencyjna,91.077,91.077,88.521,94.834,88.521,94.834,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Endokrynologia i diabetologia dziecięca,LEK,3,0.898658,konkurencyjna,87.513,87.513,84.957,91.27,84.957,91.27,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Endokrynologia i diabetologia dziecięca,LEK,2,0.991041,konkurencyjna,92.283,92.283,89.727,96.04,89.727,96.04,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Endokrynologia i diabetologia dziecięca,LEK,1,0.961823,konkurencyjna,88.986,88.986,86.43,92.743,86.43,92.743,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Endokrynologia i diabetologia dziecięca,LEK,2,0.978259,konkurencyjna,90.334,90.334,87.778,94.091,87.778,94.091,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Endokrynologia i diabetologia dziecięca,LEK,2,0.954155,konkurencyjna,89.618,89.618,87.062,93.375,87.062,93.375,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Farmakologia kliniczna,LEK,2,0.275494,ryzyko_zalamania_progu,84.903,79.166,71.693,90.123,66.899,86.343,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Farmakologia kliniczna,LEK,2,0.749169,ryzyko_zalamania_progu,88.495,80.513,75.285,93.715,68.246,87.689,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Farmakologia kliniczna,LEK,2,0.249011,ryzyko_zalamania_progu,83.903,76.797,70.693,89.123,64.53,83.974,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Farmakologia kliniczna,LEK,1,0.189959,ryzyko_zalamania_progu,84.168,78.055,70.958,89.388,65.788,85.232,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Gastroenterologia,LEK,3,0.984293,konkurencyjna,90.808,90.808,88.252,94.565,88.252,94.565,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Gastroenterologia,LEK,1,0.982952,konkurencyjna,91.058,91.058,88.502,94.815,88.502,94.815,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Gastroenterologia,LEK,1,0.991725,konkurencyjna,92.751,92.751,90.195,96.508,90.195,96.508,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Gastroenterologia,LEK,6,0.989831,konkurencyjna,91.852,91.852,89.296,95.609,89.296,95.609,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Gastroenterologia,LEK,2,0.998505,konkurencyjna,95.308,95.308,92.752,99.065,92.752,99.065,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Gastroenterologia,LEK,7,0.965664,konkurencyjna,90.091,90.091,87.535,93.848,87.535,93.848,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Gastroenterologia,LEK,5,0.980186,konkurencyjna,91.931,91.931,89.375,95.688,89.375,95.688,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Gastroenterologia,LEK,1,0.994956,konkurencyjna,92.315,92.315,89.759,96.072,89.759,96.072,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Gastroenterologia,LEK,2,0.996,konkurencyjna,94.388,94.388,91.832,98.145,91.832,98.145,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Gastroenterologia,LEK,2,0.959462,konkurencyjna,88.72,88.72,86.164,92.477,86.164,92.477,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Gastroenterologia,LEK,2,0.985107,konkurencyjna,91.65,91.65,89.094,95.407,89.094,95.407,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Gastroenterologia dziecięca,LEK,1,0.801205,konkurencyjna,87.577,87.577,85.021,91.334,85.021,91.334,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Gastroenterologia dziecięca,LEK,4,0.742795,ryzyko_zalamania_progu,85.308,81.73,72.098,90.528,69.463,88.907,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Gastroenterologia dziecięca,LEK,4,0.963949,konkurencyjna,88.177,88.177,85.621,91.934,85.621,91.934,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Gastroenterologia dziecięca,LEK,1,0.933196,konkurencyjna,89.717,89.717,87.161,93.474,87.161,93.474,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Genetyka kliniczna,LEK,1,0.618353,ryzyko_zalamania_progu,82.825,81.962,69.615,88.045,69.695,89.138,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Genetyka kliniczna,LEK,1,0.722825,ryzyko_zalamania_progu,83.904,82.285,70.694,89.124,70.018,89.462,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Genetyka kliniczna,LEK,1,0.897216,konkurencyjna,84.329,84.329,81.773,88.086,81.773,88.086,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Genetyka kliniczna,LEK,3,0.769548,ryzyko_zalamania_progu,84.007,80.328,70.797,89.227,68.061,87.504,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Genetyka kliniczna,LEK,1,0.957829,konkurencyjna,86.888,86.888,84.332,90.645,84.332,90.645,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Genetyka kliniczna,LEK,3,0.550823,ryzyko_zalamania_progu,81.766,76.917,68.556,86.986,64.65,84.094,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Genetyka kliniczna,LEK,1,0.822362,konkurencyjna,84.468,84.468,81.912,88.225,81.912,88.225,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Genetyka kliniczna,LEK,1,0.701937,ryzyko_zalamania_progu,84.057,81.325,70.847,89.277,69.058,88.502,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Geriatria,LEK,4,0.272075,ryzyko_zalamania_progu,80.543,76.052,67.333,85.763,63.785,83.228,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Geriatria,LEK,10,0.067532,ryzyko_zalamania_progu,76.585,67.668,63.375,81.805,55.401,74.845,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Geriatria,LEK,7,0.076921,ryzyko_zalamania_progu,76.522,71.488,63.312,81.742,59.221,78.664,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Geriatria,LEK,2,0.143164,ryzyko_zalamania_progu,79.313,75.468,66.103,84.533,63.201,82.645,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Geriatria,LEK,4,0.367019,ryzyko_zalamania_progu,81.724,75.934,68.514,86.944,63.667,83.11,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Geriatria,LEK,10,0.186902,ryzyko_zalamania_progu,80.102,73.893,66.892,85.322,61.626,81.069,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Geriatria,LEK,10,0.288256,ryzyko_zalamania_progu,78.341,70.142,65.131,83.561,57.875,77.319,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Geriatria,LEK,2,0.158299,ryzyko_zalamania_progu,81.44,78.215,68.23,86.66,65.948,85.391,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Geriatria,LEK,2,0.259611,ryzyko_zalamania_progu,80.149,75.634,66.939,85.369,63.367,82.811,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Geriatria,LEK,4,0.133892,ryzyko_zalamania_progu,78.661,72.495,65.451,83.881,60.228,79.672,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Geriatria,LEK,4,0.222318,ryzyko_zalamania_progu,79.091,74.389,65.881,84.311,62.122,81.566,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Geriatria,LEK,20,0.109486,ryzyko_zalamania_progu,76.951,66.645,63.741,82.171,54.378,73.822,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Geriatria,LEK,1,0.232379,ryzyko_zalamania_progu,81.238,77.619,68.028,86.458,65.352,84.796,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Geriatria,LEK,2,0.144762,ryzyko_zalamania_progu,79.366,75.188,66.156,84.586,62.921,82.364,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Geriatria,LEK,4,0.238556,ryzyko_zalamania_progu,80.646,76.141,67.436,85.866,63.874,83.317,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Geriatria,LEK,1,0.214156,ryzyko_zalamania_progu,80.614,78.207,67.404,85.834,65.94,85.383,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Hematologia,LEK,5,0.749761,ryzyko_zalamania_progu,84.153,80.387,70.943,89.373,68.12,87.563,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Hematologia,LEK,7,0.424283,ryzyko_zalamania_progu,81.027,76.172,67.817,86.247,63.905,83.349,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Hematologia,LEK,8,0.373561,ryzyko_zalamania_progu,82.293,76.006,69.083,87.513,63.739,83.182,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Hematologia,LEK,8,0.231089,ryzyko_zalamania_progu,79.377,73.98,66.167,84.597,61.713,81.157,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Hematologia,LEK,5,0.735572,ryzyko_zalamania_progu,83.618,80.878,70.408,88.838,68.611,88.055,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Hematologia,LEK,11,0.819661,konkurencyjna,84.596,84.596,82.04,88.353,82.04,88.353,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Hematologia,LEK,10,0.884717,konkurencyjna,83.225,83.225,80.669,86.982,80.669,86.982,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Hematologia,LEK,2,0.573389,ryzyko_zalamania_progu,84.873,82.114,71.663,90.093,69.847,89.29,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Hematologia,LEK,3,0.625908,ryzyko_zalamania_progu,83.032,80.544,69.822,88.252,68.277,87.72,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Hematologia,LEK,3,0.451378,ryzyko_zalamania_progu,82.092,79.722,68.882,87.312,67.455,86.898,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Hematologia,LEK,16,0.548211,ryzyko_zalamania_progu,80.827,75.028,67.617,86.047,62.761,82.205,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Hematologia,LEK,3,0.858298,konkurencyjna,86.522,86.522,83.966,90.279,83.966,90.279,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Hematologia,LEK,2,0.492183,ryzyko_zalamania_progu,83.561,80.154,70.351,88.781,67.887,87.33,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Hematologia,LEK,2,0.46255,ryzyko_zalamania_progu,82.034,78.539,68.824,87.254,66.272,85.716,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Hematologia,LEK,1,0.907208,konkurencyjna,88.162,88.162,85.606,91.919,85.606,91.919,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Hematologia,LEK,3,0.398094,ryzyko_zalamania_progu,81.144,77.523,67.934,86.364,65.256,84.699,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Immunologia kliniczna,LEK,1,0.529134,ryzyko_zalamania_progu,83.979,81.437,70.769,89.199,69.17,88.613,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Immunologia kliniczna,LEK,1,0.465039,ryzyko_zalamania_progu,83.176,80.644,69.966,88.396,68.376,87.82,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Immunologia kliniczna,LEK,3,0.562354,ryzyko_zalamania_progu,84.045,78.69,70.835,89.265,66.423,85.866,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Immunologia kliniczna,LEK,1,0.828104,konkurencyjna,86.931,86.931,84.375,90.688,84.375,90.688,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Immunologia kliniczna,LEK,1,0.346028,ryzyko_zalamania_progu,82.616,79.712,69.406,87.836,67.445,86.888,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Immunologia kliniczna,LEK,1,0.53655,ryzyko_zalamania_progu,84.118,79.602,70.908,89.338,67.335,86.779,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Kardiochirurgia,LEK,1,0.895555,konkurencyjna,84.38,84.38,81.824,88.137,81.824,88.137,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Kardiochirurgia,LEK,1,0.842756,konkurencyjna,83.094,83.094,80.538,86.851,80.538,86.851,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Kardiochirurgia,LEK,4,0.698662,ryzyko_zalamania_progu,83.832,78.585,70.622,89.052,66.318,85.761,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Kardiochirurgia,LEK,1,0.659414,ryzyko_zalamania_progu,82.279,80.373,69.069,87.499,68.106,87.549,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Kardiochirurgia,LEK,1,0.920112,konkurencyjna,86.354,86.354,83.798,90.111,83.798,90.111,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Kardiochirurgia,LEK,3,0.840314,konkurencyjna,84.025,84.025,81.469,87.782,81.469,87.782,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Kardiochirurgia,LEK,5,0.902605,konkurencyjna,82.99,82.99,80.434,86.747,80.434,86.747,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Kardiochirurgia,LEK,3,0.503237,ryzyko_zalamania_progu,79.667,76.393,66.457,84.887,64.125,83.569,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Kardiochirurgia,LEK,2,0.564348,ryzyko_zalamania_progu,80.48,78.08,67.27,85.7,65.813,85.256,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Kardiochirurgia,LEK,2,0.954302,konkurencyjna,86.315,86.315,83.759,90.072,83.759,90.072,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Kardiochirurgia,LEK,3,0.834133,konkurencyjna,82.163,82.163,79.607,85.92,79.607,85.92,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Kardiochirurgia,LEK,1,0.606955,ryzyko_zalamania_progu,81.39,79.796,68.18,86.61,67.529,86.973,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Kardiochirurgia,LEK,3,0.425465,ryzyko_zalamania_progu,77.889,75.674,64.679,83.109,63.407,82.85,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Kardiochirurgia,LEK,8,0.724151,ryzyko_zalamania_progu,82.975,77.244,69.765,88.195,64.976,84.42,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Kardiochirurgia,LEK,1,0.602536,ryzyko_zalamania_progu,80.894,80.35,67.684,86.114,68.083,87.527,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Kardiologia,LEK,14,0.997976,konkurencyjna,88.697,88.697,86.141,92.454,86.141,92.454,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Kardiologia,LEK,24,0.986198,konkurencyjna,89.024,89.024,86.468,92.781,86.468,92.781,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Kardiologia,LEK,20,0.992359,konkurencyjna,88.926,88.926,86.37,92.683,86.37,92.683,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Kardiologia,LEK,11,0.980058,konkurencyjna,86.641,86.641,84.085,90.398,84.085,90.398,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Kardiologia,LEK,15,0.996552,konkurencyjna,89.675,89.675,87.119,93.432,87.119,93.432,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Kardiologia,LEK,8,0.999122,konkurencyjna,91.315,91.315,88.759,95.072,88.759,95.072,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Kardiologia,LEK,20,0.999712,konkurencyjna,89.728,89.728,87.172,93.485,87.172,93.485,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Kardiologia,LEK,5,0.995087,konkurencyjna,89.352,89.352,86.796,93.109,86.796,93.109,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Kardiologia,LEK,10,0.996413,konkurencyjna,88.736,88.736,86.18,92.493,86.18,92.493,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Kardiologia,LEK,2,0.998442,konkurencyjna,91.472,91.472,88.916,95.229,88.916,95.229,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Kardiologia,LEK,15,0.998534,konkurencyjna,89.828,89.828,87.272,93.585,87.272,93.585,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Kardiologia,LEK,6,0.999446,konkurencyjna,91.615,91.615,89.059,95.372,89.059,95.372,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Kardiologia,LEK,8,0.988815,konkurencyjna,87.13,87.13,84.574,90.887,84.574,90.887,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Kardiologia,LEK,7,0.990366,konkurencyjna,85.552,85.552,82.996,89.309,82.996,89.309,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Kardiologia,LEK,20,0.99735,konkurencyjna,91.649,91.649,89.093,95.406,89.093,95.406,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Kardiologia,LEK,8,0.99188,konkurencyjna,87.47,87.47,84.914,91.227,84.914,91.227,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Kardiologia dziecięca,LEK,2,0.932181,konkurencyjna,87.11,87.11,84.554,90.867,84.554,90.867,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Kardiologia dziecięca,LEK,1,0.958244,konkurencyjna,89.285,89.285,86.729,93.042,86.729,93.042,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Kardiologia dziecięca,LEK,1,0.954087,konkurencyjna,89.401,89.401,86.845,93.158,86.845,93.158,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Kardiologia dziecięca,LEK,4,0.97703,konkurencyjna,87.016,87.016,84.46,90.773,84.46,90.773,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Kardiologia dziecięca,LEK,1,0.851753,konkurencyjna,85.622,85.622,83.066,89.379,83.066,89.379,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Kardiologia dziecięca,LEK,1,0.725853,ryzyko_zalamania_progu,85.35,83.454,72.14,90.57,71.187,90.631,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Kardiologia dziecięca,LEK,4,0.934439,konkurencyjna,87.489,87.489,84.933,91.246,84.933,91.246,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Kardiologia dziecięca,LEK,1,0.915194,konkurencyjna,87.04,87.04,84.484,90.797,84.484,90.797,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna morska i tropikalna,LEK,4,0.631887,ryzyko_zalamania_progu,83.007,75.859,69.797,88.227,63.592,83.035,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna morska i tropikalna,LEK,1,0.875333,konkurencyjna,87.055,87.055,84.499,90.812,84.499,90.812,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna nuklearna,LEK,1,0.911441,konkurencyjna,84.807,84.807,82.251,88.564,82.251,88.564,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna nuklearna,LEK,3,0.42324,ryzyko_zalamania_progu,78.976,75.805,65.766,84.196,63.538,82.981,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna nuklearna,LEK,1,0.620363,ryzyko_zalamania_progu,80.516,78.258,67.306,85.736,65.991,85.435,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna nuklearna,LEK,3,0.730699,ryzyko_zalamania_progu,83.26,78.114,70.05,88.48,65.847,85.291,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Medycyna nuklearna,LEK,3,0.626506,ryzyko_zalamania_progu,81.481,78.451,68.271,86.701,66.184,85.627,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna nuklearna,LEK,9,0.73145,ryzyko_zalamania_progu,80.316,72.761,67.106,85.536,60.494,79.937,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Medycyna nuklearna,LEK,2,0.357823,ryzyko_zalamania_progu,79.794,78.62,66.584,85.014,66.352,85.796,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Medycyna nuklearna,LEK,3,0.44617,ryzyko_zalamania_progu,81.439,75.833,68.229,86.659,63.566,83.009,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna nuklearna,LEK,3,0.820825,konkurencyjna,82.842,82.842,80.286,86.599,80.286,86.599,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Medycyna nuklearna,LEK,5,0.574168,ryzyko_zalamania_progu,78.599,76.091,65.389,83.819,63.824,83.268,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Medycyna nuklearna,LEK,2,0.489023,ryzyko_zalamania_progu,80.301,75.611,67.091,85.521,63.344,82.787,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna nuklearna,LEK,2,0.778097,ryzyko_zalamania_progu,84,80.641,70.79,89.22,68.374,87.818,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna nuklearna,LEK,1,0.507713,ryzyko_zalamania_progu,80.128,79.074,66.918,85.348,66.807,86.251,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna paliatywna,LEK,5,0.172754,ryzyko_zalamania_progu,80.339,73.857,67.129,85.559,61.589,81.033,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna paliatywna,LEK,4,0.102228,ryzyko_zalamania_progu,79.265,74.132,66.055,84.485,61.865,81.308,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna paliatywna,LEK,1,0.317089,ryzyko_zalamania_progu,82.44,80.474,69.23,87.66,68.207,87.651,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna paliatywna,LEK,2,0.238614,ryzyko_zalamania_progu,80.222,77.657,67.012,85.442,65.39,84.834,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Medycyna paliatywna,LEK,2,0.332509,ryzyko_zalamania_progu,82.562,80.131,69.352,87.782,67.864,87.307,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna paliatywna,LEK,2,0.577488,ryzyko_zalamania_progu,83.505,78.308,70.295,88.725,66.041,85.485,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Medycyna paliatywna,LEK,1,0.131632,ryzyko_zalamania_progu,81.233,79.348,68.023,86.453,67.081,86.525,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Medycyna paliatywna,LEK,1,0.320353,ryzyko_zalamania_progu,83.354,79.142,70.144,88.574,66.875,86.318,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna paliatywna,LEK,2,0.251973,ryzyko_zalamania_progu,80.853,78.118,67.643,86.073,65.851,85.294,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Medycyna paliatywna,LEK,2,0.282884,ryzyko_zalamania_progu,81.91,78.233,68.7,87.13,65.966,85.41,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Medycyna paliatywna,LEK,1,0.12394,ryzyko_zalamania_progu,80.649,77.102,67.439,85.869,64.835,84.278,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Medycyna paliatywna,LEK,1,0.159476,ryzyko_zalamania_progu,79.944,76.939,66.734,85.164,64.672,84.115,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna paliatywna,LEK,2,0.256179,ryzyko_zalamania_progu,81.837,79.572,68.627,87.057,67.305,86.748,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna paliatywna,LEK,1,0.11745,ryzyko_zalamania_progu,79.729,76.679,66.519,84.949,64.412,83.855,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna pracy,LEK,3,0.88009,konkurencyjna,83.88,83.88,81.324,87.637,81.324,87.637,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna pracy,LEK,1,0.875195,konkurencyjna,84.174,84.174,81.618,87.931,81.618,87.931,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna pracy,LEK,1,0.877773,konkurencyjna,82.498,82.498,79.942,86.255,79.942,86.255,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna pracy,LEK,3,0.756305,ryzyko_zalamania_progu,78.819,77.739,65.609,84.039,65.472,84.915,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna pracy,LEK,3,0.921223,konkurencyjna,84.789,84.789,82.233,88.546,82.233,88.546,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Medycyna pracy,LEK,1,0.882477,konkurencyjna,82.378,82.378,79.822,86.135,79.822,86.135,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Medycyna pracy,LEK,1,0.879479,konkurencyjna,81.829,81.829,79.273,85.586,79.273,85.586,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Medycyna pracy,LEK,2,0.783682,ryzyko_zalamania_progu,79.949,79.211,66.739,85.169,66.944,86.388,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Medycyna pracy,LEK,3,0.514014,ryzyko_zalamania_progu,78.153,75.126,64.943,83.373,62.859,82.302,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna pracy,LEK,2,0.853861,konkurencyjna,81.492,81.492,78.936,85.249,78.936,85.249,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna pracy,LEK,2,0.692731,ryzyko_zalamania_progu,80.898,78.369,67.688,86.118,66.102,85.546,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna ratunkowa,LEK,25,0.189193,ryzyko_zalamania_progu,75.661,63.669,62.451,80.881,51.402,70.846,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna ratunkowa,LEK,30,0.060538,ryzyko_zalamania_progu,77.768,63.764,64.558,82.988,51.497,70.94,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna ratunkowa,LEK,15,0.124438,ryzyko_zalamania_progu,78.45,68.859,65.24,83.67,56.592,76.035,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Medycyna ratunkowa,LEK,10,0.071507,ryzyko_zalamania_progu,78.399,69.096,65.189,83.619,56.829,76.272,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna ratunkowa,LEK,38,0.061058,ryzyko_zalamania_progu,79.96,66.214,66.75,85.18,53.947,73.39,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Medycyna ratunkowa,LEK,25,0.149838,ryzyko_zalamania_progu,77.759,67.29,64.549,82.979,55.023,74.466,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna ratunkowa,LEK,30,0.262993,ryzyko_zalamania_progu,77.915,63.788,64.705,83.135,51.521,70.965,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Medycyna ratunkowa,LEK,6,0.141181,ryzyko_zalamania_progu,80.478,74.272,67.268,85.698,62.005,81.449,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Medycyna ratunkowa,LEK,11,0.137992,ryzyko_zalamania_progu,77.758,68.923,64.548,82.978,56.656,76.099,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Medycyna ratunkowa,LEK,20,0.099344,ryzyko_zalamania_progu,74.782,64.34,61.572,80.002,52.073,71.517,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna ratunkowa,LEK,39,0.145042,ryzyko_zalamania_progu,78.771,66.84,65.561,83.991,54.573,74.016,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Medycyna ratunkowa,LEK,30,0.109626,ryzyko_zalamania_progu,79.387,66.959,66.177,84.607,54.692,74.136,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Medycyna ratunkowa,LEK,10,0.100903,ryzyko_zalamania_progu,78.586,68.711,65.376,83.806,56.444,75.887,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Medycyna ratunkowa,LEK,20,0.049442,ryzyko_zalamania_progu,77.418,65.96,64.208,82.638,53.693,73.136,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna ratunkowa,LEK,18,0.233522,ryzyko_zalamania_progu,78.998,69.776,65.788,84.218,57.509,76.952,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna ratunkowa,LEK,4,0.190912,ryzyko_zalamania_progu,79.841,72.445,66.631,85.061,60.178,79.622,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna rodzinna,LEK,60,0.982505,konkurencyjna,77.603,77.603,75.047,81.36,75.047,81.36,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna rodzinna,LEK,50,0.902634,konkurencyjna,75.148,75.148,72.592,78.905,72.592,78.905,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna rodzinna,LEK,60,0.942957,konkurencyjna,72.7,72.7,70.144,76.457,70.144,76.457,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Medycyna rodzinna,LEK,45,0.695687,ryzyko_zalamania_progu,75.257,66.391,62.047,80.477,54.124,73.568,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna rodzinna,LEK,60,0.961342,konkurencyjna,79.408,79.408,76.852,83.165,76.852,83.165,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Medycyna rodzinna,LEK,60,0.98948,konkurencyjna,79.695,79.695,77.139,83.452,77.139,83.452,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna rodzinna,LEK,60,0.999754,konkurencyjna,77.876,77.876,75.32,81.633,75.32,81.633,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Medycyna rodzinna,LEK,40,0.862463,konkurencyjna,76.183,76.183,73.627,79.94,73.627,79.94,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Medycyna rodzinna,LEK,50,0.853215,konkurencyjna,71.004,71.004,68.448,74.761,68.448,74.761,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Medycyna rodzinna,LEK,30,0.926463,konkurencyjna,73.638,73.638,71.082,77.395,71.082,77.395,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna rodzinna,LEK,60,0.974854,konkurencyjna,78.893,78.893,76.337,82.65,76.337,82.65,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Medycyna rodzinna,LEK,20,0.997597,konkurencyjna,76.089,76.089,73.533,79.846,73.533,79.846,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Medycyna rodzinna,LEK,35,0.891159,konkurencyjna,75.818,75.818,73.262,79.575,73.262,79.575,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Medycyna rodzinna,LEK,39,0.873144,konkurencyjna,73.655,73.655,71.099,77.412,71.099,77.412,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna rodzinna,LEK,50,0.986951,konkurencyjna,76.935,76.935,74.379,80.692,74.379,80.692,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna rodzinna,LEK,30,0.94001,konkurencyjna,75.03,75.03,72.474,78.787,72.474,78.787,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna sądowa,LEK,4,0.427442,ryzyko_zalamania_progu,77.89,74.699,64.68,83.11,62.432,81.875,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna sądowa,LEK,2,0.297279,ryzyko_zalamania_progu,79.294,76.705,66.084,84.514,64.438,83.881,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna sądowa,LEK,1,0.586798,ryzyko_zalamania_progu,84.03,79.884,70.82,89.25,67.617,87.061,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna sądowa,LEK,1,0.65102,ryzyko_zalamania_progu,80.899,81.228,67.689,86.119,68.961,88.405,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Medycyna sądowa,LEK,2,0.469819,ryzyko_zalamania_progu,80.941,79.758,67.731,86.161,67.491,86.934,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna sądowa,LEK,1,0.875041,konkurencyjna,83.308,83.308,80.752,87.065,80.752,87.065,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Medycyna sądowa,LEK,1,0.256325,ryzyko_zalamania_progu,80.026,79.321,66.816,85.246,67.054,86.498,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Medycyna sądowa,LEK,2,0.245177,ryzyko_zalamania_progu,78.255,74.768,65.045,83.475,62.501,81.944,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna sądowa,LEK,1,0.566938,ryzyko_zalamania_progu,81.019,80.114,67.809,86.239,67.847,87.291,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Medycyna sądowa,LEK,1,0.423331,ryzyko_zalamania_progu,80.147,77.027,66.937,85.367,64.76,84.203,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna sądowa,LEK,1,0.688881,ryzyko_zalamania_progu,82.54,81.796,69.33,87.76,69.529,88.972,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna sądowa,LEK,3,0.198064,ryzyko_zalamania_progu,78.19,74.783,64.98,83.41,62.516,81.959,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna sportowa,LEK,1,0.845289,konkurencyjna,84.604,84.604,82.048,88.361,82.048,88.361,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna sportowa,LEK,1,0.88475,konkurencyjna,84.907,84.907,82.351,88.664,82.351,88.664,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna sportowa,LEK,3,0.713139,ryzyko_zalamania_progu,81.077,77.842,67.867,86.297,65.575,85.018,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Mikrobiologia lekarska,LEK,2,0.251481,ryzyko_zalamania_progu,76.485,73.612,63.275,81.705,61.344,80.788,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Mikrobiologia lekarska,LEK,1,0.63969,ryzyko_zalamania_progu,79.026,78.408,65.816,84.246,66.141,85.584,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Mikrobiologia lekarska,LEK,2,0.461832,ryzyko_zalamania_progu,75.833,72.705,62.623,81.053,60.438,79.881,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Mikrobiologia lekarska,LEK,3,0.236348,ryzyko_zalamania_progu,76.086,70.709,62.876,81.306,58.442,77.886,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Nefrologia,LEK,15,0.650564,ryzyko_zalamania_progu,84.982,76.332,71.772,90.202,64.065,83.508,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Nefrologia,LEK,15,0.290128,ryzyko_zalamania_progu,82.112,73.704,68.902,87.332,61.437,80.88,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Nefrologia,LEK,5,0.776279,ryzyko_zalamania_progu,86.962,80.193,73.752,92.182,67.926,87.37,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Nefrologia,LEK,5,0.489656,ryzyko_zalamania_progu,83.105,77.048,69.895,88.325,64.781,84.225,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Nefrologia,LEK,10,0.816423,konkurencyjna,85.171,85.171,82.615,88.928,82.615,88.928,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Nefrologia,LEK,4,0.871232,konkurencyjna,86.388,86.388,83.832,90.145,83.832,90.145,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Nefrologia,LEK,12,0.926178,konkurencyjna,84.081,84.081,81.525,87.838,81.525,87.838,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Nefrologia,LEK,3,0.771396,ryzyko_zalamania_progu,83.849,78.756,70.639,89.069,66.489,85.932,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Nefrologia,LEK,6,0.602677,ryzyko_zalamania_progu,82.326,75.174,69.116,87.546,62.907,82.35,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Nefrologia,LEK,10,0.350335,ryzyko_zalamania_progu,81.143,75.243,67.933,86.363,62.976,82.419,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Nefrologia,LEK,14,0.496985,ryzyko_zalamania_progu,83.068,74.866,69.858,88.288,62.599,82.042,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Nefrologia,LEK,5,0.44165,ryzyko_zalamania_progu,82.444,76.123,69.234,87.664,63.856,83.3,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Nefrologia,LEK,3,0.631966,ryzyko_zalamania_progu,83.335,78.693,70.125,88.555,66.426,85.87,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Nefrologia,LEK,6,0.644487,ryzyko_zalamania_progu,83.378,79.427,70.168,88.598,67.16,86.604,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Nefrologia,LEK,4,0.678499,ryzyko_zalamania_progu,84.49,79.576,71.28,89.71,67.309,86.753,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Nefrologia dziecięca,LEK,3,0.686487,ryzyko_zalamania_progu,84.341,79.665,71.131,89.561,67.398,86.842,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Nefrologia dziecięca,LEK,2,0.423363,ryzyko_zalamania_progu,82.718,78.912,69.508,87.938,66.645,86.089,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Nefrologia dziecięca,LEK,2,0.824641,konkurencyjna,87.4,87.4,84.844,91.157,84.844,91.157,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Nefrologia dziecięca,LEK,2,0.426124,ryzyko_zalamania_progu,82.549,77.038,69.339,87.769,64.771,84.215,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Nefrologia dziecięca,LEK,3,0.703726,ryzyko_zalamania_progu,85.321,79.6,72.111,90.541,67.333,86.777,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Nefrologia dziecięca,LEK,3,0.653243,ryzyko_zalamania_progu,85.403,80.277,72.193,90.623,68.01,87.454,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Nefrologia dziecięca,LEK,2,0.878339,konkurencyjna,85.17,85.17,82.614,88.927,82.614,88.927,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Nefrologia dziecięca,LEK,2,0.827478,konkurencyjna,86.914,86.914,84.358,90.671,84.358,90.671,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Nefrologia dziecięca,LEK,2,0.32326,ryzyko_zalamania_progu,82.205,77.258,68.995,87.425,64.991,84.435,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Neonatologia,LEK,15,0.243866,ryzyko_zalamania_progu,76.645,69.809,63.435,81.865,57.542,76.986,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Neonatologia,LEK,8,0.272078,ryzyko_zalamania_progu,77.624,72.728,64.414,82.844,60.461,79.905,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Neonatologia,LEK,11,0.276697,ryzyko_zalamania_progu,77.315,72.174,64.105,82.535,59.907,79.35,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Neonatologia,LEK,5,0.195316,ryzyko_zalamania_progu,75.457,70.943,62.247,80.677,58.676,78.119,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Neonatologia,LEK,3,0.623704,ryzyko_zalamania_progu,78.148,76.179,64.938,83.368,63.912,83.356,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Neonatologia,LEK,20,0.279034,ryzyko_zalamania_progu,77.548,70.814,64.338,82.768,58.547,77.991,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Neonatologia,LEK,18,0.604666,ryzyko_zalamania_progu,78.592,70.941,65.382,83.812,58.674,78.117,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Neonatologia,LEK,1,0.455656,ryzyko_zalamania_progu,80.166,79.473,66.956,85.386,67.206,86.65,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Neonatologia,LEK,4,0.617071,ryzyko_zalamania_progu,79.229,76.585,66.019,84.449,64.318,83.761,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Neonatologia,LEK,7,0.243055,ryzyko_zalamania_progu,76.987,72.47,63.777,82.207,60.203,79.647,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Neonatologia,LEK,10,0.403035,ryzyko_zalamania_progu,77.535,72.734,64.325,82.755,60.467,79.91,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Neonatologia,LEK,10,0.492947,ryzyko_zalamania_progu,78.476,72.788,65.266,83.696,60.521,79.964,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Neonatologia,LEK,6,0.27581,ryzyko_zalamania_progu,77.826,72.361,64.616,83.046,60.094,79.537,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Neonatologia,LEK,2,0.367868,ryzyko_zalamania_progu,79.1,76.146,65.89,84.32,63.879,83.322,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Neonatologia,LEK,20,0.216897,ryzyko_zalamania_progu,75.96,67.962,62.75,81.18,55.695,75.139,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Neonatologia,LEK,4,0.290486,ryzyko_zalamania_progu,78.676,75.532,65.466,83.896,63.264,82.708,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Neurochirurgia,LEK,1,0.985727,konkurencyjna,89.64,89.64,87.084,93.397,87.084,93.397,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Neurochirurgia,LEK,1,0.982703,konkurencyjna,90.45,90.45,87.894,94.207,87.894,94.207,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Neurochirurgia,LEK,1,0.988502,konkurencyjna,89.818,89.818,87.262,93.575,87.262,93.575,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Neurochirurgia,LEK,2,0.986143,konkurencyjna,90.264,90.264,87.708,94.021,87.708,94.021,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Neurochirurgia,LEK,1,0.997195,konkurencyjna,91.876,91.876,89.32,95.633,89.32,95.633,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Neurochirurgia,LEK,1,0.971873,konkurencyjna,89.022,89.022,86.466,92.779,86.466,92.779,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Neurochirurgia,LEK,2,0.937542,konkurencyjna,86.221,86.221,83.665,89.978,83.665,89.978,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Neurochirurgia,LEK,1,0.993505,konkurencyjna,90.094,90.094,87.538,93.851,87.538,93.851,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Neurochirurgia,LEK,2,0.987357,konkurencyjna,90.216,90.216,87.66,93.973,87.66,93.973,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Neurochirurgia,LEK,2,0.982661,konkurencyjna,89.466,89.466,86.91,93.223,86.91,93.223,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Neurochirurgia,LEK,3,0.901245,konkurencyjna,86.541,86.541,83.985,90.298,83.985,90.298,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Neurologia,LEK,5,0.99081,konkurencyjna,84.151,84.151,81.595,87.908,81.595,87.908,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Neurologia,LEK,20,0.854337,konkurencyjna,77.513,77.513,74.957,81.27,74.957,81.27,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Neurologia,LEK,30,0.831911,konkurencyjna,78.575,78.575,76.019,82.332,76.019,82.332,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Neurologia,LEK,7,0.773855,ryzyko_zalamania_progu,77.229,75.048,64.019,82.449,62.781,82.225,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Neurologia,LEK,26,0.960399,konkurencyjna,82.915,82.915,80.359,86.672,80.359,86.672,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Neurologia,LEK,31,0.90566,konkurencyjna,81.597,81.597,79.041,85.354,79.041,85.354,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Neurologia,LEK,25,0.994851,konkurencyjna,82.042,82.042,79.486,85.799,79.486,85.799,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Neurologia,LEK,20,0.694041,ryzyko_zalamania_progu,78.025,72.71,64.815,83.245,60.443,79.886,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Neurologia,LEK,26,0.897913,konkurencyjna,80.255,80.255,77.699,84.012,77.699,84.012,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Neurologia,LEK,4,0.954081,konkurencyjna,80.728,80.728,78.172,84.485,78.172,84.485,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Neurologia,LEK,16,0.977318,konkurencyjna,80.398,80.398,77.842,84.155,77.842,84.155,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Neurologia,LEK,20,0.974804,konkurencyjna,79.21,79.21,76.654,82.967,76.654,82.967,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Neurologia,LEK,11,0.913276,konkurencyjna,78.77,78.77,76.214,82.527,76.214,82.527,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Neurologia,LEK,15,0.784143,ryzyko_zalamania_progu,77.586,73.333,64.376,82.806,61.066,80.51,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Neurologia,LEK,19,0.982539,konkurencyjna,82.411,82.411,79.855,86.168,79.855,86.168,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Neurologia,LEK,10,0.88685,konkurencyjna,78.625,78.625,76.069,82.382,76.069,82.382,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Neurologia dziecięca,LEK,2,0.810926,konkurencyjna,86.288,86.288,83.732,90.045,83.732,90.045,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Neurologia dziecięca,LEK,1,0.964667,konkurencyjna,88.594,88.594,86.038,92.351,86.038,92.351,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Neurologia dziecięca,LEK,2,0.986853,konkurencyjna,89.678,89.678,87.122,93.435,87.122,93.435,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Neurologia dziecięca,LEK,3,0.710574,ryzyko_zalamania_progu,84.505,80.731,71.295,89.725,68.464,87.907,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Neurologia dziecięca,LEK,3,0.885631,konkurencyjna,84.615,84.615,82.059,88.372,82.059,88.372,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Neurologia dziecięca,LEK,3,0.880336,konkurencyjna,85.971,85.971,83.415,89.728,83.415,89.728,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Neurologia dziecięca,LEK,1,0.961858,konkurencyjna,89.816,89.816,87.26,93.573,87.26,93.573,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Neurologia dziecięca,LEK,1,0.730327,ryzyko_zalamania_progu,84.694,82.646,71.484,89.914,70.379,89.823,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Okulistyka,LEK,4,0.998747,konkurencyjna,92.783,92.783,90.227,96.54,90.227,96.54,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Okulistyka,LEK,6,0.99605,konkurencyjna,91.535,91.535,88.979,95.292,88.979,95.292,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Okulistyka,LEK,2,0.997935,konkurencyjna,92.173,92.173,89.617,95.93,89.617,95.93,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Okulistyka,LEK,3,0.992468,konkurencyjna,89.508,89.508,86.952,93.265,86.952,93.265,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Okulistyka,LEK,3,0.998541,konkurencyjna,92.31,92.31,89.754,96.067,89.754,96.067,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Okulistyka,LEK,5,0.996793,konkurencyjna,91.587,91.587,89.031,95.344,89.031,95.344,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Okulistyka,LEK,2,0.999143,konkurencyjna,91.175,91.175,88.619,94.932,88.619,94.932,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Okulistyka,LEK,5,0.988137,konkurencyjna,89.802,89.802,87.246,93.559,87.246,93.559,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Okulistyka,LEK,4,0.997184,konkurencyjna,91.147,91.147,88.591,94.904,88.591,94.904,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Okulistyka,LEK,2,0.995295,konkurencyjna,90.773,90.773,88.217,94.53,88.217,94.53,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Okulistyka,LEK,3,0.998554,konkurencyjna,90.855,90.855,88.299,94.612,88.299,94.612,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Okulistyka,LEK,10,0.996239,konkurencyjna,89.778,89.778,87.222,93.535,87.222,93.535,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Okulistyka,LEK,3,0.99198,konkurencyjna,89.375,89.375,86.819,93.132,86.819,93.132,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Okulistyka,LEK,7,0.98935,konkurencyjna,88.715,88.715,86.159,92.472,86.159,92.472,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Okulistyka,LEK,15,0.993536,konkurencyjna,91.847,91.847,89.291,95.604,89.291,95.604,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Okulistyka,LEK,8,0.985089,konkurencyjna,88.952,88.952,86.396,92.709,86.396,92.709,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Onkologia i hematologia dziecięca,LEK,2,0.324023,ryzyko_zalamania_progu,82.688,81.524,69.478,87.908,69.257,88.701,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Onkologia i hematologia dziecięca,LEK,1,0.452284,ryzyko_zalamania_progu,84.894,85.038,71.684,90.114,72.771,92.215,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Onkologia i hematologia dziecięca,LEK,6,0.586489,ryzyko_zalamania_progu,82.694,76.911,69.484,87.914,64.644,84.087,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Onkologia i hematologia dziecięca,LEK,2,0.249099,ryzyko_zalamania_progu,81.265,79.485,68.055,86.485,67.218,86.662,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Onkologia i hematologia dziecięca,LEK,1,0.280065,ryzyko_zalamania_progu,82.354,82.096,69.144,87.574,69.829,89.272,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Onkologia i hematologia dziecięca,LEK,2,0.422363,ryzyko_zalamania_progu,83.039,81.831,69.829,88.259,69.564,89.007,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Onkologia i hematologia dziecięca,LEK,1,0.410619,ryzyko_zalamania_progu,84.312,81.698,71.102,89.532,69.43,88.874,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Onkologia i hematologia dziecięca,LEK,2,0.340081,ryzyko_zalamania_progu,82.271,80.877,69.061,87.491,68.61,88.054,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Onkologia i hematologia dziecięca,LEK,2,0.178076,ryzyko_zalamania_progu,81.295,78.791,68.085,86.515,66.524,85.967,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Onkologia kliniczna,LEK,16,0.182644,ryzyko_zalamania_progu,80.7,71.039,67.49,85.92,58.772,78.216,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Onkologia kliniczna,LEK,3,0.28232,ryzyko_zalamania_progu,81.836,77.783,68.626,87.056,65.516,84.959,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Onkologia kliniczna,LEK,11,0.14765,ryzyko_zalamania_progu,81.409,74.225,68.199,86.629,61.958,81.402,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Onkologia kliniczna,LEK,2,0.200934,ryzyko_zalamania_progu,81.928,78.166,68.718,87.148,65.899,85.342,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Onkologia kliniczna,LEK,8,0.2135,ryzyko_zalamania_progu,82.757,76.118,69.547,87.977,63.851,83.295,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Onkologia kliniczna,LEK,28,0.172845,ryzyko_zalamania_progu,83.017,72.172,69.807,88.237,59.905,79.348,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Onkologia kliniczna,LEK,32,0.332228,ryzyko_zalamania_progu,82.584,70.19,69.374,87.804,57.923,77.367,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Onkologia kliniczna,LEK,4,0.144728,ryzyko_zalamania_progu,82.224,77.891,69.014,87.444,65.624,85.067,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Onkologia kliniczna,LEK,11,0.134607,ryzyko_zalamania_progu,79.358,70.846,66.148,84.578,58.579,78.023,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Onkologia kliniczna,LEK,2,0.255224,ryzyko_zalamania_progu,83.375,79.196,70.165,88.595,66.929,86.373,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Onkologia kliniczna,LEK,8,0.284148,ryzyko_zalamania_progu,83.603,77.806,70.393,88.823,65.539,84.982,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Onkologia kliniczna,LEK,10,0.214262,ryzyko_zalamania_progu,81.685,74.356,68.475,86.905,62.089,81.532,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Onkologia kliniczna,LEK,11,0.083643,ryzyko_zalamania_progu,79.866,70.516,66.656,85.086,58.249,77.693,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Onkologia kliniczna,LEK,6,0.131336,ryzyko_zalamania_progu,81.431,74.96,68.221,86.651,62.693,82.137,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Onkologia kliniczna,LEK,15,0.154487,ryzyko_zalamania_progu,81.05,72.507,67.84,86.27,60.24,79.684,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Onkologia kliniczna,LEK,10,0.078594,ryzyko_zalamania_progu,80.169,72.054,66.959,85.389,59.787,79.231,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Ortodoncja,LDEK,3,0.997427,konkurencyjna,90.572,90.572,88.016,94.329,88.016,94.329,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Ortodoncja,LDEK,3,0.993533,konkurencyjna,89.529,89.529,86.973,93.286,86.973,93.286,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Ortodoncja,LDEK,1,0.997314,konkurencyjna,92.082,92.082,89.526,95.839,89.526,95.839,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Ortodoncja,LDEK,5,0.998346,konkurencyjna,91.016,91.016,88.46,94.773,88.46,94.773,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Ortodoncja,LDEK,1,0.983126,konkurencyjna,88.482,88.482,85.926,92.239,85.926,92.239,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Ortodoncja,LDEK,1,0.991655,konkurencyjna,90.398,90.398,87.842,94.155,87.842,94.155,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Ortodoncja,LDEK,3,0.995475,konkurencyjna,89.997,89.997,87.441,93.754,87.441,93.754,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Ortodoncja,LDEK,3,0.997469,konkurencyjna,91.437,91.437,88.881,95.194,88.881,95.194,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Ortodoncja,LDEK,2,0.979213,konkurencyjna,87.099,87.099,84.543,90.856,84.543,90.856,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Ortodoncja,LDEK,3,0.995044,konkurencyjna,90.844,90.844,88.288,94.601,88.288,94.601,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Ortodoncja,LDEK,2,0.985919,konkurencyjna,88.139,88.139,85.583,91.896,85.583,91.896,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,LEK,8,0.994856,konkurencyjna,86.319,86.319,83.763,90.076,83.763,90.076,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Ortopedia i traumatologia narządu ruchu,LEK,4,0.993654,konkurencyjna,84.465,84.465,81.909,88.222,81.909,88.222,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Ortopedia i traumatologia narządu ruchu,LEK,10,0.987858,konkurencyjna,83.421,83.421,80.865,87.178,80.865,87.178,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Ortopedia i traumatologia narządu ruchu,LEK,6,0.970789,konkurencyjna,80.994,80.994,78.438,84.751,78.438,84.751,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Ortopedia i traumatologia narządu ruchu,LEK,10,0.992833,konkurencyjna,86.075,86.075,83.519,89.832,83.519,89.832,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Ortopedia i traumatologia narządu ruchu,LEK,15,0.992804,konkurencyjna,86.16,86.16,83.604,89.917,83.604,89.917,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Ortopedia i traumatologia narządu ruchu,LEK,10,0.998718,konkurencyjna,85.296,85.296,82.74,89.053,82.74,89.053,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Ortopedia i traumatologia narządu ruchu,LEK,14,0.951177,konkurencyjna,83.275,83.275,80.719,87.032,80.719,87.032,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Ortopedia i traumatologia narządu ruchu,LEK,12,0.984448,konkurencyjna,84.235,84.235,81.679,87.992,81.679,87.992,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Ortopedia i traumatologia narządu ruchu,LEK,5,0.990571,konkurencyjna,85.187,85.187,82.631,88.944,82.631,88.944,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Ortopedia i traumatologia narządu ruchu,LEK,6,0.997199,konkurencyjna,87.395,87.395,84.839,91.152,84.839,91.152,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Ortopedia i traumatologia narządu ruchu,LEK,20,0.995802,konkurencyjna,86.42,86.42,83.864,90.177,83.864,90.177,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Ortopedia i traumatologia narządu ruchu,LEK,15,0.947287,konkurencyjna,83.211,83.211,80.655,86.968,80.655,86.968,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Ortopedia i traumatologia narządu ruchu,LEK,10,0.944635,konkurencyjna,79.557,79.557,77.001,83.314,77.001,83.314,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Ortopedia i traumatologia narządu ruchu,LEK,16,0.993966,konkurencyjna,86.973,86.973,84.417,90.73,84.417,90.73,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Ortopedia i traumatologia narządu ruchu,LEK,12,0.944451,konkurencyjna,83.332,83.332,80.776,87.089,80.776,87.089,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Otorynolaryngologia,LEK,1,0.997344,konkurencyjna,92.277,92.277,89.721,96.034,89.721,96.034,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Otorynolaryngologia,LEK,6,0.98681,konkurencyjna,89.829,89.829,87.273,93.586,87.273,93.586,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Otorynolaryngologia,LEK,3,0.992349,konkurencyjna,89.905,89.905,87.349,93.662,87.349,93.662,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Otorynolaryngologia,LEK,2,0.99655,konkurencyjna,91.536,91.536,88.98,95.293,88.98,95.293,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Otorynolaryngologia,LEK,4,0.996434,konkurencyjna,91.662,91.662,89.106,95.419,89.106,95.419,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Otorynolaryngologia,LEK,12,0.996168,konkurencyjna,89.507,89.507,86.951,93.264,86.951,93.264,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Otorynolaryngologia,LEK,1,0.991043,konkurencyjna,90.687,90.687,88.131,94.444,88.131,94.444,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Otorynolaryngologia,LEK,4,0.984704,konkurencyjna,87.308,87.308,84.752,91.065,84.752,91.065,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Otorynolaryngologia,LEK,1,0.995578,konkurencyjna,91.924,91.924,89.368,95.681,89.368,95.681,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Otorynolaryngologia,LEK,3,0.996873,konkurencyjna,91.53,91.53,88.974,95.287,88.974,95.287,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Otorynolaryngologia,LEK,4,0.996438,konkurencyjna,90.99,90.99,88.434,94.747,88.434,94.747,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Otorynolaryngologia,LEK,1,0.995196,konkurencyjna,90.737,90.737,88.181,94.494,88.181,94.494,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Otorynolaryngologia,LEK,1,0.991417,konkurencyjna,88.732,88.732,86.176,92.489,86.176,92.489,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Otorynolaryngologia,LEK,4,0.993674,konkurencyjna,90.974,90.974,88.418,94.731,88.418,94.731,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Otorynolaryngologia,LEK,3,0.966723,konkurencyjna,86.951,86.951,84.395,90.708,84.395,90.708,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Otorynolaryngologia dziecięca,LEK,2,0.959739,konkurencyjna,85.736,85.736,83.18,89.493,83.18,89.493,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Otorynolaryngologia dziecięca,LEK,2,0.983162,konkurencyjna,87.787,87.787,85.231,91.544,85.231,91.544,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Otorynolaryngologia dziecięca,LEK,3,0.981436,konkurencyjna,86.756,86.756,84.2,90.513,84.2,90.513,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Otorynolaryngologia dziecięca,LEK,2,0.988163,konkurencyjna,89.001,89.001,86.445,92.758,86.445,92.758,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Otorynolaryngologia dziecięca,LEK,1,0.912847,konkurencyjna,85.075,85.075,82.519,88.832,82.519,88.832,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Patomorfologia,LEK,3,0.560384,ryzyko_zalamania_progu,80.79,79.07,67.58,86.01,66.803,86.247,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Patomorfologia,LEK,3,0.400622,ryzyko_zalamania_progu,80.518,78.818,67.308,85.738,66.551,85.994,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Patomorfologia,LEK,4,0.385043,ryzyko_zalamania_progu,78.906,76.593,65.696,84.126,64.326,83.77,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Patomorfologia,LEK,5,0.223842,ryzyko_zalamania_progu,77.585,74.864,64.375,82.805,62.597,82.041,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Patomorfologia,LEK,3,0.848975,konkurencyjna,85.145,85.145,82.589,88.902,82.589,88.902,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Patomorfologia,LEK,3,0.727841,ryzyko_zalamania_progu,82.772,81.851,69.562,87.992,69.584,89.027,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Patomorfologia,LEK,3,0.919562,konkurencyjna,86.087,86.087,83.531,89.844,83.531,89.844,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Patomorfologia,LEK,1,0.468513,ryzyko_zalamania_progu,81.714,83.182,68.504,86.934,70.915,90.358,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Patomorfologia,LEK,3,0.452394,ryzyko_zalamania_progu,79.485,78.958,66.275,84.705,66.691,86.134,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Patomorfologia,LEK,6,0.648084,ryzyko_zalamania_progu,80.958,78.811,67.748,86.178,66.544,85.988,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Patomorfologia,LEK,8,0.630477,ryzyko_zalamania_progu,80.581,76.104,67.371,85.801,63.837,83.28,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Patomorfologia,LEK,5,0.291655,ryzyko_zalamania_progu,79.39,76.098,66.18,84.61,63.831,83.275,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Patomorfologia,LEK,5,0.263163,ryzyko_zalamania_progu,77.988,75.117,64.778,83.208,62.85,82.294,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Patomorfologia,LEK,18,0.240238,ryzyko_zalamania_progu,78.699,71.413,65.489,83.919,59.146,78.589,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Patomorfologia,LEK,15,0.126516,ryzyko_zalamania_progu,75.283,68.747,62.073,80.503,56.48,75.924,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Pediatria,LEK,33,0.973803,konkurencyjna,81.606,81.606,79.05,85.363,79.05,85.363,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Pediatria,LEK,20,0.883083,konkurencyjna,78.067,78.067,75.511,81.824,75.511,81.824,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Pediatria,LEK,18,0.915838,konkurencyjna,80.485,80.485,77.929,84.242,77.929,84.242,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Pediatria,LEK,10,0.864886,konkurencyjna,80.156,80.156,77.6,83.913,77.6,83.913,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Pediatria,LEK,40,0.834309,konkurencyjna,81.813,81.813,79.257,85.57,79.257,85.57,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Pediatria,LEK,60,0.733097,ryzyko_zalamania_progu,83.986,71.704,70.776,89.206,59.437,78.881,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Pediatria,LEK,40,0.968495,konkurencyjna,83.163,83.163,80.607,86.92,80.607,86.92,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Pediatria,LEK,18,0.765658,ryzyko_zalamania_progu,81.127,75.311,67.917,86.347,63.044,82.487,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Pediatria,LEK,30,0.795221,ryzyko_zalamania_progu,79.048,69.149,65.838,84.268,56.882,76.325,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Pediatria,LEK,20,0.718989,ryzyko_zalamania_progu,79.8,71.481,66.59,85.02,59.214,78.657,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Pediatria,LEK,25,0.963831,konkurencyjna,81.879,81.879,79.323,85.636,79.323,85.636,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Pediatria,LEK,50,0.921439,konkurencyjna,82.96,82.96,80.404,86.717,80.404,86.717,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Pediatria,LEK,12,0.819407,konkurencyjna,81.088,81.088,78.532,84.845,78.532,84.845,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Pediatria,LEK,20,0.788094,ryzyko_zalamania_progu,78.232,69.897,65.022,83.452,57.63,77.074,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Pediatria,LEK,30,0.958144,konkurencyjna,85.201,85.201,82.645,88.958,82.645,88.958,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Pediatria,LEK,15,0.801398,konkurencyjna,78.988,78.988,76.432,82.745,76.432,82.745,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Pediatria metaboliczna,LEK,1,0.494528,ryzyko_zalamania_progu,85.031,78.869,71.821,90.251,66.602,86.046,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Pediatria metaboliczna,LEK,3,0.142848,ryzyko_zalamania_progu,78.628,68.456,65.418,83.848,56.189,75.632,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Pediatria metaboliczna,LEK,1,0.315591,ryzyko_zalamania_progu,85.766,80.705,72.556,90.986,68.438,87.882,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Pediatria metaboliczna,LEK,2,0.121038,ryzyko_zalamania_progu,83.054,75.483,69.844,88.274,63.216,82.66,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Periodontologia,LDEK,1,0.997058,konkurencyjna,88.673,88.673,86.117,92.43,86.117,92.43,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Periodontologia,LDEK,1,0.989695,konkurencyjna,86.071,86.071,83.515,89.828,83.515,89.828,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Periodontologia,LDEK,3,0.992226,konkurencyjna,85.442,85.442,82.886,89.199,82.886,89.199,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Periodontologia,LDEK,3,0.993371,konkurencyjna,87.14,87.14,84.584,90.897,84.584,90.897,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Periodontologia,LDEK,2,0.998099,konkurencyjna,88.058,88.058,85.502,91.815,85.502,91.815,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Periodontologia,LDEK,1,0.967502,konkurencyjna,84.868,84.868,82.312,88.625,82.312,88.625,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Periodontologia,LDEK,2,0.984696,konkurencyjna,85.209,85.209,82.653,88.966,82.653,88.966,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Periodontologia,LDEK,1,0.996317,konkurencyjna,87.515,87.515,84.959,91.272,84.959,91.272,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Periodontologia,LDEK,4,0.974415,konkurencyjna,83.775,83.775,81.219,87.532,81.219,87.532,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Periodontologia,LDEK,3,0.993163,konkurencyjna,87.618,87.618,85.062,91.375,85.062,91.375,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Położnictwo i ginekologia,LEK,18,0.991463,konkurencyjna,82.637,82.637,80.081,86.394,80.081,86.394,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Położnictwo i ginekologia,LEK,7,0.978251,konkurencyjna,81.928,81.928,79.372,85.685,79.372,85.685,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Położnictwo i ginekologia,LEK,19,0.987427,konkurencyjna,84.242,84.242,81.686,87.999,81.686,87.999,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Położnictwo i ginekologia,LEK,2,0.990439,konkurencyjna,83.937,83.937,81.381,87.694,81.381,87.694,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Położnictwo i ginekologia,LEK,15,0.993375,konkurencyjna,85.526,85.526,82.97,89.283,82.97,89.283,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Położnictwo i ginekologia,LEK,25,0.985934,konkurencyjna,83.575,83.575,81.019,87.332,81.019,87.332,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Położnictwo i ginekologia,LEK,35,0.999285,konkurencyjna,86.861,86.861,84.305,90.618,84.305,90.618,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Położnictwo i ginekologia,LEK,9,0.952511,konkurencyjna,82.588,82.588,80.032,86.345,80.032,86.345,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Położnictwo i ginekologia,LEK,16,0.96511,konkurencyjna,79.968,79.968,77.412,83.725,77.412,83.725,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Położnictwo i ginekologia,LEK,12,0.96002,konkurencyjna,83.295,83.295,80.739,87.052,80.739,87.052,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Położnictwo i ginekologia,LEK,12,0.996272,konkurencyjna,84.713,84.713,82.157,88.47,82.157,88.47,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Położnictwo i ginekologia,LEK,40,0.986119,konkurencyjna,86.359,86.359,83.803,90.116,83.803,90.116,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Położnictwo i ginekologia,LEK,7,0.975637,konkurencyjna,82.31,82.31,79.754,86.067,79.754,86.067,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Położnictwo i ginekologia,LEK,10,0.977504,konkurencyjna,82.907,82.907,80.351,86.664,80.351,86.664,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Położnictwo i ginekologia,LEK,31,0.981671,konkurencyjna,84.864,84.864,82.308,88.621,82.308,88.621,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Położnictwo i ginekologia,LEK,3,0.994082,konkurencyjna,84.768,84.768,82.212,88.525,82.212,88.525,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Protetyka stomatologiczna,LDEK,2,0.992971,konkurencyjna,87.034,87.034,84.478,90.791,84.478,90.791,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Protetyka stomatologiczna,LDEK,4,0.974145,konkurencyjna,84.586,84.586,82.03,88.343,82.03,88.343,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Protetyka stomatologiczna,LDEK,3,0.991009,konkurencyjna,86.171,86.171,83.615,89.928,83.615,89.928,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Protetyka stomatologiczna,LDEK,1,0.994323,konkurencyjna,88.012,88.012,85.456,91.769,85.456,91.769,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Protetyka stomatologiczna,LDEK,6,0.994938,konkurencyjna,84.996,84.996,82.44,88.753,82.44,88.753,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Protetyka stomatologiczna,LDEK,2,0.975843,konkurencyjna,83.559,83.559,81.003,87.316,81.003,87.316,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Protetyka stomatologiczna,LDEK,3,0.975868,konkurencyjna,84.243,84.243,81.687,88,81.687,88,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Protetyka stomatologiczna,LDEK,2,0.994038,konkurencyjna,86.662,86.662,84.106,90.419,84.106,90.419,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Protetyka stomatologiczna,LDEK,3,0.991157,konkurencyjna,86.296,86.296,83.74,90.053,83.74,90.053,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Protetyka stomatologiczna,LDEK,4,0.928903,konkurencyjna,83.164,83.164,80.608,86.921,80.608,86.921,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Protetyka stomatologiczna,LDEK,4,0.97518,konkurencyjna,83.551,83.551,80.995,87.308,80.995,87.308,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Protetyka stomatologiczna,LDEK,1,0.944253,konkurencyjna,82.774,82.774,80.218,86.531,80.218,86.531,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Psychiatria,LEK,20,0.988616,konkurencyjna,82.835,82.835,80.279,86.592,80.279,86.592,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Psychiatria,LEK,10,0.979895,konkurencyjna,81.583,81.583,79.027,85.34,79.027,85.34,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Psychiatria,LEK,6,0.987356,konkurencyjna,79.935,79.935,77.379,83.692,77.379,83.692,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Psychiatria,LEK,6,0.972975,konkurencyjna,80.82,80.82,78.264,84.577,78.264,84.577,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Psychiatria,LEK,21,0.990653,konkurencyjna,83.616,83.616,81.06,87.373,81.06,87.373,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Psychiatria,LEK,38,0.958456,konkurencyjna,84.304,84.304,81.748,88.061,81.748,88.061,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Psychiatria,LEK,53,0.997652,konkurencyjna,85.416,85.416,82.86,89.173,82.86,89.173,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Psychiatria,LEK,4,0.970271,konkurencyjna,80.802,80.802,78.246,84.559,78.246,84.559,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Psychiatria,LEK,20,0.892908,konkurencyjna,78.224,78.224,75.668,81.981,75.668,81.981,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Psychiatria,LEK,11,0.98331,konkurencyjna,82.801,82.801,80.245,86.558,80.245,86.558,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Psychiatria,LEK,12,0.992931,konkurencyjna,83.405,83.405,80.849,87.162,80.849,87.162,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Psychiatria,LEK,30,0.991224,konkurencyjna,85.06,85.06,82.504,88.817,82.504,88.817,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Psychiatria,LEK,5,0.967034,konkurencyjna,81.772,81.772,79.216,85.529,79.216,85.529,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Psychiatria,LEK,6,0.983072,konkurencyjna,81.519,81.519,78.963,85.276,78.963,85.276,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Psychiatria,LEK,18,0.994319,konkurencyjna,84.684,84.684,82.128,88.441,82.128,88.441,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Psychiatria,LEK,4,0.976469,konkurencyjna,79.055,79.055,76.499,82.812,76.499,82.812,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Psychiatria dzieci i młodzieży,LEK,9,0.98274,konkurencyjna,86.962,86.962,84.406,90.719,84.406,90.719,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Psychiatria dzieci i młodzieży,LEK,6,0.957929,konkurencyjna,84.424,84.424,81.868,88.181,81.868,88.181,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Psychiatria dzieci i młodzieży,LEK,1,0.996648,konkurencyjna,90.07,90.07,87.514,93.827,87.514,93.827,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Psychiatria dzieci i młodzieży,LEK,1,0.972603,konkurencyjna,85.848,85.848,83.292,89.605,83.292,89.605,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Psychiatria dzieci i młodzieży,LEK,5,0.992536,konkurencyjna,88.88,88.88,86.324,92.637,86.324,92.637,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Psychiatria dzieci i młodzieży,LEK,2,0.993919,konkurencyjna,88.526,88.526,85.97,92.283,85.97,92.283,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Psychiatria dzieci i młodzieży,LEK,1,0.978221,konkurencyjna,87.415,87.415,84.859,91.172,84.859,91.172,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Psychiatria dzieci i młodzieży,LEK,1,0.993002,konkurencyjna,88.663,88.663,86.107,92.42,86.107,92.42,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Psychiatria dzieci i młodzieży,LEK,2,0.985438,konkurencyjna,87.203,87.203,84.647,90.96,84.647,90.96,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Psychiatria dzieci i młodzieży,LEK,3,0.993024,konkurencyjna,87.797,87.797,85.241,91.554,85.241,91.554,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Psychiatria dzieci i młodzieży,LEK,1,0.997,konkurencyjna,89.829,89.829,87.273,93.586,87.273,93.586,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,LEK,4,0.970762,konkurencyjna,86.043,86.043,83.487,89.8,83.487,89.8,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Psychiatria dzieci i młodzieży,LEK,3,0.991279,konkurencyjna,88.203,88.203,85.647,91.96,85.647,91.96,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Psychiatria dzieci i młodzieży,LEK,1,0.993226,konkurencyjna,88.797,88.797,86.241,92.554,86.241,92.554,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Radiologia i diagnostyka obrazowa,LEK,12,0.995858,konkurencyjna,88.218,88.218,85.662,91.975,85.662,91.975,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Radiologia i diagnostyka obrazowa,LEK,25,0.984517,konkurencyjna,90.43,90.43,87.874,94.187,87.874,94.187,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Radiologia i diagnostyka obrazowa,LEK,14,0.994772,konkurencyjna,88.863,88.863,86.307,92.62,86.307,92.62,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Radiologia i diagnostyka obrazowa,LEK,3,0.996516,konkurencyjna,89.849,89.849,87.293,93.606,87.293,93.606,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Radiologia i diagnostyka obrazowa,LEK,7,0.998523,konkurencyjna,91.64,91.64,89.084,95.397,89.084,95.397,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Radiologia i diagnostyka obrazowa,LEK,8,0.998115,konkurencyjna,90.235,90.235,87.679,93.992,87.679,93.992,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Radiologia i diagnostyka obrazowa,LEK,7,0.998845,konkurencyjna,89.138,89.138,86.582,92.895,86.582,92.895,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Radiologia i diagnostyka obrazowa,LEK,5,0.997148,konkurencyjna,91.591,91.591,89.035,95.348,89.035,95.348,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Radiologia i diagnostyka obrazowa,LEK,9,0.997772,konkurencyjna,89.523,89.523,86.967,93.28,86.967,93.28,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Radiologia i diagnostyka obrazowa,LEK,6,0.997429,konkurencyjna,90.489,90.489,87.933,94.246,87.933,94.246,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Radiologia i diagnostyka obrazowa,LEK,8,0.998809,konkurencyjna,90.448,90.448,87.892,94.205,87.892,94.205,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Radiologia i diagnostyka obrazowa,LEK,20,0.996387,konkurencyjna,89.222,89.222,86.666,92.979,86.666,92.979,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Radiologia i diagnostyka obrazowa,LEK,8,0.993196,konkurencyjna,88.636,88.636,86.08,92.393,86.08,92.393,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,LEK,9,0.994056,konkurencyjna,88.323,88.323,85.767,92.08,85.767,92.08,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Radiologia i diagnostyka obrazowa,LEK,12,0.99713,konkurencyjna,88.967,88.967,86.411,92.724,86.411,92.724,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Radiologia i diagnostyka obrazowa,LEK,19,0.992291,konkurencyjna,90.819,90.819,88.263,94.576,88.263,94.576,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Radioterapia onkologiczna,LEK,6,0.37393,ryzyko_zalamania_progu,77.743,74.907,64.533,82.963,62.64,82.083,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Radioterapia onkologiczna,LEK,3,0.323192,ryzyko_zalamania_progu,79.278,77.482,66.068,84.498,65.215,84.658,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Radioterapia onkologiczna,LEK,17,0.138511,ryzyko_zalamania_progu,76.185,69.443,62.975,81.405,57.176,76.619,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Radioterapia onkologiczna,LEK,4,0.185859,ryzyko_zalamania_progu,77.096,74.749,63.886,82.316,62.482,81.926,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Radioterapia onkologiczna,LEK,6,0.404971,ryzyko_zalamania_progu,80.131,76.5,66.921,85.351,64.233,83.677,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Radioterapia onkologiczna,LEK,16,0.208017,ryzyko_zalamania_progu,76.679,70.848,63.469,81.899,58.581,78.025,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Radioterapia onkologiczna,LEK,10,0.692757,ryzyko_zalamania_progu,81.083,74.815,67.873,86.303,62.548,81.992,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Radioterapia onkologiczna,LEK,3,0.209398,ryzyko_zalamania_progu,78.33,77.062,65.12,83.55,64.795,84.239,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Radioterapia onkologiczna,LEK,8,0.18916,ryzyko_zalamania_progu,76.413,72.28,63.203,81.633,60.013,79.457,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Radioterapia onkologiczna,LEK,2,0.296073,ryzyko_zalamania_progu,78.775,77.97,65.565,83.995,65.703,85.147,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Radioterapia onkologiczna,LEK,1,0.802325,konkurencyjna,82.671,82.671,80.115,86.428,80.115,86.428,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Radioterapia onkologiczna,LEK,7,0.428188,ryzyko_zalamania_progu,77.364,73.118,64.154,82.584,60.851,80.294,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Radioterapia onkologiczna,LEK,3,0.285604,ryzyko_zalamania_progu,79.405,75.536,66.195,84.625,63.269,82.713,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Radioterapia onkologiczna,LEK,3,0.208001,ryzyko_zalamania_progu,76.887,73.681,63.677,82.107,61.414,80.857,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Radioterapia onkologiczna,LEK,3,0.443574,ryzyko_zalamania_progu,79.797,79.088,66.587,85.017,66.821,86.264,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Radioterapia onkologiczna,LEK,8,0.138732,ryzyko_zalamania_progu,76.357,71.313,63.147,81.577,59.046,78.49,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Rehabilitacja medyczna,LEK,4,0.758529,ryzyko_zalamania_progu,82.359,75.771,69.149,87.579,63.504,82.948,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Rehabilitacja medyczna,LEK,9,0.156567,ryzyko_zalamania_progu,76.583,67.55,63.373,81.803,55.283,74.726,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Rehabilitacja medyczna,LEK,7,0.285876,ryzyko_zalamania_progu,78.472,71.854,65.262,83.692,59.587,79.03,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Rehabilitacja medyczna,LEK,9,0.141051,ryzyko_zalamania_progu,76.086,68.077,62.876,81.306,55.81,75.254,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Rehabilitacja medyczna,LEK,12,0.210466,ryzyko_zalamania_progu,76.27,68.208,63.06,81.49,55.941,75.385,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Rehabilitacja medyczna,LEK,17,0.182626,ryzyko_zalamania_progu,79.186,69.081,65.976,84.406,56.814,76.258,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Rehabilitacja medyczna,LEK,8,0.669635,ryzyko_zalamania_progu,79.323,70.542,66.113,84.543,58.275,77.719,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Rehabilitacja medyczna,LEK,8,0.162939,ryzyko_zalamania_progu,78.092,71.513,64.882,83.312,59.246,78.69,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Rehabilitacja medyczna,LEK,10,0.166534,ryzyko_zalamania_progu,75.661,67.764,62.451,80.881,55.497,74.94,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Rehabilitacja medyczna,LEK,5,0.236443,ryzyko_zalamania_progu,77.912,71.453,64.702,83.132,59.186,78.629,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Rehabilitacja medyczna,LEK,9,0.377074,ryzyko_zalamania_progu,78.952,71.062,65.742,84.172,58.795,78.238,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Rehabilitacja medyczna,LEK,16,0.215459,ryzyko_zalamania_progu,77.758,68.686,64.548,82.978,56.419,75.863,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Rehabilitacja medyczna,LEK,5,0.161574,ryzyko_zalamania_progu,76.359,68.553,63.149,81.579,56.286,75.73,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Rehabilitacja medyczna,LEK,6,0.194691,ryzyko_zalamania_progu,76.419,69.009,63.209,81.639,56.742,76.185,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Rehabilitacja medyczna,LEK,13,0.200873,ryzyko_zalamania_progu,78.065,69.242,64.855,83.285,56.975,76.419,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Rehabilitacja medyczna,LEK,12,0.072876,ryzyko_zalamania_progu,75.943,67.089,62.733,81.163,54.822,74.265,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Reumatologia,LEK,1,0.995555,konkurencyjna,92.508,92.508,89.952,96.265,89.952,96.265,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Reumatologia,LEK,2,0.995883,konkurencyjna,92.559,92.559,90.003,96.316,90.003,96.316,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Reumatologia,LEK,4,0.996198,konkurencyjna,92.071,92.071,89.515,95.828,89.515,95.828,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Reumatologia,LEK,1,0.99863,konkurencyjna,95.245,95.245,92.689,99.002,92.689,99.002,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Reumatologia,LEK,6,0.997538,konkurencyjna,91.837,91.837,89.281,95.594,89.281,95.594,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Reumatologia,LEK,2,0.995567,konkurencyjna,92.12,92.12,89.564,95.877,89.564,95.877,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Reumatologia,LEK,6,0.991938,konkurencyjna,90.023,90.023,87.467,93.78,87.467,93.78,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Reumatologia,LEK,5,0.996946,konkurencyjna,93.301,93.301,90.745,97.058,90.745,97.058,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Reumatologia,LEK,2,0.993245,konkurencyjna,91.982,91.982,89.426,95.739,89.426,95.739,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Reumatologia,LEK,3,0.986996,konkurencyjna,90.098,90.098,87.542,93.855,87.542,93.855,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Reumatologia,LEK,2,0.996151,konkurencyjna,92.359,92.359,89.803,96.116,89.803,96.116,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Reumatologia,LEK,1,0.994413,konkurencyjna,93.147,93.147,90.591,96.904,90.591,96.904,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Stomatologia dziecięca,LDEK,4,0.984251,konkurencyjna,84.131,84.131,81.575,87.888,81.575,87.888,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Stomatologia dziecięca,LDEK,2,0.975296,konkurencyjna,83.743,83.743,81.187,87.5,81.187,87.5,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Stomatologia dziecięca,LDEK,3,0.970652,konkurencyjna,82.331,82.331,79.775,86.088,79.775,86.088,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Stomatologia dziecięca,LDEK,2,0.992468,konkurencyjna,84.858,84.858,82.302,88.615,82.302,88.615,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Stomatologia dziecięca,LDEK,1,0.994805,konkurencyjna,86.568,86.568,84.012,90.325,84.012,90.325,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Stomatologia dziecięca,LDEK,8,0.988482,konkurencyjna,83.14,83.14,80.584,86.897,80.584,86.897,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Stomatologia dziecięca,LDEK,1,0.98633,konkurencyjna,82.701,82.701,80.145,86.458,80.145,86.458,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Stomatologia dziecięca,LDEK,6,0.929213,konkurencyjna,81.489,81.489,78.933,85.246,78.933,85.246,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Stomatologia dziecięca,LDEK,4,0.982888,konkurencyjna,82.369,82.369,79.813,86.126,79.813,86.126,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Stomatologia dziecięca,LDEK,4,0.985008,konkurencyjna,83.449,83.449,80.893,87.206,80.893,87.206,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Stomatologia dziecięca,LDEK,2,0.938209,konkurencyjna,80.128,80.128,77.572,83.885,77.572,83.885,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Stomatologia dziecięca,LDEK,2,0.987927,konkurencyjna,83.605,83.605,81.049,87.362,81.049,87.362,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Stomatologia dziecięca,LDEK,2,0.951041,konkurencyjna,82.147,82.147,79.591,85.904,79.591,85.904,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Stomatologia zachowawcza z endodoncją,LDEK,9,0.984857,konkurencyjna,81.076,81.076,78.52,84.833,78.52,84.833,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Stomatologia zachowawcza z endodoncją,LDEK,5,0.972312,konkurencyjna,79.454,79.454,76.898,83.211,76.898,83.211,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Stomatologia zachowawcza z endodoncją,LDEK,4,0.972856,konkurencyjna,79.558,79.558,77.002,83.315,77.002,83.315,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Stomatologia zachowawcza z endodoncją,LDEK,2,0.992831,konkurencyjna,81.721,81.721,79.165,85.478,79.165,85.478,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Stomatologia zachowawcza z endodoncją,LDEK,9,0.976528,konkurencyjna,80.223,80.223,77.667,83.98,77.667,83.98,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Stomatologia zachowawcza z endodoncją,LDEK,9,0.989056,konkurencyjna,79.144,79.144,76.588,82.901,76.588,82.901,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Stomatologia zachowawcza z endodoncją,LDEK,1,0.982829,konkurencyjna,78.763,78.763,76.207,82.52,76.207,82.52,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Stomatologia zachowawcza z endodoncją,LDEK,9,0.864105,konkurencyjna,74.66,74.66,72.104,78.417,72.104,78.417,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Stomatologia zachowawcza z endodoncją,LDEK,2,0.989388,konkurencyjna,81.07,81.07,78.514,84.827,78.514,84.827,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Stomatologia zachowawcza z endodoncją,LDEK,6,0.958259,konkurencyjna,77.373,77.373,74.817,81.13,74.817,81.13,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Stomatologia zachowawcza z endodoncją,LDEK,2,0.953007,konkurencyjna,77.64,77.64,75.084,81.397,75.084,81.397,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Stomatologia zachowawcza z endodoncją,LDEK,7,0.972188,konkurencyjna,80.088,80.088,77.532,83.845,77.532,83.845,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Toksykologia kliniczna,LEK,3,0.291392,ryzyko_zalamania_progu,80.67,75.212,67.46,85.89,62.945,82.389,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Toksykologia kliniczna,LEK,5,0.166593,ryzyko_zalamania_progu,79.55,72.3,66.34,84.77,60.033,79.477,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Toksykologia kliniczna,LEK,1,0.481828,ryzyko_zalamania_progu,82.708,80.106,69.498,87.928,67.839,87.283,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Toksykologia kliniczna,LEK,3,0.370699,ryzyko_zalamania_progu,80.639,77.144,67.429,85.859,64.877,84.321,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Toksykologia kliniczna,LEK,1,0.544122,ryzyko_zalamania_progu,81.319,78.264,68.109,86.539,65.997,85.44,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Toksykologia kliniczna,LEK,2,0.322934,ryzyko_zalamania_progu,80.671,76.846,67.461,85.891,64.579,84.023,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Toksykologia kliniczna,LEK,2,0.279409,ryzyko_zalamania_progu,81.852,77.318,68.642,87.072,65.051,84.494,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Transfuzjologia kliniczna,LEK,2,0.2187,ryzyko_zalamania_progu,73.929,71.867,60.719,79.149,59.6,79.043,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Transfuzjologia kliniczna,LEK,2,0.132603,ryzyko_zalamania_progu,74.066,71.336,60.856,79.286,59.069,78.512,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Transfuzjologia kliniczna,LEK,1,0.219011,ryzyko_zalamania_progu,74.746,73.739,61.536,79.966,61.472,80.915,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Transfuzjologia kliniczna,LEK,1,0.120645,ryzyko_zalamania_progu,73.604,72.019,60.394,78.824,59.752,79.195,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Transfuzjologia kliniczna,LEK,3,0.302633,ryzyko_zalamania_progu,73.286,70.824,60.076,78.506,58.557,78.001,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Transfuzjologia kliniczna,LEK,2,0.087113,ryzyko_zalamania_progu,73.669,71.807,60.459,78.889,59.54,78.984,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Transfuzjologia kliniczna,LEK,3,0.114695,ryzyko_zalamania_progu,72.219,69.284,59.009,77.439,57.017,76.46,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Transfuzjologia kliniczna,LEK,4,0.070071,ryzyko_zalamania_progu,72.419,67.859,59.209,77.639,55.592,75.036,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Transfuzjologia kliniczna,LEK,4,0.196131,ryzyko_zalamania_progu,73.561,70.619,60.351,78.781,58.352,77.796,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Transfuzjologia kliniczna,LEK,1,0.345517,ryzyko_zalamania_progu,76.48,74.869,63.27,81.7,62.602,82.045,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Transfuzjologia kliniczna,LEK,2,0.094595,ryzyko_zalamania_progu,73.251,69.43,60.041,78.471,57.162,76.606,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Transfuzjologia kliniczna,LEK,5,0.103806,ryzyko_zalamania_progu,71.915,67.226,58.705,77.135,54.959,74.403,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Transfuzjologia kliniczna,LEK,2,0.100479,ryzyko_zalamania_progu,73.432,70.532,60.222,78.652,58.265,77.708,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Urologia,LEK,2,0.997177,konkurencyjna,91.665,91.665,89.109,95.422,89.109,95.422,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Urologia,LEK,5,0.989388,konkurencyjna,89.461,89.461,86.905,93.218,86.905,93.218,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Urologia,LEK,7,0.988706,konkurencyjna,89.074,89.074,86.518,92.831,86.518,92.831,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Urologia,LEK,4,0.986384,konkurencyjna,89.177,89.177,86.621,92.934,86.621,92.934,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Urologia,LEK,2,0.997796,konkurencyjna,92.576,92.576,90.02,96.333,90.02,96.333,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Urologia,LEK,4,0.995498,konkurencyjna,91.581,91.581,89.025,95.338,89.025,95.338,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Urologia,LEK,8,0.997734,konkurencyjna,91.409,91.409,88.853,95.166,88.853,95.166,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Urologia,LEK,6,0.989941,konkurencyjna,89.124,89.124,86.568,92.881,86.568,92.881,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Urologia,LEK,1,0.99503,konkurencyjna,91.092,91.092,88.536,94.849,88.536,94.849,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Urologia,LEK,3,0.996867,konkurencyjna,91.729,91.729,89.173,95.486,89.173,95.486,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Urologia,LEK,6,0.995982,konkurencyjna,90.719,90.719,88.163,94.476,88.163,94.476,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Urologia,LEK,2,0.991758,konkurencyjna,89.508,89.508,86.952,93.265,86.952,93.265,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Urologia,LEK,2,0.988762,konkurencyjna,88.904,88.904,86.348,92.661,86.348,92.661,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Urologia,LEK,5,0.993125,konkurencyjna,90.748,90.748,88.192,94.505,88.192,94.505,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Urologia,LEK,5,0.974144,konkurencyjna,88.443,88.443,85.887,92.2,85.887,92.2,shadow_do_oceny_po_publikacji_wynikow

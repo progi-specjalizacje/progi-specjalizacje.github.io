@@ -58,7 +58,10 @@ wyników wyszukiwarki, jeżeli oficjalna tabela lub dokument jest dostępny.
      czym uruchom `npm run prediction:download-places` i
      `python scripts/parse_cmkp_places.py` przy użyciu dostępnego interpretera;
    - sparsowane listy wynikowe w `source_data/<runda>_parsed.csv`, generowane
-     przez `cmkp_wyniki_parse/` zgodnie z instrukcjami tego podprojektu.
+     przez `cmkp_wyniki_parse/` zgodnie z instrukcjami tego podprojektu;
+   - przy zmianie pilotażu placówkowego: manifest, pobrane PDF-y, parser oraz
+     wersjonowaną klasyfikację miast zgodnie z sekcją „CMKP: pilotaż placówek i
+     geografia” w schemacie źródeł.
 2. Uruchom ponownie `npm run prediction:audit`.
 3. Po zmianie danych CEM lub wyników uruchom kolejno:
 

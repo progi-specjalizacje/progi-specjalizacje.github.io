@@ -9,6 +9,12 @@ const RANKING_DIR = path.join(ROOT, "source_data");
 const EXAM_FILE = path.join(ROOT, "prediction", "sources", "cem_lek_ldek_wyniki_2023w_2026j.csv");
 const EXAM_SD_FILE = path.join(ROOT, "prediction", "sources", "cem_exam_standard_deviation.csv");
 const PLACES_FILE = path.join(ROOT, "prediction", "data", "cmkp_places.csv");
+const FACILITY_GEOGRAPHY_FILE = path.join(
+  ROOT,
+  "prediction",
+  "data",
+  "cmkp_facility_geography_features.csv",
+);
 const OUTPUT_DIR = path.join(ROOT, "prediction", "data");
 const DATASET_FILE = path.join(OUTPUT_DIR, "recruitment_model_dataset.csv");
 const QUALITY_FILE = path.join(OUTPUT_DIR, "data_quality_report.json");
@@ -64,6 +70,15 @@ const OUTPUT_COLUMNS = [
   "oferowane_miejsca_rezydenckie",
   "wskaznik_wypelnienia",
   "status_konkurencyjnosci",
+  "pojemnosc_placowek_lacznie",
+  "pojemnosc_z_geografia",
+  "pokrycie_geografii",
+  "liczba_placowek_z_dodatnia_pojemnoscia",
+  "liczba_miast",
+  "udzial_pojemnosci_duze_miasta",
+  "udzial_pojemnosci_miasta_akademickie",
+  "udzial_pojemnosci_w_stolicy",
+  "srednia_odleglosc_od_stolicy_km",
 ];
 
 function parseCsvLine(line) {
@@ -244,6 +259,9 @@ const completedRecruitments = new Set(allRankingRows.map((row) => row.rekrutacja
 const examRows = readCsv(EXAM_FILE);
 const examSdRows = readCsv(EXAM_SD_FILE);
 const placesRows = readCsv(PLACES_FILE);
+const facilityGeographyRows = fs.existsSync(FACILITY_GEOGRAPHY_FILE)
+  ? readCsv(FACILITY_GEOGRAPHY_FILE)
+  : [];
 const examIndex = buildExamIndex(examRows, examSdRows);
 const placesIndex = new Map(
   placesRows.map((row) => [
@@ -251,6 +269,30 @@ const placesIndex = new Map(
     row,
   ]),
 );
+const facilityGeographyIndex = new Map(
+  facilityGeographyRows.map((row) => [
+    [row.rekrutacja, row.wojewodztwo, row.dziedzina_medycyny].join("::"),
+    row,
+  ]),
+);
+const geographyValues = (groupKey) => {
+  const source = facilityGeographyIndex.get(groupKey);
+  return {
+    pojemnosc_placowek_lacznie: numberOrNull(source?.pojemnosc_placowek_lacznie),
+    pojemnosc_z_geografia: numberOrNull(source?.pojemnosc_z_geografia),
+    pokrycie_geografii: numberOrNull(source?.pokrycie_geografii),
+    liczba_placowek_z_dodatnia_pojemnoscia: numberOrNull(
+      source?.liczba_placowek_z_dodatnia_pojemnoscia,
+    ),
+    liczba_miast: numberOrNull(source?.liczba_miast),
+    udzial_pojemnosci_duze_miasta: numberOrNull(source?.udzial_pojemnosci_duze_miasta),
+    udzial_pojemnosci_miasta_akademickie: numberOrNull(
+      source?.udzial_pojemnosci_miasta_akademickie,
+    ),
+    udzial_pojemnosci_w_stolicy: numberOrNull(source?.udzial_pojemnosci_w_stolicy),
+    srednia_odleglosc_od_stolicy_km: numberOrNull(source?.srednia_odleglosc_od_stolicy_km),
+  };
+};
 const groups = new Map();
 const excludedMixedCounts = new Map();
 
@@ -351,6 +393,7 @@ for (const rows of groups.values()) {
     oferowane_miejsca_rezydenckie: regularPlaces,
     wskaznik_wypelnienia: round(fillRate),
     status_konkurencyjnosci: competitionStatus,
+    ...geographyValues(groupKey),
   });
 }
 
@@ -415,6 +458,7 @@ for (const places of placesRows) {
     status_konkurencyjnosci: isCompleted
       ? "niepelna_pula_bez_zakwalifikowanych"
       : "wynik_niedostepny",
+    ...geographyValues(groupKey),
   });
 }
 
@@ -437,6 +481,9 @@ const qualityReport = {
     exam_file: path.relative(ROOT, EXAM_FILE).replaceAll("\\", "/"),
     exam_sd_file: path.relative(ROOT, EXAM_SD_FILE).replaceAll("\\", "/"),
     places_file: path.relative(ROOT, PLACES_FILE).replaceAll("\\", "/"),
+    facility_geography_file: fs.existsSync(FACILITY_GEOGRAPHY_FILE)
+      ? path.relative(ROOT, FACILITY_GEOGRAPHY_FILE).replaceAll("\\", "/")
+      : null,
   },
   filters: {
     tryb_szkolenia: "Rezydencki",
@@ -462,6 +509,9 @@ const qualityReport = {
     groups_with_previous_exam_sd: dataset.filter((row) => row.egzamin_poprzednie_sd_proc !== null).length,
     groups_with_current_sd_used: dataset.filter((row) => row.egzamin_sd_zrodlo === "biezaca_sesja").length,
     groups_with_previous_sd_fallback: dataset.filter((row) => row.egzamin_sd_zrodlo === "poprzednia_sesja").length,
+    groups_with_facility_geography: dataset.filter(
+      (row) => Number.isFinite(row.srednia_odleglosc_od_stolicy_km),
+    ).length,
     competition_statuses: Object.fromEntries(
       [...new Set(dataset.map((row) => row.status_konkurencyjnosci))]
         .sort()

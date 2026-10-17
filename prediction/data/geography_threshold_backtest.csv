@@ -1,0 +1,191 @@
+rekrutacja,wojewodztwo,dziedzina_medycyny,egzamin,historyczne_pelne_pule,scisly_stabilny_przed_runda,rzeczywisty_prog,udzial_pojemnosci_duze_miasta,udzial_pojemnosci_miasta_akademickie,srednia_odleglosc_od_stolicy_km,prognoza_bazowa_ten_sam_zbior,prognoza_duze_miasta,prognoza_miasta_akademickie,prognoza_odleglosc_od_stolicy,prognoza_z_geografia,blad_bazowy,blad_z_geografia
+j-2024,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,LEK,1,NIE,83.57,,,,80.533,80.527,80.631,80.873,80.853,3.037,2.717
+j-2024,Warmińsko-mazurskie,Chirurgia naczyniowa,LEK,1,NIE,77.29,,,,84.116,84.115,84.11,84.114,84.084,6.826,6.794
+j-2024,Dolnośląskie,Chirurgia stomatologiczna,LDEK,1,NIE,85.51,,,,86.66,86.674,86.492,86.181,86.365,1.15,0.855
+j-2024,Mazowieckie,Chirurgia stomatologiczna,LDEK,3,NIE,86.54,,,,89.471,89.471,89.481,88.915,88.635,2.931,2.095
+j-2024,Dolnośląskie,Choroby płuc,LEK,2,NIE,83.33,,,,84.18,84.182,84.184,84.198,84.249,0.85,0.919
+j-2024,Warmińsko-mazurskie,Choroby płuc,LEK,1,NIE,85.99,,,,81.314,81.312,81.284,81.276,81.19,4.676,4.8
+j-2024,Mazowieckie,Choroby płuc dzieci,LEK,2,NIE,89.22,,,,86.373,86.388,86.198,86.349,86.781,2.847,2.439
+j-2024,Dolnośląskie,Dermatologia i wenerologia,LEK,1,NIE,92.65,,,,89.516,89.512,89.592,89.708,89.688,3.134,2.962
+j-2024,Dolnośląskie,Diabetologia,LEK,2,NIE,90.73,,,,88.822,88.819,88.873,88.926,88.891,1.908,1.839
+j-2024,Warmińsko-mazurskie,Diabetologia,LEK,1,NIE,81.4,,,,83.616,83.614,83.688,83.809,83.832,2.216,2.432
+j-2024,Dolnośląskie,Endokrynologia,LEK,3,NIE,95.17,,,,93.643,93.641,93.695,93.725,93.711,1.527,1.459
+j-2024,Mazowieckie,Endokrynologia,LEK,2,NIE,92.75,,,,91.294,91.291,91.343,91.442,91.448,1.456,1.302
+j-2024,Warmińsko-mazurskie,Endokrynologia i diabetologia dziecięca,LEK,1,NIE,88.89,,,,87.138,87.139,87.182,87.269,87.35,1.752,1.54
+j-2024,Dolnośląskie,Gastroenterologia,LEK,1,NIE,90.93,,,,88.428,88.435,88.361,88.347,88.522,2.502,2.408
+j-2024,Mazowieckie,Gastroenterologia,LEK,3,NIE,92.03,,,,92.015,92.014,92.046,92.076,92.067,0.015,0.037
+j-2024,Dolnośląskie,Gastroenterologia dziecięca,LEK,2,NIE,81.88,,,,87.511,87.508,87.562,87.628,87.594,5.631,5.714
+j-2024,Mazowieckie,Medycyna sportowa,LEK,1,NIE,80.92,,,,82.379,82.378,82.392,82.367,82.326,1.459,1.406
+j-2024,Mazowieckie,Nefrologia,LEK,2,NIE,87.92,,,,82.169,82.173,82.126,82.055,82.118,5.751,5.802
+j-2024,Dolnośląskie,Nefrologia dziecięca,LEK,1,NIE,82.35,,,,84.823,84.818,84.9,85.032,84.978,2.473,2.628
+j-2024,Mazowieckie,Nefrologia dziecięca,LEK,1,NIE,77.94,,,,85.688,85.686,85.712,85.708,85.681,7.748,7.741
+j-2024,Warmińsko-mazurskie,Nefrologia dziecięca,LEK,1,NIE,84.31,,,,83.961,83.961,84.016,84.134,84.211,0.349,0.099
+j-2024,Mazowieckie,Neurochirurgia,LEK,2,NIE,90.82,,,,86.649,86.647,86.687,86.721,86.694,4.171,4.126
+j-2024,Dolnośląskie,Neurologia,LEK,1,NIE,87.92,,,,81.217,81.223,81.146,80.982,81.072,6.703,6.848
+j-2024,Mazowieckie,Neurologia,LEK,1,NIE,82.13,,,,80.794,80.793,80.805,80.805,80.782,1.336,1.348
+j-2024,Dolnośląskie,Neurologia dziecięca,LEK,1,NIE,86.47,,,,87.9,87.897,87.952,87.998,87.967,1.43,1.497
+j-2024,Mazowieckie,Neurologia dziecięca,LEK,2,NIE,85.61,,,,87.961,87.958,88.013,88.097,88.072,2.351,2.462
+j-2024,Dolnośląskie,Okulistyka,LEK,3,NIE,86.96,,,,89.985,89.986,89.983,90.052,90.14,3.025,3.18
+j-2024,Warmińsko-mazurskie,Okulistyka,LEK,2,NIE,86.76,,,,87.207,87.203,87.273,87.416,87.408,0.447,0.648
+j-2024,Dolnośląskie,Ortodoncja,LDEK,2,NIE,88.46,,,,89.279,89.276,89.321,89.416,89.403,0.819,0.943
+j-2024,Mazowieckie,Ortodoncja,LDEK,3,NIE,86.71,,,,89.493,89.496,89.474,89.585,89.701,2.783,2.991
+j-2024,Dolnośląskie,Otorynolaryngologia,LEK,2,NIE,89.22,,,,87.892,87.896,87.872,87.8,87.87,1.328,1.35
+j-2024,Mazowieckie,Otorynolaryngologia,LEK,2,NIE,90.1,,,,88.745,88.756,88.692,88.64,88.937,1.355,1.163
+j-2024,Warmińsko-mazurskie,Otorynolaryngologia,LEK,3,NIE,85.51,,,,88.68,88.677,88.648,88.591,88.437,3.17,2.927
+j-2024,Dolnośląskie,Pediatria,LEK,2,NIE,83.33,,,,80.522,80.521,80.539,80.582,80.589,2.808,2.741
+j-2024,Dolnośląskie,Periodontologia,LDEK,1,NIE,84.95,,,,84.793,84.79,84.829,84.936,84.928,0.157,0.022
+j-2024,Mazowieckie,Położnictwo i ginekologia,LEK,2,NIE,87.92,,,,86.716,86.718,86.713,86.617,86.631,1.204,1.289
+j-2024,Dolnośląskie,Protetyka stomatologiczna,LDEK,2,NIE,79.9,,,,85.245,85.246,85.236,85.357,85.45,5.345,5.55
+j-2024,Mazowieckie,Protetyka stomatologiczna,LDEK,3,NIE,82.86,,,,87.196,87.194,87.227,87.303,87.292,4.336,4.432
+j-2024,Dolnośląskie,Psychiatria dzieci i młodzieży,LEK,2,NIE,87.25,,,,87.451,87.461,87.337,87.081,87.211,0.201,0.039
+j-2024,Mazowieckie,Reumatologia,LEK,1,NIE,91.67,,,,89.544,89.544,89.556,89.016,88.774,2.126,2.896
+j-2024,Warmińsko-mazurskie,Reumatologia,LEK,1,NIE,88.73,,,,86.455,86.453,86.541,86.69,86.731,2.275,1.999
+j-2024,Dolnośląskie,Stomatologia dziecięca,LDEK,2,NIE,84.86,,,,83.557,83.571,83.392,83.364,83.671,1.303,1.189
+j-2024,Dolnośląskie,Stomatologia zachowawcza z endodoncją,LDEK,2,NIE,82.69,,,,80.715,80.719,80.658,80.761,80.908,1.975,1.782
+j-2024,Dolnośląskie,Urologia,LEK,3,NIE,90.73,,,,89.589,89.594,89.54,89.555,89.701,1.141,1.029
+j-2024,Warmińsko-mazurskie,Urologia,LEK,1,NIE,86.23,,,,85.442,85.439,85.308,85.116,84.879,0.788,1.351
+w-2025,Warmińsko-mazurskie,Alergologia,LEK,1,NIE,89.71,,,,83.546,83.487,83.457,83.546,83.57,6.164,6.14
+w-2025,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,LEK,2,NIE,71.9,,,,83.35,83.077,83.307,83.35,83.034,11.45,11.134
+w-2025,Dolnośląskie,Audiologia i foniatria,LEK,2,NIE,89.05,,,,81.793,81.578,81.686,81.794,81.595,7.257,7.455
+w-2025,Mazowieckie,Chirurgia dziecięca,LEK,1,NIE,89.86,,,,83.105,83.577,83.032,83.105,83.436,6.755,6.424
+w-2025,Mazowieckie,Chirurgia naczyniowa,LEK,1,NIE,89.27,,,,83.165,82.981,83.055,83.164,82.667,6.105,6.603
+w-2025,Dolnośląskie,Chirurgia plastyczna,LEK,1,NIE,90.24,,,,88.406,88.795,88.593,88.406,88.7,1.834,1.54
+w-2025,Mazowieckie,Chirurgia stomatologiczna,LDEK,4,NIE,86.19,,,,87.3,87.058,87.183,87.3,87.078,1.11,0.888
+w-2025,Warmińsko-mazurskie,Chirurgia stomatologiczna,LDEK,4,NIE,84.06,,,,86.649,86.51,86.52,86.65,86.659,2.589,2.599
+w-2025,Mazowieckie,Choroby płuc,LEK,1,NIE,88.89,,,,84.265,84.232,84.238,84.266,84.34,4.625,4.55
+w-2025,Warmińsko-mazurskie,Choroby płuc,LEK,2,NIE,66.67,,,,82.821,82.725,83.001,82.82,82.435,16.151,15.765
+w-2025,Dolnośląskie,Choroby zakaźne,LEK,1,NIE,80.95,,,,82.95,82.715,82.825,82.95,82.766,2,1.816
+w-2025,Dolnośląskie,Dermatologia i wenerologia,LEK,2,NIE,92.75,,,,90.729,90.521,90.611,90.73,90.603,2.021,2.147
+w-2025,Mazowieckie,Diabetologia,LEK,2,NIE,86.96,,,,86.375,86.38,86.377,86.375,86.492,0.585,0.468
+w-2025,Warmińsko-mazurskie,Diabetologia,LEK,2,NIE,84.52,,,,83.699,83.598,83.587,83.699,83.692,0.821,0.828
+w-2025,Mazowieckie,Endokrynologia,LEK,3,NIE,92.2,,,,92.19,92.056,92.107,92.191,92.146,0.01,0.054
+w-2025,Mazowieckie,Gastroenterologia,LEK,4,NIE,91.18,,,,91.733,91.605,91.658,91.734,91.631,0.553,0.451
+w-2025,Dolnośląskie,Kardiologia,LEK,2,NIE,88.54,,,,88.486,88.77,88.63,88.485,88.67,0.054,0.13
+w-2025,Mazowieckie,Kardiologia,LEK,3,NIE,87.01,,,,93.282,92.984,93.124,93.283,93.088,6.272,6.078
+w-2025,Mazowieckie,Medycyna pracy,LEK,1,NIE,56.19,,,,81.413,81.299,81.522,81.413,81.054,25.223,24.864
+w-2025,Dolnośląskie,Okulistyka,LEK,4,NIE,86.67,,,,92.41,92.616,92.51,92.41,92.698,5.74,6.028
+w-2025,Warmińsko-mazurskie,Okulistyka,LEK,3,NIE,86.96,,,,88.07,87.961,87.948,88.07,88.098,1.11,1.138
+w-2025,Mazowieckie,Onkologia i hematologia dziecięca,LEK,1,NIE,80,,,,82.397,82.32,82.355,82.397,82.292,2.397,2.292
+w-2025,Dolnośląskie,Ortodoncja,LDEK,3,NIE,89.05,,,,88.421,88.261,88.344,88.421,88.295,0.629,0.755
+w-2025,Mazowieckie,Ortodoncja,LDEK,4,NIE,90,,,,91.65,91.515,91.582,91.65,91.565,1.65,1.565
+w-2025,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,LEK,1,NIE,62.8,,,,80.306,80.197,80.252,80.306,80.193,17.506,17.393
+w-2025,Mazowieckie,Otorynolaryngologia,LEK,3,NIE,87.99,,,,88.348,88.496,88.371,88.348,88.545,0.358,0.555
+w-2025,Mazowieckie,Otorynolaryngologia dziecięca,LEK,3,NIE,87.14,,,,86.934,87.426,87.166,86.934,87.677,0.206,0.537
+w-2025,Mazowieckie,Patomorfologia,LEK,1,NIE,65.24,,,,76.241,75.843,76.086,76.241,75.826,11.001,10.586
+w-2025,Dolnośląskie,Periodontologia,LDEK,2,NIE,83.65,,,,84.826,84.626,84.733,84.827,84.684,1.176,1.034
+w-2025,Mazowieckie,Położnictwo i ginekologia,LEK,3,NIE,79.41,,,,88.852,88.856,88.843,88.852,88.848,9.442,9.438
+w-2025,Dolnośląskie,Protetyka stomatologiczna,LDEK,3,NIE,82.38,,,,85.264,85.028,85.151,85.265,85.053,2.884,2.673
+w-2025,Warmińsko-mazurskie,Protetyka stomatologiczna,LDEK,1,NIE,75.12,,,,77.526,77.642,77.534,77.526,77.411,2.406,2.291
+w-2025,Warmińsko-mazurskie,Psychiatria,LEK,1,NIE,79.51,,,,82.44,82.797,82.557,82.439,82.77,2.93,3.26
+w-2025,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,LEK,3,NIE,84.63,,,,88.016,88.497,88.176,88.016,88.607,3.386,3.977
+w-2025,Mazowieckie,Radioterapia onkologiczna,LEK,1,NIE,67.65,,,,80.947,80.987,80.96,80.946,80.87,13.297,13.22
+w-2025,Dolnośląskie,Reumatologia,LEK,3,NIE,89.86,,,,91.536,91.724,91.616,91.536,91.817,1.676,1.957
+w-2025,Mazowieckie,Stomatologia dziecięca,LDEK,1,NIE,83.17,,,,82.626,82.471,82.554,82.626,82.498,0.544,0.672
+w-2025,Warmińsko-mazurskie,Stomatologia dziecięca,LDEK,1,NIE,72.6,,,,76.354,76.422,76.336,76.353,76.19,3.754,3.59
+w-2025,Dolnośląskie,Urologia,LEK,4,NIE,93.14,,,,90.867,91.231,91.027,90.867,91.274,2.273,1.866
+w-2025,Mazowieckie,Urologia,LEK,3,NIE,87.8,,,,89.127,89.154,89.127,89.128,89.268,1.327,1.468
+w-2025,Warmińsko-mazurskie,Urologia,LEK,2,NIE,85.02,,,,84.775,84.623,84.624,84.776,84.771,0.245,0.249
+j-2025,Dolnośląskie,Alergologia,LEK,1,NIE,90.34,,,,88.306,87.954,88.348,88.372,88.086,2.034,2.254
+j-2025,Mazowieckie,Alergologia,LEK,3,NIE,88.89,,,,89.508,89.334,89.533,89.537,89.451,0.618,0.561
+j-2025,Dolnośląskie,Chirurgia dziecięca,LEK,1,NIE,84.29,,,,82.14,81.876,82.162,82.153,81.764,2.15,2.526
+j-2025,Mazowieckie,Chirurgia dziecięca,LEK,2,NIE,84.93,,,,84.357,84.231,84.374,84.384,84.322,0.573,0.608
+j-2025,Dolnośląskie,Chirurgia naczyniowa,LEK,1,NIE,87.08,,,,83.395,82.989,83.446,83.463,83.151,3.685,3.929
+j-2025,Mazowieckie,Chirurgia naczyniowa,LEK,2,NIE,86.6,,,,85.557,85.629,85.588,85.567,86.185,1.043,0.415
+j-2025,Warmińsko-mazurskie,Chirurgia naczyniowa,LEK,2,NIE,85.48,,,,82.18,82.024,82.152,82.15,81.331,3.3,4.149
+j-2025,Dolnośląskie,Chirurgia plastyczna,LEK,2,NIE,94.12,,,,92.122,92.464,92.076,92.058,92.265,1.998,1.855
+j-2025,Dolnośląskie,Chirurgia stomatologiczna,LDEK,2,NIE,87.98,,,,87.632,88.455,87.512,87.484,87.867,0.348,0.113
+j-2025,Warmińsko-mazurskie,Chirurgia stomatologiczna,LDEK,5,NIE,82.62,,,,85.482,85.142,85.525,85.531,85.274,2.862,2.654
+j-2025,Warmińsko-mazurskie,Choroby płuc,LEK,3,NIE,87.56,,,,80.222,79.799,80.312,80.296,80.483,7.338,7.077
+j-2025,Dolnośląskie,Choroby płuc dzieci,LEK,1,NIE,87.44,,,,87.416,87.851,87.357,87.31,87.545,0.024,0.105
+j-2025,Mazowieckie,Choroby płuc dzieci,LEK,3,NIE,87.44,,,,90.262,91.286,90.132,90.261,91.202,2.822,3.762
+j-2025,Dolnośląskie,Dermatologia i wenerologia,LEK,3,NIE,92.82,,,,93.357,92.956,93.418,93.417,93.239,0.537,0.419
+j-2025,Mazowieckie,Dermatologia i wenerologia,LEK,1,NIE,93.17,,,,89.826,89.626,89.861,89.85,89.831,3.344,3.339
+j-2025,Dolnośląskie,Diabetologia,LEK,3,NIE,87.44,,,,88.944,89.73,88.838,88.841,89.366,1.504,1.926
+j-2025,Warmińsko-mazurskie,Diabetologia,LEK,3,NIE,88.76,,,,85.191,85.097,85.125,85.105,83.873,3.569,4.887
+j-2025,Dolnośląskie,Endokrynologia,LEK,5,NIE,95.22,,,,96.516,96.195,96.566,96.544,96.402,1.296,1.182
+j-2025,Mazowieckie,Endokrynologia,LEK,4,NIE,93.06,,,,94.008,93.803,94.045,94.04,94.046,0.948,0.986
+j-2025,Mazowieckie,Endokrynologia i diabetologia dziecięca,LEK,2,NIE,93.24,,,,90.656,90.577,90.668,90.68,90.655,2.584,2.585
+j-2025,Mazowieckie,Farmakologia kliniczna,LEK,1,NIE,87.32,,,,85.98,85.898,85.993,86.005,85.992,1.34,1.328
+j-2025,Dolnośląskie,Gastroenterologia,LEK,2,NIE,91.39,,,,90.863,90.777,90.875,90.905,90.88,0.527,0.51
+j-2025,Mazowieckie,Gastroenterologia dziecięca,LEK,2,NIE,87.56,,,,88.305,88.252,88.317,88.306,88.332,0.745,0.772
+j-2025,Dolnośląskie,Genetyka kliniczna,LEK,2,NIE,85.51,,,,85.918,85.487,85.974,85.981,85.676,0.408,0.166
+j-2025,Mazowieckie,Kardiochirurgia,LEK,1,NIE,87.68,,,,77.641,77.375,77.674,77.601,77.306,10.039,10.374
+j-2025,Dolnośląskie,Kardiologia,LEK,3,NIE,89,,,,86.695,86.666,86.699,86.703,86.688,2.305,2.312
+j-2025,Dolnośląskie,Medycyna nuklearna,LEK,1,NIE,88.52,,,,84.171,83.844,84.214,84.226,84.008,4.349,4.512
+j-2025,Dolnośląskie,Medycyna pracy,LEK,1,NIE,91.18,,,,80.635,80.281,80.691,80.712,80.616,10.545,10.564
+j-2025,Mazowieckie,Nefrologia dziecięca,LEK,2,NIE,72.38,,,,85.171,84.924,85.2,85.188,84.957,12.791,12.577
+j-2025,Dolnośląskie,Neurochirurgia,LEK,1,NIE,91.3,,,,85.715,85.317,85.769,85.768,85.503,5.585,5.797
+j-2025,Mazowieckie,Neurochirurgia,LEK,3,NIE,90.34,,,,89.403,89.299,89.427,89.423,89.499,0.937,0.841
+j-2025,Warmińsko-mazurskie,Neurochirurgia,LEK,2,NIE,88.52,,,,82.41,82.217,82.42,82.424,82.066,6.11,6.454
+j-2025,Dolnośląskie,Neurologia dziecięca,LEK,2,NIE,87.08,,,,85.646,85.201,85.704,85.691,85.347,1.434,1.733
+j-2025,Mazowieckie,Neurologia dziecięca,LEK,3,NIE,90.43,,,,87.753,87.593,87.776,87.772,87.694,2.677,2.736
+j-2025,Dolnośląskie,Okulistyka,LEK,5,TAK,89.23,,,,90.929,91.483,90.852,90.827,91.134,1.699,1.904
+j-2025,Mazowieckie,Okulistyka,LEK,1,NIE,91.18,,,,87.918,87.836,87.946,87.939,88.124,3.262,3.056
+j-2025,Warmińsko-mazurskie,Onkologia i hematologia dziecięca,LEK,1,NIE,90.1,,,,80.945,80.918,80.987,81.002,81.559,9.155,8.541
+j-2025,Dolnośląskie,Ortodoncja,LDEK,4,NIE,87.98,,,,89.051,88.739,89.089,89.103,88.858,1.071,0.878
+j-2025,Mazowieckie,Ortodoncja,LDEK,5,TAK,87.14,,,,90.109,89.881,90.142,90.133,90.01,2.969,2.87
+j-2025,Warmińsko-mazurskie,Ortodoncja,LDEK,1,NIE,88.94,,,,84.364,85.285,84.272,84.237,85.281,4.576,3.659
+j-2025,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,LEK,2,NIE,87.44,,,,76.938,77.143,76.895,76.874,76.772,10.502,10.668
+j-2025,Dolnośląskie,Otorynolaryngologia,LEK,4,TAK,89.23,,,,91.531,92.233,91.444,91.404,91.935,2.301,2.705
+j-2025,Mazowieckie,Otorynolaryngologia dziecięca,LEK,4,NIE,91.87,,,,88.896,90.001,88.756,88.879,89.867,2.974,2.003
+j-2025,Mazowieckie,Patomorfologia,LEK,2,NIE,83.33,,,,73.573,73.214,73.591,73.528,72.784,9.757,10.546
+j-2025,Dolnośląskie,Periodontologia,LDEK,3,NIE,84.62,,,,85.776,85.955,85.746,85.815,85.919,1.156,1.299
+j-2025,Mazowieckie,Periodontologia,LDEK,2,NIE,86.67,,,,86.441,86.357,86.45,86.475,86.422,0.229,0.248
+j-2025,Mazowieckie,Położnictwo i ginekologia,LEK,4,NIE,87.8,,,,87.422,87.181,87.473,87.419,87.465,0.378,0.335
+j-2025,Warmińsko-mazurskie,Położnictwo i ginekologia,LEK,1,NIE,85.99,,,,78.616,78.585,78.599,78.62,78.304,7.374,7.686
+j-2025,Dolnośląskie,Protetyka stomatologiczna,LDEK,4,NIE,85.75,,,,86.643,86.922,86.6,86.651,86.815,0.893,1.065
+j-2025,Warmińsko-mazurskie,Psychiatria,LEK,2,NIE,79.51,,,,78.493,78.862,78.479,78.482,79.257,1.017,0.253
+j-2025,Mazowieckie,Psychiatria dzieci i młodzieży,LEK,3,NIE,87.08,,,,85.768,85.619,85.786,85.86,85.82,1.312,1.26
+j-2025,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,LEK,2,NIE,89.47,,,,84.854,84.657,84.919,84.904,85.321,4.616,4.149
+j-2025,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,LEK,4,NIE,87.56,,,,86.112,85.99,86.026,86.01,84.414,1.448,3.146
+j-2025,Mazowieckie,Reumatologia,LEK,2,NIE,92.34,,,,89.557,89.222,89.589,89.552,89.102,2.783,3.238
+j-2025,Warmińsko-mazurskie,Reumatologia,LEK,2,NIE,91.71,,,,87.935,87.83,87.947,87.948,87.84,3.775,3.87
+j-2025,Dolnośląskie,Stomatologia zachowawcza z endodoncją,LDEK,3,NIE,81.34,,,,82.921,83.858,82.793,82.911,83.628,1.581,2.288
+j-2025,Mazowieckie,Urologia,LEK,4,NIE,90.82,,,,89.369,89.054,89.419,89.419,89.324,1.451,1.496
+j-2025,Warmińsko-mazurskie,Urologia,LEK,3,NIE,87.8,,,,86.851,86.598,86.925,86.923,87.346,0.949,0.454
+w-2026,Mazowieckie,Anestezjologia i intensywna terapia,LEK,1,NIE,85.17,,,,82.692,82.9,82.593,82.601,82.978,2.478,2.192
+w-2026,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,LEK,3,NIE,81.9,,,,80.311,80.376,80.196,80.307,79.984,1.589,1.916
+w-2026,Dolnośląskie,Chirurgia dziecięca,LEK,2,NIE,80.19,,,,84.617,84.705,84.528,84.571,84.49,4.427,4.3
+w-2026,Mazowieckie,Chirurgia dziecięca,LEK,3,NIE,80.77,,,,85.318,85.311,85.31,85.419,85.311,4.548,4.541
+w-2026,Mazowieckie,Chirurgia naczyniowa,LEK,3,NIE,77.88,,,,85.917,86.13,85.909,85.613,86.551,8.037,8.671
+w-2026,Warmińsko-mazurskie,Chirurgia naczyniowa,LEK,3,NIE,70.81,,,,83.124,83.053,82.822,82.885,81.142,12.314,10.332
+w-2026,Dolnośląskie,Chirurgia stomatologiczna,LDEK,3,NIE,82.78,,,,84.45,84.671,84.274,84.425,84.446,1.67,1.666
+w-2026,Mazowieckie,Chirurgia stomatologiczna,LDEK,5,NIE,86.12,,,,87.253,87.013,87.411,87.181,87.023,1.133,0.903
+w-2026,Dolnośląskie,Choroby płuc,LEK,3,NIE,77.4,,,,81.564,81.545,81.593,81.545,81.621,4.164,4.221
+w-2026,Mazowieckie,Choroby płuc,LEK,2,NIE,85.89,,,,83.157,83.241,83.076,83.172,83.099,2.733,2.791
+w-2026,Dolnośląskie,Dermatologia i wenerologia,LEK,4,NIE,92.75,,,,92.077,91.801,92.277,92.207,92.053,0.673,0.697
+w-2026,Mazowieckie,Dermatologia i wenerologia,LEK,2,NIE,92.82,,,,89.987,89.822,90.113,89.995,89.96,2.833,2.86
+w-2026,Mazowieckie,Diabetologia,LEK,3,NIE,89.86,,,,86.821,86.815,86.83,86.905,86.895,3.039,2.965
+w-2026,Warmińsko-mazurskie,Diabetologia,LEK,4,NIE,85.02,,,,85.207,85.092,85.162,85.131,84.451,0.187,0.569
+w-2026,Mazowieckie,Endokrynologia,LEK,5,TAK,92.75,,,,93.982,93.879,94.078,94.034,94.079,1.232,1.329
+w-2026,Mazowieckie,Endokrynologia i diabetologia dziecięca,LEK,3,NIE,86.3,,,,89.072,88.974,89.149,89.121,89.092,2.772,2.792
+w-2026,Mazowieckie,Gastroenterologia,LEK,6,NIE,92.82,,,,92.212,92.048,92.347,92.238,92.246,0.608,0.574
+w-2026,Dolnośląskie,Kardiochirurgia,LEK,1,NIE,82.86,,,,81.997,81.82,82.104,82.091,81.873,0.863,0.987
+w-2026,Mazowieckie,Medycyna paliatywna,LEK,1,NIE,78.95,,,,80.026,79.884,80.09,80.106,79.822,1.076,0.872
+w-2026,Mazowieckie,Medycyna sportowa,LEK,2,NIE,80.68,,,,82.731,82.621,82.808,82.788,82.712,2.051,2.032
+w-2026,Mazowieckie,Neurochirurgia,LEK,4,NIE,89.37,,,,87.976,87.838,88.094,88.028,88.048,1.394,1.322
+w-2026,Dolnośląskie,Neurologia,LEK,2,NIE,56.86,,,,76.299,76.074,76.441,76.169,76.019,19.439,19.159
+w-2026,Mazowieckie,Neurologia dziecięca,LEK,4,NIE,89.13,,,,87.087,87.006,87.159,87.115,87.135,2.043,1.995
+w-2026,Dolnośląskie,Okulistyka,LEK,6,TAK,87.56,,,,90.295,90.215,90.347,90.318,90.249,2.735,2.689
+w-2026,Warmińsko-mazurskie,Okulistyka,LEK,4,NIE,87.92,,,,85.982,85.791,86.049,86.035,85.574,1.938,2.346
+w-2026,Dolnośląskie,Ortodoncja,LDEK,5,TAK,86.36,,,,88.112,87.744,88.348,88.271,87.904,1.752,1.544
+w-2026,Mazowieckie,Ortodoncja,LDEK,6,TAK,87.08,,,,89.386,89.141,89.553,89.453,89.27,2.306,2.19
+w-2026,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,LEK,3,NIE,85.65,,,,80.212,80.443,80.071,80.091,80.366,5.438,5.284
+w-2026,Mazowieckie,Ortopedia i traumatologia narządu ruchu,LEK,1,NIE,84.29,,,,77.978,78.107,77.851,78.036,77.896,6.312,6.394
+w-2026,Mazowieckie,Otorynolaryngologia dziecięca,LEK,5,NIE,85.1,,,,87.093,87.34,86.953,87.117,87.406,1.993,2.306
+w-2026,Mazowieckie,Patomorfologia,LEK,3,NIE,76.56,,,,78.793,78.683,78.843,78.726,78.557,2.233,1.997
+w-2026,Dolnośląskie,Periodontologia,LDEK,4,NIE,82.86,,,,86.195,86.584,85.911,86.204,86.348,3.335,3.488
+w-2026,Mazowieckie,Periodontologia,LDEK,3,NIE,85.48,,,,84.587,84.47,84.663,84.665,84.547,0.893,0.933
+w-2026,Warmińsko-mazurskie,Periodontologia,LDEK,2,NIE,83.81,,,,80.435,80.679,80.348,80.18,80.832,3.375,2.978
+w-2026,Warmińsko-mazurskie,Położnictwo i ginekologia,LEK,2,NIE,73.68,,,,80.858,81.073,80.735,80.777,81.058,7.178,7.378
+w-2026,Warmińsko-mazurskie,Protetyka stomatologiczna,LDEK,2,NIE,84.93,,,,79.313,79.227,79.442,79.466,79.714,5.617,5.216
+w-2026,Warmińsko-mazurskie,Psychiatria,LEK,3,NIE,79.33,,,,79.77,79.848,79.804,79.763,80.259,0.44,0.929
+w-2026,Dolnośląskie,Psychiatria dzieci i młodzieży,LEK,3,NIE,79.19,,,,85.77,85.731,85.785,85.794,85.704,6.58,6.514
+w-2026,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,LEK,3,NIE,81.9,,,,84.843,84.695,85.04,84.939,85.298,2.943,3.398
+w-2026,Dolnośląskie,Reumatologia,LEK,4,NIE,90.43,,,,91.402,91.576,91.285,91.383,91.508,0.972,1.078
+w-2026,Mazowieckie,Reumatologia,LEK,3,NIE,90.19,,,,89.061,88.868,89.076,88.954,88.278,1.129,1.912
+w-2026,Warmińsko-mazurskie,Reumatologia,LEK,3,NIE,91.39,,,,87.559,87.484,87.252,87.304,85.529,3.831,5.861
+w-2026,Dolnośląskie,Stomatologia dziecięca,LDEK,3,NIE,77.75,,,,82.568,82.895,82.323,82.509,82.622,4.818,4.872
+w-2026,Mazowieckie,Stomatologia dziecięca,LDEK,2,NIE,84.13,,,,81.584,81.418,81.682,81.672,81.462,2.546,2.668
+w-2026,Dolnośląskie,Stomatologia zachowawcza z endodoncją,LDEK,4,NIE,74.4,,,,80.045,79.756,80.233,80.193,79.917,5.645,5.517
+w-2026,Mazowieckie,Urologia,LEK,5,TAK,88.52,,,,89.289,89.364,89.46,89.173,90.39,0.769,1.87

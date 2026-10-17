@@ -64,6 +64,25 @@ uruchomieniem przeczytaj jego `AGENTS.md`. Docelowy plik ma nazwę
 Wynik minimalny przy niepełnym obsadzeniu nie stanowi konkurencyjnego progu.
 Pipeline ustala konkurencyjność dopiero po połączeniu z liczbą miejsc.
 
+## CMKP: pilotaż placówek i geografia
+
+Wojewódzkie wykazy placówek pilotażowych są wersjonowane w
+`prediction/sources/cmkp_facility_pilot_manifest.json`. Po zmianie manifestu
+uruchom kolejno:
+
+```powershell
+npm run prediction:download-facility-pilot
+npm run prediction:facility-pilot
+npm run prediction:facility-geography
+```
+
+Klasyfikacja dużych miast, miast akademickich i stolic województw jest jawna i
+zamrożona w `prediction/sources/city_classification_pilot.json`. Próg dużego
+miasta pochodzi z publikacji GUS wskazanej w tym pliku. Współrzędne kodów
+pocztowych pochodzą z wersjonowanej lokalnie kopii GeoNames `PL.zip`; jest to
+pomocnicze, nieurzędowe źródło lokalizacji. Zachowaj jego URL i SHA-256 w
+raporcie. Pojemność placówki nie jest liczbą przyznanych miejsc rezydenckich.
+
 ## Kolejność publikacji i stan aktualności
 
 Śledź niezależnie cztery stany:

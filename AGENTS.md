@@ -14,6 +14,7 @@ npm run prediction:scope
 npm run prediction:model
 npm run prediction:download-facility-pilot
 npm run prediction:facility-pilot
+npm run prediction:facility-geography
 ```
 
 The dev server defaults to `http://127.0.0.1:5173/`.
@@ -38,8 +39,9 @@ The dev server defaults to `http://127.0.0.1:5173/`.
 - `scripts/buildPredictionDataset.js` joins parsed recruitment results, CMKP places, and CEM statistics into the modeling dataset.
 - `scripts/analyzePredictionScope.js` assigns transparent pilot/scope groups from historical data.
 - `scripts/trainThresholdModel.js` trains and evaluates the regional threshold model, the national aggregation variants, and the separate fill-probability model.
+- `scripts/twoPartThresholdExperiment.js` is a diagnostic experiment that splits full pools into competitive and collapse-risk segments using the pre-round fill probability. It does not change production outputs.
 - `scripts/downloadCmkpPlaces.js` and `scripts/parse_cmkp_places.py` obtain and parse official CMKP place lists.
-- `scripts/downloadCmkpFacilityPilot.js` and `scripts/parse_cmkp_facility_pilot.py` run the isolated facility/address extraction pilot documented in `prediction/README.md`; its outputs are not production model inputs.
+- `scripts/downloadCmkpFacilityPilot.js`, `scripts/parse_cmkp_facility_pilot.py`, and `scripts/buildFacilityGeographyFeatures.py` run the facility/address and geography pilot documented in `prediction/README.md`. Its features may be joined to the modeling dataset, but remain diagnostic and must be evaluated only on the identically covered three-province subset unless coverage is expanded.
 
 ## Architecture Rules
 
@@ -57,6 +59,7 @@ The dev server defaults to `http://127.0.0.1:5173/`.
 - The fill model intentionally does not use LEK/LDEK statistics. Its current production probability is the raw ridge-logistic output; experimental post-hoc calibration remains diagnostic because it worsened rolling-origin Brier score and calibration error.
 - Regenerate prediction outputs through the npm scripts. When changing features, targets, calibration, or output columns, update `prediction/README.md` and `prediction/data/threshold_model_report.json` through the training script.
 - Keep provincial facility-list capacity separate from the aggregate resident/non-resident allocation. The pilot field `liczba_wolnych_miejsc` is available training capacity until source reconciliation proves a narrower interpretation.
+- Keep the versioned large-city, academic-city, and capital definitions in `prediction/sources/city_classification_pilot.json`; do not silently change historical labels between rolling-origin folds.
 
 ## Verification Checklist
 

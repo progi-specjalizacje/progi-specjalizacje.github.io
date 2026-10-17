@@ -1,3 +1,4 @@
+import { execFileSync } from "child_process";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -9,6 +10,20 @@ const OUTPUT_DIR = path.join(__dirname, "../public/specjalizacje");
 const OUTPUT_MARKER = path.join(OUTPUT_DIR, ".generated-seo-pages");
 const SITEMAP_PATH = path.join(__dirname, "../public/sitemap-specializacje.xml");
 const SITE_URL = "https://progi-specjalizacje.pl";
+const INDEX_HTML_PATH = path.join(__dirname, "../index.html");
+const LINKS_START = "<!-- seo-specialty-links:start -->";
+const LINKS_END = "<!-- seo-specialty-links:end -->";
+
+// Matches DENTAL_SPECIALTIES in src/config/specialtySearchFilter.ts (LDEK path in the app UI).
+const DENTAL_SPECIALTIES = new Set([
+  "Ortodoncja", "Protetyka stomatologiczna", "Chirurgia stomatologiczna",
+  "Stomatologia zachowawcza z endodoncją", "Periodontologia", "Stomatologia dziecięca",
+  "Chirurgia szczękowo-twarzowa", "Zdrowie publiczne"
+]);
+const RELATED_SPECIALTY_COUNT = 6;
+const STATUS_LABELS = {
+  full: "Próg konkurencyjny", underfilled: "Wolne miejsca", no_accepted: "Wolne miejsca"
+};
 
 const EXCLUDED_SPECIALTY_COUNT = 20;
 const SIMILAR_THRESHOLD_TOLERANCE = 1;
@@ -152,7 +167,10 @@ function analyzeSpecialtyData(rows, pools) {
     const latestPools = modePools.filter((pool) => pool.rekrutacja === latestRecruitment);
     const latestRegionalDetails = latestPools
       .filter((pool) => Number.isFinite(pool.liczba_miejsc))
-      .map((pool) => ({ region: pool.wojewodztwo, places: pool.liczba_miejsc }))
+      .map((pool) => ({
+        region: pool.wojewodztwo, places: pool.liczba_miejsc, status: pool.status_konkurencyjnosci,
+        threshold: pool.status_konkurencyjnosci === "full" ? pool.najnizszy_wynik_proc : null
+      }))
       .sort((a, b) => b.places - a.places || a.region.localeCompare(b.region, "pl"));
 
     const spring = history.filter((item) => item.recruitment.startsWith("w-") && Number.isFinite(item.averageThreshold));
@@ -231,13 +249,55 @@ function renderRegionalAnalysis(data) {
   return `<li>Historycznie najwyższe progi występowały <strong>${escapeHtml(hardest)}</strong>: ${thresholdRangeHtml(data.hardestRegions, data.maxPoints)}.</li>`;
 }
 
+function renderRegionalTable(data) {
+  if (!data.latestRegionalDetails.length) return "";
+  const rows = data.latestRegionalDetails.map((item) => `<tr><th scope="row">${escapeHtml(item.region)}</th><td>${Math.round(item.places)}</td>
+    <td>${Number.isFinite(item.threshold) ? `${formatPercent(item.threshold)} (${formatPoints(item.threshold, data.maxPoints)})` : escapeHtml(STATUS_LABELS[item.status] || "brak danych")}</td></tr>`).join("");
+  return `<h3>Miejsca i progi w województwach – ${escapeHtml(formatRecruitmentLabel(data.latestRecruitment))}</h3>
+    <div class="table-scroll" tabindex="0"><table><thead><tr><th scope="col">Województwo</th><th scope="col">Liczba miejsc</th><th scope="col">Próg konkurencyjny</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
 function renderModeSection(name, mode, data) {
   const doctoral = data.doctoralQualifiedCount > 0
     ? `<li>Poza przedstawionymi danymi w analizowanym okresie na miejsca doktoranckie zakwalifikowano <strong>${formatPeople(data.doctoralQualifiedCount)}</strong>.</li>`
     : "";
   return `<section class="content-section mode-overview" id="${slugify(mode)}"><h2>${escapeHtml(name)} – tryb ${escapeHtml(mode.toLocaleLowerCase("pl"))}</h2>
     <ul class="facts">${renderSeasonality(data)}${renderRegionalAnalysis(data)}${doctoral}</ul>
+    ${renderRegionalTable(data)}
     <h3>Historyczne progi i liczba miejsc</h3><p>Poniższa tabela przedstawia wyniki dla specjalizacji <strong>${escapeHtml(name)}</strong> w kolejnych naborach.</p>${renderHistoryTable(data)}</section>`;
+}
+
+function isDental(item) {
+  return DENTAL_SPECIALTIES.has(item.specialtyName);
+}
+
+// Neighbours by popularity within the same exam path, so every page links to and is linked from several others.
+function relatedSpecialties(item, allItems) {
+  const group = allItems.filter((other) => isDental(other) === isDental(item));
+  const index = group.indexOf(item);
+  return group.filter((other) => other !== item)
+    .sort((a, b) => Math.abs(group.indexOf(a) - index) - Math.abs(group.indexOf(b) - index))
+    .slice(0, RELATED_SPECIALTY_COUNT)
+    .sort((a, b) => a.specialtyName.localeCompare(b.specialtyName, "pl"));
+}
+
+function renderRelated(item, allItems) {
+  const related = relatedSpecialties(item, allItems);
+  if (!related.length) return "";
+  return `<section class="content-section"><h2>Progi na inne specjalizacje ${isDental(item) ? "lekarsko-dentystyczne" : "lekarskie"}</h2>
+    <div class="specialty-list">${related.map((other) => `<a href="/specjalizacje/${other.slug}/"><strong>${escapeHtml(other.specialtyName)}</strong><span>progi punktowe i liczba miejsc</span></a>`).join("")}</div>
+    <p><a href="/specjalizacje/">Zobacz wszystkie specjalizacje</a></p></section>`;
+}
+
+function breadcrumbJsonLd(items) {
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement: items.map(([name, pathname], index) => ({ "@type": "ListItem", position: index + 1, name, item: `${SITE_URL}${pathname}` }))
+  };
+}
+
+function jsonLdScript(graph) {
+  return `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@graph": graph }).replaceAll("<", "\\u003c")}</script>`;
 }
 
 function canonicalTag(pathname) {
@@ -248,45 +308,82 @@ function reportUrl(slug, anchor) {
   return `/?specializacja=${encodeURIComponent(slug)}#${anchor}`;
 }
 
-function renderSpecialtyPage(item) {
+function latestModeFacts(analysis) {
+  const parts = MODES.filter((mode) => analysis[mode]).map((mode) => {
+    const latest = analysis[mode].history[0];
+    const places = Number.isFinite(latest.totalPlaces) ? `${formatPlaces(latest.totalPlaces)}` : null;
+    const threshold = Number.isFinite(latest.averageThreshold) ? `próg ok. ${formatPercent(latest.averageThreshold)}` : null;
+    const details = [places, threshold].filter(Boolean).join(", ");
+    return details ? `${mode.toLocaleLowerCase("pl")}: ${details}` : null;
+  }).filter(Boolean);
+  return parts.join("; ");
+}
+
+function renderSpecialtyPage(item, allItems) {
   const { specialtyName: name, slug, analysis } = item;
   const safeName = escapeHtml(name);
   const oldest = formatRecruitmentLabel(analysis.metadata.oldestRecruitment);
   const latest = formatRecruitmentLabel(analysis.metadata.latestRecruitment);
-  const title = `${name} – progi punktowe i wyniki rekrutacji`;
-  const description = `Sprawdź progi punktowe, liczbę miejsc i wyniki rekrutacji dla specjalizacji ${name}. Porównaj tryb rezydencki i pozarezydencki.`;
+  const latestYear = String(analysis.metadata.latestRecruitment).slice(-4);
+  const exam = isDental(item) ? "LDEK" : "LEK";
+  const title = `${name} – progi na specjalizację ${latestYear} (${exam}) | miejsca i wyniki`;
+  const facts = latestModeFacts(analysis);
+  const description = `${name}: progi punktowe i liczba miejsc w rekrutacji ${latest}${facts ? ` (${facts})` : ""}. Historia naborów od ${oldest}, dane według województw i kalkulator punktów.`;
   const pathname = `/specjalizacje/${slug}/`;
   const reportHref = reportUrl(slug, "raport");
   const calculatorHref = reportUrl(slug, "kalkulator");
-  const structuredData = JSON.stringify({ "@context": "https://schema.org", "@type": "WebPage", name: title, description, inLanguage: "pl-PL", ...(SITE_URL ? { url: `${SITE_URL}${pathname}` } : {}) }).replaceAll("<", "\\u003c");
+  const structuredData = jsonLdScript([
+    { "@type": "WebPage", name: title, description, inLanguage: "pl-PL", url: `${SITE_URL}${pathname}` },
+    breadcrumbJsonLd([["Strona główna", "/"], ["Specjalizacje", "/specjalizacje/"], [name, pathname]])
+  ]);
   const summaries = MODES.filter((mode) => analysis[mode]).map((mode) => renderSummary(mode, { ...analysis[mode], name })).join("");
   const sections = MODES.filter((mode) => analysis[mode]).map((mode) => renderModeSection(name, mode, analysis[mode])).join("");
 
   return `<!doctype html><html lang="pl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="index,follow">
-    ${canonicalTag(pathname)}<link rel="stylesheet" href="/seo-pages.css"><script type="application/ld+json">${structuredData}</script></head><body>
+    ${canonicalTag(pathname)}<link rel="stylesheet" href="/seo-pages.css">${structuredData}</head><body>
     <header class="site-header"><a class="brand" href="/">Progi specjalizacyjne</a></header>
     <main><nav class="breadcrumbs" aria-label="Okruszki"><a href="/">Strona główna</a><span>/</span><a href="/specjalizacje/">Specjalizacje</a><span>/</span><span>${safeName}</span></nav>
-    <section class="hero"><p class="eyebrow">Dane rekrutacyjne ${escapeHtml(oldest)} – ${escapeHtml(latest)}</p><h1>${safeName} – progi punktowe i wyniki rekrutacji</h1>
+    <section class="hero"><p class="eyebrow">Dane rekrutacyjne ${escapeHtml(oldest)} – ${escapeHtml(latest)}</p><h1>${safeName} – progi na specjalizację i wyniki rekrutacji</h1>
       <p class="lead">Sprawdź historyczne progi punktowe, liczbę miejsc oraz wyniki rekrutacji dla specjalizacji <strong>${safeName}</strong>.</p>
       <div class="actions"><a class="button button-primary" href="${reportHref}">Otwórz pełny raport dla: ${safeName}</a></div>
       <p class="action-copy">Oblicz swój wynik i sprawdź, na ile miejsc w poprzednich rekrutacjach byłby wystarczający.</p></section>
     <section class="content-section latest"><h2>Dane z ostatniej zakończonej rekrutacji – ${escapeHtml(latest)}</h2>${summaries}
       <p class="footnote">*Orientacyjne przeliczenie progu procentowego. Szczegółowe składniki punktacji znajdziesz w kalkulatorze.</p></section>
     ${sections}
+    ${renderRelated(item, allItems)}
     <section class="cta-panel"><div><p class="eyebrow">Interaktywny raport</p><h2>Porównaj swój wynik z poprzednimi rekrutacjami</h2><p>Wybierz specjalizację, tryb szkolenia, nabór i województwo, aby zobaczyć pełne dane oraz symulację.</p></div>
       <div class="actions"><a class="button button-secondary" href="${calculatorHref}">Przejdź do kalkulatora</a></div></section>
     </main>
     <footer class="site-footer"><div>Dane w raportach pochodzą z <a href="https://www.cmkp.edu.pl/ksztalcenie/postepowania-kwalifikacyjne">Centrum Medycznego Kształcenia Podyplomowego</a>.</div><div>Raport ma charakter informacyjny i został przygotowany na podstawie publicznie dostępnych danych. W przypadku rozbieżności wiążące są informacje publikowane przez CMKP. Strona jest prywatną inicjatywą i nie jest powiązana z CMKP ani żadną inną instytucją publiczną.</div><div><a href="${reportHref}">Otwórz pełny raport</a> <a href="/specjalizacje/">Wszystkie specjalizacje</a></div><div>kontakt: <a href="mailto:stenzelpawel.t@gmail.com">stenzelpawel.t@gmail.com</a></div><div>ostatnia aktualizacja: <time datetime="2026-09">09.2026</time></div></footer></body></html>`;
 }
 
+function renderDirectorySection(heading, items) {
+  if (!items.length) return "";
+  return `<section class="content-section"><h2>${escapeHtml(heading)}</h2><div class="specialty-list">${[...items].sort((a, b) => a.specialtyName.localeCompare(b.specialtyName, "pl"))
+    .map((item) => `<a href="/specjalizacje/${item.slug}/"><strong>${escapeHtml(item.specialtyName)}</strong><span>${formatPeople(item.totalQualified)} zakwalifikowanych w analizowanym okresie</span></a>`).join("")}</div></section>`;
+}
+
 function renderDirectoryPage(items) {
+  const title = "Progi na specjalizacje lekarskie i stomatologiczne – lista specjalizacji";
+  const description = "Lista specjalizacji lekarskich (LEK) i lekarsko-dentystycznych (LDEK) z progami punktowymi, liczbą miejsc i historycznymi wynikami rekrutacji CMKP.";
+  const structuredData = jsonLdScript([
+    {
+      "@type": "CollectionPage", name: title, description, inLanguage: "pl-PL", url: `${SITE_URL}/specjalizacje/`,
+      mainEntity: { "@type": "ItemList", itemListElement: items.map((item, index) => ({ "@type": "ListItem", position: index + 1, name: item.specialtyName, url: `${SITE_URL}/specjalizacje/${item.slug}/` })) }
+    },
+    breadcrumbJsonLd([["Strona główna", "/"], ["Specjalizacje", "/specjalizacje/"]])
+  ]);
   return `<!doctype html><html lang="pl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Specjalizacje lekarskie – progi i wyniki rekrutacji</title><meta name="description" content="Porównaj progi punktowe, liczbę miejsc i historyczne wyniki rekrutacji dla specjalizacji lekarskich i lekarsko-dentystycznych.">
-    <meta name="robots" content="index,follow">${canonicalTag("/specjalizacje/")}<link rel="stylesheet" href="/seo-pages.css"></head><body>
+    <title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}">
+    <meta name="robots" content="index,follow">${canonicalTag("/specjalizacje/")}<link rel="stylesheet" href="/seo-pages.css">${structuredData}</head><body>
     <header class="site-header"><a class="brand" href="/">Progi specjalizacyjne</a></header><main>
-    <section class="content-section"><h2>Specjalizacje - krótkie podsumowania</h2><div class="specialty-list">${[...items].sort((a, b) => a.specialtyName.localeCompare(b.specialtyName, "pl"))
-      .map((item) => `<a href="/specjalizacje/${item.slug}/"><strong>${escapeHtml(item.specialtyName)}</strong><span>${item.totalQualified} zakwalifikowanych w analizowanym okresie</span></a>`).join("")}</div></section></main>
+    <nav class="breadcrumbs" aria-label="Okruszki"><a href="/">Strona główna</a><span>/</span><span>Specjalizacje</span></nav>
+    <section class="hero"><h1>Progi na specjalizacje lekarskie i stomatologiczne</h1>
+      <p class="lead">Wybierz specjalizację, aby zobaczyć progi punktowe, liczbę miejsc w województwach i wyniki kolejnych naborów w trybie rezydenckim i pozarezydenckim.</p>
+      <div class="actions"><a class="button button-primary" href="/#kalkulator">Oblicz swoje punkty w kalkulatorze</a></div></section>
+    ${renderDirectorySection("Specjalizacje lekarskie (LEK)", items.filter((item) => !isDental(item)))}
+    ${renderDirectorySection("Specjalizacje lekarsko-dentystyczne (LDEK)", items.filter(isDental))}</main>
     <footer class="site-footer"><div>Dane w raportach pochodzą z <a href="https://www.cmkp.edu.pl/ksztalcenie/postepowania-kwalifikacyjne">Centrum Medycznego Kształcenia Podyplomowego</a>.</div><div>Raport ma charakter informacyjny i został przygotowany na podstawie publicznie dostępnych danych. W przypadku rozbieżności wiążące są informacje publikowane przez CMKP. Strona jest prywatną inicjatywą i nie jest powiązana z CMKP ani żadną inną instytucją publiczną.</div><div><a href="/">Wróć do strony głównej</a></div><div>kontakt: <a href="mailto:stenzelpawel.t@gmail.com">stenzelpawel.t@gmail.com</a></div><div>ostatnia aktualizacja: <time datetime="2026-09">09.2026</time></div></footer></body></html>`;
 }
 
@@ -299,14 +396,47 @@ function prepareOutputDirectory() {
   fs.writeFileSync(OUTPUT_MARKER, "Katalog generowany automatycznie przez scripts/generateSeoPages.js.\n", "utf-8");
 }
 
+// Date of the last committed source-data change (public/data is rebuilt on every build, so its mtime is meaningless).
+// Requires full git history in CI; returns null rather than a misleading date.
+function dataLastModified() {
+  try {
+    const date = execFileSync("git", ["log", "-1", "--format=%cs", "--", "source_data", "scripts/generateSeoPages.js"],
+      { cwd: path.join(__dirname, ".."), encoding: "utf-8", stdio: ["ignore", "pipe", "ignore"] }).trim();
+    return /^\d{4}-\d{2}-\d{2}$/.test(date) ? date : null;
+  } catch {
+    return null;
+  }
+}
+
 function writeSitemap(items) {
+  const lastmod = dataLastModified();
   const urls = ["/specjalizacje/", ...items.map((item) => `/specjalizacje/${item.slug}/`)];
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((pathname) => `  <url><loc>${escapeHtml(`${SITE_URL}${pathname}`)}</loc></url>`).join("\n")}\n</urlset>\n`;
+  const entry = (pathname) => `  <url><loc>${escapeHtml(`${SITE_URL}${pathname}`)}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}</url>`;
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(entry).join("\n")}\n</urlset>\n`;
   fs.writeFileSync(SITEMAP_PATH, xml, "utf-8");
   // Preserve the sitemap URL already used by the existing website.
   const mainXml = xml.replace('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${SITE_URL}/</loc></url>`);
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entry("/")}`);
   fs.writeFileSync(path.join(__dirname, "../public/sitemap.xml"), mainXml, "utf-8");
+}
+
+// The homepage is a client-rendered SPA, so its raw HTML must carry plain links for crawlers to discover subpages.
+function writeHomepageLinks(items) {
+  const html = fs.readFileSync(INDEX_HTML_PATH, "utf-8");
+  const start = html.indexOf(LINKS_START);
+  const end = html.indexOf(LINKS_END);
+  if (start === -1 || end === -1) throw new Error(`Brak znaczników ${LINKS_START} / ${LINKS_END} w index.html`);
+  const list = (group) => group.map((item) => `<li><a href="/specjalizacje/${item.slug}/">${escapeHtml(item.specialtyName)}</a></li>`).join("");
+  const sorted = [...items].sort((a, b) => a.specialtyName.localeCompare(b.specialtyName, "pl"));
+  const block = `${LINKS_START}
+    <nav class="seo-specialty-links" aria-labelledby="seo-specialty-links-title">
+      <h2 id="seo-specialty-links-title">Progi na specjalizacje</h2>
+      <h3>Lekarskie (LEK)</h3><ul>${list(sorted.filter((item) => !isDental(item)))}</ul>
+      <h3>Lekarsko-dentystyczne (LDEK)</h3><ul>${list(sorted.filter(isDental))}</ul>
+      <p><a href="/specjalizacje/">Wszystkie specjalizacje</a></p>
+    </nav>
+    `;
+  fs.writeFileSync(INDEX_HTML_PATH, html.slice(0, start) + block + html.slice(end), "utf-8");
 }
 
 function run() {
@@ -329,14 +459,16 @@ function run() {
   for (const specialty of included) {
     const analysis = analyzeSpecialtyData(specialty.rows, specialty.pools);
     if (!analysis.Rezydencki && !analysis.Pozarezydencki) continue;
-    const page = { ...specialty, analysis };
-    const output = path.join(OUTPUT_DIR, specialty.slug);
+    generated.push({ ...specialty, analysis });
+  }
+  for (const page of generated) {
+    const output = path.join(OUTPUT_DIR, page.slug);
     fs.mkdirSync(output, { recursive: true });
-    fs.writeFileSync(path.join(output, "index.html"), renderSpecialtyPage(page), "utf-8");
-    generated.push(page);
+    fs.writeFileSync(path.join(output, "index.html"), renderSpecialtyPage(page, generated), "utf-8");
   }
   fs.writeFileSync(path.join(OUTPUT_DIR, "index.html"), renderDirectoryPage(generated), "utf-8");
   writeSitemap(generated);
+  writeHomepageLinks(generated);
   console.log(`Wygenerowano ${generated.length} podstron HTML oraz katalog specjalizacji.`);
   console.log(`Pominięto ${excluded.length} specjalizacji z najmniejszą łączną liczbą zakwalifikowanych:`);
   excluded.forEach((item) => console.log(`- ${item.specialtyName}: ${item.totalQualified}`));

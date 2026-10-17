@@ -1,5 +1,2888 @@
 {
-  "generated_at": "2026-09-23T10:08:19.113Z",
+  "two_part_experiment": {
+    "status": "experimental_only_production_unchanged",
+    "question": "Czy rozdzielenie pul zagrożonych zapełnieniem na styk od pul konkurencyjnych zmniejsza błąd i daje uczciwsze przedziały?",
+    "validation": "rolling-origin; identyczne regionalne progi jak w głównym backteście; szansa zapełnienia z modelu uczonego tylko na wcześniejszych rundach",
+    "design": {
+      "gate": "surowa szansa pełnej puli z produkcyjnego modelu zapełnienia; cel zapełnienia pozostaje osobny",
+      "risk_probability_threshold": 0.8,
+      "threshold_choice": "ustalony po diagnostyce błędów obecnego backtestu (analiza post hoc); inne progi tylko jako wrażliwość",
+      "competitive_segment": "prognoza produkcyjnego ensemble bez zmian",
+      "risk_segment": "ridge uczony tylko na wcześniejszych pełnych pulach z szansą < 0.8; cechy bazowe, logit szansy i cechy podaży",
+      "gate_feature_variant": "ridge na pełnych pulach ze znaną szansą zapełnienia przed rundą, z dodanym logitem szansy",
+      "soft_mixture": "p × produkcja + (1 - p) × model ryzyka",
+      "intervals": "kwantyle 10/90 reszt z wcześniejszych rund backtestu: łącznie wokół produkcji, osobno dla segmentu wokół produkcji oraz osobno dla segmentu wokół prognozy dwuczęściowej",
+      "posthoc_note": "Przedział segmentowy wokół produkcji oraz uczenie cechy szansy tylko na rundach z dostępną szansą dodano po pierwszym uruchomieniu eksperymentu.",
+      "min_risk_training_rows": 40
+    },
+    "rows": 952,
+    "folds": [
+      {
+        "round": "j-2024",
+        "training_rows": 787,
+        "risk_training_rows": 0,
+        "gate_training_rows": 205,
+        "risk_model_fallback_to_production": true
+      },
+      {
+        "round": "w-2025",
+        "training_rows": 1090,
+        "risk_training_rows": 58,
+        "gate_training_rows": 508,
+        "risk_model_fallback_to_production": false
+      },
+      {
+        "round": "j-2025",
+        "training_rows": 1323,
+        "risk_training_rows": 143,
+        "gate_training_rows": 741,
+        "risk_model_fallback_to_production": false
+      },
+      {
+        "round": "w-2026",
+        "training_rows": 1674,
+        "risk_training_rows": 226,
+        "gate_training_rows": 1092,
+        "risk_model_fallback_to_production": false
+      }
+    ],
+    "variants": {
+      "baseline": {
+        "n": 952,
+        "mae": 2.831,
+        "rmse": 4.357,
+        "bias": -0.202,
+        "error_p80": 4.063
+      },
+      "production": {
+        "n": 952,
+        "mae": 2.744,
+        "rmse": 4.328,
+        "bias": 0.122,
+        "error_p80": 3.872
+      },
+      "gate_feature": {
+        "n": 952,
+        "mae": 3.674,
+        "rmse": 5.36,
+        "bias": 1.256,
+        "error_p80": 5.472
+      },
+      "two_part": {
+        "n": 952,
+        "mae": 2.828,
+        "rmse": 4.386,
+        "bias": -0.027,
+        "error_p80": 4.146
+      },
+      "soft_mixture": {
+        "n": 952,
+        "mae": 2.748,
+        "rmse": 4.279,
+        "bias": 0.047,
+        "error_p80": 3.906
+      }
+    },
+    "by_segment": {
+      "konkurencyjna": {
+        "n": 779,
+        "baseline": {
+          "n": 779,
+          "mae": 2.248,
+          "rmse": 3.234,
+          "bias": -0.66,
+          "error_p80": 3.406
+        },
+        "production": {
+          "n": 779,
+          "mae": 2.151,
+          "rmse": 3.161,
+          "bias": -0.321,
+          "error_p80": 3.191
+        },
+        "gate_feature": {
+          "n": 779,
+          "mae": 3.065,
+          "rmse": 4.182,
+          "bias": 0.655,
+          "error_p80": 4.889
+        },
+        "two_part": {
+          "n": 779,
+          "mae": 2.151,
+          "rmse": 3.161,
+          "bias": -0.321,
+          "error_p80": 3.191
+        },
+        "soft_mixture": {
+          "n": 779,
+          "mae": 2.146,
+          "rmse": 3.123,
+          "bias": -0.317,
+          "error_p80": 3.206
+        }
+      },
+      "ryzyko_zalamania_progu": {
+        "n": 173,
+        "baseline": {
+          "n": 173,
+          "mae": 5.457,
+          "rmse": 7.574,
+          "bias": 1.857,
+          "error_p80": 9.475
+        },
+        "production": {
+          "n": 173,
+          "mae": 5.41,
+          "rmse": 7.621,
+          "bias": 2.116,
+          "error_p80": 9.419
+        },
+        "gate_feature": {
+          "n": 173,
+          "mae": 6.418,
+          "rmse": 8.909,
+          "bias": 3.964,
+          "error_p80": 10.846
+        },
+        "two_part": {
+          "n": 173,
+          "mae": 5.873,
+          "rmse": 7.803,
+          "bias": 1.298,
+          "error_p80": 9.243
+        },
+        "soft_mixture": {
+          "n": 173,
+          "mae": 5.458,
+          "rmse": 7.54,
+          "bias": 1.685,
+          "error_p80": 8.984
+        }
+      }
+    },
+    "by_round": {
+      "j-2024": {
+        "baseline": {
+          "n": 228,
+          "mae": 2.567,
+          "rmse": 3.548,
+          "bias": -0.781,
+          "error_p80": 3.936
+        },
+        "production": {
+          "n": 228,
+          "mae": 2.364,
+          "rmse": 3.422,
+          "bias": 0.247,
+          "error_p80": 3.718
+        },
+        "gate_feature": {
+          "n": 228,
+          "mae": 3.392,
+          "rmse": 4.496,
+          "bias": -2.039,
+          "error_p80": 5.237
+        },
+        "two_part": {
+          "n": 228,
+          "mae": 2.364,
+          "rmse": 3.422,
+          "bias": 0.247,
+          "error_p80": 3.718
+        },
+        "soft_mixture": {
+          "n": 228,
+          "mae": 2.364,
+          "rmse": 3.422,
+          "bias": 0.247,
+          "error_p80": 3.718
+        }
+      },
+      "w-2025": {
+        "baseline": {
+          "n": 200,
+          "mae": 3.172,
+          "rmse": 5.178,
+          "bias": 1.039,
+          "error_p80": 4.326
+        },
+        "production": {
+          "n": 200,
+          "mae": 3.168,
+          "rmse": 5.18,
+          "bias": 1.014,
+          "error_p80": 4.222
+        },
+        "gate_feature": {
+          "n": 200,
+          "mae": 6.182,
+          "rmse": 7.84,
+          "bias": 5.984,
+          "error_p80": 7.549
+        },
+        "two_part": {
+          "n": 200,
+          "mae": 3.461,
+          "rmse": 5.564,
+          "bias": 1.033,
+          "error_p80": 5.386
+        },
+        "soft_mixture": {
+          "n": 200,
+          "mae": 3.191,
+          "rmse": 5.17,
+          "bias": 1.088,
+          "error_p80": 4.489
+        }
+      },
+      "j-2025": {
+        "baseline": {
+          "n": 295,
+          "mae": 2.766,
+          "rmse": 4.147,
+          "bias": -1.094,
+          "error_p80": 4.03
+        },
+        "production": {
+          "n": 295,
+          "mae": 2.577,
+          "rmse": 4.003,
+          "bias": -0.644,
+          "error_p80": 3.723
+        },
+        "gate_feature": {
+          "n": 295,
+          "mae": 2.556,
+          "rmse": 4.009,
+          "bias": -0.215,
+          "error_p80": 3.286
+        },
+        "two_part": {
+          "n": 295,
+          "mae": 2.689,
+          "rmse": 4.165,
+          "bias": -0.805,
+          "error_p80": 3.975
+        },
+        "soft_mixture": {
+          "n": 295,
+          "mae": 2.604,
+          "rmse": 4.039,
+          "bias": -0.723,
+          "error_p80": 3.811
+        }
+      },
+      "w-2026": {
+        "baseline": {
+          "n": 229,
+          "mae": 2.881,
+          "rmse": 4.561,
+          "bias": 0.439,
+          "error_p80": 4.083
+        },
+        "production": {
+          "n": 229,
+          "mae": 2.965,
+          "rmse": 4.704,
+          "bias": 0.203,
+          "error_p80": 4.258
+        },
+        "gate_feature": {
+          "n": 229,
+          "mae": 3.205,
+          "rmse": 4.994,
+          "bias": 2.304,
+          "error_p80": 4.032
+        },
+        "two_part": {
+          "n": 229,
+          "mae": 2.916,
+          "rmse": 4.353,
+          "bias": -0.224,
+          "error_p80": 4.558
+        },
+        "soft_mixture": {
+          "n": 229,
+          "mae": 2.929,
+          "rmse": 4.483,
+          "bias": -0.07,
+          "error_p80": 4.233
+        }
+      }
+    },
+    "by_exam": {
+      "LEK": {
+        "baseline": {
+          "n": 798,
+          "mae": 3.051,
+          "rmse": 4.626,
+          "bias": -0.271,
+          "error_p80": 4.457
+        },
+        "production": {
+          "n": 798,
+          "mae": 2.924,
+          "rmse": 4.579,
+          "bias": 0.062,
+          "error_p80": 4.091
+        },
+        "gate_feature": {
+          "n": 798,
+          "mae": 3.886,
+          "rmse": 5.675,
+          "bias": 1.149,
+          "error_p80": 5.917
+        },
+        "two_part": {
+          "n": 798,
+          "mae": 3.015,
+          "rmse": 4.637,
+          "bias": -0.132,
+          "error_p80": 4.424
+        },
+        "soft_mixture": {
+          "n": 798,
+          "mae": 2.931,
+          "rmse": 4.527,
+          "bias": -0.047,
+          "error_p80": 4.183
+        }
+      },
+      "LDEK": {
+        "baseline": {
+          "n": 154,
+          "mae": 1.695,
+          "rmse": 2.538,
+          "bias": 0.154,
+          "error_p80": 2.613
+        },
+        "production": {
+          "n": 154,
+          "mae": 1.807,
+          "rmse": 2.675,
+          "bias": 0.428,
+          "error_p80": 2.734
+        },
+        "gate_feature": {
+          "n": 154,
+          "mae": 2.577,
+          "rmse": 3.273,
+          "bias": 1.815,
+          "error_p80": 3.717
+        },
+        "two_part": {
+          "n": 154,
+          "mae": 1.857,
+          "rmse": 2.744,
+          "bias": 0.516,
+          "error_p80": 2.881
+        },
+        "soft_mixture": {
+          "n": 154,
+          "mae": 1.802,
+          "rmse": 2.65,
+          "bias": 0.531,
+          "error_p80": 2.79
+        }
+      }
+    },
+    "paired_vs_production": {
+      "two_part": {
+        "improved": 64,
+        "tied": 796,
+        "worsened": 92
+      },
+      "soft_mixture": {
+        "improved": 339,
+        "tied": 228,
+        "worsened": 385
+      },
+      "gate_feature": {
+        "improved": 358,
+        "tied": 0,
+        "worsened": 594
+      }
+    },
+    "intervals_80": {
+      "evaluated_rounds": [
+        "w-2025",
+        "j-2025",
+        "w-2026"
+      ],
+      "overall": {
+        "production_pooled": {
+          "n": 724,
+          "coverage": 0.785,
+          "mean_width": 7.589
+        },
+        "production_by_segment": {
+          "n": 724,
+          "coverage": 0.801,
+          "mean_width": 8.298
+        },
+        "two_part_by_segment": {
+          "n": 724,
+          "coverage": 0.789,
+          "mean_width": 8.504
+        }
+      },
+      "by_segment": {
+        "konkurencyjna": {
+          "production_pooled": {
+            "n": 568,
+            "coverage": 0.854,
+            "mean_width": 7.604
+          },
+          "production_by_segment": {
+            "n": 568,
+            "coverage": 0.827,
+            "mean_width": 6.536
+          },
+          "two_part_by_segment": {
+            "n": 568,
+            "coverage": 0.827,
+            "mean_width": 6.536
+          }
+        },
+        "ryzyko_zalamania_progu": {
+          "production_pooled": {
+            "n": 156,
+            "coverage": 0.532,
+            "mean_width": 7.533
+          },
+          "production_by_segment": {
+            "n": 156,
+            "coverage": 0.705,
+            "mean_width": 14.715
+          },
+          "two_part_by_segment": {
+            "n": 156,
+            "coverage": 0.647,
+            "mean_width": 15.669
+          }
+        }
+      }
+    },
+    "threshold_sensitivity": {
+      "0.6": {
+        "risk_rows": 85,
+        "two_part": {
+          "n": 952,
+          "mae": 2.796,
+          "rmse": 4.368,
+          "bias": 0.023,
+          "error_p80": 3.961
+        },
+        "soft_mixture": {
+          "n": 952,
+          "mae": 2.806,
+          "rmse": 4.325,
+          "bias": -0.097,
+          "error_p80": 4.102
+        }
+      },
+      "0.7": {
+        "risk_rows": 116,
+        "two_part": {
+          "n": 952,
+          "mae": 2.853,
+          "rmse": 4.461,
+          "bias": 0.032,
+          "error_p80": 4.112
+        },
+        "soft_mixture": {
+          "n": 952,
+          "mae": 2.794,
+          "rmse": 4.368,
+          "bias": 0.11,
+          "error_p80": 4.015
+        }
+      },
+      "0.8": {
+        "risk_rows": 173,
+        "two_part": {
+          "n": 952,
+          "mae": 2.828,
+          "rmse": 4.386,
+          "bias": -0.027,
+          "error_p80": 4.146
+        },
+        "soft_mixture": {
+          "n": 952,
+          "mae": 2.748,
+          "rmse": 4.279,
+          "bias": 0.047,
+          "error_p80": 3.906
+        }
+      },
+      "0.9": {
+        "risk_rows": 278,
+        "two_part": {
+          "n": 952,
+          "mae": 2.783,
+          "rmse": 4.297,
+          "bias": 0.065,
+          "error_p80": 4.162
+        },
+        "soft_mixture": {
+          "n": 952,
+          "mae": 2.726,
+          "rmse": 4.274,
+          "bias": 0.078,
+          "error_p80": 3.854
+        }
+      }
+    },
+    "frozen_shadow_forecast": {
+      "round": "j-2026",
+      "rows": 802,
+      "risk_rows": 327,
+      "output": "prediction/data/two_part_shadow_forecast_j-2026.csv",
+      "production_unchanged": true
+    },
+    "outputs": {
+      "backtest": "prediction/data/two_part_threshold_backtest.csv",
+      "forecast": "prediction/data/two_part_shadow_forecast_j-2026.csv"
+    },
+    "limitations": [
+      "Próg segmentu 0,8 dobrano po obejrzeniu błędów tego samego backtestu; wymaga oceny na nowej rundzie.",
+      "Trzy pierwsze rundy nie mają szansy zapełnienia przed rundą, więc modele korzystające z szansy uczą się na krótszej historii.",
+      "Segment ryzyka ma niewiele obserwacji uczących, zwłaszcza w pierwszej rundzie testowej."
+    ]
+  },
+  "supply_scale_experiment": {
+    "status": "diagnostyczny; nie zmienia wariantu produkcyjnego",
+    "question": "Czy ta sama liczba miejsc ma inne znaczenie zależnie od typowej skali specjalizacji i komórki wojewódzkiej?",
+    "validation": "rolling-origin; identyczne regionalne progi jak w głównym backteście",
+    "rows": 952,
+    "feature_variants": {
+      "current_context": [
+        "log_miejsca_kraj_specjalizacja",
+        "liczba_wojewodztw_z_oferta_specjalizacja",
+        "zmiana_miejsc_kraj_specjalizacja",
+        "udzial_miejsc_wojewodztwa_w_specjalizacji"
+      ],
+      "relative_to_history": [
+        "log_relacja_miejsc_kraj_do_typowych",
+        "log_relacja_miejsc_komorka_do_typowych"
+      ],
+      "combined": [
+        "log_miejsca_kraj_specjalizacja",
+        "liczba_wojewodztw_z_oferta_specjalizacja",
+        "zmiana_miejsc_kraj_specjalizacja",
+        "udzial_miejsc_wojewodztwa_w_specjalizacji",
+        "log_relacja_miejsc_kraj_do_typowych",
+        "log_relacja_miejsc_komorka_do_typowych"
+      ]
+    },
+    "relative_feature_definition": "log((bieżące miejsca + 1) / (mediana miejsc we wcześniejszych rundach tej samej specjalizacji lub komórki + 1))",
+    "posthoc_blend_note": "Średnia 50/50 obecnego ensemble i najlepszego wariantu podaży została sprawdzona po obejrzeniu wyników wariantów; pozostaje shadow i wymaga niezależnej oceny na nowej rundzie.",
+    "variants": {
+      "baseline": {
+        "n": 952,
+        "mae": 2.831,
+        "rmse": 4.357,
+        "bias": -0.202,
+        "error_p80": 4.063
+      },
+      "production": {
+        "n": 952,
+        "mae": 2.744,
+        "rmse": 4.328,
+        "bias": 0.122,
+        "error_p80": 3.872
+      },
+      "current_context": {
+        "n": 952,
+        "mae": 2.808,
+        "rmse": 4.32,
+        "bias": -0.128,
+        "error_p80": 4.084
+      },
+      "relative_to_history": {
+        "n": 952,
+        "mae": 2.789,
+        "rmse": 4.318,
+        "bias": -0.12,
+        "error_p80": 3.988
+      },
+      "combined": {
+        "n": 952,
+        "mae": 2.753,
+        "rmse": 4.265,
+        "bias": -0.096,
+        "error_p80": 4.023
+      },
+      "production_supply_blend_50_50": {
+        "n": 952,
+        "mae": 2.724,
+        "rmse": 4.274,
+        "bias": 0.013,
+        "error_p80": 3.942
+      }
+    },
+    "best_variant": "combined",
+    "best_overall_variant": "production_supply_blend_50_50",
+    "paired_vs_baseline": {
+      "improved": 527,
+      "tied": 0,
+      "worsened": 425
+    },
+    "paired_vs_production": {
+      "improved": 469,
+      "tied": 0,
+      "worsened": 483
+    },
+    "blend_paired_vs_production": {
+      "improved": 488,
+      "tied": 0,
+      "worsened": 464
+    },
+    "by_round": {
+      "j-2024": {
+        "baseline": {
+          "n": 228,
+          "mae": 2.567,
+          "rmse": 3.548,
+          "bias": -0.781,
+          "error_p80": 3.935
+        },
+        "production": {
+          "n": 228,
+          "mae": 2.364,
+          "rmse": 3.422,
+          "bias": 0.247,
+          "error_p80": 3.718
+        },
+        "current_context": {
+          "n": 228,
+          "mae": 2.49,
+          "rmse": 3.47,
+          "bias": -0.226,
+          "error_p80": 3.759
+        },
+        "relative_to_history": {
+          "n": 228,
+          "mae": 2.518,
+          "rmse": 3.49,
+          "bias": -0.525,
+          "error_p80": 3.726
+        },
+        "combined": {
+          "n": 228,
+          "mae": 2.486,
+          "rmse": 3.46,
+          "bias": -0.239,
+          "error_p80": 3.721
+        },
+        "production_supply_blend_50_50": {
+          "n": 228,
+          "mae": 2.404,
+          "rmse": 3.418,
+          "bias": 0.004,
+          "error_p80": 3.724
+        }
+      },
+      "w-2025": {
+        "baseline": {
+          "n": 200,
+          "mae": 3.172,
+          "rmse": 5.178,
+          "bias": 1.039,
+          "error_p80": 4.326
+        },
+        "production": {
+          "n": 200,
+          "mae": 3.168,
+          "rmse": 5.18,
+          "bias": 1.014,
+          "error_p80": 4.222
+        },
+        "current_context": {
+          "n": 200,
+          "mae": 3.113,
+          "rmse": 5.08,
+          "bias": 0.792,
+          "error_p80": 4.772
+        },
+        "relative_to_history": {
+          "n": 200,
+          "mae": 3.15,
+          "rmse": 5.148,
+          "bias": 1.011,
+          "error_p80": 4.188
+        },
+        "combined": {
+          "n": 200,
+          "mae": 3.068,
+          "rmse": 5.012,
+          "bias": 0.686,
+          "error_p80": 4.64
+        },
+        "production_supply_blend_50_50": {
+          "n": 200,
+          "mae": 3.085,
+          "rmse": 5.078,
+          "bias": 0.85,
+          "error_p80": 4.833
+        }
+      },
+      "j-2025": {
+        "baseline": {
+          "n": 295,
+          "mae": 2.766,
+          "rmse": 4.147,
+          "bias": -1.094,
+          "error_p80": 4.029
+        },
+        "production": {
+          "n": 295,
+          "mae": 2.577,
+          "rmse": 4.003,
+          "bias": -0.644,
+          "error_p80": 3.723
+        },
+        "current_context": {
+          "n": 295,
+          "mae": 2.781,
+          "rmse": 4.18,
+          "bias": -1.103,
+          "error_p80": 4.126
+        },
+        "relative_to_history": {
+          "n": 295,
+          "mae": 2.737,
+          "rmse": 4.119,
+          "bias": -1.053,
+          "error_p80": 4.022
+        },
+        "combined": {
+          "n": 295,
+          "mae": 2.707,
+          "rmse": 4.127,
+          "bias": -0.971,
+          "error_p80": 4.11
+        },
+        "production_supply_blend_50_50": {
+          "n": 295,
+          "mae": 2.626,
+          "rmse": 4.047,
+          "bias": -0.807,
+          "error_p80": 3.924
+        }
+      },
+      "w-2026": {
+        "baseline": {
+          "n": 229,
+          "mae": 2.881,
+          "rmse": 4.561,
+          "bias": 0.439,
+          "error_p80": 4.083
+        },
+        "production": {
+          "n": 229,
+          "mae": 2.965,
+          "rmse": 4.704,
+          "bias": 0.203,
+          "error_p80": 4.258
+        },
+        "current_context": {
+          "n": 229,
+          "mae": 2.891,
+          "rmse": 4.536,
+          "bias": 0.423,
+          "error_p80": 4.212
+        },
+        "relative_to_history": {
+          "n": 229,
+          "mae": 2.808,
+          "rmse": 4.512,
+          "bias": 0.499,
+          "error_p80": 3.991
+        },
+        "combined": {
+          "n": 229,
+          "mae": 2.802,
+          "rmse": 4.451,
+          "bias": 0.489,
+          "error_p80": 4.061
+        },
+        "production_supply_blend_50_50": {
+          "n": 229,
+          "mae": 2.851,
+          "rmse": 4.55,
+          "bias": 0.346,
+          "error_p80": 4.058
+        }
+      }
+    },
+    "by_exam": {
+      "LEK": {
+        "baseline": {
+          "n": 798,
+          "mae": 3.051,
+          "rmse": 4.626,
+          "bias": -0.271,
+          "error_p80": 4.457
+        },
+        "production": {
+          "n": 798,
+          "mae": 2.924,
+          "rmse": 4.579,
+          "bias": 0.062,
+          "error_p80": 4.091
+        },
+        "current_context": {
+          "n": 798,
+          "mae": 3.015,
+          "rmse": 4.581,
+          "bias": -0.2,
+          "error_p80": 4.522
+        },
+        "relative_to_history": {
+          "n": 798,
+          "mae": 2.998,
+          "rmse": 4.582,
+          "bias": -0.174,
+          "error_p80": 4.34
+        },
+        "combined": {
+          "n": 798,
+          "mae": 2.957,
+          "rmse": 4.522,
+          "bias": -0.148,
+          "error_p80": 4.463
+        },
+        "production_supply_blend_50_50": {
+          "n": 798,
+          "mae": 2.914,
+          "rmse": 4.528,
+          "bias": -0.043,
+          "error_p80": 4.181
+        }
+      },
+      "LDEK": {
+        "baseline": {
+          "n": 154,
+          "mae": 1.695,
+          "rmse": 2.538,
+          "bias": 0.154,
+          "error_p80": 2.613
+        },
+        "production": {
+          "n": 154,
+          "mae": 1.807,
+          "rmse": 2.675,
+          "bias": 0.428,
+          "error_p80": 2.734
+        },
+        "current_context": {
+          "n": 154,
+          "mae": 1.732,
+          "rmse": 2.576,
+          "bias": 0.247,
+          "error_p80": 2.738
+        },
+        "relative_to_history": {
+          "n": 154,
+          "mae": 1.701,
+          "rmse": 2.539,
+          "bias": 0.162,
+          "error_p80": 2.634
+        },
+        "combined": {
+          "n": 154,
+          "mae": 1.696,
+          "rmse": 2.546,
+          "bias": 0.171,
+          "error_p80": 2.781
+        },
+        "production_supply_blend_50_50": {
+          "n": 154,
+          "mae": 1.736,
+          "rmse": 2.593,
+          "bias": 0.3,
+          "error_p80": 2.645
+        }
+      }
+    },
+    "frozen_shadow_forecast": {
+      "round": "j-2026",
+      "rows": 802,
+      "output": "prediction/data/supply_scale_shadow_forecast_j-2026.csv",
+      "production_unchanged": true
+    },
+    "outputs": {
+      "backtest": "prediction/data/supply_scale_threshold_backtest.csv",
+      "forecast": "prediction/data/supply_scale_shadow_forecast_j-2026.csv"
+    }
+  },
+  "focused_specialties": {
+    "version": "focused-v2",
+    "status": "experimental_production_unchanged",
+    "specialties": [
+      "Chirurgia plastyczna",
+      "Dermatologia i wenerologia",
+      "Endokrynologia",
+      "Gastroenterologia",
+      "Neurochirurgia",
+      "Psychiatria",
+      "Psychiatria dzieci i młodzieży",
+      "Anestezjologia i intensywna terapia",
+      "Ortodoncja",
+      "Chirurgia stomatologiczna"
+    ],
+    "objective": "Regional macro MAE: equal specialty weights; conditional on full pools, with prior competitive history.",
+    "candidates": {
+      "production": "Existing 60/20/20 ensemble",
+      "focused": "Ridge lambda 20 trained only on requested specialties, existing historical base features",
+      "blend": "Fixed 50/50 production and focused"
+    },
+    "selection": "Choose using strictly earlier out-of-fold rounds, minimum two rounds; otherwise production. Shared selection across specialties.",
+    "selections": [
+      {
+        "round": "j-2024",
+        "selected": "production",
+        "validation_rounds": [],
+        "training_rows": 205
+      },
+      {
+        "round": "w-2025",
+        "selected": "production",
+        "validation_rounds": [
+          "j-2024"
+        ],
+        "training_rows": 285
+      },
+      {
+        "round": "j-2025",
+        "selected": "blend",
+        "validation_rounds": [
+          "j-2024",
+          "w-2025"
+        ],
+        "training_rows": 347
+      },
+      {
+        "round": "w-2026",
+        "selected": "blend",
+        "validation_rounds": [
+          "j-2024",
+          "w-2025",
+          "j-2025"
+        ],
+        "training_rows": 436
+      },
+      {
+        "round": "j-2026",
+        "selected": "focused",
+        "validation_rounds": [
+          "j-2024",
+          "w-2025",
+          "j-2025",
+          "w-2026"
+        ],
+        "training_rows": 505
+      }
+    ],
+    "overall": {
+      "production": {
+        "n": 274,
+        "mae": 2.295,
+        "rmse": 3.677,
+        "bias": 0.067,
+        "error_p80": 3.114,
+        "macro_mae": 2.596
+      },
+      "focused": {
+        "n": 274,
+        "mae": 2.206,
+        "rmse": 3.76,
+        "bias": 0.294,
+        "error_p80": 2.766,
+        "macro_mae": 2.499
+      },
+      "blend": {
+        "n": 274,
+        "mae": 2.235,
+        "rmse": 3.697,
+        "bias": 0.181,
+        "error_p80": 2.852,
+        "macro_mae": 2.535
+      },
+      "selected": {
+        "n": 274,
+        "mae": 2.256,
+        "rmse": 3.662,
+        "bias": 0.072,
+        "error_p80": 3.023,
+        "macro_mae": 2.56
+      }
+    },
+    "coverage": [
+      {
+        "specialty": "Chirurgia plastyczna",
+        "historical_rows": 29,
+        "competitive_rows": 25,
+        "forecast_rows": 5,
+        "metrics": {
+          "production": {
+            "n": 13,
+            "mae": 1.981,
+            "rmse": 2.376,
+            "bias": -1.961,
+            "error_p80": 3.424,
+            "macro_mae": 1.981
+          },
+          "focused": {
+            "n": 13,
+            "mae": 1.291,
+            "rmse": 1.583,
+            "bias": -1.143,
+            "error_p80": 1.957,
+            "macro_mae": 1.291
+          },
+          "blend": {
+            "n": 13,
+            "mae": 1.636,
+            "rmse": 1.951,
+            "bias": -1.552,
+            "error_p80": 2.585,
+            "macro_mae": 1.636
+          },
+          "selected": {
+            "n": 13,
+            "mae": 1.864,
+            "rmse": 2.251,
+            "bias": -1.844,
+            "error_p80": 3.01,
+            "macro_mae": 1.864
+          }
+        },
+        "status": "oceniona"
+      },
+      {
+        "specialty": "Dermatologia i wenerologia",
+        "historical_rows": 66,
+        "competitive_rows": 59,
+        "forecast_rows": 11,
+        "metrics": {
+          "production": {
+            "n": 33,
+            "mae": 0.89,
+            "rmse": 1.052,
+            "bias": -0.519,
+            "error_p80": 1.254,
+            "macro_mae": 0.89
+          },
+          "focused": {
+            "n": 33,
+            "mae": 0.661,
+            "rmse": 0.845,
+            "bias": -0.344,
+            "error_p80": 1.216,
+            "macro_mae": 0.661
+          },
+          "blend": {
+            "n": 33,
+            "mae": 0.77,
+            "rmse": 0.927,
+            "bias": -0.431,
+            "error_p80": 1.182,
+            "macro_mae": 0.77
+          },
+          "selected": {
+            "n": 33,
+            "mae": 0.842,
+            "rmse": 1.002,
+            "bias": -0.514,
+            "error_p80": 1.254,
+            "macro_mae": 0.842
+          }
+        },
+        "status": "oceniona"
+      },
+      {
+        "specialty": "Endokrynologia",
+        "historical_rows": 67,
+        "competitive_rows": 64,
+        "forecast_rows": 12,
+        "metrics": {
+          "production": {
+            "n": 36,
+            "mae": 1.128,
+            "rmse": 1.392,
+            "bias": -0.9,
+            "error_p80": 1.574,
+            "macro_mae": 1.128
+          },
+          "focused": {
+            "n": 36,
+            "mae": 0.96,
+            "rmse": 1.222,
+            "bias": -0.696,
+            "error_p80": 1.895,
+            "macro_mae": 0.96
+          },
+          "blend": {
+            "n": 36,
+            "mae": 1.021,
+            "rmse": 1.28,
+            "bias": -0.798,
+            "error_p80": 1.702,
+            "macro_mae": 1.021
+          },
+          "selected": {
+            "n": 36,
+            "mae": 1.08,
+            "rmse": 1.336,
+            "bias": -0.863,
+            "error_p80": 1.569,
+            "macro_mae": 1.08
+          }
+        },
+        "status": "oceniona"
+      },
+      {
+        "specialty": "Gastroenterologia",
+        "historical_rows": 62,
+        "competitive_rows": 56,
+        "forecast_rows": 11,
+        "metrics": {
+          "production": {
+            "n": 30,
+            "mae": 1.276,
+            "rmse": 1.626,
+            "bias": -0.692,
+            "error_p80": 2.071,
+            "macro_mae": 1.276
+          },
+          "focused": {
+            "n": 30,
+            "mae": 1.048,
+            "rmse": 1.377,
+            "bias": -0.423,
+            "error_p80": 1.522,
+            "macro_mae": 1.048
+          },
+          "blend": {
+            "n": 30,
+            "mae": 1.124,
+            "rmse": 1.467,
+            "bias": -0.558,
+            "error_p80": 1.526,
+            "macro_mae": 1.124
+          },
+          "selected": {
+            "n": 30,
+            "mae": 1.179,
+            "rmse": 1.549,
+            "bias": -0.688,
+            "error_p80": 1.884,
+            "macro_mae": 1.179
+          }
+        },
+        "status": "oceniona"
+      },
+      {
+        "specialty": "Neurochirurgia",
+        "historical_rows": 55,
+        "competitive_rows": 44,
+        "forecast_rows": 11,
+        "metrics": {
+          "production": {
+            "n": 20,
+            "mae": 3.588,
+            "rmse": 3.845,
+            "bias": -3.588,
+            "error_p80": 5.211,
+            "macro_mae": 3.588
+          },
+          "focused": {
+            "n": 20,
+            "mae": 3.316,
+            "rmse": 3.597,
+            "bias": -3.316,
+            "error_p80": 4.874,
+            "macro_mae": 3.316
+          },
+          "blend": {
+            "n": 20,
+            "mae": 3.452,
+            "rmse": 3.715,
+            "bias": -3.452,
+            "error_p80": 5.028,
+            "macro_mae": 3.452
+          },
+          "selected": {
+            "n": 20,
+            "mae": 3.512,
+            "rmse": 3.784,
+            "bias": -3.512,
+            "error_p80": 5.195,
+            "macro_mae": 3.512
+          }
+        },
+        "status": "oceniona"
+      },
+      {
+        "specialty": "Psychiatria",
+        "historical_rows": 112,
+        "competitive_rows": 33,
+        "forecast_rows": 16,
+        "metrics": {
+          "production": {
+            "n": 17,
+            "mae": 6.741,
+            "rmse": 8.382,
+            "bias": 3.708,
+            "error_p80": 11.415,
+            "macro_mae": 6.741
+          },
+          "focused": {
+            "n": 17,
+            "mae": 7.261,
+            "rmse": 9.136,
+            "bias": 4.53,
+            "error_p80": 12.041,
+            "macro_mae": 7.261
+          },
+          "blend": {
+            "n": 17,
+            "mae": 7,
+            "rmse": 8.732,
+            "bias": 4.119,
+            "error_p80": 11.732,
+            "macro_mae": 7
+          },
+          "selected": {
+            "n": 17,
+            "mae": 6.847,
+            "rmse": 8.518,
+            "bias": 3.804,
+            "error_p80": 11.732,
+            "macro_mae": 6.847
+          }
+        },
+        "status": "oceniona"
+      },
+      {
+        "specialty": "Psychiatria dzieci i młodzieży",
+        "historical_rows": 85,
+        "competitive_rows": 66,
+        "forecast_rows": 14,
+        "metrics": {
+          "production": {
+            "n": 36,
+            "mae": 3.69,
+            "rmse": 5.755,
+            "bias": 1.961,
+            "error_p80": 5.975,
+            "macro_mae": 3.69
+          },
+          "focused": {
+            "n": 36,
+            "mae": 3.651,
+            "rmse": 5.702,
+            "bias": 1.731,
+            "error_p80": 5.889,
+            "macro_mae": 3.651
+          },
+          "blend": {
+            "n": 36,
+            "mae": 3.638,
+            "rmse": 5.709,
+            "bias": 1.846,
+            "error_p80": 5.932,
+            "macro_mae": 3.638
+          },
+          "selected": {
+            "n": 36,
+            "mae": 3.685,
+            "rmse": 5.676,
+            "bias": 1.854,
+            "error_p80": 5.932,
+            "macro_mae": 3.685
+          }
+        },
+        "status": "oceniona"
+      },
+      {
+        "specialty": "Anestezjologia i intensywna terapia",
+        "historical_rows": 111,
+        "competitive_rows": 36,
+        "forecast_rows": 16,
+        "metrics": {
+          "production": {
+            "n": 21,
+            "mae": 3.902,
+            "rmse": 5.179,
+            "bias": 0.166,
+            "error_p80": 6.017,
+            "macro_mae": 3.902
+          },
+          "focused": {
+            "n": 21,
+            "mae": 4.044,
+            "rmse": 5.65,
+            "bias": 0.759,
+            "error_p80": 5.731,
+            "macro_mae": 4.044
+          },
+          "blend": {
+            "n": 21,
+            "mae": 3.957,
+            "rmse": 5.388,
+            "bias": 0.463,
+            "error_p80": 6.203,
+            "macro_mae": 3.957
+          },
+          "selected": {
+            "n": 21,
+            "mae": 3.947,
+            "rmse": 5.253,
+            "bias": 0.222,
+            "error_p80": 6.203,
+            "macro_mae": 3.947
+          }
+        },
+        "status": "oceniona"
+      },
+      {
+        "specialty": "Ortodoncja",
+        "historical_rows": 63,
+        "competitive_rows": 61,
+        "forecast_rows": 11,
+        "metrics": {
+          "production": {
+            "n": 33,
+            "mae": 1.527,
+            "rmse": 1.917,
+            "bias": 0.416,
+            "error_p80": 2.415,
+            "macro_mae": 1.527
+          },
+          "focused": {
+            "n": 33,
+            "mae": 1.489,
+            "rmse": 1.83,
+            "bias": 0.555,
+            "error_p80": 2.128,
+            "macro_mae": 1.489
+          },
+          "blend": {
+            "n": 33,
+            "mae": 1.507,
+            "rmse": 1.852,
+            "bias": 0.485,
+            "error_p80": 2.242,
+            "macro_mae": 1.507
+          },
+          "selected": {
+            "n": 33,
+            "mae": 1.473,
+            "rmse": 1.836,
+            "bias": 0.411,
+            "error_p80": 2.273,
+            "macro_mae": 1.473
+          }
+        },
+        "status": "oceniona"
+      },
+      {
+        "specialty": "Chirurgia stomatologiczna",
+        "historical_rows": 73,
+        "competitive_rows": 61,
+        "forecast_rows": 14,
+        "metrics": {
+          "production": {
+            "n": 35,
+            "mae": 1.235,
+            "rmse": 1.494,
+            "bias": 1.002,
+            "error_p80": 1.798,
+            "macro_mae": 1.235
+          },
+          "focused": {
+            "n": 35,
+            "mae": 1.271,
+            "rmse": 1.496,
+            "bias": 1.066,
+            "error_p80": 1.974,
+            "macro_mae": 1.271
+          },
+          "blend": {
+            "n": 35,
+            "mae": 1.242,
+            "rmse": 1.471,
+            "bias": 1.034,
+            "error_p80": 1.856,
+            "macro_mae": 1.242
+          },
+          "selected": {
+            "n": 35,
+            "mae": 1.172,
+            "rmse": 1.401,
+            "bias": 0.942,
+            "error_p80": 1.691,
+            "macro_mae": 1.172
+          }
+        },
+        "status": "oceniona"
+      }
+    ],
+    "by_round": {
+      "j-2024": {
+        "production": {
+          "n": 65,
+          "mae": 1.865,
+          "rmse": 2.418,
+          "bias": -0.678,
+          "error_p80": 3.127,
+          "macro_mae": 2.16
+        },
+        "focused": {
+          "n": 65,
+          "mae": 1.759,
+          "rmse": 2.184,
+          "bias": -0.404,
+          "error_p80": 2.767,
+          "macro_mae": 1.898
+        },
+        "blend": {
+          "n": 65,
+          "mae": 1.797,
+          "rmse": 2.276,
+          "bias": -0.541,
+          "error_p80": 2.842,
+          "macro_mae": 2.016
+        },
+        "selected": {
+          "n": 65,
+          "mae": 1.865,
+          "rmse": 2.418,
+          "bias": -0.678,
+          "error_p80": 3.127,
+          "macro_mae": 2.16
+        }
+      },
+      "w-2025": {
+        "production": {
+          "n": 59,
+          "mae": 2.836,
+          "rmse": 4.951,
+          "bias": 0.62,
+          "error_p80": 3.207,
+          "macro_mae": 3.342
+        },
+        "focused": {
+          "n": 59,
+          "mae": 2.847,
+          "rmse": 5.374,
+          "bias": 1.324,
+          "error_p80": 3.256,
+          "macro_mae": 3.482
+        },
+        "blend": {
+          "n": 59,
+          "mae": 2.814,
+          "rmse": 5.143,
+          "bias": 0.972,
+          "error_p80": 3.059,
+          "macro_mae": 3.384
+        },
+        "selected": {
+          "n": 59,
+          "mae": 2.836,
+          "rmse": 4.951,
+          "bias": 0.62,
+          "error_p80": 3.207,
+          "macro_mae": 3.342
+        }
+      },
+      "j-2025": {
+        "production": {
+          "n": 83,
+          "mae": 1.812,
+          "rmse": 2.404,
+          "bias": -0.542,
+          "error_p80": 2.872,
+          "macro_mae": 2.015
+        },
+        "focused": {
+          "n": 83,
+          "mae": 1.727,
+          "rmse": 2.399,
+          "bias": -0.665,
+          "error_p80": 2.487,
+          "macro_mae": 1.995
+        },
+        "blend": {
+          "n": 83,
+          "mae": 1.753,
+          "rmse": 2.376,
+          "bias": -0.604,
+          "error_p80": 2.606,
+          "macro_mae": 1.992
+        },
+        "selected": {
+          "n": 83,
+          "mae": 1.753,
+          "rmse": 2.376,
+          "bias": -0.604,
+          "error_p80": 2.606,
+          "macro_mae": 1.992
+        }
+      },
+      "w-2026": {
+        "production": {
+          "n": 67,
+          "mae": 2.834,
+          "rmse": 4.569,
+          "bias": 1.058,
+          "error_p80": 3.725,
+          "macro_mae": 2.788
+        },
+        "focused": {
+          "n": 67,
+          "mae": 2.666,
+          "rmse": 4.542,
+          "bias": 1.252,
+          "error_p80": 3.339,
+          "macro_mae": 2.487
+        },
+        "blend": {
+          "n": 67,
+          "mae": 2.747,
+          "rmse": 4.537,
+          "bias": 1.155,
+          "error_p80": 3.199,
+          "macro_mae": 2.634
+        },
+        "selected": {
+          "n": 67,
+          "mae": 2.747,
+          "rmse": 4.537,
+          "bias": 1.155,
+          "error_p80": 3.199,
+          "macro_mae": 2.634
+        }
+      }
+    },
+    "promotion_eligible_on_macro_mae": true,
+    "limitations": [
+      "Exploratory reuse of historical data; needs prospective validation.",
+      "No claim of improvement for specialties without evaluable full pools.",
+      "Existing fill model remains separate and unchanged; national thresholds are not this target.",
+      "Historical feature summaries retain information from other specialties; only fitted training targets are restricted."
+    ]
+  },
+  "ranking_experiment": {
+    "status": "experimental_only_production_unchanged",
+    "candidates": 18608,
+    "identical_duplicates_removed": 0,
+    "feature_variants": {
+      "profile": [
+        "hist_q25",
+        "hist_mediana",
+        "hist_iqr"
+      ],
+      "positions": [
+        "hist_percentyl_min",
+        "hist_percentyl_mediana"
+      ],
+      "shares": [
+        "hist_udzial_top10",
+        "hist_udzial_top20",
+        "hist_koncentracja_top10",
+        "hist_koncentracja_top20"
+      ],
+      "ranking": [
+        "hist_percentyl_min",
+        "hist_percentyl_mediana",
+        "hist_udzial_top10",
+        "hist_udzial_top20",
+        "hist_koncentracja_top10",
+        "hist_koncentracja_top20"
+      ],
+      "combined": [
+        "hist_q25",
+        "hist_mediana",
+        "hist_iqr",
+        "hist_percentyl_min",
+        "hist_percentyl_mediana",
+        "hist_udzial_top10",
+        "hist_udzial_top20",
+        "hist_koncentracja_top10",
+        "hist_koncentracja_top20"
+      ],
+      "hierarchy": [
+        "hierarchical_anchor_fixed"
+      ],
+      "hierarchy_shares": [
+        "hierarchical_anchor_fixed",
+        "hist_udzial_top10",
+        "hist_udzial_top20",
+        "hist_koncentracja_top10",
+        "hist_koncentracja_top20"
+      ]
+    },
+    "lambda": 20,
+    "hierarchical_anchor": "Fixed partial pooling: specialty mean shrunk toward the global mean with prior weight 8, then cell mean toward that specialty anchor with prior weight 3. Weights specified before evaluation and not tuned.",
+    "history_rule": "Latest observed same-season cell; fallback latest observed cell. Strictly earlier rounds only.",
+    "percentile_definition": "Midrank percentile among accepted residents in the same round and LEK/LDEK path; higher is better. Fractional top-10/20% membership for ties.",
+    "regional": {
+      "base": {
+        "n": 952,
+        "mae": 2.831,
+        "rmse": 4.357,
+        "bias": -0.202,
+        "error_p80": 4.063
+      },
+      "production": {
+        "n": 952,
+        "mae": 2.744,
+        "rmse": 4.328,
+        "bias": 0.122,
+        "error_p80": 3.872
+      },
+      "profile": {
+        "n": 952,
+        "mae": 2.793,
+        "rmse": 4.303,
+        "bias": -0.18,
+        "error_p80": 4.012
+      },
+      "positions": {
+        "n": 952,
+        "mae": 2.821,
+        "rmse": 4.341,
+        "bias": -0.195,
+        "error_p80": 4.206
+      },
+      "shares": {
+        "n": 952,
+        "mae": 2.793,
+        "rmse": 4.339,
+        "bias": -0.199,
+        "error_p80": 4.192
+      },
+      "ranking": {
+        "n": 952,
+        "mae": 2.787,
+        "rmse": 4.33,
+        "bias": -0.185,
+        "error_p80": 4.183
+      },
+      "combined": {
+        "n": 952,
+        "mae": 2.784,
+        "rmse": 4.321,
+        "bias": -0.205,
+        "error_p80": 4.119
+      },
+      "hierarchy": {
+        "n": 952,
+        "mae": 2.825,
+        "rmse": 4.364,
+        "bias": -0.225,
+        "error_p80": 4.158
+      },
+      "hierarchy_shares": {
+        "n": 952,
+        "mae": 2.803,
+        "rmse": 4.35,
+        "bias": -0.208,
+        "error_p80": 4.172
+      }
+    },
+    "national": {
+      "base": {
+        "n": 49,
+        "mae": 1.365,
+        "rmse": 1.737,
+        "bias": -0.79,
+        "error_p80": 2.03
+      },
+      "production": {
+        "n": 49,
+        "mae": 1.274,
+        "rmse": 1.656,
+        "bias": -0.507,
+        "error_p80": 1.632
+      },
+      "profile": {
+        "n": 49,
+        "mae": 1.346,
+        "rmse": 1.735,
+        "bias": -0.793,
+        "error_p80": 1.883
+      },
+      "positions": {
+        "n": 49,
+        "mae": 1.286,
+        "rmse": 1.67,
+        "bias": -0.695,
+        "error_p80": 1.76
+      },
+      "shares": {
+        "n": 49,
+        "mae": 1.17,
+        "rmse": 1.591,
+        "bias": -0.634,
+        "error_p80": 1.911
+      },
+      "ranking": {
+        "n": 49,
+        "mae": 1.151,
+        "rmse": 1.581,
+        "bias": -0.605,
+        "error_p80": 1.853
+      },
+      "combined": {
+        "n": 49,
+        "mae": 1.165,
+        "rmse": 1.6,
+        "bias": -0.64,
+        "error_p80": 1.883
+      },
+      "hierarchy": {
+        "n": 49,
+        "mae": 1.251,
+        "rmse": 1.65,
+        "bias": -0.638,
+        "error_p80": 1.719
+      },
+      "hierarchy_shares": {
+        "n": 49,
+        "mae": 1.124,
+        "rmse": 1.578,
+        "bias": -0.533,
+        "error_p80": 1.808
+      }
+    },
+    "paired_national": {
+      "rows_improved": 31,
+      "rows_tied": 0,
+      "rows_worsened": 18,
+      "specialties_improved": 14,
+      "specialties_tied": 0,
+      "specialties_worsened": 10,
+      "specialties_total": 24,
+      "mae_gain_ranking_over_production": 0.123,
+      "leave_one_specialty_out_min_gain": 0.094,
+      "leave_one_specialty_out_max_gain": 0.154,
+      "leave_one_specialty_out_all_positive": true
+    },
+    "national_by_specialty": [
+      {
+        "dziedzina_medycyny": "Neurologia dziecięca",
+        "liczba_rund": 1,
+        "mae_produkcja": 4.197,
+        "mae_ranking": 3.049,
+        "poprawa_mae_ranking_minus_produkcja": 1.148,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 0
+      },
+      {
+        "dziedzina_medycyny": "Chirurgia plastyczna",
+        "liczba_rund": 3,
+        "mae_produkcja": 2.038,
+        "mae_ranking": 1.579,
+        "poprawa_mae_ranking_minus_produkcja": 0.459,
+        "rundy_wygrane_ranking": 3,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 0
+      },
+      {
+        "dziedzina_medycyny": "Urologia",
+        "liczba_rund": 4,
+        "mae_produkcja": 1.114,
+        "mae_ranking": 0.661,
+        "poprawa_mae_ranking_minus_produkcja": 0.453,
+        "rundy_wygrane_ranking": 3,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Endokrynologia",
+        "liczba_rund": 4,
+        "mae_produkcja": 1.011,
+        "mae_ranking": 0.566,
+        "poprawa_mae_ranking_minus_produkcja": 0.444,
+        "rundy_wygrane_ranking": 4,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 0
+      },
+      {
+        "dziedzina_medycyny": "Chirurgia stomatologiczna",
+        "liczba_rund": 3,
+        "mae_produkcja": 1.144,
+        "mae_ranking": 0.782,
+        "poprawa_mae_ranking_minus_produkcja": 0.362,
+        "rundy_wygrane_ranking": 2,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Diabetologia",
+        "liczba_rund": 2,
+        "mae_produkcja": 0.666,
+        "mae_ranking": 0.306,
+        "poprawa_mae_ranking_minus_produkcja": 0.36,
+        "rundy_wygrane_ranking": 2,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 0
+      },
+      {
+        "dziedzina_medycyny": "Radiologia i diagnostyka obrazowa",
+        "liczba_rund": 1,
+        "mae_produkcja": 0.64,
+        "mae_ranking": 0.343,
+        "poprawa_mae_ranking_minus_produkcja": 0.297,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 0
+      },
+      {
+        "dziedzina_medycyny": "Dermatologia i wenerologia",
+        "liczba_rund": 4,
+        "mae_produkcja": 0.645,
+        "mae_ranking": 0.388,
+        "poprawa_mae_ranking_minus_produkcja": 0.257,
+        "rundy_wygrane_ranking": 3,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Alergologia",
+        "liczba_rund": 1,
+        "mae_produkcja": 1.632,
+        "mae_ranking": 1.398,
+        "poprawa_mae_ranking_minus_produkcja": 0.234,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 0
+      },
+      {
+        "dziedzina_medycyny": "Otorynolaryngologia",
+        "liczba_rund": 1,
+        "mae_produkcja": 0.797,
+        "mae_ranking": 0.612,
+        "poprawa_mae_ranking_minus_produkcja": 0.185,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 0
+      },
+      {
+        "dziedzina_medycyny": "Ortodoncja",
+        "liczba_rund": 4,
+        "mae_produkcja": 0.856,
+        "mae_ranking": 0.678,
+        "poprawa_mae_ranking_minus_produkcja": 0.178,
+        "rundy_wygrane_ranking": 2,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 2
+      },
+      {
+        "dziedzina_medycyny": "Ortopedia i traumatologia narządu ruchu",
+        "liczba_rund": 1,
+        "mae_produkcja": 3.711,
+        "mae_ranking": 3.546,
+        "poprawa_mae_ranking_minus_produkcja": 0.165,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 0
+      },
+      {
+        "dziedzina_medycyny": "Periodontologia",
+        "liczba_rund": 2,
+        "mae_produkcja": 0.411,
+        "mae_ranking": 0.323,
+        "poprawa_mae_ranking_minus_produkcja": 0.088,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Reumatologia",
+        "liczba_rund": 2,
+        "mae_produkcja": 0.215,
+        "mae_ranking": 0.17,
+        "poprawa_mae_ranking_minus_produkcja": 0.045,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+        "liczba_rund": 2,
+        "mae_produkcja": 2.415,
+        "mae_ranking": 2.482,
+        "poprawa_mae_ranking_minus_produkcja": -0.067,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Stomatologia dziecięca",
+        "liczba_rund": 1,
+        "mae_produkcja": 1.39,
+        "mae_ranking": 1.518,
+        "poprawa_mae_ranking_minus_produkcja": -0.128,
+        "rundy_wygrane_ranking": 0,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Kardiologia",
+        "liczba_rund": 1,
+        "mae_produkcja": 2.009,
+        "mae_ranking": 2.197,
+        "poprawa_mae_ranking_minus_produkcja": -0.188,
+        "rundy_wygrane_ranking": 0,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Okulistyka",
+        "liczba_rund": 2,
+        "mae_produkcja": 0.761,
+        "mae_ranking": 0.962,
+        "poprawa_mae_ranking_minus_produkcja": -0.201,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Gastroenterologia",
+        "liczba_rund": 2,
+        "mae_produkcja": 0.651,
+        "mae_ranking": 0.859,
+        "poprawa_mae_ranking_minus_produkcja": -0.209,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Neurochirurgia",
+        "liczba_rund": 2,
+        "mae_produkcja": 3.088,
+        "mae_ranking": 3.314,
+        "poprawa_mae_ranking_minus_produkcja": -0.227,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Endokrynologia i diabetologia dziecięca",
+        "liczba_rund": 2,
+        "mae_produkcja": 1.212,
+        "mae_ranking": 1.531,
+        "poprawa_mae_ranking_minus_produkcja": -0.319,
+        "rundy_wygrane_ranking": 1,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Chirurgia naczyniowa",
+        "liczba_rund": 1,
+        "mae_produkcja": 0.79,
+        "mae_ranking": 1.136,
+        "poprawa_mae_ranking_minus_produkcja": -0.346,
+        "rundy_wygrane_ranking": 0,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      },
+      {
+        "dziedzina_medycyny": "Otorynolaryngologia dziecięca",
+        "liczba_rund": 2,
+        "mae_produkcja": 1.385,
+        "mae_ranking": 1.992,
+        "poprawa_mae_ranking_minus_produkcja": -0.607,
+        "rundy_wygrane_ranking": 0,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 2
+      },
+      {
+        "dziedzina_medycyny": "Gastroenterologia dziecięca",
+        "liczba_rund": 1,
+        "mae_produkcja": 1.632,
+        "mae_ranking": 2.485,
+        "poprawa_mae_ranking_minus_produkcja": -0.853,
+        "rundy_wygrane_ranking": 0,
+        "rundy_remis": 0,
+        "rundy_przegrane_ranking": 1
+      }
+    ],
+    "national_leave_one_specialty_out": [
+      {
+        "excluded_specialty": "Neurologia dziecięca",
+        "n": 48,
+        "mae_gain_ranking_over_production": 0.102
+      },
+      {
+        "excluded_specialty": "Chirurgia plastyczna",
+        "n": 46,
+        "mae_gain_ranking_over_production": 0.101
+      },
+      {
+        "excluded_specialty": "Urologia",
+        "n": 45,
+        "mae_gain_ranking_over_production": 0.094
+      },
+      {
+        "excluded_specialty": "Endokrynologia",
+        "n": 45,
+        "mae_gain_ranking_over_production": 0.095
+      },
+      {
+        "excluded_specialty": "Chirurgia stomatologiczna",
+        "n": 46,
+        "mae_gain_ranking_over_production": 0.107
+      },
+      {
+        "excluded_specialty": "Diabetologia",
+        "n": 47,
+        "mae_gain_ranking_over_production": 0.113
+      },
+      {
+        "excluded_specialty": "Radiologia i diagnostyka obrazowa",
+        "n": 48,
+        "mae_gain_ranking_over_production": 0.12
+      },
+      {
+        "excluded_specialty": "Dermatologia i wenerologia",
+        "n": 45,
+        "mae_gain_ranking_over_production": 0.111
+      },
+      {
+        "excluded_specialty": "Alergologia",
+        "n": 48,
+        "mae_gain_ranking_over_production": 0.121
+      },
+      {
+        "excluded_specialty": "Otorynolaryngologia",
+        "n": 48,
+        "mae_gain_ranking_over_production": 0.121
+      },
+      {
+        "excluded_specialty": "Ortodoncja",
+        "n": 45,
+        "mae_gain_ranking_over_production": 0.119
+      },
+      {
+        "excluded_specialty": "Ortopedia i traumatologia narządu ruchu",
+        "n": 48,
+        "mae_gain_ranking_over_production": 0.122
+      },
+      {
+        "excluded_specialty": "Periodontologia",
+        "n": 47,
+        "mae_gain_ranking_over_production": 0.124
+      },
+      {
+        "excluded_specialty": "Reumatologia",
+        "n": 47,
+        "mae_gain_ranking_over_production": 0.127
+      },
+      {
+        "excluded_specialty": "Psychiatria dzieci i młodzieży",
+        "n": 47,
+        "mae_gain_ranking_over_production": 0.131
+      },
+      {
+        "excluded_specialty": "Stomatologia dziecięca",
+        "n": 48,
+        "mae_gain_ranking_over_production": 0.128
+      },
+      {
+        "excluded_specialty": "Kardiologia",
+        "n": 48,
+        "mae_gain_ranking_over_production": 0.129
+      },
+      {
+        "excluded_specialty": "Okulistyka",
+        "n": 47,
+        "mae_gain_ranking_over_production": 0.137
+      },
+      {
+        "excluded_specialty": "Gastroenterologia",
+        "n": 47,
+        "mae_gain_ranking_over_production": 0.137
+      },
+      {
+        "excluded_specialty": "Neurochirurgia",
+        "n": 47,
+        "mae_gain_ranking_over_production": 0.138
+      },
+      {
+        "excluded_specialty": "Endokrynologia i diabetologia dziecięca",
+        "n": 47,
+        "mae_gain_ranking_over_production": 0.142
+      },
+      {
+        "excluded_specialty": "Chirurgia naczyniowa",
+        "n": 48,
+        "mae_gain_ranking_over_production": 0.133
+      },
+      {
+        "excluded_specialty": "Otorynolaryngologia dziecięca",
+        "n": 47,
+        "mae_gain_ranking_over_production": 0.154
+      },
+      {
+        "excluded_specialty": "Gastroenterologia dziecięca",
+        "n": 48,
+        "mae_gain_ranking_over_production": 0.143
+      }
+    ],
+    "frozen_shadow_forecast": {
+      "frozen_at": "2026-09-23",
+      "model_version": "ranking-shares-v1",
+      "forecast_round": "j-2026",
+      "feature_variant": "shares",
+      "specialties": 68,
+      "output": "prediction/data/ranking_shadow_forecast_j-2026.csv",
+      "production_unchanged": true
+    },
+    "regional_stable": {
+      "base": {
+        "n": 47,
+        "mae": 1.149,
+        "rmse": 1.462,
+        "bias": -0.166,
+        "error_p80": 1.772
+      },
+      "production": {
+        "n": 47,
+        "mae": 1.162,
+        "rmse": 1.495,
+        "bias": -0.332,
+        "error_p80": 1.79
+      },
+      "profile": {
+        "n": 47,
+        "mae": 1.164,
+        "rmse": 1.459,
+        "bias": -0.242,
+        "error_p80": 1.653
+      },
+      "positions": {
+        "n": 47,
+        "mae": 1.143,
+        "rmse": 1.48,
+        "bias": -0.228,
+        "error_p80": 1.646
+      },
+      "shares": {
+        "n": 47,
+        "mae": 1.208,
+        "rmse": 1.5,
+        "bias": -0.207,
+        "error_p80": 1.947
+      },
+      "ranking": {
+        "n": 47,
+        "mae": 1.167,
+        "rmse": 1.478,
+        "bias": -0.231,
+        "error_p80": 1.744
+      },
+      "combined": {
+        "n": 47,
+        "mae": 1.183,
+        "rmse": 1.491,
+        "bias": -0.26,
+        "error_p80": 1.756
+      },
+      "hierarchy": {
+        "n": 47,
+        "mae": 1.155,
+        "rmse": 1.463,
+        "bias": -0.19,
+        "error_p80": 1.759
+      },
+      "hierarchy_shares": {
+        "n": 47,
+        "mae": 1.232,
+        "rmse": 1.51,
+        "bias": -0.213,
+        "error_p80": 1.956
+      }
+    },
+    "by_exam": {
+      "LEK": {
+        "base": {
+          "n": 798,
+          "mae": 3.051,
+          "rmse": 4.626,
+          "bias": -0.271,
+          "error_p80": 4.457
+        },
+        "production": {
+          "n": 798,
+          "mae": 2.924,
+          "rmse": 4.579,
+          "bias": 0.062,
+          "error_p80": 4.091
+        },
+        "profile": {
+          "n": 798,
+          "mae": 3.002,
+          "rmse": 4.562,
+          "bias": -0.23,
+          "error_p80": 4.365
+        },
+        "positions": {
+          "n": 798,
+          "mae": 3.017,
+          "rmse": 4.604,
+          "bias": -0.261,
+          "error_p80": 4.544
+        },
+        "shares": {
+          "n": 798,
+          "mae": 2.99,
+          "rmse": 4.598,
+          "bias": -0.25,
+          "error_p80": 4.622
+        },
+        "ranking": {
+          "n": 798,
+          "mae": 2.974,
+          "rmse": 4.587,
+          "bias": -0.232,
+          "error_p80": 4.594
+        },
+        "combined": {
+          "n": 798,
+          "mae": 2.972,
+          "rmse": 4.577,
+          "bias": -0.246,
+          "error_p80": 4.569
+        },
+        "hierarchy": {
+          "n": 798,
+          "mae": 3.039,
+          "rmse": 4.633,
+          "bias": -0.268,
+          "error_p80": 4.621
+        },
+        "hierarchy_shares": {
+          "n": 798,
+          "mae": 2.998,
+          "rmse": 4.61,
+          "bias": -0.242,
+          "error_p80": 4.581
+        }
+      },
+      "LDEK": {
+        "base": {
+          "n": 154,
+          "mae": 1.695,
+          "rmse": 2.538,
+          "bias": 0.154,
+          "error_p80": 2.613
+        },
+        "production": {
+          "n": 154,
+          "mae": 1.807,
+          "rmse": 2.675,
+          "bias": 0.428,
+          "error_p80": 2.734
+        },
+        "profile": {
+          "n": 154,
+          "mae": 1.71,
+          "rmse": 2.577,
+          "bias": 0.079,
+          "error_p80": 2.575
+        },
+        "positions": {
+          "n": 154,
+          "mae": 1.807,
+          "rmse": 2.589,
+          "bias": 0.152,
+          "error_p80": 2.612
+        },
+        "shares": {
+          "n": 154,
+          "mae": 1.771,
+          "rmse": 2.611,
+          "bias": 0.066,
+          "error_p80": 2.729
+        },
+        "ranking": {
+          "n": 154,
+          "mae": 1.814,
+          "rmse": 2.618,
+          "bias": 0.061,
+          "error_p80": 2.756
+        },
+        "combined": {
+          "n": 154,
+          "mae": 1.809,
+          "rmse": 2.626,
+          "bias": 0.009,
+          "error_p80": 2.79
+        },
+        "hierarchy": {
+          "n": 154,
+          "mae": 1.718,
+          "rmse": 2.554,
+          "bias": -0.004,
+          "error_p80": 2.6
+        },
+        "hierarchy_shares": {
+          "n": 154,
+          "mae": 1.792,
+          "rmse": 2.616,
+          "bias": -0.031,
+          "error_p80": 2.813
+        }
+      }
+    },
+    "by_round": {
+      "j-2024": {
+        "regional": {
+          "base": {
+            "n": 228,
+            "mae": 2.567,
+            "rmse": 3.548,
+            "bias": -0.781,
+            "error_p80": 3.936
+          },
+          "production": {
+            "n": 228,
+            "mae": 2.364,
+            "rmse": 3.422,
+            "bias": 0.247,
+            "error_p80": 3.718
+          },
+          "profile": {
+            "n": 228,
+            "mae": 2.477,
+            "rmse": 3.478,
+            "bias": -0.573,
+            "error_p80": 3.871
+          },
+          "positions": {
+            "n": 228,
+            "mae": 2.568,
+            "rmse": 3.602,
+            "bias": -0.783,
+            "error_p80": 4.179
+          },
+          "shares": {
+            "n": 228,
+            "mae": 2.466,
+            "rmse": 3.528,
+            "bias": -0.729,
+            "error_p80": 3.832
+          },
+          "ranking": {
+            "n": 228,
+            "mae": 2.498,
+            "rmse": 3.573,
+            "bias": -0.739,
+            "error_p80": 4.038
+          },
+          "combined": {
+            "n": 228,
+            "mae": 2.504,
+            "rmse": 3.576,
+            "bias": -0.755,
+            "error_p80": 4.031
+          },
+          "hierarchy": {
+            "n": 228,
+            "mae": 2.495,
+            "rmse": 3.525,
+            "bias": -0.625,
+            "error_p80": 3.898
+          },
+          "hierarchy_shares": {
+            "n": 228,
+            "mae": 2.453,
+            "rmse": 3.527,
+            "bias": -0.607,
+            "error_p80": 3.926
+          }
+        },
+        "national": {
+          "base": {
+            "n": 11,
+            "mae": 1.557,
+            "rmse": 1.958,
+            "bias": -0.73,
+            "error_p80": 2.036
+          },
+          "production": {
+            "n": 11,
+            "mae": 1.437,
+            "rmse": 1.833,
+            "bias": 0.229,
+            "error_p80": 1.51
+          },
+          "profile": {
+            "n": 11,
+            "mae": 1.476,
+            "rmse": 1.888,
+            "bias": -0.598,
+            "error_p80": 1.874
+          },
+          "positions": {
+            "n": 11,
+            "mae": 1.38,
+            "rmse": 1.763,
+            "bias": -0.533,
+            "error_p80": 1.733
+          },
+          "shares": {
+            "n": 11,
+            "mae": 1.092,
+            "rmse": 1.474,
+            "bias": -0.352,
+            "error_p80": 1.507
+          },
+          "ranking": {
+            "n": 11,
+            "mae": 1.104,
+            "rmse": 1.495,
+            "bias": -0.326,
+            "error_p80": 1.481
+          },
+          "combined": {
+            "n": 11,
+            "mae": 1.105,
+            "rmse": 1.497,
+            "bias": -0.334,
+            "error_p80": 1.489
+          },
+          "hierarchy": {
+            "n": 11,
+            "mae": 1.268,
+            "rmse": 1.687,
+            "bias": -0.273,
+            "error_p80": 1.412
+          },
+          "hierarchy_shares": {
+            "n": 11,
+            "mae": 0.935,
+            "rmse": 1.385,
+            "bias": -0.029,
+            "error_p80": 1.086
+          }
+        }
+      },
+      "w-2025": {
+        "regional": {
+          "base": {
+            "n": 200,
+            "mae": 3.172,
+            "rmse": 5.178,
+            "bias": 1.039,
+            "error_p80": 4.326
+          },
+          "production": {
+            "n": 200,
+            "mae": 3.168,
+            "rmse": 5.18,
+            "bias": 1.014,
+            "error_p80": 4.222
+          },
+          "profile": {
+            "n": 200,
+            "mae": 3.132,
+            "rmse": 5.084,
+            "bias": 0.896,
+            "error_p80": 4.603
+          },
+          "positions": {
+            "n": 200,
+            "mae": 3.132,
+            "rmse": 5.095,
+            "bias": 0.931,
+            "error_p80": 4.595
+          },
+          "shares": {
+            "n": 200,
+            "mae": 3.083,
+            "rmse": 5.132,
+            "bias": 0.98,
+            "error_p80": 4.682
+          },
+          "ranking": {
+            "n": 200,
+            "mae": 3.064,
+            "rmse": 5.085,
+            "bias": 0.922,
+            "error_p80": 4.785
+          },
+          "combined": {
+            "n": 200,
+            "mae": 3.058,
+            "rmse": 5.065,
+            "bias": 0.883,
+            "error_p80": 4.842
+          },
+          "hierarchy": {
+            "n": 200,
+            "mae": 3.163,
+            "rmse": 5.132,
+            "bias": 0.903,
+            "error_p80": 4.616
+          },
+          "hierarchy_shares": {
+            "n": 200,
+            "mae": 3.083,
+            "rmse": 5.106,
+            "bias": 0.886,
+            "error_p80": 4.94
+          }
+        },
+        "national": {
+          "base": {
+            "n": 8,
+            "mae": 1.129,
+            "rmse": 1.183,
+            "bias": -0.505,
+            "error_p80": 1.341
+          },
+          "production": {
+            "n": 8,
+            "mae": 1.052,
+            "rmse": 1.12,
+            "bias": -0.59,
+            "error_p80": 1.378
+          },
+          "profile": {
+            "n": 8,
+            "mae": 1.094,
+            "rmse": 1.188,
+            "bias": -0.632,
+            "error_p80": 1.45
+          },
+          "positions": {
+            "n": 8,
+            "mae": 0.978,
+            "rmse": 1.069,
+            "bias": -0.524,
+            "error_p80": 1.405
+          },
+          "shares": {
+            "n": 8,
+            "mae": 0.635,
+            "rmse": 0.827,
+            "bias": -0.337,
+            "error_p80": 0.688
+          },
+          "ranking": {
+            "n": 8,
+            "mae": 0.652,
+            "rmse": 0.841,
+            "bias": -0.388,
+            "error_p80": 0.744
+          },
+          "combined": {
+            "n": 8,
+            "mae": 0.659,
+            "rmse": 0.861,
+            "bias": -0.431,
+            "error_p80": 0.783
+          },
+          "hierarchy": {
+            "n": 8,
+            "mae": 0.998,
+            "rmse": 1.068,
+            "bias": -0.42,
+            "error_p80": 1.36
+          },
+          "hierarchy_shares": {
+            "n": 8,
+            "mae": 0.604,
+            "rmse": 0.851,
+            "bias": -0.296,
+            "error_p80": 0.66
+          }
+        }
+      },
+      "j-2025": {
+        "regional": {
+          "base": {
+            "n": 295,
+            "mae": 2.766,
+            "rmse": 4.147,
+            "bias": -1.094,
+            "error_p80": 4.03
+          },
+          "production": {
+            "n": 295,
+            "mae": 2.577,
+            "rmse": 4.003,
+            "bias": -0.644,
+            "error_p80": 3.723
+          },
+          "profile": {
+            "n": 295,
+            "mae": 2.639,
+            "rmse": 3.993,
+            "bias": -0.882,
+            "error_p80": 3.794
+          },
+          "positions": {
+            "n": 295,
+            "mae": 2.71,
+            "rmse": 4.045,
+            "bias": -0.985,
+            "error_p80": 3.986
+          },
+          "shares": {
+            "n": 295,
+            "mae": 2.751,
+            "rmse": 4.115,
+            "bias": -1.06,
+            "error_p80": 4.2
+          },
+          "ranking": {
+            "n": 295,
+            "mae": 2.7,
+            "rmse": 4.036,
+            "bias": -0.971,
+            "error_p80": 4.058
+          },
+          "combined": {
+            "n": 295,
+            "mae": 2.643,
+            "rmse": 3.987,
+            "bias": -0.883,
+            "error_p80": 3.942
+          },
+          "hierarchy": {
+            "n": 295,
+            "mae": 2.807,
+            "rmse": 4.224,
+            "bias": -1.15,
+            "error_p80": 4.178
+          },
+          "hierarchy_shares": {
+            "n": 295,
+            "mae": 2.792,
+            "rmse": 4.173,
+            "bias": -1.104,
+            "error_p80": 4.297
+          }
+        },
+        "national": {
+          "base": {
+            "n": 17,
+            "mae": 1.374,
+            "rmse": 1.756,
+            "bias": -1.257,
+            "error_p80": 2.174
+          },
+          "production": {
+            "n": 17,
+            "mae": 1.04,
+            "rmse": 1.395,
+            "bias": -0.845,
+            "error_p80": 1.606
+          },
+          "profile": {
+            "n": 17,
+            "mae": 1.255,
+            "rmse": 1.636,
+            "bias": -1.131,
+            "error_p80": 2.031
+          },
+          "positions": {
+            "n": 17,
+            "mae": 1.257,
+            "rmse": 1.652,
+            "bias": -1.087,
+            "error_p80": 2.011
+          },
+          "shares": {
+            "n": 17,
+            "mae": 1.29,
+            "rmse": 1.698,
+            "bias": -1.124,
+            "error_p80": 2.03
+          },
+          "ranking": {
+            "n": 17,
+            "mae": 1.198,
+            "rmse": 1.619,
+            "bias": -1.019,
+            "error_p80": 1.989
+          },
+          "combined": {
+            "n": 17,
+            "mae": 1.172,
+            "rmse": 1.585,
+            "bias": -1.011,
+            "error_p80": 1.961
+          },
+          "hierarchy": {
+            "n": 17,
+            "mae": 1.28,
+            "rmse": 1.71,
+            "bias": -1.131,
+            "error_p80": 2.123
+          },
+          "hierarchy_shares": {
+            "n": 17,
+            "mae": 1.27,
+            "rmse": 1.697,
+            "bias": -1.052,
+            "error_p80": 2.059
+          }
+        }
+      },
+      "w-2026": {
+        "regional": {
+          "base": {
+            "n": 229,
+            "mae": 2.881,
+            "rmse": 4.561,
+            "bias": 0.439,
+            "error_p80": 4.083
+          },
+          "production": {
+            "n": 229,
+            "mae": 2.965,
+            "rmse": 4.704,
+            "bias": 0.203,
+            "error_p80": 4.258
+          },
+          "profile": {
+            "n": 229,
+            "mae": 3.01,
+            "rmse": 4.672,
+            "bias": 0.176,
+            "error_p80": 4.348
+          },
+          "positions": {
+            "n": 229,
+            "mae": 2.945,
+            "rmse": 4.657,
+            "bias": 0.427,
+            "error_p80": 4.345
+          },
+          "shares": {
+            "n": 229,
+            "mae": 2.92,
+            "rmse": 4.59,
+            "bias": 0.407,
+            "error_p80": 4.218
+          },
+          "ranking": {
+            "n": 229,
+            "mae": 2.944,
+            "rmse": 4.652,
+            "bias": 0.414,
+            "error_p80": 4.4
+          },
+          "combined": {
+            "n": 229,
+            "mae": 3.005,
+            "rmse": 4.693,
+            "bias": 0.268,
+            "error_p80": 4.421
+          },
+          "hierarchy": {
+            "n": 229,
+            "mae": 2.883,
+            "rmse": 4.561,
+            "bias": 0.378,
+            "error_p80": 4.03
+          },
+          "hierarchy_shares": {
+            "n": 229,
+            "mae": 2.921,
+            "rmse": 4.59,
+            "bias": 0.387,
+            "error_p80": 4.237
+          }
+        },
+        "national": {
+          "base": {
+            "n": 13,
+            "mae": 1.337,
+            "rmse": 1.798,
+            "bias": -0.405,
+            "error_p80": 1.778
+          },
+          "production": {
+            "n": 13,
+            "mae": 1.58,
+            "rmse": 2.044,
+            "bias": -0.637,
+            "error_p80": 2.253
+          },
+          "profile": {
+            "n": 13,
+            "mae": 1.509,
+            "rmse": 1.992,
+            "bias": -0.616,
+            "error_p80": 2.044
+          },
+          "positions": {
+            "n": 13,
+            "mae": 1.436,
+            "rmse": 1.899,
+            "bias": -0.426,
+            "error_p80": 1.933
+          },
+          "shares": {
+            "n": 13,
+            "mae": 1.408,
+            "rmse": 1.875,
+            "bias": -0.414,
+            "error_p80": 1.903
+          },
+          "ranking": {
+            "n": 13,
+            "mae": 1.438,
+            "rmse": 1.915,
+            "bias": -0.431,
+            "error_p80": 1.952
+          },
+          "combined": {
+            "n": 13,
+            "mae": 1.518,
+            "rmse": 2.004,
+            "bias": -0.544,
+            "error_p80": 2.064
+          },
+          "hierarchy": {
+            "n": 13,
+            "mae": 1.353,
+            "rmse": 1.825,
+            "bias": -0.435,
+            "error_p80": 1.826
+          },
+          "hierarchy_shares": {
+            "n": 13,
+            "mae": 1.413,
+            "rmse": 1.885,
+            "bias": -0.425,
+            "error_p80": 1.923
+          }
+        }
+      }
+    },
+    "limitations": [
+      "Accepted candidates only, not preferences or all applicants.",
+      "Four evaluation rounds; exploratory comparison without hyperparameter tuning.",
+      "National evaluation retains the existing conditional high-fill subset.",
+      "National specialty shares use the same historical snapshot as the regional cell; missing cells are training-mean imputed."
+    ]
+  },
+  "generated_at": "2026-10-17T14:43:51.927Z",
   "model": {
     "type": "ridge_regression",
     "lambda": 20,
@@ -152,6 +3035,206 @@
       "sezon",
       "egzamin"
     ]
+  },
+  "geography_experiment": {
+    "status": "diagnostyczny; nie zmienia wariantu produkcyjnego",
+    "provinces": [
+      "Dolnośląskie",
+      "Mazowieckie",
+      "Warmińsko-mazurskie"
+    ],
+    "validation": "rolling-origin, oba warianty trenowane i oceniane na identycznych rekordach z pokryciem geograficznym >=95%",
+    "features": [
+      "udzial_pojemnosci_duze_miasta",
+      "udzial_pojemnosci_miasta_akademickie",
+      "srednia_odleglosc_od_stolicy_km"
+    ],
+    "rows": 190,
+    "baseline_same_subset": {
+      "n": 190,
+      "mae": 3.347,
+      "rmse": 4.947,
+      "bias": 0.29,
+      "error_p80": 4.923
+    },
+    "variants": {
+      "large_city_share": {
+        "n": 190,
+        "mae": 3.378,
+        "rmse": 4.956,
+        "bias": 0.276,
+        "error_p80": 5.157
+      },
+      "academic_city_share": {
+        "n": 190,
+        "mae": 3.347,
+        "rmse": 4.951,
+        "bias": 0.288,
+        "error_p80": 4.832
+      },
+      "distance_from_capital": {
+        "n": 190,
+        "mae": 3.347,
+        "rmse": 4.943,
+        "bias": 0.289,
+        "error_p80": 4.899
+      },
+      "all_three": {
+        "n": 190,
+        "mae": 3.373,
+        "rmse": 4.935,
+        "bias": 0.276,
+        "error_p80": 5.23
+      }
+    },
+    "with_geography": {
+      "n": 190,
+      "mae": 3.373,
+      "rmse": 4.935,
+      "bias": 0.276,
+      "error_p80": 5.23
+    },
+    "highest_confidence_pre_round": {
+      "rows": 8,
+      "baseline_same_subset": {
+        "n": 8,
+        "mae": 1.97,
+        "rmse": 2.091,
+        "bias": 1.97,
+        "error_p80": 2.563
+      },
+      "with_geography": {
+        "n": 8,
+        "mae": 2.138,
+        "rmse": 2.204,
+        "bias": 2.138,
+        "error_p80": 2.699
+      },
+      "variants": {
+        "large_city_share": {
+          "n": 8,
+          "mae": 2.009,
+          "rmse": 2.145,
+          "bias": 2.009,
+          "error_p80": 2.707
+        },
+        "academic_city_share": {
+          "n": 8,
+          "mae": 2.044,
+          "rmse": 2.151,
+          "bias": 2.044,
+          "error_p80": 2.661
+        },
+        "distance_from_capital": {
+          "n": 8,
+          "mae": 1.968,
+          "rmse": 2.098,
+          "bias": 1.968,
+          "error_p80": 2.604
+        },
+        "all_three": {
+          "n": 8,
+          "mae": 2.138,
+          "rmse": 2.204,
+          "bias": 2.138,
+          "error_p80": 2.699
+        }
+      }
+    },
+    "by_round": {
+      "j-2024": {
+        "rows": 45,
+        "baseline_same_subset": {
+          "n": 45,
+          "mae": 2.507,
+          "rmse": 3.123,
+          "bias": -0.054,
+          "error_p80": 3.37
+        },
+        "with_geography": {
+          "n": 45,
+          "mae": 2.484,
+          "rmse": 3.125,
+          "bias": -0.029,
+          "error_p80": 3.369
+        }
+      },
+      "w-2025": {
+        "rows": 41,
+        "baseline_same_subset": {
+          "n": 41,
+          "mae": 4.574,
+          "rmse": 7.122,
+          "bias": 2.616,
+          "error_p80": 6.755
+        },
+        "with_geography": {
+          "n": 41,
+          "mae": 4.548,
+          "rmse": 7.042,
+          "bias": 2.609,
+          "error_p80": 6.603
+        }
+      },
+      "j-2025": {
+        "rows": 58,
+        "baseline_same_subset": {
+          "n": 58,
+          "mae": 3.096,
+          "rmse": 4.324,
+          "bias": -1.848,
+          "error_p80": 4.485
+        },
+        "with_geography": {
+          "n": 58,
+          "mae": 3.166,
+          "rmse": 4.411,
+          "bias": -1.851,
+          "error_p80": 4.367
+        }
+      },
+      "w-2026": {
+        "rows": 46,
+        "baseline_same_subset": {
+          "n": 46,
+          "mae": 3.393,
+          "rmse": 4.771,
+          "bias": 1.248,
+          "error_p80": 4.818
+        },
+        "with_geography": {
+          "n": 46,
+          "mae": 3.458,
+          "rmse": 4.721,
+          "bias": 1.177,
+          "error_p80": 5.216
+        }
+      }
+    },
+    "caveat": "Pojemność placówek jest rozkładem możliwości szkoleniowych, nie liczbą miejsc rezydenckich w rundzie.",
+    "fill_probability": {
+      "rows": 308,
+      "baseline_same_subset": {
+        "n": 308,
+        "observed_rate": 0.731,
+        "mean_probability": 0.667,
+        "brier": 0.1211,
+        "log_loss": 0.3959,
+        "auc": 0.8943,
+        "expected_calibration_error_10_bins": 0.0848,
+        "accuracy_050": 0.8312
+      },
+      "with_geography": {
+        "n": 308,
+        "observed_rate": 0.731,
+        "mean_probability": 0.668,
+        "brier": 0.1217,
+        "log_loss": 0.3979,
+        "auc": 0.8906,
+        "expected_calibration_error_10_bins": 0.0841,
+        "accuracy_050": 0.8344
+      }
+    }
   },
   "fill_model": {
     "type": "ridge_logistic_regression",

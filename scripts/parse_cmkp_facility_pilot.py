@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Parse a nine-document CMKP facility pilot without changing model inputs."""
+"""Parse the versioned CMKP facility pilot listed in the source manifest."""
 
 from __future__ import annotations
 
@@ -145,6 +145,52 @@ def fallback_indexes(column_count: int) -> dict[str, int]:
     return {"facility": 0, "address": 1, "capacity": 2}
 
 
+def words_in_column(words: list[dict], left: float, right: float, top: float, bottom: float) -> str:
+    selected = [
+        word
+        for word in words
+        if left <= word["x0"] < right and top <= word["top"] < bottom
+    ]
+    selected.sort(key=lambda word: (round(word["top"], 1), word["x0"]))
+    lines: list[list[str]] = []
+    line_tops: list[float] = []
+    for word in selected:
+        if not line_tops or abs(word["top"] - line_tops[-1]) > 2:
+            line_tops.append(word["top"])
+            lines.append([])
+        lines[-1].append(word["text"])
+    return "\n".join(" ".join(line) for line in lines)
+
+
+def extract_borderless_mazowieckie_rows(page) -> list[dict]:
+    """Extract the borderless landscape table used by Mazowieckie in autumn 2025."""
+    words = page.extract_words()
+    anchors = sorted(
+        (
+            word
+            for word in words
+            if word["x0"] >= 720 and word["top"] >= 110 and INTEGER_RE.match(word["text"])
+        ),
+        key=lambda word: word["top"],
+    )
+    rows = []
+    for index, anchor in enumerate(anchors):
+        previous_top = anchors[index - 1]["top"] if index else 110
+        next_top = anchors[index + 1]["top"] if index + 1 < len(anchors) else page.height - 15
+        top = (previous_top + anchor["top"]) / 2 if index else 110
+        bottom = (anchor["top"] + next_top) / 2 if index + 1 < len(anchors) else page.height - 15
+        rows.append(
+            {
+                "specialty": words_in_column(words, 45, 165, top, bottom),
+                "facility": words_in_column(words, 165, 297, top, bottom),
+                "parent": words_in_column(words, 297, 477, top, bottom),
+                "address": words_in_column(words, 477, 623, top, bottom),
+                "capacity": anchor["text"],
+            }
+        )
+    return rows
+
+
 def parse_source(source: dict, specialties: list[str]) -> tuple[list[dict], dict]:
     file_name = f"{source['rekrutacja']}_{slug(source['wojewodztwo'])}.pdf"
     path = PDF_DIR / file_name
@@ -153,11 +199,99 @@ def parse_source(source: dict, specialties: list[str]) -> tuple[list[dict], dict
     specialty_scores: list[float] = []
     document_indexes: dict[str, int] = {}
     current_heading = ""
+    current_borderless_specialty = ""
+
+    def append_row(
+        raw_specialty: str,
+        address: str,
+        capacity_text: str,
+        facility: str,
+        parent: str,
+        page_number: int,
+        table_number: int,
+        table_row: int,
+    ) -> None:
+        capacity_match = INTEGER_RE.match(compact(capacity_text))
+        if not capacity_match or not POSTCODE_RE.search(address or ""):
+            return
+        stats["candidate_rows"] += 1
+        if not raw_specialty:
+            stats["missing_specialty"] += 1
+            specialty = ""
+            score = margin = 0.0
+        else:
+            specialty, score, margin = best_match(raw_specialty, specialties)
+            specialty_scores.append(score)
+            if score < 0.72 or margin < 0.035:
+                stats["low_confidence_specialty"] += 1
+
+        postcode, city, garbled_city = extract_city(address or "")
+        if city:
+            stats["city_extracted"] += 1
+        else:
+            stats["missing_city"] += 1
+        if garbled_city:
+            stats["garbled_city"] += 1
+
+        capacity = int(capacity_match.group(1))
+        if capacity > 0:
+            stats["positive_rows"] += 1
+            stats["positive_capacity"] += capacity
+        rows.append(
+            {
+                "rekrutacja": source["rekrutacja"],
+                "wojewodztwo": source["wojewodztwo"],
+                "dziedzina_medycyny": specialty,
+                "liczba_wolnych_miejsc": capacity,
+                "kod_pocztowy": postcode,
+                "miasto_raw": city,
+                "miasto_match_key": normalize(city),
+                "nazwa_placowki": compact(facility),
+                "nazwa_jednostki_nadrzednej": compact(parent),
+                "adres_raw": compact(address),
+                "source_page": page_number,
+                "source_table": table_number,
+                "source_row": table_row,
+                "source_specialty_text": compact(raw_specialty),
+                "specialty_match_score": round(score, 4),
+                "specialty_match_margin": round(margin, 4),
+                "city_has_broken_glyph": int(garbled_city),
+                "source_url": source["url"],
+            }
+        )
 
     with pdfplumber.open(path) as document:
         stats["pages"] = len(document.pages)
         for page_number, page in enumerate(document.pages, start=1):
-            for table_number, table in enumerate(page.find_tables(), start=1):
+            tables = page.find_tables()
+            if not tables and source["rekrutacja"] == "j-2025" and source["wojewodztwo"] == "Mazowieckie":
+                borderless_rows = extract_borderless_mazowieckie_rows(page)
+                if borderless_rows:
+                    stats["borderless_pages"] += 1
+                    stats["tables"] += 1
+                for row_number, extracted_row in enumerate(borderless_rows, start=1):
+                    raw_specialty = compact(extracted_row["specialty"])
+                    if raw_specialty:
+                        _, score, margin = best_match(raw_specialty, specialties)
+                        if score >= 0.72 and margin >= 0.035:
+                            current_borderless_specialty = raw_specialty
+                        elif current_borderless_specialty:
+                            raw_specialty = current_borderless_specialty
+                    elif current_borderless_specialty:
+                        raw_specialty = current_borderless_specialty
+                    append_row(
+                        raw_specialty,
+                        extracted_row["address"],
+                        extracted_row["capacity"],
+                        extracted_row["facility"],
+                        extracted_row["parent"],
+                        page_number,
+                        0,
+                        row_number,
+                    )
+                continue
+
+            for table_number, table in enumerate(tables, start=1):
                 stats["tables"] += 1
                 extracted = table.extract()
                 if not extracted:
@@ -178,65 +312,26 @@ def parse_source(source: dict, specialties: list[str]) -> tuple[list[dict], dict
                     padded = list(cells) + [None] * (column_count - len(cells))
                     address = padded[indexes["address"]] if indexes["address"] < len(padded) else None
                     capacity_text = padded[indexes["capacity"]] if indexes["capacity"] < len(padded) else None
-                    capacity_match = INTEGER_RE.match(compact(capacity_text))
-                    if not capacity_match or not POSTCODE_RE.search(address or ""):
-                        continue
-
-                    stats["candidate_rows"] += 1
                     raw_specialty = (
                         compact(padded[indexes["specialty"]])
                         if "specialty" in indexes and indexes["specialty"] < len(padded)
                         else compact(raw_heading)
                     )
-                    if not raw_specialty:
-                        stats["missing_specialty"] += 1
-                        specialty = ""
-                        score = margin = 0.0
-                    else:
-                        specialty, score, margin = best_match(raw_specialty, specialties)
-                        specialty_scores.append(score)
-                        if score < 0.72 or margin < 0.035:
-                            stats["low_confidence_specialty"] += 1
-
-                    postcode, city, garbled_city = extract_city(address or "")
-                    if city:
-                        stats["city_extracted"] += 1
-                    else:
-                        stats["missing_city"] += 1
-                    if garbled_city:
-                        stats["garbled_city"] += 1
-
-                    capacity = int(capacity_match.group(1))
-                    if capacity > 0:
-                        stats["positive_rows"] += 1
-                        stats["positive_capacity"] += capacity
                     facility = compact(padded[indexes["facility"]]) if indexes["facility"] < len(padded) else ""
                     parent = (
                         compact(padded[indexes["parent"]])
                         if "parent" in indexes and indexes["parent"] < len(padded)
                         else ""
                     )
-                    rows.append(
-                        {
-                            "rekrutacja": source["rekrutacja"],
-                            "wojewodztwo": source["wojewodztwo"],
-                            "dziedzina_medycyny": specialty,
-                            "liczba_wolnych_miejsc": capacity,
-                            "kod_pocztowy": postcode,
-                            "miasto_raw": city,
-                            "miasto_match_key": normalize(city),
-                            "nazwa_placowki": facility,
-                            "nazwa_jednostki_nadrzednej": parent,
-                            "adres_raw": compact(address),
-                            "source_page": page_number,
-                            "source_table": table_number,
-                            "source_row": table_row,
-                            "source_specialty_text": raw_specialty,
-                            "specialty_match_score": round(score, 4),
-                            "specialty_match_margin": round(margin, 4),
-                            "city_has_broken_glyph": int(garbled_city),
-                            "source_url": source["url"],
-                        }
+                    append_row(
+                        raw_specialty,
+                        address or "",
+                        compact(capacity_text),
+                        facility,
+                        parent,
+                        page_number,
+                        table_number,
+                        table_row,
                     )
 
     stats["rows"] = len(rows)

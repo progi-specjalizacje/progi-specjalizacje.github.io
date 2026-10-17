@@ -14,7 +14,7 @@ interface PivotTableProps {
 
 function statusLabel(status: RecruitmentPool["status_konkurencyjnosci"]) {
   if (status === "full") return "Próg konkurencyjny";
-  if (status === "underfilled" || status === "no_accepted") return "Brak progu";
+  if (status === "underfilled" || status === "no_accepted") return "Wolne miejsca";
   if (status === "inconsistent") return "Sprawdź dane";
   return "Nieustalone";
 }
@@ -82,7 +82,7 @@ export function PivotTable({ config: _config, title }: PivotTableProps) {
       ) : null}
       <div className="threshold-legend" aria-label="Legenda statusów progu">
         <span><i className="status-dot status-full" /> Próg konkurencyjny</span>
-        <span><i className="status-dot status-open" /> Brak progu — wolne miejsca</span>
+        <span><i className="status-dot status-open" /> Wolne miejsca</span>
         <span><i className="status-dot status-unknown" /> Status nieustalony</span>
       </div>
       <div className="pivot-scroll">
@@ -133,7 +133,7 @@ export function PivotTable({ config: _config, title }: PivotTableProps) {
                   const isThreshold = pool.status_konkurencyjnosci === "full";
                   const secondary = Number.isFinite(score)
                     ? `${isThreshold ? "" : "min. przyjęty: "}${formatByType(score, "score", scoreAsPoints)}`
-                    : pool.status_konkurencyjnosci === "no_accepted" ? "brak zakwalifikowanych" : null;
+                    : null;
                   const occupancy = `${pool.liczba_zakwalifikowanych} / ${pool.liczba_miejsc ?? "?"}`;
 
                   return (

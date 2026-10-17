@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { runRankingExperiment } from "./rankingExperiment.js";
+import { runFocusedThresholdModel } from "./focusedThresholdModel.js";
+import { runSupplyScaleExperiment } from "./supplyScaleExperiment.js";
+import { runTwoPartThresholdExperiment } from "./twoPartThresholdExperiment.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const root = path.resolve(path.dirname(__filename), "..");
@@ -14,6 +18,8 @@ const nationalBacktestFile = path.join(dataDir, "national_threshold_backtest.csv
 const nationalForecastFile = path.join(dataDir, "national_threshold_forecast_j-2026.csv");
 const fillBacktestFile = path.join(dataDir, "fill_model_backtest.csv");
 const fillForecastFile = path.join(dataDir, "fill_forecast_j-2026.csv");
+const geographyBacktestFile = path.join(dataDir, "geography_threshold_backtest.csv");
+const geographyFillBacktestFile = path.join(dataDir, "geography_fill_backtest.csv");
 const reportFile = path.join(dataDir, "threshold_model_report.json");
 
 const ROUND_ORDER = ["w-2023", "j-2023", "w-2024", "j-2024", "w-2025", "j-2025", "w-2026", "j-2026"];
@@ -79,6 +85,17 @@ const EXAM_ANCHORED_FEATURES = [
   "egzamin_zmiana_sredniej_proc",
   "egzamin_odchylenie_od_4_sesji",
 ];
+const GEOGRAPHY_FEATURES = [
+  "udzial_pojemnosci_duze_miasta",
+  "udzial_pojemnosci_miasta_akademickie",
+  "srednia_odleglosc_od_stolicy_km",
+];
+const GEOGRAPHY_VARIANTS = {
+  duze_miasta: ["udzial_pojemnosci_duze_miasta"],
+  miasta_akademickie: ["udzial_pojemnosci_miasta_akademickie"],
+  odleglosc_od_stolicy: ["srednia_odleglosc_od_stolicy_km"],
+  wszystkie_trzy: GEOGRAPHY_FEATURES,
+};
 
 const FILL_NUMERIC_FEATURES = [
   "log_miejsca",
@@ -288,6 +305,31 @@ function addHistoricalFeatures(rows) {
           )
       : null;
     const previousPlaces = numeric(lastCell?.oferowane_miejsca_rezydenckie);
+    const historicalNationalSpecialtyPlaces = [...new Set(
+      prior
+        .filter(
+          (candidate) =>
+            candidate.dziedzina_medycyny === row.dziedzina_medycyny &&
+            numeric(candidate.oferowane_miejsca_rezydenckie) > 0,
+        )
+        .map((candidate) => candidate.rekrutacja),
+    )].map((roundName) =>
+      prior
+        .filter(
+          (candidate) =>
+            candidate.rekrutacja === roundName &&
+            candidate.dziedzina_medycyny === row.dziedzina_medycyny,
+        )
+        .reduce(
+          (sum, candidate) => sum + (numeric(candidate.oferowane_miejsca_rezydenckie) ?? 0),
+          0,
+        ),
+    );
+    const typicalNationalSpecialtyPlaces = quantile(historicalNationalSpecialtyPlaces, 0.5);
+    const historicalCellPlaces = sameCell
+      .map((candidate) => numeric(candidate.oferowane_miejsca_rezydenckie))
+      .filter((value) => value > 0);
+    const typicalCellPlaces = quantile(historicalCellPlaces, 0.5);
     const examMean = numeric(row.egzamin_srednia_proc);
     const examTrailingMean = numeric(row.egzamin_srednia_proc_4_sesje);
 
@@ -303,6 +345,16 @@ function addHistoricalFeatures(rows) {
           : nationalSpecialtyPlaces - previousNationalSpecialtyPlaces,
       udzial_miejsc_wojewodztwa_w_specjalizacji:
         places !== null && nationalSpecialtyPlaces > 0 ? places / nationalSpecialtyPlaces : null,
+      typowe_miejsca_kraj_specjalizacja_przed_runda: typicalNationalSpecialtyPlaces,
+      log_relacja_miejsc_kraj_do_typowych:
+        typicalNationalSpecialtyPlaces === null
+          ? null
+          : Math.log((nationalSpecialtyPlaces + 1) / (typicalNationalSpecialtyPlaces + 1)),
+      typowe_miejsca_komorka_przed_runda: typicalCellPlaces,
+      log_relacja_miejsc_komorka_do_typowych:
+        places === null || typicalCellPlaces === null
+          ? null
+          : Math.log((places + 1) / (typicalCellPlaces + 1)),
       zmiana_miejsc: places !== null && previousPlaces !== null ? places - previousPlaces : null,
       poprzednie_miejsca: previousPlaces,
       poprzednio_zakwalifikowani: numeric(lastCell?.liczba_zakwalifikowanych),
@@ -455,13 +507,13 @@ function logit(probability) {
   return Math.log(bounded / (1 - bounded));
 }
 
-function fitFillLogistic(trainRows) {
+function fitFillLogistic(trainRows, numericFeatures = FILL_NUMERIC_FEATURES) {
   const categoryFields = ["dziedzina_medycyny", "wojewodztwo", "sezon"];
   const categoryLevels = Object.fromEntries(
     categoryFields.map((field) => [field, [...new Set(trainRows.map((row) => row[field]))].sort()]),
   );
   const numericStats = Object.fromEntries(
-    FILL_NUMERIC_FEATURES.map((feature) => {
+    numericFeatures.map((feature) => {
       const values = trainRows.map((row) => numeric(row[feature])).filter(Number.isFinite);
       const featureMean = mean(values) ?? 0;
       const variance = mean(values.map((value) => (value - featureMean) ** 2)) ?? 0;
@@ -471,7 +523,7 @@ function fitFillLogistic(trainRows) {
 
   function vectorize(row) {
     const vector = [1];
-    for (const feature of FILL_NUMERIC_FEATURES) {
+    for (const feature of numericFeatures) {
       const stats = numericStats[feature];
       const value = numeric(row[feature]) ?? stats.mean;
       vector.push((value - stats.mean) / stats.standardDeviation);
@@ -920,6 +972,8 @@ const roundIndex = new Map(ROUND_ORDER.map((roundName, index) => [roundName, ind
 const backtestRows = [];
 const nationalBacktestRows = [];
 const fillBacktestRows = [];
+const geographyBacktestRows = [];
+const geographyFillBacktestRows = [];
 const fillModelsByRound = new Map();
 const fillCalibrationRowsByRound = new Map();
 
@@ -936,6 +990,87 @@ for (let testIndex = 2; testIndex <= roundIndex.get(FORECAST_ROUND); testIndex +
       testRound,
       buildCrossFittedFillPredictions(trainingRows),
     );
+  }
+}
+
+for (const testRound of HISTORICAL_TEST_ROUNDS) {
+  const testIndex = roundIndex.get(testRound);
+  const hasGeography = (row) =>
+    numeric(row.pokrycie_geografii) >= 0.95 &&
+    GEOGRAPHY_FEATURES.every((feature) => numeric(row[feature]) !== null);
+  const trainRows = rows.filter(
+    (row) =>
+      roundIndex.get(row.rekrutacja) < testIndex && isCompetitiveTarget(row) && hasGeography(row),
+  );
+  const testRows = rows.filter(
+    (row) =>
+      row.rekrutacja === testRound &&
+      isCompetitiveTarget(row) &&
+      row.liczba_historycznych_pelnych_pul >= 1 &&
+      hasGeography(row),
+  );
+  if (!trainRows.length || !testRows.length) continue;
+  const baselineModel = fitRidge(trainRows, BASE_NUMERIC_FEATURES);
+  const geographyModels = Object.fromEntries(
+    Object.entries(GEOGRAPHY_VARIANTS).map(([name, features]) => [
+      name,
+      fitRidge(trainRows, [...BASE_NUMERIC_FEATURES, ...features]),
+    ]),
+  );
+  for (const row of testRows) {
+    const baseline = baselineModel.predict(row);
+    const geographyPredictions = Object.fromEntries(
+      Object.entries(geographyModels).map(([name, model]) => [name, model.predict(row)]),
+    );
+    const geography = geographyPredictions.wszystkie_trzy;
+    geographyBacktestRows.push({
+      rekrutacja: testRound,
+      wojewodztwo: row.wojewodztwo,
+      dziedzina_medycyny: row.dziedzina_medycyny,
+      egzamin: row.egzamin,
+      historyczne_pelne_pule: row.liczba_historycznych_pelnych_pul,
+      scisly_stabilny_przed_runda: row.scisly_stabilny_przed_runda ? "TAK" : "NIE",
+      rzeczywisty_prog: round(row.target),
+      udzial_pojemnosci_duze_miasta: round(row.udzial_pojemnosci_duze_miasta, 6),
+      udzial_pojemnosci_miasta_akademickie: round(
+        row.udzial_pojemnosci_miasta_akademickie,
+        6,
+      ),
+      srednia_odleglosc_od_stolicy_km: round(row.srednia_odleglosc_od_stolicy_km),
+      prognoza_bazowa_ten_sam_zbior: round(baseline),
+      prognoza_duze_miasta: round(geographyPredictions.duze_miasta),
+      prognoza_miasta_akademickie: round(geographyPredictions.miasta_akademickie),
+      prognoza_odleglosc_od_stolicy: round(geographyPredictions.odleglosc_od_stolicy),
+      prognoza_z_geografia: round(geography),
+      blad_bazowy: round(Math.abs(baseline - row.target)),
+      blad_z_geografia: round(Math.abs(geography - row.target)),
+    });
+  }
+}
+
+for (const testRound of HISTORICAL_TEST_ROUNDS) {
+  const testIndex = roundIndex.get(testRound);
+  const hasGeography = (row) =>
+    numeric(row.pokrycie_geografii) >= 0.95 &&
+    GEOGRAPHY_FEATURES.every((feature) => numeric(row[feature]) !== null);
+  const trainRows = rows.filter(
+    (row) => roundIndex.get(row.rekrutacja) < testIndex && isFillObservation(row) && hasGeography(row),
+  );
+  const testRows = rows.filter(
+    (row) => row.rekrutacja === testRound && isFillObservation(row) && hasGeography(row),
+  );
+  if (!trainRows.length || !testRows.length) continue;
+  const baselineModel = fitFillLogistic(trainRows);
+  const geographyModel = fitFillLogistic(trainRows, [...FILL_NUMERIC_FEATURES, ...GEOGRAPHY_FEATURES]);
+  for (const row of testRows) {
+    geographyFillBacktestRows.push({
+      rekrutacja: testRound,
+      wojewodztwo: row.wojewodztwo,
+      dziedzina_medycyny: row.dziedzina_medycyny,
+      czy_pelna_pula: fillTarget(row),
+      prawdopodobienstwo_bazowe: round(baselineModel.predict(row), 6),
+      prawdopodobienstwo_z_geografia: round(geographyModel.predict(row), 6),
+    });
   }
 }
 
@@ -1165,6 +1300,33 @@ const backtestColumns = [
   "blad_bezwzgledny_model_laczony",
 ];
 writeCsv(backtestFile, backtestRows, backtestColumns);
+writeCsv(geographyBacktestFile, geographyBacktestRows, [
+  "rekrutacja",
+  "wojewodztwo",
+  "dziedzina_medycyny",
+  "egzamin",
+  "historyczne_pelne_pule",
+  "scisly_stabilny_przed_runda",
+  "rzeczywisty_prog",
+  "udzial_pojemnosci_duze_miasta",
+  "udzial_pojemnosci_miasta_akademickie",
+  "srednia_odleglosc_od_stolicy_km",
+  "prognoza_bazowa_ten_sam_zbior",
+  "prognoza_duze_miasta",
+  "prognoza_miasta_akademickie",
+  "prognoza_odleglosc_od_stolicy",
+  "prognoza_z_geografia",
+  "blad_bazowy",
+  "blad_z_geografia",
+]);
+writeCsv(geographyFillBacktestFile, geographyFillBacktestRows, [
+  "rekrutacja",
+  "wojewodztwo",
+  "dziedzina_medycyny",
+  "czy_pelna_pula",
+  "prawdopodobienstwo_bazowe",
+  "prawdopodobienstwo_z_geografia",
+]);
 
 writeCsv(fillBacktestFile, fillBacktestRows, [
   "rekrutacja",
@@ -1520,8 +1682,34 @@ const nationalEvaluationKeys = new Set(
 const matchedRegionalRows = backtestRows.filter((row) =>
   nationalEvaluationKeys.has(`${row.rekrutacja}::${row.dziedzina_medycyny}`),
 );
+const geographyHighConfidence = geographyBacktestRows.filter(
+  (row) => row.scisly_stabilny_przed_runda === "TAK",
+);
 
 const report = {
+  two_part_experiment: runTwoPartThresholdExperiment({
+    root, rows, roundOrder: ROUND_ORDER, testRounds: HISTORICAL_TEST_ROUNDS,
+    forecastRound: FORECAST_ROUND, fitRidge, baseFeatures: BASE_NUMERIC_FEATURES,
+    isCompetitiveTarget, fillModelsByRound, backtestRows, forecasts, writeCsv,
+    metrics, round, numeric,
+  }),
+  supply_scale_experiment: runSupplyScaleExperiment({
+    root, rows, roundOrder: ROUND_ORDER, testRounds: HISTORICAL_TEST_ROUNDS,
+    forecastRound: FORECAST_ROUND, fitRidge, baseFeatures: BASE_NUMERIC_FEATURES,
+    isCompetitiveTarget, backtestRows, forecasts, writeCsv, metrics, round, numeric,
+  }),
+  focused_specialties: runFocusedThresholdModel({
+    root, rows, roundOrder: ROUND_ORDER, testRounds: HISTORICAL_TEST_ROUNDS,
+    forecastRound: FORECAST_ROUND, fitRidge, baseFeatures: BASE_NUMERIC_FEATURES,
+    isCompetitiveTarget, backtestRows, forecasts, writeCsv, metrics, round,
+  }),
+  ranking_experiment: runRankingExperiment({
+    root, rows, rawRows, readCsv, numeric, quantile, mean, round, groupBy,
+    fitRidge, baseFeatures: BASE_NUMERIC_FEATURES, roundOrder: ROUND_ORDER,
+    testRounds: HISTORICAL_TEST_ROUNDS, isCompetitiveTarget, backtestRows,
+    nationalEvaluation, estimateFullProbability, weightedMean, writeCsv, metrics,
+    forecastRound: FORECAST_ROUND,
+  }),
   generated_at: new Date().toISOString(),
   model: {
     type: "ridge_regression",
@@ -1548,6 +1736,66 @@ const report = {
     exam_sd_feature_as_of_forecast: "odchylenie bieżącej sesji, gdy jest opublikowane; jesień 2026 tymczasowo korzysta z poprzedniej sesji",
     exam_anchored_features: EXAM_ANCHORED_FEATURES,
     categorical_features: ["dziedzina_medycyny", "wojewodztwo", "sezon", "egzamin"],
+  },
+  geography_experiment: {
+    status: "diagnostyczny; nie zmienia wariantu produkcyjnego",
+    provinces: ["Dolnośląskie", "Mazowieckie", "Warmińsko-mazurskie"],
+    validation: "rolling-origin, oba warianty trenowane i oceniane na identycznych rekordach z pokryciem geograficznym >=95%",
+    features: GEOGRAPHY_FEATURES,
+    rows: geographyBacktestRows.length,
+    baseline_same_subset: metrics(geographyBacktestRows, "prognoza_bazowa_ten_sam_zbior"),
+    variants: {
+      large_city_share: metrics(geographyBacktestRows, "prognoza_duze_miasta"),
+      academic_city_share: metrics(geographyBacktestRows, "prognoza_miasta_akademickie"),
+      distance_from_capital: metrics(geographyBacktestRows, "prognoza_odleglosc_od_stolicy"),
+      all_three: metrics(geographyBacktestRows, "prognoza_z_geografia"),
+    },
+    with_geography: metrics(geographyBacktestRows, "prognoza_z_geografia"),
+    highest_confidence_pre_round: {
+      rows: geographyHighConfidence.length,
+      baseline_same_subset: metrics(
+        geographyHighConfidence,
+        "prognoza_bazowa_ten_sam_zbior",
+      ),
+      with_geography: metrics(geographyHighConfidence, "prognoza_z_geografia"),
+      variants: {
+        large_city_share: metrics(geographyHighConfidence, "prognoza_duze_miasta"),
+        academic_city_share: metrics(
+          geographyHighConfidence,
+          "prognoza_miasta_akademickie",
+        ),
+        distance_from_capital: metrics(
+          geographyHighConfidence,
+          "prognoza_odleglosc_od_stolicy",
+        ),
+        all_three: metrics(geographyHighConfidence, "prognoza_z_geografia"),
+      },
+    },
+    by_round: Object.fromEntries(
+      HISTORICAL_TEST_ROUNDS.map((roundName) => {
+        const roundRows = geographyBacktestRows.filter((row) => row.rekrutacja === roundName);
+        return [
+          roundName,
+          {
+            rows: roundRows.length,
+            baseline_same_subset: metrics(roundRows, "prognoza_bazowa_ten_sam_zbior"),
+            with_geography: metrics(roundRows, "prognoza_z_geografia"),
+          },
+        ];
+      }),
+    ),
+    caveat: "Pojemność placówek jest rozkładem możliwości szkoleniowych, nie liczbą miejsc rezydenckich w rundzie.",
+    fill_probability: {
+      rows: geographyFillBacktestRows.length,
+      baseline_same_subset: classificationMetrics(
+        geographyFillBacktestRows,
+        "prawdopodobienstwo_bazowe",
+      ),
+      with_geography: classificationMetrics(
+        geographyFillBacktestRows,
+        "prawdopodobienstwo_z_geografia",
+      ),
+    },
   },
   fill_model: {
     type: "ridge_logistic_regression",
@@ -1779,6 +2027,9 @@ const report = {
 fs.writeFileSync(reportFile, `${JSON.stringify(report, null, 2)}\n`, "utf8");
 
 console.log(`Backtest: ${backtestRows.length} obserwacji.`);
+console.log(`Model dwuczęściowy: MAE ${report.two_part_experiment.variants.two_part.mae} wobec produkcji ${report.two_part_experiment.variants.production.mae}. Produkcja bez zmian.`);
+console.log(`Skala podaży: bazowe MAE ${report.supply_scale_experiment.variants.baseline.mae}; najlepsze ${report.supply_scale_experiment.best_variant} ${report.supply_scale_experiment.variants[report.supply_scale_experiment.best_variant].mae}. Produkcja bez zmian.`);
+console.log(`Eksperyment rankingowy: regionalne MAE ${report.ranking_experiment.regional.ranking.mae}; krajowe MAE ${report.ranking_experiment.national.ranking.mae}. Produkcja bez zmian.`);
 console.log(`MAE bez egzaminu: ${report.backtest.ridge_without_exam.mae}.`);
 console.log(`MAE sezon × trend: ${report.backtest.ridge_season_trend.mae}.`);
 console.log(`MAE modelu zmiany progu: ${report.backtest.ridge_delta_threshold.mae}.`);
@@ -1793,4 +2044,5 @@ console.log(`Prognoza ${FORECAST_ROUND}: ${forecasts.length} kombinacji.`);
 console.log(`Najwyższa pewność przed rundą: ${strictHighConfidence.length} obserwacji.`);
 console.log(`Krajowy backtest: ${nationalEvaluation.length} tur specjalizacji; prognozy: ${nationalForecasts.length}.`);
 console.log(`Model zapełnienia surowy: Brier ${report.fill_model.logistic_raw.brier}.`);
+console.log(`Geografia (${geographyBacktestRows.length} obserwacji): MAE baza ${report.geography_experiment.baseline_same_subset.mae}; z geografią ${report.geography_experiment.with_geography.mae}.`);
 console.log(`Kalibracja eksperymentalna: Brier ${report.fill_model.logistic_calibrated.brier}; baza ${report.fill_model.smoothed_history_baseline.brier}.`);

@@ -1,0 +1,122 @@
+rekrutacja,dziedzina_medycyny,wojewodztwo,production,focused,blend,selected_variant,selected,prawdopodobienstwo_pelnej_puli,historyczne_pelne_pule,status
+j-2026,Anestezjologia i intensywna terapia,Dolnośląskie,83.248,84.566,83.907,focused,84.566,0.970825,0,ekstrapolacja_brak_historycznego_progu
+j-2026,Anestezjologia i intensywna terapia,Kujawsko-pomorskie,86.813,84.173,85.493,focused,84.173,0.995774,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Lubelskie,84.502,83.947,84.225,focused,83.947,0.990654,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Lubuskie,83.523,81.758,82.641,focused,81.758,0.984203,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Łódzkie,84.526,85.137,84.832,focused,85.137,0.978415,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Małopolskie,86.356,85.272,85.814,focused,85.272,0.992351,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Mazowieckie,86.566,86.53,86.548,focused,86.53,0.997258,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Opolskie,84.016,82.385,83.2,focused,82.385,0.958132,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Podkarpackie,81.067,83.069,82.068,focused,83.069,0.941,0,ekstrapolacja_brak_historycznego_progu
+j-2026,Anestezjologia i intensywna terapia,Podlaskie,82.435,83.115,82.775,focused,83.115,0.956787,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Pomorskie,84.057,84.349,84.203,focused,84.349,0.989648,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Śląskie,86.345,84.583,85.464,focused,84.583,0.993026,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Świętokrzyskie,81.558,81.462,81.51,focused,81.462,0.927907,0,ekstrapolacja_brak_historycznego_progu
+j-2026,Anestezjologia i intensywna terapia,Warmińsko-mazurskie,84.399,82.896,83.648,focused,82.896,0.985199,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Wielkopolskie,86.172,85.81,85.991,focused,85.81,0.985607,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Anestezjologia i intensywna terapia,Zachodniopomorskie,84.735,81.64,83.188,focused,81.64,0.943683,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia plastyczna,Lubelskie,95.346,94.196,94.771,focused,94.196,0.991907,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia plastyczna,Mazowieckie,93.375,94.548,93.962,focused,94.548,0.994422,1,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia plastyczna,Pomorskie,93.154,93.233,93.193,focused,93.233,0.986092,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia plastyczna,Śląskie,92.085,92.348,92.216,focused,92.348,0.978511,1,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia plastyczna,Zachodniopomorskie,92.551,92.966,92.758,focused,92.966,0.972498,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Dolnośląskie,88.521,86.494,87.508,focused,86.494,0.996446,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Kujawsko-pomorskie,88.735,87.499,88.117,focused,87.499,0.992956,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Lubelskie,85.709,84.375,85.042,focused,84.375,0.987412,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Łódzkie,89.756,87.75,88.753,focused,87.75,0.996726,7,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Małopolskie,88.454,87.323,87.889,focused,87.323,0.993617,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Mazowieckie,90.029,88.734,89.381,focused,88.734,0.998413,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Opolskie,85.867,85.51,85.689,focused,85.51,0.970656,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Podkarpackie,84.892,85.214,85.053,focused,85.214,0.983969,1,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Podlaskie,85.68,85.43,85.555,focused,85.43,0.978669,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Pomorskie,87.903,87.3,87.602,focused,87.3,0.993803,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Śląskie,88.343,86.306,87.324,focused,86.306,0.993424,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Świętokrzyskie,87.327,84.555,85.941,focused,84.555,0.98632,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Warmińsko-mazurskie,86.151,85.253,85.702,focused,85.253,0.985484,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Chirurgia stomatologiczna,Wielkopolskie,88.582,87.471,88.027,focused,87.471,0.993213,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Dermatologia i wenerologia,Lubelskie,95.016,94.006,94.511,focused,94.006,0.994413,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Dermatologia i wenerologia,Łódzkie,95.693,94.663,95.178,focused,94.663,0.996973,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Dermatologia i wenerologia,Małopolskie,97.102,95.751,96.426,focused,95.751,0.997508,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Dermatologia i wenerologia,Mazowieckie,95.731,95.537,95.634,focused,95.537,0.999005,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Dermatologia i wenerologia,Podkarpackie,95.852,94.528,95.19,focused,94.528,0.996956,7,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Dermatologia i wenerologia,Podlaskie,94.097,93.757,93.927,focused,93.757,0.990415,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Dermatologia i wenerologia,Pomorskie,95.836,95.215,95.525,focused,95.215,0.997514,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Dermatologia i wenerologia,Śląskie,96.527,95.003,95.765,focused,95.003,0.997725,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Dermatologia i wenerologia,Świętokrzyskie,93.45,92.326,92.888,focused,92.326,0.988122,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Dermatologia i wenerologia,Warmińsko-mazurskie,92.868,92.84,92.854,focused,92.84,0.991484,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Dermatologia i wenerologia,Zachodniopomorskie,93.979,93.375,93.677,focused,93.375,0.988917,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Kujawsko-pomorskie,92.948,93.108,93.028,focused,93.108,0.987334,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Łódzkie,96.739,95.687,96.213,focused,95.687,0.997889,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Małopolskie,95.919,94.916,95.417,focused,94.916,0.995773,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Mazowieckie,96.245,95.47,95.857,focused,95.47,0.99823,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Opolskie,93.758,93.188,93.473,focused,93.188,0.982234,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Podkarpackie,93.894,94.001,93.948,focused,94.001,0.993031,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Podlaskie,93.741,93.819,93.78,focused,93.819,0.988815,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Śląskie,97.627,95.333,96.48,focused,95.333,0.998334,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Świętokrzyskie,93.535,92.456,92.995,focused,92.456,0.988222,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Warmińsko-mazurskie,92.901,92.903,92.902,focused,92.903,0.980945,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Wielkopolskie,95.937,94.924,95.431,focused,94.924,0.995668,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Endokrynologia,Zachodniopomorskie,94.393,93.898,94.145,focused,93.898,0.992361,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Gastroenterologia,Dolnośląskie,90.808,91.139,90.973,focused,91.139,0.984293,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Gastroenterologia,Kujawsko-pomorskie,91.058,91.655,91.356,focused,91.655,0.982952,1,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Gastroenterologia,Lubelskie,92.751,91.407,92.079,focused,91.407,0.991725,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Gastroenterologia,Łódzkie,91.852,91.354,91.603,focused,91.354,0.989831,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Gastroenterologia,Mazowieckie,95.308,93.998,94.653,focused,93.998,0.998505,7,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Gastroenterologia,Podkarpackie,90.091,90.114,90.103,focused,90.114,0.965664,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Gastroenterologia,Podlaskie,91.931,90.681,91.306,focused,90.681,0.980186,7,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Gastroenterologia,Pomorskie,92.315,92.221,92.268,focused,92.221,0.994956,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Gastroenterologia,Śląskie,94.388,92.443,93.415,focused,92.443,0.996,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Gastroenterologia,Warmińsko-mazurskie,88.72,89.14,88.93,focused,89.14,0.959462,1,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Gastroenterologia,Zachodniopomorskie,91.65,90.766,91.208,focused,90.766,0.985107,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Neurochirurgia,Dolnośląskie,89.64,89.293,89.466,focused,89.293,0.985727,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Neurochirurgia,Kujawsko-pomorskie,90.45,88.936,89.693,focused,88.936,0.982703,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Neurochirurgia,Łódzkie,89.818,89.124,89.471,focused,89.124,0.988502,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Neurochirurgia,Małopolskie,90.264,88.524,89.394,focused,88.524,0.986143,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Neurochirurgia,Mazowieckie,91.876,90.717,91.296,focused,90.717,0.997195,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Neurochirurgia,Podkarpackie,89.022,87.698,88.36,focused,87.698,0.971873,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Neurochirurgia,Podlaskie,86.221,85.658,85.939,focused,85.658,0.937542,1,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Neurochirurgia,Pomorskie,90.094,89.149,89.621,focused,89.149,0.993505,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Neurochirurgia,Śląskie,90.216,88.248,89.232,focused,88.248,0.987357,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Neurochirurgia,Wielkopolskie,89.466,88.793,89.129,focused,88.793,0.982661,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Neurochirurgia,Zachodniopomorskie,86.541,86.537,86.539,focused,86.537,0.901245,1,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Ortodoncja,Dolnośląskie,90.572,88.521,89.547,focused,88.521,0.997427,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Ortodoncja,Łódzkie,89.529,89.272,89.4,focused,89.272,0.993533,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Ortodoncja,Małopolskie,92.082,90.553,91.317,focused,90.553,0.997314,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Ortodoncja,Mazowieckie,91.016,89.555,90.286,focused,89.555,0.998346,7,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Ortodoncja,Opolskie,88.482,88.233,88.357,focused,88.233,0.983126,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Ortodoncja,Podlaskie,90.398,89.031,89.714,focused,89.031,0.991655,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Ortodoncja,Pomorskie,89.997,88.951,89.474,focused,88.951,0.995475,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Ortodoncja,Śląskie,91.437,88.745,90.091,focused,88.745,0.997469,7,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Ortodoncja,Warmińsko-mazurskie,87.099,87.316,87.208,focused,87.316,0.979213,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Ortodoncja,Wielkopolskie,90.844,89.377,90.111,focused,89.377,0.995044,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Ortodoncja,Zachodniopomorskie,88.139,87.768,87.954,focused,87.768,0.985919,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Dolnośląskie,82.835,82.944,82.89,focused,82.944,0.988616,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Kujawsko-pomorskie,81.583,82.324,81.953,focused,82.324,0.979895,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Lubelskie,79.935,79.718,79.827,focused,79.718,0.987356,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Lubuskie,80.82,76.361,78.591,focused,76.361,0.972975,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Łódzkie,83.616,81.59,82.603,focused,81.59,0.990653,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Małopolskie,84.304,86.541,85.423,focused,86.541,0.958456,1,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Mazowieckie,85.416,87.714,86.565,focused,87.714,0.997652,1,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Opolskie,80.802,80.774,80.788,focused,80.774,0.970271,1,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Podkarpackie,78.224,81.1,79.662,focused,81.1,0.892908,0,ekstrapolacja_brak_historycznego_progu
+j-2026,Psychiatria,Podlaskie,82.801,79.249,81.025,focused,79.249,0.98331,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Pomorskie,83.405,82.939,83.172,focused,82.939,0.992931,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Śląskie,85.06,81.642,83.351,focused,81.642,0.991224,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Świętokrzyskie,81.772,76.937,79.355,focused,76.937,0.967034,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Warmińsko-mazurskie,81.519,80.715,81.117,focused,80.715,0.983072,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Wielkopolskie,84.684,83.246,83.965,focused,83.246,0.994319,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria,Zachodniopomorskie,79.055,80.52,79.787,focused,80.52,0.976469,0,ekstrapolacja_brak_historycznego_progu
+j-2026,Psychiatria dzieci i młodzieży,Dolnośląskie,86.962,84.94,85.951,focused,84.94,0.98274,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Kujawsko-pomorskie,84.424,84.699,84.561,focused,84.699,0.957929,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Lubelskie,90.07,87.684,88.877,focused,87.684,0.996648,6,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Lubuskie,85.848,82.021,83.935,focused,82.021,0.972603,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Łódzkie,88.88,86.743,87.811,focused,86.743,0.992536,7,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Małopolskie,88.526,87.689,88.108,focused,87.689,0.993919,3,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Opolskie,87.415,86.744,87.08,focused,86.744,0.978221,2,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Podkarpackie,88.663,85.455,87.059,focused,85.455,0.993002,5,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Podlaskie,87.203,86.923,87.063,focused,86.923,0.985438,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Pomorskie,87.797,86.942,87.37,focused,86.942,0.993024,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Śląskie,89.829,86.603,88.216,focused,86.603,0.997,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Warmińsko-mazurskie,86.043,84.492,85.268,focused,84.492,0.970762,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Wielkopolskie,88.203,86.809,87.506,focused,86.809,0.991279,4,eksperymentalny_prog_warunkowy_pelnej_puli
+j-2026,Psychiatria dzieci i młodzieży,Zachodniopomorskie,88.797,87.322,88.06,focused,87.322,0.993226,6,eksperymentalny_prog_warunkowy_pelnej_puli
