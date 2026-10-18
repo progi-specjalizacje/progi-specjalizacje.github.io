@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useCalculatorStore } from "../state/calculatorStore";
 import { formatNumber, formatPercentPoints } from "../utils/formatters";
+import { ScoreHistogram } from "./ScoreHistogram";
 
 export function Calculator() {
   const {
@@ -218,6 +219,8 @@ export function Calculator() {
             </strong>
           </div>
         </div>
+
+        <ScoreHistogram />
       </div>
     </section>
   );

@@ -3,6 +3,7 @@ import { getReportOptions } from "../data/reportData";
 import { useFilterStore } from "../state/filterStore";
 import { useCalculatorStore } from "../state/calculatorStore";
 import { theme } from "../styles/theme";
+import { calculateUserPercent } from "../utils/userScore";
 
 export function SimulationTable() {
   const globalFilters = useFilterStore((state) => state.filters);
@@ -22,26 +23,19 @@ export function SimulationTable() {
   const options = getReportOptions();
 
   // Calculate the user's recruitment percentage score
-  const userPercent = useMemo(() => {
-    const actualExamPoints = Math.min(examPoints, maxExamPoints);
-    const phdPoints = hasPhD ? 5 : 0;
-    const pubPoints = Math.min(5, publicationsCount * 0.5);
-
-    let extraPoints = phdPoints + pubPoints;
-    let maxExtraPoints = 10;
-
-    if (calculatorTryb === "Pozarezydencki") {
-      const expPoints = hasExperience ? 5 : 0;
-      const academicPoints = isAcademicTeacher ? 5 : 0;
-      extraPoints += expPoints + academicPoints;
-      maxExtraPoints = 20;
-    }
-
-    const obtainedPoints = actualExamPoints + extraPoints;
-    const maxPossiblePoints = maxExamPoints + maxExtraPoints;
-
-    return maxPossiblePoints > 0 ? (obtainedPoints / maxPossiblePoints) * 100 : 0;
-  }, [calculatorTryb, examPoints, maxExamPoints, hasPhD, hasExperience, isAcademicTeacher, publicationsCount]);
+  const userPercent = useMemo(
+    () =>
+      calculateUserPercent({
+        tryb: calculatorTryb,
+        examPoints,
+        maxExamPoints,
+        hasPhD,
+        hasExperience,
+        isAcademicTeacher,
+        publicationsCount,
+      }),
+    [calculatorTryb, examPoints, maxExamPoints, hasPhD, hasExperience, isAcademicTeacher, publicationsCount],
+  );
 
   // Find all unique voivodeships across the active database to keep the table stable
   const allWojewodztwa = useMemo(() => {

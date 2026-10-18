@@ -1,0 +1,22 @@
+import type { CalculatorState } from "../state/calculatorStore";
+
+type UserScoreInput = Pick<
+  CalculatorState,
+  "tryb" | "examPoints" | "maxExamPoints" | "hasPhD" | "hasExperience" | "isAcademicTeacher" | "publicationsCount"
+>;
+
+// Mirrors the point rules shown in the calculator: residency adds PhD and publications,
+// non-residency also adds work experience and academic teaching.
+export function calculateUserPercent(input: UserScoreInput) {
+  const actualExamPoints = Math.min(input.examPoints, input.maxExamPoints);
+  let extraPoints = (input.hasPhD ? 5 : 0) + Math.min(5, input.publicationsCount * 0.5);
+  let maxExtraPoints = 10;
+
+  if (input.tryb === "Pozarezydencki") {
+    extraPoints += (input.hasExperience ? 5 : 0) + (input.isAcademicTeacher ? 5 : 0);
+    maxExtraPoints = 20;
+  }
+
+  const maxPossiblePoints = input.maxExamPoints + maxExtraPoints;
+  return maxPossiblePoints > 0 ? ((actualExamPoints + extraPoints) / maxPossiblePoints) * 100 : 0;
+}

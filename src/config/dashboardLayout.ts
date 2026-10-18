@@ -169,11 +169,11 @@ export const dashboardLayout: DashboardVisual[] = [
   {
     id: "calculator",
     type: "calculator",
-    grid: { column: 1, row: 21, colSpan: 5, rowSpan: 8 },
+    grid: { column: 1, row: 21, colSpan: 7, rowSpan: 10 },
   },
   {
     id: "simulation",
     type: "simulation",
-    grid: { column: 6, row: 21, colSpan: 7, rowSpan: 8 },
+    grid: { column: 8, row: 21, colSpan: 5, rowSpan: 10 },
   },
 ];
