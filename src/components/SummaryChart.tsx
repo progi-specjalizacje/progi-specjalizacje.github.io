@@ -55,7 +55,7 @@ export function SummaryChart() {
           type="button"
           onClick={() => setChartMode("points")}
         >
-          Punkty
+          Wynik
         </button>
         <button
           className={chartMode === "places" ? "active" : ""}
@@ -75,6 +75,13 @@ export function SummaryChart() {
             )}
           </span>
         ))}
+        {chartMode === "points" && (
+          <p className="chart-axis-note">
+            {scoreAsPoints
+              ? "Oś Y: punkty rekrutacyjne (poglądowo; maks. 210 rezydentura / 220 poza rezydenturą)"
+              : "Oś Y: % maksymalnej punktacji rekrutacyjnej"}
+          </p>
+        )}
       </div>
       <div className="chart-scroll">
         <svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label="Wykres podsumowania rekrutacji">
@@ -88,7 +95,9 @@ export function SummaryChart() {
               <g key={tick}>
                 <line x1={chartLeft} y1={y} x2={chartRight} y2={y} className="chart-grid-line" />
                 <text x={chartLeft - 10} y={y + 4} className="chart-tick" textAnchor="end">
-                  {formatByType(value, "number")}
+                  {chartMode === "points"
+                    ? formatByType(value, "score", scoreAsPoints)
+                    : formatByType(value, "number")}
                 </text>
               </g>
             );

@@ -808,6 +808,14 @@ input[type="range"] {
   border-radius: 999px;
 }
 
+.chart-axis-note {
+  flex-basis: 100%;
+  margin: 0;
+  color: #6b6275;
+  font-size: 11px;
+  font-weight: 600;
+}
+
 .chart-scroll {
   flex: 1 1 auto;
   min-height: 0;
