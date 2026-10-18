@@ -1,7 +1,7 @@
 [
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Dolnośląskie",
     "lp": 106,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -17,7 +17,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Dolnośląskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -28,12 +28,12 @@
     "data_zlozenia_wniosku": "13.09.2023 12:24:28",
     "ilosc_zakwalifikowanych_w_trybie": 1,
     "czy_miejsca_doktoranckie": "TAK",
-    "doktoranckie_podmiot": "SMKSystem Monitorowania Kształcenia",
-    "doktoranckie_jednostka": "Pracowników Medycznych Status dokumentu Opublikowanie wyników Uniwersytecki Szpital Kliniczny im. Jana Mikulicza-Radeckiego we Wrocławiu Klinika Dermatologii, Wenerologii i Alergologii"
+    "doktoranckie_podmiot": "Uniwersytecki Szpital Kliniczny im. Jana Mikulicza-Radeckiego we Wrocławiu",
+    "doktoranckie_jednostka": "Klinika Dermatologii, Wenerologii i Alergologii"
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Lubelskie",
     "lp": 63,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -49,7 +49,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Łódzkie",
     "lp": 77,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -65,7 +65,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Łódzkie",
     "lp": 78,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -81,7 +81,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Łódzkie",
     "lp": 79,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -97,7 +97,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Łódzkie",
     "lp": 80,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -113,7 +113,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Łódzkie",
     "lp": 81,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -129,7 +129,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Łódzkie",
     "lp": 82,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -145,7 +145,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Małopolskie",
     "lp": 120,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -161,7 +161,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Małopolskie",
     "lp": 121,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -177,7 +177,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Małopolskie",
     "lp": 122,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -193,7 +193,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Mazowieckie",
     "lp": 171,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -209,7 +209,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Mazowieckie",
     "lp": 172,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -225,7 +225,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Mazowieckie",
     "lp": 173,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -241,7 +241,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Mazowieckie",
     "lp": 174,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -257,7 +257,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Mazowieckie",
     "lp": 175,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -273,7 +273,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Opolskie",
     "lp": 23,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -289,7 +289,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Opolskie",
     "lp": 24,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -305,7 +305,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Podkarpackie",
     "lp": 51,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -321,7 +321,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Podkarpackie",
     "lp": 52,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -337,7 +337,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Podkarpackie",
     "lp": 53,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -353,7 +353,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Podkarpackie",
     "lp": 54,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -369,7 +369,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Podlaskie",
     "lp": 49,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -385,7 +385,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Podlaskie",
     "lp": 50,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -401,7 +401,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Podlaskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -417,7 +417,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Pomorskie",
     "lp": 75,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -433,7 +433,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Pomorskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -449,7 +449,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Śląskie",
     "lp": 155,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -465,7 +465,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Śląskie",
     "lp": 156,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -481,7 +481,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Śląskie",
     "lp": 157,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -497,7 +497,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Śląskie",
     "lp": 158,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -513,7 +513,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Śląskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -529,7 +529,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Śląskie",
     "lp": 2,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -545,7 +545,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Świętokrzyskie",
     "lp": 36,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -561,7 +561,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Świętokrzyskie",
     "lp": 37,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -577,7 +577,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 43,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -593,7 +593,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -609,7 +609,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Wielkopolskie",
     "lp": 75,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -625,7 +625,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 51,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -641,7 +641,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 52,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -657,7 +657,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 53,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -673,7 +673,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Dolnośląskie",
     "lp": 89,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -689,7 +689,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Dolnośląskie",
     "lp": 90,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -705,7 +705,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Dolnośląskie",
     "lp": 91,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -721,7 +721,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Dolnośląskie",
     "lp": 92,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -737,7 +737,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Dolnośląskie",
     "lp": 93,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -753,7 +753,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Dolnośląskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -769,7 +769,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Lubelskie",
     "lp": 56,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -785,7 +785,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Lubelskie",
     "lp": 57,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -801,7 +801,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Łódzkie",
     "lp": 88,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -817,7 +817,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Łódzkie",
     "lp": 89,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -833,7 +833,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Łódzkie",
     "lp": 90,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -849,7 +849,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Łódzkie",
     "lp": 91,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -865,7 +865,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Łódzkie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -881,7 +881,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Podkarpackie",
     "lp": 52,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -897,7 +897,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Podkarpackie",
     "lp": 53,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -913,7 +913,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Podkarpackie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -929,7 +929,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Podkarpackie",
     "lp": 2,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -945,7 +945,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Podlaskie",
     "lp": 44,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -961,7 +961,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Podlaskie",
     "lp": 45,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -977,7 +977,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 142,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -993,7 +993,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 143,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1009,7 +1009,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 144,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1025,7 +1025,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 145,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1041,7 +1041,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 146,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1057,7 +1057,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 147,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1073,7 +1073,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 148,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1089,7 +1089,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 149,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1105,7 +1105,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 150,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1121,7 +1121,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 38,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1137,7 +1137,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 39,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1153,7 +1153,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 40,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1169,7 +1169,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 41,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1185,7 +1185,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 50,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1201,7 +1201,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Dolnośląskie",
     "lp": 127,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1217,7 +1217,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Dolnośląskie",
     "lp": 128,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1233,7 +1233,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Dolnośląskie",
     "lp": 129,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1249,7 +1249,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Dolnośląskie",
     "lp": 130,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1265,7 +1265,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Dolnośląskie",
     "lp": 131,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1281,7 +1281,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Łódzkie",
     "lp": 105,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1297,7 +1297,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Łódzkie",
     "lp": 106,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1313,7 +1313,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Łódzkie",
     "lp": 107,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1329,7 +1329,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Małopolskie",
     "lp": 137,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1345,7 +1345,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Małopolskie",
     "lp": 138,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1361,7 +1361,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Małopolskie",
     "lp": 139,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1377,7 +1377,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 220,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1393,7 +1393,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 221,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1409,7 +1409,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 222,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1425,7 +1425,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 223,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1441,7 +1441,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 224,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1457,7 +1457,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 225,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1473,7 +1473,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 226,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1489,7 +1489,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 227,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1505,7 +1505,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 228,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1521,7 +1521,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 229,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1537,7 +1537,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Opolskie",
     "lp": 34,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1553,7 +1553,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Podkarpackie",
     "lp": 67,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1569,7 +1569,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Podkarpackie",
     "lp": 68,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1585,7 +1585,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Podkarpackie",
     "lp": 69,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1601,7 +1601,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Podlaskie",
     "lp": 63,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1617,7 +1617,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Podlaskie",
     "lp": 64,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1633,7 +1633,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Podlaskie",
     "lp": 65,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1649,7 +1649,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Pomorskie",
     "lp": 83,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1665,7 +1665,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Pomorskie",
     "lp": 84,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1681,7 +1681,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Śląskie",
     "lp": 153,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1697,7 +1697,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Śląskie",
     "lp": 154,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1713,7 +1713,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Śląskie",
     "lp": 155,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1729,7 +1729,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Śląskie",
     "lp": 156,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1745,7 +1745,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Świętokrzyskie",
     "lp": 32,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1761,7 +1761,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Świętokrzyskie",
     "lp": 33,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1777,7 +1777,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1793,7 +1793,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Wielkopolskie",
     "lp": 118,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1809,7 +1809,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Wielkopolskie",
     "lp": 119,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1825,7 +1825,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Wielkopolskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1841,7 +1841,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Wielkopolskie",
     "lp": 2,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1857,7 +1857,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Wielkopolskie",
     "lp": 3,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1873,7 +1873,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 68,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1889,7 +1889,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 69,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1905,7 +1905,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 70,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1921,7 +1921,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 71,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1937,7 +1937,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Lubelskie",
     "lp": 32,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1953,7 +1953,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Lubelskie",
     "lp": 33,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1969,7 +1969,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Lubelskie",
     "lp": 34,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -1985,7 +1985,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Małopolskie",
     "lp": 57,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2001,7 +2001,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Małopolskie",
     "lp": 58,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2017,7 +2017,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Małopolskie",
     "lp": 59,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2033,7 +2033,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Małopolskie",
     "lp": 60,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2049,7 +2049,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Małopolskie",
     "lp": 61,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2065,7 +2065,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 104,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2081,7 +2081,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 105,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2097,7 +2097,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 106,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2113,7 +2113,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 107,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2129,7 +2129,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 108,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2145,7 +2145,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Opolskie",
     "lp": 6,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2161,7 +2161,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Podkarpackie",
     "lp": 28,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2177,7 +2177,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Podkarpackie",
     "lp": 29,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2193,7 +2193,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Podlaskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2209,7 +2209,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Pomorskie",
     "lp": 52,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2225,7 +2225,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Pomorskie",
     "lp": 53,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2241,7 +2241,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Pomorskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2257,7 +2257,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Śląskie",
     "lp": 32,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2273,7 +2273,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Śląskie",
     "lp": 33,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2289,7 +2289,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Śląskie",
     "lp": 34,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2305,7 +2305,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Śląskie",
     "lp": 35,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2321,7 +2321,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Śląskie",
     "lp": 36,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2337,7 +2337,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Śląskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2353,7 +2353,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 18,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2369,7 +2369,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Wielkopolskie",
     "lp": 42,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2385,7 +2385,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 24,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2401,7 +2401,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 25,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2417,7 +2417,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 26,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2433,7 +2433,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Dolnośląskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2449,7 +2449,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Lubelskie",
     "lp": 24,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2465,7 +2465,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Lubelskie",
     "lp": 25,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2481,7 +2481,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Lubelskie",
     "lp": 26,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2497,7 +2497,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Łódzkie",
     "lp": 32,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2513,7 +2513,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Łódzkie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2529,7 +2529,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Łódzkie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2540,12 +2540,12 @@
     "data_zlozenia_wniosku": "01.02.2024 07:25:36",
     "ilosc_zakwalifikowanych_w_trybie": 2,
     "czy_miejsca_doktoranckie": "TAK",
-    "doktoranckie_podmiot": "SMKSystem Monitorowania Kształcenia",
-    "doktoranckie_jednostka": "Pracowników Medycznych Status dokumentu Opublikowanie wyników Wojewódzki Specjalistyczny Szpital im. dr Wł. Biegańskiego w Łodzi Oddział Dermatologii, Dermatologii Dziecięcej i Onkologicznej / Klinika Dermatologii, Dermatologii Dziecięcej i Onkologicznej UM"
+    "doktoranckie_podmiot": "Wojewódzki Specjalistyczny Szpital im. dr Wł. Biegańskiego w Łodzi",
+    "doktoranckie_jednostka": "Oddział Dermatologii, Dermatologii Dziecięcej i Onkologicznej / Klinika Dermatologii, Dermatologii Dziecięcej i Onkologicznej UM"
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Małopolskie",
     "lp": 37,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2561,7 +2561,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Małopolskie",
     "lp": 38,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2577,7 +2577,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 92,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2593,7 +2593,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 93,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2609,7 +2609,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 94,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2625,7 +2625,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Podkarpackie",
     "lp": 14,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2641,7 +2641,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Podkarpackie",
     "lp": 15,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2657,7 +2657,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Podkarpackie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2673,7 +2673,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Podlaskie",
     "lp": 9,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2689,7 +2689,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Pomorskie",
     "lp": 32,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2705,7 +2705,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Pomorskie",
     "lp": 33,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2721,7 +2721,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Pomorskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2737,7 +2737,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Pomorskie",
     "lp": 2,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2753,7 +2753,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Śląskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2769,7 +2769,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Świętokrzyskie",
     "lp": 8,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2785,7 +2785,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Świętokrzyskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2801,7 +2801,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 10,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2817,7 +2817,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 11,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2833,7 +2833,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 12,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2849,7 +2849,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 13,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2865,7 +2865,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Dolnośląskie",
     "lp": 62,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2881,7 +2881,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Dolnośląskie",
     "lp": 63,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2897,7 +2897,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Dolnośląskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2913,7 +2913,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Łódzkie",
     "lp": 51,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2929,7 +2929,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Łódzkie",
     "lp": 52,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2945,7 +2945,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Łódzkie",
     "lp": 53,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2961,7 +2961,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Małopolskie",
     "lp": 54,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2977,7 +2977,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Małopolskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -2993,7 +2993,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Mazowieckie",
     "lp": 96,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3009,7 +3009,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Mazowieckie",
     "lp": 97,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3025,7 +3025,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Mazowieckie",
     "lp": 98,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3041,7 +3041,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Mazowieckie",
     "lp": 99,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3057,7 +3057,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Mazowieckie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3073,7 +3073,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Opolskie",
     "lp": 17,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3089,7 +3089,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Opolskie",
     "lp": 18,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3105,7 +3105,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Podkarpackie",
     "lp": 22,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3121,7 +3121,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Podlaskie",
     "lp": 14,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3137,7 +3137,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Podlaskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3153,7 +3153,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Pomorskie",
     "lp": 40,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3169,7 +3169,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Pomorskie",
     "lp": 41,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3185,7 +3185,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Pomorskie",
     "lp": 42,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3201,7 +3201,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Pomorskie",
     "lp": 43,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3217,7 +3217,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Pomorskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3233,7 +3233,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Śląskie",
     "lp": 78,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3249,7 +3249,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Śląskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3265,7 +3265,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Świętokrzyskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3281,7 +3281,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Wielkopolskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3297,7 +3297,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Dolnośląskie",
     "lp": 59,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3313,7 +3313,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Dolnośląskie",
     "lp": 60,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3329,7 +3329,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Dolnośląskie",
     "lp": 61,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3345,7 +3345,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Lubelskie",
     "lp": 27,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3361,7 +3361,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Lubelskie",
     "lp": 28,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3377,7 +3377,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Łódzkie",
     "lp": 33,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3393,7 +3393,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Łódzkie",
     "lp": 34,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3409,7 +3409,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Łódzkie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3425,7 +3425,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Łódzkie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3441,7 +3441,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Małopolskie",
     "lp": 57,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3457,7 +3457,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Małopolskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3473,7 +3473,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Mazowieckie",
     "lp": 106,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3489,7 +3489,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Mazowieckie",
     "lp": 107,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3505,7 +3505,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Mazowieckie",
     "lp": 108,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3521,7 +3521,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Mazowieckie",
     "lp": 109,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3537,7 +3537,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Mazowieckie",
     "lp": 110,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3553,7 +3553,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Mazowieckie",
     "lp": 111,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3569,7 +3569,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Podkarpackie",
     "lp": 20,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3585,7 +3585,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Podkarpackie",
     "lp": 21,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3601,7 +3601,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Podkarpackie",
     "lp": 22,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3617,7 +3617,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Podkarpackie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3633,7 +3633,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Śląskie",
     "lp": 67,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3649,7 +3649,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Śląskie",
     "lp": 68,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3665,7 +3665,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 24,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3681,7 +3681,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3697,7 +3697,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 2,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3713,7 +3713,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 26,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3729,7 +3729,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 27,
     "dziedzina_medycyny": "Dermatologia i wenerologia",
@@ -3745,7 +3745,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 1,
     "dziedzina_medycyny": "Dermatologia i wenerologia",

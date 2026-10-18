@@ -1,6 +1,6 @@
 dziedzina_medycyny,sciezka,egzamin,rundy_z_oferta,rundy_z_obserwowanym_progiem,rundy_z_pelna_pula,udzial_rund_z_pelna_pula,mediana_liczby_miejsc,mediana_liczby_zakwalifikowanych,mediana_progu_pelnych_pul,minimum_progu_pelnych_pul,maksimum_progu_pelnych_pul,grupa_pilotazowa,regiony_stabilnego_pilotazu,regiony_wysokiego_progu_malej_puli
 Kardiologia,lekarska,LEK,112,111,76,0.679,7,6,87.08,77.29,91.79,B_wysoki_prog_mala_pula,7,2
-Urologia,lekarska,LEK,90,86,79,0.878,2,2,87.44,81.37,93.14,B_wysoki_prog_mala_pula,6,9
+Urologia,lekarska,LEK,90,87,80,0.889,2,2,87.44,63.48,93.14,B_wysoki_prog_mala_pula,6,9
 Radiologia i diagnostyka obrazowa,lekarska,LEK,109,109,66,0.606,6,5,87.345,84.31,91.87,B_wysoki_prog_mala_pula,6,2
 Okulistyka,lekarska,LEK,99,98,74,0.747,3,3,88.52,85.99,91.39,A_stabilny_pilotaz,5,7
 Otorynolaryngologia,lekarska,LEK,91,87,76,0.835,2,2,87.015,80.88,91.87,B_wysoki_prog_mala_pula,4,10

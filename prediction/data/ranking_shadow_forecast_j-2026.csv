@@ -1,69 +1,69 @@
 frozen_at,model_version,rekrutacja,dziedzina_medycyny,egzamin,regiony_z_oferta,prognoza_krajowa_ranking_shares_proc,status
-2026-09-23,ranking-shares-v1,j-2026,Dermatologia i wenerologia,LEK,11,95.109,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Endokrynologia,LEK,12,94.904,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Chirurgia plastyczna,LEK,5,93.792,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Reumatologia,LEK,12,92.502,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Gastroenterologia,LEK,11,92.124,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Okulistyka,LEK,16,90.897,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Endokrynologia i diabetologia dziecięca,LEK,9,90.459,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Urologia,LEK,15,90.143,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Otorynolaryngologia,LEK,15,89.864,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Radiologia i diagnostyka obrazowa,LEK,16,89.71,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Kardiologia,LEK,16,89.527,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Ortodoncja,LDEK,11,89.396,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Alergologia,LEK,10,89.306,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Neurochirurgia,LEK,11,88.985,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Diabetologia,LEK,14,88.367,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Choroby płuc dzieci,LEK,8,87.628,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Psychiatria dzieci i młodzieży,LEK,14,87.241,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Gastroenterologia dziecięca,LEK,4,87.212,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Chirurgia stomatologiczna,LDEK,14,87.107,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Neurologia dziecięca,LEK,8,86.652,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Kardiologia dziecięca,LEK,8,86.623,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Otorynolaryngologia dziecięca,LEK,5,86.26,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Chirurgia naczyniowa,LEK,9,86.148,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Farmakologia kliniczna,LEK,4,86.02,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Periodontologia,LDEK,10,85.698,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Medycyna morska i tropikalna,LEK,2,84.974,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Chirurgia dziecięca,LEK,16,84.9,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Protetyka stomatologiczna,LDEK,12,84.487,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Nefrologia dziecięca,LEK,9,84.45,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Anestezjologia i intensywna terapia,LEK,16,84.446,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Immunologia kliniczna,LEK,6,84.139,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Choroby płuc,LEK,15,84.087,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Genetyka kliniczna,LEK,8,84.068,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Ortopedia i traumatologia narządu ruchu,LEK,16,83.97,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Położnictwo i ginekologia,LEK,16,83.733,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Chirurgia onkologiczna,LEK,14,83.458,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Hematologia,LEK,16,83.306,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Nefrologia,LEK,15,83.275,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Medycyna sportowa,LEK,3,82.987,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Pediatria metaboliczna,LEK,4,82.744,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Kardiochirurgia,LEK,15,82.675,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Stomatologia dziecięca,LDEK,13,82.428,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Onkologia i hematologia dziecięca,LEK,9,82.182,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Psychiatria,LEK,16,81.993,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Patomorfologia,LEK,15,81.68,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Medycyna paliatywna,LEK,14,81.611,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Medycyna nuklearna,LEK,13,81.529,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Medycyna pracy,LEK,11,81.451,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Toksykologia kliniczna,LEK,7,81.419,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Choroby zakaźne,LEK,16,81.373,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Onkologia kliniczna,LEK,16,81.256,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Pediatria,LEK,16,81.21,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Diagnostyka laboratoryjna,LEK,3,80.705,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Medycyna sądowa,LEK,12,80.704,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Neurologia,LEK,16,80.203,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Geriatria,LEK,16,79.164,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Stomatologia zachowawcza z endodoncją,LDEK,12,79.051,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Chirurgia klatki piersiowej,LEK,10,78.992,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Radioterapia onkologiczna,LEK,16,78.88,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Balneologia i medycyna fizykalna,LEK,7,78.317,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Neonatologia,LEK,16,78.273,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Rehabilitacja medyczna,LEK,16,78.033,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Mikrobiologia lekarska,LEK,4,77.583,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Chirurgia ogólna,LEK,16,77.345,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Medycyna ratunkowa,LEK,16,77.304,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Medycyna rodzinna,LEK,16,77.264,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Choroby wewnętrzne,LEK,16,76.319,shadow_do_oceny_po_publikacji_wynikow
-2026-09-23,ranking-shares-v1,j-2026,Transfuzjologia kliniczna,LEK,13,75.575,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Dermatologia i wenerologia,LEK,11,95.13,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Endokrynologia,LEK,12,94.913,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Chirurgia plastyczna,LEK,5,93.782,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Reumatologia,LEK,12,92.526,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Gastroenterologia,LEK,11,92.144,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Okulistyka,LEK,16,90.934,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Endokrynologia i diabetologia dziecięca,LEK,9,90.45,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Urologia,LEK,15,90.122,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Otorynolaryngologia,LEK,15,89.897,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Radiologia i diagnostyka obrazowa,LEK,16,89.744,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Kardiologia,LEK,16,89.575,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Ortodoncja,LDEK,11,89.395,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Alergologia,LEK,10,89.353,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Neurochirurgia,LEK,11,89.021,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Diabetologia,LEK,14,88.403,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Choroby płuc dzieci,LEK,8,87.649,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Psychiatria dzieci i młodzieży,LEK,14,87.269,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Gastroenterologia dziecięca,LEK,4,87.244,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Chirurgia stomatologiczna,LDEK,14,87.132,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Neurologia dziecięca,LEK,8,86.673,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Kardiologia dziecięca,LEK,8,86.65,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Otorynolaryngologia dziecięca,LEK,5,86.303,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Chirurgia naczyniowa,LEK,9,86.16,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Farmakologia kliniczna,LEK,4,85.995,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Periodontologia,LDEK,10,85.737,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Medycyna morska i tropikalna,LEK,2,84.98,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Chirurgia dziecięca,LEK,16,84.923,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Protetyka stomatologiczna,LDEK,12,84.516,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Anestezjologia i intensywna terapia,LEK,16,84.464,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Nefrologia dziecięca,LEK,9,84.46,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Immunologia kliniczna,LEK,6,84.158,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Choroby płuc,LEK,15,84.119,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Genetyka kliniczna,LEK,8,84.078,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Ortopedia i traumatologia narządu ruchu,LEK,16,84.021,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Położnictwo i ginekologia,LEK,16,83.754,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Chirurgia onkologiczna,LEK,14,83.482,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Hematologia,LEK,16,83.321,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Nefrologia,LEK,15,83.285,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Medycyna sportowa,LEK,3,83.012,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Kardiochirurgia,LEK,15,82.741,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Pediatria metaboliczna,LEK,4,82.662,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Stomatologia dziecięca,LDEK,13,82.454,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Onkologia i hematologia dziecięca,LEK,9,82.191,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Psychiatria,LEK,16,82.005,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Patomorfologia,LEK,15,81.713,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Medycyna paliatywna,LEK,14,81.631,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Medycyna nuklearna,LEK,13,81.541,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Medycyna pracy,LEK,11,81.471,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Toksykologia kliniczna,LEK,7,81.412,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Choroby zakaźne,LEK,16,81.375,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Onkologia kliniczna,LEK,16,81.217,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Pediatria,LEK,16,81.196,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Medycyna sądowa,LEK,12,80.738,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Diagnostyka laboratoryjna,LEK,3,80.722,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Neurologia,LEK,16,80.224,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Geriatria,LEK,16,79.174,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Stomatologia zachowawcza z endodoncją,LDEK,12,79.102,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Chirurgia klatki piersiowej,LEK,10,79.028,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Radioterapia onkologiczna,LEK,16,78.9,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Balneologia i medycyna fizykalna,LEK,7,78.372,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Neonatologia,LEK,16,78.297,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Rehabilitacja medyczna,LEK,16,78.023,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Mikrobiologia lekarska,LEK,4,77.593,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Chirurgia ogólna,LEK,16,77.359,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Medycyna ratunkowa,LEK,16,77.273,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Medycyna rodzinna,LEK,16,77.249,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Choroby wewnętrzne,LEK,16,76.294,shadow_do_oceny_po_publikacji_wynikow
+2026-09-23,ranking-shares-v1,j-2026,Transfuzjologia kliniczna,LEK,13,75.61,shadow_do_oceny_po_publikacji_wynikow

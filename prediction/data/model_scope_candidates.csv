@@ -130,7 +130,6 @@ Psychiatria dzieci i młodzieży,Małopolskie,lekarska,LEK,5,5,3,0.6,2,2,87.32,8
 Diabetologia,Podlaskie,lekarska,LEK,7,6,6,0.857,2,2,87.315,76.33,89.86,B_wysoki_prog_mala_pula
 Psychiatria dzieci i młodzieży,Warmińsko-mazurskie,lekarska,LEK,4,4,4,1,1,1,87.29,81.9,89.47,B_wysoki_prog_mala_pula
 Psychiatria dzieci i młodzieży,Pomorskie,lekarska,LEK,4,4,4,1,2,2,87.26,80.19,88.41,B_wysoki_prog_mala_pula
-Urologia,Zachodniopomorskie,lekarska,LEK,6,4,4,0.667,1.5,2.5,87.255,84.31,88.24,B_wysoki_prog_mala_pula
 Kardiologia,Podlaskie,lekarska,LEK,7,7,7,1,2,2,87.25,82.13,91.79,B_wysoki_prog_mala_pula
 Neurologia dziecięca,Mazowieckie,lekarska,LEK,7,7,5,0.714,3,2,87.07,85.61,90.43,B_wysoki_prog_mala_pula
 Okulistyka,Warmińsko-mazurskie,lekarska,LEK,7,7,5,0.714,3,2,86.96,86.76,87.92,B_wysoki_prog_mala_pula
@@ -143,6 +142,7 @@ Urologia,Świętokrzyskie,lekarska,LEK,4,4,4,1,2,2,86.605,84.54,89,B_wysoki_prog
 Ortodoncja,Śląskie,stomatologiczna,LDEK,7,7,7,1,2,2,86.6,85.65,87.98,B_wysoki_prog_mala_pula
 Chirurgia onkologiczna,Wielkopolskie,lekarska,LEK,7,6,5,0.714,2,2,86.47,84.54,88.05,B_wysoki_prog_mala_pula
 Psychiatria dzieci i młodzieży,Zachodniopomorskie,lekarska,LEK,6,6,6,1,1,1,86.47,83.82,87.44,B_wysoki_prog_mala_pula
+Urologia,Zachodniopomorskie,lekarska,LEK,6,5,5,0.833,1.5,2,86.47,63.48,88.24,B_wysoki_prog_mala_pula
 Otorynolaryngologia,Warmińsko-mazurskie,lekarska,LEK,5,5,4,0.8,2,1,86.405,85.51,88.89,B_wysoki_prog_mala_pula
 Otorynolaryngologia,Świętokrzyskie,lekarska,LEK,5,5,5,1,2,2,86.34,84.76,89.22,B_wysoki_prog_mala_pula
 Otorynolaryngologia,Podlaskie,lekarska,LEK,7,7,7,1,1,1,86.23,80.88,87.92,B_wysoki_prog_mala_pula

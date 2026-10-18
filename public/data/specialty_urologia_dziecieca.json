@@ -1,7 +1,7 @@
 [
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Mazowieckie",
     "lp": 819,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -17,7 +17,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Mazowieckie",
     "lp": 820,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -33,7 +33,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Lubuskie",
     "lp": 97,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -49,7 +49,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Lubuskie",
     "lp": 98,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -65,7 +65,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Mazowieckie",
     "lp": 784,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -81,7 +81,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 690,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -97,7 +97,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 870,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -113,7 +113,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 871,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -129,7 +129,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Śląskie",
     "lp": 578,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -145,7 +145,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 160,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -161,7 +161,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 161,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -177,7 +177,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Pomorskie",
     "lp": 170,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -193,7 +193,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Łódzkie",
     "lp": 169,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -209,7 +209,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 427,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -225,7 +225,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 428,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -241,7 +241,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Dolnośląskie",
     "lp": 213,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -257,7 +257,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Mazowieckie",
     "lp": 498,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -273,7 +273,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Wielkopolskie",
     "lp": 240,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -289,7 +289,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Dolnośląskie",
     "lp": 231,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -305,7 +305,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Pomorskie",
     "lp": 190,
     "dziedzina_medycyny": "Urologia dziecięca",
@@ -321,7 +321,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Pomorskie",
     "lp": 191,
     "dziedzina_medycyny": "Urologia dziecięca",
