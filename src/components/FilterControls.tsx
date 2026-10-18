@@ -1,5 +1,5 @@
 import { Search } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import { getReportOptions } from "../data/reportData";
 import { useFilterStore } from "../state/filterStore";
 import type { PrzedstawWynikJako, TrybSzkolenia } from "../types";
@@ -10,7 +10,7 @@ const scoreHelp =
 const rawScoreHelp = "[Wynik egzaminu + dodatkowe punkty] -wartość przedstawiana dla celów poglądowych, przy założeniu, że nie anulowano żadnego pytania na egzaminie końcowym."
 const doctoralPlacesHelp = "Z zestawienia wyłączone są miejsca doktoranckie.";
 
-export function InfoTooltip({ text }: { text: string }) {
+export function InfoTooltip({ text, children }: { text: string; children?: ReactNode }) {
   const [visible, setVisible] = useState(false);
   return (
     <span
@@ -23,7 +23,7 @@ export function InfoTooltip({ text }: { text: string }) {
       onBlur={() => setVisible(false)}
     >
       <span style={{ display: "block", lineHeight: 1 }}>?</span>
-      {visible && <span className="info-tooltip-content">{text}</span>}
+      {visible && <span className="info-tooltip-content">{children ?? text}</span>}
     </span>
   );
 }

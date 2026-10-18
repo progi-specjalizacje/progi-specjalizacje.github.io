@@ -6,14 +6,14 @@ type UserScoreInput = Pick<
 >;
 
 // Mirrors the point rules shown in the calculator: residency adds PhD and publications,
-// non-residency also adds work experience and academic teaching.
+// non-residency also adds work experience and, only on top of it, academic teaching.
 export function calculateUserPercent(input: UserScoreInput) {
   const actualExamPoints = Math.min(input.examPoints, input.maxExamPoints);
   let extraPoints = (input.hasPhD ? 5 : 0) + Math.min(5, input.publicationsCount * 0.5);
   let maxExtraPoints = 10;
 
   if (input.tryb === "Pozarezydencki") {
-    extraPoints += (input.hasExperience ? 5 : 0) + (input.isAcademicTeacher ? 5 : 0);
+    extraPoints += input.hasExperience ? 5 + (input.isAcademicTeacher ? 5 : 0) : 0;
     maxExtraPoints = 20;
   }
 
