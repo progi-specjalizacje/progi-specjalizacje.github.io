@@ -1,18 +1,19 @@
 import { useMemo, useState } from "react";
 import { getReportOptions } from "../data/reportData";
-import { useFilteredRows } from "../hooks/useFilteredRows";
+import { useFilteredPlaces } from "../hooks/useFilteredPlaces";
 import { useFilteredPools } from "../hooks/useFilteredPools";
 import { useFilterStore } from "../state/filterStore";
 import { formatByType } from "../utils/formatters";
-import { summarizeRecruitments } from "../utils/reportMetrics";
+import { getRecruitmentTimeline, summarizeRecruitments, toDisplayedScore } from "../utils/reportMetrics";
 import { InfoTooltip } from "./FilterControls";
 
 const width = 920;
 const height = 260;
 const padding = { top: 24, right: 24, bottom: 44, left: 48 };
 const series = [
-  { key: "averageThreshold", label: "Uśredniony próg dla wszystkich województw", color: "#0f766e", format: "score" },
-  { key: "medianQualifiedScore", label: "Średni wynik zakwalifikowanych", color: "#7c3aed", format: "score" },
+  { key: "maxThreshold", label: "Najwyższy próg województwa", color: "#7c3aed", format: "score" },
+  { key: "medianThreshold", label: "Mediana progów województw", color: "#0f766e", format: "score" },
+  { key: "minThreshold", label: "Najniższy próg województwa", color: "#64748b", format: "score" },
   { key: "totalPlaces", label: "Suma miejsc", color: "#b7791f", format: "number" },
 ] as const;
 type ChartMode = "points" | "places";
@@ -24,17 +25,27 @@ function scale(value: number, min: number, max: number, outputMin: number, outpu
 
 export function SummaryChart() {
   const [chartMode, setChartMode] = useState<ChartMode>("points");
-  const rows = useFilteredRows();
   const pools = useFilteredPools();
+  const places = useFilteredPlaces();
+  const trybSzkolenia = useFilterStore((state) => state.filters.trybSzkolenia);
   const przedstawWynikJako = useFilterStore((state) => state.filters.przedstawWynikJako);
   const scoreAsPoints = przedstawWynikJako === "surowa ilość punktów rekrutacyjnych (poglądowo)";
+  const upcoming = useMemo(() => getRecruitmentTimeline(pools, places).upcoming, [places, pools]);
   const summaries = useMemo(
-    () => summarizeRecruitments(rows, pools, getReportOptions().rekrutacje),
-    [pools, rows],
+    () =>
+      summarizeRecruitments(pools, places, [...(upcoming ? [upcoming] : []), ...getReportOptions().rekrutacje]).map(
+        (summary) => ({
+          ...summary,
+          minThreshold: toDisplayedScore(summary.minThreshold, trybSzkolenia, scoreAsPoints),
+          medianThreshold: toDisplayedScore(summary.medianThreshold, trybSzkolenia, scoreAsPoints),
+          maxThreshold: toDisplayedScore(summary.maxThreshold, trybSzkolenia, scoreAsPoints),
+        }),
+      ),
+    [places, pools, scoreAsPoints, trybSzkolenia, upcoming],
   );
   const visibleSeries =
     chartMode === "points"
-      ? series.filter((item) => item.key === "averageThreshold" || item.key === "medianQualifiedScore")
+      ? series.filter((item) => item.key !== "totalPlaces")
       : series.filter((item) => item.key === "totalPlaces");
   const values = summaries.flatMap((summary) =>
     visibleSeries.map((item) => summary[item.key]).filter((value) => Number.isFinite(value)),
@@ -70,8 +81,8 @@ export function SummaryChart() {
           <span key={item.key}>
             <i style={{ background: item.color }} />
             {item.label}
-            {item.key === "averageThreshold" && (
-              <InfoTooltip text="Średnia obejmuje wyłącznie województwa, w których obsadzono wszystkie oferowane miejsca. Najniższy wynik z niewypełnionej puli nie jest traktowany jako próg konkurencyjny." />
+            {item.key === "medianThreshold" && (
+              <InfoTooltip text="Progi liczymy wyłącznie w województwach, w których obsadzono wszystkie oferowane miejsca. Najniższy wynik z niewypełnionej puli nie jest traktowany jako próg konkurencyjny." />
             )}
           </span>
         ))}
@@ -107,6 +118,7 @@ export function SummaryChart() {
             return (
               <text key={summary.rekrutacja} x={x} y={height - 15} className="chart-label" textAnchor="middle">
                 {summary.rekrutacja}
+                {summary.rekrutacja === upcoming && chartMode === "points" ? " (bez wyników)" : ""}
               </text>
             );
           })}
@@ -127,13 +139,13 @@ export function SummaryChart() {
 
             return (
               <g key={item.key}>
-                <path d={path} fill="none" stroke={item.color} strokeWidth={3} />
+                <path d={path} fill="none" stroke={item.color} strokeWidth={item.key === "medianThreshold" || item.key === "totalPlaces" ? 3 : 2} />
                 {points.map((point) => (
                   <g key={`${item.key}-${point.x}`}>
                     <circle cx={point.x} cy={point.y} r={4} fill={item.color} />
                     <text
                       x={point.x}
-                      y={point.y - 9}
+                      y={item.key === "minThreshold" ? point.y + 18 : point.y - 9}
                       className="chart-point-label"
                       textAnchor="middle"
                     >

@@ -4,6 +4,7 @@ import {
   getMedicalSpecialties,
 } from "../config/specialtySearchFilter";
 import type {
+  OfferedPlaces,
   PrzedstawWynikJako,
   RecruitmentPool,
   ReportFilters,
@@ -45,6 +46,7 @@ export function getReportOptions() {
     dziedziny: getSearchableDziedziny(),
     przedstawWynikJako: wynikPresentationOptions,
     rekrutacje: metadata.rekrutacje,
+    zapowiedzianeRekrutacje: metadata.zapowiedzianeRekrutacje,
     tryby: metadata.tryby,
   };
 }
@@ -52,6 +54,7 @@ export function getReportOptions() {
 // In-memory cache for loaded specialty JSONs
 const specialtyCache: Record<string, ReportRow[]> = {};
 const specialtyPoolCache: Record<string, RecruitmentPool[]> = {};
+const specialtyPlacesCache: Record<string, OfferedPlaces[]> = {};
 
 export async function fetchSpecialtyData(specialty: string): Promise<ReportRow[]> {
   if (specialtyCache[specialty]) {
@@ -102,6 +105,26 @@ export async function fetchSpecialtyPools(specialty: string): Promise<Recruitmen
     return data;
   } catch (error) {
     console.error("Error loading pool data:", error);
+    return [];
+  }
+}
+
+export async function fetchSpecialtyPlaces(specialty: string): Promise<OfferedPlaces[]> {
+  if (specialtyPlacesCache[specialty]) return specialtyPlacesCache[specialty];
+
+  const fileName = metadata.specialtyPlacesFilesMap[specialty];
+  if (!fileName) return [];
+
+  try {
+    const response = await fetch(`/data/${fileName}`);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch places data for "${specialty}": ${response.statusText}`);
+    }
+    const data = (await response.json()) as OfferedPlaces[];
+    specialtyPlacesCache[specialty] = data;
+    return data;
+  } catch (error) {
+    console.error("Error loading places data:", error);
     return [];
   }
 }

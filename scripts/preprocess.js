@@ -211,6 +211,38 @@ for (const row of placesRows) {
   capacityByPool.set(nonResidentKey, numericOrNull(row.miejsca_pozarezydenckie));
 }
 
+// Offered places for every published CMKP list, including announced rounds without results yet.
+function recruitmentSortKey(rekrutacja) {
+  const match = /^([wj])-(\d{4})$/.exec(rekrutacja);
+  if (!match) return 0;
+  return Number(match[2]) * 2 + (match[1] === "j" ? 1 : 0);
+}
+
+const latestCompletedKey = Math.max(0, ...rekrutacje.map(recruitmentSortKey));
+const zapowiedzianeRekrutacje = [...new Set(placesRows.map((row) => row.rekrutacja))]
+  .filter((rekrutacja) => !completedRecruitments.has(rekrutacja) && recruitmentSortKey(rekrutacja) > latestCompletedKey)
+  .sort((a, b) => recruitmentSortKey(b) - recruitmentSortKey(a));
+
+const placesBySpecialty = {};
+for (const row of placesRows) {
+  const specialty = row.dziedzina_medycyny;
+  if (!placesBySpecialty[specialty]) placesBySpecialty[specialty] = [];
+  for (const [trybSzkolenia, column] of [
+    ["Rezydencki", "miejsca_rezydenckie_zwykle"],
+    ["Pozarezydencki", "miejsca_pozarezydenckie"],
+  ]) {
+    const capacity = numericOrNull(row[column]);
+    if (capacity === null) continue;
+    placesBySpecialty[specialty].push({
+      rekrutacja: row.rekrutacja,
+      wojewodztwo: row.wojewodztwo,
+      dziedzina_medycyny: specialty,
+      tryb_szkolenia: trybSzkolenia,
+      liczba_miejsc: capacity,
+    });
+  }
+}
+
 const poolKeys = new Set(candidatePools.keys());
 for (const [key, capacity] of capacityByPool) {
   if (capacity > 0) poolKeys.add(key);
@@ -245,10 +277,12 @@ for (const key of poolKeys) {
 
 console.log(`Znaleziono specjalizacji: ${dziedziny.length}`);
 console.log("Kolejność rekrutacji (od najnowszej):", rekrutacje);
+console.log("Rekrutacje zapowiedziane (bez wyników):", zapowiedzianeRekrutacje);
 
 // Write individual JSON files
 const specialtyFilesMap = {};
 const specialtyPoolFilesMap = {};
+const specialtyPlacesFilesMap = {};
 for (const specialty of dziedziny) {
   const slug = slugify(specialty);
   const fileName = `specialty_${slug}.json`;
@@ -264,6 +298,14 @@ for (const specialty of dziedziny) {
     "utf-8",
   );
   specialtyPoolFilesMap[specialty] = poolFileName;
+
+  const placesFileName = `places_${slug}.json`;
+  fs.writeFileSync(
+    path.join(OUTPUT_DIR, placesFileName),
+    JSON.stringify(placesBySpecialty[specialty] ?? [], null, 2),
+    "utf-8",
+  );
+  specialtyPlacesFilesMap[specialty] = placesFileName;
 }
 
 console.log("Zapisano pliki JSON specjalizacji.");
@@ -276,6 +318,9 @@ export const dziedziny: string[] = ${JSON.stringify(dziedziny, null, 2)};
 
 export const rekrutacje: string[] = ${JSON.stringify(rekrutacje, null, 2)};
 
+// Rekrutacje z opublikowaną liczbą miejsc, ale bez wyników (od najnowszej).
+export const zapowiedzianeRekrutacje: string[] = ${JSON.stringify(zapowiedzianeRekrutacje, null, 2)};
+
 export const tryby: TrybSzkolenia[] = ["Rezydencki", "Pozarezydencki"];
 
 export const przedstawWynikJako: PrzedstawWynikJako[] = [
@@ -286,6 +331,8 @@ export const przedstawWynikJako: PrzedstawWynikJako[] = [
 export const specialtyFilesMap: Record<string, string> = ${JSON.stringify(specialtyFilesMap, null, 2)};
 
 export const specialtyPoolFilesMap: Record<string, string> = ${JSON.stringify(specialtyPoolFilesMap, null, 2)};
+
+export const specialtyPlacesFilesMap: Record<string, string> = ${JSON.stringify(specialtyPlacesFilesMap, null, 2)};
 `;
 
 fs.writeFileSync(METADATA_FILE, metadataContent, "utf-8");

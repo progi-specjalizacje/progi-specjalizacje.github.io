@@ -1,0 +1,1794 @@
+[
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 49
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 59
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 45
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 55
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 36
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 28
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 19
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 9
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 30
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 37
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 72
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 56
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 121
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 78
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 8
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 37
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 87
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 22
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 38
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 45
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 29
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 54
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 116
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 27
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 28
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 19
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 11
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 36
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 107
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 45
+  },
+  {
+    "rekrutacja": "j-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 29
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 50
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 54
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 40
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 27
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 45
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 21
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 4
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 20
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 37
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 52
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 111
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 57
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 94
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 29
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 7
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 40
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 57
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 40
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 34
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 35
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 5
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 50
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 121
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 25
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 27
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 2
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 40
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 70
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 25
+  },
+  {
+    "rekrutacja": "j-2024",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 18
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 60
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 89
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 70
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 46
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 50
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 63
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 40
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 6
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 30
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 71
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 110
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 63
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 170
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 44
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 40
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 5
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 50
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 88
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 21
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 89
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 42
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 6
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 40
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 212
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 40
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 34
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 30
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 5
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 40
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 101
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 30
+  },
+  {
+    "rekrutacja": "j-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 59
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 60
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 133
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 50
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 95
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 60
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 102
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 45
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 5
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 60
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 77
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 60
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 126
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 60
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 220
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 40
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 17
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 50
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 130
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 30
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 81
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 60
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 14
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 20
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 254
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 35
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 42
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 39
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 9
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 50
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 119
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 30
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 5
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 27
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 62
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 67
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 17
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 23
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 11
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 12
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 21
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 32
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 58
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 51
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 94
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 85
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 18
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 10
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 28
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 86
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 21
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 27
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 28
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 32
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 45
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 108
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 7
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 42
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 16
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 11
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 36
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 92
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "w-2023",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 37
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 28
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 56
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 35
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 59
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 22
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 42
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 18
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 15
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 7
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 48
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 53
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 80
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 98
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 93
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 20
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 17
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 47
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 85
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 17
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 46
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 34
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 21
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 143
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 8
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 50
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 19
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 11
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 21
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 130
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 21
+  },
+  {
+    "rekrutacja": "w-2024",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 51
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 36
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 68
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 64
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 41
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 22
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 13
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 20
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 52
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 50
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 90
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 50
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 105
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 11
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 40
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 85
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 15
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 63
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 9
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 36
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 158
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 22
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 23
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 18
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 3
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 88
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 20
+  },
+  {
+    "rekrutacja": "w-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 43
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 36
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 106
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 24
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 91
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 49
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 83
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 10
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 35
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 20
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 103
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 35
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 122
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 71
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 164
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 13
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 42
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 22
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 119
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 16
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 80
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 27
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 16
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 30
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 222
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 6
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 62
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 15
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 25
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 30
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 102
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_miejsc": 10
+  },
+  {
+    "rekrutacja": "w-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Medycyna rodzinna",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_miejsc": 10
+  }
+]

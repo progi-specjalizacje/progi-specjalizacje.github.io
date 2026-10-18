@@ -1,10 +1,12 @@
 import { Fragment, useMemo } from "react";
 import { getReportOptions } from "../data/reportData";
+import { useFilteredPlaces } from "../hooks/useFilteredPlaces";
 import { useFilteredPools } from "../hooks/useFilteredPools";
 import { useFilterStore } from "../state/filterStore";
 import type { PivotConfig, RecruitmentPool } from "../types";
 import { interpolateColor } from "../utils/colors";
-import { formatByType } from "../utils/formatters";
+import { formatByType, formatNumber } from "../utils/formatters";
+import { getRecruitmentTimeline } from "../utils/reportMetrics";
 import { InfoTooltip } from "./FilterControls";
 
 interface PivotTableProps {
@@ -60,17 +62,24 @@ function thresholdBackground(pool: RecruitmentPool, fullPools: RecruitmentPool[]
 
 export function PivotTable({ config: _config, title }: PivotTableProps) {
   const pools = useFilteredPools();
+  const places = useFilteredPlaces();
   const przedstawWynikJako = useFilterStore((state) => state.filters.przedstawWynikJako);
   const scoreAsPoints = przedstawWynikJako === "surowa ilość punktów rekrutacyjnych (poglądowo)";
   const model = useMemo(() => {
-    const rowKeys = [...new Set(pools.map((pool) => pool.wojewodztwo))].sort((a, b) =>
+    const upcoming = getRecruitmentTimeline(pools, places).upcoming;
+    const upcomingPlaces = new Map(
+      places
+        .filter((place) => place.rekrutacja === upcoming && place.liczba_miejsc > 0)
+        .map((place) => [place.wojewodztwo, place.liczba_miejsc]),
+    );
+    const rowKeys = [...new Set([...pools.map((pool) => pool.wojewodztwo), ...upcomingPlaces.keys()])].sort((a, b) =>
       a.localeCompare(b, "pl"),
     );
-    const columnKeys = getReportOptions().rekrutacje;
+    const columnKeys = [...(upcoming ? [upcoming] : []), ...getReportOptions().rekrutacje];
     const cells = new Map(pools.map((pool) => [`${pool.wojewodztwo}::${pool.rekrutacja}`, pool]));
     const fullPools = pools.filter((pool) => pool.status_konkurencyjnosci === "full");
-    return { rowKeys, columnKeys, cells, fullPools };
-  }, [pools]);
+    return { rowKeys, columnKeys, cells, fullPools, upcoming, upcomingPlaces };
+  }, [places, pools]);
 
   return (
     <section className="pivot-visual">
@@ -84,6 +93,9 @@ export function PivotTable({ config: _config, title }: PivotTableProps) {
         <span><i className="status-dot status-full" /> Próg konkurencyjny</span>
         <span><i className="status-dot status-open" /> Wolne miejsca</span>
         <span><i className="status-dot status-unknown" /> Status nieustalony</span>
+        {model.upcoming ? (
+          <span><i className="status-dot status-upcoming" /> ? — wyniki {model.upcoming} jeszcze nieopublikowane</span>
+        ) : null}
       </div>
       <div className="pivot-scroll">
         <table className="pivot-table threshold-table">
@@ -97,6 +109,7 @@ export function PivotTable({ config: _config, title }: PivotTableProps) {
                   colSpan={2}
                 >
                   {columnKey}
+                  {columnKey === model.upcoming ? " (zapowiedziana)" : ""}
                 </th>
               ))}
             </tr>
@@ -120,6 +133,31 @@ export function PivotTable({ config: _config, title }: PivotTableProps) {
                 {model.columnKeys.map((columnKey, columnIndex) => {
                   const pool = model.cells.get(`${rowKey}::${columnKey}`);
                   const pairClass = `pair-${columnIndex % 2 === 0 ? "even" : "odd"}`;
+                  if (columnKey === model.upcoming) {
+                    const announced = model.upcomingPlaces.get(rowKey);
+                    if (!announced) {
+                      return (
+                        <Fragment key={columnKey}>
+                          <td className={`${pairClass} empty-cell upcoming-cell`}>—</td>
+                          <td className={`${pairClass} group-end empty-cell upcoming-cell`}>—</td>
+                        </Fragment>
+                      );
+                    }
+                    const description = "Wyniki tej rekrutacji nie zostały jeszcze opublikowane. CMKP podało tylko liczbę miejsc.";
+                    return (
+                      <Fragment key={columnKey}>
+                        <td className={`${pairClass} competition-threshold-cell upcoming-cell`} title={description}>
+                          <span className="threshold-primary">?</span>
+                        </td>
+                        <td
+                          className={`${pairClass} group-end occupancy-cell upcoming-cell`}
+                          title={`${description} Zapowiedziane miejsca: ${announced}.`}
+                        >
+                          ? / {formatNumber(announced)}
+                        </td>
+                      </Fragment>
+                    );
+                  }
                   if (!pool) {
                     return (
                       <Fragment key={columnKey}>

@@ -265,6 +265,78 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   font-weight: 650;
 }
 
+.kpi-badge {
+  margin-left: auto;
+  border-radius: 999px;
+  background: #f1eafb;
+  padding: 3px 8px;
+  color: #6843a2;
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+.kpi-headline {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.kpi-headline-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.kpi-headline-text .kpi-trend {
+  min-height: 0;
+}
+
+.kpi-card-places {
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 14px 18px;
+}
+
+.kpi-region-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+}
+
+.kpi-region-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  border-bottom: 1px solid #f1edf5;
+  padding: 1px 0;
+  color: #494052;
+  font-weight: 600;
+}
+
+.kpi-region-list strong {
+  color: #241e30;
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+}
+
+.kpi-region-note {
+  color: #9a93a4;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.kpi-value.compact {
+  font-size: clamp(20px, 1.7vw, 28px);
+}
+
 .trend-context {
   color: #746d80;
   font-weight: 600;
@@ -752,6 +824,16 @@ input[type="range"] {
   text-align: center;
 }
 
+.threshold-table .upcoming-cell {
+  background-color: #f7f3fc;
+  color: #6843a2;
+  text-align: center;
+}
+
+.status-dot.status-upcoming {
+  background: #6843a2;
+}
+
 .summary-chart {
   display: flex;
   min-height: 300px;
@@ -897,30 +979,30 @@ input[type="range"] {
     order: 4;
   }
 
-  .item-average-threshold-card,
-  .item-median-qualified-score-card,
-  .item-total-places-card {
+  .item-places-card,
+  .item-threshold-card,
+  .item-fill-card {
     order: 5;
   }
 
   .item-summary-chart {
-    order: 6;
-  }
-
-  .item-calculator-section-title {
     order: 7;
   }
 
-  .item-calculator {
+  .item-calculator-section-title {
     order: 8;
   }
 
-  .item-simulation {
+  .item-calculator {
     order: 9;
   }
 
-  .item-pivot {
+  .item-simulation {
     order: 10;
+  }
+
+  .item-pivot {
+    order: 11;
   }
 
   .filter-panel {

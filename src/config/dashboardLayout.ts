@@ -90,49 +90,51 @@ export const dashboardLayout: DashboardVisual[] = [
   {
     id: "field-filter",
     type: "filters",
-    grid: { column: 1, row: 3, colSpan: 3, rowSpan: 4 },
+    grid: { column: 1, row: 3, colSpan: 3, rowSpan: 6 },
     props: { variant: "field" },
   },
   {
-    id: "average-threshold-card",
+    id: "places-card",
     type: "card",
-    grid: { column: 4, row: 3, colSpan: 3, rowSpan: 2 },
+    grid: { column: 4, row: 3, colSpan: 5, rowSpan: 4 },
     props: {
-      label: "Uśredniony próg dla wszystkich województw",
-      metric: "averageThreshold",
-      tooltip: "Średnia obejmuje wyłącznie województwa, w których obsadzono wszystkie oferowane miejsca. Najniższy wynik z niewypełnionej puli nie jest traktowany jako próg konkurencyjny.",
+      label: "Miejsca · {rekrutacja}",
+      metric: "focusPlaces",
+      tooltip: "Liczba miejsc opublikowana przez CMKP dla najnowszej rekrutacji w wybranym trybie, bez miejsc doktoranckich. Porównanie dotyczy tego samego sezonu rok wcześniej.",
     },
   },
   {
-    id: "median-qualified-score-card",
+    id: "threshold-card",
     type: "card",
-    grid: { column: 7, row: 3, colSpan: 3, rowSpan: 2 },
+    grid: { column: 9, row: 3, colSpan: 4, rowSpan: 2 },
     props: {
-      label: "Średni wynik wszystkich zakwalifikowanych",
-      metric: "medianQualifiedScore",
+      label: "Próg konkurencyjny · {rekrutacja}",
+      metric: "latestThreshold",
+      tooltip: "Przedział od najniższego do najwyższego progu w województwach, w których obsadzono wszystkie miejsca. Gdy zostały wolne miejsca, najniższy przyjęty wynik nie był progiem i nie wchodzi do przedziału.",
     },
   },
   {
-    id: "total-places-card",
+    id: "fill-card",
     type: "card",
-    grid: { column: 10, row: 3, colSpan: 3, rowSpan: 2 },
+    grid: { column: 9, row: 5, colSpan: 4, rowSpan: 2 },
     props: {
-      label: "Liczba oferowanych miejsc w Polsce",
-      metric: "totalPlaces",
+      label: "Obsadzone miejsca · {rekrutacja}",
+      metric: "latestFill",
+      tooltip: "Zakwalifikowane osoby / oferowane miejsca w ostatniej rozstrzygniętej rekrutacji. Tam, gdzie zostały wolne miejsca, nie było progu konkurencyjnego.",
     },
   },
   {
     id: "secondary-filters",
     type: "filters",
-    grid: { column: 4, row: 5, colSpan: 9, rowSpan: 2 },
+    grid: { column: 4, row: 7, colSpan: 9, rowSpan: 2 },
     props: { variant: "secondary" },
   },
   {
     id: "pivot",
     type: "pivot",
-    grid: { column: 1, row: 7, colSpan: 12, rowSpan: 8 },
+    grid: { column: 1, row: 9, colSpan: 12, rowSpan: 8 },
     props: {
-      title: "Szczegółowy próg konkurencyjny i obsada miejsc",
+      title: "Historia progów konkurencyjnych i obsady miejsc",
       config: {
         rows: ["wojewodztwo"],
         columns: ["rekrutacja"],
@@ -155,12 +157,12 @@ export const dashboardLayout: DashboardVisual[] = [
   {
     id: "summary-chart",
     type: "chart",
-    grid: { column: 1, row: 15, colSpan: 12, rowSpan: 5 },
+    grid: { column: 1, row: 17, colSpan: 12, rowSpan: 5 },
   },
   {
     id: "calculator-section-title",
     type: "text",
-    grid: { column: 1, row: 20, colSpan: 12, rowSpan: 1 },
+    grid: { column: 1, row: 22, colSpan: 12, rowSpan: 1 },
     props: {
       text: "Kalkulator punktów rekrutacyjnych i symulacja szans",
       variant: "heading1",
@@ -169,11 +171,11 @@ export const dashboardLayout: DashboardVisual[] = [
   {
     id: "calculator",
     type: "calculator",
-    grid: { column: 1, row: 21, colSpan: 7, rowSpan: 12 },
+    grid: { column: 1, row: 23, colSpan: 7, rowSpan: 12 },
   },
   {
     id: "simulation",
     type: "simulation",
-    grid: { column: 8, row: 21, colSpan: 5, rowSpan: 12 },
+    grid: { column: 8, row: 23, colSpan: 5, rowSpan: 12 },
   },
 ];
