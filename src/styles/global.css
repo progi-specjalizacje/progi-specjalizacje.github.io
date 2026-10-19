@@ -220,6 +220,27 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   color: #746d80;
 }
 
+.seo-faq details {
+  padding: 10px 14px;
+  border: 1px solid #e5deed;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.seo-faq details + details {
+  margin-top: 8px;
+}
+
+.seo-faq summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.seo-faq p {
+  max-width: 980px;
+  margin: 8px 0 0;
+}
+
 .dashboard-item {
   min-width: 0;
 }

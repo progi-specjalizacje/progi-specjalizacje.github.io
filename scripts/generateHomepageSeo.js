@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
-// Generates the static SEO content of the homepage: threshold table, <title>/description and sitemap.xml.
+// Generates the static SEO content of the homepage: threshold table, FAQ, <title>/description and sitemap.xml.
 // The former per-specialty subpages generator lives in archive/seo-subpages/.
 
 const __filename = fileURLToPath(import.meta.url);
@@ -138,6 +138,59 @@ function summaryModeCells(item, mode, recruitment) {
   return `<td>${places}</td><td>${threshold}</td>`;
 }
 
+// Statutory pay is derived from the GUS average monthly wage of the previous year and changes every 1 July.
+// Add the new GUS figure (published each February) here; amounts and the effective date follow automatically.
+const AVERAGE_WAGE_BY_YEAR = { 2025: 8903.56 };
+const WORK_COEFFICIENTS = { intern: 0.95, doctorWithoutSpecialty: 1.19 };
+// Multipliers of the base amount (1,19 × average wage) set by the Minister of Health regulation from 1 July 2026.
+const RESIDENT_MULTIPLIERS = {
+  priority: { firstTwoYears: 1.1, afterTwoYears: 1.2 },
+  other: { firstTwoYears: 1.0, afterTwoYears: 1.03 }
+};
+
+function roundToGrosze(value) { return Math.round(value * 100) / 100; }
+
+function formatPln(value) {
+  const [whole, fraction] = value.toFixed(2).split(".");
+  return `${whole.replace(/\B(?=(\d{3})+(?!\d))/g, " ")},${fraction} zł`;
+}
+
+function currentSalaryPeriod(today = new Date()) {
+  const years = Object.keys(AVERAGE_WAGE_BY_YEAR).map(Number).sort((a, b) => b - a);
+  const wageYear = years.find((year) => today >= new Date(year + 1, 6, 1)) ?? years[years.length - 1];
+  const effectiveYear = wageYear + 1;
+  if (today >= new Date(effectiveYear + 1, 6, 1)) {
+    console.warn(`Brak przeciętnego wynagrodzenia GUS za ${effectiveYear} r. – FAQ pokazuje stawki od 1 lipca ${effectiveYear} r.`);
+  }
+  const base = roundToGrosze(AVERAGE_WAGE_BY_YEAR[wageYear] * WORK_COEFFICIENTS.doctorWithoutSpecialty);
+  const resident = (group) => ({
+    firstTwoYears: roundToGrosze(base * RESIDENT_MULTIPLIERS[group].firstTwoYears),
+    afterTwoYears: roundToGrosze(base * RESIDENT_MULTIPLIERS[group].afterTwoYears)
+  });
+  return {
+    wageYear, effectiveYear, averageWage: AVERAGE_WAGE_BY_YEAR[wageYear],
+    intern: roundToGrosze(AVERAGE_WAGE_BY_YEAR[wageYear] * WORK_COEFFICIENTS.intern),
+    priority: resident("priority"), other: resident("other")
+  };
+}
+
+function renderHomepageFaq() {
+  const salary = currentSalaryPeriod();
+  const faq = [
+    ["Jak liczone są punkty na specjalizację?",
+      "Podstawą jest wynik z LEK (lub LDEK) – maksymalnie 200 punktów, mniej, jeśli z egzaminu unieważniono pytania. W trybie rezydenckim można dodać 5 punktów za stopień doktora oraz po 0,5 punktu za publikację (łącznie do 5 punktów), co daje maksymalnie 210 punktów. W trybie pozarezydenckim dochodzi jeszcze po 5 punktów za co najmniej 3 lata pracy i za pracę nauczyciela akademickiego – maksymalnie 220 punktów."],
+    ["Ile procent z LEK trzeba mieć na specjalizację?",
+      "To zależy od specjalizacji, województwa i naboru. Procent w tabeli liczony jest od maksymalnej liczby punktów w danym trybie (210 lub 220), więc uwzględnia też punkty dodatkowe. Swój wynik możesz przeliczyć w kalkulatorze i porównać z progami z poprzednich naborów."],
+    ["Kiedy odbywają się nabory na specjalizacje?",
+      "Postępowania kwalifikacyjne prowadzone są dwa razy w roku – w naborze wiosennym i jesiennym. Wyniki publikuje Centrum Medycznego Kształcenia Podyplomowego (CMKP)."],
+    ["Ile zarabia się na rezydenturze?",
+      `Od 1 lipca ${salary.effectiveYear} r. wynagrodzenie zasadnicze lekarza rezydenta wynosi brutto miesięcznie: w specjalizacjach priorytetowych ${formatPln(salary.priority.firstTwoYears)} w pierwszych dwóch latach i ${formatPln(salary.priority.afterTwoYears)} po dwóch latach, a w pozostałych specjalizacjach odpowiednio ${formatPln(salary.other.firstTwoYears)} i ${formatPln(salary.other.afterTwoYears)}. Kwoty liczone są od przeciętnego wynagrodzenia w gospodarce narodowej za ${salary.wageYear} r. (${formatPln(salary.averageWage)} według GUS) i rosną co roku od 1 lipca. Listę dziedzin priorytetowych określa rozporządzenie Ministra Zdrowia. Do pensji zasadniczej dochodzi zwykle wynagrodzenie za dyżury medyczne.`],
+    ["Ile zarabia się na stażu podyplomowym?",
+      `Od 1 lipca ${salary.effectiveYear} r. wynagrodzenie zasadnicze lekarza stażysty i lekarza dentysty stażysty wynosi ${formatPln(salary.intern)} brutto miesięcznie, czyli 0,95 przeciętnego wynagrodzenia w gospodarce narodowej za ${salary.wageYear} r. Kwota jest aktualizowana co roku od 1 lipca. Za dyżury medyczne pełnione w trakcie stażu przysługuje dodatkowe wynagrodzenie.`]
+  ];
+  return faq.map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`).join("\n        ");
+}
+
 // The homepage is a client-rendered SPA, so its raw HTML must carry real content for crawlers.
 // Rendered outside #root, so it stays in the DOM after React mounts.
 function writeHomepageSummary(items) {
@@ -160,6 +213,10 @@ function writeHomepageSummary(items) {
           ${rows}
         </tbody>
       </table></div>
+      <h2>Najczęstsze pytania</h2>
+      <div class="seo-faq">
+        ${renderHomepageFaq()}
+      </div>
     </section>
     `;
   const year = recruitment.slice(-4);
