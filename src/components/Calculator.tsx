@@ -1,6 +1,7 @@
 import { useState, type ReactNode } from "react";
 import { Briefcase, Check, FileText, GraduationCap, Minus, Plus, School } from "lucide-react";
 import { useCalculatorStore } from "../state/calculatorStore";
+import { useFilterStore } from "../state/filterStore";
 import { formatNumber, formatPercentPoints } from "../utils/formatters";
 import { InfoTooltip } from "./FilterControls";
 import { ScoreHistogram } from "./ScoreHistogram";
@@ -67,15 +68,16 @@ function BonusTile({ icon, title, points, active, disabled, hint, help, onToggle
 }
 
 export function Calculator() {
+  // Tryb jest wspólny z raportem: przełącznik tutaj i w pasku ustawień zmienia to samo.
+  const tryb = useFilterStore((state) => state.filters.trybSzkolenia);
+  const setTryb = useFilterStore((state) => state.setTrybSzkolenia);
   const {
-    tryb,
     examPoints,
     maxExamPoints,
     hasPhD,
     hasExperience,
     isAcademicTeacher,
     publicationsCount,
-    setTryb,
     setExamPoints,
     setMaxExamPoints,
     setHasPhD,
@@ -196,6 +198,9 @@ export function Calculator() {
             <span className="slider-limits">{maxExamPoints} max</span>
           </div>
         </div>
+
+        {/* Right under the slider, so the score and its position in the distribution fit on one screen. */}
+        <ScoreHistogram />
 
         {/* Max Exam Points (for revoked questions) */}
         <div className="calculator-group">
@@ -352,8 +357,6 @@ export function Calculator() {
 
           </div>
         </div>
-
-        <ScoreHistogram />
       </div>
     </section>
   );

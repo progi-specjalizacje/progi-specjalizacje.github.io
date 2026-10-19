@@ -7,7 +7,6 @@ import type { PivotConfig, RecruitmentPool } from "../types";
 import { interpolateColor } from "../utils/colors";
 import { formatByType, formatNumber } from "../utils/formatters";
 import { getRecruitmentTimeline } from "../utils/reportMetrics";
-import { InfoTooltip } from "./FilterControls";
 
 interface PivotTableProps {
   config: PivotConfig;
@@ -86,17 +85,8 @@ export function PivotTable({ config: _config, title }: PivotTableProps) {
       {title ? (
         <div className="visual-title">
           {title}
-          <InfoTooltip text="Próg pokazujemy tylko wtedy, gdy wszystkie oferowane miejsca zostały obsadzone. Przy wolnych miejscach podajemy jedynie najniższy wynik zakwalifikowanej osoby — nie był on progiem wymaganym do przyjęcia." />
         </div>
       ) : null}
-      <div className="threshold-legend" aria-label="Legenda statusów progu">
-        <span><i className="status-dot status-full" /> Próg konkurencyjny</span>
-        <span><i className="status-dot status-open" /> Wolne miejsca</span>
-        <span><i className="status-dot status-unknown" /> Status nieustalony</span>
-        {model.upcoming ? (
-          <span><i className="status-dot status-upcoming" /> ? — wyniki {model.upcoming} jeszcze nieopublikowane</span>
-        ) : null}
-      </div>
       <div className="pivot-scroll">
         <table className="pivot-table threshold-table">
           <thead>

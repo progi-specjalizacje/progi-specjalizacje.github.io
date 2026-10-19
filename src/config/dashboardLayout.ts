@@ -93,11 +93,11 @@ export const dashboardLayout: DashboardVisual[] = [
     },
   },
   {
-    // Pasek zajmuje wiersz 3, ale jego obszar sięga do końca wykresu: dzięki temu
-    // przykleja się podczas przewijania raportu i znika przed kalkulatorem.
+    // Pasek zajmuje wiersz 3, ale jego obszar sięga do końca kalkulatora i symulacji:
+    // dzięki temu przykleja się podczas przewijania raportu i kalkulatora.
     id: "context-bar",
     type: "filters",
-    grid: { column: 1, row: 3, colSpan: 12, rowSpan: 18 },
+    grid: { column: 1, row: 3, colSpan: 12, rowSpan: 31 },
     props: { variant: "context" },
   },
   {
@@ -113,7 +113,6 @@ export const dashboardLayout: DashboardVisual[] = [
     props: {
       label: "{etap} · {rekrutacja}",
       metric: "focusPlaces",
-      tooltip: "Liczba miejsc opublikowana przez CMKP dla najnowszej rekrutacji w wybranym trybie, bez miejsc doktoranckich. Porównanie dotyczy tego samego sezonu rok wcześniej.",
     },
   },
   {

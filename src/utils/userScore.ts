@@ -1,9 +1,10 @@
 import type { CalculatorState } from "../state/calculatorStore";
+import type { TrybSzkolenia } from "../types";
 
 type UserScoreInput = Pick<
   CalculatorState,
-  "tryb" | "examPoints" | "maxExamPoints" | "hasPhD" | "hasExperience" | "isAcademicTeacher" | "publicationsCount"
->;
+  "examPoints" | "maxExamPoints" | "hasPhD" | "hasExperience" | "isAcademicTeacher" | "publicationsCount"
+> & { tryb: TrybSzkolenia };
 
 // Mirrors the point rules shown in the calculator: residency adds PhD and publications,
 // non-residency also adds work experience and, only on top of it, academic teaching.

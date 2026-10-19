@@ -11,20 +11,6 @@ interface RegionThreshold {
   score: number;
 }
 
-/** Kropki bliżej niż ten odstęp (w % szerokości osi) układamy jedna nad drugą. */
-const DOT_COLLISION_PERCENT = 3.5;
-const MAX_LANES = 3;
-
-function assignLanes(positions: number[]) {
-  const lastInLane: number[] = [];
-  return positions.map((position) => {
-    const lane = lastInLane.findIndex((last) => position - last >= DOT_COLLISION_PERCENT);
-    const chosen = lane === -1 ? Math.min(lastInLane.length, MAX_LANES - 1) : lane;
-    lastInLane[chosen] = position;
-    return chosen;
-  });
-}
-
 export function LatestResultsCard() {
   const pools = useFilteredPools();
   const places = useFilteredPlaces();
@@ -65,8 +51,6 @@ export function LatestResultsCard() {
   const lowest = thresholds[0];
   const highest = thresholds[thresholds.length - 1];
   const span = lowest && highest ? highest.score - lowest.score : 0;
-  const position = (score: number) => (span > 0 && lowest ? ((score - lowest.score) / span) * 100 : 50);
-  const lanes = assignLanes(thresholds.map((item) => position(item.score)));
   const filledShare = model.capacity > 0 ? (model.filled / model.capacity) * 100 : 0;
 
   if (!model.rekrutacja) {
@@ -83,7 +67,7 @@ export function LatestResultsCard() {
       ? "Wszystkie zajęte — o każde miejsce decydował wynik."
       : `${formatNumber(model.filled)} ${pluralize(model.filled, ["zajęte", "zajęte", "zajętych"])}, ` +
         `${formatNumber(model.vacancies)} ${pluralize(model.vacancies, ["zostało wolne", "zostały wolne", "zostało wolnych"])} ` +
-        `(${formatNumber(model.regionsWithVacancies)} ${pluralize(model.regionsWithVacancies, ["województwo", "województwa", "województw"])}) — tam nie było progu.`;
+        `(${formatNumber(model.regionsWithVacancies)} ${pluralize(model.regionsWithVacancies, ["województwo", "województwa", "województw"])}).`;
 
   return (
     <section className="kpi-card results-card" aria-label={`Wyniki · ${formatRecruitmentName(model.rekrutacja)}`}>
@@ -114,26 +98,6 @@ export function LatestResultsCard() {
                 od <b>{format(lowest.score)}</b> ({lowest.wojewodztwo}) do <b>{format(highest.score)}</b> (
                 {highest.wojewodztwo})
               </p>
-            )}
-            {thresholds.length > 1 && (
-              <div
-                className="threshold-strip"
-                role="img"
-                aria-label={`Progi w ${thresholds.length} województwach`}
-              >
-                <div className="threshold-strip-track" />
-                {span > 0 && (
-                  <div className="threshold-strip-median" style={{ left: `${position(model.medianScore)}%` }} />
-                )}
-                {thresholds.map((item, index) => (
-                  <span
-                    key={item.wojewodztwo}
-                    className="threshold-strip-dot"
-                    style={{ left: `${position(item.score)}%`, bottom: `${2 + lanes[index] * 8}px` }}
-                    title={`${item.wojewodztwo}: ${format(item.score)}`}
-                  />
-                ))}
-              </div>
             )}
           </>
         )}

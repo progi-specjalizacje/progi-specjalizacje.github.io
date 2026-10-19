@@ -1,9 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
-import { type QualifiedEntry, useLatestQualifiedScores } from "../hooks/useLatestQualifiedScores";
+import { type QualifiedEntry, useSimulationScores, useUserScore } from "../hooks/useSimulationScores";
 import { useCalculatorStore } from "../state/calculatorStore";
 import { formatNumber, formatPercentPoints } from "../utils/formatters";
 import { median } from "../utils/reportMetrics";
-import { calculateUserPercent } from "../utils/userScore";
 
 const minChartHeight = 130;
 const padding = { top: 38, right: 8, bottom: 26, left: 28 };
@@ -92,25 +91,17 @@ function useElementSize<T extends HTMLElement>() {
   return [setElement, size] as const;
 }
 
-// Compact distribution embedded in the calculator: always the newest round with data,
-// so moving the calculator inputs immediately moves the marker.
+// Compact distribution embedded in the calculator. It shows the same round and region as the
+// simulation table, and moving the calculator inputs immediately moves the marker.
 export function ScoreHistogram() {
-  const calculator = useCalculatorStore();
-  const { specialty, tryb, latestRound, entries, poolSummary } = useLatestQualifiedScores();
+  const { userPercent, basePercent } = useUserScore();
+  const { specialty, tryb, rounds, round, entries, poolSummary } = useSimulationScores();
+  const setRound = useCalculatorStore((state) => state.setSimulationRecruitment);
   const [plotRef, plotSize] = useElementSize<HTMLDivElement>();
   const plotWidth = plotSize.width;
   // The plot fills whatever height the calculator card leaves free.
   const chartHeight = Math.max(minChartHeight, plotSize.height);
 
-  const userPercent = calculateUserPercent(calculator);
-  // Exam-only score: the gap to userPercent is what the extra achievements add.
-  const basePercent = calculateUserPercent({
-    ...calculator,
-    hasPhD: false,
-    hasExperience: false,
-    isAcademicTeacher: false,
-    publicationsCount: 0,
-  });
   const fillFor = (score: number) =>
     score <= basePercent ? colors.below : score <= userPercent ? colors.bonus : colors.above;
 
@@ -181,7 +172,6 @@ export function ScoreHistogram() {
           const below = bin.entries.filter((entry) => entry.score <= basePercent).length;
           const reached = bin.entries.filter((entry) => entry.score <= userPercent).length;
           const openCount = bin.entries.filter((entry) => entry.open).length;
-          const columnTop = useDots ? chartBottom - total * dotRadius * 2 - 1 : yOf(total);
           const range = `${formatNumber(bin.from, 1)}–${formatNumber(bin.to, 1)}%`;
 
           return (
@@ -237,12 +227,6 @@ export function ScoreHistogram() {
                   />
                 </g>
               ) : null}
-              {openCount > 0 && !allOpen && (
-                <text x={x + binPixels / 2} y={columnTop - 2} className="histogram-open-mark" textAnchor="middle">
-                  *
-                  <title>{`${openCount} os. z województw z wolnymi miejscami`}</title>
-                </text>
-              )}
               {index % labelStep === 0 && (
                 <text x={x} y={chartHeight - 10} className="chart-label" textAnchor="middle">
                   {formatNumber(bin.from, decimals)}
@@ -298,32 +282,46 @@ export function ScoreHistogram() {
     );
   };
 
-  if (!latestRound || entries.length === 0) {
+  const roundPicker = round ? (
+    <label className="histogram-round">
+      <span>Rekrutacja</span>
+      <select value={round} onChange={(event) => setRound(event.target.value)}>
+        {rounds.map((option) => (
+          <option key={option} value={option}>
+            {option}
+          </option>
+        ))}
+      </select>
+    </label>
+  ) : null;
+
+  if (!round || entries.length === 0) {
     return (
       <div className="calculator-histogram">
-        <span className="histogram-empty">
-          Brak zakwalifikowanych dla specjalizacji {specialty} ({tryb}).
-        </span>
+        <span className="histogram-empty">Brak zakwalifikowanych dla specjalizacji {specialty} ({tryb}).</span>
+        {roundPicker && <div className="histogram-footer">{roundPicker}</div>}
       </div>
     );
   }
 
   return (
     <div className="calculator-histogram">
-      <span className="histogram-context">
-        {specialty} · {latestRound} · cała Polska · mediana{" "}
-        {formatPercentPoints(median(entries.map((entry) => entry.score)))}
-        {useDots && " · 1 kropka = 1 osoba"}
-      </span>
-
       <div className="histogram-plot" ref={plotRef}>
         {plotWidth > 0 && renderChart()}
+      </div>
+
+      <div className="histogram-footer">
+        {roundPicker}
+        <span className="histogram-context">
+          cała Polska · mediana {formatPercentPoints(median(entries.map((entry) => entry.score)))}
+          {useDots && " · 1 kropka = 1 osoba"}
+        </span>
       </div>
 
       {allOpen ? (
         <div className="histogram-open-note">
           <span>
-            W {latestRound}{" "}
+            W {round}{" "}
             {poolSummary.freePlaces > 0 ? (
               <>
                 {plural(poolSummary.freePlaces, "zostało", "zostały", "zostało")}{" "}
@@ -336,8 +334,8 @@ export function ScoreHistogram() {
               "nie obsadzono wszystkich miejsc "
             )}
             we wszystkich {formatNumber(poolSummary.pools)}{" "}
-            {plural(poolSummary.pools, "województwie", "województwach", "województwach")} – każdy chętny dostał
-            miejsce, niezależnie od wyniku. Wykres pokazuje wyniki przyjętych, a nie próg.
+            {plural(poolSummary.pools, "województwie", "województwach", "województwach")} – dostałbyś się tam
+            niezależnie od wyniku. Wykres pokazuje wyniki przyjętych, a nie próg.
           </span>
         </div>
       ) : (
@@ -353,12 +351,8 @@ export function ScoreHistogram() {
             <div className="histogram-open-note compact">
               <span>
                 W {formatNumber(poolSummary.openPools)} z {formatNumber(poolSummary.pools)} województw nie obsadzono
-                wszystkich miejsc
-                {poolSummary.freePlaces > 0 &&
-                  ` (łącznie ${plural(poolSummary.freePlaces, "pozostało", "pozostały", "pozostało")} ${formatNumber(
-                    poolSummary.freePlaces,
-                  )} ${plural(poolSummary.freePlaces, "wolne miejsce", "wolne miejsca", "wolnych miejsc")})`}
-                . Oznaczono to <strong className="histogram-open-star">*</strong>
+                wszystkich miejsc – dostałbyś się tam niezależnie od wyniku. Wykres pokazuje wyniki przyjętych, a nie
+                próg.
               </span>
             </div>
           )}

@@ -1,5 +1,6 @@
 import { Search } from "lucide-react";
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { useEffect, useId, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { createPortal } from "react-dom";
 import { getReportOptions } from "../data/reportData";
 import { useFilterStore } from "../state/filterStore";
 import type { PrzedstawWynikJako, TrybSzkolenia } from "../types";
@@ -10,20 +11,74 @@ const scoreHelp =
 const rawScoreHelp = "[Wynik egzaminu + dodatkowe punkty] -wartość przedstawiana dla celów poglądowych, przy założeniu, że nie anulowano żadnego pytania na egzaminie końcowym."
 const doctoralPlacesHelp = "Z zestawienia wyłączone są miejsca doktoranckie.";
 
+const TOOLTIP_GAP = 8;
+const VIEWPORT_MARGIN = 8;
+
+/**
+ * Dymek renderujemy w portalu z position: fixed, bo karty, tabele i kalkulator mają overflow
+ * hidden/auto i przycinały treść. Pozycję liczymy od ikony i ograniczamy do okna przeglądarki.
+ */
 export function InfoTooltip({ text, children }: { text: string; children?: ReactNode }) {
   const [visible, setVisible] = useState(false);
+  const [position, setPosition] = useState<{ top: number; left: number } | null>(null);
+  const triggerRef = useRef<HTMLSpanElement>(null);
+  const contentRef = useRef<HTMLSpanElement>(null);
+  const tooltipId = useId();
+
+  useLayoutEffect(() => {
+    if (!visible) {
+      setPosition(null);
+      return undefined;
+    }
+    const place = () => {
+      const trigger = triggerRef.current?.getBoundingClientRect();
+      const content = contentRef.current?.getBoundingClientRect();
+      if (!trigger || !content) return;
+      const fitsAbove = trigger.top - content.height - TOOLTIP_GAP >= VIEWPORT_MARGIN;
+      const top = fitsAbove ? trigger.top - content.height - TOOLTIP_GAP : trigger.bottom + TOOLTIP_GAP;
+      const centered = trigger.left + trigger.width / 2 - content.width / 2;
+      const left = Math.min(
+        Math.max(VIEWPORT_MARGIN, centered),
+        window.innerWidth - content.width - VIEWPORT_MARGIN,
+      );
+      setPosition({ top, left });
+    };
+    place();
+    window.addEventListener("scroll", place, true);
+    window.addEventListener("resize", place);
+    return () => {
+      window.removeEventListener("scroll", place, true);
+      window.removeEventListener("resize", place);
+    };
+  }, [visible]);
+
   return (
     <span
+      ref={triggerRef}
       className="info-tooltip"
       tabIndex={0}
       aria-label={text}
+      aria-describedby={visible ? tooltipId : undefined}
       onMouseEnter={() => setVisible(true)}
       onMouseLeave={() => setVisible(false)}
       onFocus={() => setVisible(true)}
       onBlur={() => setVisible(false)}
     >
       <span style={{ display: "block", lineHeight: 1 }}>?</span>
-      {visible && <span className="info-tooltip-content">{children ?? text}</span>}
+      {visible &&
+        createPortal(
+          <span
+            ref={contentRef}
+            id={tooltipId}
+            role="tooltip"
+            className="info-tooltip-content"
+            // Hidden until measured, so it never flashes at the wrong spot.
+            style={position ? { top: position.top, left: position.left } : { top: 0, left: 0, visibility: "hidden" }}
+          >
+            {children ?? text}
+          </span>,
+          document.body,
+        )}
     </span>
   );
 }
@@ -32,13 +87,7 @@ export function DziedzinaSlicer() {
   const dziedzinaMedycyny = useFilterStore((state) => state.filters.dziedzinaMedycyny);
   const setDziedzinaMedycyny = useFilterStore((state) => state.setDziedzinaMedycyny);
   const [query, setQuery] = useState("");
-  const visibleOptions = useMemo(
-    () =>
-      options.dziedziny.filter((option) =>
-        option.toLocaleLowerCase("pl").includes(query.toLocaleLowerCase("pl")),
-      ),
-    [query],
-  );
+  const visibleOptions = useMemo(() => filterSpecialties(query), [query]);
 
   return (
     <div className="filter-block slicer-block">
@@ -78,60 +127,109 @@ const TRYB_LABELS: Record<TrybSzkolenia, string> = {
 };
 
 const WYNIK_LABELS: Record<PrzedstawWynikJako, { label: string; short: string; help: string }> = {
-  "% punktów rekrutacyjnych (domyślne)": { label: "% punktów", short: "%", help: scoreHelp },
-  "surowa ilość punktów rekrutacyjnych (poglądowo)": { label: "punkty (poglądowo)", short: "pkt", help: rawScoreHelp },
+  "% punktów rekrutacyjnych (domyślne)": { label: "% punktów rekrutacyjnych", short: "% pkt rekr.", help: scoreHelp },
+  "surowa ilość punktów rekrutacyjnych (poglądowo)": {
+    label: "punkty rekrutacyjne (poglądowo)",
+    short: "pkt rekr.",
+    help: rawScoreHelp,
+  },
 };
 
-function scrollToSpecialtyPicker() {
-  const picker = document.getElementById("field-filter");
-  picker?.scrollIntoView({ block: "center" });
-  picker?.querySelector<HTMLInputElement>("input[type=search]")?.focus({ preventScroll: true });
+function filterSpecialties(query: string) {
+  const needle = query.toLocaleLowerCase("pl");
+  return options.dziedziny.filter((option) => option.toLocaleLowerCase("pl").includes(needle));
 }
 
-/** Sekcja kalkulatora ma własny tryb, więc na telefonie chowamy nad nią przyklejony pasek. */
-const CALCULATOR_SECTION_IDS = ["calculator-section-title", "kalkulator", "simulation"];
-const STICKY_BAR_OFFSET = 80;
-
-/** Czy górna krawędź ekranu (pod paskiem) jest w obrębie sekcji kalkulatora. */
-function useOverCalculator() {
-  const [overCalculator, setOverCalculator] = useState(false);
+/** Wybór specjalizacji z wyszukiwarką otwierany w pasku, żeby zmienić ją z dowolnego miejsca strony. */
+function SpecialtyPicker({ onPicked }: { onPicked: () => void }) {
+  const dziedzinaMedycyny = useFilterStore((state) => state.filters.dziedzinaMedycyny);
+  const setDziedzinaMedycyny = useFilterStore((state) => state.setDziedzinaMedycyny);
+  const [open, setOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const containerRef = useRef<HTMLDivElement>(null);
+  const visibleOptions = useMemo(() => filterSpecialties(query), [query]);
 
   useEffect(() => {
-    const update = () => {
-      const rects = CALCULATOR_SECTION_IDS.map((id) => document.getElementById(id)?.getBoundingClientRect()).filter(
-        (rect): rect is DOMRect => rect !== undefined,
-      );
-      if (rects.length === 0) return setOverCalculator(false);
-      const top = Math.min(...rects.map((rect) => rect.top));
-      const bottom = Math.max(...rects.map((rect) => rect.bottom));
-      setOverCalculator(top < STICKY_BAR_OFFSET && bottom > STICKY_BAR_OFFSET);
+    if (!open) return undefined;
+    const onPointerDown = (event: MouseEvent) => {
+      if (!containerRef.current?.contains(event.target as Node)) setOpen(false);
     };
-    update();
-    window.addEventListener("scroll", update, { passive: true });
-    window.addEventListener("resize", update);
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("mousedown", onPointerDown);
+    document.addEventListener("keydown", onKeyDown);
     return () => {
-      window.removeEventListener("scroll", update);
-      window.removeEventListener("resize", update);
+      document.removeEventListener("mousedown", onPointerDown);
+      document.removeEventListener("keydown", onKeyDown);
     };
-  }, []);
+  }, [open]);
 
-  return overCalculator;
+  return (
+    <div className="context-bar-scope" ref={containerRef}>
+      <span className="context-bar-eyebrow">Raport i kalkulator dotyczą</span>
+      <button
+        type="button"
+        className="context-bar-specialty"
+        title={`${dziedzinaMedycyny} — kliknij, aby zmienić specjalizację`}
+        aria-expanded={open}
+        aria-haspopup="dialog"
+        onClick={() => {
+          setQuery("");
+          setOpen((value) => !value);
+        }}
+      >
+        <strong>{dziedzinaMedycyny}</strong>
+        <span>zmień</span>
+      </button>
+      {open && (
+        <div className="specialty-popover" role="dialog" aria-label="Wybierz specjalizację">
+          <span className="search-input">
+            <Search size={15} aria-hidden />
+            <input
+              autoFocus
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Szukaj specjalizacji"
+              type="search"
+            />
+          </span>
+          <div className="slicer-list" role="listbox" aria-label="Specjalizacja">
+            {visibleOptions.map((option) => (
+              <button
+                key={option}
+                type="button"
+                className={dziedzinaMedycyny === option ? "active" : ""}
+                onClick={() => {
+                  void setDziedzinaMedycyny(option);
+                  setOpen(false);
+                  onPicked();
+                }}
+              >
+                {option}
+              </button>
+            ))}
+            {visibleOptions.length === 0 && <span className="specialty-popover-empty">Brak wyników</span>}
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
 
 /**
  * Przyklejony pasek mówiący, czego dotyczy raport, z ustawieniami wpływającymi na wszystkie widoki raportu.
- * Na telefonie jest zwinięty do jednej linii i rozwija się po dotknięciu.
+ * Obejmuje raport i kalkulator. Na telefonie jest zwinięty do jednej linii i rozwija się po dotknięciu.
  */
 export function ReportContextBar() {
   const filters = useFilterStore((state) => state.filters);
   const setTrybSzkolenia = useFilterStore((state) => state.setTrybSzkolenia);
   const setPrzedstawWynikJako = useFilterStore((state) => state.setPrzedstawWynikJako);
   const [expanded, setExpanded] = useState(false);
-  const overCalculator = useOverCalculator();
 
   return (
     <div
-      className={`context-bar ${expanded ? "expanded" : ""} ${overCalculator ? "over-calculator" : ""}`}
+      className={`context-bar ${expanded ? "expanded" : ""}`}
       role="region"
       aria-label="Ustawienia raportu"
     >
@@ -148,25 +246,11 @@ export function ReportContextBar() {
         <span className="compact-action">{expanded ? "zwiń" : "zmień"}</span>
       </button>
       <div className="context-bar-full">
-        <div className="context-bar-scope">
-          <span className="context-bar-eyebrow">Raport poniżej dotyczy</span>
-          <button
-            type="button"
-            className="context-bar-specialty"
-            title={`${filters.dziedzinaMedycyny} — kliknij, aby zmienić specjalizację`}
-            onClick={() => {
-              setExpanded(false);
-              scrollToSpecialtyPicker();
-            }}
-          >
-            <strong>{filters.dziedzinaMedycyny}</strong>
-            <span>zmień</span>
-          </button>
-        </div>
+        <SpecialtyPicker onPicked={() => setExpanded(false)} />
         <div className="context-bar-group">
           <span className="context-bar-label">
             Tryb
-            <InfoTooltip text={`${doctoralPlacesHelp} Tryb zmienia miejsca, progi i wolne miejsca we wszystkich kartach, tabeli i wykresie.`} />
+            <InfoTooltip text={doctoralPlacesHelp} />
           </span>
           <div className="segmented" role="group" aria-label="Tryb szkolenia">
             {options.tryby.map((tryb: TrybSzkolenia) => (
@@ -187,10 +271,10 @@ export function ReportContextBar() {
         </div>
         <div className="context-bar-group">
           <span className="context-bar-label">
-            Wynik w
+            Pokaż wynik jako
             <InfoTooltip text={`${scoreHelp} ${rawScoreHelp}`} />
           </span>
-          <div className="segmented" role="group" aria-label="Jednostka wyniku">
+          <div className="segmented segmented-wrap" role="group" aria-label="Jednostka wyniku">
             {options.przedstawWynikJako.map((option: PrzedstawWynikJako) => (
               <button
                 key={option}
