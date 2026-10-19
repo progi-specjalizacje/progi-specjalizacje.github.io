@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import { trackEventOnce } from "../utils/analytics";
 
 // Tryb szkolenia i specjalizacja pochodzą z filterStore, wspólnego dla raportu i kalkulatora.
 export interface CalculatorState {
@@ -29,11 +30,26 @@ export const useCalculatorStore = create<CalculatorState>((set) => ({
   publicationsCount: 0,
   simulationRecruitment: "",
 
-  setExamPoints: (examPoints) => set({ examPoints }),
+  setExamPoints: (examPoints) => {
+    trackEventOnce("calculator-exam-points");
+    set({ examPoints });
+  },
   setMaxExamPoints: (maxExamPoints) => set({ maxExamPoints }),
-  setHasPhD: (hasPhD) => set({ hasPhD }),
-  setHasExperience: (hasExperience) => set({ hasExperience }),
-  setIsAcademicTeacher: (isAcademicTeacher) => set({ isAcademicTeacher }),
-  setPublicationsCount: (publicationsCount) => set({ publicationsCount }),
+  setHasPhD: (hasPhD) => {
+    trackEventOnce("calculator-phd");
+    set({ hasPhD });
+  },
+  setHasExperience: (hasExperience) => {
+    trackEventOnce("calculator-experience");
+    set({ hasExperience });
+  },
+  setIsAcademicTeacher: (isAcademicTeacher) => {
+    trackEventOnce("calculator-academic-teacher");
+    set({ isAcademicTeacher });
+  },
+  setPublicationsCount: (publicationsCount) => {
+    trackEventOnce("calculator-publications");
+    set({ publicationsCount });
+  },
   setSimulationRecruitment: (simulationRecruitment) => set({ simulationRecruitment }),
 }));

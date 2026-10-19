@@ -12,6 +12,7 @@ import { HowItWorksCard } from "./components/HowItWorksCard";
 import { dashboardLayout, type DashboardVisual } from "./config/dashboardLayout";
 import { getReportOptions } from "./data/reportData";
 import { useFilterStore } from "./state/filterStore";
+import { observeSectionViews } from "./utils/analytics";
 
 function specialtySlug(value: string) {
   return value
@@ -90,7 +91,7 @@ function DashboardApp() {
       const currentSpecialty = useFilterStore.getState().filters.dziedzinaMedycyny;
       const requestedSpecialty = getRequestedSpecialty();
       if (requestedSpecialty && requestedSpecialty !== currentSpecialty) {
-        await setDziedzinaMedycyny(requestedSpecialty);
+        await setDziedzinaMedycyny(requestedSpecialty, { silent: true });
       } else {
         await loadSpecialtyData(currentSpecialty);
       }
@@ -103,6 +104,15 @@ function DashboardApp() {
 
     void initializeReport();
   }, [loadSpecialtyData, setDziedzinaMedycyny]);
+
+  useEffect(() => {
+    observeSectionViews({
+      "#raport": "raport",
+      "#kalkulator": "kalkulator",
+      "#jak-to-dziala": "jak-to-dziala",
+      ".seo-faq": "faq",
+    });
+  }, []);
 
   return (
     <>

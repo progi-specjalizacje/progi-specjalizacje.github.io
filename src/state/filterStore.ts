@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { getReportOptions, fetchSpecialtyData, fetchSpecialtyPlaces, fetchSpecialtyPools } from "../data/reportData";
+import { trackEvent } from "../utils/analytics";
 import type {
   OfferedPlaces,
   PrzedstawWynikJako,
@@ -25,7 +26,8 @@ interface FilterStore {
   activePlaces: OfferedPlaces[];
   isLoading: boolean;
   setTrybSzkolenia: (trybSzkolenia: TrybSzkolenia) => void;
-  setDziedzinaMedycyny: (dziedzinaMedycyny: string) => Promise<void>;
+  /** `silent` pomija zdarzenie analityczne (np. specjalizacja ustawiona z adresu URL). */
+  setDziedzinaMedycyny: (dziedzinaMedycyny: string, options?: { silent?: boolean }) => Promise<void>;
   setPrzedstawWynikJako: (przedstawWynikJako: PrzedstawWynikJako) => void;
   resetFilters: () => void;
   loadSpecialtyData: (specialty: string) => Promise<void>;
@@ -37,13 +39,30 @@ export const useFilterStore = create<FilterStore>((set, get) => ({
   activePools: [],
   activePlaces: [],
   isLoading: false,
-  setTrybSzkolenia: (trybSzkolenia) => set((state) => ({ filters: { ...state.filters, trybSzkolenia } })),
-  setDziedzinaMedycyny: async (dziedzinaMedycyny) => {
+  setTrybSzkolenia: (trybSzkolenia) => {
+    trackEvent("filter-tryb", {
+      value: trybSzkolenia,
+      specjalizacja: get().filters.dziedzinaMedycyny,
+      pair: `${get().filters.dziedzinaMedycyny} | ${trybSzkolenia}`,
+    });
+    set((state) => ({ filters: { ...state.filters, trybSzkolenia } }));
+  },
+  setDziedzinaMedycyny: async (dziedzinaMedycyny, { silent = false } = {}) => {
+    if (!silent) {
+      const { trybSzkolenia } = get().filters;
+      trackEvent("filter-specjalizacja", {
+        value: dziedzinaMedycyny,
+        tryb: trybSzkolenia,
+        pair: `${dziedzinaMedycyny} | ${trybSzkolenia}`,
+      });
+    }
     set((state) => ({ filters: { ...state.filters, dziedzinaMedycyny } }));
     await get().loadSpecialtyData(dziedzinaMedycyny);
   },
-  setPrzedstawWynikJako: (przedstawWynikJako) =>
-    set((state) => ({ filters: { ...state.filters, przedstawWynikJako } })),
+  setPrzedstawWynikJako: (przedstawWynikJako) => {
+    trackEvent("filter-wynik-jako", { value: przedstawWynikJako });
+    set((state) => ({ filters: { ...state.filters, przedstawWynikJako } }));
+  },
   resetFilters: () => {
     const prevSpecialty = get().filters.dziedzinaMedycyny;
     set({ filters: defaultFilters });
