@@ -1,13 +1,13 @@
 {
   "sources": [
-    "prediction/sources/cmkp_places_pdfs/j-2023.pdf",
-    "prediction/sources/cmkp_places_pdfs/j-2024.pdf",
-    "prediction/sources/cmkp_places_pdfs/j-2025.pdf",
-    "prediction/sources/cmkp_places_pdfs/j-2026.pdf",
-    "prediction/sources/cmkp_places_pdfs/w-2023.pdf",
-    "prediction/sources/cmkp_places_pdfs/w-2024.pdf",
-    "prediction/sources/cmkp_places_pdfs/w-2025.pdf",
-    "prediction/sources/cmkp_places_pdfs/w-2026.pdf"
+    "data_pipeline/places/pdfs/j-2023.pdf",
+    "data_pipeline/places/pdfs/j-2024.pdf",
+    "data_pipeline/places/pdfs/j-2025.pdf",
+    "data_pipeline/places/pdfs/j-2026.pdf",
+    "data_pipeline/places/pdfs/w-2023.pdf",
+    "data_pipeline/places/pdfs/w-2024.pdf",
+    "data_pipeline/places/pdfs/w-2025.pdf",
+    "data_pipeline/places/pdfs/w-2026.pdf"
   ],
   "counts": {
     "rows": 10624,

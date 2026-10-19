@@ -4,9 +4,9 @@ import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const root = path.resolve(__dirname, "..");
-const manifestPath = path.join(root, "prediction", "sources", "cmkp_places_manifest.json");
-const outputDir = path.join(root, "prediction", "sources", "cmkp_places_pdfs");
+const root = path.resolve(__dirname, "..", "..");
+const manifestPath = path.join(__dirname, "cmkp_places_manifest.json");
+const outputDir = path.join(__dirname, "pdfs");
 const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
 
 fs.mkdirSync(outputDir, { recursive: true });

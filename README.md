@@ -1,115 +1,101 @@
-# Progi Rekrutacji Rezydenckiej
+# Progi na specjalizacje
 
-Client-only React + TypeScript dashboard for comparing Polish medical residency recruitment results across recruitment rounds.
+Kod strony [progi-specjalizacje.pl](https://progi-specjalizacje.pl) – porównanie progów punktowych,
+liczby miejsc i wyników rekrutacji na specjalizacje lekarskie i lekarsko-dentystyczne (CMKP)
+według województw i naborów. Aplikacja React + TypeScript (Vite) działa wyłącznie w przeglądarce,
+bez backendu; dane są statycznymi plikami JSON generowanymi z CSV przy buildzie.
 
-## Run Locally
+Agenci AI (Codex, Claude Code) zaczynają od [`AGENTS.md`](AGENTS.md).
 
-Instrukcja podmiany istniejącej strony i lista kontroli SEO: [DEPLOYMENT.md](DEPLOYMENT.md).
+## Co jest gdzie
+
+```text
+.
+├── src/              # aplikacja React (komponenty, konfiguracja układu, stan, style)
+├── scripts/          # skrypty builda: preprocess.js (CSV -> JSON), generateHomepageSeo.js
+├── source_data/      # dane strony: <runda>_parsed.csv (wyniki) + cmkp_places.csv (miejsca)
+├── data_pipeline/    # pobieranie i parsowanie PDF-ów CMKP do source_data/ + audyt danych
+├── public/           # pliki statyczne; public/data/*.json generuje preprocess.js
+├── index.html        # szablon strony; blok SEO wypełnia generateHomepageSeo.js
+├── archive/          # rzeczy wycofane (model prognoz, podstrony SEO, runda j-2022)
+├── .agents/skills/   # projektowe skille agentów (cmkp-data-refresh)
+├── .claude/          # konfiguracja podglądu dev servera dla Claude Code
+└── .github/workflows # deploy na GitHub Pages
+```
+
+## Uruchomienie lokalne
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open the local URL printed by Vite, usually `http://127.0.0.1:5173/`.
+Strona: `http://127.0.0.1:5173/`. `npm run dev` i `npm run build` najpierw uruchamiają
+`scripts/preprocess.js` i `scripts/generateHomepageSeo.js`.
 
-Useful validation commands:
+| Polecenie | Co robi |
+| --- | --- |
+| `npm run dev` | preprocess + SEO + serwer Vite |
+| `npm run build` | preprocess + SEO + `tsc` + build do `dist/` |
+| `npm run typecheck` | kontrola typów |
+| `npm run preview` | podgląd zbudowanego `dist/` |
+| `npm run data:audit` | lokalny audyt danych w `source_data/` i `data_pipeline/` |
+| `npm run data:download-places` | pobranie PDF-ów wykazu miejsc CMKP z manifestu |
+| `npm run data:parse-places` | PDF-y miejsc -> `source_data/cmkp_places.csv` |
+| `npm run data:parse-results` | PDF-y list zakwalifikowanych -> `source_data/<runda>_parsed.csv` |
 
-```bash
-npm run typecheck
-npm run build
-npm run prediction:audit
+Parsery wymagają Pythona z `pdfplumber` (`python -m pip install pdfplumber`).
+
+## Przepływ danych
+
+```text
+PDF-y CMKP ──data_pipeline/──▶ source_data/*.csv ──scripts/preprocess.js──▶ public/data/*.json
+                                                                        └─▶ src/data/reportMetadata.ts
+public/data/*.json ──scripts/generateHomepageSeo.js──▶ index.html (blok SEO) + public/sitemap.xml
+public/data/*.json ──fetch w src/data/reportData.ts──▶ komponenty
 ```
 
-Future coding agents should start with `AGENTS.md`; it contains the project map, architecture rules, and handoff checklist.
+Dodanie nowej rundy rekrutacji jest opisane krok po kroku w
+[`data_pipeline/README.md`](data_pipeline/README.md). Agent może to zrobić skillem
+[`$cmkp-data-refresh`](.agents/skills/cmkp-data-refresh/SKILL.md):
 
-## Prediction pipeline
+> Użyj `$cmkp-data-refresh`, sprawdź, czy CMKP opublikowało nowe dane, i zaktualizuj stronę.
 
-The repository also contains a local, backend-free pipeline for forecasting competitive residency thresholds and the probability that a regional pool will be completely filled. Its methodology, exclusions, data sources, validation rules, generated files, and limitations are documented in [`prediction/README.md`](prediction/README.md).
+## Dane źródłowe
 
-Typical execution order:
+`source_data/[wj]-RRRR_parsed.csv` – jedna runda na plik (`w` = wiosna, `j` = jesień), np.
+`w-2026_parsed.csv`. Najważniejsze kolumny: `rekrutacja`, `wojewodztwo`, `dziedzina_medycyny`,
+`tryb_szkolenia`, `punktacja_proc`, `ilość_zakwalifikowanych_w_trybie`. Pełny opis kolumn:
+[`data_pipeline/results/README.md`](data_pipeline/results/README.md).
 
-```bash
-npm run prediction:data
-npm run prediction:scope
-npm run prediction:model
-```
+`source_data/cmkp_places.csv` – liczba miejsc szkoleniowych (rezydenckich i pozarezydenckich)
+według rundy, województwa i dziedziny. Strona używa jej, żeby odróżnić konkurencyjny próg od
+najniższego wyniku w niepełnie obsadzonej puli.
 
-The threshold and fill-probability models are separate. Generated prediction CSV/JSON files live in `prediction/data/` and should be regenerated through the scripts rather than edited manually.
+## Układ strony
 
-### Kontrola aktualności danych
+Układ i wybór wizualizacji są w `src/config/dashboardLayout.ts` (pozycje w siatce CSS, KPI,
+konfiguracja tabeli przestawnej). Zmiany układu rób tam, nie w komponentach.
 
-Repozytorium zawiera projektowy skill [`$cmkp-cem-data-refresh`](.agents/skills/cmkp-cem-data-refresh/SKILL.md), który sprawdza oficjalne publikacje CEM i CMKP oraz prowadzi przez bezpieczną aktualizację źródeł i ponowne wygenerowanie prognoz. Skill śledzi niezależnie:
+Lista specjalizacji w wyszukiwarce może być ograniczona flagą `LIMIT_SPECIALTY_SEARCH` w
+`src/config/specialtySearchFilter.ts` (obecnie `false` – pełna lista).
 
-- wyniki sesji LEK i LDEK,
-- szczegółowe statystyki CEM z odchyleniem standardowym,
-- wykazy miejsc specjalizacyjnych CMKP,
-- listy osób zakwalifikowanych publikowane przez CMKP.
+## Deploy (GitHub Pages)
 
-Lokalny audyt można uruchomić bez pobierania ani zmieniania danych:
+Workflow `.github/workflows/deploy.yml` buduje stronę i publikuje ją przy każdym pushu do `main`
+(albo ręcznie z zakładki **Actions**). W **Settings -> Pages** źródłem musi być **GitHub Actions**.
 
-```bash
-npm run prediction:audit
-```
+Domena jest zapisana w `public/CNAME` (kopiowana do `dist/CNAME`). DNS dla
+`progi-specjalizacje.pl` (rejestrator above.com):
 
-Audyt kontroluje schematy CSV, kompletność par LEK/LDEK, duplikaty, zakresy liczb, zgodność SD, manifest i PDF-y CMKP, dostępność rund w `source_data` oraz zakres `[0, 1]` prognoz prawdopodobieństwa. Brak publikacji, która zwykle pojawia się później niż pozostałe dane z tej samej rundy, jest raportowany jako ostrzeżenie, a nie błąd.
+- rekordy A dla `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`,
+- `www` CNAME: `progi-specjalizacje.github.io`.
 
-W zadaniu Codex można wywołać pełną kontrolę internetu i aktualizację poleceniem:
+Usuń sprzeczne stare rekordy A/AAAA/CNAME dla tych nazw. Po weryfikacji domeny przez GitHub włącz
+**Enforce HTTPS** w **Settings -> Pages**.
 
-> Użyj `$cmkp-cem-data-refresh`, sprawdź aktualność danych CEM i CMKP oraz zaktualizuj wszystkie opublikowane źródła.
+## Archiwum
 
-Oficjalne adresy, znaczenie kolumn i zasady wyboru właściwych tabel opisano w [schemacie źródeł skilla](.agents/skills/cmkp-cem-data-refresh/references/sources-and-schema.md).
-
-## Source Data
-
-CSV files live in `source_data/`. Each file has the same structure and represents one recruitment round, for example:
-
-- `w-2026_parsed.csv`: spring 2026
-- `j-2025_parsed.csv`: autumn 2025
-
-The app imports every CSV as raw text in `src/data/sourceCsv.ts`, parses it in `src/data/reportData.ts`, and exposes rows through `getReportData()`. Components should keep using this data access layer rather than importing CSV files directly.
-
-Important columns:
-
-- `rekrutacja`
-- `wojewodztwo`
-- `dziedzina_medycyny`
-- `tryb_szkolenia`
-- `punktacja_proc`
-- `ilość_zakwalifikowanych_w_trybie`
-
-Polish CSV headers with diacritics are normalized to TypeScript-friendly field names inside `reportData.ts`.
-
-## Current Report
-
-The pivot table is configured as:
-
-- Rows: `wojewodztwo`
-- Columns: `rekrutacja`
-- Values: minimum `punktacja_proc` and median `ilość_zakwalifikowanych_w_trybie`
-
-Controls:
-
-- `tryb_szkolenia`: single-select button group
-- `dziedzina_medycyny`: searchable, scrollable single-select slicer
-
-## Layout Config
-
-The report layout is defined in `src/config/dashboardLayout.ts`. Each visual declares:
-
-- `type`: `text`, `card`, `pivot`, or `filters`
-- `grid`: column, row, column span, and row span
-- `props`: visual-specific settings
-
-To rearrange the page, edit the grid coordinates in that config file without changing component implementation.
-
-## Limited search
-The specialities available to search have been truncated to a short list, you can undo it:
-
-Jak cofnąć
-W pliku `src/config/specialtySearchFilter.ts` ustaw:
-
-```
-export const LIMIT_SPECIALTY_SEARCH = false;
-```
-Albo usuń plik i cofnij zmianę w reportData.ts.
+[`archive/`](archive/README.md) zawiera wycofany model prognoz progów i zapełnienia (z danymi
+CEM LEK/LDEK), dawne podstrony SEO specjalizacji oraz niepublikowaną rundę j-2022. Nic z tego
+nie wchodzi do builda.

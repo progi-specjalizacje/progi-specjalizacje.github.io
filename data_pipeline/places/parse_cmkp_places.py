@@ -13,12 +13,13 @@ from pathlib import Path
 import pdfplumber
 
 
-ROOT = Path(__file__).resolve().parent.parent
-PDF_DIR = ROOT / "prediction" / "sources" / "cmkp_places_pdfs"
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent.parent
+PDF_DIR = HERE / "pdfs"
 RANKING_DIR = ROOT / "source_data"
-OUTPUT_DIR = ROOT / "prediction" / "data"
+OUTPUT_DIR = RANKING_DIR
 OUTPUT_FILE = OUTPUT_DIR / "cmkp_places.csv"
-QUALITY_FILE = OUTPUT_DIR / "cmkp_places_quality_report.json"
+QUALITY_FILE = HERE / "cmkp_places_quality_report.json"
 
 ROUND_RE = re.compile(r"^([wj])-\d{4}\.pdf$")
 PROVINCE_RE = re.compile(r"^Wojew.dztwo\s+(.+)$", re.IGNORECASE)

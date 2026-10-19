@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aktualizacja danych CMKP"
+  short_description: "Sprawdza i aktualizuje dane rekrutacyjne strony"
+  default_prompt: "Użyj $cmkp-data-refresh, aby sprawdzić aktualność danych CMKP w tym repozytorium oraz bezpiecznie je zaktualizować."
