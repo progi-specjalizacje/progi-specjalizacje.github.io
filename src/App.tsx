@@ -128,7 +128,6 @@ function DashboardApp() {
         ))}
       </div>
       <footer className="dashboard-footer">
-        <a href="/specjalizacje/">Wszystkie specjalizacje</a>
         <p>
           Dane w raportach pochodzą z{" "}
           <a href="https://www.cmkp.edu.pl/ksztalcenie/postepowania-kwalifikacyjne">

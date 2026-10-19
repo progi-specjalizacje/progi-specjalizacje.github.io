@@ -64,7 +64,7 @@ wyników wyszukiwarki, jeżeli oficjalna tabela lub dokument jest dostępny.
      wersjonowaną klasyfikację miast zgodnie z sekcją „CMKP: pilotaż placówek i
      geografia” w schemacie źródeł;
    - nową kwotę przeciętnego wynagrodzenia GUS (luty każdego roku) w
-     `AVERAGE_WAGE_BY_YEAR` w `scripts/generateSeoPages.js`, zgodnie z sekcją
+     `AVERAGE_WAGE_BY_YEAR` w `scripts/generateHomepageSeo.js`, zgodnie z sekcją
      „GUS: przeciętne wynagrodzenie” w schemacie źródeł. Na niej opierają się
      pensje rezydentów i stażystów w FAQ; nie wpływa na model.
 2. Uruchom ponownie `npm run prediction:audit`.

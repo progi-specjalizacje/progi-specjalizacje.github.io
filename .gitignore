@@ -23,7 +23,5 @@ coverage/
 playwright-report/
 test-results/
 
-# Generated SEO pages
-/public/specjalizacje/
-/public/sitemap-specializacje.xml
+# Generated SEO files
 /public/sitemap.xml

@@ -86,7 +86,7 @@ raporcie. Pojemność placówki nie jest liczbą przyznanych miejsc rezydenckich
 ## GUS: przeciętne wynagrodzenie (pensje w FAQ)
 
 Odpowiedzi FAQ „Ile zarabia się na rezydenturze?” i „Ile zarabia się na stażu
-podyplomowym?” na stronie głównej liczy `scripts/generateSeoPages.js` z
+podyplomowym?” na stronie głównej liczy `scripts/generateHomepageSeo.js` z
 przeciętnego miesięcznego wynagrodzenia w gospodarce narodowej za poprzedni rok.
 Nowe stawki obowiązują od 1 lipca.
 

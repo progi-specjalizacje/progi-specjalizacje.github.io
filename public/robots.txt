@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
-Sitemap: https://progi-specjalizacje.pl/sitemap.xml
 
-# Data freshness: see README.md and .agents/skills/cmkp-cem-data-refresh/SKILL.md
-# Local source audit: npm run prediction:audit
+# Former /specjalizacje/ subpages were removed and now return 404. They are deliberately
+# not disallowed, so crawlers can fetch the 404 and drop the URLs from the index.
+
+Sitemap: https://progi-specjalizacje.pl/sitemap.xml

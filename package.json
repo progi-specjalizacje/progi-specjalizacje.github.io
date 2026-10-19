@@ -14,10 +14,10 @@
     "prediction:discover-facility-links": "node scripts/discoverCmkpFacilityLinks.js",
     "prediction:facility-pilot": "node scripts/runCmkpFacilityPilot.js",
     "prediction:facility-geography": "node scripts/runFacilityGeography.js",
-    "generate-seo": "node scripts/generateSeoPages.js",
-    "dev": "node scripts/preprocess.js && node scripts/generateSeoPages.js && vite --host 127.0.0.1",
+    "generate-seo": "node scripts/generateHomepageSeo.js",
+    "dev": "node scripts/preprocess.js && node scripts/generateHomepageSeo.js && vite --host 127.0.0.1",
     "typecheck": "tsc --noEmit",
-    "build": "node scripts/preprocess.js && node scripts/generateSeoPages.js && tsc && vite build",
+    "build": "node scripts/preprocess.js && node scripts/generateHomepageSeo.js && tsc && vite build",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {

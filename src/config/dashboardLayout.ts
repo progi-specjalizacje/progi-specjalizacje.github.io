@@ -84,7 +84,7 @@ export const dashboardLayout: DashboardVisual[] = [
     type: "text",
     grid: { column: 1, row: 1, colSpan: 12, rowSpan: 1 },
     props: {
-      // Update the year after each new recruitment round (index.html <title> is updated by generateSeoPages.js).
+      // Update the year after each new recruitment round (index.html <title> is updated by generateHomepageSeo.js).
       text: "Progi na specjalizacje lekarskie i stomatologiczne 2026",
       variant: "title",
     },
