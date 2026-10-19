@@ -1,0 +1,25 @@
+dziedzina_medycyny,liczba_rund,mae_produkcja,mae_ranking,poprawa_mae_ranking_minus_produkcja,rundy_wygrane_ranking,rundy_remis,rundy_przegrane_ranking
+Neurologia dziecięca,1,4.273,3.11,1.163,1,0,0
+Diabetologia,2,0.709,0.26,0.449,2,0,0
+Chirurgia plastyczna,3,2.026,1.594,0.432,3,0,0
+Endokrynologia,4,0.976,0.558,0.418,4,0,0
+Chirurgia stomatologiczna,3,1.192,0.834,0.358,2,0,1
+Urologia,4,1.09,0.756,0.334,3,0,1
+Radiologia i diagnostyka obrazowa,1,0.676,0.368,0.308,1,0,0
+Dermatologia i wenerologia,4,0.617,0.383,0.234,3,0,1
+Alergologia,1,1.614,1.401,0.213,1,0,0
+Otorynolaryngologia,1,0.811,0.603,0.208,1,0,0
+Ortodoncja,4,0.869,0.696,0.173,2,0,2
+Reumatologia,2,0.252,0.094,0.158,2,0,0
+Ortopedia i traumatologia narządu ruchu,1,3.673,3.526,0.147,1,0,0
+Periodontologia,2,0.425,0.298,0.127,1,0,1
+Psychiatria dzieci i młodzieży,2,2.447,2.464,-0.017,1,0,1
+Stomatologia dziecięca,1,1.364,1.518,-0.154,0,0,1
+Kardiologia,1,1.961,2.146,-0.185,0,0,1
+Okulistyka,2,0.738,0.944,-0.206,1,0,1
+Neurochirurgia,2,3.073,3.29,-0.218,1,0,1
+Gastroenterologia,2,0.59,0.835,-0.245,0,0,2
+Endokrynologia i diabetologia dziecięca,2,1.158,1.479,-0.321,1,0,1
+Chirurgia naczyniowa,1,0.758,1.095,-0.337,0,0,1
+Otorynolaryngologia dziecięca,2,1.332,1.936,-0.605,0,0,2
+Gastroenterologia dziecięca,1,1.638,2.487,-0.849,0,0,1

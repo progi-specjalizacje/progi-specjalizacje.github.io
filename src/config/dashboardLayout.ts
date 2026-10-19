@@ -1,6 +1,6 @@
 import type { DashboardMetric, PivotConfig, TextVariant } from "../types";
 
-type VisualType = "text" | "card" | "pivot" | "filters" | "chart" | "calculator" | "simulation";
+type VisualType = "text" | "card" | "results" | "pivot" | "filters" | "chart" | "calculator" | "simulation" | "howItWorks";
 
 interface GridPosition {
   column: number;
@@ -32,6 +32,10 @@ export interface CardVisual extends BaseVisual {
   };
 }
 
+export interface ResultsVisual extends BaseVisual {
+  type: "results";
+}
+
 export interface PivotVisual extends BaseVisual {
   type: "pivot";
   props: {
@@ -43,7 +47,7 @@ export interface PivotVisual extends BaseVisual {
 export interface FilterVisual extends BaseVisual {
   type: "filters";
   props: {
-    variant: "field" | "secondary";
+    variant: "field" | "context";
   };
 }
 
@@ -59,14 +63,20 @@ export interface SimulationVisual extends BaseVisual {
   type: "simulation";
 }
 
+export interface HowItWorksVisual extends BaseVisual {
+  type: "howItWorks";
+}
+
 export type DashboardVisual =
   | TextVisual
   | CardVisual
+  | ResultsVisual
   | PivotVisual
   | FilterVisual
   | ChartVisual
   | CalculatorVisual
-  | SimulationVisual;
+  | SimulationVisual
+  | HowItWorksVisual;
 
 export const dashboardLayout: DashboardVisual[] = [
   {
@@ -74,7 +84,8 @@ export const dashboardLayout: DashboardVisual[] = [
     type: "text",
     grid: { column: 1, row: 1, colSpan: 12, rowSpan: 1 },
     props: {
-      text: "Progi na specjalizacje lekarskie i stomatologiczne",
+      // Update the year after each new recruitment round (index.html <title> is updated by generateHomepageSeo.js).
+      text: "Progi na specjalizacje lekarskie i stomatologiczne 2026",
       variant: "title",
     },
   },
@@ -83,56 +94,44 @@ export const dashboardLayout: DashboardVisual[] = [
     type: "text",
     grid: { column: 1, row: 2, colSpan: 12, rowSpan: 1 },
     props: {
-      text: `<strong>Porównaj progi punktowe, liczbę miejsc i wyniki rekrutacji na specjalizacje lekarskie i lekarsko-dentystyczne według województw, lat oraz trybu szkolenia.</strong>`,
+      text: `<strong>Porównaj progi punktowe na rezydenturę i w trybie pozarezydenckim, liczbę miejsc i wyniki rekrutacji na specjalizacje lekarskie i lekarsko-dentystyczne według województw i naborów.</strong>`,
       variant: "body",
     },
   },
   {
+    // Pasek zajmuje wiersz 3, ale jego obszar sięga do końca kalkulatora i symulacji:
+    // dzięki temu przykleja się podczas przewijania raportu i kalkulatora.
+    id: "context-bar",
+    type: "filters",
+    grid: { column: 1, row: 3, colSpan: 12, rowSpan: 31 },
+    props: { variant: "context" },
+  },
+  {
     id: "field-filter",
     type: "filters",
-    grid: { column: 1, row: 3, colSpan: 3, rowSpan: 4 },
+    grid: { column: 1, row: 4, colSpan: 3, rowSpan: 4 },
     props: { variant: "field" },
   },
   {
-    id: "average-threshold-card",
+    id: "places-card",
     type: "card",
-    grid: { column: 4, row: 3, colSpan: 3, rowSpan: 2 },
+    grid: { column: 4, row: 4, colSpan: 5, rowSpan: 4 },
     props: {
-      label: "Uśredniony próg dla wszystkich województw",
-      metric: "averageThreshold",
-      tooltip: "Metryka jest wyliczana poprzez określenie progu kwalifikacji w każdym województwie (wyniku ostatniego zakwalifikowanego kandydata), a następnie obliczenie średniej arytmetycznej tych wartości. Ponieważ każde województwo ma jednakową wagę, wartość ta może być niższa lub wyższa od średniej wyników wszystkich zakwalifikowanych kandydatów.",
+      label: "{etap} · {rekrutacja}",
+      metric: "focusPlaces",
     },
   },
   {
-    id: "median-qualified-score-card",
-    type: "card",
-    grid: { column: 7, row: 3, colSpan: 3, rowSpan: 2 },
-    props: {
-      label: "Średni wynik wszystkich zakwalifikowanych",
-      metric: "medianQualifiedScore",
-    },
-  },
-  {
-    id: "total-places-card",
-    type: "card",
-    grid: { column: 10, row: 3, colSpan: 3, rowSpan: 2 },
-    props: {
-      label: "Ilość miejsc w Polsce",
-      metric: "totalPlaces",
-    },
-  },
-  {
-    id: "secondary-filters",
-    type: "filters",
-    grid: { column: 4, row: 5, colSpan: 9, rowSpan: 2 },
-    props: { variant: "secondary" },
+    id: "results-card",
+    type: "results",
+    grid: { column: 9, row: 4, colSpan: 4, rowSpan: 4 },
   },
   {
     id: "pivot",
     type: "pivot",
-    grid: { column: 1, row: 7, colSpan: 12, rowSpan: 8 },
+    grid: { column: 1, row: 8, colSpan: 12, rowSpan: 8 },
     props: {
-      title: "Szczegółowy próg punktowy i liczba miejsc",
+      title: "Historia progów konkurencyjnych i obsady miejsc",
       config: {
         rows: ["wojewodztwo"],
         columns: ["rekrutacja"],
@@ -155,12 +154,12 @@ export const dashboardLayout: DashboardVisual[] = [
   {
     id: "summary-chart",
     type: "chart",
-    grid: { column: 1, row: 15, colSpan: 12, rowSpan: 5 },
+    grid: { column: 1, row: 16, colSpan: 12, rowSpan: 5 },
   },
   {
     id: "calculator-section-title",
     type: "text",
-    grid: { column: 1, row: 20, colSpan: 12, rowSpan: 1 },
+    grid: { column: 1, row: 21, colSpan: 12, rowSpan: 1 },
     props: {
       text: "Kalkulator punktów rekrutacyjnych i symulacja szans",
       variant: "heading1",
@@ -169,11 +168,16 @@ export const dashboardLayout: DashboardVisual[] = [
   {
     id: "calculator",
     type: "calculator",
-    grid: { column: 1, row: 21, colSpan: 5, rowSpan: 8 },
+    grid: { column: 1, row: 22, colSpan: 7, rowSpan: 12 },
   },
   {
     id: "simulation",
     type: "simulation",
-    grid: { column: 6, row: 21, colSpan: 7, rowSpan: 8 },
+    grid: { column: 8, row: 22, colSpan: 5, rowSpan: 12 },
+  },
+  {
+    id: "how-it-works",
+    type: "howItWorks",
+    grid: { column: 1, row: 34, colSpan: 12, rowSpan: 3 },
   },
 ];

@@ -1,0 +1,980 @@
+dziedzina_medycyny,wojewodztwo,sciezka,egzamin,rundy_z_oferta,rundy_z_obserwowanym_progiem,rundy_z_pelna_pula,udzial_rund_z_pelna_pula,mediana_liczby_miejsc,mediana_liczby_zakwalifikowanych,mediana_progu_pelnych_pul,minimum_progu_pelnych_pul,maksimum_progu_pelnych_pul,grupa_pilotazowa
+Dermatologia i wenerologia,Dolnośląskie,lekarska,LEK,5,5,5,1,3,3,92.75,92.65,92.93,A_stabilny_pilotaz
+Endokrynologia,Mazowieckie,lekarska,LEK,6,6,6,1,4,4,92.7,91.18,93.06,A_stabilny_pilotaz
+Endokrynologia,Śląskie,lekarska,LEK,6,6,6,1,5.5,5.5,91.545,90.34,95.69,A_stabilny_pilotaz
+Dermatologia i wenerologia,Zachodniopomorskie,lekarska,LEK,5,5,5,1,3,3,91.18,89.71,92.38,A_stabilny_pilotaz
+Reumatologia,Śląskie,lekarska,LEK,7,7,7,1,3,3,90.73,88.24,91.63,A_stabilny_pilotaz
+Okulistyka,Wielkopolskie,lekarska,LEK,7,7,6,0.857,4,3,89.66,88.41,91.39,A_stabilny_pilotaz
+Diabetologia,Lubelskie,lekarska,LEK,5,4,4,0.8,3,3,89.185,82.35,89.86,A_stabilny_pilotaz
+Otorynolaryngologia,Śląskie,lekarska,LEK,6,6,5,0.833,4,3,88.97,87.25,91.3,A_stabilny_pilotaz
+Okulistyka,Lubelskie,lekarska,LEK,7,7,5,0.714,4,3,88.52,87.25,89.52,A_stabilny_pilotaz
+Urologia,Śląskie,lekarska,LEK,6,5,5,0.833,4,6,88.41,87.2,90.43,A_stabilny_pilotaz
+Kardiologia,Wielkopolskie,lekarska,LEK,7,7,7,1,8,8,88.24,83.33,91.3,A_stabilny_pilotaz
+Radiologia i diagnostyka obrazowa,Podlaskie,lekarska,LEK,7,7,6,0.857,4,4,88.21,85.78,91.79,A_stabilny_pilotaz
+Urologia,Mazowieckie,lekarska,LEK,7,7,6,0.857,7,7,88.16,85.51,90.82,A_stabilny_pilotaz
+Kardiologia,Pomorskie,lekarska,LEK,7,7,5,0.714,10,10,87.92,85.34,89.27,A_stabilny_pilotaz
+Położnictwo i ginekologia,Mazowieckie,lekarska,LEK,7,7,5,0.714,25,25,87.92,79.41,88.29,A_stabilny_pilotaz
+Okulistyka,Łódzkie,lekarska,LEK,7,7,6,0.857,3,3,87.86,87.14,89.71,A_stabilny_pilotaz
+Radiologia i diagnostyka obrazowa,Zachodniopomorskie,lekarska,LEK,7,7,7,1,5,5,87.8,84.88,89.27,A_stabilny_pilotaz
+Urologia,Wielkopolskie,lekarska,LEK,7,7,5,0.714,3,3,87.8,81.37,88.46,A_stabilny_pilotaz
+Kardiologia,Śląskie,lekarska,LEK,7,7,7,1,5,5,87.75,80.49,90.44,A_stabilny_pilotaz
+Radiologia i diagnostyka obrazowa,Podkarpackie,lekarska,LEK,7,7,6,0.857,6,6,87.62,85.29,88.78,A_stabilny_pilotaz
+Okulistyka,Dolnośląskie,lekarska,LEK,7,7,7,1,5,5,87.56,86.67,89.46,A_stabilny_pilotaz
+Ortodoncja,Małopolskie,stomatologiczna,LDEK,5,5,5,1,3,3,87.44,86.96,87.62,A_stabilny_pilotaz
+Radiologia i diagnostyka obrazowa,Warmińsko-mazurskie,lekarska,LEK,7,7,5,0.714,4,3,87.25,84.63,87.56,A_stabilny_pilotaz
+Urologia,Łódzkie,lekarska,LEK,7,7,7,1,3,3,87.25,85.02,90.24,A_stabilny_pilotaz
+Ortodoncja,Dolnośląskie,stomatologiczna,LDEK,6,6,6,1,5,5,87.17,85.24,89.05,A_stabilny_pilotaz
+Kardiologia,Małopolskie,lekarska,LEK,7,7,6,0.857,11,10,87.105,83.81,89.47,A_stabilny_pilotaz
+Ortodoncja,Mazowieckie,stomatologiczna,LDEK,7,7,7,1,4,4,87.08,86.6,90.38,A_stabilny_pilotaz
+Otorynolaryngologia,Łódzkie,lekarska,LEK,6,6,5,0.833,3.5,3.5,87.01,84.8,90.82,A_stabilny_pilotaz
+Diabetologia,Śląskie,lekarska,LEK,7,7,7,1,4,4,86.83,85.24,89.95,A_stabilny_pilotaz
+Okulistyka,Kujawsko-pomorskie,lekarska,LEK,7,7,7,1,4,4,86.83,85.99,89.23,A_stabilny_pilotaz
+Otorynolaryngologia,Wielkopolskie,lekarska,LEK,7,7,5,0.714,6,6,86.83,84.8,89.52,A_stabilny_pilotaz
+Urologia,Podkarpackie,lekarska,LEK,7,7,6,0.857,4,4,86.805,81.9,91.39,A_stabilny_pilotaz
+Kardiologia,Podkarpackie,lekarska,LEK,7,7,6,0.857,5,5,86.53,84.78,88.57,A_stabilny_pilotaz
+Diabetologia,Łódzkie,lekarska,LEK,7,7,5,0.714,3,3,86.47,79.9,87.56,A_stabilny_pilotaz
+Otorynolaryngologia,Kujawsko-pomorskie,lekarska,LEK,6,6,6,1,3.5,3.5,86.47,85.78,88.05,A_stabilny_pilotaz
+Radiologia i diagnostyka obrazowa,Lubuskie,lekarska,LEK,5,5,5,1,4,4,86.47,84.8,88.41,A_stabilny_pilotaz
+Radiologia i diagnostyka obrazowa,Opolskie,lekarska,LEK,7,7,7,1,3,3,86.47,84.78,88.97,A_stabilny_pilotaz
+Urologia,Pomorskie,lekarska,LEK,7,6,6,0.857,3,4.5,86.365,84.88,90.14,A_stabilny_pilotaz
+Kardiologia,Łódzkie,lekarska,LEK,7,7,5,0.714,12,12,85.37,80.95,89.95,A_stabilny_pilotaz
+Chirurgia stomatologiczna,Dolnośląskie,stomatologiczna,LDEK,5,5,4,0.8,5,4,85.34,82.78,87.98,A_stabilny_pilotaz
+Chirurgia naczyniowa,Śląskie,lekarska,LEK,7,7,6,0.857,3,3,85.085,69.27,88.04,A_stabilny_pilotaz
+Psychiatria dzieci i młodzieży,Łódzkie,lekarska,LEK,7,7,7,1,3,3,85.05,75.98,88.04,A_stabilny_pilotaz
+Ortopedia i traumatologia narządu ruchu,Wielkopolskie,lekarska,LEK,7,7,5,0.714,7,6,84.88,76.9,88.89,A_stabilny_pilotaz
+Chirurgia stomatologiczna,Śląskie,stomatologiczna,LDEK,7,7,6,0.857,3,3,84.695,83.73,87.92,A_stabilny_pilotaz
+Protetyka stomatologiczna,Łódzkie,stomatologiczna,LDEK,5,5,5,1,3,3,84.54,83.73,87.86,A_stabilny_pilotaz
+Anestezjologia i intensywna terapia,Kujawsko-pomorskie,lekarska,LEK,7,7,5,0.714,12,8,83.09,76.56,85.02,A_stabilny_pilotaz
+Kardiologia,Opolskie,lekarska,LEK,7,7,5,0.714,4,4,82.78,77.29,87.08,A_stabilny_pilotaz
+Ortopedia i traumatologia narządu ruchu,Pomorskie,lekarska,LEK,7,7,6,0.857,4,4,82.725,75.61,85.71,A_stabilny_pilotaz
+Choroby płuc,Kujawsko-pomorskie,lekarska,LEK,7,7,7,1,3,3,82.13,68.27,85.02,A_stabilny_pilotaz
+Endokrynologia,Podlaskie,lekarska,LEK,4,4,4,1,1.5,1.5,93.23,91.71,94.2,B_wysoki_prog_mala_pula
+Endokrynologia,Wielkopolskie,lekarska,LEK,5,5,5,1,2,2,92.82,89.86,93.38,B_wysoki_prog_mala_pula
+Chirurgia plastyczna,Łódzkie,lekarska,LEK,4,4,4,1,1,1,92.785,91.18,94.23,B_wysoki_prog_mala_pula
+Dermatologia i wenerologia,Małopolskie,lekarska,LEK,6,6,5,0.833,3,2.5,92.68,90.69,93.78,B_wysoki_prog_mala_pula
+Dermatologia i wenerologia,Lubelskie,lekarska,LEK,5,5,5,1,1,1,92.65,91.22,94.2,B_wysoki_prog_mala_pula
+Endokrynologia,Małopolskie,lekarska,LEK,4,4,4,1,2.5,2.5,92.525,92.34,94.26,B_wysoki_prog_mala_pula
+Endokrynologia,Dolnośląskie,lekarska,LEK,6,6,6,1,1,1,92.215,90.82,95.22,B_wysoki_prog_mala_pula
+Dermatologia i wenerologia,Śląskie,lekarska,LEK,6,6,5,0.833,2,2,92.16,91.3,92.38,B_wysoki_prog_mala_pula
+Endokrynologia,Łódzkie,lekarska,LEK,6,6,6,1,2,2,92.11,90.34,93.3,B_wysoki_prog_mala_pula
+Dermatologia i wenerologia,Łódzkie,lekarska,LEK,6,6,6,1,2.5,2.5,92.03,91.22,93.24,B_wysoki_prog_mala_pula
+Gastroenterologia,Mazowieckie,lekarska,LEK,7,7,7,1,2,2,92.03,88.48,93.78,B_wysoki_prog_mala_pula
+Chirurgia plastyczna,Lubelskie,lekarska,LEK,6,6,6,1,1,1,91.955,89.76,93.3,B_wysoki_prog_mala_pula
+Chirurgia plastyczna,Pomorskie,lekarska,LEK,4,3,3,0.75,1,1,91.91,90.34,92.68,B_wysoki_prog_mala_pula
+Chirurgia plastyczna,Dolnośląskie,lekarska,LEK,4,3,3,0.75,1.5,2,91.79,90.24,94.12,B_wysoki_prog_mala_pula
+Dermatologia i wenerologia,Podkarpackie,lekarska,LEK,7,7,7,1,2,2,91.71,89.71,93,B_wysoki_prog_mala_pula
+Dermatologia i wenerologia,Podlaskie,lekarska,LEK,5,5,5,1,1,1,91.71,90.82,93.72,B_wysoki_prog_mala_pula
+Endokrynologia,Lubelskie,lekarska,LEK,5,5,3,0.6,2,1,91.71,91.3,94.26,B_wysoki_prog_mala_pula
+Dermatologia i wenerologia,Pomorskie,lekarska,LEK,5,5,4,0.8,2,2,91.61,90.2,94.26,B_wysoki_prog_mala_pula
+Endokrynologia,Pomorskie,lekarska,LEK,4,4,4,1,2,2,91.485,91.18,92.38,B_wysoki_prog_mala_pula
+Endokrynologia,Zachodniopomorskie,lekarska,LEK,4,4,4,1,3.5,3.5,91.22,90.1,92.34,B_wysoki_prog_mala_pula
+Chirurgia plastyczna,Zachodniopomorskie,lekarska,LEK,5,5,3,0.6,1,1,91.18,89.71,92.75,B_wysoki_prog_mala_pula
+Reumatologia,Dolnośląskie,lekarska,LEK,7,7,5,0.714,1,1,90.69,89.86,91.18,B_wysoki_prog_mala_pula
+Gastroenterologia,Łódzkie,lekarska,LEK,7,7,6,0.857,1,1,90.65,87.44,94.63,B_wysoki_prog_mala_pula
+Reumatologia,Małopolskie,lekarska,LEK,6,6,6,1,1.5,1.5,90.51,88.41,91.87,B_wysoki_prog_mala_pula
+Endokrynologia i diabetologia dziecięca,Śląskie,lekarska,LEK,7,6,6,0.857,1,1,90.34,87.75,92.34,B_wysoki_prog_mala_pula
+Gastroenterologia,Małopolskie,lekarska,LEK,5,5,5,1,2,2,90.34,89.13,91.67,B_wysoki_prog_mala_pula
+Otorynolaryngologia,Opolskie,lekarska,LEK,4,4,4,1,1,1,90.27,87.01,91.79,B_wysoki_prog_mala_pula
+Reumatologia,Warmińsko-mazurskie,lekarska,LEK,5,5,4,0.8,1,1,90.26,88.73,91.71,B_wysoki_prog_mala_pula
+Gastroenterologia,Śląskie,lekarska,LEK,6,6,6,1,2,2,90.215,87.44,92.34,B_wysoki_prog_mala_pula
+Reumatologia,Łódzkie,lekarska,LEK,7,7,6,0.857,1,1,90.095,88.24,92.03,B_wysoki_prog_mala_pula
+Alergologia,Łódzkie,lekarska,LEK,5,5,3,0.6,3,1,89.86,89.76,90.24,B_wysoki_prog_mala_pula
+Ortodoncja,Lubelskie,stomatologiczna,LDEK,5,5,5,1,1,1,89.86,85.89,90,B_wysoki_prog_mala_pula
+Neurochirurgia,Pomorskie,lekarska,LEK,4,4,3,0.75,3,2.5,89.71,85.29,90.2,B_wysoki_prog_mala_pula
+Alergologia,Mazowieckie,lekarska,LEK,4,4,4,1,1,1,89.495,87.68,91.22,B_wysoki_prog_mala_pula
+Neurochirurgia,Mazowieckie,lekarska,LEK,6,6,5,0.833,2.5,2,89.37,86.83,90.82,B_wysoki_prog_mala_pula
+Okulistyka,Zachodniopomorskie,lekarska,LEK,5,5,4,0.8,2,2,89.3,86.83,89.71,B_wysoki_prog_mala_pula
+Reumatologia,Kujawsko-pomorskie,lekarska,LEK,5,5,4,0.8,2,2,89.295,87.25,91.39,B_wysoki_prog_mala_pula
+Alergologia,Lubelskie,lekarska,LEK,4,3,3,0.75,1,1,89.27,87.25,90.34,B_wysoki_prog_mala_pula
+Gastroenterologia dziecięca,Zachodniopomorskie,lekarska,LEK,5,3,3,0.6,1,1,89.22,82.61,89.52,B_wysoki_prog_mala_pula
+Reumatologia,Pomorskie,lekarska,LEK,6,5,4,0.667,3,4,89.135,88.78,90.24,B_wysoki_prog_mala_pula
+Ortodoncja,Podlaskie,stomatologiczna,LDEK,4,4,4,1,1,1,89.13,86.54,94.02,B_wysoki_prog_mala_pula
+Okulistyka,Podlaskie,lekarska,LEK,6,6,4,0.667,2,1.5,89.05,87.56,91.39,B_wysoki_prog_mala_pula
+Endokrynologia i diabetologia dziecięca,Mazowieckie,lekarska,LEK,6,6,4,0.667,2,1.5,88.945,86.3,93.24,B_wysoki_prog_mala_pula
+Reumatologia,Lubelskie,lekarska,LEK,5,5,5,1,2,2,88.89,86.76,89,B_wysoki_prog_mala_pula
+Reumatologia,Wielkopolskie,lekarska,LEK,6,6,4,0.667,4.5,4,88.835,88.24,89.76,B_wysoki_prog_mala_pula
+Reumatologia,Podkarpackie,lekarska,LEK,6,6,6,1,2.5,2.5,88.815,86.96,91.39,B_wysoki_prog_mala_pula
+Reumatologia,Zachodniopomorskie,lekarska,LEK,7,6,6,0.857,1,1.5,88.715,85.05,91.39,B_wysoki_prog_mala_pula
+Radiologia i diagnostyka obrazowa,Świętokrzyskie,lekarska,LEK,6,6,4,0.667,3,2,88.595,87.8,89.27,B_wysoki_prog_mala_pula
+Psychiatria dzieci i młodzieży,Podlaskie,lekarska,LEK,4,4,4,1,1,1,88.57,84.31,90.69,B_wysoki_prog_mala_pula
+Radiologia i diagnostyka obrazowa,Łódzkie,lekarska,LEK,7,7,6,0.857,3,2,88.57,87.92,91.87,B_wysoki_prog_mala_pula
+Reumatologia,Świętokrzyskie,lekarska,LEK,7,7,6,0.857,2,2,88.535,87.75,92.16,B_wysoki_prog_mala_pula
+Diabetologia,Wielkopolskie,lekarska,LEK,4,4,3,0.75,1,1,88.41,86.03,89.37,B_wysoki_prog_mala_pula
+Gastroenterologia,Zachodniopomorskie,lekarska,LEK,6,6,5,0.833,3,2.5,88.41,85.54,90.43,B_wysoki_prog_mala_pula
+Alergologia,Śląskie,lekarska,LEK,5,5,5,1,1,1,88.24,87.92,90.58,B_wysoki_prog_mala_pula
+Chirurgia naczyniowa,Lubelskie,lekarska,LEK,5,4,3,0.6,1,1,88.24,84.8,88.89,B_wysoki_prog_mala_pula
+Urologia,Dolnośląskie,lekarska,LEK,5,5,5,1,2,2,88.24,84.54,93.14,B_wysoki_prog_mala_pula
+Diabetologia,Dolnośląskie,lekarska,LEK,6,5,4,0.667,1,1,88.085,85.29,90.73,B_wysoki_prog_mala_pula
+Otorynolaryngologia,Pomorskie,lekarska,LEK,7,6,6,0.857,2,2,88.085,85.99,90,B_wysoki_prog_mala_pula
+Otorynolaryngologia,Małopolskie,lekarska,LEK,7,7,6,0.857,2,2,88.08,86.47,91.87,B_wysoki_prog_mala_pula
+Gastroenterologia dziecięca,Mazowieckie,lekarska,LEK,5,5,3,0.6,2,1,87.99,87.56,89.37,B_wysoki_prog_mala_pula
+Neurologia dziecięca,Pomorskie,lekarska,LEK,5,5,5,1,1,1,87.99,87.01,89.61,B_wysoki_prog_mala_pula
+Okulistyka,Opolskie,lekarska,LEK,4,4,4,1,1.5,1.5,87.99,86.19,89.52,B_wysoki_prog_mala_pula
+Okulistyka,Podkarpackie,lekarska,LEK,7,7,7,1,2,2,87.92,87.2,89.71,B_wysoki_prog_mala_pula
+Ortodoncja,Pomorskie,stomatologiczna,LDEK,5,5,5,1,1,1,87.92,86.12,88.46,B_wysoki_prog_mala_pula
+Urologia,Małopolskie,lekarska,LEK,6,6,5,0.833,2.5,2.5,87.92,84.88,90.43,B_wysoki_prog_mala_pula
+Okulistyka,Lubuskie,lekarska,LEK,4,4,4,1,2.5,2.5,87.865,86.83,89.86,B_wysoki_prog_mala_pula
+Alergologia,Wielkopolskie,lekarska,LEK,4,3,3,0.75,1,1,87.8,84.76,88.41,B_wysoki_prog_mala_pula
+Neurochirurgia,Kujawsko-pomorskie,lekarska,LEK,6,5,5,0.833,1,1,87.75,80.19,89,B_wysoki_prog_mala_pula
+Okulistyka,Świętokrzyskie,lekarska,LEK,4,4,3,0.75,2,2,87.75,86.83,89.47,B_wysoki_prog_mala_pula
+Ortodoncja,Wielkopolskie,stomatologiczna,LDEK,6,6,6,1,2,2,87.74,85.51,89.42,B_wysoki_prog_mala_pula
+Urologia,Lubelskie,lekarska,LEK,4,4,4,1,4,4,87.68,85.29,88.73,B_wysoki_prog_mala_pula
+Ortodoncja,Łódzkie,stomatologiczna,LDEK,4,4,4,1,1.5,1.5,87.62,85.51,91.43,B_wysoki_prog_mala_pula
+Kardiologia dziecięca,Śląskie,lekarska,LEK,5,4,3,0.6,1,1.5,87.56,87.44,91.18,B_wysoki_prog_mala_pula
+Alergologia,Małopolskie,lekarska,LEK,6,6,5,0.833,2,2,87.44,86.67,90.19,B_wysoki_prog_mala_pula
+Alergologia,Pomorskie,lekarska,LEK,6,6,5,0.833,2,2,87.44,83.9,87.92,B_wysoki_prog_mala_pula
+Gastroenterologia,Podlaskie,lekarska,LEK,7,7,7,1,2,2,87.44,85.78,90.2,B_wysoki_prog_mala_pula
+Urologia,Kujawsko-pomorskie,lekarska,LEK,5,5,5,1,2,2,87.44,85.29,89.22,B_wysoki_prog_mala_pula
+Otorynolaryngologia,Dolnośląskie,lekarska,LEK,6,5,5,0.833,1.5,2,87.32,86.96,89.23,B_wysoki_prog_mala_pula
+Psychiatria dzieci i młodzieży,Małopolskie,lekarska,LEK,5,5,3,0.6,2,2,87.32,84.54,89.86,B_wysoki_prog_mala_pula
+Diabetologia,Podlaskie,lekarska,LEK,7,6,6,0.857,2,2,87.315,76.33,89.86,B_wysoki_prog_mala_pula
+Psychiatria dzieci i młodzieży,Warmińsko-mazurskie,lekarska,LEK,4,4,4,1,1,1,87.29,81.9,89.47,B_wysoki_prog_mala_pula
+Psychiatria dzieci i młodzieży,Pomorskie,lekarska,LEK,4,4,4,1,2,2,87.26,80.19,88.41,B_wysoki_prog_mala_pula
+Kardiologia,Podlaskie,lekarska,LEK,7,7,7,1,2,2,87.25,82.13,91.79,B_wysoki_prog_mala_pula
+Neurologia dziecięca,Mazowieckie,lekarska,LEK,7,7,5,0.714,3,2,87.07,85.61,90.43,B_wysoki_prog_mala_pula
+Okulistyka,Warmińsko-mazurskie,lekarska,LEK,7,7,5,0.714,3,2,86.96,86.76,87.92,B_wysoki_prog_mala_pula
+Choroby płuc dzieci,Mazowieckie,lekarska,LEK,6,5,4,0.667,1.5,1,86.955,84.54,89.22,B_wysoki_prog_mala_pula
+Neurochirurgia,Śląskie,lekarska,LEK,5,4,4,0.8,1,1.5,86.87,84.15,89.02,B_wysoki_prog_mala_pula
+Reumatologia,Podlaskie,lekarska,LEK,5,5,5,1,1,1,86.83,80.68,89.86,B_wysoki_prog_mala_pula
+Neurochirurgia,Małopolskie,lekarska,LEK,4,4,3,0.75,2,2,86.67,79.47,87.75,B_wysoki_prog_mala_pula
+Otorynolaryngologia,Lubelskie,lekarska,LEK,5,5,4,0.8,2,2,86.62,85.51,87.14,B_wysoki_prog_mala_pula
+Urologia,Świętokrzyskie,lekarska,LEK,4,4,4,1,2,2,86.605,84.54,89,B_wysoki_prog_mala_pula
+Ortodoncja,Śląskie,stomatologiczna,LDEK,7,7,7,1,2,2,86.6,85.65,87.98,B_wysoki_prog_mala_pula
+Chirurgia onkologiczna,Wielkopolskie,lekarska,LEK,7,6,5,0.714,2,2,86.47,84.54,88.05,B_wysoki_prog_mala_pula
+Psychiatria dzieci i młodzieży,Zachodniopomorskie,lekarska,LEK,6,6,6,1,1,1,86.47,83.82,87.44,B_wysoki_prog_mala_pula
+Urologia,Zachodniopomorskie,lekarska,LEK,6,5,5,0.833,1.5,2,86.47,63.48,88.24,B_wysoki_prog_mala_pula
+Otorynolaryngologia,Warmińsko-mazurskie,lekarska,LEK,5,5,4,0.8,2,1,86.405,85.51,88.89,B_wysoki_prog_mala_pula
+Otorynolaryngologia,Świętokrzyskie,lekarska,LEK,5,5,5,1,2,2,86.34,84.76,89.22,B_wysoki_prog_mala_pula
+Otorynolaryngologia,Podlaskie,lekarska,LEK,7,7,7,1,1,1,86.23,80.88,87.92,B_wysoki_prog_mala_pula
+Chirurgia stomatologiczna,Mazowieckie,stomatologiczna,LDEK,7,7,6,0.857,2,2,86.19,85.65,86.96,B_wysoki_prog_mala_pula
+Otorynolaryngologia,Lubuskie,lekarska,LEK,5,5,4,0.8,2,1,86.19,84.06,89.22,B_wysoki_prog_mala_pula
+Diabetologia,Podkarpackie,lekarska,LEK,6,5,4,0.667,1,1,86.17,84.69,87.68,B_wysoki_prog_mala_pula
+Urologia,Lubuskie,lekarska,LEK,6,6,6,1,1,1,86.165,84.8,90.48,B_wysoki_prog_mala_pula
+Urologia,Warmińsko-mazurskie,lekarska,LEK,6,6,4,0.667,2,2,86.11,85.02,87.8,B_wysoki_prog_mala_pula
+Otorynolaryngologia dziecięca,Mazowieckie,lekarska,LEK,7,7,6,0.857,2,2,86.1,83.82,91.87,B_wysoki_prog_mala_pula
+Neurochirurgia,Warmińsko-mazurskie,lekarska,LEK,4,3,3,0.75,2.5,3,85.99,78.05,88.52,B_wysoki_prog_mala_pula
+Chirurgia stomatologiczna,Małopolskie,stomatologiczna,LDEK,5,5,4,0.8,2,2,85.915,84.76,86.67,B_wysoki_prog_mala_pula
+Psychiatria dzieci i młodzieży,Lubelskie,lekarska,LEK,6,6,6,1,1,1,85.89,72.22,87.25,B_wysoki_prog_mala_pula
+Chirurgia stomatologiczna,Łódzkie,stomatologiczna,LDEK,7,7,7,1,2,2,85.71,83.57,86.54,B_wysoki_prog_mala_pula
+Chirurgia stomatologiczna,Wielkopolskie,stomatologiczna,LDEK,4,4,4,1,1,1,85.615,85.02,86.06,B_wysoki_prog_mala_pula
+Neurologia dziecięca,Wielkopolskie,lekarska,LEK,5,4,4,0.8,2,1.5,85.58,79.33,89.71,B_wysoki_prog_mala_pula
+Chirurgia naczyniowa,Wielkopolskie,lekarska,LEK,6,6,5,0.833,1,1,85.51,79.71,89.37,B_wysoki_prog_mala_pula
+Genetyka kliniczna,Dolnośląskie,lekarska,LEK,4,3,3,0.75,1,1,85.51,82.44,86.96,B_wysoki_prog_mala_pula
+Nefrologia,Pomorskie,lekarska,LEK,7,6,5,0.714,2,1,85.51,75.12,91.55,B_wysoki_prog_mala_pula
+Ortodoncja,Zachodniopomorskie,stomatologiczna,LDEK,7,6,5,0.714,2,2.5,85.51,85.24,86.67,B_wysoki_prog_mala_pula
+Urologia,Podlaskie,lekarska,LEK,5,5,5,1,2,2,85.51,84.39,89,B_wysoki_prog_mala_pula
+Otorynolaryngologia,Podkarpackie,lekarska,LEK,5,4,4,0.8,2,2,85.5,85.02,90.82,B_wysoki_prog_mala_pula
+Chirurgia naczyniowa,Mazowieckie,lekarska,LEK,6,5,4,0.667,3,2,85.495,77.88,89.27,B_wysoki_prog_mala_pula
+Periodontologia,Mazowieckie,stomatologiczna,LDEK,4,4,4,1,1.5,1.5,85.495,85.02,86.67,B_wysoki_prog_mala_pula
+Psychiatria dzieci i młodzieży,Wielkopolskie,lekarska,LEK,6,5,4,0.667,4,4,85.495,85.17,87.32,B_wysoki_prog_mala_pula
+Choroby płuc,Pomorskie,lekarska,LEK,7,7,6,0.857,2,2,85.41,69.52,88.52,B_wysoki_prog_mala_pula
+Otorynolaryngologia dziecięca,Wielkopolskie,lekarska,LEK,4,4,4,1,1.5,1.5,85.34,82.61,86.47,B_wysoki_prog_mala_pula
+Chirurgia stomatologiczna,Świętokrzyskie,stomatologiczna,LDEK,6,6,5,0.833,1.5,1.5,85.1,82.86,88.89,B_wysoki_prog_mala_pula
+Kardiologia,Zachodniopomorskie,lekarska,LEK,7,7,5,0.714,3,2,85.02,80.68,88.89,B_wysoki_prog_mala_pula
+Otorynolaryngologia dziecięca,Śląskie,lekarska,LEK,6,5,5,0.833,1.5,2,85.02,84.54,89.52,B_wysoki_prog_mala_pula
+Dermatologia i wenerologia,Wielkopolskie,lekarska,LEK,1,1,1,1,2,2,93.24,93.24,93.24,C_poza_pilotazem
+Chirurgia plastyczna,Kujawsko-pomorskie,lekarska,LEK,2,2,2,1,1,1,93.18,91.67,94.69,C_poza_pilotazem
+Chirurgia plastyczna,Śląskie,lekarska,LEK,1,1,1,1,1,1,92.82,92.82,92.82,C_poza_pilotazem
+Dermatologia i wenerologia,Mazowieckie,lekarska,LEK,6,6,3,0.5,6,5,92.82,92.75,93.17,C_poza_pilotazem
+Endokrynologia,Opolskie,lekarska,LEK,3,3,3,1,1,1,92.82,91.18,94.74,C_poza_pilotazem
+Dermatologia i wenerologia,Świętokrzyskie,lekarska,LEK,3,3,3,1,1,1,92.34,90.82,92.65,C_poza_pilotazem
+Endokrynologia,Podkarpackie,lekarska,LEK,3,3,3,1,1,1,92.34,91.67,94.02,C_poza_pilotazem
+Endokrynologia i diabetologia dziecięca,Podkarpackie,lekarska,LEK,1,1,1,1,1,1,92.34,92.34,92.34,C_poza_pilotazem
+Chirurgia plastyczna,Mazowieckie,lekarska,LEK,1,1,1,1,2,2,92.2,92.2,92.2,C_poza_pilotazem
+Endokrynologia,Świętokrzyskie,lekarska,LEK,3,3,3,1,1,1,92.16,91.79,92.4,C_poza_pilotazem
+Gastroenterologia,Wielkopolskie,lekarska,LEK,3,3,3,1,1,1,91.87,90.82,92.75,C_poza_pilotazem
+Chirurgia plastyczna,Małopolskie,lekarska,LEK,2,2,2,1,1.5,1.5,91.855,89.27,94.44,C_poza_pilotazem
+Gastroenterologia,Opolskie,lekarska,LEK,2,2,2,1,1,1,91.81,90.24,93.38,C_poza_pilotazem
+Dermatologia i wenerologia,Opolskie,lekarska,LEK,3,3,2,0.667,2,1,91.445,91.22,91.67,C_poza_pilotazem
+Endokrynologia i diabetologia dziecięca,Dolnośląskie,lekarska,LEK,1,1,1,1,1,1,91.39,91.39,91.39,C_poza_pilotazem
+Dermatologia i wenerologia,Warmińsko-mazurskie,lekarska,LEK,3,3,3,1,1,1,91.3,90.69,92.68,C_poza_pilotazem
+Hematologia,Opolskie,lekarska,LEK,7,3,1,0.143,2,1,91.18,91.18,91.18,C_poza_pilotazem
+Endokrynologia i diabetologia dziecięca,Wielkopolskie,lekarska,LEK,1,1,1,1,2,2,91.06,91.06,91.06,C_poza_pilotazem
+Reumatologia,Mazowieckie,lekarska,LEK,7,6,4,0.571,6,5,91.055,90.19,92.34,C_poza_pilotazem
+Endokrynologia,Lubuskie,lekarska,LEK,3,3,3,1,1,1,90.98,88.89,91.43,C_poza_pilotazem
+Gastroenterologia,Lubelskie,lekarska,LEK,3,3,3,1,2,2,90.95,85.71,93.66,C_poza_pilotazem
+Gastroenterologia,Dolnośląskie,lekarska,LEK,6,3,3,0.5,1.5,3,90.93,89.22,91.39,C_poza_pilotazem
+Gastroenterologia,Podkarpackie,lekarska,LEK,3,3,3,1,1,1,90.82,90.2,93.3,C_poza_pilotazem
+Endokrynologia,Kujawsko-pomorskie,lekarska,LEK,2,2,2,1,2,2,90.76,90.34,91.18,C_poza_pilotazem
+Gastroenterologia dziecięca,Lubelskie,lekarska,LEK,2,1,1,0.5,1,1,90.73,90.73,90.73,C_poza_pilotazem
+Gastroenterologia,Kujawsko-pomorskie,lekarska,LEK,1,1,1,1,1,1,90.69,90.69,90.69,C_poza_pilotazem
+Endokrynologia,Warmińsko-mazurskie,lekarska,LEK,3,2,2,0.667,1,1,90.465,90.2,90.73,C_poza_pilotazem
+Kardiologia dziecięca,Mazowieckie,lekarska,LEK,3,3,2,0.667,2,2,90.39,90.34,90.44,C_poza_pilotazem
+Kardiochirurgia,Lubelskie,lekarska,LEK,6,2,1,0.167,2.5,1,90.24,90.24,90.24,C_poza_pilotazem
+Okulistyka,Mazowieckie,lekarska,LEK,7,6,2,0.286,8,8,90.225,89.27,91.18,C_poza_pilotazem
+Okulistyka,Małopolskie,lekarska,LEK,7,7,4,0.571,4,3,90.215,87.44,90.69,C_poza_pilotazem
+Endokrynologia i diabetologia dziecięca,Małopolskie,lekarska,LEK,2,2,2,1,3,3,89.805,89.27,90.34,C_poza_pilotazem
+Neurologia dziecięca,Śląskie,lekarska,LEK,6,3,1,0.167,2,1,89.76,89.76,89.76,C_poza_pilotazem
+Gastroenterologia,Pomorskie,lekarska,LEK,2,2,2,1,2.5,2.5,89.735,89.27,90.2,C_poza_pilotazem
+Chirurgia naczyniowa,Podlaskie,lekarska,LEK,1,1,1,1,1,1,89.71,89.71,89.71,C_poza_pilotazem
+Diabetologia,Małopolskie,lekarska,LEK,2,2,2,1,3.5,3.5,89.655,88.97,90.34,C_poza_pilotazem
+Endokrynologia i diabetologia dziecięca,Zachodniopomorskie,lekarska,LEK,3,3,3,1,1,1,89.37,82.13,89.71,C_poza_pilotazem
+Endokrynologia i diabetologia dziecięca,Opolskie,lekarska,LEK,1,1,1,1,2,2,89.37,89.37,89.37,C_poza_pilotazem
+Okulistyka,Pomorskie,lekarska,LEK,6,6,3,0.5,2.5,1.5,89.37,89,89.71,C_poza_pilotazem
+Gastroenterologia,Lubuskie,lekarska,LEK,3,2,2,0.667,1,1,89.32,88.78,89.86,C_poza_pilotazem
+Gastroenterologia dziecięca,Opolskie,lekarska,LEK,1,1,1,1,1,1,89.27,89.27,89.27,C_poza_pilotazem
+Endokrynologia i diabetologia dziecięca,Kujawsko-pomorskie,lekarska,LEK,2,2,2,1,1.5,1.5,89.245,87.8,90.69,C_poza_pilotazem
+Rehabilitacja medyczna,Dolnośląskie,lekarska,LEK,7,7,1,0.143,5,1,89.22,89.22,89.22,C_poza_pilotazem
+Choroby płuc dzieci,Wielkopolskie,lekarska,LEK,4,3,2,0.5,1,1,89.125,88.78,89.47,C_poza_pilotazem
+Endokrynologia i diabetologia dziecięca,Warmińsko-mazurskie,lekarska,LEK,2,2,2,1,1,1,89.055,88.89,89.22,C_poza_pilotazem
+Chirurgia naczyniowa,Małopolskie,lekarska,LEK,3,3,3,1,1,1,89,86.96,92.27,C_poza_pilotazem
+Neurochirurgia,Zachodniopomorskie,lekarska,LEK,3,2,1,0.333,2,1.5,89,89,89,C_poza_pilotazem
+Radiologia i diagnostyka obrazowa,Pomorskie,lekarska,LEK,7,7,4,0.571,7,7,88.955,86.96,89.47,C_poza_pilotazem
+Radiologia i diagnostyka obrazowa,Kujawsko-pomorskie,lekarska,LEK,7,7,4,0.571,5,5,88.935,84.31,91.79,C_poza_pilotazem
+Medycyna nuklearna,Warmińsko-mazurskie,lekarska,LEK,6,3,1,0.167,1.5,1,88.89,88.89,88.89,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Pomorskie,lekarska,LEK,1,1,1,1,1,1,88.89,88.89,88.89,C_poza_pilotazem
+Neurochirurgia,Dolnośląskie,lekarska,LEK,3,2,2,0.667,1,1.5,88.885,86.47,91.3,C_poza_pilotazem
+Gastroenterologia dziecięca,Świętokrzyskie,lekarska,LEK,2,2,2,1,1,1,88.88,88.05,89.71,C_poza_pilotazem
+Alergologia,Dolnośląskie,lekarska,LEK,4,3,2,0.5,2,2,88.795,87.25,90.34,C_poza_pilotazem
+Reumatologia,Opolskie,lekarska,LEK,1,1,1,1,1,1,88.78,88.78,88.78,C_poza_pilotazem
+Neurologia dziecięca,Lubelskie,lekarska,LEK,2,2,2,1,1.5,1.5,88.685,88.24,89.13,C_poza_pilotazem
+Kardiologia,Mazowieckie,lekarska,LEK,7,7,4,0.571,22,22,88.63,87.01,90.34,C_poza_pilotazem
+Genetyka kliniczna,Wielkopolskie,lekarska,LEK,1,1,1,1,1,1,88.57,88.57,88.57,C_poza_pilotazem
+Otorynolaryngologia,Mazowieckie,lekarska,LEK,7,7,4,0.571,9,9,88.56,85.51,90.1,C_poza_pilotazem
+Endokrynologia i diabetologia dziecięca,Lubelskie,lekarska,LEK,3,3,3,1,1,1,88.48,86.27,92.34,C_poza_pilotazem
+Diabetologia,Mazowieckie,lekarska,LEK,7,7,4,0.571,4,4,88.41,84.31,89.95,C_poza_pilotazem
+Neurologia dziecięca,Kujawsko-pomorskie,lekarska,LEK,5,1,1,0.2,1,1,88.41,88.41,88.41,C_poza_pilotazem
+Okulistyka,Śląskie,lekarska,LEK,7,7,3,0.429,9,8,88.41,87.25,89.47,C_poza_pilotazem
+Choroby płuc,Wielkopolskie,lekarska,LEK,7,7,2,0.286,6,4,88.405,87.44,89.37,C_poza_pilotazem
+Choroby zakaźne,Pomorskie,lekarska,LEK,7,6,2,0.286,3,1,88.22,86.83,89.61,C_poza_pilotazem
+Otorynolaryngologia dziecięca,Lubelskie,lekarska,LEK,4,3,2,0.5,2,1,88.21,86.23,90.19,C_poza_pilotazem
+Choroby płuc dzieci,Dolnośląskie,lekarska,LEK,4,3,2,0.5,2,1,88.165,87.44,88.89,C_poza_pilotazem
+Hematologia,Małopolskie,lekarska,LEK,7,6,3,0.429,2,1.5,88.16,84.8,89.86,C_poza_pilotazem
+Urologia,Opolskie,lekarska,LEK,2,2,2,1,2.5,2.5,88.15,86.83,89.47,C_poza_pilotazem
+Chirurgia onkologiczna,Lubelskie,lekarska,LEK,5,2,2,0.4,1,1,88.005,87.25,88.76,C_poza_pilotazem
+Alergologia,Kujawsko-pomorskie,lekarska,LEK,7,5,3,0.429,2,1,87.99,87.92,88.05,C_poza_pilotazem
+Kardiologia,Dolnośląskie,lekarska,LEK,7,7,4,0.571,12,11,87.99,84.39,89,C_poza_pilotazem
+Neurochirurgia,Wielkopolskie,lekarska,LEK,3,3,3,1,1,1,87.99,82.35,89.95,C_poza_pilotazem
+Kardiologia,Świętokrzyskie,lekarska,LEK,7,7,2,0.286,4,4,87.97,86.47,89.47,C_poza_pilotazem
+Otorynolaryngologia dziecięca,Pomorskie,lekarska,LEK,2,2,2,1,2,2,87.925,87.8,88.05,C_poza_pilotazem
+Patomorfologia,Łódzkie,lekarska,LEK,7,5,4,0.571,2,1,87.925,80.98,89.9,C_poza_pilotazem
+Kardiologia dziecięca,Dolnośląskie,lekarska,LEK,1,1,1,1,1,1,87.92,87.92,87.92,C_poza_pilotazem
+Nefrologia,Dolnośląskie,lekarska,LEK,7,6,1,0.143,11,2.5,87.92,87.92,87.92,C_poza_pilotazem
+Neurologia dziecięca,Opolskie,lekarska,LEK,6,5,1,0.167,3,1,87.92,87.92,87.92,C_poza_pilotazem
+Genetyka kliniczna,Mazowieckie,lekarska,LEK,3,2,2,0.667,1,1.5,87.8,87.68,87.92,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Małopolskie,lekarska,LEK,7,7,3,0.429,14,9,87.8,82.85,88.52,C_poza_pilotazem
+Nefrologia,Lubelskie,lekarska,LEK,7,4,2,0.286,2,1,87.76,83.73,91.79,C_poza_pilotazem
+Angiologia,Lubelskie,lekarska,LEK,2,1,1,0.5,1,1,87.75,87.75,87.75,C_poza_pilotazem
+Radiologia i diagnostyka obrazowa,Małopolskie,lekarska,LEK,7,7,3,0.429,7,7,87.75,86.47,88.73,C_poza_pilotazem
+Medycyna sądowa,Śląskie,lekarska,LEK,6,1,1,0.167,1,2,87.68,87.68,87.68,C_poza_pilotazem
+Nefrologia,Opolskie,lekarska,LEK,2,2,1,0.5,3,2.5,87.68,87.68,87.68,C_poza_pilotazem
+Medycyna nuklearna,Dolnośląskie,lekarska,LEK,2,2,2,1,1.5,1.5,87.615,86.71,88.52,C_poza_pilotazem
+Genetyka kliniczna,Łódzkie,lekarska,LEK,6,4,3,0.5,1,1.5,87.44,69.52,91.22,C_poza_pilotazem
+Nefrologia,Mazowieckie,lekarska,LEK,7,7,3,0.429,8,5,87.44,71.71,87.92,C_poza_pilotazem
+Nefrologia dziecięca,Śląskie,lekarska,LEK,6,3,3,0.5,1,1,87.44,84.78,87.8,C_poza_pilotazem
+Neurochirurgia,Łódzkie,lekarska,LEK,3,3,3,1,1,1,87.44,86.96,88.89,C_poza_pilotazem
+Alergologia,Warmińsko-mazurskie,lekarska,LEK,3,2,2,0.667,1,1,87.365,85.02,89.71,C_poza_pilotazem
+Alergologia,Opolskie,lekarska,LEK,3,3,3,1,2,2,87.32,86.52,88.89,C_poza_pilotazem
+Gastroenterologia dziecięca,Warmińsko-mazurskie,lekarska,LEK,5,2,1,0.2,1,1,87.32,87.32,87.32,C_poza_pilotazem
+Nefrologia,Łódzkie,lekarska,LEK,7,6,3,0.429,4,2.5,87.25,78.43,87.44,C_poza_pilotazem
+Kardiologia,Kujawsko-pomorskie,lekarska,LEK,7,7,4,0.571,9,6,87.225,78.54,89,C_poza_pilotazem
+Choroby płuc dzieci,Podlaskie,lekarska,LEK,6,3,2,0.333,1,1,87.2,87.08,87.32,C_poza_pilotazem
+Psychiatria dzieci i młodzieży,Mazowieckie,lekarska,LEK,7,7,4,0.571,13,12,87.165,83.81,88.65,C_poza_pilotazem
+Radiologia i diagnostyka obrazowa,Lubelskie,lekarska,LEK,7,7,3,0.429,7,6,87.14,85.99,88.24,C_poza_pilotazem
+Ortodoncja,Warmińsko-mazurskie,stomatologiczna,LDEK,2,2,2,1,1.5,1.5,87.09,85.24,88.94,C_poza_pilotazem
+Neurologia dziecięca,Dolnośląskie,lekarska,LEK,3,3,3,1,2,2,87.08,86.47,90.73,C_poza_pilotazem
+Ortodoncja,Kujawsko-pomorskie,stomatologiczna,LDEK,1,1,1,1,1,1,87.08,87.08,87.08,C_poza_pilotazem
+Otorynolaryngologia dziecięca,Dolnośląskie,lekarska,LEK,1,1,1,1,1,1,87.08,87.08,87.08,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Mazowieckie,lekarska,LEK,7,7,2,0.286,24,22,87.03,85.17,88.89,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Lubelskie,lekarska,LEK,7,7,3,0.429,6,5,87.01,81.82,88.1,C_poza_pilotazem
+Psychiatria,Mazowieckie,lekarska,LEK,7,7,1,0.143,34,29,87.01,87.01,87.01,C_poza_pilotazem
+Radiologia i diagnostyka obrazowa,Mazowieckie,lekarska,LEK,7,7,1,0.143,11,10,87.01,87.01,87.01,C_poza_pilotazem
+Angiologia,Małopolskie,lekarska,LEK,3,2,1,0.333,2,2,86.96,86.96,86.96,C_poza_pilotazem
+Chirurgia onkologiczna,Opolskie,lekarska,LEK,1,1,1,1,1,1,86.96,86.96,86.96,C_poza_pilotazem
+Gastroenterologia dziecięca,Kujawsko-pomorskie,lekarska,LEK,6,2,1,0.167,3.5,1,86.96,86.96,86.96,C_poza_pilotazem
+Ortodoncja,Opolskie,stomatologiczna,LDEK,2,2,2,1,1.5,1.5,86.905,86.67,87.14,C_poza_pilotazem
+Chirurgia stomatologiczna,Lubelskie,stomatologiczna,LDEK,7,7,3,0.429,4,4,86.89,83.81,88.89,C_poza_pilotazem
+Neurochirurgia,Lubelskie,lekarska,LEK,2,2,2,1,1,1,86.84,82.38,91.3,C_poza_pilotazem
+Endokrynologia i diabetologia dziecięca,Łódzkie,lekarska,LEK,1,1,1,1,1,1,86.83,86.83,86.83,C_poza_pilotazem
+Immunologia kliniczna,Łódzkie,lekarska,LEK,4,2,1,0.25,1,1,86.83,86.83,86.83,C_poza_pilotazem
+Medycyna paliatywna,Podkarpackie,lekarska,LEK,3,1,1,0.333,1,1,86.83,86.83,86.83,C_poza_pilotazem
+Nefrologia,Podkarpackie,lekarska,LEK,6,3,1,0.167,4.5,1,86.83,86.83,86.83,C_poza_pilotazem
+Choroby płuc,Mazowieckie,lekarska,LEK,7,7,3,0.429,5,5,86.71,85.89,88.89,C_poza_pilotazem
+Choroby płuc dzieci,Pomorskie,lekarska,LEK,4,2,2,0.5,2.5,3,86.595,85.75,87.44,C_poza_pilotazem
+Medycyna pracy,Małopolskie,lekarska,LEK,3,3,3,1,1,1,86.59,83.09,89,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Małopolskie,lekarska,LEK,7,7,2,0.286,14,14,86.55,84.21,88.89,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Warmińsko-mazurskie,lekarska,LEK,5,2,2,0.4,1,1,86.515,82.93,90.1,C_poza_pilotazem
+Audiologia i foniatria,Śląskie,lekarska,LEK,3,3,3,1,1,1,86.47,85.02,87.44,C_poza_pilotazem
+Chirurgia dziecięca,Wielkopolskie,lekarska,LEK,6,6,3,0.5,3,2,86.43,85.02,87.68,C_poza_pilotazem
+Nefrologia dziecięca,Łódzkie,lekarska,LEK,6,2,2,0.333,1.5,1.5,86.405,85.85,86.96,C_poza_pilotazem
+Radiologia i diagnostyka obrazowa,Wielkopolskie,lekarska,LEK,7,7,2,0.286,10,9,86.35,85.02,87.68,C_poza_pilotazem
+Angiologia,Podlaskie,lekarska,LEK,2,1,1,0.5,1,1,86.27,86.27,86.27,C_poza_pilotazem
+Angiologia,Dolnośląskie,lekarska,LEK,3,3,3,1,2,2,86.27,67.65,86.96,C_poza_pilotazem
+Gastroenterologia,Warmińsko-mazurskie,lekarska,LEK,1,1,1,1,1,1,86.27,86.27,86.27,C_poza_pilotazem
+Gastroenterologia dziecięca,Małopolskie,lekarska,LEK,2,1,1,0.5,1.5,2,86.27,86.27,86.27,C_poza_pilotazem
+Radiologia i diagnostyka obrazowa,Dolnośląskie,lekarska,LEK,7,7,1,0.143,7,6,86.27,86.27,86.27,C_poza_pilotazem
+Gastroenterologia dziecięca,Pomorskie,lekarska,LEK,2,2,2,1,1.5,1.5,86.245,85.05,87.44,C_poza_pilotazem
+Farmakologia kliniczna,Mazowieckie,lekarska,LEK,2,2,2,1,1,1,86.17,85.02,87.32,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Łódzkie,lekarska,LEK,7,7,3,0.429,14,12,86.12,71.98,88.41,C_poza_pilotazem
+Angiologia,Kujawsko-pomorskie,lekarska,LEK,3,1,1,0.333,1,1,86.03,86.03,86.03,C_poza_pilotazem
+Hematologia,Dolnośląskie,lekarska,LEK,7,5,1,0.143,6,4,86.03,86.03,86.03,C_poza_pilotazem
+Choroby płuc dzieci,Kujawsko-pomorskie,lekarska,LEK,7,2,1,0.143,2,1,85.99,85.99,85.99,C_poza_pilotazem
+Neurologia dziecięca,Podkarpackie,lekarska,LEK,3,2,2,0.667,1,2.5,85.87,83.33,88.41,C_poza_pilotazem
+Nefrologia,Małopolskie,lekarska,LEK,7,5,2,0.286,4,3,85.85,83.9,87.8,C_poza_pilotazem
+Nefrologia,Warmińsko-mazurskie,lekarska,LEK,7,2,1,0.143,1,2,85.85,85.85,85.85,C_poza_pilotazem
+Ortodoncja,Podkarpackie,stomatologiczna,LDEK,2,2,2,1,2.5,2.5,85.85,85.51,86.19,C_poza_pilotazem
+Reumatologia,Lubuskie,lekarska,LEK,3,3,3,1,1,1,85.85,83.33,88.24,C_poza_pilotazem
+Endokrynologia i diabetologia dziecięca,Podlaskie,lekarska,LEK,7,4,2,0.286,1,2.5,85.81,84.06,87.56,C_poza_pilotazem
+Kardiologia,Lubelskie,lekarska,LEK,7,7,4,0.571,7,7,85.805,78.54,87.08,C_poza_pilotazem
+Choroby płuc,Podlaskie,lekarska,LEK,5,4,2,0.4,5,4,85.75,84.06,87.44,C_poza_pilotazem
+Chirurgia onkologiczna,Małopolskie,lekarska,LEK,7,7,3,0.429,2,1,85.71,75.85,87.14,C_poza_pilotazem
+Kardiologia,Lubuskie,lekarska,LEK,7,6,3,0.429,4,3,85.71,82.84,88.57,C_poza_pilotazem
+Chirurgia dziecięca,Zachodniopomorskie,lekarska,LEK,7,5,4,0.571,1,1,85.7,75.36,86.71,C_poza_pilotazem
+Immunologia kliniczna,Małopolskie,lekarska,LEK,2,2,2,1,1,1,85.7,84.15,87.25,C_poza_pilotazem
+Choroby płuc,Łódzkie,lekarska,LEK,7,7,3,0.429,3,2,85.65,80.88,85.78,C_poza_pilotazem
+Choroby płuc,Śląskie,lekarska,LEK,7,7,3,0.429,7,6,85.65,79.71,86.6,C_poza_pilotazem
+Radiologia i diagnostyka obrazowa,Śląskie,lekarska,LEK,7,7,2,0.286,12,10,85.63,85.27,85.99,C_poza_pilotazem
+Geriatria,Łódzkie,lekarska,LEK,7,3,2,0.286,2,1,85.625,83.33,87.92,C_poza_pilotazem
+Angiologia,Pomorskie,lekarska,LEK,3,1,1,0.333,1,1,85.51,85.51,85.51,C_poza_pilotazem
+Medycyna nuklearna,Podlaskie,lekarska,LEK,4,1,1,0.25,1,1,85.37,85.37,85.37,C_poza_pilotazem
+Pediatria,Wielkopolskie,lekarska,LEK,7,7,3,0.429,10,10,85.37,75.98,85.61,C_poza_pilotazem
+Protetyka stomatologiczna,Mazowieckie,stomatologiczna,LDEK,7,7,4,0.571,3,3,85.34,82.86,85.58,C_poza_pilotazem
+Medycyna pracy,Dolnośląskie,lekarska,LEK,4,2,2,0.5,1,1.5,85.295,79.41,91.18,C_poza_pilotazem
+Alergologia,Świętokrzyskie,lekarska,LEK,3,3,3,1,3,3,85.29,81.43,86.27,C_poza_pilotazem
+Położnictwo i ginekologia,Opolskie,lekarska,LEK,7,6,1,0.143,5,2.5,85.29,85.29,85.29,C_poza_pilotazem
+Chirurgia dziecięca,Śląskie,lekarska,LEK,7,6,3,0.429,3,2.5,85.27,83.17,86.47,C_poza_pilotazem
+Chirurgia stomatologiczna,Podlaskie,stomatologiczna,LDEK,3,3,3,1,2,2,85.24,83.82,87.92,C_poza_pilotazem
+Kardiologia dziecięca,Łódzkie,lekarska,LEK,7,5,4,0.571,2,2,85.23,83.09,87.68,C_poza_pilotazem
+Periodontologia,Łódzkie,stomatologiczna,LDEK,2,2,2,1,2,2,85.17,84.76,85.58,C_poza_pilotazem
+Kardiologia dziecięca,Wielkopolskie,lekarska,LEK,3,2,1,0.333,3,2,85.12,85.12,85.12,C_poza_pilotazem
+Choroby płuc dzieci,Lubelskie,lekarska,LEK,2,2,2,1,1,1,85.05,80.88,89.22,C_poza_pilotazem
+Nefrologia dziecięca,Warmińsko-mazurskie,lekarska,LEK,5,2,2,0.4,1,1.5,85.045,84.31,85.78,C_poza_pilotazem
+Chirurgia klatki piersiowej,Kujawsko-pomorskie,lekarska,LEK,4,2,2,0.5,1,1,85.025,82.13,87.92,C_poza_pilotazem
+Chirurgia onkologiczna,Kujawsko-pomorskie,lekarska,LEK,7,3,1,0.143,3,2,85.02,85.02,85.02,C_poza_pilotazem
+Onkologia kliniczna,Małopolskie,lekarska,LEK,7,6,1,0.143,10,2,85.02,85.02,85.02,C_poza_pilotazem
+Otorynolaryngologia,Zachodniopomorskie,lekarska,LEK,3,2,2,0.667,1,1,85.02,83.57,86.47,C_poza_pilotazem
+Chirurgia naczyniowa,Lubuskie,lekarska,LEK,5,4,2,0.4,2,1.5,84.955,82.35,87.56,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Wielkopolskie,lekarska,LEK,7,7,4,0.571,10,10,84.95,74.15,86.6,C_poza_pilotazem
+Angiologia,Wielkopolskie,lekarska,LEK,5,1,1,0.2,1,1,84.88,84.88,84.88,C_poza_pilotazem
+Hematologia,Wielkopolskie,lekarska,LEK,7,4,3,0.429,3,2,84.88,84.78,85.99,C_poza_pilotazem
+Neurologia,Łódzkie,lekarska,LEK,7,7,3,0.429,9,7,84.8,80.39,86.76,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Świętokrzyskie,lekarska,LEK,7,6,2,0.286,7,2,84.8,83.89,85.71,C_poza_pilotazem
+Pediatria,Śląskie,lekarska,LEK,7,7,1,0.143,28,11,84.8,84.8,84.8,C_poza_pilotazem
+Otorynolaryngologia dziecięca,Łódzkie,lekarska,LEK,6,5,4,0.667,2,2,84.775,75.36,88.48,C_poza_pilotazem
+Chirurgia stomatologiczna,Kujawsko-pomorskie,stomatologiczna,LDEK,5,5,5,1,2,2,84.76,84.13,86.19,C_poza_pilotazem
+Psychiatria,Pomorskie,lekarska,LEK,7,7,3,0.429,15,15,84.76,80.19,85.27,C_poza_pilotazem
+Protetyka stomatologiczna,Małopolskie,stomatologiczna,LDEK,7,6,4,0.571,2,2,84.725,81.64,85.58,C_poza_pilotazem
+Chirurgia naczyniowa,Pomorskie,lekarska,LEK,3,3,3,1,1,1,84.69,80.88,85.29,C_poza_pilotazem
+Chirurgia stomatologiczna,Zachodniopomorskie,stomatologiczna,LDEK,2,1,1,0.5,1,1,84.69,84.69,84.69,C_poza_pilotazem
+Hematologia,Podkarpackie,lekarska,LEK,7,3,1,0.143,3,3,84.69,84.69,84.69,C_poza_pilotazem
+Neurologia,Podlaskie,lekarska,LEK,7,5,1,0.143,12,5,84.69,84.69,84.69,C_poza_pilotazem
+Położnictwo i ginekologia,Łódzkie,lekarska,LEK,7,7,4,0.571,15,11,84.685,77.8,89.37,C_poza_pilotazem
+Gastroenterologia dziecięca,Śląskie,lekarska,LEK,3,2,2,0.667,1,1,84.635,79.9,89.37,C_poza_pilotazem
+Choroby płuc dzieci,Warmińsko-mazurskie,lekarska,LEK,1,1,1,1,1,1,84.54,84.54,84.54,C_poza_pilotazem
+Diabetologia,Warmińsko-mazurskie,lekarska,LEK,7,6,5,0.714,1,1,84.52,80.68,88.76,C_poza_pilotazem
+Chirurgia stomatologiczna,Opolskie,stomatologiczna,LDEK,2,2,2,1,1,1,84.415,84.29,84.54,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Pomorskie,lekarska,LEK,7,7,2,0.286,7,6,84.41,82.11,86.71,C_poza_pilotazem
+Pediatria,Lubuskie,lekarska,LEK,7,6,1,0.143,9,3.5,84.39,84.39,84.39,C_poza_pilotazem
+Hematologia,Łódzkie,lekarska,LEK,7,4,2,0.286,4,4,84.36,83.01,85.71,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Śląskie,lekarska,LEK,7,7,4,0.571,8,8,84.34,83.57,86.34,C_poza_pilotazem
+Geriatria,Podkarpackie,lekarska,LEK,7,4,1,0.143,4,1.5,84.31,84.31,84.31,C_poza_pilotazem
+Immunologia kliniczna,Świętokrzyskie,lekarska,LEK,1,1,1,1,1,1,84.31,84.31,84.31,C_poza_pilotazem
+Kardiochirurgia,Lubuskie,lekarska,LEK,5,2,1,0.2,1,1,84.31,84.31,84.31,C_poza_pilotazem
+Kardiochirurgia,Pomorskie,lekarska,LEK,6,6,5,0.833,1,1,84.31,71.71,90.58,C_poza_pilotazem
+Periodontologia,Podlaskie,stomatologiczna,LDEK,3,3,3,1,1,1,84.29,83.82,84.76,C_poza_pilotazem
+Psychiatria,Wielkopolskie,lekarska,LEK,7,7,4,0.571,15,15,84.255,77.07,88.04,C_poza_pilotazem
+Periodontologia,Podkarpackie,stomatologiczna,LDEK,3,3,3,1,1,1,84.21,81.55,84.78,C_poza_pilotazem
+Periodontologia,Kujawsko-pomorskie,stomatologiczna,LDEK,2,2,2,1,1,1,84.175,84.06,84.29,C_poza_pilotazem
+Chirurgia stomatologiczna,Pomorskie,stomatologiczna,LDEK,3,3,3,1,2,2,84.13,82.78,87.5,C_poza_pilotazem
+Periodontologia,Pomorskie,stomatologiczna,LDEK,3,3,3,1,1,1,84.13,81.82,84.95,C_poza_pilotazem
+Chirurgia onkologiczna,Mazowieckie,lekarska,LEK,7,6,1,0.143,9,5.5,84.06,84.06,84.06,C_poza_pilotazem
+Neurologia,Dolnośląskie,lekarska,LEK,7,7,3,0.429,10,8,84.06,56.86,87.92,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Lubelskie,lekarska,LEK,7,7,1,0.143,9,4,84.06,84.06,84.06,C_poza_pilotazem
+Protetyka stomatologiczna,Wielkopolskie,stomatologiczna,LDEK,3,3,1,0.333,2,2,84.06,84.06,84.06,C_poza_pilotazem
+Chirurgia stomatologiczna,Podkarpackie,stomatologiczna,LDEK,2,2,1,0.5,2.5,2,84.05,84.05,84.05,C_poza_pilotazem
+Neurologia dziecięca,Małopolskie,lekarska,LEK,3,3,2,0.667,3,3,83.985,81.37,86.6,C_poza_pilotazem
+Stomatologia dziecięca,Mazowieckie,stomatologiczna,LDEK,7,7,3,0.429,6,4,83.98,83.17,84.13,C_poza_pilotazem
+Periodontologia,Śląskie,stomatologiczna,LDEK,3,3,3,1,2,2,83.97,83.57,84.06,C_poza_pilotazem
+Medycyna nuklearna,Łódzkie,lekarska,LEK,7,4,3,0.429,1,1,83.9,57.28,84.63,C_poza_pilotazem
+Choroby płuc,Podkarpackie,lekarska,LEK,5,4,4,0.8,2,2,83.86,71.43,88.89,C_poza_pilotazem
+Chirurgia onkologiczna,Lubuskie,lekarska,LEK,7,1,1,0.143,2,1,83.82,83.82,83.82,C_poza_pilotazem
+Choroby zakaźne,Lubuskie,lekarska,LEK,5,1,1,0.2,1,1,83.82,83.82,83.82,C_poza_pilotazem
+Nefrologia dziecięca,Małopolskie,lekarska,LEK,3,1,1,0.333,2,1,83.81,83.81,83.81,C_poza_pilotazem
+Periodontologia,Warmińsko-mazurskie,stomatologiczna,LDEK,3,3,3,1,2,2,83.81,79.23,84.06,C_poza_pilotazem
+Radioterapia onkologiczna,Pomorskie,lekarska,LEK,6,4,2,0.333,2.5,1.5,83.795,82.35,85.24,C_poza_pilotazem
+Chirurgia onkologiczna,Śląskie,lekarska,LEK,7,5,2,0.286,4,2,83.765,81.34,86.19,C_poza_pilotazem
+Położnictwo i ginekologia,Śląskie,lekarska,LEK,7,7,2,0.286,20,13,83.76,81.16,86.36,C_poza_pilotazem
+Stomatologia dziecięca,Lubelskie,stomatologiczna,LDEK,1,1,1,1,1,1,83.74,83.74,83.74,C_poza_pilotazem
+Chirurgia onkologiczna,Podlaskie,lekarska,LEK,2,1,1,0.5,1.5,2,83.73,83.73,83.73,C_poza_pilotazem
+Periodontologia,Małopolskie,stomatologiczna,LDEK,6,6,3,0.5,2.5,2,83.73,82.86,85.71,C_poza_pilotazem
+Protetyka stomatologiczna,Pomorskie,stomatologiczna,LDEK,5,5,5,1,2,2,83.73,82.85,85.24,C_poza_pilotazem
+Psychiatria dzieci i młodzieży,Kujawsko-pomorskie,lekarska,LEK,6,5,3,0.5,2.5,2,83.73,83.57,87.92,C_poza_pilotazem
+Psychiatria,Kujawsko-pomorskie,lekarska,LEK,7,7,2,0.286,12,7,83.725,81.46,85.99,C_poza_pilotazem
+Chirurgia stomatologiczna,Warmińsko-mazurskie,stomatologiczna,LDEK,7,6,6,0.857,1,1.5,83.695,82.62,84.62,C_poza_pilotazem
+Medycyna pracy,Podkarpackie,lekarska,LEK,3,2,2,0.667,1,1,83.685,82.61,84.76,C_poza_pilotazem
+Chirurgia dziecięca,Pomorskie,lekarska,LEK,6,5,2,0.333,4,4,83.655,83.25,84.06,C_poza_pilotazem
+Periodontologia,Lubelskie,stomatologiczna,LDEK,4,4,4,1,2,2,83.655,79.05,84.47,C_poza_pilotazem
+Periodontologia,Dolnośląskie,stomatologiczna,LDEK,7,7,5,0.714,1,1,83.65,82.86,84.95,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Dolnośląskie,lekarska,LEK,7,7,4,0.571,10,10,83.645,62.8,87.44,C_poza_pilotazem
+Choroby zakaźne,Dolnośląskie,lekarska,LEK,7,7,2,0.286,3,2,83.59,80.95,86.23,C_poza_pilotazem
+Chirurgia naczyniowa,Łódzkie,lekarska,LEK,1,1,1,1,1,1,83.58,83.58,83.58,C_poza_pilotazem
+Chirurgia dziecięca,Lubelskie,lekarska,LEK,5,2,1,0.2,1,1.5,83.57,83.57,83.57,C_poza_pilotazem
+Chirurgia onkologiczna,Pomorskie,lekarska,LEK,6,6,1,0.167,3,1.5,83.57,83.57,83.57,C_poza_pilotazem
+Chirurgia stomatologiczna,Lubuskie,stomatologiczna,LDEK,1,1,1,1,1,1,83.57,83.57,83.57,C_poza_pilotazem
+Kardiologia dziecięca,Małopolskie,lekarska,LEK,6,4,3,0.5,1.5,1,83.57,75.73,89.02,C_poza_pilotazem
+Położnictwo i ginekologia,Lubelskie,lekarska,LEK,7,7,3,0.429,7,7,83.57,80.19,87.32,C_poza_pilotazem
+Psychiatria dzieci i młodzieży,Podkarpackie,lekarska,LEK,5,5,5,1,2,2,83.57,73.04,92.16,C_poza_pilotazem
+Toksykologia kliniczna,Łódzkie,lekarska,LEK,3,1,1,0.333,1,1,83.57,83.57,83.57,C_poza_pilotazem
+Chirurgia klatki piersiowej,Wielkopolskie,lekarska,LEK,6,3,1,0.167,1.5,1,83.41,83.41,83.41,C_poza_pilotazem
+Neurologia dziecięca,Łódzkie,lekarska,LEK,3,3,3,1,1,1,83.41,78.43,89.23,C_poza_pilotazem
+Psychiatria,Łódzkie,lekarska,LEK,7,7,3,0.429,12,12,83.41,71.29,85.78,C_poza_pilotazem
+Diabetologia,Opolskie,lekarska,LEK,3,2,2,0.667,1,1.5,83.39,78.54,88.24,C_poza_pilotazem
+Genetyka kliniczna,Zachodniopomorskie,lekarska,LEK,5,3,2,0.4,1,1,83.38,81.64,85.12,C_poza_pilotazem
+Psychiatria dzieci i młodzieży,Śląskie,lekarska,LEK,7,7,4,0.571,4,3,83.375,78.74,88.65,C_poza_pilotazem
+Chirurgia naczyniowa,Podkarpackie,lekarska,LEK,4,4,4,1,1.5,1.5,83.35,78.43,90.82,C_poza_pilotazem
+Otorynolaryngologia dziecięca,Kujawsko-pomorskie,lekarska,LEK,2,2,2,1,1.5,1.5,83.335,82.61,84.06,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Śląskie,lekarska,LEK,7,7,3,0.429,20,15,83.33,77.62,88.41,C_poza_pilotazem
+Pediatria,Dolnośląskie,lekarska,LEK,7,7,3,0.429,18,15,83.33,71.9,85.29,C_poza_pilotazem
+Diabetologia,Zachodniopomorskie,lekarska,LEK,5,4,2,0.4,3,3.5,83.275,79.71,86.84,C_poza_pilotazem
+Neurologia,Mazowieckie,lekarska,LEK,7,7,2,0.286,19,16,83.26,82.13,84.39,C_poza_pilotazem
+Diabetologia,Lubuskie,lekarska,LEK,3,2,2,0.667,1,1.5,83.25,82.44,84.06,C_poza_pilotazem
+Nefrologia dziecięca,Lubelskie,lekarska,LEK,7,5,5,0.714,1,1,83.25,80.19,89.02,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Łódzkie,lekarska,LEK,7,7,4,0.571,7,4,83.235,54.29,87.08,C_poza_pilotazem
+Psychiatria dzieci i młodzieży,Dolnośląskie,lekarska,LEK,7,7,4,0.571,5,4,83.22,76.96,88.24,C_poza_pilotazem
+Kardiochirurgia,Dolnośląskie,lekarska,LEK,7,3,2,0.286,2,1,83.215,82.86,83.57,C_poza_pilotazem
+Neurochirurgia,Świętokrzyskie,lekarska,LEK,2,2,2,1,1,1,83.205,82.35,84.06,C_poza_pilotazem
+Choroby wewnętrzne,Kujawsko-pomorskie,lekarska,LEK,7,7,1,0.143,24,2,83.17,83.17,83.17,C_poza_pilotazem
+Stomatologia dziecięca,Łódzkie,stomatologiczna,LDEK,5,5,5,1,1,1,83.17,82.13,86.19,C_poza_pilotazem
+Kardiologia dziecięca,Pomorskie,lekarska,LEK,2,1,1,0.5,2,2,83.09,83.09,83.09,C_poza_pilotazem
+Neurologia,Pomorskie,lekarska,LEK,7,7,1,0.143,10,5,83.09,83.09,83.09,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Kujawsko-pomorskie,lekarska,LEK,7,7,3,0.429,7,4,83.09,82.93,84.54,C_poza_pilotazem
+Stomatologia dziecięca,Podlaskie,stomatologiczna,LDEK,5,4,3,0.6,2,1.5,83.09,79.33,83.17,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Podlaskie,lekarska,LEK,7,6,2,0.286,9,8,83.03,81.43,84.63,C_poza_pilotazem
+Medycyna morska i tropikalna,Wielkopolskie,lekarska,LEK,3,2,2,0.667,1,1.5,82.965,82.6,83.33,C_poza_pilotazem
+Medycyna sportowa,Lubelskie,lekarska,LEK,3,2,2,0.667,1,1,82.94,79.41,86.47,C_poza_pilotazem
+Nefrologia,Lubuskie,lekarska,LEK,7,3,1,0.143,3,1,82.93,82.93,82.93,C_poza_pilotazem
+Radioterapia onkologiczna,Świętokrzyskie,lekarska,LEK,7,1,1,0.143,2,2,82.93,82.93,82.93,C_poza_pilotazem
+Chirurgia dziecięca,Mazowieckie,lekarska,LEK,7,7,4,0.571,5,3,82.905,80.77,89.86,C_poza_pilotazem
+Psychiatria,Dolnośląskie,lekarska,LEK,7,7,2,0.286,13,13,82.865,79.02,86.71,C_poza_pilotazem
+Periodontologia,Wielkopolskie,stomatologiczna,LDEK,7,6,5,0.714,1,1,82.86,82.13,85.58,C_poza_pilotazem
+Protetyka stomatologiczna,Lubelskie,stomatologiczna,LDEK,1,1,1,1,1,1,82.86,82.86,82.86,C_poza_pilotazem
+Medycyna pracy,Zachodniopomorskie,lekarska,LEK,2,1,1,0.5,1,1,82.84,82.84,82.84,C_poza_pilotazem
+Neurologia,Podkarpackie,lekarska,LEK,7,7,1,0.143,28,7,82.84,82.84,82.84,C_poza_pilotazem
+Diabetologia,Kujawsko-pomorskie,lekarska,LEK,4,3,3,0.75,1.5,2,82.78,81.16,88.24,C_poza_pilotazem
+Położnictwo i ginekologia,Podkarpackie,lekarska,LEK,7,7,1,0.143,11,5,82.78,82.78,82.78,C_poza_pilotazem
+Kardiologia dziecięca,Zachodniopomorskie,lekarska,LEK,2,2,2,1,1,1,82.77,82.61,82.93,C_poza_pilotazem
+Psychiatria dzieci i młodzieży,Opolskie,lekarska,LEK,2,2,2,1,1.5,1.5,82.735,76.1,89.37,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Łódzkie,stomatologiczna,LDEK,4,4,4,1,2,2,82.66,81.07,83.09,C_poza_pilotazem
+Położnictwo i ginekologia,Wielkopolskie,lekarska,LEK,7,7,2,0.286,15,11,82.625,79.02,86.23,C_poza_pilotazem
+Immunologia kliniczna,Pomorskie,lekarska,LEK,4,2,1,0.25,1.5,1,82.62,82.62,82.62,C_poza_pilotazem
+Toksykologia kliniczna,Śląskie,lekarska,LEK,2,2,2,1,1,1,82.61,76.33,88.89,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Opolskie,lekarska,LEK,7,7,2,0.286,4,2,82.575,82.54,82.61,C_poza_pilotazem
+Stomatologia dziecięca,Małopolskie,stomatologiczna,LDEK,7,7,4,0.571,2,2,82.57,79.33,86.06,C_poza_pilotazem
+Medycyna paliatywna,Lubelskie,lekarska,LEK,7,1,1,0.143,1,1,82.44,82.44,82.44,C_poza_pilotazem
+Chirurgia naczyniowa,Dolnośląskie,lekarska,LEK,4,3,2,0.5,1,1,82.39,77.7,87.08,C_poza_pilotazem
+Diabetologia,Świętokrzyskie,lekarska,LEK,3,3,3,1,1,1,82.38,81.43,84.39,C_poza_pilotazem
+Protetyka stomatologiczna,Dolnośląskie,stomatologiczna,LDEK,6,6,5,0.833,2,1.5,82.38,79.9,85.75,C_poza_pilotazem
+Protetyka stomatologiczna,Świętokrzyskie,stomatologiczna,LDEK,2,2,2,1,1,1,82.335,81.34,83.33,C_poza_pilotazem
+Psychiatria,Małopolskie,lekarska,LEK,7,7,1,0.143,15,13,82.3,82.3,82.3,C_poza_pilotazem
+Kardiochirurgia,Małopolskie,lekarska,LEK,7,4,2,0.286,2,1.5,82.25,80.29,84.21,C_poza_pilotazem
+Choroby płuc,Świętokrzyskie,lekarska,LEK,6,5,4,0.667,2.5,3,82.235,80.88,88.65,C_poza_pilotazem
+Audiologia i foniatria,Opolskie,lekarska,LEK,1,1,1,1,2,2,82.13,82.13,82.13,C_poza_pilotazem
+Medycyna nuklearna,Pomorskie,lekarska,LEK,4,3,3,0.75,2.5,1,82.13,79.52,83.57,C_poza_pilotazem
+Medycyna nuklearna,Wielkopolskie,lekarska,LEK,5,3,3,0.6,1,1,82.13,73.08,82.61,C_poza_pilotazem
+Kardiochirurgia,Śląskie,lekarska,LEK,7,6,1,0.143,8,1,82.06,82.06,82.06,C_poza_pilotazem
+Audiologia i foniatria,Mazowieckie,lekarska,LEK,4,3,2,0.5,1,1,82.04,81.95,82.13,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Mazowieckie,lekarska,LEK,4,3,2,0.5,1.5,1,82.03,80,84.06,C_poza_pilotazem
+Hematologia,Śląskie,lekarska,LEK,7,5,3,0.429,5,5,81.9,77.94,81.9,C_poza_pilotazem
+Choroby płuc,Lubelskie,lekarska,LEK,7,7,6,0.857,2,2,81.885,66.67,90.34,C_poza_pilotazem
+Chirurgia dziecięca,Dolnośląskie,lekarska,LEK,7,6,3,0.429,5,2,81.88,80.19,84.29,C_poza_pilotazem
+Gastroenterologia dziecięca,Dolnośląskie,lekarska,LEK,3,3,3,1,1,1,81.88,80.68,85.29,C_poza_pilotazem
+Kardiochirurgia,Wielkopolskie,lekarska,LEK,6,5,3,0.5,2.5,2,81.88,69.57,83.41,C_poza_pilotazem
+Położnictwo i ginekologia,Pomorskie,lekarska,LEK,7,7,4,0.571,7,6,81.875,79.9,86.27,C_poza_pilotazem
+Stomatologia dziecięca,Zachodniopomorskie,stomatologiczna,LDEK,4,3,2,0.5,1.5,2,81.865,80.48,83.25,C_poza_pilotazem
+Chirurgia dziecięca,Podlaskie,lekarska,LEK,5,1,1,0.2,1,1,81.86,81.86,81.86,C_poza_pilotazem
+Kardiochirurgia,Opolskie,lekarska,LEK,6,1,1,0.167,1.5,1,81.82,81.82,81.82,C_poza_pilotazem
+Choroby płuc,Warmińsko-mazurskie,lekarska,LEK,6,4,4,0.667,1,1.5,81.775,66.67,87.56,C_poza_pilotazem
+Neurologia dziecięca,Lubuskie,lekarska,LEK,1,1,1,1,1,1,81.64,81.64,81.64,C_poza_pilotazem
+Kardiochirurgia,Mazowieckie,lekarska,LEK,7,6,2,0.286,3,2,81.585,75.49,87.68,C_poza_pilotazem
+Chirurgia naczyniowa,Kujawsko-pomorskie,lekarska,LEK,3,2,2,0.667,1,1,81.495,79.9,83.09,C_poza_pilotazem
+Medycyna paliatywna,Małopolskie,lekarska,LEK,5,1,1,0.2,1,1,81.46,81.46,81.46,C_poza_pilotazem
+Choroby płuc dzieci,Podkarpackie,lekarska,LEK,5,3,2,0.4,1,1,81.45,73.04,89.86,C_poza_pilotazem
+Protetyka stomatologiczna,Podkarpackie,stomatologiczna,LDEK,2,2,2,1,1,1,81.43,80.48,82.38,C_poza_pilotazem
+Alergologia,Zachodniopomorskie,lekarska,LEK,2,2,2,1,1,1,81.41,77.94,84.88,C_poza_pilotazem
+Chirurgia naczyniowa,Warmińsko-mazurskie,lekarska,LEK,4,4,4,1,1,1,81.385,70.81,86.47,C_poza_pilotazem
+Medycyna pracy,Kujawsko-pomorskie,lekarska,LEK,6,5,3,0.5,1.5,1,81.37,53.62,86.96,C_poza_pilotazem
+Protetyka stomatologiczna,Kujawsko-pomorskie,stomatologiczna,LDEK,6,6,4,0.667,2.5,2,81.37,80,83.17,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Podlaskie,lekarska,LEK,7,7,4,0.571,4,2,81.36,73.91,86.6,C_poza_pilotazem
+Protetyka stomatologiczna,Śląskie,stomatologiczna,LDEK,7,7,4,0.571,3,3,81.295,80.71,84.76,C_poza_pilotazem
+Choroby płuc,Opolskie,lekarska,LEK,7,4,2,0.286,4,3.5,81.28,80.68,81.88,C_poza_pilotazem
+Medycyna ratunkowa,Kujawsko-pomorskie,lekarska,LEK,7,3,1,0.143,10,2,81.16,81.16,81.16,C_poza_pilotazem
+Neurochirurgia,Opolskie,lekarska,LEK,4,3,3,0.75,1.5,2,81.16,79.27,89.47,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Mazowieckie,stomatologiczna,LDEK,7,7,2,0.286,3,3,81.145,80.86,81.43,C_poza_pilotazem
+Chirurgia naczyniowa,Świętokrzyskie,lekarska,LEK,7,3,2,0.286,2,3,81.125,79.9,82.35,C_poza_pilotazem
+Periodontologia,Zachodniopomorskie,stomatologiczna,LDEK,3,3,2,0.667,1,1,81.115,80.68,81.55,C_poza_pilotazem
+Neurologia,Wielkopolskie,lekarska,LEK,7,7,4,0.571,10,8,81.065,77.56,85.89,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Zachodniopomorskie,stomatologiczna,LDEK,3,3,3,1,2,2,80.95,80.68,82.86,C_poza_pilotazem
+Otorynolaryngologia dziecięca,Zachodniopomorskie,lekarska,LEK,2,2,2,1,1,1,80.945,79.76,82.13,C_poza_pilotazem
+Chirurgia naczyniowa,Opolskie,lekarska,LEK,3,2,1,0.333,1,1,80.88,80.88,80.88,C_poza_pilotazem
+Pediatria,Podkarpackie,lekarska,LEK,7,6,1,0.143,17,7.5,80.88,80.88,80.88,C_poza_pilotazem
+Audiologia i foniatria,Dolnośląskie,lekarska,LEK,3,3,3,1,1,1,80.68,74.4,89.05,C_poza_pilotazem
+Medycyna sportowa,Mazowieckie,lekarska,LEK,4,3,3,0.75,1,1,80.68,78.64,80.92,C_poza_pilotazem
+Neurochirurgia,Podkarpackie,lekarska,LEK,4,3,3,0.75,1,1,80.68,72.46,87.92,C_poza_pilotazem
+Chirurgia klatki piersiowej,Lubuskie,lekarska,LEK,1,1,1,1,1,1,80.49,80.49,80.49,C_poza_pilotazem
+Gastroenterologia dziecięca,Łódzkie,lekarska,LEK,6,1,1,0.167,1.5,2,80.49,80.49,80.49,C_poza_pilotazem
+Neonatologia,Podkarpackie,lekarska,LEK,6,6,1,0.167,4.5,2,80.49,80.49,80.49,C_poza_pilotazem
+Nefrologia,Zachodniopomorskie,lekarska,LEK,7,3,3,0.429,2,1,80.48,74.4,82.13,C_poza_pilotazem
+Neurochirurgia,Podlaskie,lekarska,LEK,1,1,1,1,2,2,80.43,80.43,80.43,C_poza_pilotazem
+Genetyka kliniczna,Pomorskie,lekarska,LEK,2,1,1,0.5,2,1,80.39,80.39,80.39,C_poza_pilotazem
+Nefrologia dziecięca,Podlaskie,lekarska,LEK,6,1,1,0.167,2,1,80.38,80.38,80.38,C_poza_pilotazem
+Choroby płuc,Dolnośląskie,lekarska,LEK,7,7,4,0.571,5,3,80.365,74.88,84.06,C_poza_pilotazem
+Neurologia,Śląskie,lekarska,LEK,7,7,1,0.143,23,10,80.15,80.15,80.15,C_poza_pilotazem
+Nefrologia dziecięca,Dolnośląskie,lekarska,LEK,6,4,2,0.333,2,1,80.145,77.94,82.35,C_poza_pilotazem
+Hematologia,Mazowieckie,lekarska,LEK,7,7,2,0.286,11,5,80.125,74.4,85.85,C_poza_pilotazem
+Balneologia i medycyna fizykalna,Podkarpackie,lekarska,LEK,2,1,1,0.5,1,1,80,80,80,C_poza_pilotazem
+Patomorfologia,Podlaskie,lekarska,LEK,6,2,1,0.167,3,2,80,80,80,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Wielkopolskie,stomatologiczna,LDEK,3,3,3,1,1,1,80,79.05,81.34,C_poza_pilotazem
+Stomatologia dziecięca,Dolnośląskie,stomatologiczna,LDEK,6,6,4,0.667,3,2.5,79.765,77.75,84.86,C_poza_pilotazem
+Medycyna sportowa,Pomorskie,lekarska,LEK,2,1,1,0.5,1,1,79.71,79.71,79.71,C_poza_pilotazem
+Stomatologia dziecięca,Wielkopolskie,stomatologiczna,LDEK,3,3,2,0.667,4,4,79.665,79.33,80,C_poza_pilotazem
+Toksykologia kliniczna,Małopolskie,lekarska,LEK,7,3,2,0.286,1,1,79.64,74.4,84.88,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Mazowieckie,lekarska,LEK,7,7,2,0.286,15,14,79.525,74.76,84.29,C_poza_pilotazem
+Położnictwo i ginekologia,Warmińsko-mazurskie,lekarska,LEK,7,7,3,0.429,8,4,79.52,73.68,85.99,C_poza_pilotazem
+Chirurgia dziecięca,Świętokrzyskie,lekarska,LEK,7,1,1,0.143,1,2,79.51,79.51,79.51,C_poza_pilotazem
+Geriatria,Świętokrzyskie,lekarska,LEK,7,1,1,0.143,1,1,79.51,79.51,79.51,C_poza_pilotazem
+Pediatria,Świętokrzyskie,lekarska,LEK,7,4,1,0.143,6,3.5,79.51,79.51,79.51,C_poza_pilotazem
+Psychiatria,Warmińsko-mazurskie,lekarska,LEK,7,5,4,0.571,6,5,79.51,79.33,79.51,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Warmińsko-mazurskie,lekarska,LEK,7,7,4,0.571,10,7,79.475,71.9,83.57,C_poza_pilotazem
+Kardiologia,Warmińsko-mazurskie,lekarska,LEK,7,7,2,0.286,7,5,79.46,78.92,80,C_poza_pilotazem
+Chirurgia dziecięca,Małopolskie,lekarska,LEK,6,6,3,0.5,2,1.5,79.43,72.06,89.76,C_poza_pilotazem
+Protetyka stomatologiczna,Podlaskie,stomatologiczna,LDEK,7,7,5,0.714,2,2,79.43,78.57,84.76,C_poza_pilotazem
+Gastroenterologia dziecięca,Podlaskie,lekarska,LEK,4,1,1,0.25,2,3,79.41,79.41,79.41,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Zachodniopomorskie,lekarska,LEK,7,5,2,0.286,3,2,79.365,75,83.73,C_poza_pilotazem
+Chirurgia dziecięca,Łódzkie,lekarska,LEK,7,3,1,0.143,3,1,79.33,79.33,79.33,C_poza_pilotazem
+Chirurgia klatki piersiowej,Śląskie,lekarska,LEK,6,3,1,0.167,1.5,1,79.27,79.27,79.27,C_poza_pilotazem
+Stomatologia dziecięca,Śląskie,stomatologiczna,LDEK,7,6,4,0.571,2,2.5,79.12,76.56,89.05,C_poza_pilotazem
+Położnictwo i ginekologia,Dolnośląskie,lekarska,LEK,7,7,1,0.143,18,12,79.05,79.05,79.05,C_poza_pilotazem
+Neonatologia,Śląskie,lekarska,LEK,7,6,1,0.143,10,1.5,79.02,79.02,79.02,C_poza_pilotazem
+Rehabilitacja medyczna,Opolskie,lekarska,LEK,6,1,1,0.167,1.5,1,79.02,79.02,79.02,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Dolnośląskie,stomatologiczna,LDEK,6,6,5,0.833,2.5,2,78.95,70.19,82.69,C_poza_pilotazem
+Medycyna pracy,Lubuskie,lekarska,LEK,4,3,1,0.25,2,1,78.92,78.92,78.92,C_poza_pilotazem
+Medycyna sądowa,Mazowieckie,lekarska,LEK,2,2,1,0.5,1.5,1,78.92,78.92,78.92,C_poza_pilotazem
+Neonatologia,Świętokrzyskie,lekarska,LEK,7,6,1,0.143,3,1,78.92,78.92,78.92,C_poza_pilotazem
+Psychiatria,Opolskie,lekarska,LEK,7,6,1,0.143,9,4.5,78.85,78.85,78.85,C_poza_pilotazem
+Stomatologia dziecięca,Pomorskie,stomatologiczna,LDEK,5,5,2,0.4,3,2,78.81,73.81,83.81,C_poza_pilotazem
+Położnictwo i ginekologia,Zachodniopomorskie,lekarska,LEK,7,7,3,0.429,12,7,78.57,69.27,85.41,C_poza_pilotazem
+Psychiatria dzieci i młodzieży,Świętokrzyskie,lekarska,LEK,4,4,3,0.75,2,2,78.54,63.24,82.61,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Podkarpackie,stomatologiczna,LDEK,5,3,3,0.6,1,1,78.47,72.12,83.89,C_poza_pilotazem
+Patomorfologia,Małopolskie,lekarska,LEK,7,6,1,0.143,8,3.5,78.43,78.43,78.43,C_poza_pilotazem
+Chirurgia klatki piersiowej,Łódzkie,lekarska,LEK,7,2,2,0.286,1,1.5,78.425,76.47,80.38,C_poza_pilotazem
+Chirurgia dziecięca,Kujawsko-pomorskie,lekarska,LEK,7,7,2,0.286,3,1,78.195,73.53,82.86,C_poza_pilotazem
+Stomatologia dziecięca,Kujawsko-pomorskie,stomatologiczna,LDEK,5,4,4,0.8,2,2,78.175,73.79,79.57,C_poza_pilotazem
+Periodontologia,Lubuskie,stomatologiczna,LDEK,1,1,1,1,1,1,78.1,78.1,78.1,C_poza_pilotazem
+Nefrologia dziecięca,Mazowieckie,lekarska,LEK,7,5,3,0.429,2,1,77.94,72.38,83.57,C_poza_pilotazem
+Medycyna sądowa,Wielkopolskie,lekarska,LEK,3,2,2,0.667,2,2,77.78,69.57,85.99,C_poza_pilotazem
+Protetyka stomatologiczna,Zachodniopomorskie,stomatologiczna,LDEK,4,3,1,0.25,2.5,2,77.78,77.78,77.78,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Podkarpackie,lekarska,LEK,7,7,4,0.571,6,5,77.68,69.27,82.13,C_poza_pilotazem
+Kardiologia dziecięca,Kujawsko-pomorskie,lekarska,LEK,2,1,1,0.5,1.5,2,77.51,77.51,77.51,C_poza_pilotazem
+Medycyna nuklearna,Mazowieckie,lekarska,LEK,7,6,1,0.143,5,3,77.4,77.4,77.4,C_poza_pilotazem
+Chirurgia ogólna,Pomorskie,lekarska,LEK,7,7,4,0.571,9,9,77.325,69.23,83.82,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Dolnośląskie,lekarska,LEK,6,3,2,0.333,1.5,2,77.25,76.72,77.78,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Lubuskie,lekarska,LEK,7,7,2,0.286,6,4,77.21,73.17,81.25,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Lubelskie,stomatologiczna,LDEK,5,5,2,0.4,2,1,77.165,75,79.33,C_poza_pilotazem
+Angiologia,Śląskie,lekarska,LEK,5,1,1,0.2,1,1,77.14,77.14,77.14,C_poza_pilotazem
+Kardiochirurgia,Łódzkie,lekarska,LEK,7,5,4,0.571,2,1,77.1,55.39,87.68,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Warmińsko-mazurskie,stomatologiczna,LDEK,7,6,2,0.286,2,1,76.94,74.27,79.61,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Kujawsko-pomorskie,stomatologiczna,LDEK,6,6,3,0.5,3,1.5,76.92,60.4,77.51,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Małopolskie,stomatologiczna,LDEK,7,7,3,0.429,6,4,76.92,70.87,84.21,C_poza_pilotazem
+Medycyna paliatywna,Mazowieckie,lekarska,LEK,4,2,2,0.5,1,1,76.735,74.52,78.95,C_poza_pilotazem
+Kardiochirurgia,Kujawsko-pomorskie,lekarska,LEK,6,4,3,0.5,1.5,1,76.67,72.38,84.54,C_poza_pilotazem
+Medycyna sportowa,Kujawsko-pomorskie,lekarska,LEK,3,3,2,0.667,1,1,76.585,70.24,82.93,C_poza_pilotazem
+Medycyna sądowa,Łódzkie,lekarska,LEK,6,2,2,0.333,1,2,76.575,68.84,84.31,C_poza_pilotazem
+Medycyna pracy,Podlaskie,lekarska,LEK,4,4,4,1,1,1,76.565,66.51,87.75,C_poza_pilotazem
+Chirurgia klatki piersiowej,Świętokrzyskie,lekarska,LEK,5,2,1,0.2,1,1,76.56,76.56,76.56,C_poza_pilotazem
+Chirurgia onkologiczna,Dolnośląskie,lekarska,LEK,7,6,1,0.143,4,1.5,76.56,76.56,76.56,C_poza_pilotazem
+Położnictwo i ginekologia,Podlaskie,lekarska,LEK,7,7,2,0.286,9,2,76.475,66.83,86.12,C_poza_pilotazem
+Stomatologia dziecięca,Opolskie,stomatologiczna,LDEK,2,2,2,1,1,1,76.26,75.71,76.81,C_poza_pilotazem
+Neurologia dziecięca,Podlaskie,lekarska,LEK,5,2,2,0.4,1,1.5,76.135,73.53,78.74,C_poza_pilotazem
+Chirurgia onkologiczna,Świętokrzyskie,lekarska,LEK,4,4,2,0.5,1.5,1,76.13,65.79,86.47,C_poza_pilotazem
+Audiologia i foniatria,Pomorskie,lekarska,LEK,5,3,3,0.6,1,1,76.1,53.66,78.33,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Lubuskie,lekarska,LEK,7,7,1,0.143,6,3,76.08,76.08,76.08,C_poza_pilotazem
+Pediatria,Pomorskie,lekarska,LEK,7,7,1,0.143,17,9,76.08,76.08,76.08,C_poza_pilotazem
+Chirurgia klatki piersiowej,Dolnośląskie,lekarska,LEK,5,3,1,0.2,1,1,75.98,75.98,75.98,C_poza_pilotazem
+Chirurgia onkologiczna,Łódzkie,lekarska,LEK,7,6,2,0.286,2,2,75.98,72.06,79.9,C_poza_pilotazem
+Nefrologia,Podlaskie,lekarska,LEK,7,4,1,0.143,7,1,75.98,75.98,75.98,C_poza_pilotazem
+Medycyna sądowa,Lubelskie,lekarska,LEK,6,2,2,0.333,1,1,75.965,62.93,89,C_poza_pilotazem
+Patomorfologia,Śląskie,lekarska,LEK,7,7,2,0.286,4,1,75.93,71.22,80.64,C_poza_pilotazem
+Hematologia,Kujawsko-pomorskie,lekarska,LEK,7,5,1,0.143,5,2,75.85,75.85,75.85,C_poza_pilotazem
+Neonatologia,Opolskie,lekarska,LEK,7,4,1,0.143,3,1,75.85,75.85,75.85,C_poza_pilotazem
+Medycyna pracy,Lubelskie,lekarska,LEK,5,4,2,0.4,2,1,75.49,66.18,84.8,C_poza_pilotazem
+Mikrobiologia lekarska,Kujawsko-pomorskie,lekarska,LEK,4,1,1,0.25,1.5,1,75.36,75.36,75.36,C_poza_pilotazem
+Protetyka stomatologiczna,Warmińsko-mazurskie,stomatologiczna,LDEK,6,4,3,0.5,1.5,1,75.12,70.67,84.93,C_poza_pilotazem
+Psychiatria dzieci i młodzieży,Lubuskie,lekarska,LEK,5,4,3,0.6,2,3,74.64,71.77,82.93,C_poza_pilotazem
+Medycyna sądowa,Dolnośląskie,lekarska,LEK,5,4,1,0.2,4,1,74.4,74.4,74.4,C_poza_pilotazem
+Psychiatria,Podlaskie,lekarska,LEK,7,7,4,0.571,10,8,74.295,66.83,84.06,C_poza_pilotazem
+Położnictwo i ginekologia,Lubuskie,lekarska,LEK,7,7,2,0.286,7,2,74.205,67.46,80.95,C_poza_pilotazem
+Mikrobiologia lekarska,Łódzkie,lekarska,LEK,4,3,3,0.75,1,1,74.15,71.71,74.15,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Zachodniopomorskie,lekarska,LEK,7,7,2,0.286,7,5,74.075,66.99,81.16,C_poza_pilotazem
+Radioterapia onkologiczna,Mazowieckie,lekarska,LEK,7,7,2,0.286,5,3,74.07,67.65,80.49,C_poza_pilotazem
+Psychiatria,Lubelskie,lekarska,LEK,7,7,2,0.286,11,4,74.065,68.42,79.71,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Opolskie,lekarska,LEK,7,6,2,0.286,11,3.5,74.03,74.02,74.04,C_poza_pilotazem
+Medycyna nuklearna,Śląskie,lekarska,LEK,7,5,2,0.286,4,1,73.84,62.8,84.88,C_poza_pilotazem
+Genetyka kliniczna,Śląskie,lekarska,LEK,3,2,1,0.333,1,1,73.8,73.8,73.8,C_poza_pilotazem
+Diagnostyka laboratoryjna,Mazowieckie,lekarska,LEK,6,2,2,0.333,1,1,73.765,70.24,77.29,C_poza_pilotazem
+Chirurgia klatki piersiowej,Małopolskie,lekarska,LEK,5,1,1,0.2,2,2,72.97,72.97,72.97,C_poza_pilotazem
+Psychiatria,Śląskie,lekarska,LEK,7,7,2,0.286,23,18,72.95,67.16,78.74,C_poza_pilotazem
+Radioterapia onkologiczna,Łódzkie,lekarska,LEK,7,3,2,0.286,3,3,72.715,68.14,77.29,C_poza_pilotazem
+Audiologia i foniatria,Zachodniopomorskie,lekarska,LEK,2,2,2,1,1,1,72.705,57,88.41,C_poza_pilotazem
+Stomatologia dziecięca,Podkarpackie,stomatologiczna,LDEK,4,4,3,0.75,2.5,2,72.38,72.12,77.4,C_poza_pilotazem
+Psychiatria,Lubuskie,lekarska,LEK,7,7,2,0.286,9,4,72.06,66.67,77.45,C_poza_pilotazem
+Otorynolaryngologia dziecięca,Podlaskie,lekarska,LEK,3,2,2,0.667,1,1,72.03,60,84.06,C_poza_pilotazem
+Kardiochirurgia,Warmińsko-mazurskie,lekarska,LEK,6,2,1,0.167,1,1,71.98,71.98,71.98,C_poza_pilotazem
+Stomatologia dziecięca,Warmińsko-mazurskie,stomatologiczna,LDEK,4,3,2,0.5,1.5,1,71.875,71.15,72.6,C_poza_pilotazem
+Medycyna rodzinna,Świętokrzyskie,lekarska,LEK,7,7,1,0.143,22,6,71.77,71.77,71.77,C_poza_pilotazem
+Medycyna sądowa,Warmińsko-mazurskie,lekarska,LEK,1,1,1,1,1,1,71.74,71.74,71.74,C_poza_pilotazem
+Neuropatologia,Łódzkie,lekarska,LEK,2,1,1,0.5,1,1,71.71,71.71,71.71,C_poza_pilotazem
+Medycyna nuklearna,Zachodniopomorskie,lekarska,LEK,6,2,2,0.333,1,2.5,71.645,65.24,78.05,C_poza_pilotazem
+Medycyna pracy,Pomorskie,lekarska,LEK,1,1,1,1,1,1,71.5,71.5,71.5,C_poza_pilotazem
+Medycyna nuklearna,Lubuskie,lekarska,LEK,6,2,2,0.333,1,1.5,71.35,67.46,75.24,C_poza_pilotazem
+Neurologia,Opolskie,lekarska,LEK,7,5,1,0.143,7,6,71.32,71.32,71.32,C_poza_pilotazem
+Patomorfologia,Mazowieckie,lekarska,LEK,7,7,4,0.571,6,5,70.9,60.29,83.33,C_poza_pilotazem
+Medycyna pracy,Mazowieckie,lekarska,LEK,7,6,2,0.286,3,1,70.605,56.19,85.02,C_poza_pilotazem
+Choroby zakaźne,Warmińsko-mazurskie,lekarska,LEK,7,1,1,0.143,2,3,70.53,70.53,70.53,C_poza_pilotazem
+Psychiatria,Świętokrzyskie,lekarska,LEK,7,6,2,0.286,12,5,70.495,62.25,78.74,C_poza_pilotazem
+Położnictwo i ginekologia,Świętokrzyskie,lekarska,LEK,7,7,2,0.286,4,3,70.49,66.83,74.15,C_poza_pilotazem
+Medycyna rodzinna,Zachodniopomorskie,lekarska,LEK,7,7,1,0.143,24,12,70.19,70.19,70.19,C_poza_pilotazem
+Alergologia,Podlaskie,lekarska,LEK,2,1,1,0.5,1.5,2,70.05,70.05,70.05,C_poza_pilotazem
+Neonatologia,Mazowieckie,lekarska,LEK,7,7,1,0.143,22,4,69.86,69.86,69.86,C_poza_pilotazem
+Chirurgia ogólna,Wielkopolskie,lekarska,LEK,7,7,1,0.143,16,15,69.76,69.76,69.76,C_poza_pilotazem
+Genetyka kliniczna,Lubelskie,lekarska,LEK,5,2,2,0.4,1,1.5,69.265,68.29,70.24,C_poza_pilotazem
+Transfuzjologia kliniczna,Śląskie,lekarska,LEK,5,2,2,0.4,2,1,69.08,62.8,75.36,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Świętokrzyskie,stomatologiczna,LDEK,1,1,1,1,2,2,68.93,68.93,68.93,C_poza_pilotazem
+Transfuzjologia kliniczna,Mazowieckie,lekarska,LEK,6,1,1,0.167,3,1,68.63,68.63,68.63,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Małopolskie,lekarska,LEK,6,3,1,0.167,3,2,68.14,68.14,68.14,C_poza_pilotazem
+Chirurgia ogólna,Podkarpackie,lekarska,LEK,7,7,1,0.143,10,2,67.63,67.63,67.63,C_poza_pilotazem
+Immunologia kliniczna,Wielkopolskie,lekarska,LEK,2,1,1,0.5,1,1,67.56,67.56,67.56,C_poza_pilotazem
+Chirurgia klatki piersiowej,Podlaskie,lekarska,LEK,4,1,1,0.25,1,1,67.46,67.46,67.46,C_poza_pilotazem
+Chirurgia klatki piersiowej,Podkarpackie,lekarska,LEK,3,2,2,0.667,2,2,67.355,62.25,72.46,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Pomorskie,stomatologiczna,LDEK,6,6,2,0.333,3.5,1.5,67.225,58.37,76.08,C_poza_pilotazem
+Chirurgia ogólna,Zachodniopomorskie,lekarska,LEK,7,7,1,0.143,10,6,66.99,66.99,66.99,C_poza_pilotazem
+Radioterapia onkologiczna,Warmińsko-mazurskie,lekarska,LEK,6,3,1,0.167,3,1,66.99,66.99,66.99,C_poza_pilotazem
+Toksykologia kliniczna,Mazowieckie,lekarska,LEK,5,1,1,0.2,1,1,66.83,66.83,66.83,C_poza_pilotazem
+Balneologia i medycyna fizykalna,Dolnośląskie,lekarska,LEK,4,1,1,0.25,2,1,65.7,65.7,65.7,C_poza_pilotazem
+Neurologia dziecięca,Warmińsko-mazurskie,lekarska,LEK,5,2,1,0.2,2,1,65.69,65.69,65.69,C_poza_pilotazem
+Choroby wewnętrzne,Lubelskie,lekarska,LEK,7,7,1,0.143,20,8,64.76,64.76,64.76,C_poza_pilotazem
+Medycyna pracy,Śląskie,lekarska,LEK,5,3,1,0.2,2,3,64.59,64.59,64.59,C_poza_pilotazem
+Medycyna paliatywna,Zachodniopomorskie,lekarska,LEK,7,1,1,0.143,1,1,64.42,64.42,64.42,C_poza_pilotazem
+Balneologia i medycyna fizykalna,Śląskie,lekarska,LEK,7,1,1,0.143,1,1,64.29,64.29,64.29,C_poza_pilotazem
+Hematologia,Lubelskie,lekarska,LEK,7,5,1,0.143,5,2,63.73,63.73,63.73,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Opolskie,stomatologiczna,LDEK,1,1,1,1,1,1,63.7,63.7,63.7,C_poza_pilotazem
+Chirurgia onkologiczna,Podkarpackie,lekarska,LEK,3,2,1,0.333,2,1,63.29,63.29,63.29,C_poza_pilotazem
+Medycyna rodzinna,Wielkopolskie,lekarska,LEK,7,7,1,0.143,36,25,62.93,62.93,62.93,C_poza_pilotazem
+Neurologia,Świętokrzyskie,lekarska,LEK,7,6,3,0.429,12,4.5,61.72,59.02,89.23,C_poza_pilotazem
+Rehabilitacja medyczna,Zachodniopomorskie,lekarska,LEK,7,3,1,0.143,5,1,60.58,60.58,60.58,C_poza_pilotazem
+Kardiochirurgia,Podkarpackie,lekarska,LEK,6,2,1,0.167,2,2,59.31,59.31,59.31,C_poza_pilotazem
+Transfuzjologia kliniczna,Łódzkie,lekarska,LEK,2,1,1,0.5,1,1,58.54,58.54,58.54,C_poza_pilotazem
+Geriatria,Lubelskie,lekarska,LEK,7,2,1,0.143,4,1,57.97,57.97,57.97,C_poza_pilotazem
+Mikrobiologia lekarska,Mazowieckie,lekarska,LEK,6,2,1,0.167,2,1,57.97,57.97,57.97,C_poza_pilotazem
+Chirurgia klatki piersiowej,Warmińsko-mazurskie,lekarska,LEK,1,1,1,1,1,1,57.28,57.28,57.28,C_poza_pilotazem
+Neurologia,Lubuskie,lekarska,LEK,7,4,1,0.143,7,5.5,56.67,56.67,56.67,C_poza_pilotazem
+Ortopedia i traumatologia narządu ruchu,Warmińsko-mazurskie,lekarska,LEK,7,7,1,0.143,5,4,54.9,54.9,54.9,C_poza_pilotazem
+Neurochirurgia,Lubuskie,lekarska,LEK,1,1,1,1,1,1,54.37,54.37,54.37,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Dolnośląskie,lekarska,LEK,7,7,0,0,18,11,,,,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Podkarpackie,lekarska,LEK,7,7,0,0,15,6,,,,C_poza_pilotazem
+Anestezjologia i intensywna terapia,Świętokrzyskie,lekarska,LEK,6,5,0,0,10,7,,,,C_poza_pilotazem
+Angiologia,Świętokrzyskie,lekarska,LEK,2,0,0,0,2,,,,,C_poza_pilotazem
+Angiologia,Mazowieckie,lekarska,LEK,2,0,0,0,1,,,,,C_poza_pilotazem
+Audiologia i foniatria,Lubelskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Audiologia i foniatria,Łódzkie,lekarska,LEK,5,2,0,0,4,1.5,,,,C_poza_pilotazem
+Audiologia i foniatria,Wielkopolskie,lekarska,LEK,5,1,0,0,2,1,,,,C_poza_pilotazem
+Audiologia i foniatria,Świętokrzyskie,lekarska,LEK,4,0,0,0,1,,,,,C_poza_pilotazem
+Audiologia i foniatria,Kujawsko-pomorskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Balneologia i medycyna fizykalna,Kujawsko-pomorskie,lekarska,LEK,2,0,0,0,1,,,,,C_poza_pilotazem
+Balneologia i medycyna fizykalna,Łódzkie,lekarska,LEK,4,0,0,0,1,,,,,C_poza_pilotazem
+Balneologia i medycyna fizykalna,Świętokrzyskie,lekarska,LEK,4,0,0,0,1,,,,,C_poza_pilotazem
+Balneologia i medycyna fizykalna,Małopolskie,lekarska,LEK,2,0,0,0,4.5,,,,,C_poza_pilotazem
+Balneologia i medycyna fizykalna,Podlaskie,lekarska,LEK,0,0,0,0,,,,,,C_poza_pilotazem
+Chirurgia dziecięca,Lubuskie,lekarska,LEK,6,4,0,0,5.5,2,,,,C_poza_pilotazem
+Chirurgia dziecięca,Opolskie,lekarska,LEK,7,3,0,0,2,1,,,,C_poza_pilotazem
+Chirurgia dziecięca,Podkarpackie,lekarska,LEK,6,2,0,0,2.5,1.5,,,,C_poza_pilotazem
+Chirurgia dziecięca,Warmińsko-mazurskie,lekarska,LEK,5,3,0,0,2,1,,,,C_poza_pilotazem
+Chirurgia klatki piersiowej,Lubelskie,lekarska,LEK,6,2,0,0,2,1,,,,C_poza_pilotazem
+Chirurgia klatki piersiowej,Mazowieckie,lekarska,LEK,6,3,0,0,3,1,,,,C_poza_pilotazem
+Chirurgia klatki piersiowej,Zachodniopomorskie,lekarska,LEK,6,1,0,0,2,1,,,,C_poza_pilotazem
+Chirurgia klatki piersiowej,Pomorskie,lekarska,LEK,4,0,0,0,1.5,,,,,C_poza_pilotazem
+Chirurgia naczyniowa,Zachodniopomorskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Chirurgia ogólna,Dolnośląskie,lekarska,LEK,7,7,0,0,18,7,,,,C_poza_pilotazem
+Chirurgia ogólna,Kujawsko-pomorskie,lekarska,LEK,7,7,0,0,14,3,,,,C_poza_pilotazem
+Chirurgia ogólna,Lubelskie,lekarska,LEK,7,6,0,0,12,6,,,,C_poza_pilotazem
+Chirurgia ogólna,Lubuskie,lekarska,LEK,7,5,0,0,6,3,,,,C_poza_pilotazem
+Chirurgia ogólna,Łódzkie,lekarska,LEK,7,7,0,0,20,4,,,,C_poza_pilotazem
+Chirurgia ogólna,Małopolskie,lekarska,LEK,7,7,0,0,36,7,,,,C_poza_pilotazem
+Chirurgia ogólna,Mazowieckie,lekarska,LEK,7,7,0,0,27,15,,,,C_poza_pilotazem
+Chirurgia ogólna,Opolskie,lekarska,LEK,7,5,0,0,12,3,,,,C_poza_pilotazem
+Chirurgia ogólna,Podlaskie,lekarska,LEK,7,6,0,0,7,3.5,,,,C_poza_pilotazem
+Chirurgia ogólna,Śląskie,lekarska,LEK,7,7,0,0,24,8,,,,C_poza_pilotazem
+Chirurgia ogólna,Świętokrzyskie,lekarska,LEK,7,6,0,0,6,3.5,,,,C_poza_pilotazem
+Chirurgia ogólna,Warmińsko-mazurskie,lekarska,LEK,7,6,0,0,16,3.5,,,,C_poza_pilotazem
+Chirurgia onkologiczna,Warmińsko-mazurskie,lekarska,LEK,7,0,0,0,1,,,,,C_poza_pilotazem
+Chirurgia onkologiczna,Zachodniopomorskie,lekarska,LEK,7,4,0,0,2,1,,,,C_poza_pilotazem
+Choroby płuc,Lubuskie,lekarska,LEK,7,5,0,0,5,2,,,,C_poza_pilotazem
+Choroby płuc,Małopolskie,lekarska,LEK,7,6,0,0,13,8.5,,,,C_poza_pilotazem
+Choroby płuc,Zachodniopomorskie,lekarska,LEK,7,3,0,0,4,3,,,,C_poza_pilotazem
+Choroby płuc dzieci,Łódzkie,lekarska,LEK,7,4,0,0,6,2,,,,C_poza_pilotazem
+Choroby płuc dzieci,Małopolskie,lekarska,LEK,7,5,0,0,4,1,,,,C_poza_pilotazem
+Choroby płuc dzieci,Opolskie,lekarska,LEK,2,0,0,0,1.5,,,,,C_poza_pilotazem
+Choroby płuc dzieci,Śląskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Choroby płuc dzieci,Zachodniopomorskie,lekarska,LEK,4,2,0,0,2,1,,,,C_poza_pilotazem
+Choroby płuc dzieci,Świętokrzyskie,lekarska,LEK,1,1,0,0,2,1,,,,C_poza_pilotazem
+Choroby wewnętrzne,Dolnośląskie,lekarska,LEK,7,7,0,0,42,17,,,,C_poza_pilotazem
+Choroby wewnętrzne,Lubuskie,lekarska,LEK,7,6,0,0,16,1.5,,,,C_poza_pilotazem
+Choroby wewnętrzne,Łódzkie,lekarska,LEK,7,7,0,0,30,10,,,,C_poza_pilotazem
+Choroby wewnętrzne,Małopolskie,lekarska,LEK,7,7,0,0,50,14,,,,C_poza_pilotazem
+Choroby wewnętrzne,Mazowieckie,lekarska,LEK,7,7,0,0,50,26,,,,C_poza_pilotazem
+Choroby wewnętrzne,Opolskie,lekarska,LEK,7,7,0,0,17,2,,,,C_poza_pilotazem
+Choroby wewnętrzne,Podkarpackie,lekarska,LEK,7,6,0,0,45,10,,,,C_poza_pilotazem
+Choroby wewnętrzne,Podlaskie,lekarska,LEK,7,6,0,0,30,9,,,,C_poza_pilotazem
+Choroby wewnętrzne,Pomorskie,lekarska,LEK,7,7,0,0,35,18,,,,C_poza_pilotazem
+Choroby wewnętrzne,Śląskie,lekarska,LEK,7,7,0,0,50,13,,,,C_poza_pilotazem
+Choroby wewnętrzne,Świętokrzyskie,lekarska,LEK,7,7,0,0,35,2,,,,C_poza_pilotazem
+Choroby wewnętrzne,Warmińsko-mazurskie,lekarska,LEK,7,7,0,0,25,5,,,,C_poza_pilotazem
+Choroby wewnętrzne,Wielkopolskie,lekarska,LEK,7,7,0,0,28,16,,,,C_poza_pilotazem
+Choroby wewnętrzne,Zachodniopomorskie,lekarska,LEK,7,6,0,0,42,10,,,,C_poza_pilotazem
+Choroby zakaźne,Kujawsko-pomorskie,lekarska,LEK,7,1,0,0,6,1,,,,C_poza_pilotazem
+Choroby zakaźne,Lubelskie,lekarska,LEK,7,1,0,0,6,1,,,,C_poza_pilotazem
+Choroby zakaźne,Łódzkie,lekarska,LEK,7,3,0,0,4,2,,,,C_poza_pilotazem
+Choroby zakaźne,Małopolskie,lekarska,LEK,7,4,0,0,9,3.5,,,,C_poza_pilotazem
+Choroby zakaźne,Mazowieckie,lekarska,LEK,7,7,0,0,12,3,,,,C_poza_pilotazem
+Choroby zakaźne,Opolskie,lekarska,LEK,7,1,0,0,2,2,,,,C_poza_pilotazem
+Choroby zakaźne,Podkarpackie,lekarska,LEK,7,6,0,0,7,1,,,,C_poza_pilotazem
+Choroby zakaźne,Podlaskie,lekarska,LEK,7,4,0,0,9,2,,,,C_poza_pilotazem
+Choroby zakaźne,Śląskie,lekarska,LEK,7,5,0,0,10,3,,,,C_poza_pilotazem
+Choroby zakaźne,Świętokrzyskie,lekarska,LEK,7,3,0,0,2,1,,,,C_poza_pilotazem
+Choroby zakaźne,Wielkopolskie,lekarska,LEK,7,2,0,0,4,1,,,,C_poza_pilotazem
+Choroby zakaźne,Zachodniopomorskie,lekarska,LEK,7,5,0,0,7,1,,,,C_poza_pilotazem
+Diabetologia,Pomorskie,lekarska,LEK,0,0,0,0,,,,,,C_poza_pilotazem
+Diagnostyka laboratoryjna,Łódzkie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Diagnostyka laboratoryjna,Małopolskie,lekarska,LEK,3,1,0,0,1,2,,,,C_poza_pilotazem
+Diagnostyka laboratoryjna,Podlaskie,lekarska,LEK,3,0,0,0,9,,,,,C_poza_pilotazem
+Diagnostyka laboratoryjna,Pomorskie,lekarska,LEK,3,0,0,0,1,,,,,C_poza_pilotazem
+Diagnostyka laboratoryjna,Wielkopolskie,lekarska,LEK,7,0,0,0,1,,,,,C_poza_pilotazem
+Diagnostyka laboratoryjna,Warmińsko-mazurskie,lekarska,LEK,4,0,0,0,1,,,,,C_poza_pilotazem
+Farmakologia kliniczna,Łódzkie,lekarska,LEK,7,0,0,0,1,,,,,C_poza_pilotazem
+Farmakologia kliniczna,Pomorskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Farmakologia kliniczna,Śląskie,lekarska,LEK,7,1,0,0,1,1,,,,C_poza_pilotazem
+Farmakologia kliniczna,Dolnośląskie,lekarska,LEK,2,0,0,0,1,,,,,C_poza_pilotazem
+Farmakologia kliniczna,Małopolskie,lekarska,LEK,2,0,0,0,1,,,,,C_poza_pilotazem
+Farmakologia kliniczna,Wielkopolskie,lekarska,LEK,1,0,0,0,2,,,,,C_poza_pilotazem
+Farmakologia kliniczna,Zachodniopomorskie,lekarska,LEK,1,1,0,0,2,1,,,,C_poza_pilotazem
+Genetyka kliniczna,Kujawsko-pomorskie,lekarska,LEK,5,1,0,0,3,1,,,,C_poza_pilotazem
+Genetyka kliniczna,Małopolskie,lekarska,LEK,0,0,0,0,,,,,,C_poza_pilotazem
+Genetyka kliniczna,Podlaskie,lekarska,LEK,0,0,0,0,,,,,,C_poza_pilotazem
+Geriatria,Dolnośląskie,lekarska,LEK,7,2,0,0,5,1.5,,,,C_poza_pilotazem
+Geriatria,Kujawsko-pomorskie,lekarska,LEK,7,4,0,0,7,1,,,,C_poza_pilotazem
+Geriatria,Lubuskie,lekarska,LEK,7,0,0,0,2,,,,,C_poza_pilotazem
+Geriatria,Małopolskie,lekarska,LEK,7,2,0,0,13,2,,,,C_poza_pilotazem
+Geriatria,Mazowieckie,lekarska,LEK,7,4,0,0,6,1,,,,C_poza_pilotazem
+Geriatria,Opolskie,lekarska,LEK,7,1,0,0,1,1,,,,C_poza_pilotazem
+Geriatria,Podlaskie,lekarska,LEK,7,3,0,0,4,1,,,,C_poza_pilotazem
+Geriatria,Pomorskie,lekarska,LEK,7,3,0,0,2,2,,,,C_poza_pilotazem
+Geriatria,Śląskie,lekarska,LEK,7,5,0,0,18,2,,,,C_poza_pilotazem
+Geriatria,Warmińsko-mazurskie,lekarska,LEK,5,1,0,0,1,1,,,,C_poza_pilotazem
+Geriatria,Wielkopolskie,lekarska,LEK,7,0,0,0,2,,,,,C_poza_pilotazem
+Geriatria,Zachodniopomorskie,lekarska,LEK,7,1,0,0,2,1,,,,C_poza_pilotazem
+Hematologia,Lubuskie,lekarska,LEK,7,3,0,0,4,1,,,,C_poza_pilotazem
+Hematologia,Podlaskie,lekarska,LEK,6,2,0,0,3.5,1.5,,,,C_poza_pilotazem
+Hematologia,Pomorskie,lekarska,LEK,6,6,0,0,14,2,,,,C_poza_pilotazem
+Hematologia,Świętokrzyskie,lekarska,LEK,6,2,0,0,3,1.5,,,,C_poza_pilotazem
+Hematologia,Warmińsko-mazurskie,lekarska,LEK,5,2,0,0,2,1,,,,C_poza_pilotazem
+Hematologia,Zachodniopomorskie,lekarska,LEK,7,4,0,0,7,1.5,,,,C_poza_pilotazem
+Immunologia kliniczna,Podlaskie,lekarska,LEK,6,0,0,0,1,,,,,C_poza_pilotazem
+Immunologia kliniczna,Śląskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Immunologia kliniczna,Zachodniopomorskie,lekarska,LEK,4,0,0,0,2,,,,,C_poza_pilotazem
+Immunologia kliniczna,Dolnośląskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Immunologia kliniczna,Lubelskie,lekarska,LEK,3,0,0,0,2,,,,,C_poza_pilotazem
+Kardiochirurgia,Podlaskie,lekarska,LEK,4,1,0,0,1,2,,,,C_poza_pilotazem
+Kardiochirurgia,Świętokrzyskie,lekarska,LEK,5,1,0,0,2,1,,,,C_poza_pilotazem
+Kardiochirurgia,Zachodniopomorskie,lekarska,LEK,5,0,0,0,1,,,,,C_poza_pilotazem
+Kardiologia dziecięca,Podlaskie,lekarska,LEK,4,1,0,0,2.5,1,,,,C_poza_pilotazem
+Kardiologia dziecięca,Podkarpackie,lekarska,LEK,0,0,0,0,,,,,,C_poza_pilotazem
+Medycyna morska i tropikalna,Pomorskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Medycyna nuklearna,Kujawsko-pomorskie,lekarska,LEK,6,0,0,0,3,,,,,C_poza_pilotazem
+Medycyna nuklearna,Lubelskie,lekarska,LEK,6,2,0,0,2.5,1.5,,,,C_poza_pilotazem
+Medycyna nuklearna,Małopolskie,lekarska,LEK,7,2,0,0,2,2,,,,C_poza_pilotazem
+Medycyna nuklearna,Opolskie,lekarska,LEK,6,1,0,0,1.5,1,,,,C_poza_pilotazem
+Medycyna nuklearna,Podkarpackie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Medycyna nuklearna,Świętokrzyskie,lekarska,LEK,0,0,0,0,,,,,,C_poza_pilotazem
+Medycyna paliatywna,Dolnośląskie,lekarska,LEK,7,3,0,0,3,2,,,,C_poza_pilotazem
+Medycyna paliatywna,Kujawsko-pomorskie,lekarska,LEK,7,1,0,0,2,1,,,,C_poza_pilotazem
+Medycyna paliatywna,Łódzkie,lekarska,LEK,7,2,0,0,2,1.5,,,,C_poza_pilotazem
+Medycyna paliatywna,Opolskie,lekarska,LEK,5,0,0,0,1,,,,,C_poza_pilotazem
+Medycyna paliatywna,Podlaskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Medycyna paliatywna,Śląskie,lekarska,LEK,6,1,0,0,5,1,,,,C_poza_pilotazem
+Medycyna paliatywna,Warmińsko-mazurskie,lekarska,LEK,7,0,0,0,2,,,,,C_poza_pilotazem
+Medycyna paliatywna,Wielkopolskie,lekarska,LEK,7,1,0,0,2,1,,,,C_poza_pilotazem
+Medycyna paliatywna,Pomorskie,lekarska,LEK,3,1,0,0,1,1,,,,C_poza_pilotazem
+Medycyna paliatywna,Świętokrzyskie,lekarska,LEK,2,1,0,0,1.5,1,,,,C_poza_pilotazem
+Medycyna pracy,Łódzkie,lekarska,LEK,7,4,0,0,4,2,,,,C_poza_pilotazem
+Medycyna pracy,Opolskie,lekarska,LEK,2,1,0,0,1.5,1,,,,C_poza_pilotazem
+Medycyna pracy,Świętokrzyskie,lekarska,LEK,6,3,0,0,2,1,,,,C_poza_pilotazem
+Medycyna pracy,Warmińsko-mazurskie,lekarska,LEK,6,1,0,0,2,1,,,,C_poza_pilotazem
+Medycyna pracy,Wielkopolskie,lekarska,LEK,1,1,0,0,3,2,,,,C_poza_pilotazem
+Medycyna ratunkowa,Dolnośląskie,lekarska,LEK,7,5,0,0,9,2,,,,C_poza_pilotazem
+Medycyna ratunkowa,Lubelskie,lekarska,LEK,7,4,0,0,10,2,,,,C_poza_pilotazem
+Medycyna ratunkowa,Lubuskie,lekarska,LEK,7,1,0,0,2,1,,,,C_poza_pilotazem
+Medycyna ratunkowa,Łódzkie,lekarska,LEK,7,5,0,0,15,2,,,,C_poza_pilotazem
+Medycyna ratunkowa,Małopolskie,lekarska,LEK,7,4,0,0,20,1.5,,,,C_poza_pilotazem
+Medycyna ratunkowa,Mazowieckie,lekarska,LEK,7,6,0,0,15,5.5,,,,C_poza_pilotazem
+Medycyna ratunkowa,Opolskie,lekarska,LEK,7,2,0,0,6,1,,,,C_poza_pilotazem
+Medycyna ratunkowa,Podkarpackie,lekarska,LEK,7,1,0,0,5,1,,,,C_poza_pilotazem
+Medycyna ratunkowa,Podlaskie,lekarska,LEK,7,2,0,0,16,1.5,,,,C_poza_pilotazem
+Medycyna ratunkowa,Pomorskie,lekarska,LEK,7,7,0,0,23,1,,,,C_poza_pilotazem
+Medycyna ratunkowa,Śląskie,lekarska,LEK,7,6,0,0,10,1,,,,C_poza_pilotazem
+Medycyna ratunkowa,Świętokrzyskie,lekarska,LEK,7,2,0,0,8,1.5,,,,C_poza_pilotazem
+Medycyna ratunkowa,Warmińsko-mazurskie,lekarska,LEK,7,6,0,0,9,1,,,,C_poza_pilotazem
+Medycyna ratunkowa,Wielkopolskie,lekarska,LEK,7,7,0,0,18,3,,,,C_poza_pilotazem
+Medycyna ratunkowa,Zachodniopomorskie,lekarska,LEK,7,2,0,0,4,1.5,,,,C_poza_pilotazem
+Medycyna rodzinna,Dolnośląskie,lekarska,LEK,7,7,0,0,36,23,,,,C_poza_pilotazem
+Medycyna rodzinna,Kujawsko-pomorskie,lekarska,LEK,7,7,0,0,35,11,,,,C_poza_pilotazem
+Medycyna rodzinna,Lubelskie,lekarska,LEK,7,7,0,0,36,9,,,,C_poza_pilotazem
+Medycyna rodzinna,Lubuskie,lekarska,LEK,7,5,0,0,19,6,,,,C_poza_pilotazem
+Medycyna rodzinna,Łódzkie,lekarska,LEK,7,7,0,0,20,17,,,,C_poza_pilotazem
+Medycyna rodzinna,Małopolskie,lekarska,LEK,7,7,0,0,53,29,,,,C_poza_pilotazem
+Medycyna rodzinna,Mazowieckie,lekarska,LEK,7,7,0,0,94,52,,,,C_poza_pilotazem
+Medycyna rodzinna,Opolskie,lekarska,LEK,7,7,0,0,24,6,,,,C_poza_pilotazem
+Medycyna rodzinna,Podkarpackie,lekarska,LEK,7,7,0,0,40,13,,,,C_poza_pilotazem
+Medycyna rodzinna,Podlaskie,lekarska,LEK,7,7,0,0,21,8,,,,C_poza_pilotazem
+Medycyna rodzinna,Pomorskie,lekarska,LEK,7,7,0,0,28,20,,,,C_poza_pilotazem
+Medycyna rodzinna,Śląskie,lekarska,LEK,7,7,0,0,40,27,,,,C_poza_pilotazem
+Medycyna rodzinna,Warmińsko-mazurskie,lekarska,LEK,7,7,0,0,19,6,,,,C_poza_pilotazem
+Medycyna sądowa,Kujawsko-pomorskie,lekarska,LEK,4,0,0,0,1.5,,,,,C_poza_pilotazem
+Medycyna sądowa,Podlaskie,lekarska,LEK,6,1,0,0,2,1,,,,C_poza_pilotazem
+Medycyna sądowa,Zachodniopomorskie,lekarska,LEK,6,1,0,0,1.5,1,,,,C_poza_pilotazem
+Medycyna sądowa,Pomorskie,lekarska,LEK,3,1,0,0,1,1,,,,C_poza_pilotazem
+Medycyna sądowa,Małopolskie,lekarska,LEK,5,1,0,0,1,1,,,,C_poza_pilotazem
+Medycyna sądowa,Opolskie,lekarska,LEK,3,0,0,0,1,,,,,C_poza_pilotazem
+Medycyna sportowa,Łódzkie,lekarska,LEK,2,0,0,0,1,,,,,C_poza_pilotazem
+Medycyna sportowa,Podlaskie,lekarska,LEK,3,0,0,0,1,,,,,C_poza_pilotazem
+Mikrobiologia lekarska,Dolnośląskie,lekarska,LEK,3,0,0,0,1,,,,,C_poza_pilotazem
+Mikrobiologia lekarska,Małopolskie,lekarska,LEK,3,0,0,0,1,,,,,C_poza_pilotazem
+Mikrobiologia lekarska,Podlaskie,lekarska,LEK,3,0,0,0,2,,,,,C_poza_pilotazem
+Mikrobiologia lekarska,Pomorskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Mikrobiologia lekarska,Wielkopolskie,lekarska,LEK,3,0,0,0,1,,,,,C_poza_pilotazem
+Mikrobiologia lekarska,Lubelskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Mikrobiologia lekarska,Zachodniopomorskie,lekarska,LEK,0,0,0,0,,,,,,C_poza_pilotazem
+Nefrologia,Kujawsko-pomorskie,lekarska,LEK,7,4,0,0,10,1.5,,,,C_poza_pilotazem
+Nefrologia,Śląskie,lekarska,LEK,7,6,0,0,9,2.5,,,,C_poza_pilotazem
+Nefrologia,Świętokrzyskie,lekarska,LEK,7,4,0,0,3,2,,,,C_poza_pilotazem
+Nefrologia,Wielkopolskie,lekarska,LEK,7,4,0,0,5,3,,,,C_poza_pilotazem
+Nefrologia dziecięca,Kujawsko-pomorskie,lekarska,LEK,6,1,0,0,2.5,1,,,,C_poza_pilotazem
+Nefrologia dziecięca,Pomorskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Nefrologia dziecięca,Zachodniopomorskie,lekarska,LEK,3,0,0,0,1,,,,,C_poza_pilotazem
+Nefrologia dziecięca,Wielkopolskie,lekarska,LEK,2,0,0,0,1,,,,,C_poza_pilotazem
+Nefrologia dziecięca,Lubuskie,lekarska,LEK,0,0,0,0,,,,,,C_poza_pilotazem
+Neonatologia,Dolnośląskie,lekarska,LEK,7,6,0,0,10,3.5,,,,C_poza_pilotazem
+Neonatologia,Kujawsko-pomorskie,lekarska,LEK,7,4,0,0,8,1,,,,C_poza_pilotazem
+Neonatologia,Lubelskie,lekarska,LEK,7,4,0,0,12,2,,,,C_poza_pilotazem
+Neonatologia,Lubuskie,lekarska,LEK,7,3,0,0,5,1,,,,C_poza_pilotazem
+Neonatologia,Łódzkie,lekarska,LEK,7,7,0,0,6,2,,,,C_poza_pilotazem
+Neonatologia,Małopolskie,lekarska,LEK,7,6,0,0,15,2,,,,C_poza_pilotazem
+Neonatologia,Podlaskie,lekarska,LEK,7,1,0,0,4,1,,,,C_poza_pilotazem
+Neonatologia,Pomorskie,lekarska,LEK,7,5,0,0,6,2,,,,C_poza_pilotazem
+Neonatologia,Warmińsko-mazurskie,lekarska,LEK,7,6,0,0,4,1,,,,C_poza_pilotazem
+Neonatologia,Wielkopolskie,lekarska,LEK,7,6,0,0,18,2,,,,C_poza_pilotazem
+Neonatologia,Zachodniopomorskie,lekarska,LEK,7,4,0,0,3,1,,,,C_poza_pilotazem
+Neurologia,Kujawsko-pomorskie,lekarska,LEK,7,7,0,0,15,4,,,,C_poza_pilotazem
+Neurologia,Lubelskie,lekarska,LEK,7,7,0,0,25,3,,,,C_poza_pilotazem
+Neurologia,Małopolskie,lekarska,LEK,7,7,0,0,18,6,,,,C_poza_pilotazem
+Neurologia,Warmińsko-mazurskie,lekarska,LEK,7,5,0,0,9,5,,,,C_poza_pilotazem
+Neurologia,Zachodniopomorskie,lekarska,LEK,7,7,0,0,15,4,,,,C_poza_pilotazem
+Neurologia dziecięca,Zachodniopomorskie,lekarska,LEK,6,2,0,0,2,1,,,,C_poza_pilotazem
+Neuropatologia,Pomorskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Neuropatologia,Zachodniopomorskie,lekarska,LEK,4,0,0,0,1,,,,,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Kujawsko-pomorskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Lubelskie,lekarska,LEK,7,2,0,0,3,1,,,,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Łódzkie,lekarska,LEK,7,1,0,0,1,1,,,,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Podkarpackie,lekarska,LEK,7,3,0,0,2,1,,,,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Podlaskie,lekarska,LEK,7,1,0,0,3,1,,,,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Śląskie,lekarska,LEK,7,3,0,0,4,2,,,,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Wielkopolskie,lekarska,LEK,7,2,0,0,3,1,,,,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Zachodniopomorskie,lekarska,LEK,6,1,0,0,1,1,,,,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Lubuskie,lekarska,LEK,3,0,0,0,2,,,,,C_poza_pilotazem
+Onkologia i hematologia dziecięca,Świętokrzyskie,lekarska,LEK,1,0,0,0,1,,,,,C_poza_pilotazem
+Onkologia kliniczna,Dolnośląskie,lekarska,LEK,7,5,0,0,18,8,,,,C_poza_pilotazem
+Onkologia kliniczna,Kujawsko-pomorskie,lekarska,LEK,7,3,0,0,9,3,,,,C_poza_pilotazem
+Onkologia kliniczna,Lubelskie,lekarska,LEK,7,5,0,0,15,2,,,,C_poza_pilotazem
+Onkologia kliniczna,Lubuskie,lekarska,LEK,7,3,0,0,5,2,,,,C_poza_pilotazem
+Onkologia kliniczna,Łódzkie,lekarska,LEK,7,6,0,0,5,1.5,,,,C_poza_pilotazem
+Onkologia kliniczna,Mazowieckie,lekarska,LEK,7,7,0,0,39,6,,,,C_poza_pilotazem
+Onkologia kliniczna,Opolskie,lekarska,LEK,7,4,0,0,4,1,,,,C_poza_pilotazem
+Onkologia kliniczna,Podkarpackie,lekarska,LEK,7,3,0,0,9,2,,,,C_poza_pilotazem
+Onkologia kliniczna,Podlaskie,lekarska,LEK,5,3,0,0,4,1,,,,C_poza_pilotazem
+Onkologia kliniczna,Pomorskie,lekarska,LEK,7,6,0,0,5,2,,,,C_poza_pilotazem
+Onkologia kliniczna,Śląskie,lekarska,LEK,7,6,0,0,10,4,,,,C_poza_pilotazem
+Onkologia kliniczna,Świętokrzyskie,lekarska,LEK,7,4,0,0,10,1,,,,C_poza_pilotazem
+Onkologia kliniczna,Warmińsko-mazurskie,lekarska,LEK,7,2,0,0,4,1,,,,C_poza_pilotazem
+Onkologia kliniczna,Wielkopolskie,lekarska,LEK,7,6,0,0,20,5.5,,,,C_poza_pilotazem
+Onkologia kliniczna,Zachodniopomorskie,lekarska,LEK,7,2,0,0,11,2.5,,,,C_poza_pilotazem
+Otorynolaryngologia dziecięca,Świętokrzyskie,lekarska,LEK,0,0,0,0,,,,,,C_poza_pilotazem
+Patomorfologia,Dolnośląskie,lekarska,LEK,7,4,0,0,5,3,,,,C_poza_pilotazem
+Patomorfologia,Kujawsko-pomorskie,lekarska,LEK,7,6,0,0,4,1,,,,C_poza_pilotazem
+Patomorfologia,Lubelskie,lekarska,LEK,7,4,0,0,3,1,,,,C_poza_pilotazem
+Patomorfologia,Lubuskie,lekarska,LEK,7,2,0,0,4,1.5,,,,C_poza_pilotazem
+Patomorfologia,Opolskie,lekarska,LEK,7,0,0,0,2,,,,,C_poza_pilotazem
+Patomorfologia,Podkarpackie,lekarska,LEK,7,2,0,0,6,2.5,,,,C_poza_pilotazem
+Patomorfologia,Pomorskie,lekarska,LEK,7,7,0,0,5,2,,,,C_poza_pilotazem
+Patomorfologia,Świętokrzyskie,lekarska,LEK,7,3,0,0,6,1,,,,C_poza_pilotazem
+Patomorfologia,Warmińsko-mazurskie,lekarska,LEK,7,3,0,0,4,1,,,,C_poza_pilotazem
+Patomorfologia,Wielkopolskie,lekarska,LEK,7,6,0,0,10,3,,,,C_poza_pilotazem
+Patomorfologia,Zachodniopomorskie,lekarska,LEK,7,3,0,0,10,1,,,,C_poza_pilotazem
+Pediatria,Kujawsko-pomorskie,lekarska,LEK,7,7,0,0,20,6,,,,C_poza_pilotazem
+Pediatria,Lubelskie,lekarska,LEK,7,7,0,0,16,5,,,,C_poza_pilotazem
+Pediatria,Łódzkie,lekarska,LEK,7,7,0,0,18,4,,,,C_poza_pilotazem
+Pediatria,Małopolskie,lekarska,LEK,7,7,0,0,27,19,,,,C_poza_pilotazem
+Pediatria,Mazowieckie,lekarska,LEK,7,7,0,0,32,19,,,,C_poza_pilotazem
+Pediatria,Opolskie,lekarska,LEK,7,7,0,0,15,5,,,,C_poza_pilotazem
+Pediatria,Podlaskie,lekarska,LEK,7,6,0,0,27,4.5,,,,C_poza_pilotazem
+Pediatria,Warmińsko-mazurskie,lekarska,LEK,7,7,0,0,10,3,,,,C_poza_pilotazem
+Pediatria,Zachodniopomorskie,lekarska,LEK,7,7,0,0,14,3,,,,C_poza_pilotazem
+Pediatria metaboliczna,Mazowieckie,lekarska,LEK,3,1,0,0,2,3,,,,C_poza_pilotazem
+Pediatria metaboliczna,Pomorskie,lekarska,LEK,5,1,0,0,1,1,,,,C_poza_pilotazem
+Pediatria metaboliczna,Wielkopolskie,lekarska,LEK,5,0,0,0,1,,,,,C_poza_pilotazem
+Pediatria metaboliczna,Zachodniopomorskie,lekarska,LEK,5,0,0,0,2,,,,,C_poza_pilotazem
+Periodontologia,Opolskie,stomatologiczna,LDEK,0,0,0,0,,,,,,C_poza_pilotazem
+Położnictwo i ginekologia,Kujawsko-pomorskie,lekarska,LEK,7,7,0,0,8,5,,,,C_poza_pilotazem
+Położnictwo i ginekologia,Małopolskie,lekarska,LEK,7,7,0,0,16,15,,,,C_poza_pilotazem
+Psychiatria,Podkarpackie,lekarska,LEK,7,6,0,0,17,8,,,,C_poza_pilotazem
+Psychiatria,Zachodniopomorskie,lekarska,LEK,7,7,0,0,11,6,,,,C_poza_pilotazem
+Radioterapia onkologiczna,Dolnośląskie,lekarska,LEK,7,3,0,0,5,2,,,,C_poza_pilotazem
+Radioterapia onkologiczna,Kujawsko-pomorskie,lekarska,LEK,7,4,0,0,6,1,,,,C_poza_pilotazem
+Radioterapia onkologiczna,Lubelskie,lekarska,LEK,7,5,0,0,13,1,,,,C_poza_pilotazem
+Radioterapia onkologiczna,Lubuskie,lekarska,LEK,7,2,0,0,5,1.5,,,,C_poza_pilotazem
+Radioterapia onkologiczna,Małopolskie,lekarska,LEK,7,6,0,0,15,2.5,,,,C_poza_pilotazem
+Radioterapia onkologiczna,Opolskie,lekarska,LEK,7,1,0,0,2,1,,,,C_poza_pilotazem
+Radioterapia onkologiczna,Podkarpackie,lekarska,LEK,7,3,0,0,5,1,,,,C_poza_pilotazem
+Radioterapia onkologiczna,Podlaskie,lekarska,LEK,7,5,0,0,4,1,,,,C_poza_pilotazem
+Radioterapia onkologiczna,Śląskie,lekarska,LEK,7,7,0,0,8,2,,,,C_poza_pilotazem
+Radioterapia onkologiczna,Wielkopolskie,lekarska,LEK,7,3,0,0,5,2,,,,C_poza_pilotazem
+Radioterapia onkologiczna,Zachodniopomorskie,lekarska,LEK,6,0,0,0,5.5,,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Kujawsko-pomorskie,lekarska,LEK,7,4,0,0,3,2,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Lubelskie,lekarska,LEK,7,4,0,0,8,1,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Lubuskie,lekarska,LEK,6,0,0,0,2,,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Łódzkie,lekarska,LEK,7,3,0,0,6,1,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Małopolskie,lekarska,LEK,7,6,0,0,10,2,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Mazowieckie,lekarska,LEK,7,7,0,0,6,4,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Podkarpackie,lekarska,LEK,7,4,0,0,8,2,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Podlaskie,lekarska,LEK,7,3,0,0,3,1,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Pomorskie,lekarska,LEK,7,6,0,0,9,1,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Śląskie,lekarska,LEK,7,5,0,0,8,2,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Świętokrzyskie,lekarska,LEK,7,3,0,0,4,1,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Warmińsko-mazurskie,lekarska,LEK,6,2,0,0,3.5,1,,,,C_poza_pilotazem
+Rehabilitacja medyczna,Wielkopolskie,lekarska,LEK,7,5,0,0,5,1,,,,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Podlaskie,stomatologiczna,LDEK,7,7,0,0,11,4,,,,C_poza_pilotazem
+Stomatologia zachowawcza z endodoncją,Śląskie,stomatologiczna,LDEK,7,7,0,0,6,3,,,,C_poza_pilotazem
+Toksykologia kliniczna,Dolnośląskie,lekarska,LEK,6,0,0,0,2,,,,,C_poza_pilotazem
+Toksykologia kliniczna,Lubelskie,lekarska,LEK,6,0,0,0,2,,,,,C_poza_pilotazem
+Toksykologia kliniczna,Wielkopolskie,lekarska,LEK,3,0,0,0,1,,,,,C_poza_pilotazem
+Toksykologia kliniczna,Pomorskie,lekarska,LEK,5,1,0,0,3,1,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Dolnośląskie,lekarska,LEK,7,1,0,0,2,1,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Kujawsko-pomorskie,lekarska,LEK,6,0,0,0,1,,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Lubelskie,lekarska,LEK,7,1,0,0,1,1,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Lubuskie,lekarska,LEK,7,0,0,0,1,,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Opolskie,lekarska,LEK,6,0,0,0,2,,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Podkarpackie,lekarska,LEK,6,1,0,0,3,1,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Pomorskie,lekarska,LEK,6,0,0,0,3,,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Świętokrzyskie,lekarska,LEK,6,0,0,0,2,,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Wielkopolskie,lekarska,LEK,7,1,0,0,3,1,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Zachodniopomorskie,lekarska,LEK,7,0,0,0,2,,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Podlaskie,lekarska,LEK,5,0,0,0,1,,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Warmińsko-mazurskie,lekarska,LEK,2,0,0,0,1,,,,,C_poza_pilotazem
+Transfuzjologia kliniczna,Małopolskie,lekarska,LEK,3,1,0,0,1,1,,,,C_poza_pilotazem

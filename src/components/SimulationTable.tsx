@@ -1,99 +1,35 @@
 import { useMemo } from "react";
-import { getReportOptions } from "../data/reportData";
-import { useFilterStore } from "../state/filterStore";
+import { useSimulationScores, useUserScore } from "../hooks/useSimulationScores";
 import { useCalculatorStore } from "../state/calculatorStore";
 import { theme } from "../styles/theme";
 
 export function SimulationTable() {
-  const globalFilters = useFilterStore((state) => state.filters);
-  const activeData = useFilterStore((state) => state.activeData);
-  const {
-    tryb: calculatorTryb,
-    examPoints,
-    maxExamPoints,
-    hasPhD,
-    hasExperience,
-    isAcademicTeacher,
-    publicationsCount,
-    simulationRecruitment,
-    setSimulationRecruitment,
-  } = useCalculatorStore();
+  const { userPercent } = useUserScore();
+  const { specialty, tryb, rounds, round, regions, entries } = useSimulationScores();
+  const setSimulationRecruitment = useCalculatorStore((state) => state.setSimulationRecruitment);
 
-  const options = getReportOptions();
-
-  // Calculate the user's recruitment percentage score
-  const userPercent = useMemo(() => {
-    const actualExamPoints = Math.min(examPoints, maxExamPoints);
-    const phdPoints = hasPhD ? 5 : 0;
-    const pubPoints = Math.min(5, publicationsCount * 0.5);
-
-    let extraPoints = phdPoints + pubPoints;
-    let maxExtraPoints = 10;
-
-    if (calculatorTryb === "Pozarezydencki") {
-      const expPoints = hasExperience ? 5 : 0;
-      const academicPoints = isAcademicTeacher ? 5 : 0;
-      extraPoints += expPoints + academicPoints;
-      maxExtraPoints = 20;
-    }
-
-    const obtainedPoints = actualExamPoints + extraPoints;
-    const maxPossiblePoints = maxExamPoints + maxExtraPoints;
-
-    return maxPossiblePoints > 0 ? (obtainedPoints / maxPossiblePoints) * 100 : 0;
-  }, [calculatorTryb, examPoints, maxExamPoints, hasPhD, hasExperience, isAcademicTeacher, publicationsCount]);
-
-  // Find all unique voivodeships across the active database to keep the table stable
-  const allWojewodztwa = useMemo(() => {
-    const regions = activeData.map((row) => row.wojewodztwo);
-    return [...new Set(regions)].sort((a, b) => a.localeCompare(b, "pl"));
-  }, [activeData]);
-
-  // Filter rows matching: selected recruitment, selected specialization, selected calculator mode, excluding doctoral seats
-  const filteredRows = useMemo(() => {
-    return activeData.filter(
-      (row) =>
-        row.rekrutacja === simulationRecruitment &&
-        row.dziedzina_medycyny === globalFilters.dziedzinaMedycyny &&
-        row.tryb_szkolenia === calculatorTryb &&
-        row.czy_miejsca_doktoranckie !== "TAK"
-    );
-  }, [activeData, simulationRecruitment, globalFilters.dziedzinaMedycyny, calculatorTryb]);
-
-  // Group and count by voivodeship
+  // Count candidates per voivodeship below/above the user's score; every region stays listed so the table is stable.
   const tableData = useMemo(() => {
     const countsMap: Record<string, { lowerOrEqual: number; higher: number }> = {};
-
-    allWojewodztwa.forEach((woj) => {
+    regions.forEach((woj) => {
       countsMap[woj] = { lowerOrEqual: 0, higher: 0 };
     });
-
-    filteredRows.forEach((row) => {
-      const score = row.punktacja_proc;
-      const woj = row.wojewodztwo;
-      if (countsMap[woj]) {
-        // Compare candidate percentage vs user percentage
-        if (score <= userPercent) {
-          countsMap[woj].lowerOrEqual += 1;
-        } else {
-          countsMap[woj].higher += 1;
-        }
-      }
+    entries.forEach((entry) => {
+      const counts = countsMap[entry.wojewodztwo];
+      if (!counts) return;
+      if (entry.score <= userPercent) counts.lowerOrEqual += 1;
+      else counts.higher += 1;
     });
-
     return countsMap;
-  }, [allWojewodztwa, filteredRows, userPercent]);
+  }, [entries, regions, userPercent]);
 
-  // Calculate Grand Totals
   const grandTotals = useMemo(() => {
     let lowerOrEqual = 0;
     let higher = 0;
-
     Object.values(tableData).forEach((counts) => {
       lowerOrEqual += counts.lowerOrEqual;
       higher += counts.higher;
     });
-
     return { lowerOrEqual, higher };
   }, [tableData]);
 
@@ -109,30 +45,33 @@ export function SimulationTable() {
     return <span style={cellStyle}>{value}</span>;
   };
 
-  const hasData = filteredRows.length > 0;
+  const hasData = entries.length > 0;
 
   return (
     <section className="simulation-visual">
       <div className="simulation-header">
         <span>Symulacja szans rekrutacyjnych</span>
-        <div className="simulation-filter">
-          <label htmlFor="simulation-recruitment-select">Rekrutacja:</label>
-          <select
-            id="simulation-recruitment-select"
-            value={simulationRecruitment}
-            onChange={(e) => setSimulationRecruitment(e.target.value)}
-          >
-            {options.rekrutacje.map((rec) => (
-              <option key={rec} value={rec}>
-                {rec}
-              </option>
-            ))}
-          </select>
-        </div>
+        {round && (
+          <div className="simulation-filter">
+            <label htmlFor="simulation-recruitment-select">Rekrutacja:</label>
+            <select
+              id="simulation-recruitment-select"
+              value={round}
+              onChange={(e) => setSimulationRecruitment(e.target.value)}
+            >
+              {rounds.map((rec) => (
+                <option key={rec} value={rec}>
+                  {rec}
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
       </div>
 
       <div className="simulation-info">
-        Porównanie Twojego wyniku <strong>({userPercent.toFixed(2)}%)</strong> z wynikami osób zakwalifikowanych dla specjalizacji: <strong>{globalFilters.dziedzinaMedycyny}</strong> ({calculatorTryb})
+        Porównanie Twojego wyniku <strong>({userPercent.toFixed(2)}%)</strong> z wynikami osób zakwalifikowanych dla
+        specjalizacji: <strong>{specialty}</strong> ({tryb}).
       </div>
 
       <div className="pivot-scroll">
@@ -145,17 +84,12 @@ export function SimulationTable() {
             </tr>
           </thead>
           <tbody>
-            {/* Grand Total Row */}
             <tr className="grand-total-row">
               <th scope="row" style={{ fontWeight: 800 }}>Łącznie</th>
-              <td style={{ fontWeight: 800 }}>
-                {renderCell(grandTotals.lowerOrEqual, "lower")}
-              </td>
-              <td style={{ fontWeight: 800 }}>
-                {renderCell(grandTotals.higher, "higher")}
-              </td>
+              <td style={{ fontWeight: 800 }}>{renderCell(grandTotals.lowerOrEqual, "lower")}</td>
+              <td style={{ fontWeight: 800 }}>{renderCell(grandTotals.higher, "higher")}</td>
             </tr>
-            {allWojewodztwa.map((woj) => {
+            {regions.map((woj) => {
               const counts = tableData[woj];
               return (
                 <tr key={woj}>
@@ -170,7 +104,7 @@ export function SimulationTable() {
 
         {!hasData && (
           <div className="no-data-alert">
-            Brak danych rekrutacyjnych dla wybranych kryteriów w rundzie {simulationRecruitment}.
+            Brak danych rekrutacyjnych dla wybranych kryteriów{round ? ` w rundzie ${round}` : ""}.
           </div>
         )}
       </div>

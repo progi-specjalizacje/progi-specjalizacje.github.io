@@ -1,16 +1,16 @@
 import { create } from "zustand";
 
+// Tryb szkolenia i specjalizacja pochodzą z filterStore, wspólnego dla raportu i kalkulatora.
 export interface CalculatorState {
-  tryb: "Rezydencki" | "Pozarezydencki";
   examPoints: number;
   maxExamPoints: number;
   hasPhD: boolean;
   hasExperience: boolean; // non-residency: 3-year employment
   isAcademicTeacher: boolean; // non-residency: academic teacher
   publicationsCount: number;
+  /** Rekrutacja dla histogramu i symulacji; pusta = najnowsza z danymi. */
   simulationRecruitment: string;
 
-  setTryb: (tryb: "Rezydencki" | "Pozarezydencki") => void;
   setExamPoints: (points: number) => void;
   setMaxExamPoints: (maxPoints: number) => void;
   setHasPhD: (hasPhD: boolean) => void;
@@ -21,16 +21,14 @@ export interface CalculatorState {
 }
 
 export const useCalculatorStore = create<CalculatorState>((set) => ({
-  tryb: "Rezydencki",
   examPoints: 160,
   maxExamPoints: 200,
   hasPhD: false,
   hasExperience: false,
   isAcademicTeacher: false,
   publicationsCount: 0,
-  simulationRecruitment: "w-2026",
+  simulationRecruitment: "",
 
-  setTryb: (tryb) => set({ tryb }),
   setExamPoints: (examPoints) => set({ examPoints }),
   setMaxExamPoints: (maxExamPoints) => set({ maxExamPoints }),
   setHasPhD: (hasPhD) => set({ hasPhD }),

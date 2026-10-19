@@ -1,0 +1,803 @@
+rekrutacja,wojewodztwo,dziedzina_medycyny,liczba_miejsc,miejsca_kraj_specjalizacja,typowe_miejsca_kraj_specjalizacja_przed_runda,relacja_miejsc_kraj_do_typowych,udzial_miejsc_wojewodztwa_w_specjalizacji,prognoza_produkcyjna,prognoza_current_context,prognoza_relative_to_history,prognoza_combined,prognoza_blend_produkcja_supply_50_50,status
+j-2026,Kujawsko-pomorskie,Alergologia,2,20,19,1.05,0.1,88.822,88.718,88.577,88.792,88.807,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Alergologia,2,20,19,1.05,0.1,89.695,89.203,88.866,89.028,89.361,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Alergologia,2,20,19,1.05,0.1,89.472,89.24,89.284,89.515,89.493,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Alergologia,3,20,19,1.05,0.15,91.074,90.843,90.67,90.782,90.928,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Alergologia,3,20,19,1.05,0.15,90.329,90.226,89.499,89.728,90.028,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Alergologia,1,20,19,1.05,0.05,89.54,89.34,89.35,89.632,89.586,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Alergologia,2,20,19,1.05,0.1,85.06,85.674,85.437,85.509,85.284,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Alergologia,1,20,19,1.05,0.05,91.713,91.441,91.405,91.656,91.685,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Alergologia,1,20,19,1.05,0.05,92.16,91.838,91.489,91.676,91.918,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Alergologia,3,20,19,1.05,0.15,86.12,86.199,85.807,85.963,86.042,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Anestezjologia i intensywna terapia,15,181,225,0.80531,0.082873,83.24,82.888,83.706,83.78,83.51,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Anestezjologia i intensywna terapia,3,181,225,0.80531,0.016575,86.865,86.497,86.695,87.159,87.012,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Anestezjologia i intensywna terapia,6,181,225,0.80531,0.033149,84.527,84.811,84.583,84.981,84.754,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Anestezjologia i intensywna terapia,2,181,225,0.80531,0.01105,83.625,83.508,84.012,84.026,83.825,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Anestezjologia i intensywna terapia,16,181,225,0.80531,0.088398,84.52,83.354,84.301,84.151,84.336,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Anestezjologia i intensywna terapia,18,181,225,0.80531,0.099448,86.345,85.606,85.774,86.041,86.193,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Anestezjologia i intensywna terapia,25,181,225,0.80531,0.138122,86.554,85.765,86.39,86.491,86.523,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Anestezjologia i intensywna terapia,4,181,225,0.80531,0.022099,84.062,83.563,84.167,84.391,84.226,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Anestezjologia i intensywna terapia,13,181,225,0.80531,0.071823,81.056,80.728,81.372,81.483,81.27,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Anestezjologia i intensywna terapia,8,181,225,0.80531,0.044199,82.448,82.454,82.758,82.984,82.716,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Anestezjologia i intensywna terapia,10,181,225,0.80531,0.055249,84.066,84.385,84.37,84.658,84.362,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Anestezjologia i intensywna terapia,18,181,225,0.80531,0.099448,86.362,85.419,85.932,86.185,86.274,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Anestezjologia i intensywna terapia,6,181,225,0.80531,0.033149,81.595,81.474,81.489,81.96,81.778,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,6,181,225,0.80531,0.033149,84.47,83.641,83.633,84.171,84.32,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Anestezjologia i intensywna terapia,18,181,225,0.80531,0.099448,86.19,85.328,85.756,85.771,85.981,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Anestezjologia i intensywna terapia,13,181,225,0.80531,0.071823,84.548,82.697,82.837,83.012,83.78,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Balneologia i medycyna fizykalna,1,8,2,3,0.125,77.215,78.662,77.705,77.791,77.503,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Balneologia i medycyna fizykalna,1,8,2,3,0.125,77.845,77.956,76.711,76.853,77.349,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Balneologia i medycyna fizykalna,1,8,2,3,0.125,78.674,78.857,78.14,78.355,78.515,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Balneologia i medycyna fizykalna,2,8,2,3,0.25,77.777,77.199,76.066,75.974,76.876,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Balneologia i medycyna fizykalna,1,8,2,3,0.125,78.095,78.22,76.993,77.128,77.611,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Balneologia i medycyna fizykalna,1,8,2,3,0.125,77.411,78.885,77.632,77.668,77.54,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Balneologia i medycyna fizykalna,1,8,2,3,0.125,76.886,77.073,75.761,76.068,76.477,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia dziecięca,2,36,42,0.860465,0.055556,86.891,86.384,86.638,87.006,86.949,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Chirurgia dziecięca,2,36,42,0.860465,0.055556,85.668,84.705,84.721,85.019,85.343,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia dziecięca,2,36,42,0.860465,0.055556,84.355,83.975,83.476,83.763,84.059,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Chirurgia dziecięca,1,36,42,0.860465,0.027778,82.329,82.153,82.724,83.008,82.669,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Chirurgia dziecięca,1,36,42,0.860465,0.027778,85.453,85.28,85.685,85.746,85.599,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia dziecięca,3,36,42,0.860465,0.083333,85.256,85.429,84.602,85.089,85.173,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia dziecięca,4,36,42,0.860465,0.111111,87.175,86.865,86.77,87.246,87.211,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Chirurgia dziecięca,2,36,42,0.860465,0.055556,82.297,82.212,81.892,82.313,82.305,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Chirurgia dziecięca,2,36,42,0.860465,0.055556,81.998,81.8,81.725,81.995,81.997,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Chirurgia dziecięca,3,36,42,0.860465,0.083333,82.631,82.307,81.617,81.962,82.296,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia dziecięca,3,36,42,0.860465,0.083333,85.677,85.56,85.627,86.026,85.852,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia dziecięca,4,36,42,0.860465,0.111111,86.391,86.049,85.865,86.213,86.302,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Chirurgia dziecięca,1,36,42,0.860465,0.027778,83.717,83.34,82.991,83.255,83.486,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia dziecięca,2,36,42,0.860465,0.055556,81.521,81.448,81.035,81.47,81.496,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia dziecięca,3,36,42,0.860465,0.083333,86.608,86.576,86.351,86.812,86.71,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia dziecięca,1,36,42,0.860465,0.027778,86.844,86.206,85.825,86.141,86.493,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia klatki piersiowej,1,15,15,1,0.066667,80.023,80.328,79.805,80.128,80.076,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia klatki piersiowej,1,15,15,1,0.066667,79.72,79.693,79.66,79.988,79.854,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Chirurgia klatki piersiowej,1,15,15,1,0.066667,80.535,79.762,79.286,79.595,80.065,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia klatki piersiowej,2,15,15,1,0.133333,80.646,80.289,80.006,80.244,80.445,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia klatki piersiowej,1,15,15,1,0.066667,80.74,80.684,80.862,81.137,80.938,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia klatki piersiowej,2,15,15,1,0.133333,78.638,78.587,78.2,78.524,78.581,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia klatki piersiowej,2,15,15,1,0.133333,79.379,79.138,78.611,78.913,79.146,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia klatki piersiowej,1,15,15,1,0.066667,77.899,77.044,76.551,76.854,77.376,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia klatki piersiowej,2,15,15,1,0.133333,81.101,80.598,80.177,80.54,80.821,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia klatki piersiowej,2,15,15,1,0.133333,75.106,75.12,74.771,75.147,75.126,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia naczyniowa,4,18,15,1.1875,0.222222,85.819,84.748,84.459,84.171,84.995,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia naczyniowa,1,18,15,1.1875,0.055556,88.972,88.59,88.346,88.309,88.64,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia naczyniowa,3,18,15,1.1875,0.166667,87.901,87.156,87.144,87.145,87.523,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia naczyniowa,2,18,15,1.1875,0.111111,86.54,86.63,86.249,86.266,86.403,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia naczyniowa,2,18,15,1.1875,0.111111,89.531,88.481,88.508,88.588,89.059,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Chirurgia naczyniowa,2,18,15,1.1875,0.111111,83.83,83.36,83.284,83.367,83.598,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia naczyniowa,1,18,15,1.1875,0.055556,86.747,85.54,85.128,85.291,86.019,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia naczyniowa,2,18,15,1.1875,0.111111,88.45,88.098,87.55,87.67,88.06,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia naczyniowa,1,18,15,1.1875,0.055556,83.311,83.005,82.921,82.868,83.089,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia ogólna,20,296,222,1.331839,0.067568,74.829,74.646,74.7,74.923,74.876,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Chirurgia ogólna,18,296,222,1.331839,0.060811,73.752,73.548,73.429,73.652,73.702,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia ogólna,12,296,222,1.331839,0.040541,76.283,76.141,76.213,76.59,76.436,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Chirurgia ogólna,8,296,222,1.331839,0.027027,73.24,73.055,72.726,73.093,73.167,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Chirurgia ogólna,29,296,222,1.331839,0.097973,74.412,73.761,74.682,74.197,74.304,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia ogólna,25,296,222,1.331839,0.084459,77.151,76.52,78.159,77.779,77.465,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia ogólna,47,296,222,1.331839,0.158784,78.082,76.793,78.938,77.572,77.827,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Chirurgia ogólna,15,296,222,1.331839,0.050676,74.098,73.872,74.131,74.362,74.23,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Chirurgia ogólna,13,296,222,1.331839,0.043919,75.445,74.655,74.416,74.701,75.073,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Chirurgia ogólna,12,296,222,1.331839,0.040541,75.287,75,75.138,75.32,75.304,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia ogólna,7,296,222,1.331839,0.023649,80.645,80.108,80.072,80.587,80.616,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia ogólna,25,296,222,1.331839,0.084459,73.523,73.469,72.739,73.013,73.268,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Chirurgia ogólna,10,296,222,1.331839,0.033784,75.096,74.885,74.65,75.016,75.056,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia ogólna,19,296,222,1.331839,0.064189,73.265,72.959,73.536,73.634,73.45,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia ogólna,30,296,222,1.331839,0.101351,77.575,76.868,76.738,76.773,77.174,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia ogólna,6,296,222,1.331839,0.02027,75.142,76.18,76.351,76.75,75.946,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia onkologiczna,5,43,42,1.023256,0.116279,80.912,80.696,80.408,80.594,80.753,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Chirurgia onkologiczna,2,43,42,1.023256,0.046512,83.203,82.705,82.507,82.757,82.98,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia onkologiczna,1,43,42,1.023256,0.023256,86.518,85.675,85.554,85.544,86.031,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Chirurgia onkologiczna,3,43,42,1.023256,0.069767,81.531,80.913,80.666,80.915,81.223,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Chirurgia onkologiczna,3,43,42,1.023256,0.069767,83.639,83.567,83.115,83.312,83.475,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia onkologiczna,1,43,42,1.023256,0.023256,86.515,87.068,87.098,87.083,86.799,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia onkologiczna,10,43,42,1.023256,0.232558,82.077,81.358,81.615,81.611,81.844,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Chirurgia onkologiczna,1,43,42,1.023256,0.023256,83.764,82.263,82.429,82.297,83.03,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Chirurgia onkologiczna,1,43,42,1.023256,0.023256,84.093,83.82,83.779,83.791,83.942,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia onkologiczna,2,43,42,1.023256,0.046512,84.005,84.295,83.61,84.146,84.076,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia onkologiczna,4,43,42,1.023256,0.093023,83.539,83.364,83.549,83.667,83.603,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia onkologiczna,3,43,42,1.023256,0.069767,80.42,80.228,79.651,79.879,80.15,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia onkologiczna,4,43,42,1.023256,0.093023,86.323,86.378,85.892,86.217,86.27,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia onkologiczna,3,43,42,1.023256,0.069767,79.669,79.513,79.161,79.379,79.524,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia plastyczna,1,8,6,1.285714,0.125,95.404,95.298,94.722,94.981,95.192,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia plastyczna,1,8,6,1.285714,0.125,93.38,93.423,93.342,93.405,93.392,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia plastyczna,2,8,6,1.285714,0.25,93.177,92.928,92.597,92.489,92.833,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia plastyczna,3,8,6,1.285714,0.375,92.091,91.196,91.285,90.652,91.371,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Chirurgia plastyczna,1,8,6,1.285714,0.125,92.39,92.321,91.901,92.097,92.243,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Chirurgia stomatologiczna,2,36,29,1.233333,0.055556,88.542,88.167,88.149,88.462,88.502,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Chirurgia stomatologiczna,1,36,29,1.233333,0.027778,88.778,88.472,88.592,88.548,88.663,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Chirurgia stomatologiczna,6,36,29,1.233333,0.166667,85.711,85.394,84.938,85.22,85.466,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Chirurgia stomatologiczna,2,36,29,1.233333,0.055556,89.788,89.315,88.952,89.146,89.467,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Chirurgia stomatologiczna,3,36,29,1.233333,0.083333,88.477,88.396,88.078,88.161,88.319,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Chirurgia stomatologiczna,2,36,29,1.233333,0.055556,90.072,89.844,89.525,89.669,89.87,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Chirurgia stomatologiczna,2,36,29,1.233333,0.055556,85.879,85.897,85.404,85.547,85.713,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Chirurgia stomatologiczna,2,36,29,1.233333,0.055556,84.897,84.78,84.848,84.865,84.881,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Chirurgia stomatologiczna,3,36,29,1.233333,0.083333,85.693,85.653,85.381,85.514,85.604,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Chirurgia stomatologiczna,2,36,29,1.233333,0.055556,87.929,87.502,87.526,87.525,87.727,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Chirurgia stomatologiczna,5,36,29,1.233333,0.138889,88.382,88.274,88.139,88.218,88.3,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Chirurgia stomatologiczna,2,36,29,1.233333,0.055556,87.391,87.273,86.783,87.072,87.231,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Chirurgia stomatologiczna,2,36,29,1.233333,0.055556,86.17,85.881,85.218,85.477,85.823,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Chirurgia stomatologiczna,2,36,29,1.233333,0.055556,88.594,88.358,87.891,87.966,88.28,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Choroby płuc,7,84,74,1.133333,0.083333,85.132,84.394,84.47,84.733,84.933,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Choroby płuc,6,84,74,1.133333,0.071429,86.445,85.747,84.633,85.429,85.937,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Choroby płuc,2,84,74,1.133333,0.02381,87.488,86.546,86.631,86.691,87.09,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Choroby płuc,4,84,74,1.133333,0.047619,79.499,79.3,79.565,79.805,79.652,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Choroby płuc,8,84,74,1.133333,0.095238,83.427,82.623,82.634,82.686,83.056,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Choroby płuc,9,84,74,1.133333,0.107143,82.783,82.295,83.674,83.509,83.146,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Choroby płuc,9,84,74,1.133333,0.107143,85.109,84.727,84.957,85.089,85.099,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Choroby płuc,5,84,74,1.133333,0.059524,83.001,82.784,82.913,83.206,83.103,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Choroby płuc,5,84,74,1.133333,0.059524,83.087,82.007,81.974,82.345,82.716,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Choroby płuc,2,84,74,1.133333,0.02381,88.174,87.19,87.242,87.343,87.759,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Choroby płuc,10,84,74,1.133333,0.119048,84.86,84.041,84.912,84.807,84.834,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Choroby płuc,4,84,74,1.133333,0.047619,83.625,83.862,83.807,84.088,83.856,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Choroby płuc,1,84,74,1.133333,0.011905,85.798,84.238,84.472,84.27,85.034,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Choroby płuc,6,84,74,1.133333,0.071429,84.13,82.88,82.795,83.223,83.676,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Choroby płuc,6,84,74,1.133333,0.071429,78.369,78.086,78.323,78.409,78.389,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Choroby płuc dzieci,1,15,18,0.842105,0.066667,88.99,89.053,89.101,89.32,89.155,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Choroby płuc dzieci,2,15,18,0.842105,0.133333,86.833,86.659,86.75,86.853,86.843,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Choroby płuc dzieci,1,15,18,0.842105,0.066667,89.059,88.488,88.353,88.501,88.78,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Choroby płuc dzieci,2,15,18,0.842105,0.133333,84.881,84.649,85.382,85.433,85.157,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Choroby płuc dzieci,2,15,18,0.842105,0.133333,87.462,87.174,87.666,87.703,87.583,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Choroby płuc dzieci,5,15,18,0.842105,0.333333,88.894,88.177,88.208,87.88,88.387,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Choroby płuc dzieci,1,15,18,0.842105,0.066667,85.613,85.487,85.554,85.816,85.714,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Choroby płuc dzieci,1,15,18,0.842105,0.066667,89.509,89.455,89.245,89.45,89.479,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Choroby wewnętrzne,60,772,535,1.442164,0.07772,74.919,74.468,73.614,73.127,74.023,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Choroby wewnętrzne,35,772,535,1.442164,0.045337,77.062,75.132,75.499,75.241,76.151,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Choroby wewnętrzne,40,772,535,1.442164,0.051813,78.492,76.8,78.291,77.436,77.964,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Choroby wewnętrzne,25,772,535,1.442164,0.032383,73.706,73.395,73.652,73.789,73.747,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Choroby wewnętrzne,50,772,535,1.442164,0.064767,73.001,72.626,71.608,71.25,72.126,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Choroby wewnętrzne,60,772,535,1.442164,0.07772,72.324,72.222,69.565,69.363,70.844,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Choroby wewnętrzne,58,772,535,1.442164,0.07513,82.235,80.817,84.055,82.561,82.398,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Choroby wewnętrzne,24,772,535,1.442164,0.031088,74.067,73.927,73.738,74.072,74.07,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Choroby wewnętrzne,50,772,535,1.442164,0.064767,72.938,72.36,72.393,71.816,72.377,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Choroby wewnętrzne,60,772,535,1.442164,0.07772,76.171,74.644,77.012,75.187,75.679,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Choroby wewnętrzne,60,772,535,1.442164,0.07772,75.719,75.265,74.584,74.13,74.924,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Choroby wewnętrzne,60,772,535,1.442164,0.07772,78.94,77.287,80.531,78.606,78.773,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Choroby wewnętrzne,60,772,535,1.442164,0.07772,78.002,76.151,79.791,77.667,77.834,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Choroby wewnętrzne,30,772,535,1.442164,0.03886,71.731,71.742,71.026,71.45,71.591,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Choroby wewnętrzne,40,772,535,1.442164,0.051813,76.372,76.035,75.932,75.833,76.102,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Choroby wewnętrzne,60,772,535,1.442164,0.07772,75.642,74.098,76.9,75.063,75.353,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Choroby zakaźne,3,134,84,1.588235,0.022388,84.176,83.26,82.898,82.624,83.4,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Choroby zakaźne,8,134,84,1.588235,0.059701,79.937,79.614,78.906,78.822,79.38,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Choroby zakaźne,14,134,84,1.588235,0.104478,78.999,78.703,77.566,77.427,78.213,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Choroby zakaźne,2,134,84,1.588235,0.014925,82.519,81.527,81.419,80.868,81.694,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Choroby zakaźne,6,134,84,1.588235,0.044776,81.044,80.595,80.105,79.859,80.451,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Choroby zakaźne,10,134,84,1.588235,0.074627,80.638,80.215,79.958,79.7,80.169,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Choroby zakaźne,19,134,84,1.588235,0.141791,79.23,78.759,78.266,77.85,78.54,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Choroby zakaźne,3,134,84,1.588235,0.022388,82.368,81.795,81.54,81.232,81.8,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Choroby zakaźne,10,134,84,1.588235,0.074627,79.495,79.095,78.782,78.587,79.041,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Choroby zakaźne,19,134,84,1.588235,0.141791,78.761,78.05,78.358,77.668,78.214,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Choroby zakaźne,6,134,84,1.588235,0.044776,83.983,82.895,82.698,82.439,83.211,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Choroby zakaźne,13,134,84,1.588235,0.097015,81.376,80.617,81.503,80.831,81.104,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Choroby zakaźne,2,134,84,1.588235,0.014925,81.425,80.663,80.75,80.227,80.826,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Choroby zakaźne,7,134,84,1.588235,0.052239,79.731,78.623,77.882,77.643,78.687,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Choroby zakaźne,10,134,84,1.588235,0.074627,81.094,80.625,80.151,79.862,80.478,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Choroby zakaźne,2,134,84,1.588235,0.014925,81.166,80.459,81.31,80.778,80.972,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Dermatologia i wenerologia,2,15,23,0.666667,0.133333,95.053,95.034,94.562,94.867,94.96,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Dermatologia i wenerologia,2,15,23,0.666667,0.133333,95.716,95.497,95.333,95.683,95.7,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Dermatologia i wenerologia,1,15,23,0.666667,0.066667,97.13,97.047,97.279,97.537,97.333,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Dermatologia i wenerologia,1,15,23,0.666667,0.066667,95.75,95.896,96.207,96.67,96.21,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Dermatologia i wenerologia,1,15,23,0.666667,0.066667,95.907,95.863,95.658,96.105,96.006,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Dermatologia i wenerologia,2,15,23,0.666667,0.133333,94.135,93.999,93.478,93.8,93.967,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Dermatologia i wenerologia,1,15,23,0.666667,0.066667,95.869,95.765,95.726,96.064,95.967,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Dermatologia i wenerologia,1,15,23,0.666667,0.066667,96.562,96.539,96.479,96.784,96.673,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Dermatologia i wenerologia,1,15,23,0.666667,0.066667,93.503,93.708,93.372,93.745,93.624,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Dermatologia i wenerologia,1,15,23,0.666667,0.066667,92.899,93.063,92.409,92.936,92.918,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Dermatologia i wenerologia,2,15,23,0.666667,0.133333,93.828,93.725,93.875,94.213,94.021,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Diabetologia,2,43,21,2,0.046512,88.646,88.275,87.602,87.562,88.104,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Diabetologia,3,43,21,2,0.069767,87.221,87.265,86.629,86.646,86.933,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Diabetologia,5,43,21,2,0.116279,88.272,87.905,87.664,87.673,87.973,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Diabetologia,1,43,21,2,0.023256,87.211,86.6,86.352,86.154,86.683,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Diabetologia,5,43,21,2,0.116279,88.957,88.174,87.826,87.831,88.394,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Diabetologia,1,43,21,2,0.023256,90.312,89.9,90.329,90.035,90.173,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Diabetologia,4,43,21,2,0.093023,89.98,89.172,88.978,89.025,89.503,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Diabetologia,2,43,21,2,0.046512,87.767,87.006,86.37,86.374,87.07,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Diabetologia,5,43,21,2,0.116279,88.383,87.908,87.226,87.339,87.861,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Diabetologia,2,43,21,2,0.046512,87.202,86.82,86.695,86.506,86.854,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Diabetologia,6,43,21,2,0.139535,90.675,90.088,89.563,89.758,90.216,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Diabetologia,2,43,21,2,0.046512,88.5,87.585,86.869,86.949,87.725,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Diabetologia,1,43,21,2,0.023256,90.348,89.622,89.214,89.058,89.703,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Diabetologia,4,43,21,2,0.093023,86.174,85.47,85.449,85.381,85.778,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Diagnostyka laboratoryjna,1,3,5,0.666667,0.333333,81.084,80.898,80.759,80.794,80.939,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Diagnostyka laboratoryjna,1,3,5,0.666667,0.333333,78.15,77.87,77.88,78.018,78.084,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Diagnostyka laboratoryjna,1,3,5,0.666667,0.333333,80.606,80.276,80.308,80.358,80.482,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Endokrynologia,2,19,21,0.909091,0.105263,92.962,92.964,92.817,93.055,93.008,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Endokrynologia,1,19,21,0.909091,0.052632,96.763,96.498,96.32,96.65,96.707,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Endokrynologia,2,19,21,0.909091,0.105263,95.931,95.832,95.819,96.032,95.982,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Endokrynologia,3,19,21,0.909091,0.157895,96.282,96.119,96.291,96.513,96.397,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Endokrynologia,2,19,21,0.909091,0.105263,93.77,93.556,92.942,93.358,93.564,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Endokrynologia,1,19,21,0.909091,0.052632,93.906,93.747,93.515,93.714,93.81,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Endokrynologia,2,19,21,0.909091,0.105263,93.766,93.704,93.395,93.691,93.728,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Endokrynologia,1,19,21,0.909091,0.052632,97.667,97.303,97.789,98.127,97.897,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Endokrynologia,1,19,21,0.909091,0.052632,93.584,93.856,93.519,93.85,93.717,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Endokrynologia,1,19,21,0.909091,0.052632,92.927,92.426,92.167,92.425,92.676,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Endokrynologia,2,19,21,0.909091,0.105263,95.956,95.862,95.653,95.972,95.964,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Endokrynologia,1,19,21,0.909091,0.052632,94.234,94.223,94.441,94.832,94.533,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Endokrynologia i diabetologia dziecięca,1,21,6,3.142857,0.047619,90.805,90.445,89.806,89.501,90.153,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Endokrynologia i diabetologia dziecięca,2,21,6,3.142857,0.095238,89.387,88.889,88.06,87.767,88.577,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Endokrynologia i diabetologia dziecięca,1,21,6,3.142857,0.047619,92.004,91.862,91.465,91.311,91.658,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Endokrynologia i diabetologia dziecięca,7,21,6,3.142857,0.333333,91.089,89.795,89.339,88.633,89.861,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Endokrynologia i diabetologia dziecięca,3,21,6,3.142857,0.142857,87.498,86.864,85.871,85.642,86.57,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Endokrynologia i diabetologia dziecięca,2,21,6,3.142857,0.095238,92.295,91.713,90.626,90.531,91.413,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Endokrynologia i diabetologia dziecięca,1,21,6,3.142857,0.047619,89.012,88.801,88.067,87.917,88.464,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Endokrynologia i diabetologia dziecięca,2,21,6,3.142857,0.095238,90.327,90.038,89.461,89.29,89.808,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Endokrynologia i diabetologia dziecięca,2,21,6,3.142857,0.095238,89.461,88.958,88.04,87.918,88.69,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Farmakologia kliniczna,2,7,4,1.6,0.285714,84.872,84.33,84.038,83.533,84.203,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Farmakologia kliniczna,2,7,4,1.6,0.285714,88.519,87.766,87.39,86.943,87.731,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Farmakologia kliniczna,2,7,4,1.6,0.285714,83.892,83.339,82.981,82.451,83.172,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Farmakologia kliniczna,1,7,4,1.6,0.142857,83.974,83.883,83.643,83.61,83.792,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Gastroenterologia,3,32,16,1.941176,0.09375,90.788,90.31,89.871,89.708,90.248,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Gastroenterologia,1,32,16,1.941176,0.03125,91.065,90.723,90.601,90.229,90.647,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Gastroenterologia,1,32,16,1.941176,0.03125,92.764,92.3,92.352,92.122,92.443,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Gastroenterologia,6,32,16,1.941176,0.1875,91.855,91.105,90.245,90.05,90.952,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Gastroenterologia,2,32,16,1.941176,0.0625,95.361,94.939,94.472,94.465,94.913,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Gastroenterologia,7,32,16,1.941176,0.21875,90.11,88.754,88.343,87.889,88.999,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Gastroenterologia,5,32,16,1.941176,0.15625,91.989,91.468,90.99,90.903,91.446,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Gastroenterologia,1,32,16,1.941176,0.03125,92.332,92.196,92.344,92.117,92.225,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Gastroenterologia,2,32,16,1.941176,0.0625,94.436,93.971,93.652,93.568,94.002,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Gastroenterologia,2,32,16,1.941176,0.0625,88.739,88.384,87.969,87.796,88.268,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Gastroenterologia,2,32,16,1.941176,0.0625,91.497,91.025,90.847,90.887,91.192,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Gastroenterologia dziecięca,1,10,9,1.1,0.1,87.6,87.392,87.99,87.869,87.734,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Gastroenterologia dziecięca,4,10,9,1.1,0.4,85.274,83.743,84.143,83.247,84.26,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Gastroenterologia dziecięca,4,10,9,1.1,0.4,88.186,87.193,87.552,86.805,87.495,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Gastroenterologia dziecięca,1,10,9,1.1,0.1,89.755,88.898,88.796,88.628,89.192,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Genetyka kliniczna,1,12,9,1.3,0.083333,82.835,82.795,82.812,83.024,82.929,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Genetyka kliniczna,1,12,9,1.3,0.083333,83.946,83.338,82.742,82.932,83.439,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Genetyka kliniczna,1,12,9,1.3,0.083333,84.392,85.895,85.31,85.533,84.963,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Genetyka kliniczna,3,12,9,1.3,0.25,84.028,83.708,83.658,83.59,83.809,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Genetyka kliniczna,1,12,9,1.3,0.083333,86.918,86.762,86.085,86.363,86.641,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Genetyka kliniczna,3,12,9,1.3,0.25,81.792,81.56,81.514,81.526,81.659,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Genetyka kliniczna,1,12,9,1.3,0.083333,84.477,84.708,84.276,84.377,84.427,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Genetyka kliniczna,1,12,9,1.3,0.083333,83.914,84.241,83.689,84.006,83.96,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Geriatria,4,87,73,1.189189,0.045977,80.544,80.185,80.289,80.29,80.417,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Geriatria,10,87,73,1.189189,0.114943,76.584,76.297,76.076,76.125,76.354,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Geriatria,7,87,73,1.189189,0.08046,76.551,77.479,77.241,77.154,76.852,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Geriatria,2,87,73,1.189189,0.022989,79.347,78.856,78.831,78.727,79.037,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Geriatria,4,87,73,1.189189,0.045977,81.723,79.951,79.376,79.408,80.566,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Geriatria,10,87,73,1.189189,0.114943,80.096,79.775,80.094,80.096,80.096,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Geriatria,10,87,73,1.189189,0.114943,78.337,78.149,77.364,77.501,77.919,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Geriatria,2,87,73,1.189189,0.022989,81.453,81.019,80.547,80.529,80.991,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Geriatria,2,87,73,1.189189,0.022989,80.154,78.729,79.099,78.918,79.536,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Geriatria,4,87,73,1.189189,0.045977,78.673,78.462,78.126,78.288,78.481,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Geriatria,4,87,73,1.189189,0.045977,79.088,78.679,78.415,78.347,78.718,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Geriatria,20,87,73,1.189189,0.229885,76.937,76.398,76.505,76.133,76.535,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Geriatria,1,87,73,1.189189,0.011494,81.282,80.5,80.452,80.164,80.723,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Geriatria,2,87,73,1.189189,0.022989,79.373,78.859,78.572,78.445,78.909,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Geriatria,4,87,73,1.189189,0.045977,80.63,80.266,79.827,79.833,80.232,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Geriatria,1,87,73,1.189189,0.011494,80.415,79.754,80.098,79.755,80.085,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Hematologia,5,89,76,1.168831,0.05618,84.153,83.486,83.541,83.563,83.858,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Hematologia,7,89,76,1.168831,0.078652,81.042,81.2,81.031,81.006,81.024,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Hematologia,8,89,76,1.168831,0.089888,82.333,81.144,81.183,81.013,81.673,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Hematologia,8,89,76,1.168831,0.089888,79.4,79.117,78.701,78.754,79.077,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Hematologia,5,89,76,1.168831,0.05618,83.592,82.967,82.858,82.806,83.199,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Hematologia,11,89,76,1.168831,0.123596,84.611,83.247,81.509,81.732,83.171,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Hematologia,10,89,76,1.168831,0.11236,83.259,82.294,82.22,82.257,82.758,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Hematologia,2,89,76,1.168831,0.022472,84.855,82.953,82.843,82.754,83.804,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Hematologia,3,89,76,1.168831,0.033708,83.031,82.208,82.422,82.211,82.621,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Hematologia,3,89,76,1.168831,0.033708,82.086,81.621,81.815,81.634,81.86,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Hematologia,16,89,76,1.168831,0.179775,80.813,80.332,80.694,80.397,80.605,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Hematologia,3,89,76,1.168831,0.033708,86.553,85.605,86.139,85.911,86.232,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Hematologia,2,89,76,1.168831,0.022472,83.604,83.032,83.433,83.212,83.408,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Hematologia,2,89,76,1.168831,0.022472,82.047,81.497,81.594,81.363,81.705,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Hematologia,1,89,76,1.168831,0.011236,88.193,87.501,88.234,87.766,87.98,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Hematologia,3,89,76,1.168831,0.033708,80.943,80.547,81.121,81.014,80.978,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Immunologia kliniczna,1,8,5,1.5,0.125,83.972,83.814,83.248,83.275,83.624,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Immunologia kliniczna,1,8,5,1.5,0.125,83.177,83.138,82.619,82.768,82.973,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Immunologia kliniczna,3,8,5,1.5,0.375,84.033,82.75,82.403,81.873,82.953,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Immunologia kliniczna,1,8,5,1.5,0.125,86.967,87.022,86.394,86.446,86.706,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Immunologia kliniczna,1,8,5,1.5,0.125,82.613,82.508,81.943,82.013,82.313,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Immunologia kliniczna,1,8,5,1.5,0.125,84.182,84.188,83.56,83.754,83.968,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Kardiochirurgia,1,39,34,1.142857,0.025641,84.416,84.108,84.15,84.201,84.309,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Kardiochirurgia,1,39,34,1.142857,0.025641,83.18,83.545,83.384,83.446,83.313,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Kardiochirurgia,4,39,34,1.142857,0.102564,83.837,82.18,82.041,82.274,83.055,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Kardiochirurgia,1,39,34,1.142857,0.025641,82.329,81.687,81.407,81.549,81.939,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Kardiochirurgia,1,39,34,1.142857,0.025641,86.412,84.186,84.145,84.185,85.298,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Kardiochirurgia,3,39,34,1.142857,0.076923,84.05,83.714,83.215,83.481,83.765,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Kardiochirurgia,5,39,34,1.142857,0.128205,83.047,81.802,81.388,81.614,82.33,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Kardiochirurgia,3,39,34,1.142857,0.076923,79.722,78.828,78.154,78.402,79.062,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Kardiochirurgia,2,39,34,1.142857,0.051282,80.492,80.387,79.63,79.914,80.203,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Kardiochirurgia,2,39,34,1.142857,0.051282,86.404,85.289,84.578,84.903,85.653,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Kardiochirurgia,3,39,34,1.142857,0.076923,82.184,82.116,82.532,82.805,82.495,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Kardiochirurgia,1,39,34,1.142857,0.025641,81.433,81.194,81.173,81.35,81.391,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Kardiochirurgia,3,39,34,1.142857,0.076923,77.898,78.381,77.594,77.889,77.894,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Kardiochirurgia,8,39,34,1.142857,0.205128,83.014,82.146,81.984,81.961,82.487,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Kardiochirurgia,1,39,34,1.142857,0.025641,80.688,80.405,80.185,80.266,80.477,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Kardiologia,14,193,126,1.527559,0.072539,88.72,88.445,88.449,88.707,88.713,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Kardiologia,24,193,126,1.527559,0.124352,89.032,87.76,89.052,88.331,88.681,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Kardiologia,20,193,126,1.527559,0.103627,88.949,88.086,88.752,88.367,88.658,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Kardiologia,11,193,126,1.527559,0.056995,86.688,85.947,85.971,85.961,86.324,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Kardiologia,15,193,126,1.527559,0.07772,89.687,88.634,89.373,89.246,89.466,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Kardiologia,8,193,126,1.527559,0.041451,91.36,91.015,90.818,91.253,91.307,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Kardiologia,20,193,126,1.527559,0.103627,89.744,89.856,89.278,89.959,89.851,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Kardiologia,5,193,126,1.527559,0.025907,89.398,88.676,88.187,88.519,88.958,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Kardiologia,10,193,126,1.527559,0.051813,88.777,88.35,88.176,88.333,88.555,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Kardiologia,2,193,126,1.527559,0.010363,91.527,90.582,90.415,90.298,90.913,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Kardiologia,15,193,126,1.527559,0.07772,89.851,89.5,89.395,89.708,89.78,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Kardiologia,6,193,126,1.527559,0.031088,91.674,91.379,90.582,91.078,91.376,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Kardiologia,8,193,126,1.527559,0.041451,87.161,86.421,86.269,86.41,86.785,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Kardiologia,7,193,126,1.527559,0.036269,85.587,85.196,85.148,85.374,85.481,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Kardiologia,20,193,126,1.527559,0.103627,91.673,90.784,91.212,91.045,91.359,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Kardiologia,8,193,126,1.527559,0.041451,87.313,86.824,86.441,86.551,86.932,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Kardiologia dziecięca,2,15,12,1.230769,0.133333,87.126,86.863,86.241,86.34,86.733,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Kardiologia dziecięca,1,15,12,1.230769,0.066667,89.315,88.822,88.528,88.734,89.025,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Kardiologia dziecięca,1,15,12,1.230769,0.066667,89.428,89.128,88.587,88.779,89.104,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Kardiologia dziecięca,4,15,12,1.230769,0.266667,87.029,86.141,85.094,85.275,86.152,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Kardiologia dziecięca,1,15,12,1.230769,0.066667,85.643,85.455,85.053,85.077,85.36,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Kardiologia dziecięca,1,15,12,1.230769,0.066667,85.368,85.304,85.253,85.404,85.386,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Kardiologia dziecięca,4,15,12,1.230769,0.266667,87.525,86.382,85.467,85.457,86.491,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Kardiologia dziecięca,1,15,12,1.230769,0.066667,87.032,87.012,86.864,87.094,87.063,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna morska i tropikalna,4,5,1,3,0.8,83,81.106,81.679,79.552,81.276,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna morska i tropikalna,1,5,1,3,0.2,87.081,87.103,85.918,85.879,86.48,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna nuklearna,1,38,28,1.344828,0.026316,84.83,83.725,83.547,83.624,84.227,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna nuklearna,3,38,28,1.344828,0.078947,78.973,78.85,78.479,78.735,78.854,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna nuklearna,1,38,28,1.344828,0.026316,80.532,80.275,80.334,80.383,80.458,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna nuklearna,3,38,28,1.344828,0.078947,83.325,81.732,81.026,81.159,82.242,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Medycyna nuklearna,3,38,28,1.344828,0.078947,81.489,81.303,80.832,81.01,81.25,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna nuklearna,9,38,28,1.344828,0.236842,80.351,80.375,80.514,80.396,80.374,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Medycyna nuklearna,2,38,28,1.344828,0.052632,79.79,79.702,79.155,79.47,79.63,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Medycyna nuklearna,3,38,28,1.344828,0.078947,81.458,80.432,79.8,80.003,80.731,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna nuklearna,3,38,28,1.344828,0.078947,82.901,82.743,82.533,82.773,82.837,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Medycyna nuklearna,5,38,28,1.344828,0.131579,78.617,81.043,81.127,81.194,79.905,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Medycyna nuklearna,2,38,28,1.344828,0.052632,80.352,80.191,79.935,80.176,80.264,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna nuklearna,2,38,28,1.344828,0.052632,84.029,83.264,82.578,82.815,83.422,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna nuklearna,1,38,28,1.344828,0.026316,79.959,79.853,79.475,79.557,79.758,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna paliatywna,5,27,22,1.217391,0.185185,80.359,80.1,79.875,80.002,80.18,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna paliatywna,4,27,22,1.217391,0.148148,79.273,79.054,78.606,78.798,79.036,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna paliatywna,1,27,22,1.217391,0.037037,82.458,82.141,81.803,81.948,82.203,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna paliatywna,2,27,22,1.217391,0.074074,80.207,80.058,79.709,79.916,80.061,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Medycyna paliatywna,2,27,22,1.217391,0.074074,82.573,82.35,81.583,81.807,82.19,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna paliatywna,2,27,22,1.217391,0.074074,83.575,83.537,82.885,83.067,83.321,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Medycyna paliatywna,1,27,22,1.217391,0.037037,81.242,81.118,80.636,80.929,81.085,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Medycyna paliatywna,1,27,22,1.217391,0.037037,83.381,82.394,82.114,82.256,82.818,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna paliatywna,2,27,22,1.217391,0.074074,80.863,80.71,80.125,80.355,80.609,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Medycyna paliatywna,2,27,22,1.217391,0.074074,81.931,81.732,82.143,82.295,82.113,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Medycyna paliatywna,1,27,22,1.217391,0.037037,80.694,80.51,80.324,80.563,80.629,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Medycyna paliatywna,1,27,22,1.217391,0.037037,79.961,79.817,79.705,79.955,79.958,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna paliatywna,2,27,22,1.217391,0.074074,81.833,81.704,81.395,81.652,81.742,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna paliatywna,1,27,22,1.217391,0.037037,79.609,80.633,80.264,80.37,79.99,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna pracy,3,22,17,1.277778,0.136364,83.926,81.933,81.407,81.49,82.708,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna pracy,1,22,17,1.277778,0.045455,84.269,82.269,82.16,82.187,83.228,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna pracy,1,22,17,1.277778,0.045455,82.539,80.893,80.87,80.925,81.732,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna pracy,3,22,17,1.277778,0.136364,78.793,78.687,78.54,78.723,78.758,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna pracy,3,22,17,1.277778,0.136364,84.77,81.618,81.359,81.522,83.146,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Medycyna pracy,1,22,17,1.277778,0.045455,82.408,81.684,81.439,81.521,81.965,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Medycyna pracy,1,22,17,1.277778,0.045455,81.875,82.425,81.907,82.132,82.004,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Medycyna pracy,2,22,17,1.277778,0.090909,79.994,80.716,80.554,80.556,80.275,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Medycyna pracy,3,22,17,1.277778,0.136364,78.182,78.103,77.558,77.865,78.024,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna pracy,2,22,17,1.277778,0.090909,81.484,81.365,81.372,81.558,81.521,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna pracy,2,22,17,1.277778,0.090909,80.76,80.19,79.77,79.943,80.351,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna ratunkowa,25,331,154,2.141935,0.075529,75.64,75.307,72.844,72.455,74.048,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna ratunkowa,30,331,154,2.141935,0.090634,77.755,75.91,75.783,74.441,76.098,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna ratunkowa,15,331,154,2.141935,0.045317,78.437,77.685,77.537,76.791,77.614,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Medycyna ratunkowa,10,331,154,2.141935,0.030211,78.419,77.426,77.302,76.411,77.415,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna ratunkowa,38,331,154,2.141935,0.114804,79.891,78.064,80.298,78.003,78.947,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Medycyna ratunkowa,25,331,154,2.141935,0.075529,77.731,77.049,76.283,75.463,76.597,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna ratunkowa,30,331,154,2.141935,0.090634,77.889,77.032,76.508,75.445,76.667,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Medycyna ratunkowa,6,331,154,2.141935,0.018127,80.476,79.671,79.779,79.133,79.804,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Medycyna ratunkowa,11,331,154,2.141935,0.033233,77.745,76.942,76.536,75.805,76.775,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Medycyna ratunkowa,20,331,154,2.141935,0.060423,74.77,74.572,72.57,72.355,73.562,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna ratunkowa,39,331,154,2.141935,0.117825,78.73,77.374,78.208,76.428,77.579,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Medycyna ratunkowa,30,331,154,2.141935,0.090634,79.354,78.167,78.312,76.879,78.116,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Medycyna ratunkowa,10,331,154,2.141935,0.030211,78.613,77.869,77.876,77.272,77.942,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Medycyna ratunkowa,20,331,154,2.141935,0.060423,77.403,76.526,76.602,75.689,76.546,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna ratunkowa,18,331,154,2.141935,0.054381,78.97,78.321,78.224,77.556,78.263,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna ratunkowa,4,331,154,2.141935,0.012085,79.646,78.678,78.863,78.012,78.829,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna rodzinna,60,749,475,1.57563,0.080107,77.565,77.492,78.625,79.035,78.3,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna rodzinna,50,749,475,1.57563,0.066756,75.115,75.059,76.371,76.851,75.983,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna rodzinna,60,749,475,1.57563,0.080107,72.66,72.951,72.219,72.904,72.782,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Medycyna rodzinna,45,749,475,1.57563,0.06008,75.26,75.009,76.996,77.331,76.295,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna rodzinna,60,749,475,1.57563,0.080107,79.348,78.672,81.302,80.987,80.168,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Medycyna rodzinna,60,749,475,1.57563,0.080107,79.661,79.565,81.278,81.709,80.685,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna rodzinna,60,749,475,1.57563,0.080107,77.869,79.265,77.31,79.636,78.753,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Medycyna rodzinna,40,749,475,1.57563,0.053405,76.164,76.361,77.595,78.538,77.351,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Medycyna rodzinna,50,749,475,1.57563,0.066756,70.963,70.901,72.375,72.777,71.87,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Medycyna rodzinna,30,749,475,1.57563,0.040053,73.633,74.347,74.207,75.828,74.731,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna rodzinna,60,749,475,1.57563,0.080107,78.856,78.457,80.513,80.525,79.69,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Medycyna rodzinna,20,749,475,1.57563,0.026702,76.12,77.784,76.027,79.041,77.58,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Medycyna rodzinna,35,749,475,1.57563,0.046729,75.882,77.122,78.735,79.637,77.759,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Medycyna rodzinna,39,749,475,1.57563,0.052069,73.643,73.923,74.646,75.685,74.664,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna rodzinna,50,749,475,1.57563,0.066756,76.946,78.781,79.607,80.558,78.752,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna rodzinna,30,749,475,1.57563,0.040053,74.881,76.645,77.489,78.89,76.885,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Medycyna sądowa,4,20,13,1.5,0.2,77.912,78.275,77.794,78.011,77.961,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna sądowa,2,20,13,1.5,0.1,79.292,79.243,78.604,78.9,79.096,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna sądowa,1,20,13,1.5,0.05,84.125,82.288,81.807,81.978,83.052,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna sądowa,1,20,13,1.5,0.05,80.932,81.127,80.531,80.713,80.823,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Medycyna sądowa,2,20,13,1.5,0.1,80.932,80.817,80.089,80.292,80.612,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Medycyna sądowa,1,20,13,1.5,0.05,83.339,82.699,82.239,82.451,82.895,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Medycyna sądowa,1,20,13,1.5,0.05,80.022,80.059,79.383,79.773,79.897,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Medycyna sądowa,2,20,13,1.5,0.1,78.264,78.285,77.773,78.091,78.177,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Medycyna sądowa,1,20,13,1.5,0.05,81.031,81.002,80.369,80.64,80.835,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Medycyna sądowa,1,20,13,1.5,0.05,80.221,79.615,79.012,79.294,79.758,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Medycyna sądowa,1,20,13,1.5,0.05,82.572,83.06,82.645,82.997,82.784,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Medycyna sądowa,3,20,13,1.5,0.15,77.987,77.941,77.305,77.602,77.794,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Medycyna sportowa,1,5,3,1.5,0.2,84.643,83.537,82.893,82.969,83.806,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Medycyna sportowa,1,5,3,1.5,0.2,84.963,84.503,84.004,84.053,84.508,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Medycyna sportowa,3,5,3,1.5,0.6,81.047,79.696,80.131,78.861,79.954,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Mikrobiologia lekarska,2,8,6,1.285714,0.25,76.521,76.136,75.622,75.621,76.071,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Mikrobiologia lekarska,1,8,6,1.285714,0.125,79.061,78.551,77.633,77.93,78.495,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Mikrobiologia lekarska,2,8,6,1.285714,0.25,75.911,77.267,76.916,76.757,76.334,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Mikrobiologia lekarska,3,8,6,1.285714,0.375,75.907,75.465,75.538,75.323,75.615,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Nefrologia,15,117,68,1.710145,0.128205,84.982,83.823,84.909,84.608,84.795,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Nefrologia,15,117,68,1.710145,0.128205,82.113,81.54,82.549,82.211,82.162,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Nefrologia,5,117,68,1.710145,0.042735,86.971,85.615,85.274,85.39,86.18,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Nefrologia,5,117,68,1.710145,0.042735,83.167,83.072,83,83.126,83.146,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Nefrologia,10,117,68,1.710145,0.08547,85.172,84.303,84.026,84.117,84.644,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Nefrologia,4,117,68,1.710145,0.034188,86.417,85.842,85.836,85.878,86.148,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Nefrologia,12,117,68,1.710145,0.102564,84.143,83.187,82.705,82.957,83.55,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Nefrologia,3,117,68,1.710145,0.025641,83.867,82.96,82.337,82.703,83.285,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Nefrologia,6,117,68,1.710145,0.051282,82.333,81.114,80.986,81.13,81.732,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Nefrologia,10,117,68,1.710145,0.08547,81.137,81.305,81.74,81.686,81.411,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Nefrologia,14,117,68,1.710145,0.119658,83.071,82.585,83.27,83.022,83.047,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Nefrologia,5,117,68,1.710145,0.042735,82.493,82.281,81.955,82.179,82.336,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Nefrologia,3,117,68,1.710145,0.025641,83.349,82.525,81.936,82.027,82.688,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Nefrologia,6,117,68,1.710145,0.051282,83.369,83.191,82.979,83.157,83.263,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Nefrologia,4,117,68,1.710145,0.034188,84.329,83.504,83.124,83.258,83.793,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Nefrologia dziecięca,3,21,11,1.833333,0.142857,84.347,83.589,83.138,82.95,83.649,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Nefrologia dziecięca,2,21,11,1.833333,0.095238,82.715,82.408,82.251,82.077,82.396,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Nefrologia dziecięca,2,21,11,1.833333,0.095238,87.46,86.955,86.089,86.117,86.788,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Nefrologia dziecięca,2,21,11,1.833333,0.095238,82.598,82.383,81.994,81.934,82.266,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Nefrologia dziecięca,3,21,11,1.833333,0.142857,85.328,84.7,84.151,83.968,84.648,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Nefrologia dziecięca,3,21,11,1.833333,0.142857,85.422,85.196,84.842,84.586,85.004,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Nefrologia dziecięca,2,21,11,1.833333,0.095238,85.174,85.157,84.632,84.53,84.852,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Nefrologia dziecięca,2,21,11,1.833333,0.095238,86.949,86.628,85.93,85.804,86.377,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Nefrologia dziecięca,2,21,11,1.833333,0.095238,82,81.756,81.128,81.024,81.512,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Neonatologia,15,144,130,1.10687,0.104167,76.629,76.129,76.367,76.11,76.369,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Neonatologia,8,144,130,1.10687,0.055556,77.628,77.28,77.318,77.356,77.492,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Neonatologia,11,144,130,1.10687,0.076389,77.313,77.003,77.152,77.165,77.239,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Neonatologia,5,144,130,1.10687,0.034722,75.491,75.126,75.074,75.105,75.298,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Neonatologia,3,144,130,1.10687,0.020833,78.132,77.571,78.035,77.79,77.961,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Neonatologia,20,144,130,1.10687,0.138889,77.531,77.041,76.987,76.696,77.113,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Neonatologia,18,144,130,1.10687,0.125,78.623,77.5,78.424,77.989,78.306,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Neonatologia,1,144,130,1.10687,0.006944,80.209,79.497,80.073,79.623,79.916,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Neonatologia,4,144,130,1.10687,0.027778,79.253,78.516,78.864,78.695,78.974,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Neonatologia,7,144,130,1.10687,0.048611,76.986,76.63,76.342,76.343,76.664,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Neonatologia,10,144,130,1.10687,0.069444,77.535,77.255,76.86,76.93,77.232,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Neonatologia,10,144,130,1.10687,0.069444,78.497,78.085,78.357,78.278,78.388,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Neonatologia,6,144,130,1.10687,0.041667,77.874,77.331,77.112,77.122,77.498,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Neonatologia,2,144,130,1.10687,0.013889,79.123,78.439,79.131,78.821,78.972,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Neonatologia,20,144,130,1.10687,0.138889,75.933,75.509,75.657,75.417,75.675,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Neonatologia,4,144,130,1.10687,0.027778,78.479,77.968,78.064,77.943,78.211,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Neurochirurgia,1,17,11,1.5,0.058824,89.659,89.137,88.666,88.74,89.2,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Neurochirurgia,1,17,11,1.5,0.058824,90.506,89.823,89.275,89.42,89.963,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Neurochirurgia,1,17,11,1.5,0.058824,89.818,89.151,88.729,88.775,89.297,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Neurochirurgia,2,17,11,1.5,0.117647,90.297,89.405,89.085,89.136,89.717,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Neurochirurgia,1,17,11,1.5,0.058824,91.913,91.477,91.326,91.492,91.703,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Neurochirurgia,1,17,11,1.5,0.058824,89.076,87.59,87.237,87.238,88.157,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Neurochirurgia,2,17,11,1.5,0.117647,86.239,85.782,85.553,85.597,85.918,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Neurochirurgia,1,17,11,1.5,0.058824,90.122,89.88,89.789,90.038,90.08,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Neurochirurgia,2,17,11,1.5,0.117647,90.248,89.617,88.94,89.048,89.648,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Neurochirurgia,2,17,11,1.5,0.117647,89.484,89.05,88.472,88.557,89.02,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Neurochirurgia,3,17,11,1.5,0.176471,86.383,85.582,85.407,85.436,85.909,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Neurologia,5,285,251,1.134921,0.017544,84.146,82.532,82.066,83.271,83.708,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Neurologia,20,285,251,1.134921,0.070175,77.494,77.513,77.864,78.478,77.986,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Neurologia,30,285,251,1.134921,0.105263,78.538,78.134,79.674,79.635,79.086,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Neurologia,7,285,251,1.134921,0.024561,77.307,76.515,76.259,77.136,77.221,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Neurologia,26,285,251,1.134921,0.091228,82.882,82.034,82.821,83.002,82.942,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Neurologia,31,285,251,1.134921,0.108772,81.564,80.994,82.641,82.442,82.003,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Neurologia,25,285,251,1.134921,0.087719,82.052,82.363,82.127,83.093,82.573,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Neurologia,20,285,251,1.134921,0.070175,78.033,77.883,77.764,78.403,78.218,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Neurologia,26,285,251,1.134921,0.091228,80.238,79.31,81.238,81.29,80.764,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Neurologia,4,285,251,1.134921,0.014035,80.736,80.005,80.338,81.217,80.976,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Neurologia,16,285,251,1.134921,0.05614,80.402,80.121,79.772,80.738,80.57,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Neurologia,20,285,251,1.134921,0.070175,79.217,79.375,79.335,80.246,79.731,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Neurologia,11,285,251,1.134921,0.038596,78.927,80.124,80.432,81.284,80.105,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Neurologia,15,285,251,1.134921,0.052632,77.576,77.727,77.724,78.576,78.076,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Neurologia,19,285,251,1.134921,0.066667,82.45,81.97,81.417,82.424,82.437,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Neurologia,10,285,251,1.134921,0.035088,78.42,78.608,79.109,80.016,79.218,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Neurologia dziecięca,2,16,16,1,0.125,86.294,85.576,85.283,85.346,85.82,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Neurologia dziecięca,1,16,16,1,0.0625,88.618,87.568,87.338,87.4,88.009,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Neurologia dziecięca,2,16,16,1,0.125,89.722,89.187,89.302,89.449,89.585,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Neurologia dziecięca,3,16,16,1,0.1875,84.498,83.587,83.494,83.705,84.101,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Neurologia dziecięca,3,16,16,1,0.1875,84.629,84.737,84.093,84.255,84.442,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Neurologia dziecięca,3,16,16,1,0.1875,85.95,84.718,84.709,84.643,85.296,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Neurologia dziecięca,1,16,16,1,0.0625,89.821,88.992,88.984,89.193,89.507,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Neurologia dziecięca,1,16,16,1,0.0625,84.496,84.294,84.466,84.581,84.538,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Okulistyka,4,82,58,1.40678,0.04878,92.838,92.549,92.538,92.835,92.836,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Okulistyka,6,82,58,1.40678,0.073171,91.598,91.25,91.116,91.375,91.487,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Okulistyka,2,82,58,1.40678,0.02439,92.217,91.828,92.342,92.311,92.264,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Okulistyka,3,82,58,1.40678,0.036585,89.577,89.153,89.133,89.278,89.427,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Okulistyka,3,82,58,1.40678,0.036585,92.339,91.852,91.763,91.903,92.121,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Okulistyka,5,82,58,1.40678,0.060976,91.608,91.428,91.721,91.7,91.654,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Okulistyka,2,82,58,1.40678,0.02439,91.188,90.962,91.562,91.627,91.407,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Okulistyka,5,82,58,1.40678,0.060976,89.833,89.597,89.103,89.319,89.576,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Okulistyka,4,82,58,1.40678,0.04878,91.201,91.032,90.66,90.87,91.036,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Okulistyka,2,82,58,1.40678,0.02439,90.797,90.266,90.411,90.334,90.566,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Okulistyka,3,82,58,1.40678,0.036585,90.879,90.897,90.543,90.796,90.838,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Okulistyka,10,82,58,1.40678,0.121951,89.791,89.506,89.898,90.001,89.896,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Okulistyka,3,82,58,1.40678,0.036585,89.437,89.206,89.084,89.205,89.321,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Okulistyka,7,82,58,1.40678,0.085366,88.763,88.608,88.482,88.68,88.722,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Okulistyka,15,82,58,1.40678,0.182927,91.855,91.11,91.683,91.32,91.588,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Okulistyka,8,82,58,1.40678,0.097561,88.82,88.479,88.352,88.381,88.601,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Onkologia i hematologia dziecięca,2,19,24,0.8,0.105263,82.689,82.443,82.71,82.859,82.774,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Onkologia i hematologia dziecięca,1,19,24,0.8,0.052632,84.911,83.94,84.467,84.417,84.664,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Onkologia i hematologia dziecięca,6,19,24,0.8,0.315789,82.687,81.634,81.579,81.23,81.959,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Onkologia i hematologia dziecięca,2,19,24,0.8,0.105263,81.26,80.938,81.151,81.227,81.244,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Onkologia i hematologia dziecięca,1,19,24,0.8,0.052632,82.352,82.108,82.602,82.709,82.531,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Onkologia i hematologia dziecięca,2,19,24,0.8,0.105263,83.036,82.772,83.128,83.242,83.139,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Onkologia i hematologia dziecięca,1,19,24,0.8,0.052632,84.341,82.805,82.668,82.908,83.625,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Onkologia i hematologia dziecięca,2,19,24,0.8,0.105263,82.253,82.015,82.256,82.392,82.322,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Onkologia i hematologia dziecięca,2,19,24,0.8,0.105263,81.092,80.837,80.65,80.807,80.949,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Onkologia kliniczna,16,177,171,1.034884,0.090395,80.684,80.199,80.795,80.603,80.643,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Onkologia kliniczna,3,177,171,1.034884,0.016949,81.836,81.287,81.653,81.513,81.675,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Onkologia kliniczna,11,177,171,1.034884,0.062147,81.399,80.922,81.64,81.502,81.45,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Onkologia kliniczna,2,177,171,1.034884,0.011299,81.958,81.131,82.107,81.673,81.815,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Onkologia kliniczna,8,177,171,1.034884,0.045198,82.73,82.057,82.645,82.324,82.527,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Onkologia kliniczna,28,177,171,1.034884,0.158192,82.989,81.49,82.369,81.339,82.164,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Onkologia kliniczna,32,177,171,1.034884,0.180791,82.553,81.374,83.524,82.331,82.442,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Onkologia kliniczna,4,177,171,1.034884,0.022599,82.217,81.694,81.803,81.728,81.973,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Onkologia kliniczna,11,177,171,1.034884,0.062147,79.349,78.926,79.028,78.974,79.162,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Onkologia kliniczna,2,177,171,1.034884,0.011299,83.379,82.53,83.398,82.901,83.14,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Onkologia kliniczna,8,177,171,1.034884,0.045198,83.599,83.018,83.414,83.225,83.412,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Onkologia kliniczna,10,177,171,1.034884,0.056497,81.672,81.172,81.493,81.337,81.505,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Onkologia kliniczna,11,177,171,1.034884,0.062147,79.891,79.527,79.644,79.704,79.798,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Onkologia kliniczna,6,177,171,1.034884,0.033898,81.429,80.829,81.234,81.065,81.247,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Onkologia kliniczna,15,177,171,1.034884,0.084746,81.022,80.593,81.199,81.063,81.043,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Onkologia kliniczna,10,177,171,1.034884,0.056497,79.955,79.395,80.354,80.134,80.044,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Ortodoncja,3,27,19,1.4,0.111111,90.615,90.483,90.118,90.434,90.525,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Ortodoncja,3,27,19,1.4,0.111111,89.539,88.79,88.343,88.27,88.904,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Ortodoncja,1,27,19,1.4,0.037037,92.113,91.846,92.054,91.909,92.011,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Ortodoncja,5,27,19,1.4,0.185185,91.063,90.864,90.526,90.601,90.832,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Ortodoncja,1,27,19,1.4,0.037037,88.493,88.389,88.192,88.166,88.329,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Ortodoncja,1,27,19,1.4,0.037037,90.401,89.293,88.907,88.849,89.625,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Ortodoncja,3,27,19,1.4,0.111111,90.031,89.872,89.147,89.188,89.609,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Ortodoncja,3,27,19,1.4,0.111111,91.491,91.265,90.509,90.708,91.099,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Ortodoncja,2,27,19,1.4,0.074074,87.127,86.485,86.19,86.18,86.653,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Ortodoncja,3,27,19,1.4,0.111111,90.874,90.674,90.229,90.301,90.588,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Ortodoncja,2,27,19,1.4,0.074074,87.954,87.622,87.327,87.409,87.682,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,8,173,109,1.581818,0.046243,86.371,84.913,85.018,85.31,85.841,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Ortopedia i traumatologia narządu ruchu,4,173,109,1.581818,0.023121,84.496,84.089,83.912,84.255,84.376,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Ortopedia i traumatologia narządu ruchu,10,173,109,1.581818,0.057803,83.432,83.123,83.175,83.475,83.453,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Ortopedia i traumatologia narządu ruchu,6,173,109,1.581818,0.034682,81.046,80.383,80.03,80.397,80.722,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Ortopedia i traumatologia narządu ruchu,10,173,109,1.581818,0.057803,86.117,84.152,84.048,84.243,85.18,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Ortopedia i traumatologia narządu ruchu,15,173,109,1.581818,0.086705,86.172,85.41,85.956,86.033,86.103,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Ortopedia i traumatologia narządu ruchu,10,173,109,1.581818,0.057803,85.337,84.651,84.029,84.796,85.066,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Ortopedia i traumatologia narządu ruchu,14,173,109,1.581818,0.080925,83.282,82.701,82.501,82.61,82.946,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Ortopedia i traumatologia narządu ruchu,12,173,109,1.581818,0.069364,84.278,82.964,82.818,82.997,83.638,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Ortopedia i traumatologia narządu ruchu,5,173,109,1.581818,0.028902,85.241,84.107,83.643,83.954,84.597,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Ortopedia i traumatologia narządu ruchu,6,173,109,1.581818,0.034682,87.457,86.539,86.044,86.401,86.929,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Ortopedia i traumatologia narządu ruchu,20,173,109,1.581818,0.115607,86.433,85.601,85.306,85.507,85.97,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Ortopedia i traumatologia narządu ruchu,15,173,109,1.581818,0.086705,83.239,82.439,82.733,82.797,83.018,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Ortopedia i traumatologia narządu ruchu,10,173,109,1.581818,0.057803,79.595,80.291,79.786,80.051,79.823,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Ortopedia i traumatologia narządu ruchu,16,173,109,1.581818,0.092486,86.995,85.979,85.789,86.02,86.507,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Ortopedia i traumatologia narządu ruchu,12,173,109,1.581818,0.069364,83.143,81.878,81.383,81.554,82.348,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Otorynolaryngologia,1,50,38,1.307692,0.02,92.312,91.801,91.941,91.863,92.087,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Otorynolaryngologia,6,50,38,1.307692,0.12,89.872,89.486,89.556,89.715,89.793,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Otorynolaryngologia,3,50,38,1.307692,0.06,89.937,89.688,89.539,89.719,89.828,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Otorynolaryngologia,2,50,38,1.307692,0.04,91.547,90.658,90.937,91.049,91.298,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Otorynolaryngologia,4,50,38,1.307692,0.08,91.69,91.295,90.769,91.046,91.368,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Otorynolaryngologia,12,50,38,1.307692,0.24,89.513,88.843,89.415,89.317,89.415,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Otorynolaryngologia,1,50,38,1.307692,0.02,90.71,90.502,90.345,90.438,90.574,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Otorynolaryngologia,4,50,38,1.307692,0.08,87.291,87.084,86.918,87.076,87.183,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Otorynolaryngologia,1,50,38,1.307692,0.02,91.985,91.493,91.303,91.346,91.665,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Otorynolaryngologia,3,50,38,1.307692,0.06,91.576,91.399,91.116,91.397,91.487,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Otorynolaryngologia,4,50,38,1.307692,0.08,91.024,90.833,90.843,91.119,91.071,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Otorynolaryngologia,1,50,38,1.307692,0.02,90.815,90.583,90.397,90.686,90.75,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Otorynolaryngologia,1,50,38,1.307692,0.02,88.749,88.458,88.633,88.696,88.723,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Otorynolaryngologia,4,50,38,1.307692,0.08,90.996,90.621,91.184,91.356,91.176,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Otorynolaryngologia,3,50,38,1.307692,0.06,86.741,86.102,85.743,85.863,86.302,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Otorynolaryngologia dziecięca,2,10,7,1.375,0.2,85.769,85.554,85.282,85.208,85.488,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Otorynolaryngologia dziecięca,2,10,7,1.375,0.2,87.818,87.049,86.869,86.814,87.316,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Otorynolaryngologia dziecięca,3,10,7,1.375,0.3,86.775,86.016,86.119,85.805,86.29,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Otorynolaryngologia dziecięca,2,10,7,1.375,0.2,89.056,88.573,88.354,88.264,88.66,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Otorynolaryngologia dziecięca,1,10,7,1.375,0.1,85.121,84.918,84.62,84.644,84.883,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Patomorfologia,3,85,93,0.914894,0.035294,80.782,80.336,80.809,80.752,80.767,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Patomorfologia,3,85,93,0.914894,0.035294,80.512,80.09,80.316,80.328,80.42,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Patomorfologia,4,85,93,0.914894,0.047059,78.89,78.544,78.403,78.463,78.676,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Patomorfologia,5,85,93,0.914894,0.058824,77.601,77.349,77.222,77.428,77.515,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Patomorfologia,3,85,93,0.914894,0.035294,85.17,84.03,83.89,83.929,84.549,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Patomorfologia,3,85,93,0.914894,0.035294,82.794,82.356,82.962,82.973,82.883,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Patomorfologia,3,85,93,0.914894,0.035294,86.164,83.959,84.436,84.418,85.291,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Patomorfologia,1,85,93,0.914894,0.011765,81.698,81.09,81.463,81.271,81.484,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Patomorfologia,3,85,93,0.914894,0.035294,79.468,79.041,79.622,79.604,79.536,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Patomorfologia,6,85,93,0.914894,0.070588,80.957,80.697,80.746,80.925,80.941,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Patomorfologia,8,85,93,0.914894,0.094118,80.604,79.658,79.521,79.515,80.059,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Patomorfologia,5,85,93,0.914894,0.058824,79.413,79.22,79.22,79.53,79.472,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Patomorfologia,5,85,93,0.914894,0.058824,77.977,77.761,77.539,77.786,77.882,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Patomorfologia,18,85,93,0.914894,0.211765,78.661,78.001,78.666,78.26,78.46,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Patomorfologia,15,85,93,0.914894,0.176471,75.056,74.78,74.473,74.51,74.783,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Pediatria,33,441,267,1.649254,0.07483,81.627,81.305,80.278,80.708,81.167,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Pediatria,20,441,267,1.649254,0.045351,78.049,78.341,77.445,78.238,78.144,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Pediatria,18,441,267,1.649254,0.040816,80.469,80.65,80.082,80.762,80.615,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Pediatria,10,441,267,1.649254,0.022676,80.178,79.408,78.854,79.626,79.902,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Pediatria,40,441,267,1.649254,0.090703,81.737,80.904,82.275,81.466,81.602,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Pediatria,60,441,267,1.649254,0.136054,83.898,82.018,85.482,83.184,83.541,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Pediatria,40,441,267,1.649254,0.090703,83.125,82.587,83.813,83.416,83.271,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Pediatria,18,441,267,1.649254,0.040816,81.101,81.038,81.465,81.892,81.497,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Pediatria,30,441,267,1.649254,0.068027,79.029,78.384,78.564,78.535,78.782,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Pediatria,20,441,267,1.649254,0.045351,79.777,79.692,80.508,80.815,80.296,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Pediatria,25,441,267,1.649254,0.056689,81.883,81.696,81.564,81.988,81.935,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Pediatria,50,441,267,1.649254,0.113379,82.912,81.501,83.069,81.944,82.428,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Pediatria,12,441,267,1.649254,0.027211,81.11,80.864,80.33,80.962,81.036,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Pediatria,20,441,267,1.649254,0.045351,78.213,78.291,77.69,78.247,78.23,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Pediatria,30,441,267,1.649254,0.068027,85.192,84.522,85.156,85.069,85.13,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Pediatria,15,441,267,1.649254,0.034014,78.769,78.801,78.922,79.447,79.108,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Pediatria metaboliczna,1,7,5,1.333333,0.142857,85.009,84.847,84.585,84.509,84.759,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Pediatria metaboliczna,3,7,5,1.333333,0.428571,78.6,77.779,77.443,76.651,77.625,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Pediatria metaboliczna,1,7,5,1.333333,0.142857,85.73,85.566,85.119,85.075,85.402,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Pediatria metaboliczna,2,7,5,1.333333,0.285714,82.832,82.397,82.404,82.094,82.463,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Periodontologia,1,21,13,1.571429,0.047619,88.721,88.226,87.723,87.668,88.194,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Periodontologia,1,21,13,1.571429,0.047619,86.103,85.772,85.453,85.292,85.698,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Periodontologia,3,21,13,1.571429,0.142857,85.446,84.898,84.516,84.429,84.937,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Periodontologia,3,21,13,1.571429,0.142857,87.162,86.612,86.387,86.265,86.714,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Periodontologia,2,21,13,1.571429,0.095238,88.097,87.654,87.117,87.1,87.599,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Periodontologia,1,21,13,1.571429,0.047619,84.875,84.567,84.214,84.09,84.482,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Periodontologia,2,21,13,1.571429,0.095238,85.242,85.019,84.446,84.403,84.823,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Periodontologia,1,21,13,1.571429,0.047619,87.555,87.199,86.862,86.743,87.149,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Periodontologia,4,21,13,1.571429,0.190476,83.823,83.147,82.8,82.723,83.273,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Periodontologia,3,21,13,1.571429,0.142857,87.661,87.212,86.479,86.45,87.055,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Położnictwo i ginekologia,18,261,179,1.455556,0.068966,82.655,83.128,83.265,83.681,83.168,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Położnictwo i ginekologia,7,261,179,1.455556,0.02682,81.946,81.891,81.557,82.056,82.001,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Położnictwo i ginekologia,19,261,179,1.455556,0.072797,84.263,84.154,83.944,84.226,84.245,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Położnictwo i ginekologia,2,261,179,1.455556,0.007663,84.018,82.751,82.759,83.08,83.549,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Położnictwo i ginekologia,15,261,179,1.455556,0.057471,85.557,84.578,84.889,85.238,85.398,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Położnictwo i ginekologia,25,261,179,1.455556,0.095785,83.57,83.327,83.531,83.656,83.613,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Położnictwo i ginekologia,35,261,179,1.455556,0.1341,86.889,86.652,86.487,86.781,86.835,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Położnictwo i ginekologia,9,261,179,1.455556,0.034483,82.598,82.038,81.468,82.001,82.299,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Położnictwo i ginekologia,16,261,179,1.455556,0.061303,79.972,79.19,79.313,79.5,79.736,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Położnictwo i ginekologia,12,261,179,1.455556,0.045977,83.298,81.829,81.977,82.25,82.774,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Położnictwo i ginekologia,12,261,179,1.455556,0.045977,84.766,85.138,84.401,85.085,84.925,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Położnictwo i ginekologia,40,261,179,1.455556,0.153257,86.342,84.99,87.194,86.071,86.207,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Położnictwo i ginekologia,7,261,179,1.455556,0.02682,82.393,81.87,80.906,81.533,81.963,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Położnictwo i ginekologia,10,261,179,1.455556,0.038314,82.941,82.098,81.795,82.374,82.658,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Położnictwo i ginekologia,31,261,179,1.455556,0.118774,84.866,83.913,85.112,84.608,84.737,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Położnictwo i ginekologia,3,261,179,1.455556,0.011494,84.641,83.689,83.754,84.297,84.469,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Protetyka stomatologiczna,2,35,24,1.44,0.057143,87.084,86.287,86.083,86.039,86.562,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Protetyka stomatologiczna,4,35,24,1.44,0.114286,84.626,84.004,83.702,83.717,84.171,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Protetyka stomatologiczna,3,35,24,1.44,0.085714,86.196,85.553,85.517,85.494,85.845,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Protetyka stomatologiczna,1,35,24,1.44,0.028571,88.04,87.415,87.408,87.236,87.638,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Protetyka stomatologiczna,6,35,24,1.44,0.171429,85.016,84.815,84.212,84.288,84.652,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Protetyka stomatologiczna,2,35,24,1.44,0.057143,83.574,83.004,82.631,82.498,83.036,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Protetyka stomatologiczna,3,35,24,1.44,0.085714,84.274,83.769,83.277,83.373,83.824,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Protetyka stomatologiczna,2,35,24,1.44,0.057143,86.707,86.511,86.325,86.333,86.52,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Protetyka stomatologiczna,3,35,24,1.44,0.085714,86.328,85.561,85.397,85.414,85.871,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Protetyka stomatologiczna,4,35,24,1.44,0.114286,83.226,81.794,81.367,81.331,82.278,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Protetyka stomatologiczna,4,35,24,1.44,0.114286,83.523,83.057,82.772,82.689,83.106,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Protetyka stomatologiczna,1,35,24,1.44,0.028571,82.567,81.729,82.131,81.875,82.221,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Psychiatria,20,264,275,0.960145,0.075758,82.858,81.815,82.189,82.574,82.716,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Psychiatria,10,264,275,0.960145,0.037879,81.611,81.625,82.135,82.654,82.132,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Psychiatria,6,264,275,0.960145,0.022727,79.961,81.752,82.051,82.655,81.308,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Psychiatria,6,264,275,0.960145,0.022727,80.893,80.021,79.965,80.724,80.809,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Psychiatria,21,264,275,0.960145,0.079545,83.587,82.476,82.56,83.085,83.336,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Psychiatria,38,264,275,0.960145,0.143939,84.26,83.277,86.091,84.846,84.553,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Psychiatria,53,264,275,0.960145,0.200758,85.375,83.982,85.999,85.042,85.209,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Psychiatria,4,264,275,0.960145,0.015152,80.83,81.401,81.571,82.238,81.534,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Psychiatria,20,264,275,0.960145,0.075758,78.2,77.901,78.791,78.981,78.59,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Psychiatria,11,264,275,0.960145,0.041667,82.827,81.667,81.287,82.187,82.507,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Psychiatria,12,264,275,0.960145,0.045455,83.434,83.048,83.572,84.188,83.811,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Psychiatria,30,264,275,0.960145,0.113636,85.051,83.387,84.279,84.408,84.729,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Psychiatria,5,264,275,0.960145,0.018939,81.829,80.647,80.936,81.639,81.734,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Psychiatria,6,264,275,0.960145,0.022727,81.583,81.595,81.244,82.051,81.817,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Psychiatria,18,264,275,0.960145,0.068182,84.7,84.072,84.09,84.863,84.782,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Psychiatria,4,264,275,0.960145,0.015152,78.859,78.9,78.916,79.661,79.26,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Psychiatria dzieci i młodzieży,9,40,40,1,0.225,86.98,85.931,86.241,86.135,86.557,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Psychiatria dzieci i młodzieży,6,40,40,1,0.15,84.413,84.189,84.031,84.095,84.254,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Psychiatria dzieci i młodzieży,1,40,40,1,0.025,90.145,89.596,88.981,89.221,89.683,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Psychiatria dzieci i młodzieży,1,40,40,1,0.025,85.928,85.59,85.611,85.704,85.816,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Psychiatria dzieci i młodzieży,5,40,40,1,0.125,88.918,88.116,87.883,88.106,88.512,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Psychiatria dzieci i młodzieży,2,40,40,1,0.05,88.548,88.492,88.303,88.415,88.481,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Psychiatria dzieci i młodzieży,1,40,40,1,0.025,87.456,86.561,86.541,86.588,87.022,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Psychiatria dzieci i młodzieży,1,40,40,1,0.025,88.681,87.713,87.666,87.796,88.238,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Psychiatria dzieci i młodzieży,2,40,40,1,0.05,87.234,86.943,86.443,86.628,86.931,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Psychiatria dzieci i młodzieży,3,40,40,1,0.075,87.837,87.716,87.48,87.68,87.759,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Psychiatria dzieci i młodzieży,1,40,40,1,0.025,89.859,89.078,89.295,89.452,89.655,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,4,40,40,1,0.1,86.053,85.202,84.444,84.772,85.413,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Psychiatria dzieci i młodzieży,3,40,40,1,0.075,88.225,88.032,87.999,88.314,88.269,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Psychiatria dzieci i młodzieży,1,40,40,1,0.025,88.669,88.505,87.967,88.238,88.453,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Radiologia i diagnostyka obrazowa,12,172,87,1.965909,0.069767,88.216,88.134,87.767,87.956,88.086,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Radiologia i diagnostyka obrazowa,25,172,87,1.965909,0.145349,90.446,89.318,90.181,89.375,89.91,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Radiologia i diagnostyka obrazowa,14,172,87,1.965909,0.081395,88.875,88.662,88.334,88.508,88.691,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Radiologia i diagnostyka obrazowa,3,172,87,1.965909,0.017442,89.944,89.78,89.545,89.711,89.828,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Radiologia i diagnostyka obrazowa,7,172,87,1.965909,0.040698,91.666,91.249,90.41,90.689,91.177,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Radiologia i diagnostyka obrazowa,8,172,87,1.965909,0.046512,90.24,90.236,89.581,89.956,90.098,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Radiologia i diagnostyka obrazowa,7,172,87,1.965909,0.040698,89.141,89.017,88.866,89.158,89.149,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Radiologia i diagnostyka obrazowa,5,172,87,1.965909,0.02907,91.652,91.535,90.395,90.967,91.31,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Radiologia i diagnostyka obrazowa,9,172,87,1.965909,0.052326,89.571,90.013,89.287,89.777,89.674,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Radiologia i diagnostyka obrazowa,6,172,87,1.965909,0.034884,90.541,90.522,89.658,90.11,90.325,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Radiologia i diagnostyka obrazowa,8,172,87,1.965909,0.046512,90.479,90.681,90.048,90.559,90.519,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Radiologia i diagnostyka obrazowa,20,172,87,1.965909,0.116279,89.218,88.974,89.105,89.048,89.133,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Radiologia i diagnostyka obrazowa,8,172,87,1.965909,0.046512,88.688,88.634,87.705,88.105,88.396,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,9,172,87,1.965909,0.052326,88.366,88.267,87.408,87.84,88.103,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Radiologia i diagnostyka obrazowa,12,172,87,1.965909,0.069767,88.962,89.269,88.792,89.229,89.096,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Radiologia i diagnostyka obrazowa,19,172,87,1.965909,0.110465,90.668,90.149,90.064,90.007,90.337,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Radioterapia onkologiczna,6,100,88,1.134831,0.06,77.735,77.504,76.971,77.122,77.429,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Radioterapia onkologiczna,3,100,88,1.134831,0.03,79.285,78.801,79.297,79.199,79.242,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Radioterapia onkologiczna,17,100,88,1.134831,0.17,76.172,75.671,75.98,75.706,75.939,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Radioterapia onkologiczna,4,100,88,1.134831,0.04,77.127,76.765,76.962,77.01,77.069,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Radioterapia onkologiczna,6,100,88,1.134831,0.06,80.147,78.555,78.468,78.336,79.242,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Radioterapia onkologiczna,16,100,88,1.134831,0.16,76.66,76.25,76.243,76.076,76.368,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Radioterapia onkologiczna,10,100,88,1.134831,0.1,81.096,79.343,78.936,78.968,80.032,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Radioterapia onkologiczna,3,100,88,1.134831,0.03,78.325,77.919,77.671,77.682,78.003,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Radioterapia onkologiczna,8,100,88,1.134831,0.08,76.404,76.034,75.958,75.951,76.177,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Radioterapia onkologiczna,2,100,88,1.134831,0.02,78.773,78.217,78.687,78.461,78.617,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Radioterapia onkologiczna,1,100,88,1.134831,0.01,82.693,81.428,81.947,81.544,82.119,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Radioterapia onkologiczna,7,100,88,1.134831,0.07,77.363,77.076,77.076,77.14,77.252,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Radioterapia onkologiczna,3,100,88,1.134831,0.03,79.442,78.269,78.082,78.076,78.759,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Radioterapia onkologiczna,3,100,88,1.134831,0.03,76.954,77.568,77.684,77.574,77.264,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Radioterapia onkologiczna,3,100,88,1.134831,0.03,79.781,79.333,79.646,79.555,79.668,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Radioterapia onkologiczna,8,100,88,1.134831,0.08,76.148,75.879,75.728,75.828,75.988,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Rehabilitacja medyczna,4,150,86,1.735632,0.026667,82.372,80.773,80.501,81.015,81.693,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Rehabilitacja medyczna,9,150,86,1.735632,0.06,76.596,76.588,75.767,76.252,76.424,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Rehabilitacja medyczna,7,150,86,1.735632,0.046667,78.489,78.532,78.474,79.008,78.748,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Rehabilitacja medyczna,9,150,86,1.735632,0.06,76.127,76.298,74.797,75.526,75.827,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Rehabilitacja medyczna,12,150,86,1.735632,0.08,76.245,76.183,75.884,76.215,76.23,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Rehabilitacja medyczna,17,150,86,1.735632,0.113333,79.191,78.833,79.506,79.475,79.333,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Rehabilitacja medyczna,8,150,86,1.735632,0.053333,79.35,79.419,78.952,79.512,79.431,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Rehabilitacja medyczna,8,150,86,1.735632,0.053333,78.118,78.163,76.776,77.47,77.794,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Rehabilitacja medyczna,10,150,86,1.735632,0.066667,75.663,75.688,75.474,75.956,75.809,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Rehabilitacja medyczna,5,150,86,1.735632,0.033333,77.931,77.962,77.27,77.805,77.868,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Rehabilitacja medyczna,9,150,86,1.735632,0.06,78.98,79.073,79.011,79.593,79.287,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Rehabilitacja medyczna,16,150,86,1.735632,0.106667,77.754,77.597,77.452,77.656,77.705,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Rehabilitacja medyczna,5,150,86,1.735632,0.033333,76.402,76.407,76.005,76.557,76.479,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Rehabilitacja medyczna,6,150,86,1.735632,0.04,76.441,76.592,75.677,76.385,76.413,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Rehabilitacja medyczna,13,150,86,1.735632,0.086667,78.056,77.982,77.65,77.993,78.025,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Rehabilitacja medyczna,12,150,86,1.735632,0.08,75.814,77.132,77.143,77.36,76.587,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Reumatologia,1,35,31,1.125,0.028571,92.546,92.048,92.302,92.209,92.378,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Reumatologia,2,35,31,1.125,0.057143,92.603,92.264,92.239,92.312,92.458,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Reumatologia,4,35,31,1.125,0.114286,92.076,91.375,90.698,90.804,91.44,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Reumatologia,1,35,31,1.125,0.028571,95.285,94.876,94.84,94.785,95.035,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Reumatologia,6,35,31,1.125,0.171429,91.851,91.474,91.787,91.831,91.841,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Reumatologia,2,35,31,1.125,0.057143,92.165,91.724,91.901,91.948,92.056,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Reumatologia,6,35,31,1.125,0.171429,90.005,89.561,89.79,89.681,89.843,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Reumatologia,5,35,31,1.125,0.142857,93.348,93.023,93.026,93.075,93.211,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Reumatologia,2,35,31,1.125,0.057143,92.057,91.916,91.716,91.975,92.016,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Reumatologia,3,35,31,1.125,0.085714,90.132,89.575,89.15,89.283,89.708,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Reumatologia,2,35,31,1.125,0.057143,92.356,91.946,92.462,92.498,92.427,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Reumatologia,1,35,31,1.125,0.028571,93.005,92.289,92.185,92.186,92.595,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Stomatologia dziecięca,4,41,21,1.909091,0.097561,84.161,83.181,82.79,82.791,83.476,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Stomatologia dziecięca,2,41,21,1.909091,0.04878,83.804,83.067,82.623,82.568,83.186,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Stomatologia dziecięca,3,41,21,1.909091,0.073171,82.342,81.776,81.065,80.979,81.661,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Stomatologia dziecięca,2,41,21,1.909091,0.04878,84.894,84.466,83.63,83.614,84.254,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Stomatologia dziecięca,1,41,21,1.909091,0.02439,86.612,85.801,85.549,85.366,85.989,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Stomatologia dziecięca,8,41,21,1.909091,0.195122,83.159,82.562,82.815,82.523,82.841,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Stomatologia dziecięca,1,41,21,1.909091,0.02439,82.749,82.338,82.071,81.987,82.368,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Stomatologia dziecięca,6,41,21,1.909091,0.146341,81.52,80.866,80.322,80.222,80.871,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Stomatologia dziecięca,4,41,21,1.909091,0.097561,82.399,81.636,81.19,81.203,81.801,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Stomatologia dziecięca,4,41,21,1.909091,0.097561,83.494,83.592,82.923,82.926,83.21,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Stomatologia dziecięca,2,41,21,1.909091,0.04878,80.158,80.196,79.554,79.556,79.857,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Stomatologia dziecięca,2,41,21,1.909091,0.04878,83.625,83.327,83.135,83.189,83.407,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Stomatologia dziecięca,2,41,21,1.909091,0.04878,81.998,81.48,81.035,80.982,81.49,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Stomatologia zachowawcza z endodoncją,9,65,43,1.5,0.138462,81.123,80.054,79.245,79.452,80.287,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Stomatologia zachowawcza z endodoncją,5,65,43,1.5,0.076923,79.532,78.45,77.697,78.009,78.77,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Stomatologia zachowawcza z endodoncją,4,65,43,1.5,0.061538,79.608,78.84,78.427,78.502,79.055,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Stomatologia zachowawcza z endodoncją,2,65,43,1.5,0.030769,81.753,81.05,80.743,80.78,81.266,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Stomatologia zachowawcza z endodoncją,9,65,43,1.5,0.138462,80.25,79.582,79.657,79.639,79.945,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Stomatologia zachowawcza z endodoncją,9,65,43,1.5,0.138462,79.162,78.488,77.845,77.927,78.544,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Stomatologia zachowawcza z endodoncją,1,65,43,1.5,0.015385,78.797,78.701,78.526,78.289,78.543,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Stomatologia zachowawcza z endodoncją,9,65,43,1.5,0.138462,74.648,74.477,74.898,74.948,74.798,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Stomatologia zachowawcza z endodoncją,2,65,43,1.5,0.030769,81.152,79.429,79.419,79.416,80.284,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Stomatologia zachowawcza z endodoncją,6,65,43,1.5,0.092308,77.363,77.131,77.297,77.32,77.342,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Stomatologia zachowawcza z endodoncją,2,65,43,1.5,0.030769,77.689,77.048,76.769,76.827,77.258,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Stomatologia zachowawcza z endodoncją,7,65,43,1.5,0.107692,80.11,79.598,78.76,78.817,79.463,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Toksykologia kliniczna,3,17,7,2.25,0.176471,80.663,80.388,79.718,79.505,80.084,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Toksykologia kliniczna,5,17,7,2.25,0.294118,79.548,79.02,78.477,77.997,78.773,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Toksykologia kliniczna,1,17,7,2.25,0.058824,82.686,82.211,81.541,81.361,82.024,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Toksykologia kliniczna,3,17,7,2.25,0.176471,80.628,81.752,80.754,80.526,80.577,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Toksykologia kliniczna,1,17,7,2.25,0.058824,81.333,81.986,81.244,80.975,81.154,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Toksykologia kliniczna,2,17,7,2.25,0.117647,80.67,80.465,80.288,80.115,80.393,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Toksykologia kliniczna,2,17,7,2.25,0.117647,81.835,81.617,80.83,80.675,81.255,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Transfuzjologia kliniczna,2,32,27,1.178571,0.0625,73.932,73.962,73.464,73.894,73.913,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Transfuzjologia kliniczna,2,32,27,1.178571,0.0625,74.075,74.088,73.277,73.736,73.906,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Transfuzjologia kliniczna,1,32,27,1.178571,0.03125,74.757,74.705,74.171,74.505,74.631,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Transfuzjologia kliniczna,1,32,27,1.178571,0.03125,73.647,73.642,73.081,73.514,73.581,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Transfuzjologia kliniczna,3,32,27,1.178571,0.09375,73.329,74.374,73.99,74.365,73.847,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Opolskie,Transfuzjologia kliniczna,2,32,27,1.178571,0.0625,73.676,73.864,73.154,73.812,73.744,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Transfuzjologia kliniczna,3,32,27,1.178571,0.09375,72.226,72.325,71.825,72.354,72.29,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Transfuzjologia kliniczna,4,32,27,1.178571,0.125,72.424,72.506,71.428,71.939,72.181,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Transfuzjologia kliniczna,4,32,27,1.178571,0.125,73.568,73.698,73.035,73.594,73.581,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Transfuzjologia kliniczna,1,32,27,1.178571,0.03125,76.571,76.988,76.737,77.011,76.791,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Transfuzjologia kliniczna,2,32,27,1.178571,0.0625,73.293,73.418,72.809,73.419,73.356,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Transfuzjologia kliniczna,5,32,27,1.178571,0.15625,71.904,71.941,71.377,71.805,71.854,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Transfuzjologia kliniczna,2,32,27,1.178571,0.0625,73.239,73.317,72.92,73.424,73.331,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Dolnośląskie,Urologia,2,62,34,1.8,0.032258,91.663,91.304,90.933,90.953,91.308,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Kujawsko-pomorskie,Urologia,5,62,34,1.8,0.080645,89.456,89.392,88.585,88.809,89.132,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubelskie,Urologia,7,62,34,1.8,0.112903,89.054,88.903,88.593,88.747,88.901,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Lubuskie,Urologia,4,62,34,1.8,0.064516,89.227,88.992,87.905,88.205,88.716,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Łódzkie,Urologia,2,62,34,1.8,0.032258,92.569,91.929,91.709,91.787,92.178,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Małopolskie,Urologia,4,62,34,1.8,0.064516,91.567,91.268,90.764,90.863,91.215,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Mazowieckie,Urologia,8,62,34,1.8,0.129032,91.397,90.917,90.795,90.98,91.188,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podkarpackie,Urologia,6,62,34,1.8,0.096774,89.13,88.977,88.774,88.907,89.019,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Podlaskie,Urologia,1,62,34,1.8,0.016129,91.092,90.514,90.327,90.265,90.678,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Pomorskie,Urologia,3,62,34,1.8,0.048387,91.736,91.41,91.095,91.263,91.499,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Śląskie,Urologia,6,62,34,1.8,0.096774,90.708,90.507,89.819,90.161,90.435,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Świętokrzyskie,Urologia,2,62,34,1.8,0.032258,89.532,89.373,88.658,88.958,89.245,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Warmińsko-mazurskie,Urologia,2,62,34,1.8,0.032258,88.901,88.485,88.122,88.225,88.563,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Wielkopolskie,Urologia,5,62,34,1.8,0.080645,90.727,90.402,89.976,90.134,90.431,shadow_do_oceny_po_publikacji_wynikow
+j-2026,Zachodniopomorskie,Urologia,5,62,34,1.8,0.080645,89.103,88.204,87.395,87.573,88.338,shadow_do_oceny_po_publikacji_wynikow

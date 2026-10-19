@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-09-23T18:14:55.838476+00:00",
+  "classification_version": "2026-09-23-pilot-v1",
+  "definitions": {
+    "large_city": "Miasto z ludnością co najmniej 100 000 według stanu GUS na 31.12.2023; lista ograniczona do trzech województw pilotażowych.",
+    "academic_city": "Miasto z uczelnią prowadzącą kierunek lekarski w co najmniej jednej rundzie objętej pilotażem 2023-2026; definicja stała dla całego backtestu.",
+    "province_capital": "Siedziba wojewody i sejmiku województwa; dla województw z dwiema stolicami potrzebna będzie osobna reguła przed rozszerzeniem pilotażu."
+  },
+  "sources": {
+    "facility_file": "prediction/data/cmkp_facility_pilot.csv",
+    "facility_sha256": "be7f9d20bcee62cb59192c3a2648bb26ed061c1ecacde2f0182b3c27745a2dc6",
+    "geonames_file": "prediction/sources/geonames_postal/PL.txt",
+    "geonames_sha256": "9f85045fc319aa146cb27058d051f5276b6338840a9c39ae6e4e853e61f9863b",
+    "classification_file": "prediction/sources/city_classification_pilot.json",
+    "population": "https://stat.gov.pl/obszary-tematyczne/ludnosc/ludnosc/powierzchnia-i-ludnosc-w-przekroju-terytorialnym-w-2024-roku,7,21.html",
+    "coordinates": "https://download.geonames.org/export/zip/PL.zip"
+  },
+  "counts": {
+    "positive_capacity_rows": 8150,
+    "feature_groups": 1443,
+    "coordinate_match_methods": {
+      "city": 232,
+      "postcode": 46,
+      "postcode_city": 7872
+    },
+    "groups_with_at_least_95_percent_geography_coverage": 1443
+  },
+  "limitations": [
+    "Pojemność placówki opisuje dostępne miejsca szkoleniowe w wykazie wojewódzkim, a nie liczbę miejsc rezydenckich przyznanych w danej rundzie.",
+    "Współrzędne GeoNames są centroidami kodów pocztowych lub miejscowości, nie dokładnymi współrzędnymi budynków.",
+    "Definicja miasta akademickiego jest eksperymentalna i stała dla pilotażu; nie zależy od wyników rekrutacji, ale przed rozszerzeniem należy dodać daty obowiązywania statusu uczelni.",
+    "Pilotaż obejmuje tylko województwa dolnośląskie, mazowieckie i warmińsko-mazurskie."
+  ]
+}

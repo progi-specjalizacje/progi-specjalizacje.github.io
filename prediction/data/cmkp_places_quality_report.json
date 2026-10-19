@@ -1,0 +1,32 @@
+{
+  "sources": [
+    "prediction/sources/cmkp_places_pdfs/j-2023.pdf",
+    "prediction/sources/cmkp_places_pdfs/j-2024.pdf",
+    "prediction/sources/cmkp_places_pdfs/j-2025.pdf",
+    "prediction/sources/cmkp_places_pdfs/j-2026.pdf",
+    "prediction/sources/cmkp_places_pdfs/w-2023.pdf",
+    "prediction/sources/cmkp_places_pdfs/w-2024.pdf",
+    "prediction/sources/cmkp_places_pdfs/w-2025.pdf",
+    "prediction/sources/cmkp_places_pdfs/w-2026.pdf"
+  ],
+  "counts": {
+    "rows": 10624,
+    "rows_by_round": {
+      "j-2023": 1328,
+      "j-2024": 1328,
+      "j-2025": 1328,
+      "j-2026": 1328,
+      "w-2023": 1328,
+      "w-2024": 1328,
+      "w-2025": 1328,
+      "w-2026": 1328
+    },
+    "provinces": 16,
+    "specialties": 83,
+    "low_confidence_matches": 0,
+    "duplicate_keys": 0,
+    "negative_regular_place_counts": 0
+  },
+  "issues": [],
+  "duplicate_keys": []
+}

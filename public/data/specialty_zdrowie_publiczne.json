@@ -1,7 +1,7 @@
 [
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Dolnośląskie",
     "lp": 396,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -17,7 +17,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Lubelskie",
     "lp": 265,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -33,7 +33,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Łódzkie",
     "lp": 375,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -49,7 +49,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Małopolskie",
     "lp": 441,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -65,7 +65,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Mazowieckie",
     "lp": 821,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -81,7 +81,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Pomorskie",
     "lp": 341,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -97,7 +97,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Dolnośląskie",
     "lp": 384,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -113,7 +113,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Łódzkie",
     "lp": 382,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -129,7 +129,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Mazowieckie",
     "lp": 785,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -145,7 +145,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Mazowieckie",
     "lp": 786,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -161,7 +161,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Mazowieckie",
     "lp": 787,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -177,7 +177,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Dolnośląskie",
     "lp": 452,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -193,7 +193,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Dolnośląskie",
     "lp": 453,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -209,7 +209,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 872,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -225,7 +225,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Pomorskie",
     "lp": 333,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -241,7 +241,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Pomorskie",
     "lp": 334,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -257,7 +257,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Małopolskie",
     "lp": 220,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -273,7 +273,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 411,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -289,7 +289,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 412,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -305,7 +305,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 413,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -321,7 +321,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Podlaskie",
     "lp": 89,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -337,7 +337,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Pomorskie",
     "lp": 171,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -353,7 +353,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Lubelskie",
     "lp": 113,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -369,7 +369,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 429,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -385,7 +385,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 430,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -401,7 +401,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 431,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -417,7 +417,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 432,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -433,7 +433,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Dolnośląskie",
     "lp": 214,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -449,7 +449,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Dolnośląskie",
     "lp": 215,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -465,7 +465,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Łódzkie",
     "lp": 239,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -481,7 +481,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Łódzkie",
     "lp": 240,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -497,7 +497,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Łódzkie",
     "lp": 241,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -513,7 +513,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Małopolskie",
     "lp": 224,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -529,7 +529,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Małopolskie",
     "lp": 225,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -545,7 +545,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Mazowieckie",
     "lp": 499,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -561,7 +561,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Mazowieckie",
     "lp": 500,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -577,7 +577,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Pomorskie",
     "lp": 190,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -593,7 +593,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Mazowieckie",
     "lp": 586,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -609,7 +609,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Mazowieckie",
     "lp": 587,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -625,7 +625,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Pomorskie",
     "lp": 192,
     "dziedzina_medycyny": "Zdrowie publiczne",
@@ -641,7 +641,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Pomorskie",
     "lp": 193,
     "dziedzina_medycyny": "Zdrowie publiczne",

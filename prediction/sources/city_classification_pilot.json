@@ -1,0 +1,32 @@
+{
+  "version": "2026-09-23-pilot-v1",
+  "definitions": {
+    "large_city": "Miasto z ludnością co najmniej 100 000 według stanu GUS na 31.12.2023; lista ograniczona do trzech województw pilotażowych.",
+    "academic_city": "Miasto z uczelnią prowadzącą kierunek lekarski w co najmniej jednej rundzie objętej pilotażem 2023-2026; definicja stała dla całego backtestu.",
+    "province_capital": "Siedziba wojewody i sejmiku województwa; dla województw z dwiema stolicami potrzebna będzie osobna reguła przed rozszerzeniem pilotażu."
+  },
+  "sources": {
+    "population": "https://stat.gov.pl/obszary-tematyczne/ludnosc/ludnosc/powierzchnia-i-ludnosc-w-przekroju-terytorialnym-w-2024-roku,7,21.html",
+    "coordinates": "https://download.geonames.org/export/zip/PL.zip"
+  },
+  "large_cities": [
+    "Elbląg",
+    "Olsztyn",
+    "Płock",
+    "Radom",
+    "Warszawa",
+    "Wrocław"
+  ],
+  "academic_cities": [
+    "Olsztyn",
+    "Radom",
+    "Siedlce",
+    "Warszawa",
+    "Wrocław"
+  ],
+  "province_capitals": {
+    "Dolnośląskie": "Wrocław",
+    "Mazowieckie": "Warszawa",
+    "Warmińsko-mazurskie": "Olsztyn"
+  }
+}

@@ -1,12 +1,14 @@
 import { useEffect } from "react";
 import { SponsorWelcome } from "./components/SponsorWelcome";
 import { Card } from "./components/Card";
+import { LatestResultsCard } from "./components/LatestResultsCard";
 import { FilterPanel } from "./components/FilterControls";
 import { PivotTable } from "./components/PivotTable";
 import { SummaryChart } from "./components/SummaryChart";
 import { TextBox } from "./components/TextBox";
 import { Calculator } from "./components/Calculator";
 import { SimulationTable } from "./components/SimulationTable";
+import { HowItWorksCard } from "./components/HowItWorksCard";
 import { dashboardLayout, type DashboardVisual } from "./config/dashboardLayout";
 import { getReportOptions } from "./data/reportData";
 import { useFilterStore } from "./state/filterStore";
@@ -51,6 +53,10 @@ function renderVisual(visual: DashboardVisual) {
     return <Card {...visual.props} />;
   }
 
+  if (visual.type === "results") {
+    return <LatestResultsCard />;
+  }
+
   if (visual.type === "pivot") {
     return <PivotTable {...visual.props} />;
   }
@@ -67,10 +73,14 @@ function renderVisual(visual: DashboardVisual) {
     return <SimulationTable />;
   }
 
+  if (visual.type === "howItWorks") {
+    return <HowItWorksCard />;
+  }
+
   return <FilterPanel {...visual.props} />;
 }
 
-export default function App() {
+function DashboardApp() {
   const isLoading = useFilterStore((state) => state.isLoading);
   const loadSpecialtyData = useFilterStore((state) => state.loadSpecialtyData);
   const setDziedzinaMedycyny = useFilterStore((state) => state.setDziedzinaMedycyny);
@@ -108,7 +118,7 @@ export default function App() {
         {dashboardLayout.map((visual) => (
           <div
             key={visual.id}
-            id={visual.id === "pivot" ? "raport" : visual.id === "calculator" ? "kalkulator" : visual.id}
+            id={visual.id === "pivot" ? "raport" : visual.id === "calculator" ? "kalkulator" : visual.id === "how-it-works" ? "jak-to-dziala" : visual.id}
             className={`dashboard-item visual-${visual.type} item-${visual.id}`}
             style={gridStyle(visual)}
           >
@@ -117,7 +127,6 @@ export default function App() {
         ))}
       </div>
       <footer className="dashboard-footer">
-        <a href="/specjalizacje/">Wszystkie specjalizacje</a>
         <p>
           Dane w raportach pochodzą z{" "}
           <a href="https://www.cmkp.edu.pl/ksztalcenie/postepowania-kwalifikacyjne">
@@ -136,4 +145,8 @@ export default function App() {
     </main>
     </>
   );
+}
+
+export default function App() {
+  return <DashboardApp />;
 }

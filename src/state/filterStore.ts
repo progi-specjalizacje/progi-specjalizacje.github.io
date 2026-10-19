@@ -1,6 +1,13 @@
 import { create } from "zustand";
-import { getReportOptions, fetchSpecialtyData } from "../data/reportData";
-import type { PrzedstawWynikJako, ReportFilters, ReportRow, TrybSzkolenia } from "../types";
+import { getReportOptions, fetchSpecialtyData, fetchSpecialtyPlaces, fetchSpecialtyPools } from "../data/reportData";
+import type {
+  OfferedPlaces,
+  PrzedstawWynikJako,
+  RecruitmentPool,
+  ReportFilters,
+  ReportRow,
+  TrybSzkolenia,
+} from "../types";
 
 const options = getReportOptions();
 
@@ -14,6 +21,8 @@ const defaultFilters: ReportFilters = {
 interface FilterStore {
   filters: ReportFilters;
   activeData: ReportRow[];
+  activePools: RecruitmentPool[];
+  activePlaces: OfferedPlaces[];
   isLoading: boolean;
   setTrybSzkolenia: (trybSzkolenia: TrybSzkolenia) => void;
   setDziedzinaMedycyny: (dziedzinaMedycyny: string) => Promise<void>;
@@ -25,6 +34,8 @@ interface FilterStore {
 export const useFilterStore = create<FilterStore>((set, get) => ({
   filters: defaultFilters,
   activeData: [],
+  activePools: [],
+  activePlaces: [],
   isLoading: false,
   setTrybSzkolenia: (trybSzkolenia) => set((state) => ({ filters: { ...state.filters, trybSzkolenia } })),
   setDziedzinaMedycyny: async (dziedzinaMedycyny) => {
@@ -43,11 +54,15 @@ export const useFilterStore = create<FilterStore>((set, get) => ({
   loadSpecialtyData: async (specialty) => {
     set({ isLoading: true });
     try {
-      const data = await fetchSpecialtyData(specialty);
-      set({ activeData: data, isLoading: false });
+      const [data, pools, places] = await Promise.all([
+        fetchSpecialtyData(specialty),
+        fetchSpecialtyPools(specialty),
+        fetchSpecialtyPlaces(specialty),
+      ]);
+      set({ activeData: data, activePools: pools, activePlaces: places, isLoading: false });
     } catch (error) {
       console.error("Failed to load data for specialty", specialty, error);
-      set({ activeData: [], isLoading: false });
+      set({ activeData: [], activePools: [], activePlaces: [], isLoading: false });
     }
   },
 }));

@@ -1,8 +1,16 @@
 import {
-  ALLOWED_SPECIALTIES_FOR_SEARCH,
+  DENTAL_SPECIALTIES,
   LIMIT_SPECIALTY_SEARCH,
+  getMedicalSpecialties,
 } from "../config/specialtySearchFilter";
-import type { PrzedstawWynikJako, ReportFilters, ReportRow, TrybSzkolenia } from "../types";
+import type {
+  OfferedPlaces,
+  PrzedstawWynikJako,
+  RecruitmentPool,
+  ReportFilters,
+  ReportRow,
+  TrybSzkolenia,
+} from "../types";
 import * as metadata from "./reportMetadata";
 
 export const wynikPresentationOptions: PrzedstawWynikJako[] = [
@@ -22,12 +30,14 @@ function calculateWynikProcLubPunkty(row: ReportRow, przedstawWynikJako: Przedst
   return row.punktacja_proc;
 }
 
+export const MEDICAL_SPECIALTIES = getMedicalSpecialties(metadata.dziedziny);
+
 function getSearchableDziedziny(): string[] {
   if (!LIMIT_SPECIALTY_SEARCH) {
     return metadata.dziedziny;
   }
 
-  const allowed = new Set<string>(ALLOWED_SPECIALTIES_FOR_SEARCH);
+  const allowed = new Set<string>(DENTAL_SPECIALTIES);
   return metadata.dziedziny.filter((dziedzina) => allowed.has(dziedzina));
 }
 
@@ -36,12 +46,15 @@ export function getReportOptions() {
     dziedziny: getSearchableDziedziny(),
     przedstawWynikJako: wynikPresentationOptions,
     rekrutacje: metadata.rekrutacje,
+    zapowiedzianeRekrutacje: metadata.zapowiedzianeRekrutacje,
     tryby: metadata.tryby,
   };
 }
 
 // In-memory cache for loaded specialty JSONs
 const specialtyCache: Record<string, ReportRow[]> = {};
+const specialtyPoolCache: Record<string, RecruitmentPool[]> = {};
+const specialtyPlacesCache: Record<string, OfferedPlaces[]> = {};
 
 export async function fetchSpecialtyData(specialty: string): Promise<ReportRow[]> {
   if (specialtyCache[specialty]) {
@@ -72,6 +85,46 @@ export async function fetchSpecialtyData(specialty: string): Promise<ReportRow[]
     return parsedData;
   } catch (error) {
     console.error("Error loading specialty data:", error);
+    return [];
+  }
+}
+
+export async function fetchSpecialtyPools(specialty: string): Promise<RecruitmentPool[]> {
+  if (specialtyPoolCache[specialty]) return specialtyPoolCache[specialty];
+
+  const fileName = metadata.specialtyPoolFilesMap[specialty];
+  if (!fileName) return [];
+
+  try {
+    const response = await fetch(`/data/${fileName}`);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch pool data for "${specialty}": ${response.statusText}`);
+    }
+    const data = (await response.json()) as RecruitmentPool[];
+    specialtyPoolCache[specialty] = data;
+    return data;
+  } catch (error) {
+    console.error("Error loading pool data:", error);
+    return [];
+  }
+}
+
+export async function fetchSpecialtyPlaces(specialty: string): Promise<OfferedPlaces[]> {
+  if (specialtyPlacesCache[specialty]) return specialtyPlacesCache[specialty];
+
+  const fileName = metadata.specialtyPlacesFilesMap[specialty];
+  if (!fileName) return [];
+
+  try {
+    const response = await fetch(`/data/${fileName}`);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch places data for "${specialty}": ${response.statusText}`);
+    }
+    const data = (await response.json()) as OfferedPlaces[];
+    specialtyPlacesCache[specialty] = data;
+    return data;
+  } catch (error) {
+    console.error("Error loading places data:", error);
     return [];
   }
 }

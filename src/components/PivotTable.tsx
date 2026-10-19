@@ -1,179 +1,192 @@
-import { useMemo } from "react";
+import { Fragment, useMemo } from "react";
 import { getReportOptions } from "../data/reportData";
-import type { CategoryField, PivotConfig, ReportRow } from "../types";
-import { aggregateRows } from "../utils/analytics";
-import { interpolateColor } from "../utils/colors";
-import { formatByType } from "../utils/formatters";
-import { useFilteredRows } from "../hooks/useFilteredRows";
+import { useFilteredPlaces } from "../hooks/useFilteredPlaces";
+import { useFilteredPools } from "../hooks/useFilteredPools";
 import { useFilterStore } from "../state/filterStore";
+import type { PivotConfig, RecruitmentPool } from "../types";
+import { interpolateColor } from "../utils/colors";
+import { formatByType, formatNumber } from "../utils/formatters";
+import { getRecruitmentTimeline } from "../utils/reportMetrics";
 
 interface PivotTableProps {
   config: PivotConfig;
   title?: string;
 }
 
-interface PivotCell {
-  rowKey: string;
-  columnKey: string;
-  valueLabel: string;
-  value: number;
-  format?: "number" | "percent" | "score";
+function statusLabel(status: RecruitmentPool["status_konkurencyjnosci"]) {
+  if (status === "full") return "Próg konkurencyjny";
+  if (status === "underfilled" || status === "no_accepted") return "Wolne miejsca";
+  if (status === "inconsistent") return "Sprawdź dane";
+  return "Nieustalone";
 }
 
-function categoryKey(row: ReportRow, fields: CategoryField[]) {
-  if (fields.length === 0) return "Total";
-  return fields.map((field) => row[field]).join(" / ");
-}
-
-function uniqueKeys(rows: ReportRow[], fields: CategoryField[]) {
-  if (fields.length === 1 && fields[0] === "rekrutacja") {
-    return getReportOptions().rekrutacje;
+function statusDescription(pool: RecruitmentPool) {
+  if (pool.status_konkurencyjnosci === "full") {
+    return "Wszystkie oferowane miejsca zostały obsadzone — najniższy wynik jest progiem konkurencyjnym.";
   }
-
-  const keys = rows.map((row) => categoryKey(row, fields));
-  const unique = [...new Set(keys)];
-
-  return unique.sort((a, b) => a.localeCompare(b, "pl"));
+  if (pool.status_konkurencyjnosci === "underfilled") {
+    return "Nie wszystkie oferowane miejsca zostały obsadzone. Najniższy wynik zakwalifikowanej osoby nie jest progiem konkurencyjnym.";
+  }
+  if (pool.status_konkurencyjnosci === "no_accepted") {
+    return "Nie zakwalifikowano żadnej osoby, mimo że oferowano miejsca.";
+  }
+  if (pool.status_konkurencyjnosci === "inconsistent") {
+    return "Liczba zakwalifikowanych nie zgadza się z opublikowaną liczbą miejsc. Tej wartości nie traktujemy jako progu.";
+  }
+  return "Brakuje danych CMKP o liczbie oferowanych miejsc, więc nie można potwierdzić, czy wynik był progiem konkurencyjnym.";
 }
 
-function displayFieldLabel(fields: CategoryField[]) {
-  const labels: Record<CategoryField, string> = {
-    wojewodztwo: "Województwo",
-    rekrutacja: "Rekrutacja",
-    dziedzina_medycyny: "Dziedzina medycyny",
-    tryb_szkolenia: "Tryb szkolenia",
-  };
-
-  return fields.map((field) => labels[field]).join(" / ");
+function displayedScore(pool: RecruitmentPool, scoreAsPoints: boolean) {
+  if (!Number.isFinite(pool.najnizszy_wynik_proc)) return Number.NaN;
+  if (!scoreAsPoints) return pool.najnizszy_wynik_proc as number;
+  const maximum = pool.tryb_szkolenia === "Rezydencki" ? 210 : 220;
+  return Math.round(((pool.najnizszy_wynik_proc as number) / 100) * maximum);
 }
 
-function backgroundForCell(cell: PivotCell, cells: PivotCell[], config: PivotConfig) {
-  const rule = config.conditionalFormats?.find((format) => format.valueLabel === cell.valueLabel);
-  if (!rule || !Number.isFinite(cell.value)) return undefined;
-
-  const values = cells
-    .filter((item) => item.valueLabel === cell.valueLabel)
-    .map((item) => item.value)
-    .filter((value) => Number.isFinite(value));
+function thresholdBackground(pool: RecruitmentPool, fullPools: RecruitmentPool[]) {
+  if (pool.status_konkurencyjnosci !== "full" || !Number.isFinite(pool.najnizszy_wynik_proc)) return undefined;
+  const values = fullPools
+    .map((item) => item.najnizszy_wynik_proc)
+    .filter((value): value is number => Number.isFinite(value))
+    .sort((a, b) => a - b);
   if (values.length === 0) return undefined;
+  if (values[0] === values[values.length - 1]) return interpolateColor("#fff7ed", "#86efac", 0.5);
 
-  let ratio: number;
-  if (cell.valueLabel === "Min wynik") {
-    const sorted = [...values].sort((a, b) => a - b);
-    if (sorted[0] === sorted[sorted.length - 1]) {
-      ratio = 0.5;
-    } else {
-      let lessCount = 0;
-      let equalCount = 0;
-      for (const v of sorted) {
-        if (v < cell.value) lessCount++;
-        else if (v === cell.value) equalCount++;
-      }
-      const rank = lessCount + (equalCount - 1) / 2;
-      ratio = rank / (sorted.length - 1);
-    }
-  } else {
-    const min = Math.min(...values);
-    const max = Math.max(...values);
-    ratio = max === min ? 0.5 : (cell.value - min) / (max - min);
-  }
-
-  return interpolateColor(rule.from, rule.to, ratio);
+  const value = pool.najnizszy_wynik_proc as number;
+  const lower = values.filter((item) => item < value).length;
+  const equal = values.filter((item) => item === value).length;
+  const rank = lower + (equal - 1) / 2;
+  return interpolateColor("#fff7ed", "#86efac", rank / (values.length - 1));
 }
 
-export function PivotTable({ config, title }: PivotTableProps) {
-  const rows = useFilteredRows();
+export function PivotTable({ config: _config, title }: PivotTableProps) {
+  const pools = useFilteredPools();
+  const places = useFilteredPlaces();
   const przedstawWynikJako = useFilterStore((state) => state.filters.przedstawWynikJako);
   const scoreAsPoints = przedstawWynikJako === "surowa ilość punktów rekrutacyjnych (poglądowo)";
   const model = useMemo(() => {
-    const rowKeys = uniqueKeys(rows, config.rows);
-    const columnKeys = uniqueKeys(rows, config.columns);
-    const cells: PivotCell[] = [];
-
-    rowKeys.forEach((rowKey) => {
-      columnKeys.forEach((columnKey) => {
-        const matchingRows = rows.filter(
-          (row) => categoryKey(row, config.rows) === rowKey && categoryKey(row, config.columns) === columnKey,
-        );
-
-        config.values.forEach((valueConfig) => {
-          cells.push({
-            rowKey,
-            columnKey,
-          valueLabel: valueConfig.label,
-            value:
-              matchingRows.length === 0
-                ? Number.NaN
-                : aggregateRows(matchingRows, valueConfig.field, valueConfig.aggregation),
-            format: valueConfig.format,
-          });
-        });
-      });
-    });
-
-    return { rowKeys, columnKeys, cells };
-  }, [config, rows]);
+    const upcoming = getRecruitmentTimeline(pools, places).upcoming;
+    const upcomingPlaces = new Map(
+      places
+        .filter((place) => place.rekrutacja === upcoming && place.liczba_miejsc > 0)
+        .map((place) => [place.wojewodztwo, place.liczba_miejsc]),
+    );
+    const rowKeys = [...new Set([...pools.map((pool) => pool.wojewodztwo), ...upcomingPlaces.keys()])].sort((a, b) =>
+      a.localeCompare(b, "pl"),
+    );
+    const columnKeys = [...(upcoming ? [upcoming] : []), ...getReportOptions().rekrutacje];
+    const cells = new Map(pools.map((pool) => [`${pool.wojewodztwo}::${pool.rekrutacja}`, pool]));
+    const fullPools = pools.filter((pool) => pool.status_konkurencyjnosci === "full");
+    return { rowKeys, columnKeys, cells, fullPools, upcoming, upcomingPlaces };
+  }, [places, pools]);
 
   return (
     <section className="pivot-visual">
-      {title ? <div className="visual-title">{title}</div> : null}
+      {title ? (
+        <div className="visual-title">
+          {title}
+        </div>
+      ) : null}
       <div className="pivot-scroll">
-        <table className="pivot-table">
+        <table className="pivot-table threshold-table">
           <thead>
             <tr>
-              <th className="row-heading" rowSpan={2}>
-                {displayFieldLabel(config.rows)}
-              </th>
+              <th className="row-heading" rowSpan={2}>Województwo</th>
               {model.columnKeys.map((columnKey, columnIndex) => (
                 <th
                   key={columnKey}
                   className={`recruitment-heading pair-${columnIndex % 2 === 0 ? "even" : "odd"}`}
-                  colSpan={config.values.length}
+                  colSpan={2}
                 >
                   {columnKey}
+                  {columnKey === model.upcoming ? " (zapowiedziana)" : ""}
                 </th>
               ))}
             </tr>
             <tr>
-              {model.columnKeys.map((columnKey, columnIndex) =>
-                config.values.map((valueConfig, valueIndex) => (
-                  <th
-                    key={`${columnKey}-${valueConfig.label}`}
-                    className={`measure-heading pair-${columnIndex % 2 === 0 ? "even" : "odd"}${valueIndex === config.values.length - 1 ? " group-end" : ""}`}
-                  >
-                    {valueConfig.label}
+              {model.columnKeys.map((columnKey, columnIndex) => (
+                <Fragment key={columnKey}>
+                  <th className={`measure-heading pair-${columnIndex % 2 === 0 ? "even" : "odd"}`}>
+                    Próg / status
                   </th>
-                )),
-              )}
+                  <th className={`measure-heading pair-${columnIndex % 2 === 0 ? "even" : "odd"} group-end`}>
+                    Obsada
+                  </th>
+                </Fragment>
+              ))}
             </tr>
           </thead>
           <tbody>
             {model.rowKeys.map((rowKey) => (
               <tr key={rowKey}>
                 <th scope="row">{rowKey}</th>
-                {model.columnKeys.map((columnKey, columnIndex) =>
-                  config.values.map((valueConfig, valueIndex) => {
-                    const cell = model.cells.find(
-                      (item) =>
-                        item.rowKey === rowKey &&
-                        item.columnKey === columnKey &&
-                        item.valueLabel === valueConfig.label,
-                    );
-                    const background = cell ? backgroundForCell(cell, model.cells, config) : undefined;
-
+                {model.columnKeys.map((columnKey, columnIndex) => {
+                  const pool = model.cells.get(`${rowKey}::${columnKey}`);
+                  const pairClass = `pair-${columnIndex % 2 === 0 ? "even" : "odd"}`;
+                  if (columnKey === model.upcoming) {
+                    const announced = model.upcomingPlaces.get(rowKey);
+                    if (!announced) {
+                      return (
+                        <Fragment key={columnKey}>
+                          <td className={`${pairClass} empty-cell upcoming-cell`}>—</td>
+                          <td className={`${pairClass} group-end empty-cell upcoming-cell`}>—</td>
+                        </Fragment>
+                      );
+                    }
+                    const description = "Wyniki tej rekrutacji nie zostały jeszcze opublikowane. CMKP podało tylko liczbę miejsc.";
                     return (
-                      <td
-                        key={`${rowKey}-${columnKey}-${valueConfig.label}`}
-                        className={`pair-${columnIndex % 2 === 0 ? "even" : "odd"}${valueIndex === config.values.length - 1 ? " group-end" : ""}`}
-                        style={{ backgroundColor: background }}
-                      >
-                        {cell && Number.isFinite(cell.value)
-                          ? formatByType(cell.value, cell.format, scoreAsPoints)
-                          : "-"}
-                      </td>
+                      <Fragment key={columnKey}>
+                        <td className={`${pairClass} competition-threshold-cell upcoming-cell`} title={description}>
+                          <span className="threshold-primary">?</span>
+                        </td>
+                        <td
+                          className={`${pairClass} group-end occupancy-cell upcoming-cell`}
+                          title={`${description} Zapowiedziane miejsca: ${announced}.`}
+                        >
+                          ? / {formatNumber(announced)}
+                        </td>
+                      </Fragment>
                     );
-                  }),
-                )}
+                  }
+                  if (!pool) {
+                    return (
+                      <Fragment key={columnKey}>
+                        <td className={`${pairClass} empty-cell`}>—</td>
+                        <td className={`${pairClass} group-end empty-cell`}>—</td>
+                      </Fragment>
+                    );
+                  }
+
+                  const score = displayedScore(pool, scoreAsPoints);
+                  const isThreshold = pool.status_konkurencyjnosci === "full";
+                  const secondary = Number.isFinite(score)
+                    ? `${isThreshold ? "" : "min. przyjęty: "}${formatByType(score, "score", scoreAsPoints)}`
+                    : null;
+                  const occupancy = `${pool.liczba_zakwalifikowanych} / ${pool.liczba_miejsc ?? "?"}`;
+
+                  return (
+                    <Fragment key={columnKey}>
+                      <td
+                        className={`${pairClass} competition-threshold-cell status-${pool.status_konkurencyjnosci}`}
+                        style={{ backgroundColor: thresholdBackground(pool, model.fullPools) }}
+                        title={statusDescription(pool)}
+                      >
+                        <span className="threshold-primary">
+                          {isThreshold && Number.isFinite(score)
+                            ? formatByType(score, "score", scoreAsPoints)
+                            : statusLabel(pool.status_konkurencyjnosci)}
+                        </span>
+                        {!isThreshold && secondary ? <span className="threshold-secondary">{secondary}</span> : null}
+                      </td>
+                      <td
+                        className={`${pairClass} group-end occupancy-cell status-${pool.status_konkurencyjnosci}`}
+                        title={`${statusDescription(pool)} Zakwalifikowani / oferowane miejsca: ${occupancy}.`}
+                      >
+                        {occupancy}
+                      </td>
+                    </Fragment>
+                  );
+                })}
               </tr>
             ))}
           </tbody>

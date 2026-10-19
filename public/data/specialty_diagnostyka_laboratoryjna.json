@@ -1,7 +1,7 @@
 [
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Małopolskie",
     "lp": 128,
     "dziedzina_medycyny": "Diagnostyka laboratoryjna",
@@ -17,7 +17,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Małopolskie",
     "lp": 129,
     "dziedzina_medycyny": "Diagnostyka laboratoryjna",
@@ -33,7 +33,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Mazowieckie",
     "lp": 191,
     "dziedzina_medycyny": "Diagnostyka laboratoryjna",
@@ -49,7 +49,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 121,
     "dziedzina_medycyny": "Diagnostyka laboratoryjna",
@@ -65,7 +65,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Warmińsko-mazurskie",
     "lp": 19,
     "dziedzina_medycyny": "Diagnostyka laboratoryjna",
@@ -81,7 +81,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Wielkopolskie",
     "lp": 54,
     "dziedzina_medycyny": "Diagnostyka laboratoryjna",
@@ -97,7 +97,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Wielkopolskie",
     "lp": 55,
     "dziedzina_medycyny": "Diagnostyka laboratoryjna",

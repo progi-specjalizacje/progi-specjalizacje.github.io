@@ -1,0 +1,1713 @@
+rekrutacja,wojewodztwo,dziedzina_medycyny,egzamin,liczba_miejsc,czy_pelna_pula,prawdopodobienstwo_model_logistyczny,prawdopodobienstwo_model_skalibrowany,liczba_obserwacji_kalibracyjnych,kalibrator_metoda,kalibrator_wyraz_wolny,kalibrator_nachylenie,prawdopodobienstwo_wygladzona_historia
+j-2024,Kujawsko-pomorskie,Alergologia,LEK,2,0,0.976563,0.971379,1592,isotonic_binned_shrunk,,,0.700689
+j-2024,Lubelskie,Alergologia,LEK,1,0,0.994407,0.977031,1592,isotonic_binned_shrunk,,,0.840827
+j-2024,Opolskie,Alergologia,LEK,2,1,0.970033,0.968349,1592,isotonic_binned_shrunk,,,0.801034
+j-2024,Pomorskie,Alergologia,LEK,2,1,0.997599,0.977031,1592,isotonic_binned_shrunk,,,0.867356
+j-2024,Śląskie,Alergologia,LEK,1,1,0.994789,0.977031,1592,isotonic_binned_shrunk,,,0.840827
+j-2024,Świętokrzyskie,Alergologia,LEK,3,1,0.952135,0.960826,1592,isotonic_binned_shrunk,,,0.801034
+j-2024,Zachodniopomorskie,Alergologia,LEK,1,1,0.975634,0.970832,1592,isotonic_binned_shrunk,,,0.801034
+j-2024,Kujawsko-pomorskie,Anestezjologia i intensywna terapia,LEK,13,1,0.96427,0.964552,1592,isotonic_binned_shrunk,,,0.446859
+j-2024,Lubelskie,Anestezjologia i intensywna terapia,LEK,16,1,0.966447,0.96632,1592,isotonic_binned_shrunk,,,0.280193
+j-2024,Łódzkie,Anestezjologia i intensywna terapia,LEK,14,1,0.952888,0.958042,1592,isotonic_binned_shrunk,,,0.280193
+j-2024,Mazowieckie,Anestezjologia i intensywna terapia,LEK,8,1,0.999786,0.977031,1592,isotonic_binned_shrunk,,,0.113526
+j-2024,Opolskie,Anestezjologia i intensywna terapia,LEK,3,1,0.936401,0.944665,1592,isotonic_binned_shrunk,,,0.113526
+j-2024,Podlaskie,Anestezjologia i intensywna terapia,LEK,12,1,0.735079,0.80003,1592,isotonic_binned_shrunk,,,0.113526
+j-2024,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,LEK,14,1,0.924507,0.936892,1592,isotonic_binned_shrunk,,,0.280193
+j-2024,Wielkopolskie,Anestezjologia i intensywna terapia,LEK,10,1,0.995121,0.977031,1592,isotonic_binned_shrunk,,,0.446859
+j-2024,Dolnośląskie,Angiologia,LEK,2,1,0.751697,0.815302,1592,isotonic_binned_shrunk,,,0.559619
+j-2024,Kujawsko-pomorskie,Angiologia,LEK,1,0,0.547219,0.604472,1592,isotonic_binned_shrunk,,,0.359619
+j-2024,Lubelskie,Angiologia,LEK,1,1,0.496776,0.499751,1592,isotonic_binned_shrunk,,,0.199523
+j-2024,Pomorskie,Angiologia,LEK,1,1,0.470327,0.461695,1592,isotonic_binned_shrunk,,,0.159619
+j-2024,Śląskie,Angiologia,LEK,1,0,0.248981,0.175016,1592,isotonic_binned_shrunk,,,0.133016
+j-2024,Wielkopolskie,Angiologia,LEK,1,0,0.262651,0.182263,1592,isotonic_binned_shrunk,,,0.133016
+j-2024,Mazowieckie,Audiologia i foniatria,LEK,1,0,0.975289,0.971138,1592,isotonic_binned_shrunk,,,0.535314
+j-2024,Opolskie,Audiologia i foniatria,LEK,2,1,0.516363,0.558679,1592,isotonic_binned_shrunk,,,0.403962
+j-2024,Pomorskie,Audiologia i foniatria,LEK,2,0,0.847057,0.877124,1592,isotonic_binned_shrunk,,,0.535314
+j-2024,Śląskie,Audiologia i foniatria,LEK,1,1,0.902542,0.925185,1592,isotonic_binned_shrunk,,,0.552972
+j-2024,Świętokrzyskie,Audiologia i foniatria,LEK,1,0,0.357146,0.293813,1592,isotonic_binned_shrunk,,,0.242377
+j-2024,Śląskie,Balneologia i medycyna fizykalna,LEK,1,0,0.040354,0.044306,1592,isotonic_binned_shrunk,,,0.07144
+j-2024,Świętokrzyskie,Balneologia i medycyna fizykalna,LEK,1,0,0.015898,0.036326,1592,isotonic_binned_shrunk,,,0.07144
+j-2024,Mazowieckie,Chirurgia dziecięca,LEK,5,1,0.768653,0.825902,1592,isotonic_binned_shrunk,,,0.071434
+j-2024,Podlaskie,Chirurgia dziecięca,LEK,1,1,0.143717,0.112415,1592,isotonic_binned_shrunk,,,0.071434
+j-2024,Śląskie,Chirurgia dziecięca,LEK,3,1,0.45535,0.416151,1592,isotonic_binned_shrunk,,,0.071434
+j-2024,Świętokrzyskie,Chirurgia dziecięca,LEK,1,0,0.350926,0.273367,1592,isotonic_binned_shrunk,,,0.238101
+j-2024,Wielkopolskie,Chirurgia dziecięca,LEK,3,1,0.631561,0.690552,1592,isotonic_binned_shrunk,,,0.071434
+j-2024,Zachodniopomorskie,Chirurgia dziecięca,LEK,2,1,0.294091,0.202822,1592,isotonic_binned_shrunk,,,0.238101
+j-2024,Łódzkie,Chirurgia klatki piersiowej,LEK,1,0,0.408418,0.355742,1592,isotonic_binned_shrunk,,,0.2657
+j-2024,Podkarpackie,Chirurgia klatki piersiowej,LEK,2,1,0.374195,0.314419,1592,isotonic_binned_shrunk,,,0.31884
+j-2024,Pomorskie,Chirurgia klatki piersiowej,LEK,1,0,0.564987,0.608302,1592,isotonic_binned_shrunk,,,0.148549
+j-2024,Śląskie,Chirurgia klatki piersiowej,LEK,1,1,0.209431,0.1544,1592,isotonic_binned_shrunk,,,0.099033
+j-2024,Świętokrzyskie,Chirurgia klatki piersiowej,LEK,1,0,0.200422,0.14863,1592,isotonic_binned_shrunk,,,0.11884
+j-2024,Zachodniopomorskie,Chirurgia klatki piersiowej,LEK,3,0,0.049378,0.051314,1592,isotonic_binned_shrunk,,,0.099033
+j-2024,Kujawsko-pomorskie,Chirurgia naczyniowa,LEK,1,1,0.816328,0.857938,1592,isotonic_binned_shrunk,,,0.368711
+j-2024,Łódzkie,Chirurgia naczyniowa,LEK,1,1,0.928194,0.940529,1592,isotonic_binned_shrunk,,,0.491615
+j-2024,Podkarpackie,Chirurgia naczyniowa,LEK,2,1,0.956697,0.96258,1592,isotonic_binned_shrunk,,,0.694969
+j-2024,Pomorskie,Chirurgia naczyniowa,LEK,1,1,0.977743,0.972142,1592,isotonic_binned_shrunk,,,0.618711
+j-2024,Śląskie,Chirurgia naczyniowa,LEK,3,1,0.955653,0.961133,1592,isotonic_binned_shrunk,,,0.579141
+j-2024,Świętokrzyskie,Chirurgia naczyniowa,LEK,3,1,0.317623,0.245997,1592,isotonic_binned_shrunk,,,0.245807
+j-2024,Warmińsko-mazurskie,Chirurgia naczyniowa,LEK,2,1,0.866232,0.900899,1592,isotonic_binned_shrunk,,,0.618711
+j-2024,Pomorskie,Chirurgia ogólna,LEK,14,1,0.893566,0.911887,1592,isotonic_binned_shrunk,,,0.208764
+j-2024,Wielkopolskie,Chirurgia ogólna,LEK,15,1,0.844913,0.871279,1592,isotonic_binned_shrunk,,,0.042097
+j-2024,Kujawsko-pomorskie,Chirurgia onkologiczna,LEK,3,0,0.20342,0.148799,1592,isotonic_binned_shrunk,,,0.127336
+j-2024,Lubelskie,Chirurgia onkologiczna,LEK,1,0,0.802478,0.854786,1592,isotonic_binned_shrunk,,,0.352803
+j-2024,Lubuskie,Chirurgia onkologiczna,LEK,2,0,0.182919,0.141501,1592,isotonic_binned_shrunk,,,0.127336
+j-2024,Mazowieckie,Chirurgia onkologiczna,LEK,8,1,0.674633,0.746498,1592,isotonic_binned_shrunk,,,0.127336
+j-2024,Warmińsko-mazurskie,Chirurgia onkologiczna,LEK,1,0,0.21415,0.155896,1592,isotonic_binned_shrunk,,,0.127336
+j-2024,Wielkopolskie,Chirurgia onkologiczna,LEK,2,1,0.803472,0.852973,1592,isotonic_binned_shrunk,,,0.294003
+j-2024,Dolnośląskie,Chirurgia plastyczna,LEK,3,1,0.834297,0.869567,1592,isotonic_binned_shrunk,,,0.454104
+j-2024,Kujawsko-pomorskie,Chirurgia plastyczna,LEK,1,1,0.968848,0.967789,1592,isotonic_binned_shrunk,,,0.704104
+j-2024,Lubelskie,Chirurgia plastyczna,LEK,1,1,0.994589,0.977031,1592,isotonic_binned_shrunk,,,0.802736
+j-2024,Pomorskie,Chirurgia plastyczna,LEK,1,1,0.979374,0.972195,1592,isotonic_binned_shrunk,,,0.563283
+j-2024,Dolnośląskie,Chirurgia stomatologiczna,LDEK,1,1,0.99598,0.977031,1592,isotonic_binned_shrunk,,,0.822462
+j-2024,Kujawsko-pomorskie,Chirurgia stomatologiczna,LDEK,2,1,0.982045,0.973702,1592,isotonic_binned_shrunk,,,0.822462
+j-2024,Lubelskie,Chirurgia stomatologiczna,LDEK,3,1,0.985005,0.975267,1592,isotonic_binned_shrunk,,,0.548308
+j-2024,Łódzkie,Chirurgia stomatologiczna,LDEK,1,1,0.997878,0.977031,1592,isotonic_binned_shrunk,,,0.881641
+j-2024,Małopolskie,Chirurgia stomatologiczna,LDEK,2,1,0.992275,0.977031,1592,isotonic_binned_shrunk,,,0.822462
+j-2024,Mazowieckie,Chirurgia stomatologiczna,LDEK,1,1,0.99925,0.977031,1592,isotonic_binned_shrunk,,,0.881641
+j-2024,Pomorskie,Chirurgia stomatologiczna,LDEK,2,1,0.996697,0.977031,1592,isotonic_binned_shrunk,,,0.822462
+j-2024,Warmińsko-mazurskie,Chirurgia stomatologiczna,LDEK,3,1,0.990753,0.977031,1592,isotonic_binned_shrunk,,,0.881641
+j-2024,Zachodniopomorskie,Chirurgia stomatologiczna,LDEK,1,1,0.947891,0.953669,1592,isotonic_binned_shrunk,,,0.572462
+j-2024,Dolnośląskie,Choroby płuc,LEK,8,1,0.989492,0.976778,1592,isotonic_binned_shrunk,,,0.580694
+j-2024,Kujawsko-pomorskie,Choroby płuc,LEK,5,1,0.993753,0.977031,1592,isotonic_binned_shrunk,,,0.74736
+j-2024,Lubelskie,Choroby płuc,LEK,1,1,0.996807,0.977031,1592,isotonic_binned_shrunk,,,0.74736
+j-2024,Podkarpackie,Choroby płuc,LEK,2,1,0.988976,0.976382,1592,isotonic_binned_shrunk,,,0.580694
+j-2024,Świętokrzyskie,Choroby płuc,LEK,5,1,0.983834,0.974639,1592,isotonic_binned_shrunk,,,0.696832
+j-2024,Warmińsko-mazurskie,Choroby płuc,LEK,2,1,0.910022,0.923975,1592,isotonic_binned_shrunk,,,0.414027
+j-2024,Kujawsko-pomorskie,Choroby płuc dzieci,LEK,2,0,0.137898,0.113125,1592,isotonic_binned_shrunk,,,0.133936
+j-2024,Mazowieckie,Choroby płuc dzieci,LEK,2,1,0.93874,0.948095,1592,isotonic_binned_shrunk,,,0.46727
+j-2024,Podkarpackie,Choroby płuc dzieci,LEK,1,1,0.3074,0.226608,1592,isotonic_binned_shrunk,,,0.133936
+j-2024,Podlaskie,Choroby płuc dzieci,LEK,1,1,0.21547,0.156732,1592,isotonic_binned_shrunk,,,0.133936
+j-2024,Pomorskie,Choroby płuc dzieci,LEK,2,0,0.85717,0.893915,1592,isotonic_binned_shrunk,,,0.46727
+j-2024,Warmińsko-mazurskie,Choroby płuc dzieci,LEK,1,1,0.456236,0.445831,1592,isotonic_binned_shrunk,,,0.267873
+j-2024,Dolnośląskie,Choroby zakaźne,LEK,1,1,0.755305,0.813749,1592,isotonic_binned_shrunk,,,0.042863
+j-2024,Kujawsko-pomorskie,Choroby zakaźne,LEK,6,0,0.103484,0.086743,1592,isotonic_binned_shrunk,,,0.042863
+j-2024,Lubelskie,Choroby zakaźne,LEK,9,0,0.188086,0.139418,1592,isotonic_binned_shrunk,,,0.042863
+j-2024,Lubuskie,Choroby zakaźne,LEK,2,0,0.442367,0.416588,1592,isotonic_binned_shrunk,,,0.251435
+j-2024,Opolskie,Choroby zakaźne,LEK,4,0,0.065844,0.063892,1592,isotonic_binned_shrunk,,,0.042863
+j-2024,Pomorskie,Choroby zakaźne,LEK,1,1,0.814219,0.857989,1592,isotonic_binned_shrunk,,,0.209529
+j-2024,Warmińsko-mazurskie,Choroby zakaźne,LEK,3,1,0.086418,0.076303,1592,isotonic_binned_shrunk,,,0.042863
+j-2024,Dolnośląskie,Dermatologia i wenerologia,LEK,4,1,0.987605,0.976543,1592,isotonic_binned_shrunk,,,0.763748
+j-2024,Lubelskie,Dermatologia i wenerologia,LEK,1,1,0.998974,0.977031,1592,isotonic_binned_shrunk,,,0.842499
+j-2024,Łódzkie,Dermatologia i wenerologia,LEK,3,1,0.994203,0.977031,1592,isotonic_binned_shrunk,,,0.810998
+j-2024,Podkarpackie,Dermatologia i wenerologia,LEK,2,1,0.997796,0.977031,1592,isotonic_binned_shrunk,,,0.842499
+j-2024,Podlaskie,Dermatologia i wenerologia,LEK,2,1,0.990686,0.977031,1592,isotonic_binned_shrunk,,,0.810998
+j-2024,Śląskie,Dermatologia i wenerologia,LEK,7,1,0.975124,0.970602,1592,isotonic_binned_shrunk,,,0.610998
+j-2024,Warmińsko-mazurskie,Dermatologia i wenerologia,LEK,4,1,0.982157,0.974121,1592,isotonic_binned_shrunk,,,0.810998
+j-2024,Dolnośląskie,Diabetologia,LEK,1,1,0.993157,0.977031,1592,isotonic_binned_shrunk,,,0.761681
+j-2024,Kujawsko-pomorskie,Diabetologia,LEK,2,1,0.967117,0.967322,1592,isotonic_binned_shrunk,,,0.702102
+j-2024,Lubelskie,Diabetologia,LEK,5,1,0.917007,0.931694,1592,isotonic_binned_shrunk,,,0.561681
+j-2024,Łódzkie,Diabetologia,LEK,3,1,0.98836,0.976717,1592,isotonic_binned_shrunk,,,0.634735
+j-2024,Opolskie,Diabetologia,LEK,1,1,0.917555,0.935327,1592,isotonic_binned_shrunk,,,0.561681
+j-2024,Podlaskie,Diabetologia,LEK,3,1,0.982736,0.974254,1592,isotonic_binned_shrunk,,,0.801401
+j-2024,Śląskie,Diabetologia,LEK,4,1,0.99357,0.977031,1592,isotonic_binned_shrunk,,,0.801401
+j-2024,Świętokrzyskie,Diabetologia,LEK,2,1,0.916418,0.931977,1592,isotonic_binned_shrunk,,,0.602802
+j-2024,Warmińsko-mazurskie,Diabetologia,LEK,2,1,0.88963,0.914114,1592,isotonic_binned_shrunk,,,0.468068
+j-2024,Zachodniopomorskie,Diabetologia,LEK,6,1,0.740869,0.809425,1592,isotonic_binned_shrunk,,,0.301401
+j-2024,Mazowieckie,Diagnostyka laboratoryjna,LEK,1,0,0.723533,0.802997,1592,isotonic_binned_shrunk,,,0.43156
+j-2024,Warmińsko-mazurskie,Diagnostyka laboratoryjna,LEK,2,0,0.108023,0.093966,1592,isotonic_binned_shrunk,,,0.196454
+j-2024,Wielkopolskie,Diagnostyka laboratoryjna,LEK,2,0,0.048981,0.051784,1592,isotonic_binned_shrunk,,,0.098227
+j-2024,Dolnośląskie,Endokrynologia,LEK,1,1,0.999159,0.977031,1592,isotonic_binned_shrunk,,,0.898818
+j-2024,Kujawsko-pomorskie,Endokrynologia,LEK,2,1,0.991728,0.977031,1592,isotonic_binned_shrunk,,,0.848227
+j-2024,Lubuskie,Endokrynologia,LEK,1,1,0.991162,0.977031,1592,isotonic_binned_shrunk,,,0.848227
+j-2024,Łódzkie,Endokrynologia,LEK,2,1,0.998419,0.977031,1592,isotonic_binned_shrunk,,,0.898818
+j-2024,Małopolskie,Endokrynologia,LEK,7,1,0.988912,0.976973,1592,isotonic_binned_shrunk,,,0.848227
+j-2024,Mazowieckie,Endokrynologia,LEK,6,1,0.998266,0.977031,1592,isotonic_binned_shrunk,,,0.878582
+j-2024,Opolskie,Endokrynologia,LEK,4,1,0.956113,0.960455,1592,isotonic_binned_shrunk,,,0.797636
+j-2024,Podkarpackie,Endokrynologia,LEK,7,1,0.969965,0.966612,1592,isotonic_binned_shrunk,,,0.797636
+j-2024,Śląskie,Endokrynologia,LEK,10,1,0.996821,0.977031,1592,isotonic_binned_shrunk,,,0.898818
+j-2024,Świętokrzyskie,Endokrynologia,LEK,3,1,0.982571,0.974146,1592,isotonic_binned_shrunk,,,0.848227
+j-2024,Zachodniopomorskie,Endokrynologia,LEK,4,1,0.993771,0.977031,1592,isotonic_binned_shrunk,,,0.878582
+j-2024,Kujawsko-pomorskie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.983155,0.974689,1592,isotonic_binned_shrunk,,,0.717553
+j-2024,Lubelskie,Endokrynologia i diabetologia dziecięca,LEK,3,1,0.97253,0.970158,1592,isotonic_binned_shrunk,,,0.717553
+j-2024,Łódzkie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.975793,0.970754,1592,isotonic_binned_shrunk,,,0.623405
+j-2024,Małopolskie,Endokrynologia i diabetologia dziecięca,LEK,4,1,0.97406,0.970692,1592,isotonic_binned_shrunk,,,0.717553
+j-2024,Opolskie,Endokrynologia i diabetologia dziecięca,LEK,2,1,0.916414,0.934279,1592,isotonic_binned_shrunk,,,0.623405
+j-2024,Podlaskie,Endokrynologia i diabetologia dziecięca,LEK,2,1,0.895247,0.916741,1592,isotonic_binned_shrunk,,,0.311702
+j-2024,Śląskie,Endokrynologia i diabetologia dziecięca,LEK,3,1,0.99584,0.977031,1592,isotonic_binned_shrunk,,,0.811702
+j-2024,Warmińsko-mazurskie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.970572,0.969441,1592,isotonic_binned_shrunk,,,0.717553
+j-2024,Zachodniopomorskie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.971265,0.969279,1592,isotonic_binned_shrunk,,,0.717553
+j-2024,Łódzkie,Farmakologia kliniczna,LEK,1,0,0.05907,0.058266,1592,isotonic_binned_shrunk,,,0.08845
+j-2024,Dolnośląskie,Gastroenterologia,LEK,2,1,0.981904,0.973349,1592,isotonic_binned_shrunk,,,0.685725
+j-2024,Kujawsko-pomorskie,Gastroenterologia,LEK,1,1,0.973713,0.969257,1592,isotonic_binned_shrunk,,,0.809542
+j-2024,Lubelskie,Gastroenterologia,LEK,2,1,0.989912,0.977031,1592,isotonic_binned_shrunk,,,0.857157
+j-2024,Łódzkie,Gastroenterologia,LEK,1,1,0.99867,0.977031,1592,isotonic_binned_shrunk,,,0.904771
+j-2024,Małopolskie,Gastroenterologia,LEK,3,1,0.991818,0.977031,1592,isotonic_binned_shrunk,,,0.885725
+j-2024,Mazowieckie,Gastroenterologia,LEK,2,1,0.999322,0.977031,1592,isotonic_binned_shrunk,,,0.904771
+j-2024,Podkarpackie,Gastroenterologia,LEK,1,1,0.989496,0.977031,1592,isotonic_binned_shrunk,,,0.857157
+j-2024,Podlaskie,Gastroenterologia,LEK,2,1,0.991691,0.977031,1592,isotonic_binned_shrunk,,,0.904771
+j-2024,Śląskie,Gastroenterologia,LEK,2,1,0.997332,0.977031,1592,isotonic_binned_shrunk,,,0.904771
+j-2024,Wielkopolskie,Gastroenterologia,LEK,1,1,0.985645,0.975027,1592,isotonic_binned_shrunk,,,0.809542
+j-2024,Zachodniopomorskie,Gastroenterologia,LEK,4,1,0.974577,0.970299,1592,isotonic_binned_shrunk,,,0.885725
+j-2024,Dolnośląskie,Gastroenterologia dziecięca,LEK,1,1,0.941493,0.949542,1592,isotonic_binned_shrunk,,,0.624381
+j-2024,Łódzkie,Gastroenterologia dziecięca,LEK,2,0,0.578582,0.631032,1592,isotonic_binned_shrunk,,,0.353651
+j-2024,Małopolskie,Gastroenterologia dziecięca,LEK,2,1,0.615,0.669942,1592,isotonic_binned_shrunk,,,0.280476
+j-2024,Opolskie,Gastroenterologia dziecięca,LEK,1,1,0.604407,0.67166,1592,isotonic_binned_shrunk,,,0.373968
+j-2024,Podlaskie,Gastroenterologia dziecięca,LEK,3,1,0.11984,0.102982,1592,isotonic_binned_shrunk,,,0.186984
+j-2024,Świętokrzyskie,Gastroenterologia dziecięca,LEK,1,1,0.640918,0.71617,1592,isotonic_binned_shrunk,,,0.373968
+j-2024,Zachodniopomorskie,Gastroenterologia dziecięca,LEK,1,1,0.503717,0.54603,1592,isotonic_binned_shrunk,,,0.353651
+j-2024,Lubelskie,Genetyka kliniczna,LEK,2,1,0.672398,0.766952,1592,isotonic_binned_shrunk,,,0.467873
+j-2024,Łódzkie,Genetyka kliniczna,LEK,1,0,0.700448,0.787685,1592,isotonic_binned_shrunk,,,0.267873
+j-2024,Pomorskie,Genetyka kliniczna,LEK,3,0,0.802,0.851136,1592,isotonic_binned_shrunk,,,0.446454
+j-2024,Dolnośląskie,Geriatria,LEK,5,0,0.053939,0.054546,1592,isotonic_binned_shrunk,,,0.034397
+j-2024,Lubelskie,Geriatria,LEK,4,0,0.095416,0.081252,1592,isotonic_binned_shrunk,,,0.034397
+j-2024,Lubuskie,Geriatria,LEK,2,0,0.028571,0.037296,1592,isotonic_binned_shrunk,,,0.034397
+j-2024,Łódzkie,Geriatria,LEK,1,1,0.244662,0.169131,1592,isotonic_binned_shrunk,,,0.201064
+j-2024,Małopolskie,Geriatria,LEK,15,0,0.018176,0.036326,1592,isotonic_binned_shrunk,,,0.034397
+j-2024,Opolskie,Geriatria,LEK,3,0,0.018048,0.036326,1592,isotonic_binned_shrunk,,,0.034397
+j-2024,Świętokrzyskie,Geriatria,LEK,1,1,0.035373,0.041465,1592,isotonic_binned_shrunk,,,0.034397
+j-2024,Warmińsko-mazurskie,Geriatria,LEK,1,0,0.104277,0.084338,1592,isotonic_binned_shrunk,,,0.051596
+j-2024,Wielkopolskie,Geriatria,LEK,2,0,0.070913,0.065029,1592,isotonic_binned_shrunk,,,0.034397
+j-2024,Lubelskie,Hematologia,LEK,4,1,0.523542,0.548996,1592,isotonic_binned_shrunk,,,0.077812
+j-2024,Śląskie,Hematologia,LEK,9,1,0.196548,0.143966,1592,isotonic_binned_shrunk,,,0.077812
+j-2024,Zachodniopomorskie,Hematologia,LEK,10,0,0.094226,0.080147,1592,isotonic_binned_shrunk,,,0.077812
+j-2024,Lubelskie,Immunologia kliniczna,LEK,2,0,0.663625,0.743342,1592,isotonic_binned_shrunk,,,0.33543
+j-2024,Podlaskie,Immunologia kliniczna,LEK,1,0,0.197879,0.151048,1592,isotonic_binned_shrunk,,,0.167715
+j-2024,Pomorskie,Immunologia kliniczna,LEK,1,0,0.857273,0.889594,1592,isotonic_binned_shrunk,,,0.33543
+j-2024,Zachodniopomorskie,Immunologia kliniczna,LEK,3,0,0.077444,0.069656,1592,isotonic_binned_shrunk,,,0.167715
+j-2024,Lubelskie,Kardiochirurgia,LEK,4,0,0.083928,0.074645,1592,isotonic_binned_shrunk,,,0.079226
+j-2024,Lubuskie,Kardiochirurgia,LEK,1,0,0.146107,0.114157,1592,isotonic_binned_shrunk,,,0.079226
+j-2024,Łódzkie,Kardiochirurgia,LEK,1,1,0.34797,0.264117,1592,isotonic_binned_shrunk,,,0.245893
+j-2024,Opolskie,Kardiochirurgia,LEK,3,0,0.0365,0.043203,1592,isotonic_binned_shrunk,,,0.079226
+j-2024,Podkarpackie,Kardiochirurgia,LEK,2,1,0.104309,0.088767,1592,isotonic_binned_shrunk,,,0.079226
+j-2024,Pomorskie,Kardiochirurgia,LEK,3,1,0.852508,0.88242,1592,isotonic_binned_shrunk,,,0.579226
+j-2024,Kujawsko-pomorskie,Kardiologia,LEK,10,1,0.998073,0.977031,1592,isotonic_binned_shrunk,,,0.458764
+j-2024,Lubelskie,Kardiologia,LEK,13,1,0.998201,0.977031,1592,isotonic_binned_shrunk,,,0.458764
+j-2024,Lubuskie,Kardiologia,LEK,6,1,0.992312,0.977031,1592,isotonic_binned_shrunk,,,0.292097
+j-2024,Małopolskie,Kardiologia,LEK,21,1,0.99916,0.977031,1592,isotonic_binned_shrunk,,,0.625431
+j-2024,Podkarpackie,Kardiologia,LEK,8,1,0.999149,0.977031,1592,isotonic_binned_shrunk,,,0.625431
+j-2024,Podlaskie,Kardiologia,LEK,8,1,0.99904,0.977031,1592,isotonic_binned_shrunk,,,0.792097
+j-2024,Śląskie,Kardiologia,LEK,10,1,0.999635,0.977031,1592,isotonic_binned_shrunk,,,0.792097
+j-2024,Wielkopolskie,Kardiologia,LEK,16,1,0.99941,0.977031,1592,isotonic_binned_shrunk,,,0.792097
+j-2024,Zachodniopomorskie,Kardiologia,LEK,4,1,0.999223,0.977031,1592,isotonic_binned_shrunk,,,0.625431
+j-2024,Kujawsko-pomorskie,Kardiologia dziecięca,LEK,1,0,0.884299,0.908742,1592,isotonic_binned_shrunk,,,0.50741
+j-2024,Małopolskie,Kardiologia dziecięca,LEK,2,1,0.932497,0.947083,1592,isotonic_binned_shrunk,,,0.587039
+j-2024,Śląskie,Kardiologia dziecięca,LEK,1,1,0.963746,0.966048,1592,isotonic_binned_shrunk,,,0.587039
+j-2024,Zachodniopomorskie,Kardiologia dziecięca,LEK,1,1,0.906712,0.929476,1592,isotonic_binned_shrunk,,,0.630558
+j-2024,Wielkopolskie,Medycyna morska i tropikalna,LEK,2,1,0.352361,0.281263,1592,isotonic_binned_shrunk,,,0.422894
+j-2024,Dolnośląskie,Medycyna nuklearna,LEK,1,1,0.718993,0.795077,1592,isotonic_binned_shrunk,,,0.276411
+j-2024,Kujawsko-pomorskie,Medycyna nuklearna,LEK,2,0,0.133937,0.106617,1592,isotonic_binned_shrunk,,,0.138205
+j-2024,Lubelskie,Medycyna nuklearna,LEK,2,0,0.212601,0.156115,1592,isotonic_binned_shrunk,,,0.138205
+j-2024,Lubuskie,Medycyna nuklearna,LEK,1,0,0.314092,0.231543,1592,isotonic_binned_shrunk,,,0.304872
+j-2024,Łódzkie,Medycyna nuklearna,LEK,1,0,0.793041,0.836604,1592,isotonic_binned_shrunk,,,0.471539
+j-2024,Pomorskie,Medycyna nuklearna,LEK,1,1,0.902666,0.922905,1592,isotonic_binned_shrunk,,,0.471539
+j-2024,Wielkopolskie,Medycyna nuklearna,LEK,1,0,0.821918,0.864618,1592,isotonic_binned_shrunk,,,0.471539
+j-2024,Zachodniopomorskie,Medycyna nuklearna,LEK,1,0,0.575218,0.634454,1592,isotonic_binned_shrunk,,,0.365847
+j-2024,Dolnośląskie,Medycyna paliatywna,LEK,6,0,0.048429,0.048557,1592,isotonic_binned_shrunk,,,0.047627
+j-2024,Kujawsko-pomorskie,Medycyna paliatywna,LEK,3,0,0.071549,0.064569,1592,isotonic_binned_shrunk,,,0.047627
+j-2024,Lubelskie,Medycyna paliatywna,LEK,1,0,0.110311,0.091259,1592,isotonic_binned_shrunk,,,0.047627
+j-2024,Małopolskie,Medycyna paliatywna,LEK,1,1,0.228221,0.158873,1592,isotonic_binned_shrunk,,,0.057152
+j-2024,Mazowieckie,Medycyna paliatywna,LEK,1,0,0.737087,0.809484,1592,isotonic_binned_shrunk,,,0.32144
+j-2024,Podkarpackie,Medycyna paliatywna,LEK,1,0,0.396287,0.323614,1592,isotonic_binned_shrunk,,,0.095254
+j-2024,Pomorskie,Medycyna paliatywna,LEK,1,0,0.570823,0.612238,1592,isotonic_binned_shrunk,,,0.095254
+j-2024,Śląskie,Medycyna paliatywna,LEK,6,0,0.060528,0.058217,1592,isotonic_binned_shrunk,,,0.047627
+j-2024,Warmińsko-mazurskie,Medycyna paliatywna,LEK,2,0,0.03473,0.041347,1592,isotonic_binned_shrunk,,,0.047627
+j-2024,Zachodniopomorskie,Medycyna paliatywna,LEK,1,0,0.060091,0.058266,1592,isotonic_binned_shrunk,,,0.047627
+j-2024,Mazowieckie,Medycyna pracy,LEK,1,1,0.822108,0.861897,1592,isotonic_binned_shrunk,,,0.151368
+j-2024,Podkarpackie,Medycyna pracy,LEK,1,1,0.610653,0.676052,1592,isotonic_binned_shrunk,,,0.227052
+j-2024,Świętokrzyskie,Medycyna pracy,LEK,1,0,0.278256,0.191142,1592,isotonic_binned_shrunk,,,0.151368
+j-2024,Kujawsko-pomorskie,Medycyna ratunkowa,LEK,10,0,0.472707,0.447285,1592,isotonic_binned_shrunk,,,0.199835
+j-2024,Lubuskie,Medycyna ratunkowa,LEK,4,0,0.384113,0.301944,1592,isotonic_binned_shrunk,,,0.033169
+j-2024,Opolskie,Medycyna ratunkowa,LEK,6,0,0.230344,0.168052,1592,isotonic_binned_shrunk,,,0.033169
+j-2024,Podkarpackie,Medycyna ratunkowa,LEK,6,0,0.365961,0.291928,1592,isotonic_binned_shrunk,,,0.033169
+j-2024,Podlaskie,Medycyna ratunkowa,LEK,16,0,0.126035,0.104972,1592,isotonic_binned_shrunk,,,0.033169
+j-2024,Świętokrzyskie,Medycyna ratunkowa,LEK,12,0,0.120757,0.100645,1592,isotonic_binned_shrunk,,,0.033169
+j-2024,Zachodniopomorskie,Medycyna ratunkowa,LEK,4,0,0.318367,0.234101,1592,isotonic_binned_shrunk,,,0.033169
+j-2024,Lubelskie,Medycyna sądowa,LEK,1,0,0.313767,0.238322,1592,isotonic_binned_shrunk,,,0.265415
+j-2024,Łódzkie,Medycyna sądowa,LEK,3,1,0.104067,0.087866,1592,isotonic_binned_shrunk,,,0.098749
+j-2024,Małopolskie,Medycyna sądowa,LEK,1,0,0.499759,0.496741,1592,isotonic_binned_shrunk,,,0.148123
+j-2024,Opolskie,Medycyna sądowa,LEK,3,0,0.245725,0.172126,1592,isotonic_binned_shrunk,,,0.197497
+j-2024,Podlaskie,Medycyna sądowa,LEK,2,0,0.070182,0.066165,1592,isotonic_binned_shrunk,,,0.098749
+j-2024,Śląskie,Medycyna sądowa,LEK,2,1,0.170604,0.132275,1592,isotonic_binned_shrunk,,,0.098749
+j-2024,Kujawsko-pomorskie,Medycyna sportowa,LEK,1,1,0.419943,0.34339,1592,isotonic_binned_shrunk,,,0.24766
+j-2024,Lubelskie,Medycyna sportowa,LEK,1,0,0.526075,0.537164,1592,isotonic_binned_shrunk,,,0.24766
+j-2024,Mazowieckie,Medycyna sportowa,LEK,1,1,0.702329,0.782663,1592,isotonic_binned_shrunk,,,0.348596
+j-2024,Kujawsko-pomorskie,Mikrobiologia lekarska,LEK,2,0,0.163074,0.131685,1592,isotonic_binned_shrunk,,,0.386007
+j-2024,Lubelskie,Mikrobiologia lekarska,LEK,1,0,0.382768,0.313775,1592,isotonic_binned_shrunk,,,0.181342
+j-2024,Łódzkie,Mikrobiologia lekarska,LEK,1,1,0.414928,0.383947,1592,isotonic_binned_shrunk,,,0.386007
+j-2024,Lubuskie,Nefrologia,LEK,5,0,0.290837,0.199632,1592,isotonic_binned_shrunk,,,0.119952
+j-2024,Łódzkie,Nefrologia,LEK,6,1,0.708115,0.789045,1592,isotonic_binned_shrunk,,,0.286619
+j-2024,Małopolskie,Nefrologia,LEK,4,1,0.691211,0.77541,1592,isotonic_binned_shrunk,,,0.286619
+j-2024,Mazowieckie,Nefrologia,LEK,5,1,0.976985,0.970358,1592,isotonic_binned_shrunk,,,0.453285
+j-2024,Podkarpackie,Nefrologia,LEK,6,0,0.680358,0.762454,1592,isotonic_binned_shrunk,,,0.343942
+j-2024,Pomorskie,Nefrologia,LEK,2,1,0.903709,0.918962,1592,isotonic_binned_shrunk,,,0.286619
+j-2024,Warmińsko-mazurskie,Nefrologia,LEK,3,0,0.490813,0.497623,1592,isotonic_binned_shrunk,,,0.286619
+j-2024,Zachodniopomorskie,Nefrologia,LEK,2,0,0.553504,0.588315,1592,isotonic_binned_shrunk,,,0.286619
+j-2024,Dolnośląskie,Nefrologia dziecięca,LEK,2,1,0.83539,0.871019,1592,isotonic_binned_shrunk,,,0.309533
+j-2024,Kujawsko-pomorskie,Nefrologia dziecięca,LEK,3,0,0.232645,0.160042,1592,isotonic_binned_shrunk,,,0.142866
+j-2024,Lubelskie,Nefrologia dziecięca,LEK,1,0,0.862636,0.894086,1592,isotonic_binned_shrunk,,,0.4762
+j-2024,Łódzkie,Nefrologia dziecięca,LEK,2,0,0.570999,0.623839,1592,isotonic_binned_shrunk,,,0.309533
+j-2024,Małopolskie,Nefrologia dziecięca,LEK,2,0,0.733041,0.804747,1592,isotonic_binned_shrunk,,,0.285732
+j-2024,Mazowieckie,Nefrologia dziecięca,LEK,2,1,0.929371,0.942069,1592,isotonic_binned_shrunk,,,0.309533
+j-2024,Podlaskie,Nefrologia dziecięca,LEK,2,0,0.139823,0.111627,1592,isotonic_binned_shrunk,,,0.142866
+j-2024,Śląskie,Nefrologia dziecięca,LEK,1,1,0.783738,0.842716,1592,isotonic_binned_shrunk,,,0.371439
+j-2024,Warmińsko-mazurskie,Nefrologia dziecięca,LEK,2,1,0.358041,0.286759,1592,isotonic_binned_shrunk,,,0.309533
+j-2024,Lubuskie,Neonatologia,LEK,5,0,0.129783,0.101244,1592,isotonic_binned_shrunk,,,0.042863
+j-2024,Opolskie,Neonatologia,LEK,4,0,0.162631,0.121378,1592,isotonic_binned_shrunk,,,0.042863
+j-2024,Podlaskie,Neonatologia,LEK,5,0,0.095585,0.078734,1592,isotonic_binned_shrunk,,,0.042863
+j-2024,Śląskie,Neonatologia,LEK,8,1,0.379556,0.290315,1592,isotonic_binned_shrunk,,,0.042863
+j-2024,Wielkopolskie,Neonatologia,LEK,7,0,0.686561,0.756943,1592,isotonic_binned_shrunk,,,0.042863
+j-2024,Dolnośląskie,Neurochirurgia,LEK,1,1,0.947796,0.953666,1592,isotonic_binned_shrunk,,,0.529605
+j-2024,Kujawsko-pomorskie,Neurochirurgia,LEK,1,1,0.983725,0.974173,1592,isotonic_binned_shrunk,,,0.823684
+j-2024,Łódzkie,Neurochirurgia,LEK,1,1,0.981893,0.973741,1592,isotonic_binned_shrunk,,,0.779605
+j-2024,Mazowieckie,Neurochirurgia,LEK,3,1,0.994307,0.977031,1592,isotonic_binned_shrunk,,,0.686403
+j-2024,Podkarpackie,Neurochirurgia,LEK,1,0,0.986121,0.975416,1592,isotonic_binned_shrunk,,,0.823684
+j-2024,Pomorskie,Neurochirurgia,LEK,1,1,0.992671,0.977031,1592,isotonic_binned_shrunk,,,0.779605
+j-2024,Śląskie,Neurochirurgia,LEK,1,1,0.984907,0.975127,1592,isotonic_binned_shrunk,,,0.686403
+j-2024,Warmińsko-mazurskie,Neurochirurgia,LEK,2,1,0.890741,0.914632,1592,isotonic_binned_shrunk,,,0.623684
+j-2024,Dolnośląskie,Neurologia,LEK,10,1,0.991845,0.977031,1592,isotonic_binned_shrunk,,,0.262335
+j-2024,Łódzkie,Neurologia,LEK,10,1,0.992512,0.977031,1592,isotonic_binned_shrunk,,,0.262335
+j-2024,Mazowieckie,Neurologia,LEK,22,1,0.996739,0.977031,1592,isotonic_binned_shrunk,,,0.262335
+j-2024,Śląskie,Neurologia,LEK,30,1,0.954685,0.957154,1592,isotonic_binned_shrunk,,,0.095669
+j-2024,Wielkopolskie,Neurologia,LEK,15,1,0.991646,0.977031,1592,isotonic_binned_shrunk,,,0.262335
+j-2024,Dolnośląskie,Neurologia dziecięca,LEK,2,1,0.916849,0.934407,1592,isotonic_binned_shrunk,,,0.514894
+j-2024,Łódzkie,Neurologia dziecięca,LEK,3,1,0.796093,0.845469,1592,isotonic_binned_shrunk,,,0.353192
+j-2024,Małopolskie,Neurologia dziecięca,LEK,4,1,0.791488,0.843111,1592,isotonic_binned_shrunk,,,0.353192
+j-2024,Mazowieckie,Neurologia dziecięca,LEK,6,1,0.958646,0.962017,1592,isotonic_binned_shrunk,,,0.509929
+j-2024,Podkarpackie,Neurologia dziecięca,LEK,4,1,0.727335,0.804438,1592,isotonic_binned_shrunk,,,0.411915
+j-2024,Podlaskie,Neurologia dziecięca,LEK,2,1,0.240138,0.169289,1592,isotonic_binned_shrunk,,,0.176596
+j-2024,Pomorskie,Neurologia dziecięca,LEK,1,1,0.987802,0.976099,1592,isotonic_binned_shrunk,,,0.676596
+j-2024,Śląskie,Neurologia dziecięca,LEK,3,1,0.688022,0.769464,1592,isotonic_binned_shrunk,,,0.211915
+j-2024,Warmińsko-mazurskie,Neurologia dziecięca,LEK,1,1,0.445118,0.421649,1592,isotonic_binned_shrunk,,,0.176596
+j-2024,Wielkopolskie,Neurologia dziecięca,LEK,2,1,0.871461,0.898874,1592,isotonic_binned_shrunk,,,0.411915
+j-2024,Zachodniopomorskie,Neuropatologia,LEK,1,0,0.015506,0.036326,1592,isotonic_binned_shrunk,,,0.132675
+j-2024,Dolnośląskie,Okulistyka,LEK,14,1,0.99851,0.977031,1592,isotonic_binned_shrunk,,,0.827149
+j-2024,Kujawsko-pomorskie,Okulistyka,LEK,12,1,0.996174,0.977031,1592,isotonic_binned_shrunk,,,0.827149
+j-2024,Lubelskie,Okulistyka,LEK,4,1,0.998093,0.977031,1592,isotonic_binned_shrunk,,,0.493816
+j-2024,Lubuskie,Okulistyka,LEK,4,1,0.993693,0.977031,1592,isotonic_binned_shrunk,,,0.740724
+j-2024,Łódzkie,Okulistyka,LEK,3,1,0.999585,0.977031,1592,isotonic_binned_shrunk,,,0.827149
+j-2024,Opolskie,Okulistyka,LEK,4,1,0.992201,0.977031,1592,isotonic_binned_shrunk,,,0.740724
+j-2024,Podkarpackie,Okulistyka,LEK,2,1,0.999378,0.977031,1592,isotonic_binned_shrunk,,,0.827149
+j-2024,Podlaskie,Okulistyka,LEK,5,1,0.99331,0.977031,1592,isotonic_binned_shrunk,,,0.493816
+j-2024,Pomorskie,Okulistyka,LEK,1,1,0.999237,0.977031,1592,isotonic_binned_shrunk,,,0.592579
+j-2024,Warmińsko-mazurskie,Okulistyka,LEK,5,1,0.996107,0.977031,1592,isotonic_binned_shrunk,,,0.660482
+j-2024,Wielkopolskie,Okulistyka,LEK,5,1,0.999305,0.977031,1592,isotonic_binned_shrunk,,,0.827149
+j-2024,Lubuskie,Onkologia i hematologia dziecięca,LEK,1,0,0.348335,0.2655,1592,isotonic_binned_shrunk,,,0.12743
+j-2024,Łódzkie,Onkologia i hematologia dziecięca,LEK,3,0,0.093567,0.07987,1592,isotonic_binned_shrunk,,,0.063715
+j-2024,Mazowieckie,Onkologia i hematologia dziecięca,LEK,1,1,0.757901,0.818727,1592,isotonic_binned_shrunk,,,0.12743
+j-2024,Podlaskie,Onkologia i hematologia dziecięca,LEK,3,0,0.044547,0.047751,1592,isotonic_binned_shrunk,,,0.063715
+j-2024,Zachodniopomorskie,Onkologia i hematologia dziecięca,LEK,3,0,0.080642,0.070192,1592,isotonic_binned_shrunk,,,0.076458
+j-2024,Lubuskie,Onkologia kliniczna,LEK,4,0,0.047723,0.050086,1592,isotonic_binned_shrunk,,,0.02424
+j-2024,Małopolskie,Onkologia kliniczna,LEK,6,1,0.151967,0.115855,1592,isotonic_binned_shrunk,,,0.02424
+j-2024,Podkarpackie,Onkologia kliniczna,LEK,6,0,0.04713,0.048664,1592,isotonic_binned_shrunk,,,0.02424
+j-2024,Dolnośląskie,Ortodoncja,LDEK,1,1,0.999273,0.977031,1592,isotonic_binned_shrunk,,,0.903907
+j-2024,Lubelskie,Ortodoncja,LDEK,5,1,0.994781,0.977031,1592,isotonic_binned_shrunk,,,0.903907
+j-2024,Łódzkie,Ortodoncja,LDEK,2,1,0.997306,0.977031,1592,isotonic_binned_shrunk,,,0.903907
+j-2024,Małopolskie,Ortodoncja,LDEK,6,1,0.995435,0.977031,1592,isotonic_binned_shrunk,,,0.903907
+j-2024,Mazowieckie,Ortodoncja,LDEK,10,1,0.997386,0.977031,1592,isotonic_binned_shrunk,,,0.919923
+j-2024,Podkarpackie,Ortodoncja,LDEK,4,1,0.983374,0.974162,1592,isotonic_binned_shrunk,,,0.839845
+j-2024,Pomorskie,Ortodoncja,LDEK,1,1,0.999421,0.977031,1592,isotonic_binned_shrunk,,,0.919923
+j-2024,Śląskie,Ortodoncja,LDEK,4,1,0.997992,0.977031,1592,isotonic_binned_shrunk,,,0.919923
+j-2024,Wielkopolskie,Ortodoncja,LDEK,4,1,0.996305,0.977031,1592,isotonic_binned_shrunk,,,0.903907
+j-2024,Zachodniopomorskie,Ortodoncja,LDEK,2,1,0.998251,0.977031,1592,isotonic_binned_shrunk,,,0.919923
+j-2024,Małopolskie,Ortopedia i traumatologia narządu ruchu,LEK,23,1,0.996692,0.977031,1592,isotonic_binned_shrunk,,,0.167097
+j-2024,Pomorskie,Ortopedia i traumatologia narządu ruchu,LEK,12,1,0.999189,0.977031,1592,isotonic_binned_shrunk,,,0.500431
+j-2024,Dolnośląskie,Otorynolaryngologia,LEK,4,1,0.992474,0.977031,1592,isotonic_binned_shrunk,,,0.732408
+j-2024,Kujawsko-pomorskie,Otorynolaryngologia,LEK,4,1,0.996403,0.977031,1592,isotonic_binned_shrunk,,,0.87889
+j-2024,Małopolskie,Otorynolaryngologia,LEK,3,1,0.998584,0.977031,1592,isotonic_binned_shrunk,,,0.899075
+j-2024,Mazowieckie,Otorynolaryngologia,LEK,5,1,0.99932,0.977031,1592,isotonic_binned_shrunk,,,0.732408
+j-2024,Opolskie,Otorynolaryngologia,LEK,1,1,0.995007,0.977031,1592,isotonic_binned_shrunk,,,0.87889
+j-2024,Podkarpackie,Otorynolaryngologia,LEK,4,1,0.994817,0.977031,1592,isotonic_binned_shrunk,,,0.87889
+j-2024,Podlaskie,Otorynolaryngologia,LEK,1,1,0.997368,0.977031,1592,isotonic_binned_shrunk,,,0.899075
+j-2024,Pomorskie,Otorynolaryngologia,LEK,1,1,0.997598,0.977031,1592,isotonic_binned_shrunk,,,0.732408
+j-2024,Śląskie,Otorynolaryngologia,LEK,6,1,0.994617,0.977031,1592,isotonic_binned_shrunk,,,0.87889
+j-2024,Świętokrzyskie,Otorynolaryngologia,LEK,2,1,0.995459,0.977031,1592,isotonic_binned_shrunk,,,0.87889
+j-2024,Warmińsko-mazurskie,Otorynolaryngologia,LEK,3,1,0.995455,0.977031,1592,isotonic_binned_shrunk,,,0.899075
+j-2024,Kujawsko-pomorskie,Otorynolaryngologia dziecięca,LEK,2,1,0.952906,0.960875,1592,isotonic_binned_shrunk,,,0.709841
+j-2024,Lubelskie,Otorynolaryngologia dziecięca,LEK,2,1,0.912089,0.928471,1592,isotonic_binned_shrunk,,,0.367873
+j-2024,Pomorskie,Otorynolaryngologia dziecięca,LEK,2,1,0.970092,0.968046,1592,isotonic_binned_shrunk,,,0.613121
+j-2024,Śląskie,Otorynolaryngologia dziecięca,LEK,2,1,0.988052,0.976703,1592,isotonic_binned_shrunk,,,0.767873
+j-2024,Wielkopolskie,Otorynolaryngologia dziecięca,LEK,2,1,0.972946,0.969979,1592,isotonic_binned_shrunk,,,0.709841
+j-2024,Zachodniopomorskie,Otorynolaryngologia dziecięca,LEK,1,1,0.958731,0.964029,1592,isotonic_binned_shrunk,,,0.709841
+j-2024,Łódzkie,Patomorfologia,LEK,1,1,0.255091,0.168586,1592,isotonic_binned_shrunk,,,0.042097
+j-2024,Małopolskie,Patomorfologia,LEK,5,1,0.306173,0.204103,1592,isotonic_binned_shrunk,,,0.042097
+j-2024,Opolskie,Patomorfologia,LEK,2,0,0.054646,0.054584,1592,isotonic_binned_shrunk,,,0.042097
+j-2024,Podkarpackie,Patomorfologia,LEK,6,0,0.143541,0.112372,1592,isotonic_binned_shrunk,,,0.042097
+j-2024,Podlaskie,Patomorfologia,LEK,1,0,0.155707,0.11611,1592,isotonic_binned_shrunk,,,0.042097
+j-2024,Śląskie,Patomorfologia,LEK,4,1,0.540021,0.576832,1592,isotonic_binned_shrunk,,,0.208764
+j-2024,Zachodniopomorskie,Patomorfologia,LEK,10,0,0.140128,0.105616,1592,isotonic_binned_shrunk,,,0.042097
+j-2024,Dolnośląskie,Pediatria,LEK,25,1,0.998449,0.977031,1592,isotonic_binned_shrunk,,,0.437931
+j-2024,Pomorskie,Pediatria metaboliczna,LEK,1,0,0.080409,0.073391,1592,isotonic_binned_shrunk,,,0.067873
+j-2024,Wielkopolskie,Pediatria metaboliczna,LEK,2,0,0.05057,0.051424,1592,isotonic_binned_shrunk,,,0.067873
+j-2024,Zachodniopomorskie,Pediatria metaboliczna,LEK,2,0,0.023667,0.036326,1592,isotonic_binned_shrunk,,,0.067873
+j-2024,Dolnośląskie,Periodontologia,LDEK,1,1,0.995109,0.977031,1592,isotonic_binned_shrunk,,,0.516907
+j-2024,Lubelskie,Periodontologia,LDEK,2,1,0.994593,0.977031,1592,isotonic_binned_shrunk,,,0.820288
+j-2024,Pomorskie,Periodontologia,LDEK,3,1,0.988144,0.976388,1592,isotonic_binned_shrunk,,,0.775361
+j-2024,Śląskie,Periodontologia,LDEK,2,1,0.990686,0.977031,1592,isotonic_binned_shrunk,,,0.775361
+j-2024,Warmińsko-mazurskie,Periodontologia,LDEK,1,1,0.984631,0.97508,1592,isotonic_binned_shrunk,,,0.775361
+j-2024,Wielkopolskie,Periodontologia,LDEK,1,0,0.998788,0.977031,1592,isotonic_binned_shrunk,,,0.85024
+j-2024,Lubelskie,Położnictwo i ginekologia,LEK,7,1,0.991742,0.977031,1592,isotonic_binned_shrunk,,,0.262335
+j-2024,Łódzkie,Położnictwo i ginekologia,LEK,25,1,0.954003,0.960903,1592,isotonic_binned_shrunk,,,0.262335
+j-2024,Mazowieckie,Położnictwo i ginekologia,LEK,19,1,0.992311,0.977031,1592,isotonic_binned_shrunk,,,0.429002
+j-2024,Pomorskie,Położnictwo i ginekologia,LEK,6,1,0.997417,0.977031,1592,isotonic_binned_shrunk,,,0.429002
+j-2024,Śląskie,Położnictwo i ginekologia,LEK,23,1,0.928989,0.932917,1592,isotonic_binned_shrunk,,,0.095669
+j-2024,Zachodniopomorskie,Położnictwo i ginekologia,LEK,12,1,0.978668,0.972429,1592,isotonic_binned_shrunk,,,0.095669
+j-2024,Dolnośląskie,Protetyka stomatologiczna,LDEK,3,1,0.990817,0.977031,1592,isotonic_binned_shrunk,,,0.62104
+j-2024,Łódzkie,Protetyka stomatologiczna,LDEK,5,1,0.988959,0.977031,1592,isotonic_binned_shrunk,,,0.745248
+j-2024,Małopolskie,Protetyka stomatologiczna,LDEK,5,1,0.920603,0.93376,1592,isotonic_binned_shrunk,,,0.287707
+j-2024,Mazowieckie,Protetyka stomatologiczna,LDEK,4,1,0.997626,0.977031,1592,isotonic_binned_shrunk,,,0.787707
+j-2024,Podlaskie,Protetyka stomatologiczna,LDEK,3,1,0.975361,0.970926,1592,isotonic_binned_shrunk,,,0.62104
+j-2024,Warmińsko-mazurskie,Protetyka stomatologiczna,LDEK,4,0,0.829398,0.872628,1592,isotonic_binned_shrunk,,,0.545248
+j-2024,Zachodniopomorskie,Protetyka stomatologiczna,LDEK,3,1,0.93026,0.943014,1592,isotonic_binned_shrunk,,,0.345248
+j-2024,Kujawsko-pomorskie,Psychiatria,LEK,25,1,0.973132,0.966333,1592,isotonic_binned_shrunk,,,0.113526
+j-2024,Łódzkie,Psychiatria,LEK,10,1,0.999141,0.977031,1592,isotonic_binned_shrunk,,,0.280193
+j-2024,Podlaskie,Psychiatria,LEK,10,1,0.987245,0.974769,1592,isotonic_binned_shrunk,,,0.113526
+j-2024,Pomorskie,Psychiatria,LEK,15,1,0.998275,0.977031,1592,isotonic_binned_shrunk,,,0.280193
+j-2024,Świętokrzyskie,Psychiatria,LEK,15,1,0.962593,0.962177,1592,isotonic_binned_shrunk,,,0.113526
+j-2024,Warmińsko-mazurskie,Psychiatria,LEK,16,1,0.883039,0.897768,1592,isotonic_binned_shrunk,,,0.113526
+j-2024,Dolnośląskie,Psychiatria dzieci i młodzieży,LEK,3,1,0.998851,0.977031,1592,isotonic_binned_shrunk,,,0.705094
+j-2024,Lubelskie,Psychiatria dzieci i młodzieży,LEK,2,1,0.999342,0.977031,1592,isotonic_binned_shrunk,,,0.87176
+j-2024,Łódzkie,Psychiatria dzieci i młodzieży,LEK,3,1,0.999237,0.977031,1592,isotonic_binned_shrunk,,,0.87176
+j-2024,Podlaskie,Psychiatria dzieci i młodzieży,LEK,3,1,0.994001,0.977031,1592,isotonic_binned_shrunk,,,0.80764
+j-2024,Pomorskie,Psychiatria dzieci i młodzieży,LEK,3,1,0.998491,0.977031,1592,isotonic_binned_shrunk,,,0.80764
+j-2024,Wielkopolskie,Psychiatria dzieci i młodzieży,LEK,4,1,0.995067,0.977031,1592,isotonic_binned_shrunk,,,0.646112
+j-2024,Zachodniopomorskie,Psychiatria dzieci i młodzieży,LEK,3,1,0.998548,0.977031,1592,isotonic_binned_shrunk,,,0.87176
+j-2024,Lubuskie,Radiologia i diagnostyka obrazowa,LEK,4,1,0.999526,0.977031,1592,isotonic_binned_shrunk,,,0.670494
+j-2024,Łódzkie,Radiologia i diagnostyka obrazowa,LEK,8,1,0.999778,0.977031,1592,isotonic_binned_shrunk,,,0.613663
+j-2024,Opolskie,Radiologia i diagnostyka obrazowa,LEK,10,1,0.999467,0.977031,1592,isotonic_binned_shrunk,,,0.780329
+j-2024,Podkarpackie,Radiologia i diagnostyka obrazowa,LEK,15,1,0.999745,0.977031,1592,isotonic_binned_shrunk,,,0.780329
+j-2024,Podlaskie,Radiologia i diagnostyka obrazowa,LEK,3,1,0.999714,0.977031,1592,isotonic_binned_shrunk,,,0.613663
+j-2024,Świętokrzyskie,Radiologia i diagnostyka obrazowa,LEK,5,1,0.999142,0.977031,1592,isotonic_binned_shrunk,,,0.536395
+j-2024,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,LEK,9,1,0.999288,0.977031,1592,isotonic_binned_shrunk,,,0.613663
+j-2024,Zachodniopomorskie,Radiologia i diagnostyka obrazowa,LEK,14,1,0.99967,0.977031,1592,isotonic_binned_shrunk,,,0.780329
+j-2024,Dolnośląskie,Radioterapia onkologiczna,LEK,6,0,0.183628,0.136365,1592,isotonic_binned_shrunk,,,0.051954
+j-2024,Kujawsko-pomorskie,Radioterapia onkologiczna,LEK,6,0,0.120412,0.095576,1592,isotonic_binned_shrunk,,,0.051954
+j-2024,Łódzkie,Radioterapia onkologiczna,LEK,5,1,0.195234,0.142743,1592,isotonic_binned_shrunk,,,0.21862
+j-2024,Świętokrzyskie,Radioterapia onkologiczna,LEK,2,1,0.072566,0.06641,1592,isotonic_binned_shrunk,,,0.051954
+j-2024,Lubuskie,Rehabilitacja medyczna,LEK,1,0,0.216254,0.153892,1592,isotonic_binned_shrunk,,,0.033169
+j-2024,Opolskie,Rehabilitacja medyczna,LEK,2,0,0.135091,0.107173,1592,isotonic_binned_shrunk,,,0.033169
+j-2024,Podkarpackie,Rehabilitacja medyczna,LEK,29,0,0.049051,0.050088,1592,isotonic_binned_shrunk,,,0.033169
+j-2024,Podlaskie,Rehabilitacja medyczna,LEK,4,0,0.185446,0.135702,1592,isotonic_binned_shrunk,,,0.033169
+j-2024,Zachodniopomorskie,Rehabilitacja medyczna,LEK,9,0,0.091387,0.074717,1592,isotonic_binned_shrunk,,,0.033169
+j-2024,Kujawsko-pomorskie,Reumatologia,LEK,2,1,0.994468,0.977031,1592,isotonic_binned_shrunk,,,0.730482
+j-2024,Lubelskie,Reumatologia,LEK,3,1,0.994055,0.977031,1592,isotonic_binned_shrunk,,,0.876579
+j-2024,Łódzkie,Reumatologia,LEK,2,1,0.997823,0.977031,1592,isotonic_binned_shrunk,,,0.897149
+j-2024,Małopolskie,Reumatologia,LEK,4,1,0.996885,0.977031,1592,isotonic_binned_shrunk,,,0.897149
+j-2024,Mazowieckie,Reumatologia,LEK,1,1,0.997892,0.977031,1592,isotonic_binned_shrunk,,,0.563816
+j-2024,Podkarpackie,Reumatologia,LEK,4,1,0.994201,0.977031,1592,isotonic_binned_shrunk,,,0.876579
+j-2024,Podlaskie,Reumatologia,LEK,1,1,0.995769,0.977031,1592,isotonic_binned_shrunk,,,0.897149
+j-2024,Pomorskie,Reumatologia,LEK,5,1,0.997216,0.977031,1592,isotonic_binned_shrunk,,,0.897149
+j-2024,Śląskie,Reumatologia,LEK,2,1,0.998604,0.977031,1592,isotonic_binned_shrunk,,,0.897149
+j-2024,Świętokrzyskie,Reumatologia,LEK,3,1,0.993365,0.977031,1592,isotonic_binned_shrunk,,,0.897149
+j-2024,Warmińsko-mazurskie,Reumatologia,LEK,4,1,0.965793,0.96675,1592,isotonic_binned_shrunk,,,0.676579
+j-2024,Zachodniopomorskie,Reumatologia,LEK,1,1,0.989932,0.977031,1592,isotonic_binned_shrunk,,,0.730482
+j-2024,Dolnośląskie,Stomatologia dziecięca,LDEK,1,1,0.993441,0.977031,1592,isotonic_binned_shrunk,,,0.608552
+j-2024,Kujawsko-pomorskie,Stomatologia dziecięca,LDEK,2,1,0.962424,0.964246,1592,isotonic_binned_shrunk,,,0.662829
+j-2024,Lubelskie,Stomatologia dziecięca,LDEK,1,1,0.974784,0.970083,1592,isotonic_binned_shrunk,,,0.550438
+j-2024,Łódzkie,Stomatologia dziecięca,LDEK,2,1,0.99497,0.977031,1592,isotonic_binned_shrunk,,,0.775219
+j-2024,Małopolskie,Stomatologia dziecięca,LDEK,2,1,0.981703,0.973771,1592,isotonic_binned_shrunk,,,0.441886
+j-2024,Podkarpackie,Stomatologia dziecięca,LDEK,1,1,0.977521,0.971378,1592,isotonic_binned_shrunk,,,0.662829
+j-2024,Podlaskie,Stomatologia dziecięca,LDEK,2,1,0.926831,0.939814,1592,isotonic_binned_shrunk,,,0.441886
+j-2024,Śląskie,Stomatologia dziecięca,LDEK,3,1,0.952349,0.959814,1592,isotonic_binned_shrunk,,,0.441886
+j-2024,Warmińsko-mazurskie,Stomatologia dziecięca,LDEK,1,0,0.948088,0.956657,1592,isotonic_binned_shrunk,,,0.662829
+j-2024,Dolnośląskie,Stomatologia zachowawcza z endodoncją,LDEK,1,1,0.996458,0.977031,1592,isotonic_binned_shrunk,,,0.568035
+j-2024,Kujawsko-pomorskie,Stomatologia zachowawcza z endodoncją,LDEK,3,1,0.982309,0.973286,1592,isotonic_binned_shrunk,,,0.401368
+j-2024,Łódzkie,Stomatologia zachowawcza z endodoncją,LDEK,2,1,0.994674,0.977031,1592,isotonic_binned_shrunk,,,0.681641
+j-2024,Małopolskie,Stomatologia zachowawcza z endodoncją,LDEK,1,1,0.995487,0.977031,1592,isotonic_binned_shrunk,,,0.401368
+j-2024,Podkarpackie,Stomatologia zachowawcza z endodoncją,LDEK,1,0,0.993884,0.977031,1592,isotonic_binned_shrunk,,,0.681641
+j-2024,Warmińsko-mazurskie,Stomatologia zachowawcza z endodoncją,LDEK,2,0,0.985678,0.975588,1592,isotonic_binned_shrunk,,,0.568035
+j-2024,Zachodniopomorskie,Stomatologia zachowawcza z endodoncją,LDEK,2,1,0.990958,0.977031,1592,isotonic_binned_shrunk,,,0.681641
+j-2024,Dolnośląskie,Toksykologia kliniczna,LEK,2,0,0.22294,0.160501,1592,isotonic_binned_shrunk,,,0.160727
+j-2024,Lubelskie,Toksykologia kliniczna,LEK,2,0,0.198433,0.150123,1592,isotonic_binned_shrunk,,,0.160727
+j-2024,Małopolskie,Toksykologia kliniczna,LEK,2,0,0.73189,0.810628,1592,isotonic_binned_shrunk,,,0.49406
+j-2024,Mazowieckie,Toksykologia kliniczna,LEK,1,0,0.883223,0.906953,1592,isotonic_binned_shrunk,,,0.491091
+j-2024,Pomorskie,Toksykologia kliniczna,LEK,3,0,0.477049,0.454488,1592,isotonic_binned_shrunk,,,0.241091
+j-2024,Śląskie,Toksykologia kliniczna,LEK,1,1,0.855403,0.892182,1592,isotonic_binned_shrunk,,,0.491091
+j-2024,Dolnośląskie,Transfuzjologia kliniczna,LEK,2,0,0.077068,0.070601,1592,isotonic_binned_shrunk,,,0.048111
+j-2024,Kujawsko-pomorskie,Transfuzjologia kliniczna,LEK,2,0,0.032849,0.040099,1592,isotonic_binned_shrunk,,,0.048111
+j-2024,Lubelskie,Transfuzjologia kliniczna,LEK,1,0,0.13219,0.106025,1592,isotonic_binned_shrunk,,,0.048111
+j-2024,Lubuskie,Transfuzjologia kliniczna,LEK,1,0,0.034204,0.042128,1592,isotonic_binned_shrunk,,,0.048111
+j-2024,Opolskie,Transfuzjologia kliniczna,LEK,2,0,0.018905,0.036326,1592,isotonic_binned_shrunk,,,0.048111
+j-2024,Podkarpackie,Transfuzjologia kliniczna,LEK,3,0,0.052538,0.054102,1592,isotonic_binned_shrunk,,,0.048111
+j-2024,Pomorskie,Transfuzjologia kliniczna,LEK,3,0,0.058468,0.057872,1592,isotonic_binned_shrunk,,,0.048111
+j-2024,Świętokrzyskie,Transfuzjologia kliniczna,LEK,2,0,0.022015,0.036326,1592,isotonic_binned_shrunk,,,0.048111
+j-2024,Wielkopolskie,Transfuzjologia kliniczna,LEK,4,0,0.0417,0.044563,1592,isotonic_binned_shrunk,,,0.048111
+j-2024,Zachodniopomorskie,Transfuzjologia kliniczna,LEK,2,0,0.02615,0.036326,1592,isotonic_binned_shrunk,,,0.048111
+j-2024,Dolnośląskie,Urologia,LEK,2,1,0.99933,0.977031,1592,isotonic_binned_shrunk,,,0.888205
+j-2024,Kujawsko-pomorskie,Urologia,LEK,6,1,0.993408,0.977031,1592,isotonic_binned_shrunk,,,0.865847
+j-2024,Lubelskie,Urologia,LEK,5,1,0.998246,0.977031,1592,isotonic_binned_shrunk,,,0.865847
+j-2024,Lubuskie,Urologia,LEK,1,1,0.998302,0.977031,1592,isotonic_binned_shrunk,,,0.888205
+j-2024,Łódzkie,Urologia,LEK,10,1,0.996759,0.977031,1592,isotonic_binned_shrunk,,,0.888205
+j-2024,Opolskie,Urologia,LEK,1,1,0.985554,0.974974,1592,isotonic_binned_shrunk,,,0.776411
+j-2024,Podkarpackie,Urologia,LEK,4,1,0.995955,0.977031,1592,isotonic_binned_shrunk,,,0.721539
+j-2024,Podlaskie,Urologia,LEK,3,1,0.994278,0.977031,1592,isotonic_binned_shrunk,,,0.865847
+j-2024,Pomorskie,Urologia,LEK,8,1,0.998292,0.977031,1592,isotonic_binned_shrunk,,,0.888205
+j-2024,Śląskie,Urologia,LEK,11,1,0.987086,0.976089,1592,isotonic_binned_shrunk,,,0.721539
+j-2024,Świętokrzyskie,Urologia,LEK,2,1,0.992363,0.977031,1592,isotonic_binned_shrunk,,,0.832308
+j-2024,Warmińsko-mazurskie,Urologia,LEK,2,1,0.991424,0.977031,1592,isotonic_binned_shrunk,,,0.554872
+j-2024,Wielkopolskie,Urologia,LEK,3,1,0.997865,0.977031,1592,isotonic_binned_shrunk,,,0.721539
+j-2024,Zachodniopomorskie,Urologia,LEK,1,0,0.996586,0.977031,1592,isotonic_binned_shrunk,,,0.865847
+w-2025,Dolnośląskie,Alergologia,LEK,1,0,0.909281,0.924131,2029,isotonic_binned_shrunk,,,0.610909
+w-2025,Lubelskie,Alergologia,LEK,1,1,0.813514,0.889975,2029,isotonic_binned_shrunk,,,0.675758
+w-2025,Małopolskie,Alergologia,LEK,2,1,0.941016,0.93851,2029,isotonic_binned_shrunk,,,0.675758
+w-2025,Opolskie,Alergologia,LEK,1,1,0.735751,0.838955,2029,isotonic_binned_shrunk,,,0.810909
+w-2025,Podlaskie,Alergologia,LEK,2,1,0.387143,0.342005,2029,isotonic_binned_shrunk,,,0.513637
+w-2025,Śląskie,Alergologia,LEK,1,1,0.919608,0.930126,2029,isotonic_binned_shrunk,,,0.842425
+w-2025,Świętokrzyskie,Alergologia,LEK,3,1,0.647458,0.744691,2029,isotonic_binned_shrunk,,,0.810909
+w-2025,Warmińsko-mazurskie,Alergologia,LEK,1,1,0.528559,0.557949,2029,isotonic_binned_shrunk,,,0.610909
+w-2025,Wielkopolskie,Alergologia,LEK,1,1,0.811839,0.889866,2029,isotonic_binned_shrunk,,,0.675758
+w-2025,Kujawsko-pomorskie,Anestezjologia i intensywna terapia,LEK,4,1,0.848613,0.897603,2029,isotonic_binned_shrunk,,,0.552489
+w-2025,Pomorskie,Anestezjologia i intensywna terapia,LEK,4,1,0.939411,0.936921,2029,isotonic_binned_shrunk,,,0.266775
+w-2025,Śląskie,Anestezjologia i intensywna terapia,LEK,18,1,0.99366,0.960881,2029,isotonic_binned_shrunk,,,0.123918
+w-2025,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,LEK,6,1,0.750121,0.843849,2029,isotonic_binned_shrunk,,,0.409632
+w-2025,Zachodniopomorskie,Anestezjologia i intensywna terapia,LEK,5,1,0.726236,0.819042,2029,isotonic_binned_shrunk,,,0.266775
+w-2025,Śląskie,Angiologia,LEK,1,1,0.045402,0.040222,2029,isotonic_binned_shrunk,,,0.128788
+w-2025,Wielkopolskie,Angiologia,LEK,1,1,0.03417,0.035498,2029,isotonic_binned_shrunk,,,0.128788
+w-2025,Dolnośląskie,Audiologia i foniatria,LEK,1,1,0.524778,0.545606,2029,isotonic_binned_shrunk,,,0.630304
+w-2025,Pomorskie,Audiologia i foniatria,LEK,1,1,0.283718,0.26459,2029,isotonic_binned_shrunk,,,0.450217
+w-2025,Śląskie,Audiologia i foniatria,LEK,1,1,0.66342,0.75667,2029,isotonic_binned_shrunk,,,0.630304
+w-2025,Świętokrzyskie,Audiologia i foniatria,LEK,1,0,0.100261,0.093615,2029,isotonic_binned_shrunk,,,0.19192
+w-2025,Wielkopolskie,Audiologia i foniatria,LEK,2,0,0.111988,0.101492,2029,isotonic_binned_shrunk,,,0.164503
+w-2025,Śląskie,Balneologia i medycyna fizykalna,LEK,2,0,0.004957,0.035498,2029,isotonic_binned_shrunk,,,0.058442
+w-2025,Lubelskie,Chirurgia dziecięca,LEK,2,0,0.163652,0.130203,2029,isotonic_binned_shrunk,,,0.313102
+w-2025,Łódzkie,Chirurgia dziecięca,LEK,3,0,0.101573,0.087773,2029,isotonic_binned_shrunk,,,0.080787
+w-2025,Małopolskie,Chirurgia dziecięca,LEK,1,1,0.37114,0.320557,2029,isotonic_binned_shrunk,,,0.260918
+w-2025,Mazowieckie,Chirurgia dziecięca,LEK,1,1,0.71358,0.797879,2029,isotonic_binned_shrunk,,,0.223644
+w-2025,Opolskie,Chirurgia dziecięca,LEK,2,0,0.046952,0.041763,2029,isotonic_binned_shrunk,,,0.080787
+w-2025,Podkarpackie,Chirurgia dziecięca,LEK,1,0,0.118793,0.1052,2029,isotonic_binned_shrunk,,,0.080787
+w-2025,Podlaskie,Chirurgia dziecięca,LEK,1,0,0.066173,0.060456,2029,isotonic_binned_shrunk,,,0.223644
+w-2025,Świętokrzyskie,Chirurgia dziecięca,LEK,1,0,0.072893,0.064442,2029,isotonic_binned_shrunk,,,0.223644
+w-2025,Wielkopolskie,Chirurgia dziecięca,LEK,1,1,0.5019,0.479797,2029,isotonic_binned_shrunk,,,0.223644
+w-2025,Dolnośląskie,Chirurgia klatki piersiowej,LEK,1,0,0.246638,0.201236,2029,isotonic_binned_shrunk,,,0.268725
+w-2025,Lubelskie,Chirurgia klatki piersiowej,LEK,2,0,0.061125,0.053604,2029,isotonic_binned_shrunk,,,0.087479
+w-2025,Łódzkie,Chirurgia klatki piersiowej,LEK,2,0,0.080617,0.072235,2029,isotonic_binned_shrunk,,,0.230336
+w-2025,Małopolskie,Chirurgia klatki piersiowej,LEK,2,0,0.100899,0.087531,2029,isotonic_binned_shrunk,,,0.102059
+w-2025,Pomorskie,Chirurgia klatki piersiowej,LEK,3,0,0.096495,0.084975,2029,isotonic_binned_shrunk,,,0.12247
+w-2025,Świętokrzyskie,Chirurgia klatki piersiowej,LEK,1,0,0.045218,0.039689,2029,isotonic_binned_shrunk,,,0.102059
+w-2025,Wielkopolskie,Chirurgia klatki piersiowej,LEK,1,0,0.142273,0.117005,2029,isotonic_binned_shrunk,,,0.087479
+w-2025,Dolnośląskie,Chirurgia naczyniowa,LEK,1,1,0.675507,0.759634,2029,isotonic_binned_shrunk,,,0.332347
+w-2025,Kujawsko-pomorskie,Chirurgia naczyniowa,LEK,1,1,0.485066,0.455854,2029,isotonic_binned_shrunk,,,0.532347
+w-2025,Lubelskie,Chirurgia naczyniowa,LEK,2,0,0.777584,0.877942,2029,isotonic_binned_shrunk,,,0.610289
+w-2025,Małopolskie,Chirurgia naczyniowa,LEK,1,1,0.865529,0.907895,2029,isotonic_binned_shrunk,,,0.665434
+w-2025,Mazowieckie,Chirurgia naczyniowa,LEK,2,1,0.805887,0.886022,2029,isotonic_binned_shrunk,,,0.443623
+w-2025,Śląskie,Chirurgia naczyniowa,LEK,1,1,0.878432,0.913866,2029,isotonic_binned_shrunk,,,0.665962
+w-2025,Wielkopolskie,Chirurgia naczyniowa,LEK,2,1,0.7805,0.8791,2029,isotonic_binned_shrunk,,,0.610289
+w-2025,Lubelskie,Chirurgia ogólna,LEK,12,0,0.216914,0.161733,2029,isotonic_binned_shrunk,,,0.040585
+w-2025,Pomorskie,Chirurgia ogólna,LEK,6,1,0.703464,0.794918,2029,isotonic_binned_shrunk,,,0.326299
+w-2025,Lubelskie,Chirurgia onkologiczna,LEK,2,0,0.220411,0.169829,2029,isotonic_binned_shrunk,,,0.281818
+w-2025,Lubuskie,Chirurgia onkologiczna,LEK,1,1,0.058549,0.05182,2029,isotonic_binned_shrunk,,,0.098702
+w-2025,Warmińsko-mazurskie,Chirurgia onkologiczna,LEK,1,0,0.063637,0.056164,2029,isotonic_binned_shrunk,,,0.098702
+w-2025,Wielkopolskie,Chirurgia onkologiczna,LEK,1,1,0.438232,0.375754,2029,isotonic_binned_shrunk,,,0.384416
+w-2025,Zachodniopomorskie,Chirurgia onkologiczna,LEK,2,0,0.091149,0.080379,2029,isotonic_binned_shrunk,,,0.098702
+w-2025,Dolnośląskie,Chirurgia plastyczna,LEK,2,1,0.808651,0.887629,2029,isotonic_binned_shrunk,,,0.588113
+w-2025,Lubelskie,Chirurgia plastyczna,LEK,5,1,0.598805,0.688527,2029,isotonic_binned_shrunk,,,0.848652
+w-2025,Pomorskie,Chirurgia plastyczna,LEK,1,1,0.888086,0.915925,2029,isotonic_binned_shrunk,,,0.65676
+w-2025,Zachodniopomorskie,Chirurgia plastyczna,LEK,1,1,0.86803,0.907278,2029,isotonic_binned_shrunk,,,0.490094
+w-2025,Kujawsko-pomorskie,Chirurgia stomatologiczna,LDEK,4,1,0.865056,0.905518,2029,isotonic_binned_shrunk,,,0.867194
+w-2025,Lubelskie,Chirurgia stomatologiczna,LDEK,4,1,0.921125,0.928543,2029,isotonic_binned_shrunk,,,0.619424
+w-2025,Łódzkie,Chirurgia stomatologiczna,LDEK,2,1,0.955097,0.944907,2029,isotonic_binned_shrunk,,,0.905139
+w-2025,Mazowieckie,Chirurgia stomatologiczna,LDEK,7,1,0.946991,0.940922,2029,isotonic_binned_shrunk,,,0.905139
+w-2025,Śląskie,Chirurgia stomatologiczna,LDEK,3,1,0.966975,0.950042,2029,isotonic_binned_shrunk,,,0.762281
+w-2025,Świętokrzyskie,Chirurgia stomatologiczna,LDEK,2,1,0.918353,0.926985,2029,isotonic_binned_shrunk,,,0.722662
+w-2025,Warmińsko-mazurskie,Chirurgia stomatologiczna,LDEK,1,1,0.924217,0.928705,2029,isotonic_binned_shrunk,,,0.905139
+w-2025,Wielkopolskie,Chirurgia stomatologiczna,LDEK,1,1,0.959413,0.94662,2029,isotonic_binned_shrunk,,,0.833993
+w-2025,Kujawsko-pomorskie,Choroby płuc,LEK,1,1,0.815266,0.888725,2029,isotonic_binned_shrunk,,,0.772356
+w-2025,Lubuskie,Choroby płuc,LEK,4,0,0.295754,0.264206,2029,isotonic_binned_shrunk,,,0.200928
+w-2025,Mazowieckie,Choroby płuc,LEK,3,1,0.939139,0.937549,2029,isotonic_binned_shrunk,,,0.343785
+w-2025,Opolskie,Choroby płuc,LEK,1,0,0.340902,0.303848,2029,isotonic_binned_shrunk,,,0.200928
+w-2025,Podkarpackie,Choroby płuc,LEK,2,1,0.704301,0.806691,2029,isotonic_binned_shrunk,,,0.629499
+w-2025,Podlaskie,Choroby płuc,LEK,5,0,0.71433,0.809849,2029,isotonic_binned_shrunk,,,0.567749
+w-2025,Pomorskie,Choroby płuc,LEK,3,1,0.901906,0.92148,2029,isotonic_binned_shrunk,,,0.629499
+w-2025,Świętokrzyskie,Choroby płuc,LEK,1,0,0.784734,0.881001,2029,isotonic_binned_shrunk,,,0.734416
+w-2025,Warmińsko-mazurskie,Choroby płuc,LEK,1,1,0.456226,0.414011,2029,isotonic_binned_shrunk,,,0.486642
+w-2025,Zachodniopomorskie,Choroby płuc,LEK,4,0,0.233627,0.182733,2029,isotonic_binned_shrunk,,,0.200928
+w-2025,Dolnośląskie,Choroby płuc dzieci,LEK,2,0,0.509438,0.499869,2029,isotonic_binned_shrunk,,,0.377819
+w-2025,Kujawsko-pomorskie,Choroby płuc dzieci,LEK,2,0,0.05794,0.050975,2029,isotonic_binned_shrunk,,,0.127013
+w-2025,Łódzkie,Choroby płuc dzieci,LEK,4,0,0.110911,0.09821,2029,isotonic_binned_shrunk,,,0.127013
+w-2025,Mazowieckie,Choroby płuc dzieci,LEK,1,0,0.779239,0.877924,2029,isotonic_binned_shrunk,,,0.555585
+w-2025,Podkarpackie,Choroby płuc dzieci,LEK,1,1,0.228371,0.188271,2029,isotonic_binned_shrunk,,,0.26987
+w-2025,Podlaskie,Choroby płuc dzieci,LEK,1,0,0.141489,0.121232,2029,isotonic_binned_shrunk,,,0.26987
+w-2025,Wielkopolskie,Choroby płuc dzieci,LEK,1,0,0.578398,0.62508,2029,isotonic_binned_shrunk,,,0.377819
+w-2025,Dolnośląskie,Choroby zakaźne,LEK,3,1,0.159543,0.12698,2029,isotonic_binned_shrunk,,,0.19005
+w-2025,Kujawsko-pomorskie,Choroby zakaźne,LEK,4,0,0.013279,0.035498,2029,isotonic_binned_shrunk,,,0.047192
+w-2025,Lubelskie,Choroby zakaźne,LEK,5,0,0.023951,0.035498,2029,isotonic_binned_shrunk,,,0.047192
+w-2025,Lubuskie,Choroby zakaźne,LEK,1,0,0.033367,0.035498,2029,isotonic_binned_shrunk,,,0.221724
+w-2025,Łódzkie,Choroby zakaźne,LEK,4,0,0.05134,0.044541,2029,isotonic_binned_shrunk,,,0.047192
+w-2025,Opolskie,Choroby zakaźne,LEK,1,0,0.015423,0.035498,2029,isotonic_binned_shrunk,,,0.047192
+w-2025,Podlaskie,Choroby zakaźne,LEK,9,0,0.013944,0.035498,2029,isotonic_binned_shrunk,,,0.047192
+w-2025,Świętokrzyskie,Choroby zakaźne,LEK,1,0,0.029566,0.035498,2029,isotonic_binned_shrunk,,,0.047192
+w-2025,Warmińsko-mazurskie,Choroby zakaźne,LEK,1,0,0.014102,0.035498,2029,isotonic_binned_shrunk,,,0.19005
+w-2025,Wielkopolskie,Choroby zakaźne,LEK,3,0,0.043353,0.03693,2029,isotonic_binned_shrunk,,,0.047192
+w-2025,Dolnośląskie,Dermatologia i wenerologia,LEK,2,1,0.969289,0.951908,2029,isotonic_binned_shrunk,,,0.841107
+w-2025,Łódzkie,Dermatologia i wenerologia,LEK,2,1,0.963814,0.949449,2029,isotonic_binned_shrunk,,,0.867589
+w-2025,Małopolskie,Dermatologia i wenerologia,LEK,1,1,0.97781,0.960328,2029,isotonic_binned_shrunk,,,0.700923
+w-2025,Mazowieckie,Dermatologia i wenerologia,LEK,3,1,0.95239,0.943056,2029,isotonic_binned_shrunk,,,0.367589
+w-2025,Opolskie,Dermatologia i wenerologia,LEK,1,1,0.907618,0.922837,2029,isotonic_binned_shrunk,,,0.641107
+w-2025,Podkarpackie,Dermatologia i wenerologia,LEK,1,1,0.959701,0.947905,2029,isotonic_binned_shrunk,,,0.886505
+w-2025,Podlaskie,Dermatologia i wenerologia,LEK,1,1,0.93532,0.935903,2029,isotonic_binned_shrunk,,,0.867589
+w-2025,Pomorskie,Dermatologia i wenerologia,LEK,4,1,0.926256,0.931781,2029,isotonic_binned_shrunk,,,0.700923
+w-2025,Śląskie,Dermatologia i wenerologia,LEK,1,1,0.987043,0.973781,2029,isotonic_binned_shrunk,,,0.700923
+w-2025,Mazowieckie,Diabetologia,LEK,4,1,0.940463,0.939079,2029,isotonic_binned_shrunk,,,0.567263
+w-2025,Podkarpackie,Diabetologia,LEK,1,1,0.818482,0.891228,2029,isotonic_binned_shrunk,,,0.49514
+w-2025,Podlaskie,Diabetologia,LEK,2,1,0.83238,0.898918,2029,isotonic_binned_shrunk,,,0.852977
+w-2025,Śląskie,Diabetologia,LEK,3,1,0.926261,0.93336,2029,isotonic_binned_shrunk,,,0.852977
+w-2025,Świętokrzyskie,Diabetologia,LEK,1,1,0.82108,0.892373,2029,isotonic_binned_shrunk,,,0.742711
+w-2025,Warmińsko-mazurskie,Diabetologia,LEK,1,1,0.673312,0.768758,2029,isotonic_binned_shrunk,,,0.567263
+w-2025,Wielkopolskie,Diabetologia,LEK,1,1,0.927116,0.932942,2029,isotonic_binned_shrunk,,,0.794168
+w-2025,Mazowieckie,Diagnostyka laboratoryjna,LEK,1,0,0.080978,0.0758,2029,isotonic_binned_shrunk,,,0.362194
+w-2025,Warmińsko-mazurskie,Diagnostyka laboratoryjna,LEK,1,0,0.016576,0.035498,2029,isotonic_binned_shrunk,,,0.133839
+w-2025,Wielkopolskie,Diagnostyka laboratoryjna,LEK,1,0,0.021689,0.035498,2029,isotonic_binned_shrunk,,,0.07648
+w-2025,Dolnośląskie,Endokrynologia,LEK,1,1,0.959064,0.947389,2029,isotonic_binned_shrunk,,,0.926948
+w-2025,Lubelskie,Endokrynologia,LEK,1,1,0.950376,0.942999,2029,isotonic_binned_shrunk,,,0.58144
+w-2025,Lubuskie,Endokrynologia,LEK,1,1,0.840898,0.899371,2029,isotonic_binned_shrunk,,,0.897728
+w-2025,Mazowieckie,Endokrynologia,LEK,4,1,0.963561,0.949496,2029,isotonic_binned_shrunk,,,0.914773
+w-2025,Podlaskie,Endokrynologia,LEK,2,1,0.85511,0.903537,2029,isotonic_binned_shrunk,,,0.87216
+w-2025,Pomorskie,Endokrynologia,LEK,2,1,0.940776,0.938558,2029,isotonic_binned_shrunk,,,0.897728
+w-2025,Świętokrzyskie,Endokrynologia,LEK,1,1,0.902944,0.921853,2029,isotonic_binned_shrunk,,,0.897728
+w-2025,Wielkopolskie,Endokrynologia,LEK,2,1,0.928222,0.932962,2029,isotonic_binned_shrunk,,,0.914773
+w-2025,Podlaskie,Endokrynologia i diabetologia dziecięca,LEK,1,0,0.627072,0.712489,2029,isotonic_binned_shrunk,,,0.448458
+w-2025,Śląskie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.950197,0.943335,2029,isotonic_binned_shrunk,,,0.87703
+w-2025,Zachodniopomorskie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.794264,0.884165,2029,isotonic_binned_shrunk,,,0.827841
+w-2025,Łódzkie,Farmakologia kliniczna,LEK,1,0,0.013476,0.035498,2029,isotonic_binned_shrunk,,,0.071147
+w-2025,Śląskie,Farmakologia kliniczna,LEK,1,0,0.013996,0.035498,2029,isotonic_binned_shrunk,,,0.071147
+w-2025,Dolnośląskie,Gastroenterologia,LEK,1,0,0.945343,0.94101,2029,isotonic_binned_shrunk,,,0.763086
+w-2025,Lubelskie,Gastroenterologia,LEK,2,1,0.935264,0.936326,2029,isotonic_binned_shrunk,,,0.915703
+w-2025,Lubuskie,Gastroenterologia,LEK,1,0,0.882985,0.91479,2029,isotonic_binned_shrunk,,,0.915703
+w-2025,Łódzkie,Gastroenterologia,LEK,1,1,0.967264,0.951545,2029,isotonic_binned_shrunk,,,0.939788
+w-2025,Mazowieckie,Gastroenterologia,LEK,3,1,0.97324,0.95582,2029,isotonic_binned_shrunk,,,0.939788
+w-2025,Podlaskie,Gastroenterologia,LEK,2,1,0.887265,0.91641,2029,isotonic_binned_shrunk,,,0.939788
+w-2025,Pomorskie,Gastroenterologia,LEK,3,1,0.937036,0.936728,2029,isotonic_binned_shrunk,,,0.894629
+w-2025,Zachodniopomorskie,Gastroenterologia,LEK,3,1,0.870761,0.910837,2029,isotonic_binned_shrunk,,,0.929752
+w-2025,Kujawsko-pomorskie,Gastroenterologia dziecięca,LEK,4,0,0.052941,0.04707,2029,isotonic_binned_shrunk,,,0.187557
+w-2025,Łódzkie,Gastroenterologia dziecięca,LEK,2,0,0.211769,0.163683,2029,isotonic_binned_shrunk,,,0.330414
+w-2025,Dolnośląskie,Genetyka kliniczna,LEK,1,0,0.590851,0.668444,2029,isotonic_binned_shrunk,,,0.644515
+w-2025,Lubelskie,Genetyka kliniczna,LEK,1,0,0.235926,0.199372,2029,isotonic_binned_shrunk,,,0.537096
+w-2025,Łódzkie,Genetyka kliniczna,LEK,1,1,0.205177,0.150277,2029,isotonic_binned_shrunk,,,0.203762
+w-2025,Pomorskie,Genetyka kliniczna,LEK,1,1,0.373348,0.327017,2029,isotonic_binned_shrunk,,,0.305643
+w-2025,Śląskie,Genetyka kliniczna,LEK,1,0,0.614295,0.692627,2029,isotonic_binned_shrunk,,,0.444515
+w-2025,Zachodniopomorskie,Genetyka kliniczna,LEK,1,0,0.235797,0.194398,2029,isotonic_binned_shrunk,,,0.370429
+w-2025,Dolnośląskie,Geriatria,LEK,4,0,0.01993,0.035498,2029,isotonic_binned_shrunk,,,0.035622
+w-2025,Lubelskie,Geriatria,LEK,1,1,0.025541,0.035498,2029,isotonic_binned_shrunk,,,0.035622
+w-2025,Lubuskie,Geriatria,LEK,1,0,0.010525,0.035498,2029,isotonic_binned_shrunk,,,0.035622
+w-2025,Łódzkie,Geriatria,LEK,3,0,0.048138,0.044102,2029,isotonic_binned_shrunk,,,0.321336
+w-2025,Małopolskie,Geriatria,LEK,8,0,0.017089,0.035498,2029,isotonic_binned_shrunk,,,0.035622
+w-2025,Mazowieckie,Geriatria,LEK,10,0,0.032774,0.035498,2029,isotonic_binned_shrunk,,,0.035622
+w-2025,Opolskie,Geriatria,LEK,1,0,0.010932,0.035498,2029,isotonic_binned_shrunk,,,0.035622
+w-2025,Podkarpackie,Geriatria,LEK,1,1,0.036642,0.035498,2029,isotonic_binned_shrunk,,,0.035622
+w-2025,Podlaskie,Geriatria,LEK,4,0,0.013031,0.035498,2029,isotonic_binned_shrunk,,,0.035622
+w-2025,Śląskie,Geriatria,LEK,16,0,0.013143,0.035498,2029,isotonic_binned_shrunk,,,0.035622
+w-2025,Świętokrzyskie,Geriatria,LEK,1,0,0.01446,0.035498,2029,isotonic_binned_shrunk,,,0.178479
+w-2025,Warmińsko-mazurskie,Geriatria,LEK,1,0,0.018442,0.035498,2029,isotonic_binned_shrunk,,,0.04987
+w-2025,Wielkopolskie,Geriatria,LEK,2,0,0.023903,0.035498,2029,isotonic_binned_shrunk,,,0.035622
+w-2025,Zachodniopomorskie,Geriatria,LEK,1,0,0.016486,0.035498,2029,isotonic_binned_shrunk,,,0.035622
+w-2025,Dolnośląskie,Hematologia,LEK,7,0,0.156627,0.126103,2029,isotonic_binned_shrunk,,,0.211039
+w-2025,Kujawsko-pomorskie,Hematologia,LEK,3,1,0.060224,0.051536,2029,isotonic_binned_shrunk,,,0.068182
+w-2025,Lubelskie,Hematologia,LEK,2,0,0.087869,0.077692,2029,isotonic_binned_shrunk,,,0.211039
+w-2025,Łódzkie,Hematologia,LEK,1,1,0.232042,0.176323,2029,isotonic_binned_shrunk,,,0.068182
+w-2025,Opolskie,Hematologia,LEK,1,1,0.04421,0.038748,2029,isotonic_binned_shrunk,,,0.068182
+w-2025,Podkarpackie,Hematologia,LEK,3,0,0.100486,0.08802,2029,isotonic_binned_shrunk,,,0.068182
+w-2025,Podlaskie,Hematologia,LEK,4,0,0.040915,0.035498,2029,isotonic_binned_shrunk,,,0.079546
+w-2025,Śląskie,Hematologia,LEK,1,1,0.347529,0.30663,2029,isotonic_binned_shrunk,,,0.211039
+w-2025,Świętokrzyskie,Hematologia,LEK,2,0,0.047577,0.040619,2029,isotonic_binned_shrunk,,,0.079546
+w-2025,Wielkopolskie,Hematologia,LEK,1,0,0.235927,0.178652,2029,isotonic_binned_shrunk,,,0.211039
+w-2025,Lubelskie,Immunologia kliniczna,LEK,1,0,0.118819,0.106721,2029,isotonic_binned_shrunk,,,0.217173
+w-2025,Podlaskie,Immunologia kliniczna,LEK,1,0,0.035626,0.035498,2029,isotonic_binned_shrunk,,,0.124099
+w-2025,Pomorskie,Immunologia kliniczna,LEK,2,0,0.097025,0.085851,2029,isotonic_binned_shrunk,,,0.217173
+w-2025,Wielkopolskie,Immunologia kliniczna,LEK,1,0,0.184226,0.140762,2029,isotonic_binned_shrunk,,,0.467173
+w-2025,Dolnośląskie,Kardiochirurgia,LEK,2,0,0.056819,0.048518,2029,isotonic_binned_shrunk,,,0.074485
+w-2025,Kujawsko-pomorskie,Kardiochirurgia,LEK,1,1,0.057914,0.049588,2029,isotonic_binned_shrunk,,,0.086899
+w-2025,Lubuskie,Kardiochirurgia,LEK,1,1,0.032888,0.035498,2029,isotonic_binned_shrunk,,,0.074485
+w-2025,Łódzkie,Kardiochirurgia,LEK,2,1,0.112485,0.100538,2029,isotonic_binned_shrunk,,,0.360199
+w-2025,Małopolskie,Kardiochirurgia,LEK,2,0,0.11268,0.096363,2029,isotonic_binned_shrunk,,,0.074485
+w-2025,Mazowieckie,Kardiochirurgia,LEK,2,1,0.237998,0.189377,2029,isotonic_binned_shrunk,,,0.074485
+w-2025,Opolskie,Kardiochirurgia,LEK,2,0,0.019073,0.035498,2029,isotonic_binned_shrunk,,,0.074485
+w-2025,Podkarpackie,Kardiochirurgia,LEK,3,0,0.013932,0.035498,2029,isotonic_binned_shrunk,,,0.217342
+w-2025,Świętokrzyskie,Kardiochirurgia,LEK,2,0,0.02889,0.035498,2029,isotonic_binned_shrunk,,,0.086899
+w-2025,Warmińsko-mazurskie,Kardiochirurgia,LEK,1,1,0.026649,0.035498,2029,isotonic_binned_shrunk,,,0.074485
+w-2025,Zachodniopomorskie,Kardiochirurgia,LEK,2,0,0.030101,0.035498,2029,isotonic_binned_shrunk,,,0.086899
+w-2025,Dolnośląskie,Kardiologia,LEK,2,1,0.971089,0.952175,2029,isotonic_binned_shrunk,,,0.534632
+w-2025,Lubelskie,Kardiologia,LEK,10,1,0.860631,0.905869,2029,isotonic_binned_shrunk,,,0.534632
+w-2025,Łódzkie,Kardiologia,LEK,12,1,0.931591,0.931415,2029,isotonic_binned_shrunk,,,0.534632
+w-2025,Małopolskie,Kardiologia,LEK,11,1,0.960405,0.944284,2029,isotonic_binned_shrunk,,,0.677489
+w-2025,Mazowieckie,Kardiologia,LEK,9,1,0.996616,0.981748,2029,isotonic_binned_shrunk,,,0.677489
+w-2025,Opolskie,Kardiologia,LEK,2,1,0.757995,0.853319,2029,isotonic_binned_shrunk,,,0.534632
+w-2025,Podkarpackie,Kardiologia,LEK,2,1,0.916636,0.928129,2029,isotonic_binned_shrunk,,,0.677489
+w-2025,Podlaskie,Kardiologia,LEK,2,1,0.887811,0.91501,2029,isotonic_binned_shrunk,,,0.820346
+w-2025,Pomorskie,Kardiologia,LEK,7,1,0.969405,0.949604,2029,isotonic_binned_shrunk,,,0.534632
+w-2025,Śląskie,Kardiologia,LEK,5,1,0.947143,0.940508,2029,isotonic_binned_shrunk,,,0.820346
+w-2025,Wielkopolskie,Kardiologia,LEK,6,1,0.956464,0.942081,2029,isotonic_binned_shrunk,,,0.820346
+w-2025,Zachodniopomorskie,Kardiologia,LEK,2,1,0.813013,0.889674,2029,isotonic_binned_shrunk,,,0.677489
+w-2025,Łódzkie,Kardiologia dziecięca,LEK,1,0,0.636544,0.72842,2029,isotonic_binned_shrunk,,,0.497836
+w-2025,Małopolskie,Kardiologia dziecięca,LEK,1,0,0.640956,0.737728,2029,isotonic_binned_shrunk,,,0.640693
+w-2025,Kujawsko-pomorskie,Medycyna nuklearna,LEK,4,0,0.021337,0.035498,2029,isotonic_binned_shrunk,,,0.107638
+w-2025,Lubuskie,Medycyna nuklearna,LEK,2,0,0.025396,0.035498,2029,isotonic_binned_shrunk,,,0.250495
+w-2025,Łódzkie,Medycyna nuklearna,LEK,2,0,0.126072,0.111563,2029,isotonic_binned_shrunk,,,0.393353
+w-2025,Małopolskie,Medycyna nuklearna,LEK,1,0,0.101662,0.089031,2029,isotonic_binned_shrunk,,,0.107638
+w-2025,Opolskie,Medycyna nuklearna,LEK,1,0,0.040842,0.035664,2029,isotonic_binned_shrunk,,,0.107638
+w-2025,Podlaskie,Medycyna nuklearna,LEK,1,1,0.051484,0.044034,2029,isotonic_binned_shrunk,,,0.125578
+w-2025,Warmińsko-mazurskie,Medycyna nuklearna,LEK,2,0,0.064103,0.058269,2029,isotonic_binned_shrunk,,,0.250495
+w-2025,Wielkopolskie,Medycyna nuklearna,LEK,1,1,0.211483,0.162305,2029,isotonic_binned_shrunk,,,0.393353
+w-2025,Zachodniopomorskie,Medycyna nuklearna,LEK,1,0,0.072675,0.064739,2029,isotonic_binned_shrunk,,,0.292245
+w-2025,Kujawsko-pomorskie,Medycyna paliatywna,LEK,2,0,0.011173,0.035498,2029,isotonic_binned_shrunk,,,0.039711
+w-2025,Lubelskie,Medycyna paliatywna,LEK,2,0,0.012482,0.035498,2029,isotonic_binned_shrunk,,,0.039711
+w-2025,Śląskie,Medycyna paliatywna,LEK,2,0,0.02683,0.035498,2029,isotonic_binned_shrunk,,,0.039711
+w-2025,Świętokrzyskie,Medycyna paliatywna,LEK,1,0,0.039953,0.036302,2029,isotonic_binned_shrunk,,,0.069493
+w-2025,Warmińsko-mazurskie,Medycyna paliatywna,LEK,1,0,0.009459,0.035498,2029,isotonic_binned_shrunk,,,0.039711
+w-2025,Wielkopolskie,Medycyna paliatywna,LEK,2,0,0.02216,0.035498,2029,isotonic_binned_shrunk,,,0.039711
+w-2025,Zachodniopomorskie,Medycyna paliatywna,LEK,1,0,0.01086,0.035498,2029,isotonic_binned_shrunk,,,0.039711
+w-2025,Dolnośląskie,Medycyna pracy,LEK,1,0,0.430975,0.366123,2029,isotonic_binned_shrunk,,,0.385228
+w-2025,Lubuskie,Medycyna pracy,LEK,1,1,0.152289,0.123695,2029,isotonic_binned_shrunk,,,0.154356
+w-2025,Mazowieckie,Medycyna pracy,LEK,3,1,0.479943,0.436753,2029,isotonic_binned_shrunk,,,0.275163
+w-2025,Podlaskie,Medycyna pracy,LEK,1,1,0.308268,0.282511,2029,isotonic_binned_shrunk,,,0.585228
+w-2025,Warmińsko-mazurskie,Medycyna pracy,LEK,2,0,0.080959,0.070244,2029,isotonic_binned_shrunk,,,0.154356
+w-2025,Lubuskie,Medycyna ratunkowa,LEK,2,0,0.003033,0.035498,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Opolskie,Medycyna ratunkowa,LEK,3,0,0.002472,0.035498,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Świętokrzyskie,Medycyna ratunkowa,LEK,8,0,0.002025,0.035498,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Zachodniopomorskie,Medycyna ratunkowa,LEK,2,0,0.003796,0.035498,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Lubelskie,Medycyna sądowa,LEK,1,0,0.036493,0.035498,2029,isotonic_binned_shrunk,,,0.232839
+w-2025,Łódzkie,Medycyna sądowa,LEK,1,1,0.063741,0.057665,2029,isotonic_binned_shrunk,,,0.232839
+w-2025,Małopolskie,Medycyna sądowa,LEK,2,0,0.091999,0.079279,2029,isotonic_binned_shrunk,,,0.125974
+w-2025,Podlaskie,Medycyna sądowa,LEK,3,0,0.015863,0.035498,2029,isotonic_binned_shrunk,,,0.089982
+w-2025,Śląskie,Medycyna sądowa,LEK,1,0,0.162933,0.128406,2029,isotonic_binned_shrunk,,,0.232839
+w-2025,Zachodniopomorskie,Medycyna sądowa,LEK,1,0,0.042893,0.037091,2029,isotonic_binned_shrunk,,,0.089982
+w-2025,Lubelskie,Medycyna sportowa,LEK,1,1,0.084115,0.076979,2029,isotonic_binned_shrunk,,,0.242425
+w-2025,Pomorskie,Medycyna sportowa,LEK,1,1,0.135761,0.114148,2029,isotonic_binned_shrunk,,,0.242425
+w-2025,Kujawsko-pomorskie,Mikrobiologia lekarska,LEK,2,0,0.0328,0.035498,2029,isotonic_binned_shrunk,,,0.320377
+w-2025,Łódzkie,Mikrobiologia lekarska,LEK,1,1,0.162404,0.131604,2029,isotonic_binned_shrunk,,,0.520377
+w-2025,Kujawsko-pomorskie,Nefrologia,LEK,10,0,0.026166,0.035498,2029,isotonic_binned_shrunk,,,0.105997
+w-2025,Lubelskie,Nefrologia,LEK,4,0,0.066215,0.058083,2029,isotonic_binned_shrunk,,,0.105997
+w-2025,Podkarpackie,Nefrologia,LEK,4,0,0.089312,0.080635,2029,isotonic_binned_shrunk,,,0.29033
+w-2025,Pomorskie,Nefrologia,LEK,1,1,0.3077,0.281806,2029,isotonic_binned_shrunk,,,0.391711
+w-2025,Świętokrzyskie,Nefrologia,LEK,2,0,0.038693,0.035498,2029,isotonic_binned_shrunk,,,0.105997
+w-2025,Warmińsko-mazurskie,Nefrologia,LEK,1,0,0.060401,0.053382,2029,isotonic_binned_shrunk,,,0.248854
+w-2025,Zachodniopomorskie,Nefrologia,LEK,2,1,0.031399,0.035498,2029,isotonic_binned_shrunk,,,0.248854
+w-2025,Dolnośląskie,Nefrologia dziecięca,LEK,2,0,0.398646,0.349918,2029,isotonic_binned_shrunk,,,0.423437
+w-2025,Kujawsko-pomorskie,Nefrologia dziecięca,LEK,3,0,0.048594,0.041629,2029,isotonic_binned_shrunk,,,0.137723
+w-2025,Lubelskie,Nefrologia dziecięca,LEK,1,1,0.247709,0.210655,2029,isotonic_binned_shrunk,,,0.423437
+w-2025,Łódzkie,Nefrologia dziecięca,LEK,2,0,0.168211,0.131322,2029,isotonic_binned_shrunk,,,0.28058
+w-2025,Małopolskie,Nefrologia dziecięca,LEK,2,0,0.205142,0.148115,2029,isotonic_binned_shrunk,,,0.241015
+w-2025,Mazowieckie,Nefrologia dziecięca,LEK,3,0,0.492978,0.477609,2029,isotonic_binned_shrunk,,,0.423437
+w-2025,Podlaskie,Nefrologia dziecięca,LEK,2,0,0.043096,0.037127,2029,isotonic_binned_shrunk,,,0.137723
+w-2025,Śląskie,Nefrologia dziecięca,LEK,1,0,0.435327,0.375541,2029,isotonic_binned_shrunk,,,0.49401
+w-2025,Warmińsko-mazurskie,Nefrologia dziecięca,LEK,1,0,0.127245,0.114198,2029,isotonic_binned_shrunk,,,0.423437
+w-2025,Wielkopolskie,Nefrologia dziecięca,LEK,1,0,0.371351,0.321883,2029,isotonic_binned_shrunk,,,0.321354
+w-2025,Kujawsko-pomorskie,Neonatologia,LEK,10,0,0.026538,0.035498,2029,isotonic_binned_shrunk,,,0.03512
+w-2025,Lubelskie,Neonatologia,LEK,12,0,0.036832,0.035498,2029,isotonic_binned_shrunk,,,0.03512
+w-2025,Opolskie,Neonatologia,LEK,3,0,0.031692,0.035498,2029,isotonic_binned_shrunk,,,0.03512
+w-2025,Podlaskie,Neonatologia,LEK,4,0,0.027935,0.035498,2029,isotonic_binned_shrunk,,,0.03512
+w-2025,Zachodniopomorskie,Neonatologia,LEK,2,0,0.056205,0.048883,2029,isotonic_binned_shrunk,,,0.03512
+w-2025,Kujawsko-pomorskie,Neurochirurgia,LEK,1,0,0.808283,0.886918,2029,isotonic_binned_shrunk,,,0.853536
+w-2025,Łódzkie,Neurochirurgia,LEK,1,1,0.903663,0.921786,2029,isotonic_binned_shrunk,,,0.824243
+w-2025,Małopolskie,Neurochirurgia,LEK,2,1,0.857786,0.902383,2029,isotonic_binned_shrunk,,,0.624243
+w-2025,Podkarpackie,Neurochirurgia,LEK,1,1,0.738254,0.820749,2029,isotonic_binned_shrunk,,,0.686869
+w-2025,Wielkopolskie,Neurochirurgia,LEK,1,1,0.892041,0.917637,2029,isotonic_binned_shrunk,,,0.824243
+w-2025,Zachodniopomorskie,Neurochirurgia,LEK,1,0,0.695459,0.777014,2029,isotonic_binned_shrunk,,,0.530304
+w-2025,Łódzkie,Neurologia,LEK,4,1,0.636261,0.725232,2029,isotonic_binned_shrunk,,,0.37987
+w-2025,Wielkopolskie,Neurologia,LEK,8,1,0.594286,0.681552,2029,isotonic_binned_shrunk,,,0.37987
+w-2025,Kujawsko-pomorskie,Neurologia dziecięca,LEK,1,0,0.238198,0.1916,2029,isotonic_binned_shrunk,,,0.285228
+w-2025,Lubuskie,Neurologia dziecięca,LEK,1,1,0.332629,0.300732,2029,isotonic_binned_shrunk,,,0.475379
+w-2025,Łódzkie,Neurologia dziecięca,LEK,1,1,0.732828,0.826397,2029,isotonic_binned_shrunk,,,0.606535
+w-2025,Zachodniopomorskie,Neurologia dziecięca,LEK,2,0,0.135801,0.114965,2029,isotonic_binned_shrunk,,,0.203734
+w-2025,Dolnośląskie,Okulistyka,LEK,4,1,0.97805,0.957713,2029,isotonic_binned_shrunk,,,0.86034
+w-2025,Kujawsko-pomorskie,Okulistyka,LEK,3,1,0.950348,0.939239,2029,isotonic_binned_shrunk,,,0.86034
+w-2025,Lubelskie,Okulistyka,LEK,6,1,0.86461,0.907663,2029,isotonic_binned_shrunk,,,0.574626
+w-2025,Łódzkie,Okulistyka,LEK,2,1,0.950501,0.943485,2029,isotonic_binned_shrunk,,,0.86034
+w-2025,Małopolskie,Okulistyka,LEK,3,1,0.953153,0.943487,2029,isotonic_binned_shrunk,,,0.431768
+w-2025,Opolskie,Okulistyka,LEK,1,1,0.887688,0.916202,2029,isotonic_binned_shrunk,,,0.804476
+w-2025,Podkarpackie,Okulistyka,LEK,1,1,0.940436,0.939191,2029,isotonic_binned_shrunk,,,0.86034
+w-2025,Warmińsko-mazurskie,Okulistyka,LEK,1,1,0.911694,0.925277,2029,isotonic_binned_shrunk,,,0.717483
+w-2025,Dolnośląskie,Onkologia i hematologia dziecięca,LEK,2,1,0.04761,0.042229,2029,isotonic_binned_shrunk,,,0.051948
+w-2025,Lubelskie,Onkologia i hematologia dziecięca,LEK,4,0,0.01548,0.035498,2029,isotonic_binned_shrunk,,,0.051948
+w-2025,Lubuskie,Onkologia i hematologia dziecięca,LEK,2,0,0.021613,0.035498,2029,isotonic_binned_shrunk,,,0.09091
+w-2025,Małopolskie,Onkologia i hematologia dziecięca,LEK,2,0,0.079259,0.070248,2029,isotonic_binned_shrunk,,,0.227273
+w-2025,Mazowieckie,Onkologia i hematologia dziecięca,LEK,1,1,0.390881,0.339843,2029,isotonic_binned_shrunk,,,0.34091
+w-2025,Podkarpackie,Onkologia i hematologia dziecięca,LEK,2,0,0.03667,0.035498,2029,isotonic_binned_shrunk,,,0.051948
+w-2025,Podlaskie,Onkologia i hematologia dziecięca,LEK,3,0,0.011679,0.035498,2029,isotonic_binned_shrunk,,,0.051948
+w-2025,Pomorskie,Onkologia i hematologia dziecięca,LEK,1,1,0.191108,0.144089,2029,isotonic_binned_shrunk,,,0.121213
+w-2025,Śląskie,Onkologia i hematologia dziecięca,LEK,4,0,0.03657,0.035498,2029,isotonic_binned_shrunk,,,0.051948
+w-2025,Wielkopolskie,Onkologia i hematologia dziecięca,LEK,4,0,0.028471,0.035498,2029,isotonic_binned_shrunk,,,0.051948
+w-2025,Zachodniopomorskie,Onkologia i hematologia dziecięca,LEK,1,0,0.027015,0.035498,2029,isotonic_binned_shrunk,,,0.060606
+w-2025,Kujawsko-pomorskie,Onkologia kliniczna,LEK,1,0,0.05444,0.046493,2029,isotonic_binned_shrunk,,,0.023048
+w-2025,Podkarpackie,Onkologia kliniczna,LEK,9,0,0.011232,0.035498,2029,isotonic_binned_shrunk,,,0.023048
+w-2025,Świętokrzyskie,Onkologia kliniczna,LEK,11,0,0.01357,0.035498,2029,isotonic_binned_shrunk,,,0.023048
+w-2025,Warmińsko-mazurskie,Onkologia kliniczna,LEK,2,0,0.027764,0.035498,2029,isotonic_binned_shrunk,,,0.023048
+w-2025,Dolnośląskie,Ortodoncja,LDEK,1,1,0.952929,0.944331,2029,isotonic_binned_shrunk,,,0.939747
+w-2025,Małopolskie,Ortodoncja,LDEK,3,1,0.938364,0.937065,2029,isotonic_binned_shrunk,,,0.939747
+w-2025,Mazowieckie,Ortodoncja,LDEK,1,1,0.992076,0.98013,2029,isotonic_binned_shrunk,,,0.948354
+w-2025,Opolskie,Ortodoncja,LDEK,2,1,0.668509,0.74815,2029,isotonic_binned_shrunk,,,0.879493
+w-2025,Śląskie,Ortodoncja,LDEK,1,1,0.971194,0.952412,2029,isotonic_binned_shrunk,,,0.948354
+w-2025,Wielkopolskie,Ortodoncja,LDEK,1,1,0.96048,0.947383,2029,isotonic_binned_shrunk,,,0.939747
+w-2025,Zachodniopomorskie,Ortodoncja,LDEK,1,1,0.895934,0.919067,2029,isotonic_binned_shrunk,,,0.948354
+w-2025,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,LEK,10,1,0.734893,0.829362,2029,isotonic_binned_shrunk,,,0.266775
+w-2025,Mazowieckie,Ortopedia i traumatologia narządu ruchu,LEK,10,1,0.989001,0.96058,2029,isotonic_binned_shrunk,,,0.123918
+w-2025,Pomorskie,Ortopedia i traumatologia narządu ruchu,LEK,2,1,0.890984,0.917138,2029,isotonic_binned_shrunk,,,0.552489
+w-2025,Śląskie,Ortopedia i traumatologia narządu ruchu,LEK,7,1,0.77436,0.876475,2029,isotonic_binned_shrunk,,,0.409632
+w-2025,Świętokrzyskie,Ortopedia i traumatologia narządu ruchu,LEK,7,0,0.265999,0.230067,2029,isotonic_binned_shrunk,,,0.123918
+w-2025,Wielkopolskie,Ortopedia i traumatologia narządu ruchu,LEK,7,1,0.81322,0.889289,2029,isotonic_binned_shrunk,,,0.409632
+w-2025,Dolnośląskie,Otorynolaryngologia,LEK,2,1,0.950973,0.943572,2029,isotonic_binned_shrunk,,,0.77013
+w-2025,Kujawsko-pomorskie,Otorynolaryngologia,LEK,3,1,0.910442,0.923132,2029,isotonic_binned_shrunk,,,0.898485
+w-2025,Lubelskie,Otorynolaryngologia,LEK,1,1,0.961042,0.948006,2029,isotonic_binned_shrunk,,,0.878182
+w-2025,Lubuskie,Otorynolaryngologia,LEK,2,1,0.869282,0.909083,2029,isotonic_binned_shrunk,,,0.731818
+w-2025,Łódzkie,Otorynolaryngologia,LEK,4,1,0.944119,0.940555,2029,isotonic_binned_shrunk,,,0.731818
+w-2025,Małopolskie,Otorynolaryngologia,LEK,1,1,0.978402,0.962273,2029,isotonic_binned_shrunk,,,0.912987
+w-2025,Mazowieckie,Otorynolaryngologia,LEK,9,1,0.953599,0.944781,2029,isotonic_binned_shrunk,,,0.77013
+w-2025,Podlaskie,Otorynolaryngologia,LEK,1,1,0.915577,0.926954,2029,isotonic_binned_shrunk,,,0.912987
+w-2025,Pomorskie,Otorynolaryngologia,LEK,2,1,0.936639,0.93695,2029,isotonic_binned_shrunk,,,0.77013
+w-2025,Świętokrzyskie,Otorynolaryngologia,LEK,2,1,0.902086,0.922302,2029,isotonic_binned_shrunk,,,0.898485
+w-2025,Wielkopolskie,Otorynolaryngologia,LEK,6,1,0.96721,0.950114,2029,isotonic_binned_shrunk,,,0.627273
+w-2025,Zachodniopomorskie,Otorynolaryngologia,LEK,1,1,0.896228,0.918548,2029,isotonic_binned_shrunk,,,0.847728
+w-2025,Łódzkie,Otorynolaryngologia dziecięca,LEK,2,1,0.725142,0.821101,2029,isotonic_binned_shrunk,,,0.56453
+w-2025,Mazowieckie,Otorynolaryngologia dziecięca,LEK,2,1,0.932641,0.933979,2029,isotonic_binned_shrunk,,,0.707387
+w-2025,Śląskie,Otorynolaryngologia dziecięca,LEK,2,1,0.872607,0.910842,2029,isotonic_binned_shrunk,,,0.825285
+w-2025,Wielkopolskie,Otorynolaryngologia dziecięca,LEK,1,1,0.890257,0.917258,2029,isotonic_binned_shrunk,,,0.790341
+w-2025,Kujawsko-pomorskie,Patomorfologia,LEK,4,0,0.082836,0.072114,2029,isotonic_binned_shrunk,,,0.046537
+w-2025,Lubuskie,Patomorfologia,LEK,3,0,0.025974,0.035498,2029,isotonic_binned_shrunk,,,0.046537
+w-2025,Łódzkie,Patomorfologia,LEK,2,1,0.12061,0.106402,2029,isotonic_binned_shrunk,,,0.189394
+w-2025,Mazowieckie,Patomorfologia,LEK,5,1,0.460287,0.400622,2029,isotonic_binned_shrunk,,,0.189394
+w-2025,Opolskie,Patomorfologia,LEK,2,0,0.019992,0.035498,2029,isotonic_binned_shrunk,,,0.046537
+w-2025,Podkarpackie,Patomorfologia,LEK,6,0,0.033426,0.035498,2029,isotonic_binned_shrunk,,,0.046537
+w-2025,Podlaskie,Patomorfologia,LEK,2,0,0.031185,0.035498,2029,isotonic_binned_shrunk,,,0.046537
+w-2025,Świętokrzyskie,Patomorfologia,LEK,7,0,0.019636,0.035498,2029,isotonic_binned_shrunk,,,0.046537
+w-2025,Warmińsko-mazurskie,Patomorfologia,LEK,3,0,0.027296,0.035498,2029,isotonic_binned_shrunk,,,0.046537
+w-2025,Zachodniopomorskie,Patomorfologia,LEK,15,0,0.010292,0.035498,2029,isotonic_binned_shrunk,,,0.046537
+w-2025,Świętokrzyskie,Pediatria,LEK,6,0,0.13772,0.116662,2029,isotonic_binned_shrunk,,,0.219156
+w-2025,Pomorskie,Pediatria metaboliczna,LEK,1,0,0.011423,0.035498,2029,isotonic_binned_shrunk,,,0.052513
+w-2025,Wielkopolskie,Pediatria metaboliczna,LEK,1,0,0.02916,0.035498,2029,isotonic_binned_shrunk,,,0.052513
+w-2025,Zachodniopomorskie,Pediatria metaboliczna,LEK,2,0,0.005661,0.035498,2029,isotonic_binned_shrunk,,,0.052513
+w-2025,Dolnośląskie,Periodontologia,LDEK,1,1,0.947084,0.941796,2029,isotonic_binned_shrunk,,,0.588175
+w-2025,Kujawsko-pomorskie,Periodontologia,LDEK,1,1,0.883974,0.913488,2029,isotonic_binned_shrunk,,,0.779307
+w-2025,Lubelskie,Periodontologia,LDEK,1,1,0.929223,0.93355,2029,isotonic_binned_shrunk,,,0.852871
+w-2025,Łódzkie,Periodontologia,LDEK,1,1,0.914056,0.924726,2029,isotonic_binned_shrunk,,,0.705742
+w-2025,Podlaskie,Periodontologia,LDEK,1,1,0.869911,0.90947,2029,isotonic_binned_shrunk,,,0.779307
+w-2025,Mazowieckie,Położnictwo i ginekologia,LEK,30,1,0.938842,0.937322,2029,isotonic_binned_shrunk,,,0.52868
+w-2025,Opolskie,Położnictwo i ginekologia,LEK,6,0,0.501989,0.51082,2029,isotonic_binned_shrunk,,,0.100108
+w-2025,Warmińsko-mazurskie,Położnictwo i ginekologia,LEK,1,1,0.782884,0.880243,2029,isotonic_binned_shrunk,,,0.100108
+w-2025,Dolnośląskie,Protetyka stomatologiczna,LDEK,1,1,0.904116,0.922522,2029,isotonic_binned_shrunk,,,0.683983
+w-2025,Kujawsko-pomorskie,Protetyka stomatologiczna,LDEK,2,1,0.712767,0.798745,2029,isotonic_binned_shrunk,,,0.464647
+w-2025,Małopolskie,Protetyka stomatologiczna,LDEK,2,1,0.794192,0.882494,2029,isotonic_binned_shrunk,,,0.398269
+w-2025,Podlaskie,Protetyka stomatologiczna,LDEK,1,1,0.767016,0.871393,2029,isotonic_binned_shrunk,,,0.683983
+w-2025,Pomorskie,Protetyka stomatologiczna,LDEK,2,1,0.8789,0.913376,2029,isotonic_binned_shrunk,,,0.757576
+w-2025,Warmińsko-mazurskie,Protetyka stomatologiczna,LDEK,2,1,0.298691,0.274546,2029,isotonic_binned_shrunk,,,0.464647
+w-2025,Opolskie,Psychiatria,LEK,4,0,0.244456,0.205344,2029,isotonic_binned_shrunk,,,0.112013
+w-2025,Podlaskie,Psychiatria,LEK,5,1,0.33737,0.304395,2029,isotonic_binned_shrunk,,,0.25487
+w-2025,Śląskie,Psychiatria,LEK,10,1,0.964858,0.941206,2029,isotonic_binned_shrunk,,,0.25487
+w-2025,Warmińsko-mazurskie,Psychiatria,LEK,2,1,0.357873,0.324971,2029,isotonic_binned_shrunk,,,0.25487
+w-2025,Lubelskie,Psychiatria dzieci i młodzieży,LEK,1,1,0.923419,0.930482,2029,isotonic_binned_shrunk,,,0.87616
+w-2025,Lubuskie,Psychiatria dzieci i młodzieży,LEK,1,0,0.878617,0.911623,2029,isotonic_binned_shrunk,,,0.626624
+w-2025,Łódzkie,Psychiatria dzieci i młodzieży,LEK,4,1,0.913808,0.92664,2029,isotonic_binned_shrunk,,,0.87616
+w-2025,Małopolskie,Psychiatria dzieci i młodzieży,LEK,2,1,0.984814,0.969888,2029,isotonic_binned_shrunk,,,0.522186
+w-2025,Podkarpackie,Psychiatria dzieci i młodzieży,LEK,1,1,0.902799,0.921675,2029,isotonic_binned_shrunk,,,0.826624
+w-2025,Pomorskie,Psychiatria dzieci i młodzieży,LEK,2,1,0.952119,0.944135,2029,isotonic_binned_shrunk,,,0.826624
+w-2025,Świętokrzyskie,Psychiatria dzieci i młodzieży,LEK,2,1,0.779954,0.877721,2029,isotonic_binned_shrunk,,,0.688853
+w-2025,Wielkopolskie,Psychiatria dzieci i młodzieży,LEK,4,1,0.856699,0.904985,2029,isotonic_binned_shrunk,,,0.688853
+w-2025,Zachodniopomorskie,Psychiatria dzieci i młodzieży,LEK,1,1,0.90273,0.921722,2029,isotonic_binned_shrunk,,,0.87616
+w-2025,Dolnośląskie,Radiologia i diagnostyka obrazowa,LEK,4,1,0.815701,0.886907,2029,isotonic_binned_shrunk,,,0.234896
+w-2025,Kujawsko-pomorskie,Radiologia i diagnostyka obrazowa,LEK,5,1,0.73882,0.819937,2029,isotonic_binned_shrunk,,,0.377753
+w-2025,Lubelskie,Radiologia i diagnostyka obrazowa,LEK,3,1,0.978272,0.952753,2029,isotonic_binned_shrunk,,,0.52061
+w-2025,Lubuskie,Radiologia i diagnostyka obrazowa,LEK,2,1,0.618285,0.692322,2029,isotonic_binned_shrunk,,,0.728854
+w-2025,Łódzkie,Radiologia i diagnostyka obrazowa,LEK,5,1,0.839752,0.898313,2029,isotonic_binned_shrunk,,,0.663467
+w-2025,Mazowieckie,Radiologia i diagnostyka obrazowa,LEK,7,1,0.977589,0.955126,2029,isotonic_binned_shrunk,,,0.234896
+w-2025,Opolskie,Radiologia i diagnostyka obrazowa,LEK,1,1,0.819852,0.890364,2029,isotonic_binned_shrunk,,,0.806324
+w-2025,Podkarpackie,Radiologia i diagnostyka obrazowa,LEK,1,1,0.946532,0.939899,2029,isotonic_binned_shrunk,,,0.806324
+w-2025,Podlaskie,Radiologia i diagnostyka obrazowa,LEK,1,1,0.731663,0.820164,2029,isotonic_binned_shrunk,,,0.663467
+w-2025,Śląskie,Radiologia i diagnostyka obrazowa,LEK,13,1,0.991967,0.967576,2029,isotonic_binned_shrunk,,,0.377753
+w-2025,Świętokrzyskie,Radiologia i diagnostyka obrazowa,LEK,2,1,0.723264,0.810108,2029,isotonic_binned_shrunk,,,0.607378
+w-2025,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,LEK,1,1,0.818168,0.890026,2029,isotonic_binned_shrunk,,,0.663467
+w-2025,Wielkopolskie,Radiologia i diagnostyka obrazowa,LEK,7,1,0.833204,0.894143,2029,isotonic_binned_shrunk,,,0.377753
+w-2025,Zachodniopomorskie,Radiologia i diagnostyka obrazowa,LEK,3,1,0.854493,0.901706,2029,isotonic_binned_shrunk,,,0.806324
+w-2025,Lubuskie,Radioterapia onkologiczna,LEK,4,0,0.014598,0.035498,2029,isotonic_binned_shrunk,,,0.04856
+w-2025,Łódzkie,Radioterapia onkologiczna,LEK,4,0,0.06787,0.062042,2029,isotonic_binned_shrunk,,,0.334275
+w-2025,Mazowieckie,Radioterapia onkologiczna,LEK,3,1,0.427593,0.361534,2029,isotonic_binned_shrunk,,,0.191417
+w-2025,Opolskie,Radioterapia onkologiczna,LEK,1,0,0.024642,0.035498,2029,isotonic_binned_shrunk,,,0.04856
+w-2025,Podkarpackie,Radioterapia onkologiczna,LEK,4,0,0.044676,0.039028,2029,isotonic_binned_shrunk,,,0.04856
+w-2025,Świętokrzyskie,Radioterapia onkologiczna,LEK,1,0,0.035978,0.035498,2029,isotonic_binned_shrunk,,,0.191417
+w-2025,Warmińsko-mazurskie,Radioterapia onkologiczna,LEK,2,0,0.025688,0.035498,2029,isotonic_binned_shrunk,,,0.056654
+w-2025,Zachodniopomorskie,Radioterapia onkologiczna,LEK,5,0,0.017371,0.035498,2029,isotonic_binned_shrunk,,,0.056654
+w-2025,Kujawsko-pomorskie,Rehabilitacja medyczna,LEK,2,0,0.016856,0.035498,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Lubelskie,Rehabilitacja medyczna,LEK,7,0,0.010298,0.035498,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Lubuskie,Rehabilitacja medyczna,LEK,2,0,0.004859,0.035498,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Opolskie,Rehabilitacja medyczna,LEK,1,1,0.006638,0.035498,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Podlaskie,Rehabilitacja medyczna,LEK,3,0,0.007483,0.035498,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Pomorskie,Rehabilitacja medyczna,LEK,7,0,0.052044,0.045054,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Warmińsko-mazurskie,Rehabilitacja medyczna,LEK,2,0,0.008092,0.035498,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Wielkopolskie,Rehabilitacja medyczna,LEK,5,0,0.014203,0.035498,2029,isotonic_binned_shrunk,,,0.022727
+w-2025,Dolnośląskie,Reumatologia,LEK,1,1,0.984406,0.971007,2029,isotonic_binned_shrunk,,,0.781076
+w-2025,Lubelskie,Reumatologia,LEK,2,1,0.957557,0.947128,2029,isotonic_binned_shrunk,,,0.911256
+w-2025,Lubuskie,Reumatologia,LEK,1,1,0.916157,0.927532,2029,isotonic_binned_shrunk,,,0.893507
+w-2025,Łódzkie,Reumatologia,LEK,1,1,0.977536,0.962256,2029,isotonic_binned_shrunk,,,0.923933
+w-2025,Małopolskie,Reumatologia,LEK,1,1,0.98459,0.97163,2029,isotonic_binned_shrunk,,,0.923933
+w-2025,Podkarpackie,Reumatologia,LEK,4,1,0.935849,0.937656,2029,isotonic_binned_shrunk,,,0.911256
+w-2025,Podlaskie,Reumatologia,LEK,2,1,0.912325,0.926344,2029,isotonic_binned_shrunk,,,0.923933
+w-2025,Śląskie,Reumatologia,LEK,3,1,0.970533,0.953058,2029,isotonic_binned_shrunk,,,0.923933
+w-2025,Zachodniopomorskie,Reumatologia,LEK,2,1,0.866454,0.909495,2029,isotonic_binned_shrunk,,,0.781076
+w-2025,Kujawsko-pomorskie,Stomatologia dziecięca,LDEK,1,0,0.725174,0.815743,2029,isotonic_binned_shrunk,,,0.749803
+w-2025,Mazowieckie,Stomatologia dziecięca,LDEK,1,1,0.965321,0.949735,2029,isotonic_binned_shrunk,,,0.392716
+w-2025,Pomorskie,Stomatologia dziecięca,LDEK,1,1,0.892708,0.917945,2029,isotonic_binned_shrunk,,,0.549803
+w-2025,Śląskie,Stomatologia dziecięca,LDEK,1,1,0.822142,0.892894,2029,isotonic_binned_shrunk,,,0.535573
+w-2025,Warmińsko-mazurskie,Stomatologia dziecięca,LDEK,3,1,0.25747,0.224204,2029,isotonic_binned_shrunk,,,0.549803
+w-2025,Lubelskie,Stomatologia zachowawcza z endodoncją,LDEK,4,1,0.724359,0.819069,2029,isotonic_binned_shrunk,,,0.229798
+w-2025,Podkarpackie,Stomatologia zachowawcza z endodoncją,LDEK,1,1,0.794225,0.883256,2029,isotonic_binned_shrunk,,,0.563132
+w-2025,Dolnośląskie,Toksykologia kliniczna,LEK,2,0,0.056816,0.049656,2029,isotonic_binned_shrunk,,,0.125974
+w-2025,Lubelskie,Toksykologia kliniczna,LEK,2,0,0.038289,0.035498,2029,isotonic_binned_shrunk,,,0.125974
+w-2025,Mazowieckie,Toksykologia kliniczna,LEK,1,0,0.242246,0.196609,2029,isotonic_binned_shrunk,,,0.376364
+w-2025,Pomorskie,Toksykologia kliniczna,LEK,3,0,0.069502,0.06271,2029,isotonic_binned_shrunk,,,0.176364
+w-2025,Dolnośląskie,Transfuzjologia kliniczna,LEK,2,0,0.021821,0.035498,2029,isotonic_binned_shrunk,,,0.034416
+w-2025,Kujawsko-pomorskie,Transfuzjologia kliniczna,LEK,1,0,0.013821,0.035498,2029,isotonic_binned_shrunk,,,0.034416
+w-2025,Lubelskie,Transfuzjologia kliniczna,LEK,1,0,0.021793,0.035498,2029,isotonic_binned_shrunk,,,0.034416
+w-2025,Lubuskie,Transfuzjologia kliniczna,LEK,2,0,0.006185,0.035498,2029,isotonic_binned_shrunk,,,0.034416
+w-2025,Małopolskie,Transfuzjologia kliniczna,LEK,1,0,0.10972,0.097341,2029,isotonic_binned_shrunk,,,0.060228
+w-2025,Mazowieckie,Transfuzjologia kliniczna,LEK,3,0,0.042189,0.036719,2029,isotonic_binned_shrunk,,,0.206818
+w-2025,Opolskie,Transfuzjologia kliniczna,LEK,2,0,0.006425,0.035498,2029,isotonic_binned_shrunk,,,0.034416
+w-2025,Podkarpackie,Transfuzjologia kliniczna,LEK,3,0,0.01315,0.035498,2029,isotonic_binned_shrunk,,,0.034416
+w-2025,Podlaskie,Transfuzjologia kliniczna,LEK,1,0,0.018186,0.035498,2029,isotonic_binned_shrunk,,,0.048182
+w-2025,Pomorskie,Transfuzjologia kliniczna,LEK,3,0,0.019774,0.035498,2029,isotonic_binned_shrunk,,,0.034416
+w-2025,Śląskie,Transfuzjologia kliniczna,LEK,4,0,0.025359,0.035498,2029,isotonic_binned_shrunk,,,0.206818
+w-2025,Świętokrzyskie,Transfuzjologia kliniczna,LEK,3,0,0.006422,0.035498,2029,isotonic_binned_shrunk,,,0.034416
+w-2025,Wielkopolskie,Transfuzjologia kliniczna,LEK,4,0,0.010348,0.035498,2029,isotonic_binned_shrunk,,,0.034416
+w-2025,Zachodniopomorskie,Transfuzjologia kliniczna,LEK,2,0,0.008677,0.035498,2029,isotonic_binned_shrunk,,,0.034416
+w-2025,Dolnośląskie,Urologia,LEK,1,1,0.957941,0.946867,2029,isotonic_binned_shrunk,,,0.908882
+w-2025,Lubuskie,Urologia,LEK,1,1,0.842072,0.900634,2029,isotonic_binned_shrunk,,,0.908882
+w-2025,Łódzkie,Urologia,LEK,3,1,0.96328,0.948393,2029,isotonic_binned_shrunk,,,0.908882
+w-2025,Małopolskie,Urologia,LEK,3,1,0.952255,0.943956,2029,isotonic_binned_shrunk,,,0.727029
+w-2025,Mazowieckie,Urologia,LEK,5,1,0.972018,0.953152,2029,isotonic_binned_shrunk,,,0.766025
+w-2025,Podkarpackie,Urologia,LEK,4,1,0.875002,0.91328,2029,isotonic_binned_shrunk,,,0.766025
+w-2025,Podlaskie,Urologia,LEK,1,1,0.890803,0.917612,2029,isotonic_binned_shrunk,,,0.893695
+w-2025,Pomorskie,Urologia,LEK,1,0,0.977383,0.959324,2029,isotonic_binned_shrunk,,,0.908882
+w-2025,Śląskie,Urologia,LEK,2,1,0.968354,0.950841,2029,isotonic_binned_shrunk,,,0.766025
+w-2025,Świętokrzyskie,Urologia,LEK,1,1,0.869737,0.910085,2029,isotonic_binned_shrunk,,,0.872434
+w-2025,Warmińsko-mazurskie,Urologia,LEK,2,1,0.812658,0.890112,2029,isotonic_binned_shrunk,,,0.623167
+w-2025,Zachodniopomorskie,Urologia,LEK,4,1,0.598099,0.659564,2029,isotonic_binned_shrunk,,,0.727029
+j-2025,Dolnośląskie,Alergologia,LEK,2,1,0.954124,0.959206,2459,isotonic_binned_shrunk,,,0.512885
+j-2025,Łódzkie,Alergologia,LEK,3,1,0.97181,0.9684,2459,isotonic_binned_shrunk,,,0.582473
+j-2025,Małopolskie,Alergologia,LEK,3,1,0.97602,0.969606,2459,isotonic_binned_shrunk,,,0.72533
+j-2025,Mazowieckie,Alergologia,LEK,3,1,0.988961,0.973176,2459,isotonic_binned_shrunk,,,0.846218
+j-2025,Śląskie,Alergologia,LEK,2,1,0.986185,0.972387,2459,isotonic_binned_shrunk,,,0.868187
+j-2025,Lubelskie,Anestezjologia i intensywna terapia,LEK,17,1,0.968896,0.967434,2459,isotonic_binned_shrunk,,,0.361105
+j-2025,Łódzkie,Anestezjologia i intensywna terapia,LEK,18,1,0.997755,0.973612,2459,isotonic_binned_shrunk,,,0.361105
+j-2025,Małopolskie,Anestezjologia i intensywna terapia,LEK,10,1,0.975173,0.969121,2459,isotonic_binned_shrunk,,,0.111105
+j-2025,Podlaskie,Anestezjologia i intensywna terapia,LEK,12,1,0.907217,0.931142,2459,isotonic_binned_shrunk,,,0.236105
+j-2025,Śląskie,Anestezjologia i intensywna terapia,LEK,15,1,0.994068,0.973612,2459,isotonic_binned_shrunk,,,0.236105
+j-2025,Wielkopolskie,Anestezjologia i intensywna terapia,LEK,15,1,0.986506,0.972249,2459,isotonic_binned_shrunk,,,0.486105
+j-2025,Łódzkie,Balneologia i medycyna fizykalna,LEK,1,0,0.155205,0.126277,2459,isotonic_binned_shrunk,,,0.06511
+j-2025,Śląskie,Balneologia i medycyna fizykalna,LEK,1,0,0.207879,0.169426,2459,isotonic_binned_shrunk,,,0.048833
+j-2025,Dolnośląskie,Chirurgia dziecięca,LEK,5,1,0.57397,0.62875,2459,isotonic_binned_shrunk,,,0.196279
+j-2025,Kujawsko-pomorskie,Chirurgia dziecięca,LEK,2,1,0.54111,0.572038,2459,isotonic_binned_shrunk,,,0.071279
+j-2025,Małopolskie,Chirurgia dziecięca,LEK,4,1,0.785868,0.837506,2459,isotonic_binned_shrunk,,,0.367176
+j-2025,Mazowieckie,Chirurgia dziecięca,LEK,8,1,0.832899,0.873953,2459,isotonic_binned_shrunk,,,0.321279
+j-2025,Podkarpackie,Chirurgia dziecięca,LEK,2,0,0.537888,0.561609,2459,isotonic_binned_shrunk,,,0.071279
+j-2025,Pomorskie,Chirurgia dziecięca,LEK,4,1,0.531974,0.559846,2459,isotonic_binned_shrunk,,,0.081462
+j-2025,Śląskie,Chirurgia dziecięca,LEK,4,1,0.698999,0.763976,2459,isotonic_binned_shrunk,,,0.196279
+j-2025,Świętokrzyskie,Chirurgia dziecięca,LEK,1,0,0.527295,0.543704,2459,isotonic_binned_shrunk,,,0.196279
+j-2025,Wielkopolskie,Chirurgia dziecięca,LEK,2,1,0.846146,0.884772,2459,isotonic_binned_shrunk,,,0.321279
+j-2025,Zachodniopomorskie,Chirurgia dziecięca,LEK,2,1,0.579614,0.638693,2459,isotonic_binned_shrunk,,,0.321279
+j-2025,Kujawsko-pomorskie,Chirurgia klatki piersiowej,LEK,1,1,0.355648,0.319858,2459,isotonic_binned_shrunk,,,0.252194
+j-2025,Łódzkie,Chirurgia klatki piersiowej,LEK,1,1,0.448926,0.425565,2459,isotonic_binned_shrunk,,,0.189145
+j-2025,Małopolskie,Chirurgia klatki piersiowej,LEK,2,1,0.345006,0.290682,2459,isotonic_binned_shrunk,,,0.073309
+j-2025,Mazowieckie,Chirurgia klatki piersiowej,LEK,2,0,0.576448,0.631097,2459,isotonic_binned_shrunk,,,0.073309
+j-2025,Podlaskie,Chirurgia klatki piersiowej,LEK,1,1,0.208255,0.173035,2459,isotonic_binned_shrunk,,,0.085527
+j-2025,Pomorskie,Chirurgia klatki piersiowej,LEK,2,0,0.375552,0.335177,2459,isotonic_binned_shrunk,,,0.085527
+j-2025,Świętokrzyskie,Chirurgia klatki piersiowej,LEK,1,1,0.139088,0.110359,2459,isotonic_binned_shrunk,,,0.073309
+j-2025,Wielkopolskie,Chirurgia klatki piersiowej,LEK,2,1,0.301992,0.240948,2459,isotonic_binned_shrunk,,,0.064145
+j-2025,Zachodniopomorskie,Chirurgia klatki piersiowej,LEK,2,0,0.117407,0.090934,2459,isotonic_binned_shrunk,,,0.064145
+j-2025,Dolnośląskie,Chirurgia naczyniowa,LEK,1,1,0.931973,0.947445,2459,isotonic_binned_shrunk,,,0.452978
+j-2025,Lubelskie,Chirurgia naczyniowa,LEK,1,1,0.953055,0.959548,2459,isotonic_binned_shrunk,,,0.531124
+j-2025,Lubuskie,Chirurgia naczyniowa,LEK,2,1,0.798208,0.852387,2459,isotonic_binned_shrunk,,,0.388267
+j-2025,Mazowieckie,Chirurgia naczyniowa,LEK,4,1,0.969783,0.967966,2459,isotonic_binned_shrunk,,,0.531124
+j-2025,Podkarpackie,Chirurgia naczyniowa,LEK,3,1,0.946432,0.957561,2459,isotonic_binned_shrunk,,,0.786312
+j-2025,Podlaskie,Chirurgia naczyniowa,LEK,1,1,0.870252,0.903388,2459,isotonic_binned_shrunk,,,0.572623
+j-2025,Śląskie,Chirurgia naczyniowa,LEK,3,1,0.966624,0.967137,2459,isotonic_binned_shrunk,,,0.714734
+j-2025,Świętokrzyskie,Chirurgia naczyniowa,LEK,3,1,0.720493,0.785006,2459,isotonic_binned_shrunk,,,0.339734
+j-2025,Warmińsko-mazurskie,Chirurgia naczyniowa,LEK,1,1,0.921458,0.9439,2459,isotonic_binned_shrunk,,,0.743574
+j-2025,Wielkopolskie,Chirurgia naczyniowa,LEK,1,1,0.977608,0.970195,2459,isotonic_binned_shrunk,,,0.673981
+j-2025,Zachodniopomorskie,Chirurgia naczyniowa,LEK,1,0,0.867264,0.901895,2459,isotonic_binned_shrunk,,,0.572623
+j-2025,Dolnośląskie,Chirurgia onkologiczna,LEK,2,1,0.573116,0.625552,2459,isotonic_binned_shrunk,,,0.081043
+j-2025,Kujawsko-pomorskie,Chirurgia onkologiczna,LEK,2,1,0.395248,0.35126,2459,isotonic_binned_shrunk,,,0.081043
+j-2025,Lubelskie,Chirurgia onkologiczna,LEK,1,1,0.712955,0.768676,2459,isotonic_binned_shrunk,,,0.235478
+j-2025,Lubuskie,Chirurgia onkologiczna,LEK,1,0,0.489088,0.495649,2459,isotonic_binned_shrunk,,,0.206043
+j-2025,Opolskie,Chirurgia onkologiczna,LEK,1,1,0.492149,0.505698,2459,isotonic_binned_shrunk,,,0.216115
+j-2025,Podlaskie,Chirurgia onkologiczna,LEK,2,1,0.329405,0.281179,2459,isotonic_binned_shrunk,,,0.162086
+j-2025,Śląskie,Chirurgia onkologiczna,LEK,4,1,0.68504,0.753845,2459,isotonic_binned_shrunk,,,0.206043
+j-2025,Świętokrzyskie,Chirurgia onkologiczna,LEK,1,1,0.665162,0.738054,2459,isotonic_binned_shrunk,,,0.274724
+j-2025,Warmińsko-mazurskie,Chirurgia onkologiczna,LEK,1,0,0.452877,0.425537,2459,isotonic_binned_shrunk,,,0.081043
+j-2025,Wielkopolskie,Chirurgia onkologiczna,LEK,4,1,0.737179,0.802147,2459,isotonic_binned_shrunk,,,0.456043
+j-2025,Dolnośląskie,Chirurgia plastyczna,LEK,1,1,0.970819,0.968159,2459,isotonic_binned_shrunk,,,0.679607
+j-2025,Lubelskie,Chirurgia plastyczna,LEK,1,1,0.987369,0.972664,2459,isotonic_binned_shrunk,,,0.884705
+j-2025,Łódzkie,Chirurgia plastyczna,LEK,1,1,0.976529,0.969715,2459,isotonic_binned_shrunk,,,0.815528
+j-2025,Małopolskie,Chirurgia plastyczna,LEK,1,1,0.974676,0.969,2459,isotonic_binned_shrunk,,,0.76941
+j-2025,Śląskie,Chirurgia plastyczna,LEK,1,1,0.952133,0.95821,2459,isotonic_binned_shrunk,,,0.692547
+j-2025,Zachodniopomorskie,Chirurgia plastyczna,LEK,1,1,0.939357,0.952583,2459,isotonic_binned_shrunk,,,0.58252
+j-2025,Dolnośląskie,Chirurgia stomatologiczna,LDEK,1,1,0.994618,0.973612,2459,isotonic_binned_shrunk,,,0.717337
+j-2025,Kujawsko-pomorskie,Chirurgia stomatologiczna,LDEK,3,1,0.981824,0.970901,2459,isotonic_binned_shrunk,,,0.884004
+j-2025,Łódzkie,Chirurgia stomatologiczna,LDEK,4,1,0.991194,0.973612,2459,isotonic_binned_shrunk,,,0.913003
+j-2025,Małopolskie,Chirurgia stomatologiczna,LDEK,3,1,0.988074,0.972757,2459,isotonic_binned_shrunk,,,0.717337
+j-2025,Podkarpackie,Chirurgia stomatologiczna,LDEK,3,1,0.955701,0.959674,2459,isotonic_binned_shrunk,,,0.576005
+j-2025,Podlaskie,Chirurgia stomatologiczna,LDEK,1,1,0.981974,0.97096,2459,isotonic_binned_shrunk,,,0.826005
+j-2025,Pomorskie,Chirurgia stomatologiczna,LDEK,1,1,0.994589,0.973612,2459,isotonic_binned_shrunk,,,0.860804
+j-2025,Śląskie,Chirurgia stomatologiczna,LDEK,5,1,0.990723,0.973582,2459,isotonic_binned_shrunk,,,0.788003
+j-2025,Świętokrzyskie,Chirurgia stomatologiczna,LDEK,1,1,0.983598,0.971591,2459,isotonic_binned_shrunk,,,0.757717
+j-2025,Warmińsko-mazurskie,Chirurgia stomatologiczna,LDEK,4,1,0.971405,0.968157,2459,isotonic_binned_shrunk,,,0.913003
+j-2025,Wielkopolskie,Chirurgia stomatologiczna,LDEK,1,1,0.992027,0.973612,2459,isotonic_binned_shrunk,,,0.860804
+j-2025,Kujawsko-pomorskie,Choroby płuc,LEK,2,1,0.967,0.966531,2459,isotonic_binned_shrunk,,,0.789723
+j-2025,Lubelskie,Choroby płuc,LEK,12,1,0.913529,0.939758,2459,isotonic_binned_shrunk,,,0.664723
+j-2025,Łódzkie,Choroby płuc,LEK,10,1,0.934368,0.949586,2459,isotonic_binned_shrunk,,,0.414723
+j-2025,Opolskie,Choroby płuc,LEK,4,1,0.65578,0.726255,2459,isotonic_binned_shrunk,,,0.164723
+j-2025,Pomorskie,Choroby płuc,LEK,1,1,0.990177,0.973491,2459,isotonic_binned_shrunk,,,0.664723
+j-2025,Śląskie,Choroby płuc,LEK,7,1,0.965229,0.965258,2459,isotonic_binned_shrunk,,,0.289723
+j-2025,Warmińsko-mazurskie,Choroby płuc,LEK,1,1,0.923361,0.944036,2459,isotonic_binned_shrunk,,,0.539723
+j-2025,Dolnośląskie,Choroby płuc dzieci,LEK,2,1,0.638812,0.717825,2459,isotonic_binned_shrunk,,,0.30267
+j-2025,Mazowieckie,Choroby płuc dzieci,LEK,1,1,0.927859,0.945321,2459,isotonic_binned_shrunk,,,0.477003
+j-2025,Podlaskie,Choroby płuc dzieci,LEK,1,1,0.497208,0.513831,2459,isotonic_binned_shrunk,,,0.227003
+j-2025,Wielkopolskie,Choroby płuc dzieci,LEK,1,1,0.712656,0.775243,2459,isotonic_binned_shrunk,,,0.30267
+j-2025,Lubelskie,Choroby wewnętrzne,LEK,20,1,0.927168,0.941795,2459,isotonic_binned_shrunk,,,0.016093
+j-2025,Lubelskie,Choroby zakaźne,LEK,14,0,0.212952,0.173155,2459,isotonic_binned_shrunk,,,0.037829
+j-2025,Opolskie,Choroby zakaźne,LEK,2,0,0.345766,0.293401,2459,isotonic_binned_shrunk,,,0.037829
+j-2025,Warmińsko-mazurskie,Choroby zakaźne,LEK,4,0,0.256109,0.205876,2459,isotonic_binned_shrunk,,,0.162829
+j-2025,Dolnośląskie,Dermatologia i wenerologia,LEK,3,1,0.993273,0.973612,2459,isotonic_binned_shrunk,,,0.888876
+j-2025,Łódzkie,Dermatologia i wenerologia,LEK,3,1,0.994521,0.973612,2459,isotonic_binned_shrunk,,,0.904751
+j-2025,Małopolskie,Dermatologia i wenerologia,LEK,3,1,0.993239,0.973612,2459,isotonic_binned_shrunk,,,0.761894
+j-2025,Mazowieckie,Dermatologia i wenerologia,LEK,10,1,0.989532,0.973129,2459,isotonic_binned_shrunk,,,0.47618
+j-2025,Podkarpackie,Dermatologia i wenerologia,LEK,2,1,0.994381,0.973612,2459,isotonic_binned_shrunk,,,0.916657
+j-2025,Podlaskie,Dermatologia i wenerologia,LEK,1,1,0.99185,0.973612,2459,isotonic_binned_shrunk,,,0.904751
+j-2025,Pomorskie,Dermatologia i wenerologia,LEK,2,1,0.996855,0.973612,2459,isotonic_binned_shrunk,,,0.761894
+j-2025,Śląskie,Dermatologia i wenerologia,LEK,2,1,0.995441,0.973612,2459,isotonic_binned_shrunk,,,0.761894
+j-2025,Świętokrzyskie,Dermatologia i wenerologia,LEK,1,1,0.98598,0.972241,2459,isotonic_binned_shrunk,,,0.866652
+j-2025,Wielkopolskie,Dermatologia i wenerologia,LEK,2,1,0.980767,0.970533,2459,isotonic_binned_shrunk,,,0.777753
+j-2025,Zachodniopomorskie,Dermatologia i wenerologia,LEK,1,1,0.992663,0.973612,2459,isotonic_binned_shrunk,,,0.888876
+j-2025,Dolnośląskie,Diabetologia,LEK,2,1,0.985316,0.972222,2459,isotonic_binned_shrunk,,,0.717348
+j-2025,Kujawsko-pomorskie,Diabetologia,LEK,1,0,0.971697,0.968374,2459,isotonic_binned_shrunk,,,0.804288
+j-2025,Lubelskie,Diabetologia,LEK,3,1,0.97102,0.96835,2459,isotonic_binned_shrunk,,,0.67024
+j-2025,Łódzkie,Diabetologia,LEK,2,1,0.98836,0.973034,2459,isotonic_binned_shrunk,,,0.62768
+j-2025,Małopolskie,Diabetologia,LEK,2,1,0.987687,0.972746,2459,isotonic_binned_shrunk,,,0.75536
+j-2025,Podkarpackie,Diabetologia,LEK,2,1,0.964351,0.965371,2459,isotonic_binned_shrunk,,,0.574491
+j-2025,Podlaskie,Diabetologia,LEK,1,0,0.979897,0.970872,2459,isotonic_binned_shrunk,,,0.87768
+j-2025,Śląskie,Diabetologia,LEK,4,1,0.988509,0.973138,2459,isotonic_binned_shrunk,,,0.87768
+j-2025,Warmińsko-mazurskie,Diabetologia,LEK,1,1,0.960066,0.96345,2459,isotonic_binned_shrunk,,,0.62768
+j-2025,Zachodniopomorskie,Diabetologia,LEK,1,1,0.956349,0.960903,2459,isotonic_binned_shrunk,,,0.431634
+j-2025,Mazowieckie,Diagnostyka laboratoryjna,LEK,1,0,0.451398,0.447045,2459,isotonic_binned_shrunk,,,0.309705
+j-2025,Warmińsko-mazurskie,Diagnostyka laboratoryjna,LEK,1,0,0.075443,0.064922,2459,isotonic_binned_shrunk,,,0.095528
+j-2025,Wielkopolskie,Diagnostyka laboratoryjna,LEK,2,0,0.122397,0.097937,2459,isotonic_binned_shrunk,,,0.059705
+j-2025,Dolnośląskie,Endokrynologia,LEK,1,1,0.996203,0.973612,2459,isotonic_binned_shrunk,,,0.944931
+j-2025,Lubelskie,Endokrynologia,LEK,1,1,0.990353,0.973411,2459,isotonic_binned_shrunk,,,0.65135
+j-2025,Łódzkie,Endokrynologia,LEK,4,1,0.99011,0.973407,2459,isotonic_binned_shrunk,,,0.937064
+j-2025,Małopolskie,Endokrynologia,LEK,2,1,0.995736,0.973612,2459,isotonic_binned_shrunk,,,0.91189
+j-2025,Mazowieckie,Endokrynologia,LEK,4,1,0.996785,0.973612,2459,isotonic_binned_shrunk,,,0.937064
+j-2025,Opolskie,Endokrynologia,LEK,1,1,0.981292,0.970854,2459,isotonic_binned_shrunk,,,0.889863
+j-2025,Podkarpackie,Endokrynologia,LEK,1,1,0.994487,0.973612,2459,isotonic_binned_shrunk,,,0.889863
+j-2025,Podlaskie,Endokrynologia,LEK,1,1,0.98582,0.972108,2459,isotonic_binned_shrunk,,,0.91189
+j-2025,Pomorskie,Endokrynologia,LEK,2,1,0.994438,0.973612,2459,isotonic_binned_shrunk,,,0.926575
+j-2025,Śląskie,Endokrynologia,LEK,1,1,0.998737,0.973612,2459,isotonic_binned_shrunk,,,0.937064
+j-2025,Zachodniopomorskie,Endokrynologia,LEK,3,1,0.980171,0.970642,2459,isotonic_binned_shrunk,,,0.926575
+j-2025,Dolnośląskie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.946752,0.955493,2459,isotonic_binned_shrunk,,,0.688234
+j-2025,Lubelskie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.973258,0.968936,2459,isotonic_binned_shrunk,,,0.81294
+j-2025,Mazowieckie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.991744,0.973612,2459,isotonic_binned_shrunk,,,0.580672
+j-2025,Podkarpackie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.929458,0.946673,2459,isotonic_binned_shrunk,,,0.688234
+j-2025,Podlaskie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.880268,0.911501,2459,isotonic_binned_shrunk,,,0.383088
+j-2025,Śląskie,Endokrynologia i diabetologia dziecięca,LEK,1,1,0.989849,0.973447,2459,isotonic_binned_shrunk,,,0.883088
+j-2025,Łódzkie,Farmakologia kliniczna,LEK,1,0,0.234755,0.193048,2459,isotonic_binned_shrunk,,,0.056646
+j-2025,Mazowieckie,Farmakologia kliniczna,LEK,1,1,0.64085,0.723049,2459,isotonic_binned_shrunk,,,0.363292
+j-2025,Śląskie,Farmakologia kliniczna,LEK,1,0,0.199767,0.165742,2459,isotonic_binned_shrunk,,,0.056646
+j-2025,Dolnośląskie,Gastroenterologia,LEK,3,1,0.958144,0.961727,2459,isotonic_binned_shrunk,,,0.646509
+j-2025,Łódzkie,Gastroenterologia,LEK,1,1,0.992062,0.973612,2459,isotonic_binned_shrunk,,,0.940695
+j-2025,Małopolskie,Gastroenterologia,LEK,1,1,0.991331,0.973612,2459,isotonic_binned_shrunk,,,0.920927
+j-2025,Mazowieckie,Gastroenterologia,LEK,1,1,0.99742,0.973612,2459,isotonic_binned_shrunk,,,0.940695
+j-2025,Podkarpackie,Gastroenterologia,LEK,1,1,0.979994,0.970676,2459,isotonic_binned_shrunk,,,0.905112
+j-2025,Podlaskie,Gastroenterologia,LEK,2,1,0.969752,0.968131,2459,isotonic_binned_shrunk,,,0.940695
+j-2025,Śląskie,Gastroenterologia,LEK,1,1,0.992881,0.973612,2459,isotonic_binned_shrunk,,,0.932223
+j-2025,Wielkopolskie,Gastroenterologia,LEK,1,1,0.981561,0.97098,2459,isotonic_binned_shrunk,,,0.881391
+j-2025,Zachodniopomorskie,Gastroenterologia,LEK,3,1,0.955893,0.961903,2459,isotonic_binned_shrunk,,,0.932223
+j-2025,Kujawsko-pomorskie,Gastroenterologia dziecięca,LEK,1,1,0.472884,0.463636,2459,isotonic_binned_shrunk,,,0.153069
+j-2025,Łódzkie,Gastroenterologia dziecięca,LEK,1,0,0.708911,0.769022,2459,isotonic_binned_shrunk,,,0.278069
+j-2025,Mazowieckie,Gastroenterologia dziecięca,LEK,1,1,0.948572,0.956844,2459,isotonic_binned_shrunk,,,0.537425
+j-2025,Śląskie,Gastroenterologia dziecięca,LEK,1,1,0.767282,0.818822,2459,isotonic_binned_shrunk,,,0.44491
+j-2025,Świętokrzyskie,Gastroenterologia dziecięca,LEK,1,1,0.649692,0.730854,2459,isotonic_binned_shrunk,,,0.556137
+j-2025,Warmińsko-mazurskie,Gastroenterologia dziecięca,LEK,1,1,0.396784,0.37272,2459,isotonic_binned_shrunk,,,0.174935
+j-2025,Zachodniopomorskie,Gastroenterologia dziecięca,LEK,1,1,0.621052,0.707076,2459,isotonic_binned_shrunk,,,0.46065
+j-2025,Dolnośląskie,Genetyka kliniczna,LEK,2,1,0.722787,0.785424,2459,isotonic_binned_shrunk,,,0.524672
+j-2025,Kujawsko-pomorskie,Genetyka kliniczna,LEK,2,0,0.368824,0.328214,2459,isotonic_binned_shrunk,,,0.164005
+j-2025,Lubelskie,Genetyka kliniczna,LEK,1,0,0.611548,0.678149,2459,isotonic_binned_shrunk,,,0.449719
+j-2025,Łódzkie,Genetyka kliniczna,LEK,2,1,0.69308,0.75925,2459,isotonic_binned_shrunk,,,0.306862
+j-2025,Zachodniopomorskie,Genetyka kliniczna,LEK,1,1,0.509692,0.528105,2459,isotonic_binned_shrunk,,,0.306862
+j-2025,Lubelskie,Geriatria,LEK,4,0,0.103215,0.08108,2459,isotonic_binned_shrunk,,,0.158909
+j-2025,Lubuskie,Geriatria,LEK,2,0,0.139715,0.111415,2459,isotonic_binned_shrunk,,,0.033909
+j-2025,Opolskie,Geriatria,LEK,2,0,0.135904,0.110032,2459,isotonic_binned_shrunk,,,0.033909
+j-2025,Podlaskie,Geriatria,LEK,5,0,0.09895,0.078217,2459,isotonic_binned_shrunk,,,0.033909
+j-2025,Świętokrzyskie,Geriatria,LEK,1,0,0.23207,0.188865,2459,isotonic_binned_shrunk,,,0.158909
+j-2025,Wielkopolskie,Geriatria,LEK,3,0,0.273954,0.217005,2459,isotonic_binned_shrunk,,,0.033909
+j-2025,Zachodniopomorskie,Geriatria,LEK,2,0,0.159968,0.128633,2459,isotonic_binned_shrunk,,,0.033909
+j-2025,Lubuskie,Hematologia,LEK,8,0,0.207477,0.17393,2459,isotonic_binned_shrunk,,,0.066761
+j-2025,Łódzkie,Hematologia,LEK,8,1,0.580915,0.632389,2459,isotonic_binned_shrunk,,,0.191761
+j-2025,Małopolskie,Hematologia,LEK,1,1,0.906159,0.929524,2459,isotonic_binned_shrunk,,,0.316761
+j-2025,Podkarpackie,Hematologia,LEK,3,1,0.600648,0.655383,2459,isotonic_binned_shrunk,,,0.066761
+j-2025,Śląskie,Hematologia,LEK,9,1,0.645676,0.718068,2459,isotonic_binned_shrunk,,,0.316761
+j-2025,Wielkopolskie,Hematologia,LEK,3,1,0.731472,0.78434,2459,isotonic_binned_shrunk,,,0.191761
+j-2025,Lubelskie,Immunologia kliniczna,LEK,4,0,0.162531,0.133215,2459,isotonic_binned_shrunk,,,0.150511
+j-2025,Podlaskie,Immunologia kliniczna,LEK,1,0,0.29425,0.235012,2459,isotonic_binned_shrunk,,,0.094069
+j-2025,Dolnośląskie,Kardiochirurgia,LEK,1,1,0.436946,0.397845,2459,isotonic_binned_shrunk,,,0.075797
+j-2025,Kujawsko-pomorskie,Kardiochirurgia,LEK,2,1,0.279508,0.228435,2459,isotonic_binned_shrunk,,,0.229482
+j-2025,Lubelskie,Kardiochirurgia,LEK,1,1,0.384914,0.335944,2459,isotonic_binned_shrunk,,,0.075797
+j-2025,Małopolskie,Kardiochirurgia,LEK,2,1,0.450332,0.420698,2459,isotonic_binned_shrunk,,,0.075797
+j-2025,Mazowieckie,Kardiochirurgia,LEK,3,1,0.647696,0.716532,2459,isotonic_binned_shrunk,,,0.200797
+j-2025,Opolskie,Kardiochirurgia,LEK,1,1,0.262386,0.211209,2459,isotonic_binned_shrunk,,,0.075797
+j-2025,Pomorskie,Kardiochirurgia,LEK,1,1,0.871274,0.902047,2459,isotonic_binned_shrunk,,,0.575797
+j-2025,Śląskie,Kardiochirurgia,LEK,4,1,0.383358,0.351457,2459,isotonic_binned_shrunk,,,0.075797
+j-2025,Warmińsko-mazurskie,Kardiochirurgia,LEK,1,0,0.268524,0.220568,2459,isotonic_binned_shrunk,,,0.200797
+j-2025,Wielkopolskie,Kardiochirurgia,LEK,1,1,0.656527,0.725819,2459,isotonic_binned_shrunk,,,0.325797
+j-2025,Zachodniopomorskie,Kardiochirurgia,LEK,1,0,0.302271,0.236618,2459,isotonic_binned_shrunk,,,0.086625
+j-2025,Dolnośląskie,Kardiologia,LEK,12,1,0.989998,0.973324,2459,isotonic_binned_shrunk,,,0.604161
+j-2025,Kujawsko-pomorskie,Kardiologia,LEK,6,1,0.987569,0.972543,2459,isotonic_binned_shrunk,,,0.479161
+j-2025,Lubuskie,Kardiologia,LEK,3,1,0.97472,0.968984,2459,isotonic_binned_shrunk,,,0.354161
+j-2025,Łódzkie,Kardiologia,LEK,7,1,0.997827,0.973612,2459,isotonic_binned_shrunk,,,0.604161
+j-2025,Małopolskie,Kardiologia,LEK,10,1,0.997651,0.973612,2459,isotonic_binned_shrunk,,,0.729161
+j-2025,Opolskie,Kardiologia,LEK,4,1,0.984446,0.971807,2459,isotonic_binned_shrunk,,,0.604161
+j-2025,Podkarpackie,Kardiologia,LEK,5,1,0.994461,0.973612,2459,isotonic_binned_shrunk,,,0.729161
+j-2025,Podlaskie,Kardiologia,LEK,2,1,0.99582,0.973612,2459,isotonic_binned_shrunk,,,0.854161
+j-2025,Pomorskie,Kardiologia,LEK,12,1,0.995755,0.973612,2459,isotonic_binned_shrunk,,,0.604161
+j-2025,Śląskie,Kardiologia,LEK,15,1,0.995311,0.973612,2459,isotonic_binned_shrunk,,,0.854161
+j-2025,Świętokrzyskie,Kardiologia,LEK,3,1,0.975161,0.968938,2459,isotonic_binned_shrunk,,,0.229161
+j-2025,Wielkopolskie,Kardiologia,LEK,9,1,0.996272,0.973612,2459,isotonic_binned_shrunk,,,0.854161
+j-2025,Zachodniopomorskie,Kardiologia,LEK,4,1,0.990724,0.97359,2459,isotonic_binned_shrunk,,,0.729161
+j-2025,Kujawsko-pomorskie,Kardiologia dziecięca,LEK,2,1,0.389089,0.36298,2459,isotonic_binned_shrunk,,,0.341854
+j-2025,Łódzkie,Kardiologia dziecięca,LEK,2,1,0.792734,0.845532,2459,isotonic_binned_shrunk,,,0.420927
+j-2025,Dolnośląskie,Medycyna nuklearna,LEK,2,1,0.708572,0.7706,2459,isotonic_binned_shrunk,,,0.427216
+j-2025,Kujawsko-pomorskie,Medycyna nuklearna,LEK,4,0,0.227077,0.181807,2459,isotonic_binned_shrunk,,,0.088608
+j-2025,Lubuskie,Medycyna nuklearna,LEK,2,1,0.239974,0.194759,2459,isotonic_binned_shrunk,,,0.213608
+j-2025,Małopolskie,Medycyna nuklearna,LEK,2,0,0.419977,0.375962,2459,isotonic_binned_shrunk,,,0.088608
+j-2025,Opolskie,Medycyna nuklearna,LEK,2,0,0.231404,0.189496,2459,isotonic_binned_shrunk,,,0.088608
+j-2025,Podkarpackie,Medycyna nuklearna,LEK,1,0,0.592985,0.649893,2459,isotonic_binned_shrunk,,,0.236287
+j-2025,Śląskie,Medycyna nuklearna,LEK,4,0,0.533729,0.562064,2459,isotonic_binned_shrunk,,,0.213608
+j-2025,Zachodniopomorskie,Medycyna nuklearna,LEK,1,1,0.382929,0.337546,2459,isotonic_binned_shrunk,,,0.244123
+j-2025,Dolnośląskie,Medycyna paliatywna,LEK,6,0,0.051027,0.046609,2459,isotonic_binned_shrunk,,,0.029363
+j-2025,Kujawsko-pomorskie,Medycyna paliatywna,LEK,2,0,0.082524,0.066651,2459,isotonic_binned_shrunk,,,0.029363
+j-2025,Lubelskie,Medycyna paliatywna,LEK,1,1,0.179083,0.14914,2459,isotonic_binned_shrunk,,,0.029363
+j-2025,Łódzkie,Medycyna paliatywna,LEK,2,0,0.161294,0.135842,2459,isotonic_binned_shrunk,,,0.029363
+j-2025,Małopolskie,Medycyna paliatywna,LEK,1,0,0.300142,0.253955,2459,isotonic_binned_shrunk,,,0.205818
+j-2025,Mazowieckie,Medycyna paliatywna,LEK,1,0,0.456316,0.451892,2459,isotonic_binned_shrunk,,,0.246981
+j-2025,Opolskie,Medycyna paliatywna,LEK,1,0,0.076738,0.065031,2459,isotonic_binned_shrunk,,,0.039151
+j-2025,Podkarpackie,Medycyna paliatywna,LEK,1,0,0.148827,0.126162,2459,isotonic_binned_shrunk,,,0.058726
+j-2025,Warmińsko-mazurskie,Medycyna paliatywna,LEK,5,0,0.036401,0.037077,2459,isotonic_binned_shrunk,,,0.029363
+j-2025,Wielkopolskie,Medycyna paliatywna,LEK,2,0,0.168346,0.140162,2459,isotonic_binned_shrunk,,,0.029363
+j-2025,Zachodniopomorskie,Medycyna paliatywna,LEK,1,0,0.108128,0.084177,2459,isotonic_binned_shrunk,,,0.029363
+j-2025,Dolnośląskie,Medycyna pracy,LEK,1,1,0.809324,0.849947,2459,isotonic_binned_shrunk,,,0.325385
+j-2025,Kujawsko-pomorskie,Medycyna pracy,LEK,1,1,0.73106,0.785192,2459,isotonic_binned_shrunk,,,0.369038
+j-2025,Małopolskie,Medycyna pracy,LEK,3,1,0.861045,0.895706,2459,isotonic_binned_shrunk,,,0.590462
+j-2025,Podkarpackie,Medycyna pracy,LEK,1,1,0.792409,0.838815,2459,isotonic_binned_shrunk,,,0.390462
+j-2025,Podlaskie,Medycyna pracy,LEK,1,1,0.828788,0.870211,2459,isotonic_binned_shrunk,,,0.658718
+j-2025,Zachodniopomorskie,Medycyna pracy,LEK,1,1,0.530531,0.552892,2459,isotonic_binned_shrunk,,,0.238077
+j-2025,Lubuskie,Medycyna ratunkowa,LEK,2,0,0.357682,0.320495,2459,isotonic_binned_shrunk,,,0.016093
+j-2025,Podkarpackie,Medycyna ratunkowa,LEK,11,0,0.291586,0.239044,2459,isotonic_binned_shrunk,,,0.016093
+j-2025,Kujawsko-pomorskie,Medycyna sądowa,LEK,2,0,0.211973,0.172233,2459,isotonic_binned_shrunk,,,0.099759
+j-2025,Lubelskie,Medycyna sądowa,LEK,1,1,0.297444,0.231887,2459,isotonic_binned_shrunk,,,0.199819
+j-2025,Łódzkie,Medycyna sądowa,LEK,1,0,0.609895,0.679637,2459,isotonic_binned_shrunk,,,0.324819
+j-2025,Opolskie,Medycyna sądowa,LEK,1,0,0.190791,0.162126,2459,isotonic_binned_shrunk,,,0.149639
+j-2025,Śląskie,Medycyna sądowa,LEK,1,0,0.661894,0.726792,2459,isotonic_binned_shrunk,,,0.199819
+j-2025,Warmińsko-mazurskie,Medycyna sądowa,LEK,1,1,0.333472,0.292413,2459,isotonic_binned_shrunk,,,0.199519
+j-2025,Wielkopolskie,Medycyna sądowa,LEK,2,1,0.526205,0.558255,2459,isotonic_binned_shrunk,,,0.319711
+j-2025,Zachodniopomorskie,Medycyna sądowa,LEK,2,0,0.199249,0.163454,2459,isotonic_binned_shrunk,,,0.074819
+j-2025,Lubelskie,Medycyna sportowa,LEK,1,1,0.689672,0.752003,2459,isotonic_binned_shrunk,,,0.433292
+j-2025,Kujawsko-pomorskie,Mikrobiologia lekarska,LEK,1,0,0.189106,0.15943,2459,isotonic_binned_shrunk,,,0.272548
+j-2025,Łódzkie,Mikrobiologia lekarska,LEK,1,0,0.528187,0.574578,2459,isotonic_binned_shrunk,,,0.605881
+j-2025,Mazowieckie,Mikrobiologia lekarska,LEK,2,0,0.409584,0.379686,2459,isotonic_binned_shrunk,,,0.090755
+j-2025,Dolnośląskie,Nefrologia,LEK,3,1,0.456215,0.451772,2459,isotonic_binned_shrunk,,,0.084833
+j-2025,Lubelskie,Nefrologia,LEK,1,1,0.529633,0.541698,2459,isotonic_binned_shrunk,,,0.084833
+j-2025,Lubuskie,Nefrologia,LEK,4,0,0.17068,0.143257,2459,isotonic_binned_shrunk,,,0.084833
+j-2025,Łódzkie,Nefrologia,LEK,4,1,0.624502,0.706246,2459,isotonic_binned_shrunk,,,0.334833
+j-2025,Podlaskie,Nefrologia,LEK,2,0,0.386304,0.359494,2459,isotonic_binned_shrunk,,,0.209833
+j-2025,Pomorskie,Nefrologia,LEK,2,1,0.772797,0.826761,2459,isotonic_binned_shrunk,,,0.459833
+j-2025,Zachodniopomorskie,Nefrologia,LEK,1,1,0.518669,0.540828,2459,isotonic_binned_shrunk,,,0.334833
+j-2025,Dolnośląskie,Nefrologia dziecięca,LEK,1,0,0.592083,0.657749,2459,isotonic_binned_shrunk,,,0.35455
+j-2025,Kujawsko-pomorskie,Nefrologia dziecięca,LEK,1,0,0.253569,0.202629,2459,isotonic_binned_shrunk,,,0.10455
+j-2025,Lubelskie,Nefrologia dziecięca,LEK,1,1,0.557238,0.610708,2459,isotonic_binned_shrunk,,,0.47955
+j-2025,Łódzkie,Nefrologia dziecięca,LEK,1,1,0.537685,0.563055,2459,isotonic_binned_shrunk,,,0.22955
+j-2025,Małopolskie,Nefrologia dziecięca,LEK,1,1,0.410472,0.376232,2459,isotonic_binned_shrunk,,,0.16728
+j-2025,Mazowieckie,Nefrologia dziecięca,LEK,1,1,0.781622,0.831309,2459,isotonic_binned_shrunk,,,0.35455
+j-2025,Podlaskie,Nefrologia dziecięca,LEK,1,1,0.233065,0.188225,2459,isotonic_binned_shrunk,,,0.10455
+j-2025,Śląskie,Nefrologia dziecięca,LEK,1,0,0.676085,0.744787,2459,isotonic_binned_shrunk,,,0.4052
+j-2025,Wielkopolskie,Nefrologia dziecięca,LEK,1,0,0.351273,0.305441,2459,isotonic_binned_shrunk,,,0.2091
+j-2025,Zachodniopomorskie,Nefrologia dziecięca,LEK,1,0,0.201059,0.167005,2459,isotonic_binned_shrunk,,,0.16728
+j-2025,Mazowieckie,Neonatologia,LEK,18,1,0.505389,0.511911,2459,isotonic_binned_shrunk,,,0.024898
+j-2025,Opolskie,Neonatologia,LEK,1,1,0.34263,0.279602,2459,isotonic_binned_shrunk,,,0.024898
+j-2025,Podlaskie,Neonatologia,LEK,5,0,0.211583,0.169372,2459,isotonic_binned_shrunk,,,0.024898
+j-2025,Dolnośląskie,Neurochirurgia,LEK,2,1,0.942398,0.953488,2459,isotonic_binned_shrunk,,,0.612805
+j-2025,Kujawsko-pomorskie,Neurochirurgia,LEK,1,1,0.955483,0.958943,2459,isotonic_binned_shrunk,,,0.723432
+j-2025,Mazowieckie,Neurochirurgia,LEK,1,1,0.994928,0.973612,2459,isotonic_binned_shrunk,,,0.723432
+j-2025,Opolskie,Neurochirurgia,LEK,3,1,0.81012,0.8566,2459,isotonic_binned_shrunk,,,0.677337
+j-2025,Pomorskie,Neurochirurgia,LEK,4,1,0.963911,0.964922,2459,isotonic_binned_shrunk,,,0.677337
+j-2025,Warmińsko-mazurskie,Neurochirurgia,LEK,3,1,0.867327,0.903748,2459,isotonic_binned_shrunk,,,0.677337
+j-2025,Zachodniopomorskie,Neurochirurgia,LEK,2,1,0.765788,0.816792,2459,isotonic_binned_shrunk,,,0.412805
+j-2025,Lubuskie,Neurologia,LEK,5,1,0.907858,0.931544,2459,isotonic_binned_shrunk,,,0.075752
+j-2025,Podlaskie,Neurologia,LEK,8,1,0.858748,0.889393,2459,isotonic_binned_shrunk,,,0.075752
+j-2025,Świętokrzyskie,Neurologia,LEK,10,1,0.857945,0.893716,2459,isotonic_binned_shrunk,,,0.200752
+j-2025,Wielkopolskie,Neurologia,LEK,10,1,0.990635,0.973612,2459,isotonic_binned_shrunk,,,0.450752
+j-2025,Dolnośląskie,Neurologia dziecięca,LEK,4,1,0.878506,0.913249,2459,isotonic_binned_shrunk,,,0.665462
+j-2025,Kujawsko-pomorskie,Neurologia dziecięca,LEK,1,0,0.679957,0.74235,2459,isotonic_binned_shrunk,,,0.221218
+j-2025,Lubelskie,Neurologia dziecięca,LEK,2,1,0.867045,0.901745,2459,isotonic_binned_shrunk,,,0.581827
+j-2025,Łódzkie,Neurologia dziecięca,LEK,1,1,0.926347,0.945643,2459,isotonic_binned_shrunk,,,0.665462
+j-2025,Małopolskie,Neurologia dziecięca,LEK,3,1,0.875297,0.907712,2459,isotonic_binned_shrunk,,,0.465462
+j-2025,Mazowieckie,Neurologia dziecięca,LEK,1,1,0.983283,0.971512,2459,isotonic_binned_shrunk,,,0.540913
+j-2025,Podlaskie,Neurologia dziecięca,LEK,1,1,0.720292,0.783021,2459,isotonic_binned_shrunk,,,0.332473
+j-2025,Pomorskie,Neurologia dziecięca,LEK,1,1,0.96907,0.967827,2459,isotonic_binned_shrunk,,,0.761044
+j-2025,Śląskie,Neurologia dziecięca,LEK,3,0,0.865686,0.900915,2459,isotonic_binned_shrunk,,,0.332473
+j-2025,Warmińsko-mazurskie,Neurologia dziecięca,LEK,1,0,0.567742,0.619265,2459,isotonic_binned_shrunk,,,0.332473
+j-2025,Wielkopolskie,Neurologia dziecięca,LEK,1,1,0.926633,0.945824,2459,isotonic_binned_shrunk,,,0.554551
+j-2025,Dolnośląskie,Okulistyka,LEK,7,1,0.994885,0.973612,2459,isotonic_binned_shrunk,,,0.877158
+j-2025,Kujawsko-pomorskie,Okulistyka,LEK,4,1,0.992232,0.973612,2459,isotonic_binned_shrunk,,,0.877158
+j-2025,Lubelskie,Okulistyka,LEK,3,1,0.995854,0.973612,2459,isotonic_binned_shrunk,,,0.627158
+j-2025,Lubuskie,Okulistyka,LEK,2,1,0.98912,0.973177,2459,isotonic_binned_shrunk,,,0.803453
+j-2025,Małopolskie,Okulistyka,LEK,9,1,0.989306,0.973148,2459,isotonic_binned_shrunk,,,0.502158
+j-2025,Mazowieckie,Okulistyka,LEK,5,1,0.997624,0.973612,2459,isotonic_binned_shrunk,,,0.377158
+j-2025,Opolskie,Okulistyka,LEK,2,1,0.986526,0.972469,2459,isotonic_binned_shrunk,,,0.83621
+j-2025,Podkarpackie,Okulistyka,LEK,4,1,0.993918,0.973612,2459,isotonic_binned_shrunk,,,0.877158
+j-2025,Podlaskie,Okulistyka,LEK,2,1,0.992918,0.973612,2459,isotonic_binned_shrunk,,,0.573895
+j-2025,Śląskie,Okulistyka,LEK,11,1,0.99028,0.973441,2459,isotonic_binned_shrunk,,,0.502158
+j-2025,Świętokrzyskie,Okulistyka,LEK,3,1,0.981405,0.970965,2459,isotonic_binned_shrunk,,,0.669544
+j-2025,Wielkopolskie,Okulistyka,LEK,5,1,0.995002,0.973612,2459,isotonic_binned_shrunk,,,0.752158
+j-2025,Zachodniopomorskie,Okulistyka,LEK,1,1,0.998978,0.973612,2459,isotonic_binned_shrunk,,,0.669544
+j-2025,Lubuskie,Onkologia i hematologia dziecięca,LEK,2,0,0.121685,0.097513,2459,isotonic_binned_shrunk,,,0.087764
+j-2025,Łódzkie,Onkologia i hematologia dziecięca,LEK,1,0,0.405806,0.368332,2459,isotonic_binned_shrunk,,,0.054853
+j-2025,Świętokrzyskie,Onkologia i hematologia dziecięca,LEK,1,0,0.270409,0.222587,2459,isotonic_binned_shrunk,,,0.146273
+j-2025,Warmińsko-mazurskie,Onkologia i hematologia dziecięca,LEK,1,1,0.276768,0.226474,2459,isotonic_binned_shrunk,,,0.239803
+j-2025,Wielkopolskie,Onkologia i hematologia dziecięca,LEK,2,0,0.275287,0.220346,2459,isotonic_binned_shrunk,,,0.054853
+j-2025,Lubelskie,Onkologia kliniczna,LEK,15,0,0.212333,0.176764,2459,isotonic_binned_shrunk,,,0.016467
+j-2025,Warmińsko-mazurskie,Onkologia kliniczna,LEK,4,0,0.218652,0.179806,2459,isotonic_binned_shrunk,,,0.016467
+j-2025,Zachodniopomorskie,Onkologia kliniczna,LEK,8,0,0.148092,0.120773,2459,isotonic_binned_shrunk,,,0.016467
+j-2025,Dolnośląskie,Ortodoncja,LDEK,7,1,0.986043,0.972277,2459,isotonic_binned_shrunk,,,0.955226
+j-2025,Kujawsko-pomorskie,Ortodoncja,LDEK,1,1,0.976186,0.969075,2459,isotonic_binned_shrunk,,,0.895528
+j-2025,Lubelskie,Ortodoncja,LDEK,2,1,0.994476,0.973612,2459,isotonic_binned_shrunk,,,0.947764
+j-2025,Łódzkie,Ortodoncja,LDEK,1,1,0.99624,0.973612,2459,isotonic_binned_shrunk,,,0.947764
+j-2025,Małopolskie,Ortodoncja,LDEK,1,1,0.997493,0.973612,2459,isotonic_binned_shrunk,,,0.955226
+j-2025,Mazowieckie,Ortodoncja,LDEK,8,1,0.994937,0.973612,2459,isotonic_binned_shrunk,,,0.960823
+j-2025,Opolskie,Ortodoncja,LDEK,1,1,0.982012,0.97102,2459,isotonic_binned_shrunk,,,0.921646
+j-2025,Podkarpackie,Ortodoncja,LDEK,1,1,0.993558,0.973612,2459,isotonic_binned_shrunk,,,0.921646
+j-2025,Podlaskie,Ortodoncja,LDEK,1,1,0.98825,0.972814,2459,isotonic_binned_shrunk,,,0.937317
+j-2025,Śląskie,Ortodoncja,LDEK,2,1,0.996606,0.973612,2459,isotonic_binned_shrunk,,,0.960823
+j-2025,Warmińsko-mazurskie,Ortodoncja,LDEK,1,1,0.98408,0.971596,2459,isotonic_binned_shrunk,,,0.921646
+j-2025,Wielkopolskie,Ortodoncja,LDEK,3,1,0.99296,0.973612,2459,isotonic_binned_shrunk,,,0.955226
+j-2025,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,LEK,3,1,0.988539,0.972952,2459,isotonic_binned_shrunk,,,0.359843
+j-2025,Kujawsko-pomorskie,Ortopedia i traumatologia narządu ruchu,LEK,10,1,0.8994,0.924404,2459,isotonic_binned_shrunk,,,0.359843
+j-2025,Lubuskie,Ortopedia i traumatologia narządu ruchu,LEK,10,1,0.747608,0.802259,2459,isotonic_binned_shrunk,,,0.109843
+j-2025,Łódzkie,Ortopedia i traumatologia narządu ruchu,LEK,3,1,0.980559,0.970694,2459,isotonic_binned_shrunk,,,0.359843
+j-2025,Małopolskie,Ortopedia i traumatologia narządu ruchu,LEK,5,1,0.985059,0.972011,2459,isotonic_binned_shrunk,,,0.234843
+j-2025,Opolskie,Ortopedia i traumatologia narządu ruchu,LEK,1,1,0.932828,0.946618,2459,isotonic_binned_shrunk,,,0.109843
+j-2025,Podkarpackie,Ortopedia i traumatologia narządu ruchu,LEK,10,1,0.934859,0.949152,2459,isotonic_binned_shrunk,,,0.359843
+j-2025,Podlaskie,Ortopedia i traumatologia narządu ruchu,LEK,2,1,0.95738,0.960515,2459,isotonic_binned_shrunk,,,0.359843
+j-2025,Pomorskie,Ortopedia i traumatologia narządu ruchu,LEK,10,1,0.97481,0.969087,2459,isotonic_binned_shrunk,,,0.609843
+j-2025,Świętokrzyskie,Ortopedia i traumatologia narządu ruchu,LEK,2,1,0.840215,0.873801,2459,isotonic_binned_shrunk,,,0.109843
+j-2025,Wielkopolskie,Ortopedia i traumatologia narządu ruchu,LEK,6,1,0.984515,0.971922,2459,isotonic_binned_shrunk,,,0.484843
+j-2025,Zachodniopomorskie,Ortopedia i traumatologia narządu ruchu,LEK,2,1,0.895917,0.918469,2459,isotonic_binned_shrunk,,,0.109843
+j-2025,Dolnośląskie,Otorynolaryngologia,LEK,1,1,0.997262,0.973612,2459,isotonic_binned_shrunk,,,0.807071
+j-2025,Kujawsko-pomorskie,Otorynolaryngologia,LEK,6,1,0.985272,0.972007,2459,isotonic_binned_shrunk,,,0.922366
+j-2025,Lubuskie,Otorynolaryngologia,LEK,3,1,0.982737,0.971501,2459,isotonic_binned_shrunk,,,0.779509
+j-2025,Łódzkie,Otorynolaryngologia,LEK,3,1,0.995613,0.973612,2459,isotonic_binned_shrunk,,,0.779509
+j-2025,Małopolskie,Otorynolaryngologia,LEK,1,1,0.998041,0.973612,2459,isotonic_binned_shrunk,,,0.932071
+j-2025,Opolskie,Otorynolaryngologia,LEK,1,1,0.99076,0.973605,2459,isotonic_binned_shrunk,,,0.909427
+j-2025,Podkarpackie,Otorynolaryngologia,LEK,2,1,0.995382,0.973612,2459,isotonic_binned_shrunk,,,0.909427
+j-2025,Podlaskie,Otorynolaryngologia,LEK,2,1,0.991736,0.973612,2459,isotonic_binned_shrunk,,,0.932071
+j-2025,Pomorskie,Otorynolaryngologia,LEK,4,1,0.995225,0.973612,2459,isotonic_binned_shrunk,,,0.807071
+j-2025,Śląskie,Otorynolaryngologia,LEK,5,1,0.994666,0.973612,2459,isotonic_binned_shrunk,,,0.779509
+j-2025,Świętokrzyskie,Otorynolaryngologia,LEK,5,1,0.980365,0.970904,2459,isotonic_binned_shrunk,,,0.922366
+j-2025,Wielkopolskie,Otorynolaryngologia,LEK,8,1,0.991664,0.973612,2459,isotonic_binned_shrunk,,,0.682071
+j-2025,Zachodniopomorskie,Otorynolaryngologia,LEK,1,0,0.98965,0.973249,2459,isotonic_binned_shrunk,,,0.891313
+j-2025,Dolnośląskie,Otorynolaryngologia dziecięca,LEK,1,1,0.95651,0.960967,2459,isotonic_binned_shrunk,,,0.688234
+j-2025,Lubelskie,Otorynolaryngologia dziecięca,LEK,1,1,0.953631,0.95943,2459,isotonic_binned_shrunk,,,0.510783
+j-2025,Łódzkie,Otorynolaryngologia dziecięca,LEK,2,1,0.970171,0.968196,2459,isotonic_binned_shrunk,,,0.633088
+j-2025,Mazowieckie,Otorynolaryngologia dziecięca,LEK,1,1,0.99495,0.973612,2459,isotonic_binned_shrunk,,,0.758088
+j-2025,Pomorskie,Otorynolaryngologia dziecięca,LEK,2,1,0.976124,0.969628,2459,isotonic_binned_shrunk,,,0.766175
+j-2025,Śląskie,Otorynolaryngologia dziecięca,LEK,1,0,0.989868,0.973436,2459,isotonic_binned_shrunk,,,0.866386
+j-2025,Wielkopolskie,Otorynolaryngologia dziecięca,LEK,3,1,0.960494,0.963654,2459,isotonic_binned_shrunk,,,0.844117
+j-2025,Lubelskie,Patomorfologia,LEK,2,0,0.328081,0.272165,2459,isotonic_binned_shrunk,,,0.041661
+j-2025,Lubuskie,Patomorfologia,LEK,4,0,0.154578,0.125283,2459,isotonic_binned_shrunk,,,0.041661
+j-2025,Łódzkie,Patomorfologia,LEK,1,1,0.779579,0.828383,2459,isotonic_binned_shrunk,,,0.291661
+j-2025,Mazowieckie,Patomorfologia,LEK,5,1,0.757282,0.811651,2459,isotonic_binned_shrunk,,,0.291661
+j-2025,Opolskie,Patomorfologia,LEK,2,0,0.260174,0.209773,2459,isotonic_binned_shrunk,,,0.041661
+j-2025,Podlaskie,Patomorfologia,LEK,2,1,0.298956,0.235682,2459,isotonic_binned_shrunk,,,0.041661
+j-2025,Zachodniopomorskie,Patomorfologia,LEK,16,0,0.062533,0.053137,2459,isotonic_binned_shrunk,,,0.041661
+j-2025,Pomorskie,Pediatria,LEK,28,1,0.975634,0.969194,2459,isotonic_binned_shrunk,,,0.054445
+j-2025,Dolnośląskie,Periodontologia,LDEK,3,1,0.983804,0.971733,2459,isotonic_binned_shrunk,,,0.639803
+j-2025,Łódzkie,Periodontologia,LDEK,3,1,0.978471,0.970069,2459,isotonic_binned_shrunk,,,0.779607
+j-2025,Małopolskie,Periodontologia,LDEK,4,1,0.974776,0.968918,2459,isotonic_binned_shrunk,,,0.44549
+j-2025,Mazowieckie,Periodontologia,LDEK,1,1,0.997512,0.973612,2459,isotonic_binned_shrunk,,,0.823685
+j-2025,Podlaskie,Periodontologia,LDEK,1,1,0.978075,0.970102,2459,isotonic_binned_shrunk,,,0.823685
+j-2025,Wielkopolskie,Periodontologia,LDEK,1,1,0.99051,0.97349,2459,isotonic_binned_shrunk,,,0.639803
+j-2025,Lubuskie,Położnictwo i ginekologia,LEK,5,1,0.720944,0.789199,2459,isotonic_binned_shrunk,,,0.080013
+j-2025,Łódzkie,Położnictwo i ginekologia,LEK,6,1,0.975351,0.969615,2459,isotonic_binned_shrunk,,,0.330013
+j-2025,Mazowieckie,Położnictwo i ginekologia,LEK,30,1,0.996919,0.973612,2459,isotonic_binned_shrunk,,,0.580013
+j-2025,Opolskie,Położnictwo i ginekologia,LEK,3,1,0.667904,0.74409,2459,isotonic_binned_shrunk,,,0.080013
+j-2025,Podkarpackie,Położnictwo i ginekologia,LEK,6,1,0.88571,0.917292,2459,isotonic_binned_shrunk,,,0.080013
+j-2025,Podlaskie,Położnictwo i ginekologia,LEK,3,1,0.836104,0.876847,2459,isotonic_binned_shrunk,,,0.080013
+j-2025,Śląskie,Położnictwo i ginekologia,LEK,14,1,0.953803,0.960381,2459,isotonic_binned_shrunk,,,0.205013
+j-2025,Warmińsko-mazurskie,Położnictwo i ginekologia,LEK,4,1,0.843944,0.882429,2459,isotonic_binned_shrunk,,,0.205013
+j-2025,Wielkopolskie,Położnictwo i ginekologia,LEK,11,1,0.948429,0.957132,2459,isotonic_binned_shrunk,,,0.205013
+j-2025,Zachodniopomorskie,Położnictwo i ginekologia,LEK,7,1,0.784199,0.835219,2459,isotonic_binned_shrunk,,,0.205013
+j-2025,Dolnośląskie,Protetyka stomatologiczna,LDEK,1,1,0.988832,0.97313,2459,isotonic_binned_shrunk,,,0.731909
+j-2025,Kujawsko-pomorskie,Protetyka stomatologiczna,LDEK,1,1,0.968638,0.967001,2459,isotonic_binned_shrunk,,,0.550753
+j-2025,Łódzkie,Protetyka stomatologiczna,LDEK,1,1,0.992528,0.973612,2459,isotonic_binned_shrunk,,,0.809211
+j-2025,Małopolskie,Protetyka stomatologiczna,LDEK,1,1,0.984827,0.97181,2459,isotonic_binned_shrunk,,,0.481909
+j-2025,Podlaskie,Protetyka stomatologiczna,LDEK,4,1,0.936858,0.9515,2459,isotonic_binned_shrunk,,,0.731909
+j-2025,Pomorskie,Protetyka stomatologiczna,LDEK,2,1,0.987893,0.972854,2459,isotonic_binned_shrunk,,,0.809211
+j-2025,Śląskie,Protetyka stomatologiczna,LDEK,2,1,0.985987,0.972351,2459,isotonic_binned_shrunk,,,0.481909
+j-2025,Podlaskie,Psychiatria,LEK,11,1,0.970471,0.967693,2459,isotonic_binned_shrunk,,,0.342797
+j-2025,Warmińsko-mazurskie,Psychiatria,LEK,6,1,0.968306,0.966542,2459,isotonic_binned_shrunk,,,0.342797
+j-2025,Wielkopolskie,Psychiatria,LEK,15,1,0.993988,0.973612,2459,isotonic_binned_shrunk,,,0.342797
+j-2025,Kujawsko-pomorskie,Psychiatria dzieci i młodzieży,LEK,3,1,0.982432,0.971244,2459,isotonic_binned_shrunk,,,0.586826
+j-2025,Lubelskie,Psychiatria dzieci i młodzieży,LEK,4,1,0.986328,0.972482,2459,isotonic_binned_shrunk,,,0.888473
+j-2025,Lubuskie,Psychiatria dzieci i młodzieży,LEK,4,1,0.901508,0.927464,2459,isotonic_binned_shrunk,,,0.517964
+j-2025,Łódzkie,Psychiatria dzieci i młodzieży,LEK,7,1,0.988018,0.972914,2459,isotonic_binned_shrunk,,,0.888473
+j-2025,Małopolskie,Psychiatria dzieci i młodzieży,LEK,2,1,0.992048,0.973612,2459,isotonic_binned_shrunk,,,0.586826
+j-2025,Mazowieckie,Psychiatria dzieci i młodzieży,LEK,15,1,0.996042,0.973612,2459,isotonic_binned_shrunk,,,0.638473
+j-2025,Opolskie,Psychiatria dzieci i młodzieży,LEK,1,1,0.965619,0.965647,2459,isotonic_binned_shrunk,,,0.776946
+j-2025,Podkarpackie,Psychiatria dzieci i młodzieży,LEK,2,1,0.98939,0.973265,2459,isotonic_binned_shrunk,,,0.851297
+j-2025,Podlaskie,Psychiatria dzieci i młodzieży,LEK,1,1,0.986662,0.972489,2459,isotonic_binned_shrunk,,,0.821557
+j-2025,Pomorskie,Psychiatria dzieci i młodzieży,LEK,1,1,0.995737,0.973612,2459,isotonic_binned_shrunk,,,0.851297
+j-2025,Śląskie,Psychiatria dzieci i młodzieży,LEK,3,1,0.989718,0.973247,2459,isotonic_binned_shrunk,,,0.513473
+j-2025,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,LEK,1,1,0.982226,0.971267,2459,isotonic_binned_shrunk,,,0.821557
+j-2025,Zachodniopomorskie,Psychiatria dzieci i młodzieży,LEK,3,1,0.981698,0.971265,2459,isotonic_binned_shrunk,,,0.888473
+j-2025,Kujawsko-pomorskie,Radiologia i diagnostyka obrazowa,LEK,2,1,0.995698,0.973612,2459,isotonic_binned_shrunk,,,0.478425
+j-2025,Lubuskie,Radiologia i diagnostyka obrazowa,LEK,5,1,0.985793,0.972092,2459,isotonic_binned_shrunk,,,0.804567
+j-2025,Łódzkie,Radiologia i diagnostyka obrazowa,LEK,2,1,0.998784,0.973612,2459,isotonic_binned_shrunk,,,0.728425
+j-2025,Opolskie,Radiologia i diagnostyka obrazowa,LEK,2,1,0.994167,0.973612,2459,isotonic_binned_shrunk,,,0.853425
+j-2025,Podlaskie,Radiologia i diagnostyka obrazowa,LEK,4,1,0.992444,0.973612,2459,isotonic_binned_shrunk,,,0.728425
+j-2025,Pomorskie,Radiologia i diagnostyka obrazowa,LEK,7,1,0.996576,0.973612,2459,isotonic_binned_shrunk,,,0.478425
+j-2025,Świętokrzyskie,Radiologia i diagnostyka obrazowa,LEK,3,1,0.991898,0.973612,2459,isotonic_binned_shrunk,,,0.689629
+j-2025,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,LEK,4,1,0.990544,0.973398,2459,isotonic_binned_shrunk,,,0.728425
+j-2025,Zachodniopomorskie,Radiologia i diagnostyka obrazowa,LEK,3,1,0.995566,0.973612,2459,isotonic_binned_shrunk,,,0.853425
+j-2025,Opolskie,Radioterapia onkologiczna,LEK,2,0,0.226903,0.184995,2459,isotonic_binned_shrunk,,,0.038719
+j-2025,Podkarpackie,Radioterapia onkologiczna,LEK,5,0,0.26689,0.216228,2459,isotonic_binned_shrunk,,,0.038719
+j-2025,Pomorskie,Radioterapia onkologiczna,LEK,3,1,0.64371,0.716652,2459,isotonic_binned_shrunk,,,0.187108
+j-2025,Świętokrzyskie,Radioterapia onkologiczna,LEK,2,0,0.32952,0.272492,2459,isotonic_binned_shrunk,,,0.163719
+j-2025,Zachodniopomorskie,Radioterapia onkologiczna,LEK,7,0,0.144837,0.114503,2459,isotonic_binned_shrunk,,,0.044251
+j-2025,Lubuskie,Rehabilitacja medyczna,LEK,7,0,0.207696,0.169727,2459,isotonic_binned_shrunk,,,0.020354
+j-2025,Łódzkie,Rehabilitacja medyczna,LEK,12,0,0.261995,0.209336,2459,isotonic_binned_shrunk,,,0.020354
+j-2025,Opolskie,Rehabilitacja medyczna,LEK,3,0,0.349603,0.304385,2459,isotonic_binned_shrunk,,,0.145354
+j-2025,Zachodniopomorskie,Rehabilitacja medyczna,LEK,15,0,0.105544,0.079412,2459,isotonic_binned_shrunk,,,0.020354
+j-2025,Kujawsko-pomorskie,Reumatologia,LEK,2,1,0.985238,0.971999,2459,isotonic_binned_shrunk,,,0.771296
+j-2025,Lubelskie,Reumatologia,LEK,2,1,0.991179,0.973612,2459,isotonic_binned_shrunk,,,0.914153
+j-2025,Łódzkie,Reumatologia,LEK,3,1,0.993028,0.973612,2459,isotonic_binned_shrunk,,,0.924884
+j-2025,Małopolskie,Reumatologia,LEK,2,1,0.99541,0.973612,2459,isotonic_binned_shrunk,,,0.924884
+j-2025,Mazowieckie,Reumatologia,LEK,6,1,0.993207,0.973612,2459,isotonic_binned_shrunk,,,0.549884
+j-2025,Podkarpackie,Reumatologia,LEK,1,1,0.995459,0.973612,2459,isotonic_binned_shrunk,,,0.914153
+j-2025,Pomorskie,Reumatologia,LEK,1,0,0.997783,0.973612,2459,isotonic_binned_shrunk,,,0.799884
+j-2025,Śląskie,Reumatologia,LEK,3,1,0.995776,0.973612,2459,isotonic_binned_shrunk,,,0.924884
+j-2025,Świętokrzyskie,Reumatologia,LEK,2,1,0.983831,0.971691,2459,isotonic_binned_shrunk,,,0.799884
+j-2025,Warmińsko-mazurskie,Reumatologia,LEK,1,1,0.987599,0.972682,2459,isotonic_binned_shrunk,,,0.733178
+j-2025,Wielkopolskie,Reumatologia,LEK,5,1,0.988403,0.972909,2459,isotonic_binned_shrunk,,,0.771296
+j-2025,Zachodniopomorskie,Reumatologia,LEK,1,1,0.987316,0.972675,2459,isotonic_binned_shrunk,,,0.799884
+j-2025,Kujawsko-pomorskie,Stomatologia dziecięca,LDEK,2,1,0.922956,0.94181,2459,isotonic_binned_shrunk,,,0.623677
+j-2025,Małopolskie,Stomatologia dziecięca,LDEK,1,1,0.984539,0.971852,2459,isotonic_binned_shrunk,,,0.467758
+j-2025,Opolskie,Stomatologia dziecięca,LDEK,1,1,0.924143,0.943943,2459,isotonic_binned_shrunk,,,0.685515
+j-2025,Podkarpackie,Stomatologia dziecięca,LDEK,4,1,0.942278,0.953684,2459,isotonic_binned_shrunk,,,0.623677
+j-2025,Podlaskie,Stomatologia dziecięca,LDEK,1,1,0.951089,0.957647,2459,isotonic_binned_shrunk,,,0.53458
+j-2025,Zachodniopomorskie,Stomatologia dziecięca,LDEK,1,1,0.940108,0.952531,2459,isotonic_binned_shrunk,,,0.45701
+j-2025,Dolnośląskie,Stomatologia zachowawcza z endodoncją,LDEK,1,1,0.988754,0.973052,2459,isotonic_binned_shrunk,,,0.610724
+j-2025,Kujawsko-pomorskie,Stomatologia zachowawcza z endodoncją,LDEK,6,1,0.895789,0.922242,2459,isotonic_binned_shrunk,,,0.409383
+j-2025,Lubelskie,Stomatologia zachowawcza z endodoncją,LDEK,2,1,0.972992,0.968639,2459,isotonic_binned_shrunk,,,0.32501
+j-2025,Łódzkie,Stomatologia zachowawcza z endodoncją,LDEK,2,1,0.987512,0.972815,2459,isotonic_binned_shrunk,,,0.712511
+j-2025,Małopolskie,Stomatologia zachowawcza z endodoncją,LDEK,6,1,0.981214,0.971092,2459,isotonic_binned_shrunk,,,0.409383
+j-2025,Opolskie,Stomatologia zachowawcza z endodoncją,LDEK,1,1,0.932131,0.948372,2459,isotonic_binned_shrunk,,,0.425022
+j-2025,Pomorskie,Stomatologia zachowawcza z endodoncją,LDEK,4,1,0.956249,0.959119,2459,isotonic_binned_shrunk,,,0.284383
+j-2025,Świętokrzyskie,Stomatologia zachowawcza z endodoncją,LDEK,2,1,0.915293,0.9389,2459,isotonic_binned_shrunk,,,0.425022
+j-2025,Dolnośląskie,Toksykologia kliniczna,LEK,3,0,0.296807,0.237417,2459,isotonic_binned_shrunk,,,0.094033
+j-2025,Lubelskie,Toksykologia kliniczna,LEK,4,0,0.189769,0.158795,2459,isotonic_binned_shrunk,,,0.094033
+j-2025,Łódzkie,Toksykologia kliniczna,LEK,2,0,0.575082,0.637229,2459,isotonic_binned_shrunk,,,0.438066
+j-2025,Małopolskie,Toksykologia kliniczna,LEK,2,0,0.486727,0.49729,2459,isotonic_binned_shrunk,,,0.344033
+j-2025,Mazowieckie,Toksykologia kliniczna,LEK,1,0,0.616399,0.681232,2459,isotonic_binned_shrunk,,,0.292044
+j-2025,Kujawsko-pomorskie,Transfuzjologia kliniczna,LEK,1,0,0.099418,0.076737,2459,isotonic_binned_shrunk,,,0.024205
+j-2025,Lubelskie,Transfuzjologia kliniczna,LEK,1,0,0.122343,0.095646,2459,isotonic_binned_shrunk,,,0.024205
+j-2025,Lubuskie,Transfuzjologia kliniczna,LEK,2,0,0.04888,0.04431,2459,isotonic_binned_shrunk,,,0.024205
+j-2025,Łódzkie,Transfuzjologia kliniczna,LEK,1,1,0.159269,0.131997,2459,isotonic_binned_shrunk,,,0.04841
+j-2025,Małopolskie,Transfuzjologia kliniczna,LEK,1,0,0.165652,0.137117,2459,isotonic_binned_shrunk,,,0.038728
+j-2025,Mazowieckie,Transfuzjologia kliniczna,LEK,3,0,0.196491,0.163406,2459,isotonic_binned_shrunk,,,0.17052
+j-2025,Opolskie,Transfuzjologia kliniczna,LEK,2,0,0.04741,0.043994,2459,isotonic_binned_shrunk,,,0.024205
+j-2025,Podkarpackie,Transfuzjologia kliniczna,LEK,3,0,0.075932,0.062477,2459,isotonic_binned_shrunk,,,0.024205
+j-2025,Podlaskie,Transfuzjologia kliniczna,LEK,2,0,0.054413,0.048027,2459,isotonic_binned_shrunk,,,0.032273
+j-2025,Pomorskie,Transfuzjologia kliniczna,LEK,4,0,0.117232,0.091744,2459,isotonic_binned_shrunk,,,0.024205
+j-2025,Śląskie,Transfuzjologia kliniczna,LEK,1,1,0.241385,0.19762,2459,isotonic_binned_shrunk,,,0.17052
+j-2025,Świętokrzyskie,Transfuzjologia kliniczna,LEK,2,0,0.053948,0.047446,2459,isotonic_binned_shrunk,,,0.024205
+j-2025,Wielkopolskie,Transfuzjologia kliniczna,LEK,4,0,0.056783,0.048608,2459,isotonic_binned_shrunk,,,0.024205
+j-2025,Zachodniopomorskie,Transfuzjologia kliniczna,LEK,2,0,0.060476,0.051548,2459,isotonic_binned_shrunk,,,0.024205
+j-2025,Kujawsko-pomorskie,Urologia,LEK,3,1,0.989642,0.973224,2459,isotonic_binned_shrunk,,,0.898509
+j-2025,Lubelskie,Urologia,LEK,3,1,0.992049,0.973612,2459,isotonic_binned_shrunk,,,0.898509
+j-2025,Łódzkie,Urologia,LEK,3,1,0.99535,0.973612,2459,isotonic_binned_shrunk,,,0.923882
+j-2025,Małopolskie,Urologia,LEK,2,1,0.99512,0.973612,2459,isotonic_binned_shrunk,,,0.770151
+j-2025,Mazowieckie,Urologia,LEK,8,1,0.996024,0.973612,2459,isotonic_binned_shrunk,,,0.798882
+j-2025,Opolskie,Urologia,LEK,4,1,0.950371,0.958158,2459,isotonic_binned_shrunk,,,0.847764
+j-2025,Podkarpackie,Urologia,LEK,4,1,0.990338,0.973571,2459,isotonic_binned_shrunk,,,0.798882
+j-2025,Podlaskie,Urologia,LEK,2,1,0.985507,0.972203,2459,isotonic_binned_shrunk,,,0.913008
+j-2025,Pomorskie,Urologia,LEK,6,1,0.989006,0.973047,2459,isotonic_binned_shrunk,,,0.798882
+j-2025,Śląskie,Urologia,LEK,6,1,0.990419,0.973548,2459,isotonic_binned_shrunk,,,0.798882
+j-2025,Świętokrzyskie,Urologia,LEK,4,1,0.967731,0.967429,2459,isotonic_binned_shrunk,,,0.898509
+j-2025,Warmińsko-mazurskie,Urologia,LEK,1,1,0.988301,0.972937,2459,isotonic_binned_shrunk,,,0.673882
+j-2025,Wielkopolskie,Urologia,LEK,10,1,0.983416,0.97159,2459,isotonic_binned_shrunk,,,0.673882
+j-2025,Zachodniopomorskie,Urologia,LEK,4,1,0.971401,0.968386,2459,isotonic_binned_shrunk,,,0.770151
+w-2026,Kujawsko-pomorskie,Alergologia,LEK,2,1,0.631268,0.697807,2920,isotonic_binned_shrunk,,,0.454586
+w-2026,Małopolskie,Alergologia,LEK,1,1,0.944054,0.950348,2920,isotonic_binned_shrunk,,,0.76141
+w-2026,Pomorskie,Alergologia,LEK,2,1,0.899772,0.918796,2920,isotonic_binned_shrunk,,,0.76141
+w-2026,Kujawsko-pomorskie,Anestezjologia i intensywna terapia,LEK,8,1,0.865728,0.892977,2920,isotonic_binned_shrunk,,,0.547735
+w-2026,Lubuskie,Anestezjologia i intensywna terapia,LEK,4,1,0.745139,0.812484,2920,isotonic_binned_shrunk,,,0.214402
+w-2026,Małopolskie,Anestezjologia i intensywna terapia,LEK,14,1,0.853955,0.888175,2920,isotonic_binned_shrunk,,,0.214402
+w-2026,Mazowieckie,Anestezjologia i intensywna terapia,LEK,20,1,0.964113,0.963984,2920,isotonic_binned_shrunk,,,0.214402
+w-2026,Opolskie,Anestezjologia i intensywna terapia,LEK,3,1,0.589498,0.64143,2920,isotonic_binned_shrunk,,,0.214402
+w-2026,Śląskie,Anestezjologia i intensywna terapia,LEK,14,1,0.909655,0.925999,2920,isotonic_binned_shrunk,,,0.325513
+w-2026,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,LEK,7,1,0.771987,0.830755,2920,isotonic_binned_shrunk,,,0.436624
+w-2026,Dolnośląskie,Balneologia i medycyna fizykalna,LEK,1,1,0.041439,0.044286,2920,isotonic_binned_shrunk,,,0.063175
+w-2026,Śląskie,Balneologia i medycyna fizykalna,LEK,1,1,0.037832,0.044286,2920,isotonic_binned_shrunk,,,0.042117
+w-2026,Dolnośląskie,Chirurgia dziecięca,LEK,2,1,0.534425,0.578155,2920,isotonic_binned_shrunk,,,0.303572
+w-2026,Kujawsko-pomorskie,Chirurgia dziecięca,LEK,1,1,0.390787,0.356724,2920,isotonic_binned_shrunk,,,0.192461
+w-2026,Lubelskie,Chirurgia dziecięca,LEK,1,0,0.36613,0.318476,2920,isotonic_binned_shrunk,,,0.24745
+w-2026,Łódzkie,Chirurgia dziecięca,LEK,1,1,0.321132,0.262461,2920,isotonic_binned_shrunk,,,0.08135
+w-2026,Mazowieckie,Chirurgia dziecięca,LEK,3,1,0.809965,0.856324,2920,isotonic_binned_shrunk,,,0.414683
+w-2026,Opolskie,Chirurgia dziecięca,LEK,1,0,0.110624,0.096574,2920,isotonic_binned_shrunk,,,0.08135
+w-2026,Pomorskie,Chirurgia dziecięca,LEK,2,1,0.4822,0.498864,2920,isotonic_binned_shrunk,,,0.216519
+w-2026,Śląskie,Chirurgia dziecięca,LEK,2,1,0.550793,0.595975,2920,isotonic_binned_shrunk,,,0.303572
+w-2026,Świętokrzyskie,Chirurgia dziecięca,LEK,1,0,0.134356,0.110706,2920,isotonic_binned_shrunk,,,0.192461
+w-2026,Zachodniopomorskie,Chirurgia dziecięca,LEK,1,1,0.339703,0.293902,2920,isotonic_binned_shrunk,,,0.414683
+w-2026,Łódzkie,Chirurgia klatki piersiowej,LEK,1,0,0.151836,0.122321,2920,isotonic_binned_shrunk,,,0.297408
+w-2026,Małopolskie,Chirurgia naczyniowa,LEK,1,1,0.914183,0.92926,2920,isotonic_binned_shrunk,,,0.78016
+w-2026,Mazowieckie,Chirurgia naczyniowa,LEK,2,1,0.936519,0.945272,2920,isotonic_binned_shrunk,,,0.6126
+w-2026,Pomorskie,Chirurgia naczyniowa,LEK,1,1,0.893085,0.91433,2920,isotonic_binned_shrunk,,,0.78016
+w-2026,Śląskie,Chirurgia naczyniowa,LEK,2,1,0.916572,0.932019,2920,isotonic_binned_shrunk,,,0.766756
+w-2026,Świętokrzyskie,Chirurgia naczyniowa,LEK,1,0,0.601249,0.663835,2920,isotonic_binned_shrunk,,,0.433422
+w-2026,Warmińsko-mazurskie,Chirurgia naczyniowa,LEK,1,1,0.760414,0.824452,2920,isotonic_binned_shrunk,,,0.8168
+w-2026,Wielkopolskie,Chirurgia naczyniowa,LEK,1,1,0.910725,0.927708,2920,isotonic_binned_shrunk,,,0.7376
+w-2026,Lubuskie,Chirurgia ogólna,LEK,6,0,0.049501,0.049539,2920,isotonic_binned_shrunk,,,0.025375
+w-2026,Opolskie,Chirurgia ogólna,LEK,7,0,0.081732,0.074152,2920,isotonic_binned_shrunk,,,0.025375
+w-2026,Pomorskie,Chirurgia ogólna,LEK,6,1,0.628878,0.691164,2920,isotonic_binned_shrunk,,,0.358708
+w-2026,Zachodniopomorskie,Chirurgia ogólna,LEK,7,1,0.20512,0.160567,2920,isotonic_binned_shrunk,,,0.025375
+w-2026,Lubuskie,Chirurgia onkologiczna,LEK,1,0,0.176731,0.143002,2920,isotonic_binned_shrunk,,,0.201705
+w-2026,Łódzkie,Chirurgia onkologiczna,LEK,3,1,0.33121,0.271095,2920,isotonic_binned_shrunk,,,0.201705
+w-2026,Małopolskie,Chirurgia onkologiczna,LEK,2,1,0.605276,0.654208,2920,isotonic_binned_shrunk,,,0.312816
+w-2026,Podkarpackie,Chirurgia onkologiczna,LEK,2,0,0.352893,0.294328,2920,isotonic_binned_shrunk,,,0.363069
+w-2026,Śląskie,Chirurgia onkologiczna,LEK,1,0,0.679119,0.74881,2920,isotonic_binned_shrunk,,,0.312816
+w-2026,Warmińsko-mazurskie,Chirurgia onkologiczna,LEK,1,0,0.152904,0.125261,2920,isotonic_binned_shrunk,,,0.090594
+w-2026,Wielkopolskie,Chirurgia onkologiczna,LEK,1,1,0.755429,0.819231,2920,isotonic_binned_shrunk,,,0.535039
+w-2026,Zachodniopomorskie,Chirurgia onkologiczna,LEK,2,0,0.114161,0.096631,2920,isotonic_binned_shrunk,,,0.090594
+w-2026,Łódzkie,Chirurgia plastyczna,LEK,1,1,0.827928,0.86004,2920,isotonic_binned_shrunk,,,0.873845
+w-2026,Dolnośląskie,Chirurgia stomatologiczna,LDEK,6,1,0.93004,0.938991,2920,isotonic_binned_shrunk,,,0.764797
+w-2026,Kujawsko-pomorskie,Chirurgia stomatologiczna,LDEK,1,1,0.964149,0.962183,2920,isotonic_binned_shrunk,,,0.907654
+w-2026,Łódzkie,Chirurgia stomatologiczna,LDEK,2,1,0.984205,0.971639,2920,isotonic_binned_shrunk,,,0.928175
+w-2026,Małopolskie,Chirurgia stomatologiczna,LDEK,2,1,0.974811,0.971516,2920,isotonic_binned_shrunk,,,0.764797
+w-2026,Mazowieckie,Chirurgia stomatologiczna,LDEK,2,1,0.991393,0.971639,2920,isotonic_binned_shrunk,,,0.817064
+w-2026,Podlaskie,Chirurgia stomatologiczna,LDEK,2,1,0.914715,0.927837,2920,isotonic_binned_shrunk,,,0.870716
+w-2026,Śląskie,Chirurgia stomatologiczna,LDEK,2,1,0.984453,0.971639,2920,isotonic_binned_shrunk,,,0.817064
+w-2026,Świętokrzyskie,Chirurgia stomatologiczna,LDEK,2,1,0.921654,0.933353,2920,isotonic_binned_shrunk,,,0.794197
+w-2026,Warmińsko-mazurskie,Chirurgia stomatologiczna,LDEK,1,0,0.967456,0.96473,2920,isotonic_binned_shrunk,,,0.928175
+w-2026,Wielkopolskie,Chirurgia stomatologiczna,LDEK,1,1,0.975587,0.971639,2920,isotonic_binned_shrunk,,,0.892263
+w-2026,Dolnośląskie,Choroby płuc,LEK,5,1,0.756596,0.819918,2920,isotonic_binned_shrunk,,,0.481574
+w-2026,Kujawsko-pomorskie,Choroby płuc,LEK,10,1,0.595186,0.66196,2920,isotonic_binned_shrunk,,,0.814907
+w-2026,Lubelskie,Choroby płuc,LEK,2,1,0.945631,0.951873,2920,isotonic_binned_shrunk,,,0.703796
+w-2026,Mazowieckie,Choroby płuc,LEK,5,1,0.950702,0.955725,2920,isotonic_binned_shrunk,,,0.370463
+w-2026,Opolskie,Choroby płuc,LEK,3,1,0.396218,0.379628,2920,isotonic_binned_shrunk,,,0.259352
+w-2026,Pomorskie,Choroby płuc,LEK,2,1,0.920834,0.934953,2920,isotonic_binned_shrunk,,,0.703796
+w-2026,Śląskie,Choroby płuc,LEK,3,1,0.898082,0.918898,2920,isotonic_binned_shrunk,,,0.370463
+w-2026,Świętokrzyskie,Choroby płuc,LEK,2,1,0.688531,0.773261,2920,isotonic_binned_shrunk,,,0.54177
+w-2026,Zachodniopomorskie,Choroby płuc,LEK,3,0,0.302459,0.247335,2920,isotonic_binned_shrunk,,,0.14824
+w-2026,Kujawsko-pomorskie,Choroby płuc dzieci,LEK,1,1,0.128954,0.107363,2920,isotonic_binned_shrunk,,,0.102138
+w-2026,Kujawsko-pomorskie,Choroby zakaźne,LEK,12,0,0.021378,0.044286,2920,isotonic_binned_shrunk,,,0.02914
+w-2026,Lubelskie,Choroby zakaźne,LEK,18,0,0.020724,0.044286,2920,isotonic_binned_shrunk,,,0.02914
+w-2026,Lubuskie,Choroby zakaźne,LEK,1,0,0.077042,0.069638,2920,isotonic_binned_shrunk,,,0.180323
+w-2026,Łódzkie,Choroby zakaźne,LEK,8,0,0.063318,0.059769,2920,isotonic_binned_shrunk,,,0.02914
+w-2026,Małopolskie,Choroby zakaźne,LEK,11,0,0.055219,0.053902,2920,isotonic_binned_shrunk,,,0.02914
+w-2026,Śląskie,Choroby zakaźne,LEK,5,0,0.167273,0.134214,2920,isotonic_binned_shrunk,,,0.02914
+w-2026,Warmińsko-mazurskie,Choroby zakaźne,LEK,5,0,0.02134,0.044286,2920,isotonic_binned_shrunk,,,0.140251
+w-2026,Wielkopolskie,Choroby zakaźne,LEK,8,0,0.056503,0.054532,2920,isotonic_binned_shrunk,,,0.02914
+w-2026,Dolnośląskie,Dermatologia i wenerologia,LEK,3,1,0.97614,0.971639,2920,isotonic_binned_shrunk,,,0.921538
+w-2026,Lubelskie,Dermatologia i wenerologia,LEK,1,1,0.978751,0.971639,2920,isotonic_binned_shrunk,,,0.921538
+w-2026,Łódzkie,Dermatologia i wenerologia,LEK,2,1,0.983704,0.971639,2920,isotonic_binned_shrunk,,,0.931346
+w-2026,Małopolskie,Dermatologia i wenerologia,LEK,1,1,0.988758,0.971639,2920,isotonic_binned_shrunk,,,0.806346
+w-2026,Mazowieckie,Dermatologia i wenerologia,LEK,6,1,0.985483,0.971639,2920,isotonic_binned_shrunk,,,0.556346
+w-2026,Podkarpackie,Dermatologia i wenerologia,LEK,2,1,0.976407,0.971639,2920,isotonic_binned_shrunk,,,0.938974
+w-2026,Śląskie,Dermatologia i wenerologia,LEK,2,1,0.981501,0.971639,2920,isotonic_binned_shrunk,,,0.806346
+w-2026,Zachodniopomorskie,Dermatologia i wenerologia,LEK,1,1,0.959023,0.960336,2920,isotonic_binned_shrunk,,,0.921538
+w-2026,Dolnośląskie,Diabetologia,LEK,1,0,0.958147,0.96089,2920,isotonic_binned_shrunk,,,0.752957
+w-2026,Kujawsko-pomorskie,Diabetologia,LEK,2,1,0.738344,0.803762,2920,isotonic_binned_shrunk,,,0.670609
+w-2026,Lubelskie,Diabetologia,LEK,2,1,0.890302,0.914037,2920,isotonic_binned_shrunk,,,0.717665
+w-2026,Łódzkie,Diabetologia,LEK,2,1,0.933876,0.944393,2920,isotonic_binned_shrunk,,,0.669295
+w-2026,Mazowieckie,Diabetologia,LEK,3,1,0.968872,0.96848,2920,isotonic_binned_shrunk,,,0.558184
+w-2026,Podkarpackie,Diabetologia,LEK,1,1,0.901348,0.922109,2920,isotonic_binned_shrunk,,,0.627957
+w-2026,Podlaskie,Diabetologia,LEK,2,1,0.817947,0.86422,2920,isotonic_binned_shrunk,,,0.780406
+w-2026,Śląskie,Diabetologia,LEK,5,1,0.934419,0.944765,2920,isotonic_binned_shrunk,,,0.891517
+w-2026,Świętokrzyskie,Diabetologia,LEK,1,1,0.800317,0.850222,2920,isotonic_binned_shrunk,,,0.804731
+w-2026,Warmińsko-mazurskie,Diabetologia,LEK,1,1,0.849231,0.885284,2920,isotonic_binned_shrunk,,,0.669295
+w-2026,Warmińsko-mazurskie,Diagnostyka laboratoryjna,LEK,1,0,0.011309,0.044286,2920,isotonic_binned_shrunk,,,0.074498
+w-2026,Wielkopolskie,Diagnostyka laboratoryjna,LEK,1,0,0.026809,0.044286,2920,isotonic_binned_shrunk,,,0.049665
+w-2026,Łódzkie,Endokrynologia,LEK,2,1,0.979429,0.971639,2920,isotonic_binned_shrunk,,,0.954758
+w-2026,Małopolskie,Endokrynologia,LEK,1,1,0.980735,0.971639,2920,isotonic_binned_shrunk,,,0.939678
+w-2026,Mazowieckie,Endokrynologia,LEK,1,1,0.994029,0.971639,2920,isotonic_binned_shrunk,,,0.954758
+w-2026,Opolskie,Endokrynologia,LEK,1,1,0.917563,0.930865,2920,isotonic_binned_shrunk,,,0.927614
+w-2026,Podkarpackie,Endokrynologia,LEK,1,1,0.957248,0.959105,2920,isotonic_binned_shrunk,,,0.927614
+w-2026,Podlaskie,Endokrynologia,LEK,1,1,0.946696,0.951212,2920,isotonic_binned_shrunk,,,0.939678
+w-2026,Śląskie,Endokrynologia,LEK,3,1,0.968408,0.966907,2920,isotonic_binned_shrunk,,,0.954758
+w-2026,Wielkopolskie,Endokrynologia,LEK,1,1,0.98015,0.971639,2920,isotonic_binned_shrunk,,,0.948295
+w-2026,Mazowieckie,Endokrynologia i diabetologia dziecięca,LEK,2,1,0.950411,0.953935,2920,isotonic_binned_shrunk,,,0.651043
+w-2026,Podlaskie,Endokrynologia i diabetologia dziecięca,LEK,1,0,0.738838,0.807439,2920,isotonic_binned_shrunk,,,0.467594
+w-2026,Śląskie,Endokrynologia i diabetologia dziecięca,LEK,1,0,0.964807,0.964967,2920,isotonic_binned_shrunk,,,0.912038
+w-2026,Łódzkie,Farmakologia kliniczna,LEK,1,0,0.03384,0.044286,2920,isotonic_binned_shrunk,,,0.056515
+w-2026,Śląskie,Farmakologia kliniczna,LEK,1,0,0.025073,0.044286,2920,isotonic_binned_shrunk,,,0.056515
+w-2026,Dolnośląskie,Gastroenterologia,LEK,1,0,0.956505,0.959552,2920,isotonic_binned_shrunk,,,0.700308
+w-2026,Małopolskie,Gastroenterologia,LEK,2,1,0.958516,0.960966,2920,isotonic_binned_shrunk,,,0.94321
+w-2026,Mazowieckie,Gastroenterologia,LEK,2,1,0.985681,0.971639,2920,isotonic_binned_shrunk,,,0.95583
+w-2026,Opolskie,Gastroenterologia,LEK,1,1,0.867839,0.897122,2920,isotonic_binned_shrunk,,,0.900617
+w-2026,Podlaskie,Gastroenterologia,LEK,1,1,0.949823,0.954646,2920,isotonic_binned_shrunk,,,0.95583
+w-2026,Śląskie,Gastroenterologia,LEK,2,1,0.965148,0.965777,2920,isotonic_binned_shrunk,,,0.950308
+w-2026,Wielkopolskie,Gastroenterologia,LEK,1,1,0.9577,0.959717,2920,isotonic_binned_shrunk,,,0.920494
+w-2026,Łódzkie,Genetyka kliniczna,LEK,1,1,0.156011,0.134524,2920,isotonic_binned_shrunk,,,0.404727
+w-2026,Lubelskie,Geriatria,LEK,4,0,0.018411,0.044286,2920,isotonic_binned_shrunk,,,0.136983
+w-2026,Lubuskie,Geriatria,LEK,2,0,0.020406,0.044286,2920,isotonic_binned_shrunk,,,0.025872
+w-2026,Łódzkie,Geriatria,LEK,3,0,0.100452,0.086737,2920,isotonic_binned_shrunk,,,0.248094
+w-2026,Podkarpackie,Geriatria,LEK,2,0,0.06375,0.060079,2920,isotonic_binned_shrunk,,,0.136983
+w-2026,Pomorskie,Geriatria,LEK,1,0,0.092326,0.078638,2920,isotonic_binned_shrunk,,,0.025872
+w-2026,Świętokrzyskie,Geriatria,LEK,1,0,0.037982,0.044286,2920,isotonic_binned_shrunk,,,0.136983
+w-2026,Warmińsko-mazurskie,Geriatria,LEK,1,0,0.04079,0.044286,2920,isotonic_binned_shrunk,,,0.033264
+w-2026,Wielkopolskie,Geriatria,LEK,3,0,0.05009,0.049977,2920,isotonic_binned_shrunk,,,0.025872
+w-2026,Zachodniopomorskie,Geriatria,LEK,2,0,0.026351,0.044286,2920,isotonic_binned_shrunk,,,0.025872
+w-2026,Lubuskie,Hematologia,LEK,7,0,0.046794,0.048217,2920,isotonic_binned_shrunk,,,0.06706
+w-2026,Łódzkie,Hematologia,LEK,4,0,0.495603,0.52539,2920,isotonic_binned_shrunk,,,0.289282
+w-2026,Opolskie,Hematologia,LEK,2,0,0.155581,0.127113,2920,isotonic_binned_shrunk,,,0.178171
+w-2026,Podkarpackie,Hematologia,LEK,2,0,0.295639,0.240218,2920,isotonic_binned_shrunk,,,0.178171
+w-2026,Podlaskie,Hematologia,LEK,3,0,0.130135,0.107648,2920,isotonic_binned_shrunk,,,0.075443
+w-2026,Wielkopolskie,Hematologia,LEK,1,1,0.542739,0.574298,2920,isotonic_binned_shrunk,,,0.289282
+w-2026,Pomorskie,Immunologia kliniczna,LEK,1,1,0.106936,0.089325,2920,isotonic_binned_shrunk,,,0.116424
+w-2026,Dolnośląskie,Kardiochirurgia,LEK,1,1,0.329407,0.267989,2920,isotonic_binned_shrunk,,,0.199264
+w-2026,Kujawsko-pomorskie,Kardiochirurgia,LEK,1,1,0.211717,0.165589,2920,isotonic_binned_shrunk,,,0.349172
+w-2026,Łódzkie,Kardiochirurgia,LEK,1,1,0.473008,0.479085,2920,isotonic_binned_shrunk,,,0.421486
+w-2026,Małopolskie,Kardiochirurgia,LEK,2,1,0.298989,0.241141,2920,isotonic_binned_shrunk,,,0.199264
+w-2026,Kujawsko-pomorskie,Kardiologia,LEK,6,1,0.959429,0.959553,2920,isotonic_binned_shrunk,,,0.54781
+w-2026,Lubelskie,Kardiologia,LEK,7,1,0.969885,0.968297,2920,isotonic_binned_shrunk,,,0.54781
+w-2026,Lubuskie,Kardiologia,LEK,3,1,0.92171,0.932752,2920,isotonic_binned_shrunk,,,0.436699
+w-2026,Łódzkie,Kardiologia,LEK,6,1,0.98524,0.971639,2920,isotonic_binned_shrunk,,,0.658922
+w-2026,Małopolskie,Kardiologia,LEK,10,1,0.987176,0.971639,2920,isotonic_binned_shrunk,,,0.770033
+w-2026,Opolskie,Kardiologia,LEK,5,1,0.942186,0.948135,2920,isotonic_binned_shrunk,,,0.658922
+w-2026,Podkarpackie,Kardiologia,LEK,5,1,0.979471,0.971639,2920,isotonic_binned_shrunk,,,0.770033
+w-2026,Podlaskie,Kardiologia,LEK,2,1,0.98279,0.971639,2920,isotonic_binned_shrunk,,,0.881144
+w-2026,Pomorskie,Kardiologia,LEK,12,1,0.986992,0.971639,2920,isotonic_binned_shrunk,,,0.658922
+w-2026,Śląskie,Kardiologia,LEK,10,1,0.993465,0.971639,2920,isotonic_binned_shrunk,,,0.881144
+w-2026,Świętokrzyskie,Kardiologia,LEK,4,1,0.933525,0.941999,2920,isotonic_binned_shrunk,,,0.325588
+w-2026,Wielkopolskie,Kardiologia,LEK,8,1,0.98915,0.971639,2920,isotonic_binned_shrunk,,,0.881144
+w-2026,Łódzkie,Kardiologia dziecięca,LEK,1,1,0.396409,0.375363,2920,isotonic_binned_shrunk,,,0.491404
+w-2026,Pomorskie,Medycyna morska i tropikalna,LEK,1,0,0.404053,0.373361,2920,isotonic_binned_shrunk,,,0.446986
+w-2026,Łódzkie,Medycyna nuklearna,LEK,1,1,0.196159,0.150556,2920,isotonic_binned_shrunk,,,0.30221
+w-2026,Mazowieckie,Medycyna nuklearna,LEK,5,1,0.114065,0.096453,2920,isotonic_binned_shrunk,,,0.079987
+w-2026,Śląskie,Medycyna nuklearna,LEK,1,1,0.220322,0.166201,2920,isotonic_binned_shrunk,,,0.191098
+w-2026,Zachodniopomorskie,Medycyna nuklearna,LEK,1,0,0.068811,0.063433,2920,isotonic_binned_shrunk,,,0.339986
+w-2026,Kujawsko-pomorskie,Medycyna paliatywna,LEK,2,0,0.013439,0.044286,2920,isotonic_binned_shrunk,,,0.027018
+w-2026,Lubelskie,Medycyna paliatywna,LEK,1,0,0.040164,0.044795,2920,isotonic_binned_shrunk,,,0.138129
+w-2026,Łódzkie,Medycyna paliatywna,LEK,2,0,0.026892,0.044286,2920,isotonic_binned_shrunk,,,0.027018
+w-2026,Małopolskie,Medycyna paliatywna,LEK,2,0,0.046897,0.048727,2920,isotonic_binned_shrunk,,,0.177594
+w-2026,Mazowieckie,Medycyna paliatywna,LEK,1,1,0.110026,0.093081,2920,isotonic_binned_shrunk,,,0.207193
+w-2026,Opolskie,Medycyna paliatywna,LEK,1,0,0.014156,0.044286,2920,isotonic_binned_shrunk,,,0.034737
+w-2026,Podkarpackie,Medycyna paliatywna,LEK,1,1,0.030631,0.044286,2920,isotonic_binned_shrunk,,,0.048632
+w-2026,Pomorskie,Medycyna paliatywna,LEK,1,0,0.054314,0.054255,2920,isotonic_binned_shrunk,,,0.048632
+w-2026,Warmińsko-mazurskie,Medycyna paliatywna,LEK,2,0,0.011619,0.044286,2920,isotonic_binned_shrunk,,,0.027018
+w-2026,Wielkopolskie,Medycyna paliatywna,LEK,2,0,0.032012,0.044286,2920,isotonic_binned_shrunk,,,0.027018
+w-2026,Zachodniopomorskie,Medycyna paliatywna,LEK,1,1,0.015971,0.044286,2920,isotonic_binned_shrunk,,,0.027018
+w-2026,Lubelskie,Medycyna pracy,LEK,2,0,0.546385,0.580797,2920,isotonic_binned_shrunk,,,0.434266
+w-2026,Śląskie,Medycyna pracy,LEK,2,1,0.391368,0.350373,2920,isotonic_binned_shrunk,,,0.148552
+w-2026,Warmińsko-mazurskie,Medycyna pracy,LEK,1,0,0.194884,0.149893,2920,isotonic_binned_shrunk,,,0.129983
+w-2026,Kujawsko-pomorskie,Medycyna ratunkowa,LEK,23,0,0.014215,0.044286,2920,isotonic_binned_shrunk,,,0.123665
+w-2026,Lubelskie,Medycyna ratunkowa,LEK,15,0,0.026684,0.044286,2920,isotonic_binned_shrunk,,,0.012554
+w-2026,Lubuskie,Medycyna ratunkowa,LEK,3,0,0.019678,0.044286,2920,isotonic_binned_shrunk,,,0.012554
+w-2026,Małopolskie,Medycyna ratunkowa,LEK,30,0,0.023798,0.044286,2920,isotonic_binned_shrunk,,,0.012554
+w-2026,Podkarpackie,Medycyna ratunkowa,LEK,11,0,0.019518,0.044286,2920,isotonic_binned_shrunk,,,0.012554
+w-2026,Podlaskie,Medycyna ratunkowa,LEK,35,0,0.008965,0.044286,2920,isotonic_binned_shrunk,,,0.012554
+w-2026,Warmińsko-mazurskie,Medycyna ratunkowa,LEK,15,0,0.023007,0.044286,2920,isotonic_binned_shrunk,,,0.012554
+w-2026,Świętokrzyskie,Medycyna rodzinna,LEK,6,1,0.1206,0.098974,2920,isotonic_binned_shrunk,,,0.012554
+w-2026,Zachodniopomorskie,Medycyna rodzinna,LEK,10,1,0.139062,0.116037,2920,isotonic_binned_shrunk,,,0.012554
+w-2026,Małopolskie,Medycyna sądowa,LEK,1,0,0.074285,0.06723,2920,isotonic_binned_shrunk,,,0.089287
+w-2026,Opolskie,Medycyna sądowa,LEK,1,0,0.021759,0.044286,2920,isotonic_binned_shrunk,,,0.125002
+w-2026,Kujawsko-pomorskie,Medycyna sportowa,LEK,1,1,0.437769,0.414137,2920,isotonic_binned_shrunk,,,0.443187
+w-2026,Łódzkie,Medycyna sportowa,LEK,1,0,0.335507,0.268953,2920,isotonic_binned_shrunk,,,0.303983
+w-2026,Mazowieckie,Medycyna sportowa,LEK,1,1,0.71107,0.775851,2920,isotonic_binned_shrunk,,,0.535989
+w-2026,Mazowieckie,Mikrobiologia lekarska,LEK,1,1,0.06105,0.059798,2920,isotonic_binned_shrunk,,,0.074109
+w-2026,Lubelskie,Nefrologia,LEK,1,1,0.342409,0.282834,2920,isotonic_binned_shrunk,,,0.191639
+w-2026,Lubuskie,Nefrologia,LEK,1,1,0.104202,0.089225,2920,isotonic_binned_shrunk,,,0.080528
+w-2026,Podlaskie,Nefrologia,LEK,2,0,0.119536,0.100248,2920,isotonic_binned_shrunk,,,0.191639
+w-2026,Pomorskie,Nefrologia,LEK,1,1,0.685499,0.762234,2920,isotonic_binned_shrunk,,,0.524973
+w-2026,Warmińsko-mazurskie,Nefrologia,LEK,1,0,0.176926,0.139675,2920,isotonic_binned_shrunk,,,0.191639
+w-2026,Wielkopolskie,Nefrologia,LEK,5,0,0.153648,0.122858,2920,isotonic_binned_shrunk,,,0.080528
+w-2026,Zachodniopomorskie,Nefrologia,LEK,1,0,0.231153,0.181287,2920,isotonic_binned_shrunk,,,0.413861
+w-2026,Lubelskie,Nefrologia dziecięca,LEK,1,1,0.251399,0.206412,2920,isotonic_binned_shrunk,,,0.549825
+w-2026,Mazowieckie,Nefrologia dziecięca,LEK,1,0,0.3956,0.363205,2920,isotonic_binned_shrunk,,,0.438713
+w-2026,Śląskie,Nefrologia dziecięca,LEK,1,1,0.234007,0.180852,2920,isotonic_binned_shrunk,,,0.368553
+w-2026,Dolnośląskie,Neonatologia,LEK,10,0,0.135426,0.109505,2920,isotonic_binned_shrunk,,,0.025621
+w-2026,Lubelskie,Neonatologia,LEK,11,0,0.069267,0.063498,2920,isotonic_binned_shrunk,,,0.025621
+w-2026,Lubuskie,Neonatologia,LEK,5,0,0.029781,0.044286,2920,isotonic_binned_shrunk,,,0.025621
+w-2026,Podlaskie,Neonatologia,LEK,6,0,0.042394,0.044318,2920,isotonic_binned_shrunk,,,0.025621
+w-2026,Świętokrzyskie,Neonatologia,LEK,3,0,0.128594,0.104484,2920,isotonic_binned_shrunk,,,0.136732
+w-2026,Zachodniopomorskie,Neonatologia,LEK,3,0,0.083666,0.072846,2920,isotonic_binned_shrunk,,,0.025621
+w-2026,Kujawsko-pomorskie,Neurochirurgia,LEK,1,1,0.84123,0.876877,2920,isotonic_binned_shrunk,,,0.772777
+w-2026,Małopolskie,Neurochirurgia,LEK,2,1,0.876809,0.901662,2920,isotonic_binned_shrunk,,,0.697035
+w-2026,Mazowieckie,Neurochirurgia,LEK,2,1,0.955973,0.958831,2920,isotonic_binned_shrunk,,,0.772777
+w-2026,Śląskie,Neurochirurgia,LEK,2,1,0.870393,0.898249,2920,isotonic_binned_shrunk,,,0.740316
+w-2026,Dolnośląskie,Neurologia,LEK,5,1,0.460957,0.483801,2920,isotonic_binned_shrunk,,,0.292469
+w-2026,Lubuskie,Neurologia,LEK,1,0,0.135998,0.114199,2920,isotonic_binned_shrunk,,,0.181357
+w-2026,Świętokrzyskie,Neurologia,LEK,1,1,0.357515,0.31863,2920,isotonic_binned_shrunk,,,0.292469
+w-2026,Kujawsko-pomorskie,Neurologia dziecięca,LEK,1,1,0.202061,0.157337,2920,isotonic_binned_shrunk,,,0.204452
+w-2026,Mazowieckie,Neurologia dziecięca,LEK,1,1,0.885272,0.907707,2920,isotonic_binned_shrunk,,,0.603463
+w-2026,Śląskie,Neurologia dziecięca,LEK,2,0,0.433631,0.421822,2920,isotonic_binned_shrunk,,,0.303896
+w-2026,Wielkopolskie,Neurologia dziecięca,LEK,1,1,0.682339,0.759601,2920,isotonic_binned_shrunk,,,0.633024
+w-2026,Dolnośląskie,Okulistyka,LEK,5,1,0.98756,0.971639,2920,isotonic_binned_shrunk,,,0.899344
+w-2026,Kujawsko-pomorskie,Okulistyka,LEK,4,1,0.968918,0.966574,2920,isotonic_binned_shrunk,,,0.899344
+w-2026,Lubelskie,Okulistyka,LEK,3,1,0.975732,0.971639,2920,isotonic_binned_shrunk,,,0.677121
+w-2026,Lubuskie,Okulistyka,LEK,3,1,0.929069,0.939136,2920,isotonic_binned_shrunk,,,0.849015
+w-2026,Łódzkie,Okulistyka,LEK,4,1,0.985403,0.971639,2920,isotonic_binned_shrunk,,,0.788232
+w-2026,Małopolskie,Okulistyka,LEK,2,1,0.992137,0.971639,2920,isotonic_binned_shrunk,,,0.56601
+w-2026,Podkarpackie,Okulistyka,LEK,3,1,0.981476,0.971639,2920,isotonic_binned_shrunk,,,0.899344
+w-2026,Podlaskie,Okulistyka,LEK,2,1,0.962615,0.963034,2920,isotonic_binned_shrunk,,,0.636761
+w-2026,Pomorskie,Okulistyka,LEK,7,1,0.973212,0.970949,2920,isotonic_binned_shrunk,,,0.511761
+w-2026,Warmińsko-mazurskie,Okulistyka,LEK,3,1,0.952675,0.956112,2920,isotonic_binned_shrunk,,,0.677121
+w-2026,Wielkopolskie,Okulistyka,LEK,3,1,0.987891,0.971639,2920,isotonic_binned_shrunk,,,0.788232
+w-2026,Zachodniopomorskie,Okulistyka,LEK,2,1,0.950166,0.953934,2920,isotonic_binned_shrunk,,,0.727727
+w-2026,Dolnośląskie,Onkologia i hematologia dziecięca,LEK,2,1,0.107819,0.091684,2920,isotonic_binned_shrunk,,,0.17665
+w-2026,Lubelskie,Onkologia i hematologia dziecięca,LEK,3,0,0.057772,0.056896,2920,isotonic_binned_shrunk,,,0.045911
+w-2026,Łódzkie,Onkologia i hematologia dziecięca,LEK,1,0,0.089543,0.078819,2920,isotonic_binned_shrunk,,,0.045911
+w-2026,Małopolskie,Onkologia i hematologia dziecięca,LEK,1,0,0.140468,0.112592,2920,isotonic_binned_shrunk,,,0.17665
+w-2026,Mazowieckie,Onkologia i hematologia dziecięca,LEK,2,0,0.38315,0.339992,2920,isotonic_binned_shrunk,,,0.4022
+w-2026,Podkarpackie,Onkologia i hematologia dziecięca,LEK,1,0,0.07916,0.07176,2920,isotonic_binned_shrunk,,,0.045911
+w-2026,Podlaskie,Onkologia i hematologia dziecięca,LEK,2,0,0.040766,0.044311,2920,isotonic_binned_shrunk,,,0.045911
+w-2026,Śląskie,Onkologia i hematologia dziecięca,LEK,4,0,0.069951,0.064917,2920,isotonic_binned_shrunk,,,0.045911
+w-2026,Warmińsko-mazurskie,Onkologia i hematologia dziecięca,LEK,1,0,0.11347,0.099331,2920,isotonic_binned_shrunk,,,0.344743
+w-2026,Wielkopolskie,Onkologia i hematologia dziecięca,LEK,2,0,0.063966,0.060028,2920,isotonic_binned_shrunk,,,0.045911
+w-2026,Zachodniopomorskie,Onkologia i hematologia dziecięca,LEK,1,0,0.046632,0.048354,2920,isotonic_binned_shrunk,,,0.05165
+w-2026,Kujawsko-pomorskie,Onkologia kliniczna,LEK,10,0,0.013515,0.044286,2920,isotonic_binned_shrunk,,,0.0128
+w-2026,Lubelskie,Onkologia kliniczna,LEK,10,0,0.021967,0.044286,2920,isotonic_binned_shrunk,,,0.0128
+w-2026,Lubuskie,Onkologia kliniczna,LEK,3,0,0.016352,0.044286,2920,isotonic_binned_shrunk,,,0.0128
+w-2026,Opolskie,Onkologia kliniczna,LEK,5,0,0.013006,0.044286,2920,isotonic_binned_shrunk,,,0.0128
+w-2026,Śląskie,Onkologia kliniczna,LEK,10,0,0.069316,0.065494,2920,isotonic_binned_shrunk,,,0.0128
+w-2026,Warmińsko-mazurskie,Onkologia kliniczna,LEK,3,0,0.021243,0.044286,2920,isotonic_binned_shrunk,,,0.0128
+w-2026,Zachodniopomorskie,Onkologia kliniczna,LEK,5,0,0.011814,0.044286,2920,isotonic_binned_shrunk,,,0.0128
+w-2026,Dolnośląskie,Ortodoncja,LDEK,6,1,0.970947,0.968894,2920,isotonic_binned_shrunk,,,0.963791
+w-2026,Lubelskie,Ortodoncja,LDEK,1,1,0.979851,0.971639,2920,isotonic_binned_shrunk,,,0.958618
+w-2026,Mazowieckie,Ortodoncja,LDEK,4,1,0.992877,0.971639,2920,isotonic_binned_shrunk,,,0.967814
+w-2026,Podlaskie,Ortodoncja,LDEK,1,1,0.961909,0.962234,2920,isotonic_binned_shrunk,,,0.951721
+w-2026,Pomorskie,Ortodoncja,LDEK,1,1,0.985962,0.971639,2920,isotonic_binned_shrunk,,,0.958618
+w-2026,Śląskie,Ortodoncja,LDEK,4,1,0.974233,0.97104,2920,isotonic_binned_shrunk,,,0.967814
+w-2026,Wielkopolskie,Ortodoncja,LDEK,1,1,0.987275,0.971639,2920,isotonic_binned_shrunk,,,0.963791
+w-2026,Zachodniopomorskie,Ortodoncja,LDEK,1,0,0.968962,0.967429,2920,isotonic_binned_shrunk,,,0.856703
+w-2026,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,LEK,3,1,0.952338,0.955229,2920,isotonic_binned_shrunk,,,0.454862
+w-2026,Lubelskie,Ortopedia i traumatologia narządu ruchu,LEK,5,1,0.83682,0.870218,2920,isotonic_binned_shrunk,,,0.121528
+w-2026,Łódzkie,Ortopedia i traumatologia narządu ruchu,LEK,3,1,0.946587,0.951355,2920,isotonic_binned_shrunk,,,0.454862
+w-2026,Małopolskie,Ortopedia i traumatologia narządu ruchu,LEK,5,1,0.948637,0.953082,2920,isotonic_binned_shrunk,,,0.343751
+w-2026,Mazowieckie,Ortopedia i traumatologia narządu ruchu,LEK,14,1,0.959784,0.961317,2920,isotonic_binned_shrunk,,,0.232639
+w-2026,Opolskie,Ortopedia i traumatologia narządu ruchu,LEK,1,1,0.868568,0.893573,2920,isotonic_binned_shrunk,,,0.232639
+w-2026,Podkarpackie,Ortopedia i traumatologia narządu ruchu,LEK,3,1,0.955615,0.959181,2920,isotonic_binned_shrunk,,,0.454862
+w-2026,Podlaskie,Ortopedia i traumatologia narządu ruchu,LEK,2,1,0.909219,0.923669,2920,isotonic_binned_shrunk,,,0.454862
+w-2026,Pomorskie,Ortopedia i traumatologia narządu ruchu,LEK,1,1,0.992025,0.971639,2920,isotonic_binned_shrunk,,,0.677084
+w-2026,Śląskie,Ortopedia i traumatologia narządu ruchu,LEK,12,1,0.945397,0.951586,2920,isotonic_binned_shrunk,,,0.454862
+w-2026,Świętokrzyskie,Ortopedia i traumatologia narządu ruchu,LEK,2,1,0.801631,0.846911,2920,isotonic_binned_shrunk,,,0.232639
+w-2026,Wielkopolskie,Ortopedia i traumatologia narządu ruchu,LEK,6,1,0.952964,0.956364,2920,isotonic_binned_shrunk,,,0.565973
+w-2026,Zachodniopomorskie,Ortopedia i traumatologia narządu ruchu,LEK,2,1,0.777213,0.827841,2920,isotonic_binned_shrunk,,,0.232639
+w-2026,Kujawsko-pomorskie,Otorynolaryngologia,LEK,1,1,0.972456,0.969005,2920,isotonic_binned_shrunk,,,0.92802
+w-2026,Lubelskie,Otorynolaryngologia,LEK,2,1,0.957535,0.959923,2920,isotonic_binned_shrunk,,,0.77488
+w-2026,Łódzkie,Otorynolaryngologia,LEK,2,1,0.972196,0.97038,2920,isotonic_binned_shrunk,,,0.80302
+w-2026,Podkarpackie,Otorynolaryngologia,LEK,1,0,0.963817,0.964666,2920,isotonic_binned_shrunk,,,0.917738
+w-2026,Podlaskie,Otorynolaryngologia,LEK,1,1,0.961844,0.961824,2920,isotonic_binned_shrunk,,,0.936018
+w-2026,Pomorskie,Otorynolaryngologia,LEK,2,1,0.978846,0.971639,2920,isotonic_binned_shrunk,,,0.824907
+w-2026,Śląskie,Otorynolaryngologia,LEK,4,1,0.967594,0.967255,2920,isotonic_binned_shrunk,,,0.80302
+w-2026,Wielkopolskie,Otorynolaryngologia,LEK,1,1,0.987335,0.971639,2920,isotonic_binned_shrunk,,,0.713796
+w-2026,Mazowieckie,Otorynolaryngologia dziecięca,LEK,3,1,0.915298,0.926034,2920,isotonic_binned_shrunk,,,0.795221
+w-2026,Śląskie,Otorynolaryngologia dziecięca,LEK,1,1,0.904337,0.922115,2920,isotonic_binned_shrunk,,,0.769624
+w-2026,Lubelskie,Patomorfologia,LEK,3,0,0.072086,0.064651,2920,isotonic_binned_shrunk,,,0.0414
+w-2026,Lubuskie,Patomorfologia,LEK,4,0,0.031593,0.044286,2920,isotonic_binned_shrunk,,,0.0414
+w-2026,Łódzkie,Patomorfologia,LEK,1,1,0.462421,0.4615,2920,isotonic_binned_shrunk,,,0.374733
+w-2026,Mazowieckie,Patomorfologia,LEK,2,1,0.670898,0.736093,2920,isotonic_binned_shrunk,,,0.374733
+w-2026,Opolskie,Patomorfologia,LEK,1,0,0.071851,0.067505,2920,isotonic_binned_shrunk,,,0.0414
+w-2026,Podkarpackie,Patomorfologia,LEK,3,0,0.116489,0.098201,2920,isotonic_binned_shrunk,,,0.0414
+w-2026,Warmińsko-mazurskie,Patomorfologia,LEK,5,0,0.043308,0.045455,2920,isotonic_binned_shrunk,,,0.0414
+w-2026,Zachodniopomorskie,Patomorfologia,LEK,15,0,0.013816,0.044286,2920,isotonic_binned_shrunk,,,0.0414
+w-2026,Świętokrzyskie,Pediatria,LEK,5,0,0.121497,0.102392,2920,isotonic_binned_shrunk,,,0.155716
+w-2026,Dolnośląskie,Periodontologia,LDEK,1,1,0.980031,0.971639,2920,isotonic_binned_shrunk,,,0.692267
+w-2026,Małopolskie,Periodontologia,LDEK,2,1,0.966654,0.965928,2920,isotonic_binned_shrunk,,,0.5288
+w-2026,Mazowieckie,Periodontologia,LDEK,2,1,0.981581,0.971639,2920,isotonic_binned_shrunk,,,0.871734
+w-2026,Podkarpackie,Periodontologia,LDEK,2,1,0.923915,0.93541,2920,isotonic_binned_shrunk,,,0.846081
+w-2026,Pomorskie,Periodontologia,LDEK,1,1,0.976241,0.971639,2920,isotonic_binned_shrunk,,,0.846081
+w-2026,Śląskie,Periodontologia,LDEK,2,1,0.958423,0.959824,2920,isotonic_binned_shrunk,,,0.846081
+w-2026,Warmińsko-mazurskie,Periodontologia,LDEK,2,1,0.866153,0.894092,2920,isotonic_binned_shrunk,,,0.846081
+w-2026,Wielkopolskie,Periodontologia,LDEK,1,1,0.967313,0.966394,2920,isotonic_binned_shrunk,,,0.692267
+w-2026,Dolnośląskie,Położnictwo i ginekologia,LEK,12,1,0.881803,0.906491,2920,isotonic_binned_shrunk,,,0.092682
+w-2026,Lubelskie,Położnictwo i ginekologia,LEK,8,1,0.91175,0.92826,2920,isotonic_binned_shrunk,,,0.314904
+w-2026,Lubuskie,Położnictwo i ginekologia,LEK,5,1,0.794139,0.845919,2920,isotonic_binned_shrunk,,,0.203793
+w-2026,Łódzkie,Położnictwo i ginekologia,LEK,6,1,0.953524,0.957449,2920,isotonic_binned_shrunk,,,0.426016
+w-2026,Podlaskie,Położnictwo i ginekologia,LEK,2,1,0.910834,0.926137,2920,isotonic_binned_shrunk,,,0.203793
+w-2026,Pomorskie,Położnictwo i ginekologia,LEK,8,1,0.955923,0.958635,2920,isotonic_binned_shrunk,,,0.426016
+w-2026,Świętokrzyskie,Położnictwo i ginekologia,LEK,5,1,0.773001,0.828608,2920,isotonic_binned_shrunk,,,0.203793
+w-2026,Warmińsko-mazurskie,Położnictwo i ginekologia,LEK,4,1,0.869666,0.898069,2920,isotonic_binned_shrunk,,,0.314904
+w-2026,Zachodniopomorskie,Położnictwo i ginekologia,LEK,7,1,0.843555,0.880698,2920,isotonic_binned_shrunk,,,0.314904
+w-2026,Kujawsko-pomorskie,Protetyka stomatologiczna,LDEK,2,1,0.854771,0.88258,2920,isotonic_binned_shrunk,,,0.6126
+w-2026,Lubelskie,Protetyka stomatologiczna,LDEK,1,1,0.868711,0.890006,2920,isotonic_binned_shrunk,,,0.633601
+w-2026,Łódzkie,Protetyka stomatologiczna,LDEK,1,1,0.960153,0.961015,2920,isotonic_binned_shrunk,,,0.842972
+w-2026,Małopolskie,Protetyka stomatologiczna,LDEK,2,1,0.923729,0.933948,2920,isotonic_binned_shrunk,,,0.544534
+w-2026,Podkarpackie,Protetyka stomatologiczna,LDEK,1,1,0.895142,0.912173,2920,isotonic_binned_shrunk,,,0.725201
+w-2026,Pomorskie,Protetyka stomatologiczna,LDEK,1,1,0.968261,0.966691,2920,isotonic_binned_shrunk,,,0.842972
+w-2026,Śląskie,Protetyka stomatologiczna,LDEK,3,1,0.925513,0.93643,2920,isotonic_binned_shrunk,,,0.544534
+w-2026,Świętokrzyskie,Protetyka stomatologiczna,LDEK,1,1,0.825691,0.864572,2920,isotonic_binned_shrunk,,,0.725201
+w-2026,Warmińsko-mazurskie,Protetyka stomatologiczna,LDEK,1,1,0.756856,0.816202,2920,isotonic_binned_shrunk,,,0.4876
+w-2026,Zachodniopomorskie,Protetyka stomatologiczna,LDEK,1,0,0.838003,0.8729,2920,isotonic_binned_shrunk,,,0.483467
+w-2026,Kujawsko-pomorskie,Psychiatria,LEK,3,1,0.890778,0.912753,2920,isotonic_binned_shrunk,,,0.190973
+w-2026,Lubelskie,Psychiatria,LEK,4,1,0.889409,0.912707,2920,isotonic_binned_shrunk,,,0.190973
+w-2026,Lubuskie,Psychiatria,LEK,5,1,0.424846,0.408056,2920,isotonic_binned_shrunk,,,0.190973
+w-2026,Łódzkie,Psychiatria,LEK,12,1,0.975959,0.970412,2920,isotonic_binned_shrunk,,,0.302084
+w-2026,Małopolskie,Psychiatria,LEK,6,1,0.895774,0.916861,2920,isotonic_binned_shrunk,,,0.079862
+w-2026,Opolskie,Psychiatria,LEK,4,1,0.263682,0.211361,2920,isotonic_binned_shrunk,,,0.079862
+w-2026,Podlaskie,Psychiatria,LEK,8,1,0.687704,0.771029,2920,isotonic_binned_shrunk,,,0.413195
+w-2026,Pomorskie,Psychiatria,LEK,5,1,0.937883,0.946571,2920,isotonic_binned_shrunk,,,0.302084
+w-2026,Świętokrzyskie,Psychiatria,LEK,4,1,0.448696,0.441369,2920,isotonic_binned_shrunk,,,0.190973
+w-2026,Warmińsko-mazurskie,Psychiatria,LEK,4,1,0.551764,0.594249,2920,isotonic_binned_shrunk,,,0.413195
+w-2026,Wielkopolskie,Psychiatria,LEK,12,1,0.85716,0.890616,2920,isotonic_binned_shrunk,,,0.413195
+w-2026,Dolnośląskie,Psychiatria dzieci i młodzieży,LEK,3,1,0.961669,0.962826,2920,isotonic_binned_shrunk,,,0.577979
+w-2026,Kujawsko-pomorskie,Psychiatria dzieci i młodzieży,LEK,1,0,0.946341,0.950919,2920,isotonic_binned_shrunk,,,0.650227
+w-2026,Lubuskie,Psychiatria dzieci i młodzieży,LEK,2,1,0.801448,0.849593,2920,isotonic_binned_shrunk,,,0.600259
+w-2026,Łódzkie,Psychiatria dzieci i młodzieży,LEK,1,1,0.989807,0.971639,2920,isotonic_binned_shrunk,,,0.911313
+w-2026,Podkarpackie,Psychiatria dzieci i młodzieży,LEK,2,1,0.952111,0.956683,2920,isotonic_binned_shrunk,,,0.885973
+w-2026,Podlaskie,Psychiatria dzieci i młodzieży,LEK,1,1,0.938993,0.946896,2920,isotonic_binned_shrunk,,,0.866969
+w-2026,Śląskie,Psychiatria dzieci i młodzieży,LEK,5,1,0.94189,0.94872,2920,isotonic_binned_shrunk,,,0.577979
+w-2026,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,LEK,1,1,0.930636,0.940636,2920,isotonic_binned_shrunk,,,0.866969
+w-2026,Wielkopolskie,Psychiatria dzieci i młodzieży,LEK,3,1,0.968632,0.967633,2920,isotonic_binned_shrunk,,,0.650227
+w-2026,Kujawsko-pomorskie,Radiologia i diagnostyka obrazowa,LEK,2,1,0.977951,0.971639,2920,isotonic_binned_shrunk,,,0.534379
+w-2026,Lubuskie,Radiologia i diagnostyka obrazowa,LEK,1,1,0.982534,0.971639,2920,isotonic_binned_shrunk,,,0.829916
+w-2026,Łódzkie,Radiologia i diagnostyka obrazowa,LEK,2,1,0.992554,0.971639,2920,isotonic_binned_shrunk,,,0.756601
+w-2026,Opolskie,Radiologia i diagnostyka obrazowa,LEK,3,1,0.971893,0.968297,2920,isotonic_binned_shrunk,,,0.867712
+w-2026,Podkarpackie,Radiologia i diagnostyka obrazowa,LEK,6,1,0.98042,0.971639,2920,isotonic_binned_shrunk,,,0.756601
+w-2026,Podlaskie,Radiologia i diagnostyka obrazowa,LEK,4,1,0.977389,0.971639,2920,isotonic_binned_shrunk,,,0.756601
+w-2026,Pomorskie,Radiologia i diagnostyka obrazowa,LEK,7,1,0.98701,0.971639,2920,isotonic_binned_shrunk,,,0.534379
+w-2026,Zachodniopomorskie,Radiologia i diagnostyka obrazowa,LEK,4,1,0.974786,0.971037,2920,isotonic_binned_shrunk,,,0.867712
+w-2026,Dolnośląskie,Radioterapia onkologiczna,LEK,9,0,0.066015,0.061205,2920,isotonic_binned_shrunk,,,0.032729
+w-2026,Lubuskie,Radioterapia onkologiczna,LEK,4,0,0.033784,0.044286,2920,isotonic_binned_shrunk,,,0.032729
+w-2026,Łódzkie,Radioterapia onkologiczna,LEK,2,0,0.213376,0.163367,2920,isotonic_binned_shrunk,,,0.254951
+w-2026,Opolskie,Radioterapia onkologiczna,LEK,2,0,0.040027,0.044286,2920,isotonic_binned_shrunk,,,0.032729
+w-2026,Podkarpackie,Radioterapia onkologiczna,LEK,6,0,0.04723,0.048127,2920,isotonic_binned_shrunk,,,0.032729
+w-2026,Podlaskie,Radioterapia onkologiczna,LEK,3,0,0.057904,0.056054,2920,isotonic_binned_shrunk,,,0.032729
+w-2026,Pomorskie,Radioterapia onkologiczna,LEK,2,0,0.374982,0.330859,2920,isotonic_binned_shrunk,,,0.28682
+w-2026,Świętokrzyskie,Radioterapia onkologiczna,LEK,2,0,0.06014,0.057593,2920,isotonic_binned_shrunk,,,0.14384
+w-2026,Warmińsko-mazurskie,Radioterapia onkologiczna,LEK,2,1,0.01218,0.044286,2920,isotonic_binned_shrunk,,,0.03682
+w-2026,Wielkopolskie,Radioterapia onkologiczna,LEK,4,0,0.121388,0.100459,2920,isotonic_binned_shrunk,,,0.032729
+w-2026,Zachodniopomorskie,Radioterapia onkologiczna,LEK,7,0,0.024036,0.044286,2920,isotonic_binned_shrunk,,,0.03682
+w-2026,Łódzkie,Rehabilitacja medyczna,LEK,4,0,0.013117,0.044286,2920,isotonic_binned_shrunk,,,0.015759
+w-2026,Podkarpackie,Rehabilitacja medyczna,LEK,5,0,0.010652,0.044286,2920,isotonic_binned_shrunk,,,0.015759
+w-2026,Śląskie,Rehabilitacja medyczna,LEK,8,0,0.02153,0.044286,2920,isotonic_binned_shrunk,,,0.015759
+w-2026,Świętokrzyskie,Rehabilitacja medyczna,LEK,1,0,0.011929,0.044286,2920,isotonic_binned_shrunk,,,0.015759
+w-2026,Zachodniopomorskie,Rehabilitacja medyczna,LEK,1,1,0.012373,0.044286,2920,isotonic_binned_shrunk,,,0.015759
+w-2026,Dolnośląskie,Reumatologia,LEK,1,1,0.981143,0.971639,2920,isotonic_binned_shrunk,,,0.713796
+w-2026,Mazowieckie,Reumatologia,LEK,5,1,0.974299,0.971639,2920,isotonic_binned_shrunk,,,0.602685
+w-2026,Podkarpackie,Reumatologia,LEK,1,1,0.971621,0.970334,2920,isotonic_binned_shrunk,,,0.92802
+w-2026,Śląskie,Reumatologia,LEK,2,1,0.983649,0.971639,2920,isotonic_binned_shrunk,,,0.936018
+w-2026,Świętokrzyskie,Reumatologia,LEK,2,1,0.931524,0.941875,2920,isotonic_binned_shrunk,,,0.824907
+w-2026,Warmińsko-mazurskie,Reumatologia,LEK,1,1,0.935917,0.944569,2920,isotonic_binned_shrunk,,,0.77488
+w-2026,Zachodniopomorskie,Reumatologia,LEK,1,1,0.943826,0.950545,2920,isotonic_binned_shrunk,,,0.824907
+w-2026,Dolnośląskie,Stomatologia dziecięca,LDEK,1,1,0.956609,0.95885,2920,isotonic_binned_shrunk,,,0.587982
+w-2026,Kujawsko-pomorskie,Stomatologia dziecięca,LDEK,1,1,0.811976,0.853391,2920,isotonic_binned_shrunk,,,0.671979
+w-2026,Łódzkie,Stomatologia dziecięca,LDEK,1,1,0.944009,0.949852,2920,isotonic_binned_shrunk,,,0.814836
+w-2026,Małopolskie,Stomatologia dziecięca,LDEK,2,1,0.909591,0.925784,2920,isotonic_binned_shrunk,,,0.522651
+w-2026,Mazowieckie,Stomatologia dziecięca,LDEK,2,1,0.964172,0.964103,2920,isotonic_binned_shrunk,,,0.411539
+w-2026,Śląskie,Stomatologia dziecięca,LDEK,2,1,0.90243,0.920575,2920,isotonic_binned_shrunk,,,0.522651
+w-2026,Wielkopolskie,Stomatologia dziecięca,LDEK,4,1,0.786384,0.837301,2920,isotonic_binned_shrunk,,,0.540771
+w-2026,Dolnośląskie,Stomatologia zachowawcza z endodoncją,LDEK,5,1,0.879276,0.905143,2920,isotonic_binned_shrunk,,,0.674584
+w-2026,Podkarpackie,Stomatologia zachowawcza z endodoncją,LDEK,1,0,0.899897,0.920448,2920,isotonic_binned_shrunk,,,0.628096
+w-2026,Wielkopolskie,Stomatologia zachowawcza z endodoncją,LDEK,1,1,0.934887,0.943631,2920,isotonic_binned_shrunk,,,0.679335
+w-2026,Łódzkie,Toksykologia kliniczna,LEK,1,0,0.103356,0.091501,2920,isotonic_binned_shrunk,,,0.33049
+w-2026,Małopolskie,Toksykologia kliniczna,LEK,1,0,0.079026,0.073397,2920,isotonic_binned_shrunk,,,0.294717
+w-2026,Mazowieckie,Toksykologia kliniczna,LEK,1,0,0.090975,0.080006,2920,isotonic_binned_shrunk,,,0.236065
+w-2026,Pomorskie,Toksykologia kliniczna,LEK,1,0,0.060355,0.059651,2920,isotonic_binned_shrunk,,,0.093207
+w-2026,Dolnośląskie,Transfuzjologia kliniczna,LEK,1,0,0.030572,0.044286,2920,isotonic_binned_shrunk,,,0.025906
+w-2026,Lubelskie,Transfuzjologia kliniczna,LEK,1,0,0.021601,0.044286,2920,isotonic_binned_shrunk,,,0.025906
+w-2026,Lubuskie,Transfuzjologia kliniczna,LEK,1,0,0.01021,0.044286,2920,isotonic_binned_shrunk,,,0.025906
+w-2026,Mazowieckie,Transfuzjologia kliniczna,LEK,1,0,0.062784,0.05854,2920,isotonic_binned_shrunk,,,0.154144
+w-2026,Podlaskie,Transfuzjologia kliniczna,LEK,2,0,0.010166,0.044286,2920,isotonic_binned_shrunk,,,0.033307
+w-2026,Wielkopolskie,Transfuzjologia kliniczna,LEK,2,0,0.013401,0.044286,2920,isotonic_binned_shrunk,,,0.025906
+w-2026,Zachodniopomorskie,Transfuzjologia kliniczna,LEK,1,0,0.01283,0.044286,2920,isotonic_binned_shrunk,,,0.025906
+w-2026,Kujawsko-pomorskie,Urologia,LEK,2,1,0.909622,0.924397,2920,isotonic_binned_shrunk,,,0.927368
+w-2026,Lubuskie,Urologia,LEK,1,1,0.901759,0.92022,2920,isotonic_binned_shrunk,,,0.936447
+w-2026,Łódzkie,Urologia,LEK,1,1,0.978951,0.971639,2920,isotonic_binned_shrunk,,,0.943509
+w-2026,Małopolskie,Urologia,LEK,1,1,0.971714,0.969869,2920,isotonic_binned_shrunk,,,0.811447
+w-2026,Mazowieckie,Urologia,LEK,4,1,0.982635,0.971639,2920,isotonic_binned_shrunk,,,0.832398
+w-2026,Podkarpackie,Urologia,LEK,1,1,0.963379,0.964574,2920,isotonic_binned_shrunk,,,0.832398
+w-2026,Pomorskie,Urologia,LEK,1,1,0.981849,0.971639,2920,isotonic_binned_shrunk,,,0.832398
+w-2026,Wielkopolskie,Urologia,LEK,1,1,0.983888,0.971639,2920,isotonic_binned_shrunk,,,0.721287
+w-2026,Zachodniopomorskie,Urologia,LEK,1,1,0.908445,0.925753,2920,isotonic_binned_shrunk,,,0.811447

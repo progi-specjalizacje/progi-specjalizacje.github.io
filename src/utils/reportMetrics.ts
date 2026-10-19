@@ -1,10 +1,23 @@
-import type { DashboardMetric, ReportRow } from "../types";
+import { getReportOptions } from "../data/reportData";
+import type { OfferedPlaces, RecruitmentPool, TrybSzkolenia } from "../types";
 
 export interface RecruitmentSummary {
   rekrutacja: string;
-  averageThreshold: number;
-  medianQualifiedScore: number;
+  minThreshold: number;
+  medianThreshold: number;
+  maxThreshold: number;
   totalPlaces: number;
+}
+
+export interface RecruitmentTimeline {
+  /** Najbliższa rekrutacja z opublikowanymi miejscami, ale bez wyników. */
+  upcoming: string | null;
+  /** Rekrutacje z wynikami, od najnowszej. */
+  completed: string[];
+  /** Rekrutacja, której miejsca pokazujemy jako główne: zapowiedziana albo ostatnia rozstrzygnięta. */
+  focus: string | null;
+  /** Ten sam sezon rok wcześniej co `focus`. */
+  comparison: string | null;
 }
 
 function finiteValues(values: number[]) {
@@ -26,48 +39,73 @@ export function average(values: number[]) {
   return filtered.reduce((total, value) => total + value, 0) / filtered.length;
 }
 
-export function summarizeRecruitment(rows: ReportRow[], rekrutacja: string): RecruitmentSummary {
-  const recruitmentRows = rows.filter((row) => row.rekrutacja === rekrutacja);
-  const regionKeys = [...new Set(recruitmentRows.map((row) => row.wojewodztwo))];
-  const thresholdsByRegion = regionKeys.map((region) => {
-    const regionRows = recruitmentRows.filter((row) => row.wojewodztwo === region);
-    return Math.min(...regionRows.map((row) => row.wynik_proc_lub_punkty));
-  });
-  const placesByRegion = regionKeys.map((region) => {
-    const regionRows = recruitmentRows.filter((row) => row.wojewodztwo === region);
-    return median(regionRows.map((row) => row.ilosc_zakwalifikowanych_w_trybie));
-  });
+export function sameSeasonPreviousYear(rekrutacja: string) {
+  const match = /^([wj])-(\d{4})$/.exec(rekrutacja);
+  return match ? `${match[1]}-${Number(match[2]) - 1}` : null;
+}
+
+export function getRecruitmentTimeline(pools: RecruitmentPool[], places: OfferedPlaces[]): RecruitmentTimeline {
+  const options = getReportOptions();
+  const placesRecruitments = new Set(places.map((place) => place.rekrutacja));
+  const poolRecruitments = new Set(pools.map((pool) => pool.rekrutacja));
+  const upcoming = options.zapowiedzianeRekrutacje.find((rekrutacja) => placesRecruitments.has(rekrutacja)) ?? null;
+  const completed = options.rekrutacje.filter((rekrutacja) => poolRecruitments.has(rekrutacja));
+  const focus = upcoming ?? completed[0] ?? null;
+
+  return {
+    upcoming,
+    completed,
+    focus,
+    comparison: focus ? sameSeasonPreviousYear(focus) : null,
+  };
+}
+
+/** Wolne miejsca w puli; null, gdy nie znamy liczby oferowanych miejsc. */
+export function poolVacancies(pool: RecruitmentPool) {
+  if (pool.liczba_miejsc === null) return null;
+  return Math.max(0, pool.liczba_miejsc - pool.liczba_zakwalifikowanych);
+}
+
+export function placesFor(places: OfferedPlaces[], rekrutacja: string | null) {
+  if (!rekrutacja) return Number.NaN;
+  const matching = places.filter((place) => place.rekrutacja === rekrutacja);
+  if (matching.length === 0) return Number.NaN;
+  return matching.reduce((total, place) => total + place.liczba_miejsc, 0);
+}
+
+export function toDisplayedScore(scoreProc: number | null, trybSzkolenia: TrybSzkolenia, scoreAsPoints: boolean) {
+  if (scoreProc === null || !Number.isFinite(scoreProc)) return Number.NaN;
+  if (!scoreAsPoints) return scoreProc;
+  const maximum = trybSzkolenia === "Rezydencki" ? 210 : 220;
+  return Math.round((scoreProc / 100) * maximum);
+}
+
+export function summarizeRecruitment(
+  pools: RecruitmentPool[],
+  places: OfferedPlaces[],
+  rekrutacja: string,
+): RecruitmentSummary {
+  const recruitmentPools = pools.filter((pool) => pool.rekrutacja === rekrutacja);
+  const thresholds = recruitmentPools
+    .filter((pool) => pool.status_konkurencyjnosci === "full")
+    .map((pool) => pool.najnizszy_wynik_proc ?? Number.NaN)
+    .filter((value) => Number.isFinite(value));
+  const poolPlaces = finiteValues(recruitmentPools.map((pool) => pool.liczba_miejsc ?? Number.NaN));
+  const listedPlaces = placesFor(places, rekrutacja);
 
   return {
     rekrutacja,
-    averageThreshold: average(thresholdsByRegion),
-    medianQualifiedScore: average(recruitmentRows.map((row) => row.wynik_proc_lub_punkty)),
-    totalPlaces:
-      regionKeys.length === 0 ? Number.NaN : finiteValues(placesByRegion).reduce((total, value) => total + value, 0),
+    minThreshold: thresholds.length > 0 ? Math.min(...thresholds) : Number.NaN,
+    medianThreshold: median(thresholds),
+    maxThreshold: thresholds.length > 0 ? Math.max(...thresholds) : Number.NaN,
+    totalPlaces: Number.isFinite(listedPlaces)
+      ? listedPlaces
+      : poolPlaces.length > 0
+        ? poolPlaces.reduce((total, value) => total + value, 0)
+        : Number.NaN,
   };
 }
 
-export function summarizeRecruitments(rows: ReportRow[], rekrutacje: string[]) {
-  return rekrutacje.map((rekrutacja) => summarizeRecruitment(rows, rekrutacja));
-}
-
-export function summarizeActiveFilters(rows: ReportRow[]): Pick<RecruitmentSummary, DashboardMetric> {
-  const regionKeys = [...new Set(rows.map((row) => `${row.rekrutacja}::${row.wojewodztwo}`))];
-  const thresholdsByRegion = regionKeys.map((key) => {
-    const [rekrutacja, wojewodztwo] = key.split("::");
-    const regionRows = rows.filter((row) => row.rekrutacja === rekrutacja && row.wojewodztwo === wojewodztwo);
-    return Math.min(...regionRows.map((row) => row.wynik_proc_lub_punkty));
-  });
-  const placesByRegion = regionKeys.map((key) => {
-    const [rekrutacja, wojewodztwo] = key.split("::");
-    const regionRows = rows.filter((row) => row.rekrutacja === rekrutacja && row.wojewodztwo === wojewodztwo);
-    return median(regionRows.map((row) => row.ilosc_zakwalifikowanych_w_trybie));
-  });
-
-  return {
-    averageThreshold: average(thresholdsByRegion),
-    medianQualifiedScore: average(rows.map((row) => row.wynik_proc_lub_punkty)),
-    totalPlaces:
-      regionKeys.length === 0 ? Number.NaN : finiteValues(placesByRegion).reduce((total, value) => total + value, 0),
-  };
+export function summarizeRecruitments(pools: RecruitmentPool[], places: OfferedPlaces[], rekrutacje: string[]) {
+  return rekrutacje.map((rekrutacja) => summarizeRecruitment(pools, places, rekrutacja));
 }

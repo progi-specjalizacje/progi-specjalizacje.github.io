@@ -1,7 +1,7 @@
 [
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Łódzkie",
     "lp": 105,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -17,7 +17,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Mazowieckie",
     "lp": 201,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -33,7 +33,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Śląskie",
     "lp": 184,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -49,7 +49,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 182,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -65,7 +65,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 183,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -81,7 +81,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Mazowieckie",
     "lp": 247,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -97,7 +97,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Śląskie",
     "lp": 176,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -113,7 +113,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Wielkopolskie",
     "lp": 129,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -129,7 +129,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Zachodniopomorskie",
     "lp": 85,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -145,7 +145,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 129,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -161,7 +161,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Pomorskie",
     "lp": 56,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -177,7 +177,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Śląskie",
     "lp": 56,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -193,7 +193,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Kujawsko-pomorskie",
     "lp": 25,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -209,7 +209,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Małopolskie",
     "lp": 39,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -225,7 +225,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 119,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -241,7 +241,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Pomorskie",
     "lp": 37,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -257,7 +257,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Wielkopolskie",
     "lp": 53,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -273,7 +273,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Wielkopolskie",
     "lp": 54,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -289,7 +289,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Śląskie",
     "lp": 85,
     "dziedzina_medycyny": "Farmakologia kliniczna",
@@ -305,7 +305,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Mazowieckie",
     "lp": 128,
     "dziedzina_medycyny": "Farmakologia kliniczna",

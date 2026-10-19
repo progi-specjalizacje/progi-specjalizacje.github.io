@@ -1,7 +1,7 @@
 [
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Kujawsko-pomorskie",
     "lp": 249,
     "dziedzina_medycyny": "Seksuologia",
@@ -17,7 +17,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Mazowieckie",
     "lp": 793,
     "dziedzina_medycyny": "Seksuologia",
@@ -33,7 +33,7 @@
   },
   {
     "rekrutacja": "j-2023",
-    "kolejnosc_plikow": 10,
+    "kolejnosc_plikow": 20231121,
     "wojewodztwo": "Śląskie",
     "lp": 522,
     "dziedzina_medycyny": "Seksuologia",
@@ -49,7 +49,7 @@
   },
   {
     "rekrutacja": "j-2024",
-    "kolejnosc_plikow": 12,
+    "kolejnosc_plikow": 20241119,
     "wojewodztwo": "Śląskie",
     "lp": 656,
     "dziedzina_medycyny": "Seksuologia",
@@ -65,7 +65,7 @@
   },
   {
     "rekrutacja": "j-2025",
-    "kolejnosc_plikow": 14,
+    "kolejnosc_plikow": 20251118,
     "wojewodztwo": "Śląskie",
     "lp": 554,
     "dziedzina_medycyny": "Seksuologia",
@@ -81,7 +81,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Kujawsko-pomorskie",
     "lp": 104,
     "dziedzina_medycyny": "Seksuologia",
@@ -97,7 +97,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 384,
     "dziedzina_medycyny": "Seksuologia",
@@ -113,7 +113,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 385,
     "dziedzina_medycyny": "Seksuologia",
@@ -129,7 +129,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Mazowieckie",
     "lp": 386,
     "dziedzina_medycyny": "Seksuologia",
@@ -145,7 +145,7 @@
   },
   {
     "rekrutacja": "w-2023",
-    "kolejnosc_plikow": 9,
+    "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Wielkopolskie",
     "lp": 175,
     "dziedzina_medycyny": "Seksuologia",
@@ -161,7 +161,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Łódzkie",
     "lp": 159,
     "dziedzina_medycyny": "Seksuologia",
@@ -177,7 +177,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Łódzkie",
     "lp": 160,
     "dziedzina_medycyny": "Seksuologia",
@@ -193,7 +193,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Łódzkie",
     "lp": 161,
     "dziedzina_medycyny": "Seksuologia",
@@ -209,7 +209,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 395,
     "dziedzina_medycyny": "Seksuologia",
@@ -225,7 +225,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 396,
     "dziedzina_medycyny": "Seksuologia",
@@ -241,7 +241,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Mazowieckie",
     "lp": 397,
     "dziedzina_medycyny": "Seksuologia",
@@ -257,7 +257,7 @@
   },
   {
     "rekrutacja": "w-2024",
-    "kolejnosc_plikow": 11,
+    "kolejnosc_plikow": 20240416,
     "wojewodztwo": "Wielkopolskie",
     "lp": 174,
     "dziedzina_medycyny": "Seksuologia",
@@ -273,7 +273,7 @@
   },
   {
     "rekrutacja": "w-2025",
-    "kolejnosc_plikow": 13,
+    "kolejnosc_plikow": 20250416,
     "wojewodztwo": "Wielkopolskie",
     "lp": 232,
     "dziedzina_medycyny": "Seksuologia",
@@ -289,7 +289,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Łódzkie",
     "lp": 171,
     "dziedzina_medycyny": "Seksuologia",
@@ -305,7 +305,7 @@
   },
   {
     "rekrutacja": "w-2026",
-    "kolejnosc_plikow": 15,
+    "kolejnosc_plikow": 20260414,
     "wojewodztwo": "Śląskie",
     "lp": 331,
     "dziedzina_medycyny": "Seksuologia",

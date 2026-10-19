@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
+
+# Former /specjalizacje/ subpages were removed and now return 404. They are deliberately
+# not disallowed, so crawlers can fetch the 404 and drop the URLs from the index.
+
 Sitemap: https://progi-specjalizacje.pl/sitemap.xml
