@@ -9,7 +9,6 @@ import { TextBox } from "./components/TextBox";
 import { Calculator } from "./components/Calculator";
 import { SimulationTable } from "./components/SimulationTable";
 import { HowItWorksCard } from "./components/HowItWorksCard";
-import { DermatologyForecastPilot, OrthodonticsForecastPilot } from "./components/DermatologyForecastPilot";
 import { dashboardLayout, type DashboardVisual } from "./config/dashboardLayout";
 import { getReportOptions } from "./data/reportData";
 import { useFilterStore } from "./state/filterStore";
@@ -149,8 +148,5 @@ function DashboardApp() {
 }
 
 export default function App() {
-  const forecastView = new URLSearchParams(window.location.search).get("widok");
-  if (forecastView === "prognoza-dermatologia") return <DermatologyForecastPilot />;
-  if (forecastView === "prognoza-ortodoncja") return <OrthodonticsForecastPilot />;
   return <DashboardApp />;
 }

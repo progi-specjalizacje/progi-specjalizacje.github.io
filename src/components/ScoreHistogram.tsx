@@ -8,7 +8,7 @@ const minChartHeight = 130;
 const padding = { top: 38, right: 8, bottom: 26, left: 28 };
 const binWidthOptions = [0.5, 1, 2, 5];
 const maxBins = 24;
-// Small samples read better as one dot per person than as bars.
+// Small samples read better as one square per person than as bars.
 const maxDotPlotSize = 60;
 const minDotRadius = 3;
 const colors = { below: "#5cbf8e", bonus: "#f2b544", above: "#d3c4ea", user: "#6843a2" };
@@ -178,19 +178,20 @@ export function ScoreHistogram() {
             <g key={bin.from}>
               {useDots ? (
                 bin.entries.map((entry, dotIndex) => (
-                  <circle
+                  <rect
                     key={dotIndex}
                     className="histogram-mark"
-                    cx={x + binPixels / 2}
-                    cy={chartBottom - dotRadius - 1 - dotIndex * dotRadius * 2}
-                    r={dotRadius}
+                    x={x + binPixels / 2 - dotRadius + 0.5}
+                    y={chartBottom - 1 - (dotIndex + 1) * dotRadius * 2 + 0.5}
+                    width={dotRadius * 2 - 1}
+                    height={dotRadius * 2 - 1}
                     fill={fillFor(entry.score)}
                   >
                     <title>
                       {formatPercentPoints(entry.score)}
                       {entry.open ? " · województwo z wolnymi miejscami" : ""}
                     </title>
-                  </circle>
+                  </rect>
                 ))
               ) : total > 0 ? (
                 <g>
@@ -204,7 +205,6 @@ export function ScoreHistogram() {
                     y={yOf(total)}
                     width={Math.max(1, binPixels - 2)}
                     height={chartBottom - yOf(total)}
-                    rx={3}
                     fill={colors.above}
                   />
                   <rect
@@ -213,7 +213,6 @@ export function ScoreHistogram() {
                     y={yOf(reached)}
                     width={Math.max(1, binPixels - 2)}
                     height={chartBottom - yOf(reached)}
-                    rx={reached === total ? 3 : 0}
                     fill={colors.bonus}
                   />
                   <rect
@@ -222,7 +221,6 @@ export function ScoreHistogram() {
                     y={yOf(below)}
                     width={Math.max(1, binPixels - 2)}
                     height={chartBottom - yOf(below)}
-                    rx={below === total ? 3 : 0}
                     fill={colors.below}
                   />
                 </g>
@@ -244,7 +242,6 @@ export function ScoreHistogram() {
               y={chartBottom - 3}
               width={Math.max(0, userX - baseX)}
               height={6}
-              rx={3}
               fill={colors.bonus}
             />
             <line
@@ -272,8 +269,8 @@ export function ScoreHistogram() {
             strokeWidth={3}
             strokeDasharray={userOutside ? "3 4" : undefined}
           />
-          <circle cx={0} cy={chartBottom} r={5} fill={colors.user} />
-          <rect x={badgeOffset} y={chartTop - 36} width={badgeWidth} height={24} rx={12} fill={colors.user} />
+          <rect x={-5} y={chartBottom - 5} width={10} height={10} fill={colors.user} />
+          <rect x={badgeOffset} y={chartTop - 36} width={badgeWidth} height={24} fill={colors.user} />
           <text x={badgeOffset + badgeWidth / 2} y={chartTop - 20} className="histogram-badge" textAnchor="middle">
             {badgeText}
           </text>
@@ -314,7 +311,7 @@ export function ScoreHistogram() {
         {roundPicker}
         <span className="histogram-context">
           cała Polska · mediana {formatPercentPoints(median(entries.map((entry) => entry.score)))}
-          {useDots && " · 1 kropka = 1 osoba"}
+          {useDots && " · 1 kwadrat = 1 osoba"}
         </span>
       </div>
 

@@ -83,7 +83,7 @@ export function SummaryChart() {
         {chartMode === "points" ? (
           <>
             <span>
-              <i style={{ background: MEDIAN_COLOR, borderRadius: 999 }} />
+              <i style={{ background: MEDIAN_COLOR }} />
               Mediana progów województw
             </span>
             <span>
@@ -154,10 +154,9 @@ export function SummaryChart() {
                       y={yMax - 4}
                       width={18}
                       height={Math.max(yMin - yMax, 0) + 8}
-                      rx={9}
                       fill={RANGE_COLOR}
                     />
-                    <circle cx={x} cy={yMedian} r={6} fill={MEDIAN_COLOR} stroke="#ffffff" strokeWidth={2} />
+                    <rect x={x - 6} y={yMedian - 6} width={12} height={12} fill={MEDIAN_COLOR} stroke="#ffffff" strokeWidth={2} />
                     <text x={x + 14} y={yMedian + 4} className="chart-point-label" textAnchor="start">
                       {formatted(summary.medianThreshold)}
                     </text>
@@ -178,7 +177,7 @@ export function SummaryChart() {
                     <path d={path} fill="none" stroke={PLACES_COLOR} strokeWidth={3} />
                     {points.map((point) => (
                       <g key={point.x}>
-                        <circle cx={point.x} cy={point.y} r={4} fill={PLACES_COLOR} />
+                        <rect x={point.x - 4} y={point.y - 4} width={8} height={8} fill={PLACES_COLOR} />
                         <text x={point.x} y={point.y - 9} className="chart-point-label" textAnchor="middle">
                           {formatByType(point.value, "number")}
                         </text>
