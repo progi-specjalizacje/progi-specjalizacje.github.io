@@ -73,7 +73,6 @@ export function LatestResultsCard() {
     <section className="kpi-card results-card" aria-label={`Wyniki · ${formatRecruitmentName(model.rekrutacja)}`}>
       <div className="kpi-label">
         Ostatnie wyniki · {formatRecruitmentName(model.rekrutacja)}
-        <InfoTooltip text="Najnowsza rekrutacja, dla której CMKP opublikowało listy zakwalifikowanych." />
       </div>
 
       <div className="results-section">
@@ -90,7 +89,7 @@ export function LatestResultsCard() {
               <strong>{format(model.medianScore)}</strong>
               <span>
                 {thresholds.length === 1 ? "próg" : "typowy próg"}
-                <InfoTooltip text="Mediana progów z województw, w których wszystkie miejsca zostały zajęte: w połowie z nich próg był niższy, w połowie wyższy." />
+                <InfoTooltip text="Mediana progów z województw, w których wszystkie miejsca zostały zajęte." />
               </span>
             </div>
             {span > 0 && (

@@ -134,7 +134,7 @@ function summaryModeCells(item, mode, recruitment) {
   const places = Number.isFinite(latest.totalPlaces) ? Math.round(latest.totalPlaces) : "—";
   const threshold = Number.isFinite(latest.averageThreshold)
     ? `${formatPercent(latest.averageThreshold)} <small>(${formatPoints(latest.averageThreshold, data.maxPoints)})</small>`
-    : "brak progu";
+    : "zostały wolne miejsca";
   return `<td>${places}</td><td>${threshold}</td>`;
 }
 
