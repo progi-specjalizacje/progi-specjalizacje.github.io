@@ -7,12 +7,6 @@ export interface RecruitmentSummary {
   medianThreshold: number;
   maxThreshold: number;
   totalPlaces: number;
-  /** Zakwalifikowani w pulach o znanej liczbie miejsc (nie więcej niż liczba miejsc w puli). */
-  filledPlaces: number;
-  /** Miejsca w pulach, dla których znamy liczbę zakwalifikowanych. */
-  fillablePlaces: number;
-  vacancies: number;
-  regionsWithVacancies: number;
 }
 
 export interface RecruitmentTimeline {
@@ -96,15 +90,6 @@ export function summarizeRecruitment(
     .filter((pool) => pool.status_konkurencyjnosci === "full")
     .map((pool) => pool.najnizszy_wynik_proc ?? Number.NaN)
     .filter((value) => Number.isFinite(value));
-  const vacanciesByPool = recruitmentPools
-    .map(poolVacancies)
-    .filter((value): value is number => value !== null);
-  const knownCapacityPools = recruitmentPools.filter((pool) => pool.liczba_miejsc !== null);
-  const fillablePlaces = knownCapacityPools.reduce((total, pool) => total + (pool.liczba_miejsc ?? 0), 0);
-  const filledPlaces = knownCapacityPools.reduce(
-    (total, pool) => total + Math.min(pool.liczba_zakwalifikowanych, pool.liczba_miejsc ?? 0),
-    0,
-  );
   const poolPlaces = finiteValues(recruitmentPools.map((pool) => pool.liczba_miejsc ?? Number.NaN));
   const listedPlaces = placesFor(places, rekrutacja);
 
@@ -118,10 +103,6 @@ export function summarizeRecruitment(
       : poolPlaces.length > 0
         ? poolPlaces.reduce((total, value) => total + value, 0)
         : Number.NaN,
-    filledPlaces: knownCapacityPools.length > 0 ? filledPlaces : Number.NaN,
-    fillablePlaces: knownCapacityPools.length > 0 ? fillablePlaces : Number.NaN,
-    vacancies: vacanciesByPool.length > 0 ? vacanciesByPool.reduce((total, value) => total + value, 0) : Number.NaN,
-    regionsWithVacancies: vacanciesByPool.filter((value) => value > 0).length,
   };
 }
 

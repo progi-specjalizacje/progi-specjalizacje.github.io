@@ -10,12 +10,9 @@ import { InfoTooltip } from "./FilterControls";
 const width = 920;
 const height = 260;
 const padding = { top: 24, right: 24, bottom: 44, left: 48 };
-const series = [
-  { key: "maxThreshold", label: "Najwyższy próg województwa", color: "#7c3aed", format: "score" },
-  { key: "medianThreshold", label: "Mediana progów województw", color: "#0f766e", format: "score" },
-  { key: "minThreshold", label: "Najniższy próg województwa", color: "#64748b", format: "score" },
-  { key: "totalPlaces", label: "Suma miejsc", color: "#b7791f", format: "number" },
-] as const;
+const RANGE_COLOR = "#d9cbf0";
+const MEDIAN_COLOR = "#6843a2";
+const PLACES_COLOR = "#b7791f";
 type ChartMode = "points" | "places";
 
 function scale(value: number, min: number, max: number, outputMin: number, outputMax: number) {
@@ -33,7 +30,8 @@ export function SummaryChart() {
   const upcoming = useMemo(() => getRecruitmentTimeline(pools, places).upcoming, [places, pools]);
   const summaries = useMemo(
     () =>
-      summarizeRecruitments(pools, places, [...(upcoming ? [upcoming] : []), ...getReportOptions().rekrutacje]).map(
+      // Chronologicznie: najstarsza rekrutacja po lewej, zapowiedziana na końcu.
+      summarizeRecruitments(pools, places, [...getReportOptions().rekrutacje].reverse().concat(upcoming ? [upcoming] : [])).map(
         (summary) => ({
           ...summary,
           minThreshold: toDisplayedScore(summary.minThreshold, trybSzkolenia, scoreAsPoints),
@@ -43,19 +41,24 @@ export function SummaryChart() {
       ),
     [places, pools, scoreAsPoints, trybSzkolenia, upcoming],
   );
-  const visibleSeries =
-    chartMode === "points"
-      ? series.filter((item) => item.key !== "totalPlaces")
-      : series.filter((item) => item.key === "totalPlaces");
-  const values = summaries.flatMap((summary) =>
-    visibleSeries.map((item) => summary[item.key]).filter((value) => Number.isFinite(value)),
-  );
-  const min = values.length > 0 ? Math.min(...values) : 0;
-  const max = values.length > 0 ? Math.max(...values) : 1;
+  const values = summaries
+    .flatMap((summary) =>
+      chartMode === "points" ? [summary.minThreshold, summary.maxThreshold] : [summary.totalPlaces],
+    )
+    .filter((value) => Number.isFinite(value));
+  const rawMin = values.length > 0 ? Math.min(...values) : 0;
+  const rawMax = values.length > 0 ? Math.max(...values) : 1;
+  // W trybie progów zostawiamy zapas, żeby słupki rozpiętości nie dotykały osi.
+  const domainPadding = chartMode === "points" ? Math.max((rawMax - rawMin) * 0.08, 0.5) : 0;
+  const min = rawMin - domainPadding;
+  const max = rawMax + domainPadding;
   const chartLeft = padding.left;
   const chartRight = width - padding.right;
   const chartTop = padding.top;
   const chartBottom = height - padding.bottom;
+  // Margines z boku, żeby słupki i etykiety skrajnych rekrutacji nie wychodziły poza oś.
+  const xFor = (index: number) =>
+    scale(index, 0, Math.max(summaries.length - 1, 1), chartLeft + 28, chartRight - 44);
 
   return (
     <section className="summary-chart">
@@ -77,15 +80,24 @@ export function SummaryChart() {
         </button>
       </div>
       <div className="chart-legend">
-        {visibleSeries.map((item) => (
-          <span key={item.key}>
-            <i style={{ background: item.color }} />
-            {item.label}
-            {item.key === "medianThreshold" && (
-              <InfoTooltip text="Progi liczymy wyłącznie w województwach, w których obsadzono wszystkie oferowane miejsca. Najniższy wynik z niewypełnionej puli nie jest traktowany jako próg konkurencyjny." />
-            )}
+        {chartMode === "points" ? (
+          <>
+            <span>
+              <i style={{ background: MEDIAN_COLOR, borderRadius: 999 }} />
+              Mediana progów województw
+            </span>
+            <span>
+              <i style={{ background: RANGE_COLOR }} />
+              Rozpiętość: od najniższego do najwyższego progu
+              <InfoTooltip text="Progi liczymy wyłącznie w województwach, w których obsadzono wszystkie oferowane miejsca. Najniższy wynik z niewypełnionej puli nie jest traktowany jako próg konkurencyjny. Najedź na słupek, aby zobaczyć wartości skrajne." />
+            </span>
+          </>
+        ) : (
+          <span>
+            <i style={{ background: PLACES_COLOR }} />
+            Suma miejsc w Polsce
           </span>
-        ))}
+        )}
         {chartMode === "points" && (
           <p className="chart-axis-note">
             {scoreAsPoints
@@ -114,7 +126,7 @@ export function SummaryChart() {
             );
           })}
           {summaries.map((summary, index) => {
-            const x = scale(index, 0, Math.max(summaries.length - 1, 1), chartLeft, chartRight);
+            const x = xFor(index);
             return (
               <text key={summary.rekrutacja} x={x} y={height - 15} className="chart-label" textAnchor="middle">
                 {summary.rekrutacja}
@@ -122,41 +134,60 @@ export function SummaryChart() {
               </text>
             );
           })}
-          {visibleSeries.map((item) => {
-            const points = summaries
-              .map((summary, index) => {
-                const value = summary[item.key];
-                if (!Number.isFinite(value)) return null;
+          {chartMode === "points"
+            ? summaries.map((summary, index) => {
+                if (!Number.isFinite(summary.medianThreshold)) return null;
+                const x = xFor(index);
+                const yMin = scale(summary.minThreshold, min, max, chartBottom, chartTop);
+                const yMax = scale(summary.maxThreshold, min, max, chartBottom, chartTop);
+                const yMedian = scale(summary.medianThreshold, min, max, chartBottom, chartTop);
+                const formatted = (value: number) => formatByType(value, "score", scoreAsPoints);
 
-                return {
-                  x: scale(index, 0, Math.max(summaries.length - 1, 1), chartLeft, chartRight),
-                  y: scale(value, min, max, chartBottom, chartTop),
-                  value,
-                };
-              })
-              .filter((point): point is { x: number; y: number; value: number } => point !== null);
-            const path = points.map((point, index) => `${index === 0 ? "M" : "L"} ${point.x} ${point.y}`).join(" ");
-
-            return (
-              <g key={item.key}>
-                <path d={path} fill="none" stroke={item.color} strokeWidth={item.key === "medianThreshold" || item.key === "totalPlaces" ? 3 : 2} />
-                {points.map((point) => (
-                  <g key={`${item.key}-${point.x}`}>
-                    <circle cx={point.x} cy={point.y} r={4} fill={item.color} />
-                    <text
-                      x={point.x}
-                      y={item.key === "minThreshold" ? point.y + 18 : point.y - 9}
-                      className="chart-point-label"
-                      textAnchor="middle"
-                    >
-                      {formatByType(point.value, item.format, scoreAsPoints)}
+                return (
+                  <g key={summary.rekrutacja}>
+                    <title>
+                      {`${summary.rekrutacja}: mediana ${formatted(summary.medianThreshold)}, ` +
+                        `od ${formatted(summary.minThreshold)} do ${formatted(summary.maxThreshold)}`}
+                    </title>
+                    <rect
+                      x={x - 9}
+                      y={yMax - 4}
+                      width={18}
+                      height={Math.max(yMin - yMax, 0) + 8}
+                      rx={9}
+                      fill={RANGE_COLOR}
+                    />
+                    <circle cx={x} cy={yMedian} r={6} fill={MEDIAN_COLOR} stroke="#ffffff" strokeWidth={2} />
+                    <text x={x + 14} y={yMedian + 4} className="chart-point-label" textAnchor="start">
+                      {formatted(summary.medianThreshold)}
                     </text>
-                    <title>{`${item.label}: ${formatByType(point.value, item.format, scoreAsPoints)}`}</title>
                   </g>
-                ))}
-              </g>
-            );
-          })}
+                );
+              })
+            : (() => {
+                const points = summaries
+                  .map((summary, index) =>
+                    Number.isFinite(summary.totalPlaces)
+                      ? { x: xFor(index), y: scale(summary.totalPlaces, min, max, chartBottom, chartTop), value: summary.totalPlaces }
+                      : null,
+                  )
+                  .filter((point): point is { x: number; y: number; value: number } => point !== null);
+                const path = points.map((point, index) => `${index === 0 ? "M" : "L"} ${point.x} ${point.y}`).join(" ");
+                return (
+                  <g>
+                    <path d={path} fill="none" stroke={PLACES_COLOR} strokeWidth={3} />
+                    {points.map((point) => (
+                      <g key={point.x}>
+                        <circle cx={point.x} cy={point.y} r={4} fill={PLACES_COLOR} />
+                        <text x={point.x} y={point.y - 9} className="chart-point-label" textAnchor="middle">
+                          {formatByType(point.value, "number")}
+                        </text>
+                        <title>{`Suma miejsc: ${formatByType(point.value, "number")}`}</title>
+                      </g>
+                    ))}
+                  </g>
+                );
+              })()}
         </svg>
       </div>
     </section>

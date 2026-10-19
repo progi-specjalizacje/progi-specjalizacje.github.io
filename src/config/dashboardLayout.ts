@@ -1,6 +1,6 @@
 import type { DashboardMetric, PivotConfig, TextVariant } from "../types";
 
-type VisualType = "text" | "card" | "pivot" | "filters" | "chart" | "calculator" | "simulation";
+type VisualType = "text" | "card" | "results" | "pivot" | "filters" | "chart" | "calculator" | "simulation";
 
 interface GridPosition {
   column: number;
@@ -32,6 +32,10 @@ export interface CardVisual extends BaseVisual {
   };
 }
 
+export interface ResultsVisual extends BaseVisual {
+  type: "results";
+}
+
 export interface PivotVisual extends BaseVisual {
   type: "pivot";
   props: {
@@ -43,7 +47,7 @@ export interface PivotVisual extends BaseVisual {
 export interface FilterVisual extends BaseVisual {
   type: "filters";
   props: {
-    variant: "field" | "secondary";
+    variant: "field" | "context";
   };
 }
 
@@ -62,6 +66,7 @@ export interface SimulationVisual extends BaseVisual {
 export type DashboardVisual =
   | TextVisual
   | CardVisual
+  | ResultsVisual
   | PivotVisual
   | FilterVisual
   | ChartVisual
@@ -88,51 +93,38 @@ export const dashboardLayout: DashboardVisual[] = [
     },
   },
   {
+    // Pasek zajmuje wiersz 3, ale jego obszar sięga do końca wykresu: dzięki temu
+    // przykleja się podczas przewijania raportu i znika przed kalkulatorem.
+    id: "context-bar",
+    type: "filters",
+    grid: { column: 1, row: 3, colSpan: 12, rowSpan: 18 },
+    props: { variant: "context" },
+  },
+  {
     id: "field-filter",
     type: "filters",
-    grid: { column: 1, row: 3, colSpan: 3, rowSpan: 6 },
+    grid: { column: 1, row: 4, colSpan: 3, rowSpan: 4 },
     props: { variant: "field" },
   },
   {
     id: "places-card",
     type: "card",
-    grid: { column: 4, row: 3, colSpan: 5, rowSpan: 4 },
+    grid: { column: 4, row: 4, colSpan: 5, rowSpan: 4 },
     props: {
-      label: "Miejsca · {rekrutacja}",
+      label: "{etap} · {rekrutacja}",
       metric: "focusPlaces",
       tooltip: "Liczba miejsc opublikowana przez CMKP dla najnowszej rekrutacji w wybranym trybie, bez miejsc doktoranckich. Porównanie dotyczy tego samego sezonu rok wcześniej.",
     },
   },
   {
-    id: "threshold-card",
-    type: "card",
-    grid: { column: 9, row: 3, colSpan: 4, rowSpan: 2 },
-    props: {
-      label: "Próg konkurencyjny · {rekrutacja}",
-      metric: "latestThreshold",
-      tooltip: "Przedział od najniższego do najwyższego progu w województwach, w których obsadzono wszystkie miejsca. Gdy zostały wolne miejsca, najniższy przyjęty wynik nie był progiem i nie wchodzi do przedziału.",
-    },
-  },
-  {
-    id: "fill-card",
-    type: "card",
-    grid: { column: 9, row: 5, colSpan: 4, rowSpan: 2 },
-    props: {
-      label: "Obsadzone miejsca · {rekrutacja}",
-      metric: "latestFill",
-      tooltip: "Zakwalifikowane osoby / oferowane miejsca w ostatniej rozstrzygniętej rekrutacji. Tam, gdzie zostały wolne miejsca, nie było progu konkurencyjnego.",
-    },
-  },
-  {
-    id: "secondary-filters",
-    type: "filters",
-    grid: { column: 4, row: 7, colSpan: 9, rowSpan: 2 },
-    props: { variant: "secondary" },
+    id: "results-card",
+    type: "results",
+    grid: { column: 9, row: 4, colSpan: 4, rowSpan: 4 },
   },
   {
     id: "pivot",
     type: "pivot",
-    grid: { column: 1, row: 9, colSpan: 12, rowSpan: 8 },
+    grid: { column: 1, row: 8, colSpan: 12, rowSpan: 8 },
     props: {
       title: "Historia progów konkurencyjnych i obsady miejsc",
       config: {
@@ -157,12 +149,12 @@ export const dashboardLayout: DashboardVisual[] = [
   {
     id: "summary-chart",
     type: "chart",
-    grid: { column: 1, row: 17, colSpan: 12, rowSpan: 5 },
+    grid: { column: 1, row: 16, colSpan: 12, rowSpan: 5 },
   },
   {
     id: "calculator-section-title",
     type: "text",
-    grid: { column: 1, row: 22, colSpan: 12, rowSpan: 1 },
+    grid: { column: 1, row: 21, colSpan: 12, rowSpan: 1 },
     props: {
       text: "Kalkulator punktów rekrutacyjnych i symulacja szans",
       variant: "heading1",
@@ -171,11 +163,11 @@ export const dashboardLayout: DashboardVisual[] = [
   {
     id: "calculator",
     type: "calculator",
-    grid: { column: 1, row: 23, colSpan: 7, rowSpan: 12 },
+    grid: { column: 1, row: 22, colSpan: 7, rowSpan: 12 },
   },
   {
     id: "simulation",
     type: "simulation",
-    grid: { column: 8, row: 23, colSpan: 5, rowSpan: 12 },
+    grid: { column: 8, row: 22, colSpan: 5, rowSpan: 12 },
   },
 ];

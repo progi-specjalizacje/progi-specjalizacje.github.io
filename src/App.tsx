@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { SponsorWelcome } from "./components/SponsorWelcome";
 import { Card } from "./components/Card";
+import { LatestResultsCard } from "./components/LatestResultsCard";
 import { FilterPanel } from "./components/FilterControls";
 import { PivotTable } from "./components/PivotTable";
 import { SummaryChart } from "./components/SummaryChart";
@@ -50,6 +51,10 @@ function renderVisual(visual: DashboardVisual) {
 
   if (visual.type === "card") {
     return <Card {...visual.props} />;
+  }
+
+  if (visual.type === "results") {
+    return <LatestResultsCard />;
   }
 
   if (visual.type === "pivot") {

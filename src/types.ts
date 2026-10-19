@@ -4,7 +4,7 @@ export type TrybSzkolenia = "Rezydencki" | "Pozarezydencki";
 export type PrzedstawWynikJako =
   | "% punktów rekrutacyjnych (domyślne)"
   | "surowa ilość punktów rekrutacyjnych (poglądowo)";
-export type DashboardMetric = "focusPlaces" | "latestThreshold" | "latestFill";
+export type DashboardMetric = "focusPlaces";
 
 export type CompetitionStatus =
   | "full"
