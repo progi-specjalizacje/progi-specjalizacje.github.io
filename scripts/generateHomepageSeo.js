@@ -130,8 +130,8 @@ function writeSitemap() {
 function summaryModeCells(item, mode, recruitment) {
   const data = item.analysis[mode];
   const latest = data?.history[0];
-  if (!latest || latest.recruitment !== recruitment) return `<td>—</td><td>—</td>`;
-  const places = Number.isFinite(latest.totalPlaces) ? Math.round(latest.totalPlaces) : "—";
+  if (!latest || latest.recruitment !== recruitment) return `<td>-</td><td>-</td>`;
+  const places = Number.isFinite(latest.totalPlaces) ? Math.round(latest.totalPlaces) : "-";
   const threshold = Number.isFinite(latest.averageThreshold)
     ? `${formatPercent(latest.averageThreshold)} <small>(${formatPoints(latest.averageThreshold, data.maxPoints)})</small>`
     : "zostały wolne miejsca";
@@ -154,7 +154,7 @@ function writeHomepageSummary(items) {
       <h2 id="seo-summary-title">Progi na specjalizacje lekarskie – nabór ${escapeHtml(label)}</h2>
       <p>Zestawienie progów konkurencyjnych na rezydenturę i w trybie pozarezydenckim dla ${HOMEPAGE_SUMMARY_COUNT} specjalizacji lekarskich z największą liczbą zakwalifikowanych osób. Próg to średnia z progów wojewódzkich – tylko z tych województw, w których obsadzono wszystkie miejsca; w nawiasie podano odpowiadającą mu liczbę punktów. Pełne dane dla każdego województwa, specjalizacji lekarskich i lekarsko-dentystycznych znajdziesz w raporcie powyżej.</p>
       <div class="seo-summary-table"><table>
-        <thead><tr><th scope="col" rowspan="2">Specjalizacja</th><th scope="colgroup" colspan="2">Rezydentura</th><th scope="colgroup" colspan="2">Tryb pozarezydencki</th></tr>
+        <thead><tr><th scope="col" rowspan="2">Specjalizacja</th><th scope="colgroup" colspan="2">Tryb rezydencki</th><th scope="colgroup" colspan="2">Tryb pozarezydencki</th></tr>
         <tr><th scope="col">Miejsca</th><th scope="col">Próg</th><th scope="col">Miejsca</th><th scope="col">Próg</th></tr></thead>
         <tbody>
           ${rows}

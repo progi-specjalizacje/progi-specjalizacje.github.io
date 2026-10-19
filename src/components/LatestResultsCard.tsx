@@ -64,7 +64,7 @@ export function LatestResultsCard() {
 
   const placesNote =
     model.vacancies === 0
-      ? "Wszystkie zajęte — o każde miejsce decydował wynik."
+      ? "Wszystkie zajęte - o każde miejsce decydował wynik."
       : `${formatNumber(model.filled)} ${pluralize(model.filled, ["zajęte", "zajęte", "zajętych"])}, ` +
         `${formatNumber(model.vacancies)} ${pluralize(model.vacancies, ["zostało wolne", "zostały wolne", "zostało wolnych"])} ` +
         `(${formatNumber(model.regionsWithVacancies)} ${pluralize(model.regionsWithVacancies, ["województwo", "województwa", "województw"])}).`;
@@ -88,7 +88,7 @@ export function LatestResultsCard() {
             <div className="results-headline">
               <strong>{format(model.medianScore)}</strong>
               <span>
-                {thresholds.length === 1 ? "próg" : "typowy próg"}
+                {thresholds.length === 1 ? "próg" : "mediana progów"}
                 <InfoTooltip text="Mediana progów z województw, w których wszystkie miejsca zostały zajęte." />
               </span>
             </div>

@@ -14,7 +14,7 @@ export function HowItWorksCard() {
         po każdym postępowaniu kwalifikacyjnym. CMKP udostępnia wyniki w plikach PDF. Ta strona jest ich przetworzoną
         wersją: odczytujemy je automatycznie, bez ręcznego przepisywania i bez zmieniania wartości, aby można je było
         filtrować i porównywać między naborami. Przetworzone dane porównaliśmy z oryginalnymi plikami PDF i są z nimi
-        zgodne. Jeśli mimo to zauważysz rozbieżność, <a href="mailto:stenzelpawel.t@gmail.com">napisz do nas</a> —
+        zgodne. Jeśli mimo to zauważysz rozbieżność, <a href="mailto:stenzelpawel.t@gmail.com">napisz do nas</a> -
         wiążące pozostają informacje opublikowane przez CMKP.
       </p>
     </section>

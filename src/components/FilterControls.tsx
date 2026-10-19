@@ -122,7 +122,7 @@ export function DziedzinaSlicer() {
 }
 
 const TRYB_LABELS: Record<TrybSzkolenia, string> = {
-  Rezydencki: "Rezydentura",
+  Rezydencki: "Rezydencki",
   Pozarezydencki: "Pozarezydencki",
 };
 
@@ -171,7 +171,7 @@ function SpecialtyPicker({ onPicked }: { onPicked: () => void }) {
       <button
         type="button"
         className="context-bar-specialty"
-        title={`${dziedzinaMedycyny} — kliknij, aby zmienić specjalizację`}
+        title={`${dziedzinaMedycyny} - kliknij, aby zmienić specjalizację`}
         aria-expanded={open}
         aria-haspopup="dialog"
         onClick={() => {

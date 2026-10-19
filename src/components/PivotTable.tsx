@@ -22,7 +22,7 @@ function statusLabel(status: RecruitmentPool["status_konkurencyjnosci"]) {
 
 function statusDescription(pool: RecruitmentPool) {
   if (pool.status_konkurencyjnosci === "full") {
-    return "Wszystkie oferowane miejsca zostały obsadzone — najniższy wynik jest progiem konkurencyjnym.";
+    return "Wszystkie oferowane miejsca zostały obsadzone - najniższy wynik jest progiem konkurencyjnym.";
   }
   if (pool.status_konkurencyjnosci === "underfilled") {
     return "Nie wszystkie oferowane miejsca zostały obsadzone. Najniższy wynik zakwalifikowanej osoby nie jest progiem konkurencyjnym.";
@@ -107,10 +107,10 @@ export function PivotTable({ config: _config, title }: PivotTableProps) {
               {model.columnKeys.map((columnKey, columnIndex) => (
                 <Fragment key={columnKey}>
                   <th className={`measure-heading pair-${columnIndex % 2 === 0 ? "even" : "odd"}`}>
-                    Próg / status
+                    Próg
                   </th>
                   <th className={`measure-heading pair-${columnIndex % 2 === 0 ? "even" : "odd"} group-end`}>
-                    Obsada
+                    Miejsca
                   </th>
                 </Fragment>
               ))}
@@ -128,8 +128,8 @@ export function PivotTable({ config: _config, title }: PivotTableProps) {
                     if (!announced) {
                       return (
                         <Fragment key={columnKey}>
-                          <td className={`${pairClass} empty-cell upcoming-cell`}>—</td>
-                          <td className={`${pairClass} group-end empty-cell upcoming-cell`}>—</td>
+                          <td className={`${pairClass} empty-cell upcoming-cell`}>-</td>
+                          <td className={`${pairClass} group-end empty-cell upcoming-cell`}>-</td>
                         </Fragment>
                       );
                     }
@@ -151,8 +151,8 @@ export function PivotTable({ config: _config, title }: PivotTableProps) {
                   if (!pool) {
                     return (
                       <Fragment key={columnKey}>
-                        <td className={`${pairClass} empty-cell`}>—</td>
-                        <td className={`${pairClass} group-end empty-cell`}>—</td>
+                        <td className={`${pairClass} empty-cell`}>-</td>
+                        <td className={`${pairClass} group-end empty-cell`}>-</td>
                       </Fragment>
                     );
                   }

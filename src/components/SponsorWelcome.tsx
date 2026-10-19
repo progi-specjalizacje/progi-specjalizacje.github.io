@@ -3,7 +3,7 @@ export function SponsorWelcome() {
     <>
       <div className="sponsor-backdrop" aria-hidden="true" />
       <header className="sponsor-header" aria-label="POZycja pierwsza">
-        <a className="sponsor-logo" href="https://start.poz1.pl/" target="_blank" rel="sponsored noopener noreferrer" aria-label="POZycja pierwsza — strona reklamodawcy (nowa karta)">
+        <a className="sponsor-logo" href="https://start.poz1.pl/" target="_blank" rel="sponsored noopener noreferrer" aria-label="POZycja pierwsza - strona reklamodawcy (nowa karta)">
           <img src="/assets/poz1/logo.png" alt="POZycja pierwsza" width="150" height="78" fetchPriority="high" />
         </a>
       </header>
