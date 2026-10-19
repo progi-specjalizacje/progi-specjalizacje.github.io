@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 const SOURCE_DIR = path.join(__dirname, "../source_data");
 const OUTPUT_DIR = path.join(__dirname, "../public/data");
 const METADATA_FILE = path.join(__dirname, "../src/data/reportMetadata.ts");
-const PLACES_FILE = path.join(__dirname, "../prediction/data/cmkp_places.csv");
+const PLACES_FILE = path.join(SOURCE_DIR, "cmkp_places.csv");
 
 // Create output directory if it doesn't exist
 if (!fs.existsSync(OUTPUT_DIR)) {
@@ -146,8 +146,8 @@ function slugify(text) {
 
 console.log("Rozpoczynanie przetwarzania plików CSV...");
 
-// Read all CSV files
-const files = fs.readdirSync(SOURCE_DIR).filter((f) => f.endsWith(".csv"));
+// Read all recruitment result CSV files (source_data/ also holds cmkp_places.csv)
+const files = fs.readdirSync(SOURCE_DIR).filter((f) => /^[wj]-\d{4}_parsed\.csv$/.test(f));
 let allRows = [];
 const recruitmentOrder = {};
 

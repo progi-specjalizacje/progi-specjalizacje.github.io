@@ -1,3 +1,22 @@
+> **Archiwum (październik 2026).** Model prognoz progów i zapełnienia nie jest częścią
+> strony ani builda. Ten katalog jest migawką dawnego `prediction/` razem ze skryptami
+> (dawniej w `scripts/`, teraz w `scripts/` tutaj) i skillem `cmkp-cem-data-refresh`.
+>
+> Co zmieniło się przy archiwizacji:
+>
+> - Wykaz miejsc CMKP jest nadal używany przez stronę, więc został przeniesiony do
+>   `data_pipeline/places/` (manifest, PDF-y, pobieranie, parser), a
+>   `prediction/data/cmkp_places.csv` jest teraz `source_data/cmkp_places.csv`.
+> - Audyt źródeł (`audit_local_sources.mjs`) został okrojony do danych strony i
+>   przeniesiony do `data_pipeline/audit.mjs`; część CEM i sprawdzanie prognoz usunięto.
+> - Skrypty `npm run prediction:*` usunięto z `package.json`.
+>
+> Ścieżki w skryptach i w tym opisie wskazują dawne lokalizacje (`prediction/...`,
+> `scripts/...`), więc nie uruchomią się stąd bez zmian. Aby przywrócić pipeline:
+> przenieś `archive/prediction/` z powrotem do `prediction/`, `scripts/*` do `scripts/`,
+> wskaż w nich `source_data/cmkp_places.csv` jako plik miejsc i dodaj skrypty
+> `prediction:*` do `package.json` (lista w historii git przed tą zmianą).
+
 # Prognozowanie progów i zapełnienia miejsc
 
 ## Eksperyment dwuczęściowy: pule zagrożone i konkurencyjne

@@ -25,3 +25,9 @@ test-results/
 
 # Generated SEO files
 /public/sitemap.xml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
