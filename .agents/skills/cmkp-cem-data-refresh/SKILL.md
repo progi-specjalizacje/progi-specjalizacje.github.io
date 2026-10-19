@@ -1,6 +1,6 @@
 ---
 name: cmkp-cem-data-refresh
-description: Sprawdza aktualność i bezpiecznie aktualizuje lokalne dane CMKP oraz CEM używane przez model progów rezydenckich w tym repozytorium. Używaj przy kontroli nowych sesji LEK/LDEK, odchyleń standardowych, wykazów miejsc, wyników postępowań oraz regenerowaniu datasetu i prognoz.
+description: Sprawdza aktualność i bezpiecznie aktualizuje lokalne dane CMKP oraz CEM używane przez model progów rezydenckich w tym repozytorium. Używaj przy kontroli nowych sesji LEK/LDEK, odchyleń standardowych, wykazów miejsc, wyników postępowań, przeciętnego wynagrodzenia GUS dla pensji w FAQ oraz regenerowaniu datasetu i prognoz.
 ---
 
 # Aktualizacja danych CMKP i CEM
@@ -30,7 +30,8 @@ Korzystaj wyłącznie z oficjalnych stron wymienionych w
 [references/sources-and-schema.md](references/sources-and-schema.md). Porównaj
 najnowszą sesję lub rundę dostępną online z raportem audytu lokalnego. Zapisz
 osobno stan każdego rodzaju danych: komunikat egzaminacyjny, szczegółowe
-statystyki z SD, wykaz miejsc i lista zakwalifikowanych.
+statystyki z SD, wykaz miejsc, lista zakwalifikowanych oraz przeciętne
+wynagrodzenie GUS używane w FAQ o pensjach.
 
 Nie uznawaj całego datasetu za nieaktualny tylko dlatego, że jeden późniejszy
 artefakt nie został jeszcze opublikowany. Na przykład komunikat z wynikiem
@@ -61,7 +62,11 @@ wyników wyszukiwarki, jeżeli oficjalna tabela lub dokument jest dostępny.
      przez `cmkp_wyniki_parse/` zgodnie z instrukcjami tego podprojektu;
    - przy zmianie pilotażu placówkowego: manifest, pobrane PDF-y, parser oraz
      wersjonowaną klasyfikację miast zgodnie z sekcją „CMKP: pilotaż placówek i
-     geografia” w schemacie źródeł.
+     geografia” w schemacie źródeł;
+   - nową kwotę przeciętnego wynagrodzenia GUS (luty każdego roku) w
+     `AVERAGE_WAGE_BY_YEAR` w `scripts/generateSeoPages.js`, zgodnie z sekcją
+     „GUS: przeciętne wynagrodzenie” w schemacie źródeł. Na niej opierają się
+     pensje rezydentów i stażystów w FAQ; nie wpływa na model.
 2. Uruchom ponownie `npm run prediction:audit`.
 3. Po zmianie danych CEM lub wyników uruchom kolejno:
 

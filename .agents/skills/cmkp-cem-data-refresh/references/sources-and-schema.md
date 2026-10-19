@@ -83,14 +83,36 @@ pocztowych pochodzą z wersjonowanej lokalnie kopii GeoNames `PL.zip`; jest to
 pomocnicze, nieurzędowe źródło lokalizacji. Zachowaj jego URL i SHA-256 w
 raporcie. Pojemność placówki nie jest liczbą przyznanych miejsc rezydenckich.
 
+## GUS: przeciętne wynagrodzenie (pensje w FAQ)
+
+Odpowiedzi FAQ „Ile zarabia się na rezydenturze?” i „Ile zarabia się na stażu
+podyplomowym?” na stronie głównej liczy `scripts/generateSeoPages.js` z
+przeciętnego miesięcznego wynagrodzenia w gospodarce narodowej za poprzedni rok.
+Nowe stawki obowiązują od 1 lipca.
+
+- Źródło: komunikat Prezesa GUS „w sprawie przeciętnego wynagrodzenia w
+  gospodarce narodowej w <rok> r.”, publikowany w lutym na `stat.gov.pl` i w
+  Monitorze Polskim. Nie przepisuj kwoty z portali, jeżeli komunikat jest dostępny.
+- Dopisz kwotę do `AVERAGE_WAGE_BY_YEAR` (klucz = rok, którego dotyczy kwota,
+  np. `2026: …` z komunikatu z lutego 2027). Nie usuwaj starszych lat.
+- Sprawdź, czy rozporządzenie Ministra Zdrowia o wynagrodzeniu rezydentów nie
+  zmieniło mnożników kwoty bazowej (`RESIDENT_MULTIPLIERS`) ani współczynników
+  pracy z ustawy o najniższym wynagrodzeniu w podmiotach leczniczych
+  (`WORK_COEFFICIENTS`: stażysta 0,95, lekarz bez specjalizacji 1,19).
+- Po zmianie uruchom `npm run generate-seo` (lub `npm run build`) i sprawdź w
+  `index.html`, że kwoty i rok „od 1 lipca” są poprawne. Jeżeli od 1 lipca minął
+  rok bez nowej kwoty, skrypt wypisuje ostrzeżenie „Brak przeciętnego
+  wynagrodzenia GUS”.
+
 ## Kolejność publikacji i stan aktualności
 
-Śledź niezależnie cztery stany:
+Śledź niezależnie pięć stanów:
 
 1. wynik egzaminu CEM,
 2. szczegółowe statystyki CEM z SD,
 3. wykaz miejsc CMKP,
-4. lista zakwalifikowanych CMKP.
+4. lista zakwalifikowanych CMKP,
+5. przeciętne wynagrodzenie GUS za poprzedni rok (pensje w FAQ).
 
 Brak późniejszego etapu jest poprawnym stanem przejściowym. W raporcie zapisz
 datę kontroli, najnowszy znaleziony okres i bezpośredni URL każdego artefaktu.

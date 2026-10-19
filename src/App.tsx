@@ -8,6 +8,7 @@ import { SummaryChart } from "./components/SummaryChart";
 import { TextBox } from "./components/TextBox";
 import { Calculator } from "./components/Calculator";
 import { SimulationTable } from "./components/SimulationTable";
+import { HowItWorksCard } from "./components/HowItWorksCard";
 import { DermatologyForecastPilot, OrthodonticsForecastPilot } from "./components/DermatologyForecastPilot";
 import { dashboardLayout, type DashboardVisual } from "./config/dashboardLayout";
 import { getReportOptions } from "./data/reportData";
@@ -73,6 +74,10 @@ function renderVisual(visual: DashboardVisual) {
     return <SimulationTable />;
   }
 
+  if (visual.type === "howItWorks") {
+    return <HowItWorksCard />;
+  }
+
   return <FilterPanel {...visual.props} />;
 }
 
@@ -114,7 +119,7 @@ function DashboardApp() {
         {dashboardLayout.map((visual) => (
           <div
             key={visual.id}
-            id={visual.id === "pivot" ? "raport" : visual.id === "calculator" ? "kalkulator" : visual.id}
+            id={visual.id === "pivot" ? "raport" : visual.id === "calculator" ? "kalkulator" : visual.id === "how-it-works" ? "jak-to-dziala" : visual.id}
             className={`dashboard-item visual-${visual.type} item-${visual.id}`}
             style={gridStyle(visual)}
           >

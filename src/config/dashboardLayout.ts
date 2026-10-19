@@ -1,6 +1,6 @@
 import type { DashboardMetric, PivotConfig, TextVariant } from "../types";
 
-type VisualType = "text" | "card" | "results" | "pivot" | "filters" | "chart" | "calculator" | "simulation";
+type VisualType = "text" | "card" | "results" | "pivot" | "filters" | "chart" | "calculator" | "simulation" | "howItWorks";
 
 interface GridPosition {
   column: number;
@@ -63,6 +63,10 @@ export interface SimulationVisual extends BaseVisual {
   type: "simulation";
 }
 
+export interface HowItWorksVisual extends BaseVisual {
+  type: "howItWorks";
+}
+
 export type DashboardVisual =
   | TextVisual
   | CardVisual
@@ -71,7 +75,8 @@ export type DashboardVisual =
   | FilterVisual
   | ChartVisual
   | CalculatorVisual
-  | SimulationVisual;
+  | SimulationVisual
+  | HowItWorksVisual;
 
 export const dashboardLayout: DashboardVisual[] = [
   {
@@ -79,7 +84,8 @@ export const dashboardLayout: DashboardVisual[] = [
     type: "text",
     grid: { column: 1, row: 1, colSpan: 12, rowSpan: 1 },
     props: {
-      text: "Progi na specjalizacje lekarskie i stomatologiczne",
+      // Update the year after each new recruitment round (index.html <title> is updated by generateSeoPages.js).
+      text: "Progi na specjalizacje lekarskie i stomatologiczne 2026",
       variant: "title",
     },
   },
@@ -88,7 +94,7 @@ export const dashboardLayout: DashboardVisual[] = [
     type: "text",
     grid: { column: 1, row: 2, colSpan: 12, rowSpan: 1 },
     props: {
-      text: `<strong>Porównaj progi punktowe, liczbę miejsc i wyniki rekrutacji na specjalizacje lekarskie i lekarsko-dentystyczne według województw, lat oraz trybu szkolenia.</strong>`,
+      text: `<strong>Porównaj progi punktowe na rezydenturę i w trybie pozarezydenckim, liczbę miejsc i wyniki rekrutacji na specjalizacje lekarskie i lekarsko-dentystyczne według województw i naborów.</strong>`,
       variant: "body",
     },
   },
@@ -168,5 +174,10 @@ export const dashboardLayout: DashboardVisual[] = [
     id: "simulation",
     type: "simulation",
     grid: { column: 8, row: 22, colSpan: 5, rowSpan: 12 },
+  },
+  {
+    id: "how-it-works",
+    type: "howItWorks",
+    grid: { column: 1, row: 34, colSpan: 12, rowSpan: 3 },
   },
 ];

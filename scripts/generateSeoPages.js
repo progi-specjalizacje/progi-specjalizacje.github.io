@@ -11,8 +11,9 @@ const OUTPUT_MARKER = path.join(OUTPUT_DIR, ".generated-seo-pages");
 const SITEMAP_PATH = path.join(__dirname, "../public/sitemap-specializacje.xml");
 const SITE_URL = "https://progi-specjalizacje.pl";
 const INDEX_HTML_PATH = path.join(__dirname, "../index.html");
-const LINKS_START = "<!-- seo-specialty-links:start -->";
-const LINKS_END = "<!-- seo-specialty-links:end -->";
+const SUMMARY_START = "<!-- seo-homepage-summary:start -->";
+const SUMMARY_END = "<!-- seo-homepage-summary:end -->";
+const HOMEPAGE_SUMMARY_COUNT = 20;
 
 // Matches DENTAL_SPECIALTIES in src/config/specialtySearchFilter.ts (LDEK path in the app UI).
 const DENTAL_SPECIALTIES = new Set([
@@ -65,7 +66,7 @@ function slugify(value) {
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }
 
-function formatPercent(value) { return `${value.toFixed(2)}%`; }
+function formatPercent(value) { return `${value.toFixed(2).replace(".", ",")}%`; }
 function formatPoints(value, maxPoints) { return `${Math.round((value / 100) * maxPoints)} pkt`; }
 
 function formatRecruitmentLabel(recruitment) {
@@ -420,23 +421,108 @@ function writeSitemap(items) {
   fs.writeFileSync(path.join(__dirname, "../public/sitemap.xml"), mainXml, "utf-8");
 }
 
-// The homepage is a client-rendered SPA, so its raw HTML must carry plain links for crawlers to discover subpages.
-function writeHomepageLinks(items) {
+function summaryModeCells(item, mode, recruitment) {
+  const data = item.analysis[mode];
+  const latest = data?.history[0];
+  if (!latest || latest.recruitment !== recruitment) return `<td>—</td><td>—</td>`;
+  const places = Number.isFinite(latest.totalPlaces) ? Math.round(latest.totalPlaces) : "—";
+  const threshold = Number.isFinite(latest.averageThreshold)
+    ? `${formatPercent(latest.averageThreshold)} <small>(${formatPoints(latest.averageThreshold, data.maxPoints)})</small>`
+    : "brak progu";
+  return `<td>${places}</td><td>${threshold}</td>`;
+}
+
+// Statutory pay is derived from the GUS average monthly wage of the previous year and changes every 1 July.
+// Add the new GUS figure (published each February) here; amounts and the effective date follow automatically.
+const AVERAGE_WAGE_BY_YEAR = { 2025: 8903.56 };
+const WORK_COEFFICIENTS = { intern: 0.95, doctorWithoutSpecialty: 1.19 };
+// Multipliers of the base amount (1,19 × average wage) set by the Minister of Health regulation from 1 July 2026.
+const RESIDENT_MULTIPLIERS = {
+  priority: { firstTwoYears: 1.1, afterTwoYears: 1.2 },
+  other: { firstTwoYears: 1.0, afterTwoYears: 1.03 }
+};
+
+function roundToGrosze(value) { return Math.round(value * 100) / 100; }
+
+function formatPln(value) {
+  const [whole, fraction] = value.toFixed(2).split(".");
+  return `${whole.replace(/\B(?=(\d{3})+(?!\d))/g, " ")},${fraction} zł`;
+}
+
+function currentSalaryPeriod(today = new Date()) {
+  const years = Object.keys(AVERAGE_WAGE_BY_YEAR).map(Number).sort((a, b) => b - a);
+  const wageYear = years.find((year) => today >= new Date(year + 1, 6, 1)) ?? years[years.length - 1];
+  const effectiveYear = wageYear + 1;
+  if (today >= new Date(effectiveYear + 1, 6, 1)) {
+    console.warn(`Brak przeciętnego wynagrodzenia GUS za ${effectiveYear} r. – FAQ pokazuje stawki od 1 lipca ${effectiveYear} r.`);
+  }
+  const base = roundToGrosze(AVERAGE_WAGE_BY_YEAR[wageYear] * WORK_COEFFICIENTS.doctorWithoutSpecialty);
+  const resident = (group) => ({
+    firstTwoYears: roundToGrosze(base * RESIDENT_MULTIPLIERS[group].firstTwoYears),
+    afterTwoYears: roundToGrosze(base * RESIDENT_MULTIPLIERS[group].afterTwoYears)
+  });
+  return {
+    wageYear, effectiveYear, averageWage: AVERAGE_WAGE_BY_YEAR[wageYear],
+    intern: roundToGrosze(AVERAGE_WAGE_BY_YEAR[wageYear] * WORK_COEFFICIENTS.intern),
+    priority: resident("priority"), other: resident("other")
+  };
+}
+
+function renderHomepageFaq() {
+  const salary = currentSalaryPeriod();
+  const faq = [
+    ["Jak liczone są punkty na specjalizację?",
+      "Podstawą jest wynik z LEK (lub LDEK) – maksymalnie 200 punktów, mniej, jeśli z egzaminu unieważniono pytania. W trybie rezydenckim można dodać 5 punktów za stopień doktora oraz po 0,5 punktu za publikację (łącznie do 5 punktów), co daje maksymalnie 210 punktów. W trybie pozarezydenckim dochodzi jeszcze po 5 punktów za co najmniej 3 lata pracy i za pracę nauczyciela akademickiego – maksymalnie 220 punktów."],
+    ["Co oznacza próg konkurencyjny?",
+      "To najniższy wynik osoby zakwalifikowanej w puli, w której obsadzono wszystkie oferowane miejsca. Jeśli część miejsc została wolna, najniższy wynik nie jest progiem – dostać się mógł każdy, kto spełniał warunki, dlatego w tabeli pojawia się wtedy „brak progu”."],
+    ["Ile procent z LEK trzeba mieć na specjalizację?",
+      "To zależy od specjalizacji, województwa i naboru. Procent w tabeli liczony jest od maksymalnej liczby punktów w danym trybie (210 lub 220), więc uwzględnia też punkty dodatkowe. Swój wynik możesz przeliczyć w kalkulatorze i porównać z progami z poprzednich naborów."],
+    ["Kiedy odbywają się nabory na specjalizacje?",
+      "Postępowania kwalifikacyjne prowadzone są dwa razy w roku – w naborze wiosennym i jesiennym. Wyniki publikuje Centrum Medycznego Kształcenia Podyplomowego (CMKP)."],
+    ["Ile zarabia się na rezydenturze?",
+      `Od 1 lipca ${salary.effectiveYear} r. wynagrodzenie zasadnicze lekarza rezydenta wynosi brutto miesięcznie: w specjalizacjach priorytetowych ${formatPln(salary.priority.firstTwoYears)} w pierwszych dwóch latach i ${formatPln(salary.priority.afterTwoYears)} po dwóch latach, a w pozostałych specjalizacjach odpowiednio ${formatPln(salary.other.firstTwoYears)} i ${formatPln(salary.other.afterTwoYears)}. Kwoty liczone są od przeciętnego wynagrodzenia w gospodarce narodowej za ${salary.wageYear} r. (${formatPln(salary.averageWage)} według GUS) i rosną co roku od 1 lipca. Listę dziedzin priorytetowych określa rozporządzenie Ministra Zdrowia. Do pensji zasadniczej dochodzi zwykle wynagrodzenie za dyżury medyczne.`],
+    ["Ile zarabia się na stażu podyplomowym?",
+      `Od 1 lipca ${salary.effectiveYear} r. wynagrodzenie zasadnicze lekarza stażysty i lekarza dentysty stażysty wynosi ${formatPln(salary.intern)} brutto miesięcznie, czyli 0,95 przeciętnego wynagrodzenia w gospodarce narodowej za ${salary.wageYear} r. Kwota jest aktualizowana co roku od 1 lipca. Za dyżury medyczne pełnione w trakcie stażu przysługuje dodatkowe wynagrodzenie.`]
+  ];
+  return faq.map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`).join("\n        ");
+}
+
+// The homepage is a client-rendered SPA, so its raw HTML must carry real content for crawlers.
+// Rendered outside #root, so it stays in the DOM after React mounts.
+function writeHomepageSummary(items) {
   const html = fs.readFileSync(INDEX_HTML_PATH, "utf-8");
-  const start = html.indexOf(LINKS_START);
-  const end = html.indexOf(LINKS_END);
-  if (start === -1 || end === -1) throw new Error(`Brak znaczników ${LINKS_START} / ${LINKS_END} w index.html`);
-  const list = (group) => group.map((item) => `<li><a href="/specjalizacje/${item.slug}/">${escapeHtml(item.specialtyName)}</a></li>`).join("");
-  const sorted = [...items].sort((a, b) => a.specialtyName.localeCompare(b.specialtyName, "pl"));
-  const block = `${LINKS_START}
-    <nav class="seo-specialty-links" aria-labelledby="seo-specialty-links-title">
-      <h2 id="seo-specialty-links-title">Progi na specjalizacje</h2>
-      <h3>Lekarskie (LEK)</h3><ul>${list(sorted.filter((item) => !isDental(item)))}</ul>
-      <h3>Lekarsko-dentystyczne (LDEK)</h3><ul>${list(sorted.filter(isDental))}</ul>
-      <p><a href="/specjalizacje/">Wszystkie specjalizacje</a></p>
-    </nav>
+  const start = html.indexOf(SUMMARY_START);
+  const end = html.indexOf(SUMMARY_END);
+  if (start === -1 || end === -1) throw new Error(`Brak znaczników ${SUMMARY_START} / ${SUMMARY_END} w index.html`);
+  const recruitment = items[0].analysis.metadata.latestRecruitment;
+  const label = formatRecruitmentLabel(recruitment);
+  const medical = items.filter((item) => !isDental(item)).slice(0, HOMEPAGE_SUMMARY_COUNT);
+  const rows = medical.map((item) => `<tr><th scope="row"><a href="${reportUrl(item.slug, "raport")}">${escapeHtml(item.specialtyName)}</a></th>${MODES.map((mode) => summaryModeCells(item, mode, recruitment)).join("")}</tr>`).join("\n          ");
+  const block = `${SUMMARY_START}
+    <section class="seo-summary" aria-labelledby="seo-summary-title">
+      <h2 id="seo-summary-title">Progi na specjalizacje lekarskie – nabór ${escapeHtml(label)}</h2>
+      <p>Zestawienie progów konkurencyjnych na rezydenturę i w trybie pozarezydenckim dla ${HOMEPAGE_SUMMARY_COUNT} specjalizacji lekarskich z największą liczbą zakwalifikowanych osób. Próg to średnia z progów wojewódzkich – tylko z tych województw, w których obsadzono wszystkie miejsca; w nawiasie podano odpowiadającą mu liczbę punktów. Pełne dane dla każdego województwa, specjalizacji lekarskich i lekarsko-dentystycznych znajdziesz w raporcie powyżej.</p>
+      <div class="seo-summary-table"><table>
+        <thead><tr><th scope="col" rowspan="2">Specjalizacja</th><th scope="colgroup" colspan="2">Rezydentura</th><th scope="colgroup" colspan="2">Tryb pozarezydencki</th></tr>
+        <tr><th scope="col">Miejsca</th><th scope="col">Próg</th><th scope="col">Miejsca</th><th scope="col">Próg</th></tr></thead>
+        <tbody>
+          ${rows}
+        </tbody>
+      </table></div>
+      <h2>Najczęstsze pytania</h2>
+      <div class="seo-faq">
+        ${renderHomepageFaq()}
+      </div>
+    </section>
     `;
-  fs.writeFileSync(INDEX_HTML_PATH, html.slice(0, start) + block + html.slice(end), "utf-8");
+  const year = recruitment.slice(-4);
+  const title = `Progi na specjalizacje lekarskie ${year} – rezydentura | LEK i LDEK`;
+  const description = `Progi na specjalizacje lekarskie i stomatologiczne z naboru ${label}: progi na rezydenturę i w trybie pozarezydenckim, liczba miejsc w województwach, historia naborów i kalkulator punktów LEK/LDEK.`;
+  const updated = (html.slice(0, start) + block + html.slice(end))
+    .replace(/<title>[^<]*<\/title>/, `<title>${escapeHtml(title)}</title>`)
+    .replace(/(<meta name="description" content=")[^"]*(")/, `$1${escapeHtml(description)}$2`)
+    .replace(/(<meta property="og:title" content=")[^"]*(")/, `$1${escapeHtml(title)}$2`);
+  fs.writeFileSync(INDEX_HTML_PATH, updated, "utf-8");
 }
 
 function run() {
@@ -468,7 +554,7 @@ function run() {
   }
   fs.writeFileSync(path.join(OUTPUT_DIR, "index.html"), renderDirectoryPage(generated), "utf-8");
   writeSitemap(generated);
-  writeHomepageLinks(generated);
+  writeHomepageSummary(generated);
   console.log(`Wygenerowano ${generated.length} podstron HTML oraz katalog specjalizacji.`);
   console.log(`Pominięto ${excluded.length} specjalizacji z najmniejszą łączną liczbą zakwalifikowanych:`);
   excluded.forEach((item) => console.log(`- ${item.specialtyName}: ${item.totalQualified}`));
