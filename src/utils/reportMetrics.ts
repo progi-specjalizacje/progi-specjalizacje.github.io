@@ -7,6 +7,8 @@ export interface RecruitmentSummary {
   medianThreshold: number;
   maxThreshold: number;
   totalPlaces: number;
+  /** Liczba zakwalifikowanych (zajętych miejsc); NaN, gdy rekrutacja nie ma jeszcze wyników. */
+  filledPlaces: number;
 }
 
 export interface RecruitmentTimeline {
@@ -102,6 +104,10 @@ export function summarizeRecruitment(
       ? listedPlaces
       : poolPlaces.length > 0
         ? poolPlaces.reduce((total, value) => total + value, 0)
+        : Number.NaN,
+    filledPlaces:
+      recruitmentPools.length > 0
+        ? recruitmentPools.reduce((total, pool) => total + pool.liczba_zakwalifikowanych, 0)
         : Number.NaN,
   };
 }

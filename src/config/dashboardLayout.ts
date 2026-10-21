@@ -1,6 +1,6 @@
 import type { DashboardMetric, PivotConfig, TextVariant } from "../types";
 
-type VisualType = "text" | "card" | "results" | "pivot" | "filters" | "chart" | "calculator" | "simulation" | "howItWorks";
+type VisualType = "text" | "card" | "results" | "pivot" | "filters" | "chart" | "calculator" | "simulation" | "howItWorks" | "fillChart";
 
 interface GridPosition {
   column: number;
@@ -55,6 +55,10 @@ export interface ChartVisual extends BaseVisual {
   type: "chart";
 }
 
+export interface FillChartVisual extends BaseVisual {
+  type: "fillChart";
+}
+
 export interface CalculatorVisual extends BaseVisual {
   type: "calculator";
 }
@@ -74,6 +78,7 @@ export type DashboardVisual =
   | PivotVisual
   | FilterVisual
   | ChartVisual
+  | FillChartVisual
   | CalculatorVisual
   | SimulationVisual
   | HowItWorksVisual;
@@ -103,7 +108,7 @@ export const dashboardLayout: DashboardVisual[] = [
     // dzięki temu przykleja się podczas przewijania raportu i kalkulatora.
     id: "context-bar",
     type: "filters",
-    grid: { column: 1, row: 3, colSpan: 12, rowSpan: 31 },
+    grid: { column: 1, row: 3, colSpan: 12, rowSpan: 40 },
     props: { variant: "context" },
   },
   {
@@ -157,9 +162,14 @@ export const dashboardLayout: DashboardVisual[] = [
     grid: { column: 1, row: 16, colSpan: 12, rowSpan: 5 },
   },
   {
+    id: "fill-chart",
+    type: "fillChart",
+    grid: { column: 1, row: 21, colSpan: 12, rowSpan: 9 },
+  },
+  {
     id: "calculator-section-title",
     type: "text",
-    grid: { column: 1, row: 21, colSpan: 12, rowSpan: 1 },
+    grid: { column: 1, row: 30, colSpan: 12, rowSpan: 1 },
     props: {
       text: "Kalkulator punktów rekrutacyjnych i symulacja szans",
       variant: "heading1",
@@ -168,16 +178,16 @@ export const dashboardLayout: DashboardVisual[] = [
   {
     id: "calculator",
     type: "calculator",
-    grid: { column: 1, row: 22, colSpan: 7, rowSpan: 12 },
+    grid: { column: 1, row: 31, colSpan: 7, rowSpan: 12 },
   },
   {
     id: "simulation",
     type: "simulation",
-    grid: { column: 8, row: 22, colSpan: 5, rowSpan: 12 },
+    grid: { column: 8, row: 31, colSpan: 5, rowSpan: 12 },
   },
   {
     id: "how-it-works",
     type: "howItWorks",
-    grid: { column: 1, row: 34, colSpan: 12, rowSpan: 3 },
+    grid: { column: 1, row: 43, colSpan: 12, rowSpan: 3 },
   },
 ];

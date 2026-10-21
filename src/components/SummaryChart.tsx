@@ -13,6 +13,8 @@ const padding = { top: 24, right: 24, bottom: 44, left: 48 };
 const RANGE_COLOR = "#d9cbf0";
 const MEDIAN_COLOR = "#6843a2";
 const PLACES_COLOR = "#b7791f";
+const PLACES_COLOR_LIGHT = "#f0dcb4";
+const BAR_WIDTH = 44;
 type ChartMode = "points" | "places";
 
 function scale(value: number, min: number, max: number, outputMin: number, outputMax: number) {
@@ -50,8 +52,11 @@ export function SummaryChart() {
   const rawMax = values.length > 0 ? Math.max(...values) : 1;
   // W trybie progów zostawiamy zapas, żeby słupki rozpiętości nie dotykały osi.
   const domainPadding = chartMode === "points" ? Math.max((rawMax - rawMin) * 0.08, 0.5) : 0;
-  const min = rawMin - domainPadding;
-  const max = rawMax + domainPadding;
+  // Słupki miejsc zaczynają się od zera (długość słupka musi być proporcjonalna), a nad nimi zostaje miejsce na etykiety.
+  const min = chartMode === "points" ? rawMin - domainPadding : 0;
+  // Górna granica zaokrąglona w górę, żeby podziałka osi miała okrągłe wartości.
+  const niceStep = 2 * 10 ** Math.max(0, Math.floor(Math.log10(Math.max(rawMax, 1))) - 1);
+  const max = chartMode === "points" ? rawMax + domainPadding : Math.ceil((rawMax * 1.12) / niceStep) * niceStep;
   const chartLeft = padding.left;
   const chartRight = width - padding.right;
   const chartTop = padding.top;
@@ -78,6 +83,9 @@ export function SummaryChart() {
         >
           Ilość miejsc
         </button>
+        <span className="chart-toolbar-help">
+          <InfoTooltip text="Liczba miejsc u nas może być niższa niż w wykazie CMKP. W wykazie miejsca w trybie rezydenckim obejmują też miejsca doktoranckie (szkolenie w ramach studiów doktoranckich, w trybie rezydenckim). My podajemy tylko miejsca „zwykłe”, czyli łączną liczbę miejsc rezydenckich pomniejszoną o doktoranckie. Z tego samego powodu nie wliczamy do wyników osób zakwalifikowanych na miejsca doktoranckie." />
+        </span>
       </div>
       <div className="chart-legend">
         {chartMode === "points" ? (
@@ -93,10 +101,16 @@ export function SummaryChart() {
             </span>
           </>
         ) : (
-          <span>
-            <i style={{ background: PLACES_COLOR }} />
-            Suma miejsc w Polsce
-          </span>
+          <>
+            <span>
+              <i style={{ background: PLACES_COLOR_LIGHT }} />
+              Miejsca oferowane w Polsce
+            </span>
+            <span>
+              <i style={{ background: PLACES_COLOR }} />
+              Miejsca zajęte (zakwalifikowani)
+            </span>
+          </>
         )}
         {chartMode === "points" && (
           <p className="chart-axis-note">
@@ -163,30 +177,35 @@ export function SummaryChart() {
                   </g>
                 );
               })
-            : (() => {
-                const points = summaries
-                  .map((summary, index) =>
-                    Number.isFinite(summary.totalPlaces)
-                      ? { x: xFor(index), y: scale(summary.totalPlaces, min, max, chartBottom, chartTop), value: summary.totalPlaces }
-                      : null,
-                  )
-                  .filter((point): point is { x: number; y: number; value: number } => point !== null);
-                const path = points.map((point, index) => `${index === 0 ? "M" : "L"} ${point.x} ${point.y}`).join(" ");
+            : summaries.map((summary, index) => {
+                if (!Number.isFinite(summary.totalPlaces)) return null;
+                const x = xFor(index);
+                const yPlaces = scale(summary.totalPlaces, min, max, chartBottom, chartTop);
+                const hasFilled = Number.isFinite(summary.filledPlaces);
+                const filled = hasFilled ? Math.min(summary.filledPlaces, summary.totalPlaces) : 0;
+                const yFilled = scale(filled, min, max, chartBottom, chartTop);
+                const share = hasFilled && summary.totalPlaces > 0 ? filled / summary.totalPlaces : null;
+                const title = hasFilled
+                  ? `${summary.rekrutacja}: zajęto ${formatByType(summary.filledPlaces, "number")} z ${formatByType(summary.totalPlaces, "number")} miejsc` +
+                    (share === null ? "" : ` (${formatByType(share * 100, "number")}%)`)
+                  : `${summary.rekrutacja}: ${formatByType(summary.totalPlaces, "number")} miejsc (bez wyników)`;
+
                 return (
-                  <g>
-                    <path d={path} fill="none" stroke={PLACES_COLOR} strokeWidth={3} />
-                    {points.map((point) => (
-                      <g key={point.x}>
-                        <rect x={point.x - 4} y={point.y - 4} width={8} height={8} fill={PLACES_COLOR} />
-                        <text x={point.x} y={point.y - 9} className="chart-point-label" textAnchor="middle">
-                          {formatByType(point.value, "number")}
-                        </text>
-                        <title>{`Suma miejsc: ${formatByType(point.value, "number")}`}</title>
-                      </g>
-                    ))}
+                  <g key={summary.rekrutacja}>
+                    <title>{title}</title>
+                    <rect x={x - BAR_WIDTH / 2} y={yPlaces} width={BAR_WIDTH} height={chartBottom - yPlaces} fill={PLACES_COLOR_LIGHT} />
+                    {hasFilled && (
+                      <rect x={x - BAR_WIDTH / 2} y={yFilled} width={BAR_WIDTH} height={chartBottom - yFilled} fill={PLACES_COLOR} />
+                    )}
+                    <text x={x} y={yPlaces - 20} className="chart-point-label" textAnchor="middle">
+                      {formatByType(summary.totalPlaces, "number")}
+                    </text>
+                    <text x={x} y={yPlaces - 7} className="chart-tick" textAnchor="middle">
+                      {share === null ? "bez wyników" : `zajęte ${formatByType(share * 100, "number")}%`}
+                    </text>
                   </g>
                 );
-              })()}
+              })}
         </svg>
       </div>
     </section>

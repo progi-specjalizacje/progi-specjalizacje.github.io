@@ -310,6 +310,46 @@ for (const specialty of dziedziny) {
 
 console.log("Zapisano pliki JSON specjalizacji.");
 
+// Rozkład wyborów specjalizacji według wyniku (cała Polska, bez miejsc doktoranckich):
+// dla każdej rekrutacji, trybu i specjalizacji liczba zakwalifikowanych w kolejnych przedziałach punktacji.
+const SCORE_BIN_WIDTH = 1;
+const SCORE_BIN_COUNT = 100 / SCORE_BIN_WIDTH;
+const choiceBuckets = new Map();
+for (const row of allRows) {
+  if (row.czy_miejsca_doktoranckie === "TAK" || !Number.isFinite(row.punktacja_proc)) continue;
+  const key = [row.rekrutacja, row.tryb_szkolenia, row.dziedzina_medycyny].join("::");
+  if (!choiceBuckets.has(key)) choiceBuckets.set(key, new Array(SCORE_BIN_COUNT).fill(0));
+  const bin = Math.min(SCORE_BIN_COUNT - 1, Math.max(0, Math.floor(row.punktacja_proc / SCORE_BIN_WIDTH)));
+  choiceBuckets.get(key)[bin] += 1;
+}
+// Liczba miejsc w skali kraju (suma po województwach) dla rozstrzygniętych rekrutacji: pozwala pokazać zapełnianie miejsc.
+const placeTotals = new Map();
+for (const row of placesRows) {
+  if (!completedRecruitments.has(row.rekrutacja)) continue;
+  for (const [tryb, column] of [
+    ["Rezydencki", "miejsca_rezydenckie_zwykle"],
+    ["Pozarezydencki", "miejsca_pozarezydenckie"],
+  ]) {
+    const capacity = numericOrNull(row[column]);
+    if (capacity === null || capacity <= 0) continue;
+    const key = [row.rekrutacja, tryb, row.dziedzina_medycyny].join("::");
+    placeTotals.set(key, (placeTotals.get(key) ?? 0) + capacity);
+  }
+}
+const scoreChoices = {
+  binWidth: SCORE_BIN_WIDTH,
+  places: [...placeTotals].map(([key, miejsca]) => {
+    const [rekrutacja, tryb, specjalizacja] = key.split("::");
+    return { rekrutacja, tryb, specjalizacja, miejsca };
+  }),
+  rows: [...choiceBuckets].map(([key, bins]) => {
+    const [rekrutacja, tryb, specjalizacja] = key.split("::");
+    return { rekrutacja, tryb, specjalizacja, bins };
+  }),
+};
+fs.writeFileSync(path.join(OUTPUT_DIR, "score_choices.json"), JSON.stringify(scoreChoices), "utf-8");
+console.log(`Zapisano rozkład wyborów specjalizacji (${scoreChoices.rows.length} wierszy).`);
+
 // Write metadata file
 const metadataContent = `// Ten plik jest generowany automatycznie przez skrypt preprocess.js. Nie edytuj go ręcznie.
 import type { TrybSzkolenia, PrzedstawWynikJako } from "../types";

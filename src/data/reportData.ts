@@ -129,6 +129,47 @@ export async function fetchSpecialtyPlaces(specialty: string): Promise<OfferedPl
   }
 }
 
+export interface ScoreChoiceRow {
+  rekrutacja: string;
+  tryb: TrybSzkolenia;
+  specjalizacja: string;
+  /** Liczba zakwalifikowanych w kolejnych przedziałach punktacji (szerokość: `binWidth` p.p.). */
+  bins: number[];
+}
+
+export interface ScorePlacesRow {
+  rekrutacja: string;
+  tryb: TrybSzkolenia;
+  specjalizacja: string;
+  /** Liczba oferowanych miejsc w kraju (suma po województwach). */
+  miejsca: number;
+}
+
+export interface ScoreChoices {
+  binWidth: number;
+  places: ScorePlacesRow[];
+  rows: ScoreChoiceRow[];
+}
+
+let scoreChoicesPromise: Promise<ScoreChoices | null> | null = null;
+
+/** Rozkład wyborów specjalizacji według wyniku dla wszystkich specjalizacji (jeden mały plik). */
+export function fetchScoreChoices(): Promise<ScoreChoices | null> {
+  if (!scoreChoicesPromise) {
+    scoreChoicesPromise = fetch("/data/score_choices.json")
+      .then((response) => {
+        if (!response.ok) throw new Error(response.statusText);
+        return response.json() as Promise<ScoreChoices>;
+      })
+      .catch((error) => {
+        console.error("Error loading score choices:", error);
+        scoreChoicesPromise = null;
+        return null;
+      });
+  }
+  return scoreChoicesPromise;
+}
+
 export function applyReportFilters(rows: ReportRow[], filters: ReportFilters): ReportRow[] {
   return rows
     .filter(

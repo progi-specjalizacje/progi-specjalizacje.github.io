@@ -5,6 +5,7 @@ import { LatestResultsCard } from "./components/LatestResultsCard";
 import { FilterPanel } from "./components/FilterControls";
 import { PivotTable } from "./components/PivotTable";
 import { SummaryChart } from "./components/SummaryChart";
+import { FillRaceChart } from "./components/FillRaceChart";
 import { TextBox } from "./components/TextBox";
 import { Calculator } from "./components/Calculator";
 import { SimulationTable } from "./components/SimulationTable";
@@ -64,6 +65,10 @@ function renderVisual(visual: DashboardVisual) {
 
   if (visual.type === "chart") {
     return <SummaryChart />;
+  }
+
+  if (visual.type === "fillChart") {
+    return <FillRaceChart />;
   }
 
   if (visual.type === "calculator") {
