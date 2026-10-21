@@ -9,7 +9,6 @@ import { FillRaceChart } from "./components/FillRaceChart";
 import { TextBox } from "./components/TextBox";
 import { Calculator } from "./components/Calculator";
 import { SimulationTable } from "./components/SimulationTable";
-import { HowItWorksCard } from "./components/HowItWorksCard";
 import { dashboardLayout, type DashboardVisual } from "./config/dashboardLayout";
 import { getReportOptions } from "./data/reportData";
 import { useFilterStore } from "./state/filterStore";
@@ -79,10 +78,6 @@ function renderVisual(visual: DashboardVisual) {
     return <SimulationTable />;
   }
 
-  if (visual.type === "howItWorks") {
-    return <HowItWorksCard />;
-  }
-
   return <FilterPanel {...visual.props} />;
 }
 
@@ -114,7 +109,6 @@ function DashboardApp() {
     observeSectionViews({
       "#raport": "raport",
       "#kalkulator": "kalkulator",
-      "#jak-to-dziala": "jak-to-dziala",
       ".seo-faq": "faq",
     });
   }, []);
@@ -133,7 +127,7 @@ function DashboardApp() {
         {dashboardLayout.map((visual) => (
           <div
             key={visual.id}
-            id={visual.id === "pivot" ? "raport" : visual.id === "calculator" ? "kalkulator" : visual.id === "how-it-works" ? "jak-to-dziala" : visual.id}
+            id={visual.id === "pivot" ? "raport" : visual.id === "calculator" ? "kalkulator" : visual.id}
             className={`dashboard-item visual-${visual.type} item-${visual.id}`}
             style={gridStyle(visual)}
           >
@@ -141,22 +135,6 @@ function DashboardApp() {
           </div>
         ))}
       </div>
-      <footer className="dashboard-footer">
-        <p>
-          Dane w raportach pochodzą z{" "}
-          <a href="https://www.cmkp.edu.pl/ksztalcenie/postepowania-kwalifikacyjne">
-            Centrum Medycznego Kształcenia Podyplomowego
-          </a>
-          .
-        </p>
-        <p>
-          Raport ma charakter informacyjny i został przygotowany na podstawie publicznie dostępnych danych. W
-          przypadku rozbieżności wiążące są informacje publikowane przez CMKP. Strona jest prywatną inicjatywą i nie
-          jest powiązana z CMKP ani żadną inną instytucją publiczną.
-        </p>
-        <p>kontakt: <a href="mailto:stenzelpawel.t@gmail.com">stenzelpawel.t@gmail.com</a></p>
-        <p>ostatnia aktualizacja: <time dateTime="2026-09">09.2026</time></p>
-      </footer>
     </main>
     </>
   );

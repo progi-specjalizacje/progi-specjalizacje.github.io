@@ -311,7 +311,6 @@ export function FillRaceChart() {
   const allPeople = sum(binTotals);
   const totalsCum = useMemo(() => cumOf(binTotals), [binTotals]);
   const peopleAbove = atLeast({ cum: totalsCum, bins: binTotals }, cursor);
-  const nearlyFull = races.filter((race) => atLeast(race, cursor) >= race.places * 0.9).length;
 
   // --- Geometria pionowego histogramu: wynik na osi pionowej (100% u góry), liczba osób w prawo ---
   const rowCount = TOP_SHOWN;
@@ -411,45 +410,9 @@ export function FillRaceChart() {
       {choices && (
         <div className="choice-main">
           <div className="choice-hist">
-            <div className="choice-hist-head">
-              <p className="chart-axis-note">
-                {compact
-                  ? "Przeciągnij suwak na histogramie w prawo, od najwyższych wyników (lub naciśnij ▶), i zobacz, jak kolejne osoby zajmują miejsca na specjalizacjach poniżej."
-                  : "Przeciągnij suwak na histogramie w dół, od najwyższych wyników (lub naciśnij ▶), i zobacz, jak kolejne osoby zajmują miejsca na specjalizacjach po prawej. Strzałki ↑ ↓ przesuwają suwak z klawiatury."}
-              </p>
-              <div className="choice-window-controls">
-                <button
-                  type="button"
-                  className={playing ? "active" : ""}
-                  onClick={() => {
-                    setTouched(true);
-                    if (playing) setPlaying(false);
-                    else {
-                      if (cursor <= AXIS_FROM + 0.5) setCursor(100);
-                      setPlaying(true);
-                    }
-                  }}
-                >
-                  {playing ? "■ Stop" : "▶ Odtwórz"}
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setPlaying(false);
-                    setCursor(100);
-                  }}
-                >
-                  ↺ Od początku
-                </button>
-              </div>
-            </div>
             <p className="choice-summary">
               Osoby z wynikiem <strong>{cursorLabel}</strong> ({roundText}): <strong>{formatNumber(peopleAbove)}</strong>{" "}
-              z {formatNumber(allPeople)} zakwalifikowanych. Specjalizacje z zajętymi co najmniej 90% miejsc:{" "}
-              <strong>
-                {nearlyFull} z {races.length}
-              </strong>
-              .
+              z {formatNumber(allPeople)} zakwalifikowanych.
             </p>
           </div>
 
@@ -627,7 +590,7 @@ export function FillRaceChart() {
                         <span className="fill-value">
                           {full ? (
                             <strong style={{ color: FULL_COLOR }}>
-                              ✓ komplet
+                              ✓ pełne
                               <small>
                                 {" "}
                                 od {race.fullAt === null ? "—" : scoreAsPoints ? `${formatNumber(display(race.fullAt))} pkt` : `${formatNumber(race.fullAt, 1)}%`}

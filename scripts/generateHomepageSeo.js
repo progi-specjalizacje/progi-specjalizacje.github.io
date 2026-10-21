@@ -177,18 +177,21 @@ function currentSalaryPeriod(today = new Date()) {
 function renderHomepageFaq() {
   const salary = currentSalaryPeriod();
   const faq = [
+    ["Jak to działa?",
+      `Wszystkie progi, wyniki i liczby miejsc pochodzą z list publikowanych przez <a href="https://www.cmkp.edu.pl/ksztalcenie/postepowania-kwalifikacyjne" target="_blank" rel="noopener noreferrer">Centrum Medycznego Kształcenia Podyplomowego</a> po każdym postępowaniu kwalifikacyjnym. CMKP udostępnia wyniki w plikach PDF. Ta strona jest ich przetworzoną wersją: odczytujemy je automatycznie, bez ręcznego przepisywania i bez zmieniania wartości, aby można je było filtrować i porównywać między naborami. Przetworzone dane porównaliśmy z oryginalnymi plikami PDF i są z nimi zgodne. Jeśli mimo to zauważysz rozbieżność, <a href="mailto:stenzelpawel.t@gmail.com">napisz do nas</a> - wiążące pozostają informacje opublikowane przez CMKP.`,
+      true],
     ["Jak liczone są punkty na specjalizację?",
       "Podstawą jest wynik z LEK (lub LDEK) – maksymalnie 200 punktów, mniej, jeśli z egzaminu unieważniono pytania. W trybie rezydenckim można dodać 5 punktów za stopień doktora oraz po 0,5 punktu za publikację (łącznie do 5 punktów), co daje maksymalnie 210 punktów. W trybie pozarezydenckim dochodzi jeszcze po 5 punktów za co najmniej 3 lata pracy i za pracę nauczyciela akademickiego – maksymalnie 220 punktów."],
-    ["Ile procent z LEK trzeba mieć na specjalizację?",
-      "To zależy od specjalizacji, województwa i naboru. Procent w tabeli liczony jest od maksymalnej liczby punktów w danym trybie (210 lub 220), więc uwzględnia też punkty dodatkowe. Swój wynik możesz przeliczyć w kalkulatorze i porównać z progami z poprzednich naborów."],
     ["Kiedy odbywają się nabory na specjalizacje?",
       "Postępowania kwalifikacyjne prowadzone są dwa razy w roku – w naborze wiosennym i jesiennym. Wyniki publikuje Centrum Medycznego Kształcenia Podyplomowego (CMKP)."],
     ["Ile zarabia się na rezydenturze?",
       `Od 1 lipca ${salary.effectiveYear} r. wynagrodzenie zasadnicze lekarza rezydenta wynosi brutto miesięcznie: w specjalizacjach priorytetowych ${formatPln(salary.priority.firstTwoYears)} w pierwszych dwóch latach i ${formatPln(salary.priority.afterTwoYears)} po dwóch latach, a w pozostałych specjalizacjach odpowiednio ${formatPln(salary.other.firstTwoYears)} i ${formatPln(salary.other.afterTwoYears)}. Kwoty liczone są od przeciętnego wynagrodzenia w gospodarce narodowej za ${salary.wageYear} r. (${formatPln(salary.averageWage)} według GUS) i rosną co roku od 1 lipca. Listę dziedzin priorytetowych określa rozporządzenie Ministra Zdrowia. Do pensji zasadniczej dochodzi zwykle wynagrodzenie za dyżury medyczne.`],
     ["Ile zarabia się na stażu podyplomowym?",
-      `Od 1 lipca ${salary.effectiveYear} r. wynagrodzenie zasadnicze lekarza stażysty i lekarza dentysty stażysty wynosi ${formatPln(salary.intern)} brutto miesięcznie, czyli 0,95 przeciętnego wynagrodzenia w gospodarce narodowej za ${salary.wageYear} r. Kwota jest aktualizowana co roku od 1 lipca. Za dyżury medyczne pełnione w trakcie stażu przysługuje dodatkowe wynagrodzenie.`]
+      `Od 1 lipca ${salary.effectiveYear} r. wynagrodzenie zasadnicze lekarza stażysty i lekarza dentysty stażysty wynosi ${formatPln(salary.intern)} brutto miesięcznie, czyli 0,95 przeciętnego wynagrodzenia w gospodarce narodowej za ${salary.wageYear} r. Kwota jest aktualizowana co roku od 1 lipca. Za dyżury medyczne pełnione w trakcie stażu przysługuje dodatkowe wynagrodzenie.`],
+    ["Ile procent z LEK trzeba mieć na specjalizację?",
+      "To zależy od specjalizacji, województwa i naboru. Procent w tabeli liczony jest od maksymalnej liczby punktów w danym trybie (210 lub 220), więc uwzględnia też punkty dodatkowe. Swój wynik możesz przeliczyć w kalkulatorze i porównać z progami z poprzednich naborów."]
   ];
-  return faq.map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`).join("\n        ");
+  return faq.map(([question, answer, isHtml]) => `<details><summary>${escapeHtml(question)}</summary><p>${isHtml ? answer : escapeHtml(answer)}</p></details>`).join("\n        ");
 }
 
 // The homepage is a client-rendered SPA, so its raw HTML must carry real content for crawlers.
