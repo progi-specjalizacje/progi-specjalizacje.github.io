@@ -4,6 +4,7 @@ import { createPortal } from "react-dom";
 import { getReportOptions } from "../data/reportData";
 import { useFilterStore } from "../state/filterStore";
 import type { PrzedstawWynikJako, TrybSzkolenia } from "../types";
+import { trackEvent } from "../utils/analytics";
 
 const options = getReportOptions();
 const scoreHelp =
@@ -148,6 +149,16 @@ function SpecialtyPicker({ onPicked }: { onPicked: () => void }) {
   const [query, setQuery] = useState("");
   const containerRef = useRef<HTMLDivElement>(null);
   const visibleOptions = useMemo(() => filterSpecialties(query), [query]);
+
+  // Wpisane frazy (także te bez wyników) pokazują, czego ludzie szukają; wysyłamy po chwili bez pisania.
+  useEffect(() => {
+    const phrase = query.trim().toLocaleLowerCase("pl");
+    if (phrase.length < 3) return undefined;
+    const timer = window.setTimeout(() => {
+      trackEvent("specialty-search", { query: phrase, results: filterSpecialties(phrase).length });
+    }, 1200);
+    return () => window.clearTimeout(timer);
+  }, [query]);
 
   useEffect(() => {
     if (!open) return undefined;

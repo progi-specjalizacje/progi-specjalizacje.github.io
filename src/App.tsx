@@ -12,7 +12,7 @@ import { SimulationTable } from "./components/SimulationTable";
 import { dashboardLayout, type DashboardVisual } from "./config/dashboardLayout";
 import { getReportOptions } from "./data/reportData";
 import { useFilterStore } from "./state/filterStore";
-import { observeSectionViews } from "./utils/analytics";
+import { observeSectionViews, trackEvent } from "./utils/analytics";
 
 function specialtySlug(value: string) {
   return value
@@ -90,6 +90,10 @@ function DashboardApp() {
     const initializeReport = async () => {
       const currentSpecialty = useFilterStore.getState().filters.dziedzinaMedycyny;
       const requestedSpecialty = getRequestedSpecialty();
+      trackEvent("specialty-landing", {
+        value: requestedSpecialty ?? currentSpecialty,
+        source: requestedSpecialty ? "url" : "default",
+      });
       if (requestedSpecialty && requestedSpecialty !== currentSpecialty) {
         await setDziedzinaMedycyny(requestedSpecialty, { silent: true });
       } else {
