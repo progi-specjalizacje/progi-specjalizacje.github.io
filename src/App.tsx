@@ -9,6 +9,7 @@ import { FillRaceChart } from "./components/FillRaceChart";
 import { TextBox } from "./components/TextBox";
 import { Calculator } from "./components/Calculator";
 import { SimulationTable } from "./components/SimulationTable";
+import { ForecastCard, ForecastIntro } from "./components/ForecastCard";
 import { dashboardLayout, type DashboardVisual } from "./config/dashboardLayout";
 import { getReportOptions } from "./data/reportData";
 import { useFilterStore } from "./state/filterStore";
@@ -72,6 +73,14 @@ function renderVisual(visual: DashboardVisual) {
 
   if (visual.type === "calculator") {
     return <Calculator />;
+  }
+
+  if (visual.type === "forecastIntro") {
+    return <ForecastIntro />;
+  }
+
+  if (visual.type === "forecast") {
+    return <ForecastCard />;
   }
 
   if (visual.type === "simulation") {

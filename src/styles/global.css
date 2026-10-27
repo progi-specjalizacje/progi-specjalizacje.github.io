@@ -1526,6 +1526,14 @@ input[type="range"] {
     order: 8;
   }
 
+  .item-forecast-intro {
+    order: 9;
+  }
+
+  .item-forecast {
+    order: 9;
+  }
+
   .item-calculator-section-title {
     order: 9;
   }
@@ -2251,4 +2259,154 @@ input[type="range"] {
   font-size: 12px;
   font-weight: 750;
   text-transform: none;
+}
+
+/* Prognoza progów: tekst wstępny i karta z tabelą województw */
+.forecast-intro {
+  height: 100%;
+  overflow: auto;
+  padding: 4px 2px 0;
+  color: #3d3550;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.forecast-intro h2 {
+  margin: 0 0 8px;
+  color: #241e30;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.forecast-intro p,
+.forecast-intro ul {
+  margin: 0 0 6px;
+}
+
+.forecast-intro ul {
+  padding-left: 20px;
+}
+
+.forecast-intro strong {
+  color: #241e30;
+}
+
+.forecast-cta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+}
+
+.forecast-cta-button {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #6843a2;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.forecast-footnote {
+  color: #746d80;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.forecast-card {
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.forecast-table-wrap {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  border-top: 1px solid #f1edf5;
+}
+
+.forecast-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.forecast-table th,
+.forecast-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #f1edf5;
+  text-align: left;
+  font-weight: 600;
+  color: #3d3550;
+  vertical-align: middle;
+}
+
+.forecast-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #ffffff;
+  color: #746d80;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.forecast-table .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.forecast-risky th,
+.forecast-risky td {
+  color: #8a8296;
+}
+
+.forecast-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+  color: #b7791f;
+  font-size: 11px;
+}
+
+.forecast-range {
+  position: relative;
+  height: 8px;
+  min-width: 120px;
+  background: #f1edf5;
+}
+
+.forecast-range-bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: #cdbbe8;
+}
+
+.forecast-range-dot {
+  position: absolute;
+  top: -2px;
+  width: 4px;
+  height: 12px;
+  margin-left: -2px;
+  background: #6843a2;
+}
+
+.forecast-range-label {
+  color: #746d80;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 980px) {
+  .item-forecast {
+    height: 560px;
+  }
+
+  .forecast-intro {
+    overflow: visible;
+  }
 }

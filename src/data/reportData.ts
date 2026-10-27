@@ -9,6 +9,7 @@ import type {
   RecruitmentPool,
   ReportFilters,
   ReportRow,
+  ThresholdForecast,
   TrybSzkolenia,
 } from "../types";
 import * as metadata from "./reportMetadata";
@@ -127,6 +128,25 @@ export async function fetchSpecialtyPlaces(specialty: string): Promise<OfferedPl
     console.error("Error loading places data:", error);
     return [];
   }
+}
+
+let forecastPromise: Promise<ThresholdForecast[]> | null = null;
+
+/** Prognozy progów na zapowiedzianą rundę (jeden mały plik). */
+export function fetchThresholdForecast(): Promise<ThresholdForecast[]> {
+  if (!forecastPromise) {
+    forecastPromise = fetch("/data/forecast.json")
+      .then((response) => {
+        if (!response.ok) throw new Error(response.statusText);
+        return response.json() as Promise<ThresholdForecast[]>;
+      })
+      .catch((error) => {
+        console.error("Error loading threshold forecast:", error);
+        forecastPromise = null;
+        return [];
+      });
+  }
+  return forecastPromise;
 }
 
 export interface ScoreChoiceRow {

@@ -7,6 +7,8 @@ stamtąd `scripts/preprocess.js` buduje `public/data/*.json` przy `npm run dev` 
 ```text
 data_pipeline/
 ├── audit.mjs                     # lokalny audyt danych (bez internetu, tylko odczyt)
+├── forecast/                     # zamrożona prognoza progów z archiwum -> source_data/forecast_<runda>.csv
+│   └── export_forecast.mjs       # node data_pipeline/forecast/export_forecast.mjs [runda]
 ├── results/                      # listy zakwalifikowanych CMKP -> source_data/<runda>_parsed.csv
 │   ├── parse_smk_ranking.py
 │   ├── pdfs/<runda>.pdf

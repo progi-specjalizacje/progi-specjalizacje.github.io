@@ -350,6 +350,25 @@ const scoreChoices = {
 fs.writeFileSync(path.join(OUTPUT_DIR, "score_choices.json"), JSON.stringify(scoreChoices), "utf-8");
 console.log(`Zapisano rozkład wyborów specjalizacji (${scoreChoices.rows.length} wierszy).`);
 
+// Prognoza progów na zapowiedzianą rundę (source_data/forecast_<runda>.csv, patrz data_pipeline/forecast).
+const forecastFiles = fs.readdirSync(SOURCE_DIR).filter((f) => /^forecast_[wj]-\d{4}\.csv$/.test(f)).sort();
+const forecastRows = forecastFiles.flatMap((file) =>
+  parseRawCsv(fs.readFileSync(path.join(SOURCE_DIR, file), "utf-8")).map((row) => ({
+    rekrutacja: row.rekrutacja,
+    wojewodztwo: row.wojewodztwo,
+    dziedzina_medycyny: row.dziedzina_medycyny,
+    tryb_szkolenia: "Rezydencki",
+    liczba_miejsc: numericOrNull(row.liczba_miejsc),
+    poziom_pewnosci: row.poziom_pewnosci,
+    prawdopodobienstwo_pelnej_puli: numericOrNull(row.prawdopodobienstwo_pelnej_puli),
+    prognoza_proc: numericOrNull(row.prognoza_modelowa),
+    dolna_proc: numericOrNull(row.dolna_granica_80_proc),
+    gorna_proc: numericOrNull(row.gorna_granica_80_proc),
+  })),
+);
+fs.writeFileSync(path.join(OUTPUT_DIR, "forecast.json"), JSON.stringify(forecastRows), "utf-8");
+console.log(`Zapisano prognozy progów (${forecastRows.length} wierszy).`);
+
 // Write metadata file
 const metadataContent = `// Ten plik jest generowany automatycznie przez skrypt preprocess.js. Nie edytuj go ręcznie.
 import type { TrybSzkolenia, PrzedstawWynikJako } from "../types";

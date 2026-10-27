@@ -1,6 +1,6 @@
 import type { DashboardMetric, PivotConfig, TextVariant } from "../types";
 
-type VisualType = "text" | "card" | "results" | "pivot" | "filters" | "chart" | "calculator" | "simulation" | "fillChart";
+type VisualType = "text" | "card" | "results" | "pivot" | "filters" | "chart" | "calculator" | "simulation" | "fillChart" | "forecastIntro" | "forecast";
 
 interface GridPosition {
   column: number;
@@ -59,6 +59,14 @@ export interface FillChartVisual extends BaseVisual {
   type: "fillChart";
 }
 
+export interface ForecastIntroVisual extends BaseVisual {
+  type: "forecastIntro";
+}
+
+export interface ForecastVisual extends BaseVisual {
+  type: "forecast";
+}
+
 export interface CalculatorVisual extends BaseVisual {
   type: "calculator";
 }
@@ -76,7 +84,9 @@ export type DashboardVisual =
   | ChartVisual
   | FillChartVisual
   | CalculatorVisual
-  | SimulationVisual;
+  | SimulationVisual
+  | ForecastIntroVisual
+  | ForecastVisual;
 
 export const dashboardLayout: DashboardVisual[] = [
   {

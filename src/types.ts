@@ -32,6 +32,20 @@ export interface OfferedPlaces {
   liczba_miejsc: number;
 }
 
+export interface ThresholdForecast {
+  rekrutacja: string;
+  wojewodztwo: string;
+  dziedzina_medycyny: string;
+  tryb_szkolenia: TrybSzkolenia;
+  liczba_miejsc: number | null;
+  poziom_pewnosci: "wyzszy" | "sredni" | "niski";
+  /** Szansa, że pula zostanie w pełni obsadzona (tylko wtedy próg jest konkurencyjny). */
+  prawdopodobienstwo_pelnej_puli: number | null;
+  prognoza_proc: number | null;
+  dolna_proc: number | null;
+  gorna_proc: number | null;
+}
+
 export interface ReportRow {
   rekrutacja: string;
   kolejnosc_plikow: number;
