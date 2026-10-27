@@ -208,7 +208,7 @@ function isFillObservation(row) {
     numeric(row.oferowane_miejsca_rezydenckie) > 0 &&
     [
       "pelna_pula_proxy_konkurencji",
-      "niepelna_pula_brak_progu_konkurencyjnego",
+      "niepelna_pula",
       "niepelna_pula_bez_zakwalifikowanych",
     ].includes(row.status_konkurencyjnosci)
   );

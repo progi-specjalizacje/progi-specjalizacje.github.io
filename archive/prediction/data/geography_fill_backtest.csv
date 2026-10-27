@@ -1,309 +1,572 @@
 rekrutacja,wojewodztwo,dziedzina_medycyny,czy_pelna_pula,prawdopodobienstwo_bazowe,prawdopodobienstwo_z_geografia
-j-2024,Mazowieckie,Anestezjologia i intensywna terapia,1,0.993129,0.99214
-j-2024,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,1,0.944788,0.942096
-j-2024,Mazowieckie,Audiologia i foniatria,0,0.955337,0.955285
-j-2024,Mazowieckie,Chirurgia dziecięca,1,0.732991,0.739731
-j-2024,Warmińsko-mazurskie,Chirurgia naczyniowa,1,0.834034,0.833563
-j-2024,Mazowieckie,Chirurgia onkologiczna,1,0.347465,0.339458
-j-2024,Warmińsko-mazurskie,Chirurgia onkologiczna,0,0.073269,0.083544
-j-2024,Dolnośląskie,Chirurgia plastyczna,1,0.754465,0.762274
-j-2024,Dolnośląskie,Chirurgia stomatologiczna,1,0.983482,0.984767
-j-2024,Mazowieckie,Chirurgia stomatologiczna,1,0.994358,0.996136
-j-2024,Dolnośląskie,Choroby płuc,1,0.973612,0.972739
-j-2024,Warmińsko-mazurskie,Choroby płuc,1,0.644284,0.656371
-j-2024,Mazowieckie,Choroby płuc dzieci,1,0.907643,0.883148
-j-2024,Warmińsko-mazurskie,Choroby płuc dzieci,1,0.621601,0.616226
-j-2024,Dolnośląskie,Choroby zakaźne,1,0.477805,0.477905
-j-2024,Warmińsko-mazurskie,Choroby zakaźne,1,0.078263,0.086689
-j-2024,Dolnośląskie,Dermatologia i wenerologia,1,0.989163,0.988918
-j-2024,Dolnośląskie,Diabetologia,1,0.980856,0.980666
-j-2024,Warmińsko-mazurskie,Diabetologia,1,0.778652,0.771259
-j-2024,Mazowieckie,Diagnostyka laboratoryjna,0,0.559829,0.554766
-j-2024,Warmińsko-mazurskie,Diagnostyka laboratoryjna,0,0.359064,0.348942
-j-2024,Dolnośląskie,Endokrynologia,1,0.995584,0.995606
-j-2024,Mazowieckie,Endokrynologia,1,0.997077,0.996912
-j-2024,Warmińsko-mazurskie,Endokrynologia i diabetologia dziecięca,1,0.951173,0.949076
-j-2024,Dolnośląskie,Gastroenterologia,1,0.93602,0.933766
-j-2024,Mazowieckie,Gastroenterologia,1,0.994227,0.99408
-j-2024,Dolnośląskie,Gastroenterologia dziecięca,1,0.887355,0.885571
-j-2024,Dolnośląskie,Geriatria,0,0.049963,0.04941
-j-2024,Warmińsko-mazurskie,Geriatria,0,0.072698,0.05871
-j-2024,Dolnośląskie,Medycyna nuklearna,1,0.590888,0.583201
-j-2024,Dolnośląskie,Medycyna paliatywna,0,0.029882,0.025661
-j-2024,Mazowieckie,Medycyna paliatywna,0,0.463717,0.45762
-j-2024,Warmińsko-mazurskie,Medycyna paliatywna,0,0.052795,0.051114
-j-2024,Mazowieckie,Medycyna pracy,1,0.414777,0.467427
-j-2024,Mazowieckie,Medycyna sportowa,1,0.504987,0.502651
-j-2024,Mazowieckie,Nefrologia,1,0.904648,0.906336
-j-2024,Warmińsko-mazurskie,Nefrologia,0,0.504228,0.493909
-j-2024,Dolnośląskie,Nefrologia dziecięca,1,0.842068,0.839628
-j-2024,Mazowieckie,Nefrologia dziecięca,1,0.928253,0.929477
-j-2024,Warmińsko-mazurskie,Nefrologia dziecięca,1,0.439597,0.432244
-j-2024,Dolnośląskie,Neurochirurgia,1,0.793115,0.780881
-j-2024,Mazowieckie,Neurochirurgia,1,0.981822,0.981072
-j-2024,Dolnośląskie,Neurologia,1,0.957323,0.959911
-j-2024,Mazowieckie,Neurologia,1,0.982264,0.982162
-j-2024,Dolnośląskie,Neurologia dziecięca,1,0.904263,0.904345
-j-2024,Mazowieckie,Neurologia dziecięca,1,0.955452,0.954217
-j-2024,Warmińsko-mazurskie,Neurologia dziecięca,1,0.29459,0.287445
-j-2024,Dolnośląskie,Okulistyka,1,0.996399,0.996176
-j-2024,Warmińsko-mazurskie,Okulistyka,1,0.98432,0.983666
-j-2024,Mazowieckie,Onkologia i hematologia dziecięca,1,0.663681,0.668148
-j-2024,Dolnośląskie,Ortodoncja,1,0.994547,0.994403
-j-2024,Mazowieckie,Ortodoncja,1,0.996549,0.996176
-j-2024,Dolnośląskie,Otorynolaryngologia,1,0.961262,0.961217
-j-2024,Mazowieckie,Otorynolaryngologia,1,0.995511,0.995005
-j-2024,Warmińsko-mazurskie,Otorynolaryngologia,1,0.9781,0.979873
-j-2024,Dolnośląskie,Pediatria,1,0.988502,0.988528
-j-2024,Dolnośląskie,Periodontologia,1,0.982951,0.981767
-j-2024,Mazowieckie,Położnictwo i ginekologia,1,0.996132,0.99631
-j-2024,Dolnośląskie,Protetyka stomatologiczna,1,0.977813,0.975573
-j-2024,Mazowieckie,Protetyka stomatologiczna,1,0.993415,0.99309
-j-2024,Warmińsko-mazurskie,Protetyka stomatologiczna,0,0.626909,0.690205
-j-2024,Warmińsko-mazurskie,Psychiatria,1,0.557049,0.563486
-j-2024,Dolnośląskie,Psychiatria dzieci i młodzieży,1,0.994472,0.994848
-j-2024,Dolnośląskie,Radioterapia onkologiczna,0,0.210902,0.203533
-j-2024,Mazowieckie,Reumatologia,1,0.981566,0.987081
-j-2024,Warmińsko-mazurskie,Reumatologia,1,0.944671,0.941026
-j-2024,Dolnośląskie,Stomatologia dziecięca,1,0.958082,0.952691
-j-2024,Warmińsko-mazurskie,Stomatologia dziecięca,0,0.758077,0.833011
-j-2024,Dolnośląskie,Stomatologia zachowawcza z endodoncją,1,0.942217,0.93513
-j-2024,Warmińsko-mazurskie,Stomatologia zachowawcza z endodoncją,0,0.94229,0.962269
-j-2024,Dolnośląskie,Toksykologia kliniczna,0,0.239887,0.240974
-j-2024,Mazowieckie,Toksykologia kliniczna,0,0.572533,0.562741
-j-2024,Dolnośląskie,Transfuzjologia kliniczna,0,0.082433,0.080776
-j-2024,Dolnośląskie,Urologia,1,0.992413,0.991852
-j-2024,Warmińsko-mazurskie,Urologia,1,0.965345,0.970901
-w-2025,Dolnośląskie,Alergologia,0,0.913437,0.901258
-w-2025,Warmińsko-mazurskie,Alergologia,1,0.526358,0.526735
-w-2025,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,1,0.862342,0.900041
-w-2025,Dolnośląskie,Audiologia i foniatria,1,0.470248,0.494825
-w-2025,Mazowieckie,Chirurgia dziecięca,1,0.557603,0.293737
-w-2025,Dolnośląskie,Chirurgia klatki piersiowej,0,0.226465,0.243989
-w-2025,Dolnośląskie,Chirurgia naczyniowa,1,0.612731,0.635503
-w-2025,Mazowieckie,Chirurgia naczyniowa,1,0.637027,0.572748
-w-2025,Warmińsko-mazurskie,Chirurgia onkologiczna,0,0.035567,0.049135
-w-2025,Dolnośląskie,Chirurgia plastyczna,1,0.921358,0.899262
-w-2025,Mazowieckie,Chirurgia stomatologiczna,1,0.969305,0.972599
-w-2025,Warmińsko-mazurskie,Chirurgia stomatologiczna,1,0.916523,0.922364
-w-2025,Mazowieckie,Choroby płuc,1,0.954147,0.952761
-w-2025,Warmińsko-mazurskie,Choroby płuc,1,0.334814,0.436777
-w-2025,Dolnośląskie,Choroby płuc dzieci,0,0.747888,0.688415
-w-2025,Mazowieckie,Choroby płuc dzieci,0,0.926977,0.924822
-w-2025,Dolnośląskie,Choroby zakaźne,1,0.263414,0.280095
-w-2025,Warmińsko-mazurskie,Choroby zakaźne,0,0.004004,0.004171
-w-2025,Dolnośląskie,Dermatologia i wenerologia,1,0.984946,0.985561
-w-2025,Mazowieckie,Dermatologia i wenerologia,1,0.962737,0.959413
-w-2025,Mazowieckie,Diabetologia,1,0.972882,0.974575
-w-2025,Warmińsko-mazurskie,Diabetologia,1,0.602132,0.612786
-w-2025,Mazowieckie,Diagnostyka laboratoryjna,0,0.042373,0.046022
-w-2025,Warmińsko-mazurskie,Diagnostyka laboratoryjna,0,0.053,0.051349
-w-2025,Mazowieckie,Endokrynologia,1,0.991217,0.99167
-w-2025,Dolnośląskie,Gastroenterologia,0,0.9338,0.930268
-w-2025,Mazowieckie,Gastroenterologia,1,0.981877,0.981842
-w-2025,Dolnośląskie,Genetyka kliniczna,0,0.62779,0.643344
-w-2025,Dolnośląskie,Geriatria,0,0.018897,0.019328
-w-2025,Mazowieckie,Geriatria,0,0.076806,0.080924
-w-2025,Warmińsko-mazurskie,Geriatria,0,0.015554,0.013761
-w-2025,Dolnośląskie,Hematologia,0,0.292354,0.305412
-w-2025,Dolnośląskie,Kardiochirurgia,0,0.011708,0.013031
-w-2025,Mazowieckie,Kardiochirurgia,1,0.262214,0.236896
-w-2025,Warmińsko-mazurskie,Kardiochirurgia,1,0.008652,0.008484
-w-2025,Dolnośląskie,Kardiologia,1,0.968448,0.960343
-w-2025,Mazowieckie,Kardiologia,1,0.999767,0.999765
-w-2025,Warmińsko-mazurskie,Medycyna nuklearna,0,0.111715,0.106463
-w-2025,Warmińsko-mazurskie,Medycyna paliatywna,0,0.01826,0.016911
-w-2025,Dolnośląskie,Medycyna pracy,0,0.228937,0.240878
-w-2025,Mazowieckie,Medycyna pracy,1,0.50989,0.562098
-w-2025,Warmińsko-mazurskie,Medycyna pracy,0,0.075414,0.069551
-w-2025,Dolnośląskie,Nefrologia dziecięca,0,0.502647,0.539639
-w-2025,Mazowieckie,Nefrologia dziecięca,0,0.596902,0.614738
-w-2025,Warmińsko-mazurskie,Nefrologia dziecięca,0,0.2851,0.278581
-w-2025,Dolnośląskie,Okulistyka,1,0.988824,0.988435
-w-2025,Warmińsko-mazurskie,Okulistyka,1,0.868626,0.871421
-w-2025,Dolnośląskie,Onkologia i hematologia dziecięca,1,0.086988,0.091296
-w-2025,Mazowieckie,Onkologia i hematologia dziecięca,1,0.437674,0.422349
-w-2025,Warmińsko-mazurskie,Onkologia kliniczna,0,0.043231,0.051035
-w-2025,Dolnośląskie,Ortodoncja,1,0.937416,0.940568
-w-2025,Mazowieckie,Ortodoncja,1,0.995368,0.995352
-w-2025,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,1,0.574828,0.59481
-w-2025,Mazowieckie,Ortopedia i traumatologia narządu ruchu,1,0.998848,0.999078
-w-2025,Mazowieckie,Otorynolaryngologia,1,0.97265,0.9702
-w-2025,Mazowieckie,Otorynolaryngologia dziecięca,1,0.959419,0.961545
-w-2025,Mazowieckie,Patomorfologia,1,0.135641,0.1685
-w-2025,Warmińsko-mazurskie,Patomorfologia,0,0.019212,0.019632
-w-2025,Dolnośląskie,Periodontologia,1,0.919958,0.931544
-w-2025,Mazowieckie,Położnictwo i ginekologia,1,0.997087,0.996936
-w-2025,Warmińsko-mazurskie,Położnictwo i ginekologia,1,0.549923,0.54631
-w-2025,Dolnośląskie,Protetyka stomatologiczna,1,0.833855,0.853669
-w-2025,Warmińsko-mazurskie,Protetyka stomatologiczna,1,0.068952,0.05495
-w-2025,Warmińsko-mazurskie,Psychiatria,1,0.297082,0.255566
-w-2025,Dolnośląskie,Radiologia i diagnostyka obrazowa,1,0.668113,0.601825
-w-2025,Mazowieckie,Radiologia i diagnostyka obrazowa,1,0.992199,0.990715
-w-2025,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,1,0.580126,0.531131
-w-2025,Mazowieckie,Radioterapia onkologiczna,1,0.20435,0.178074
-w-2025,Warmińsko-mazurskie,Radioterapia onkologiczna,0,0.017425,0.016936
-w-2025,Warmińsko-mazurskie,Rehabilitacja medyczna,0,0.007799,0.007182
-w-2025,Dolnośląskie,Reumatologia,1,0.979744,0.978055
-w-2025,Mazowieckie,Stomatologia dziecięca,1,0.959886,0.962635
-w-2025,Warmińsko-mazurskie,Stomatologia dziecięca,1,0.073814,0.064441
-w-2025,Dolnośląskie,Toksykologia kliniczna,0,0.080849,0.078427
-w-2025,Mazowieckie,Toksykologia kliniczna,0,0.042684,0.047755
-w-2025,Dolnośląskie,Transfuzjologia kliniczna,0,0.033926,0.033839
-w-2025,Mazowieckie,Transfuzjologia kliniczna,0,0.012156,0.013818
-w-2025,Dolnośląskie,Urologia,1,0.952477,0.945998
-w-2025,Mazowieckie,Urologia,1,0.988016,0.988245
-w-2025,Warmińsko-mazurskie,Urologia,1,0.790661,0.798606
-j-2025,Dolnośląskie,Alergologia,1,0.945706,0.952842
-j-2025,Mazowieckie,Alergologia,1,0.987343,0.988655
-j-2025,Dolnośląskie,Chirurgia dziecięca,1,0.476893,0.508986
-j-2025,Mazowieckie,Chirurgia dziecięca,1,0.86362,0.874421
-j-2025,Mazowieckie,Chirurgia klatki piersiowej,0,0.757593,0.759234
-j-2025,Dolnośląskie,Chirurgia naczyniowa,1,0.832829,0.848824
-j-2025,Mazowieckie,Chirurgia naczyniowa,1,0.973593,0.972613
-j-2025,Warmińsko-mazurskie,Chirurgia naczyniowa,1,0.833797,0.852793
-j-2025,Dolnośląskie,Chirurgia onkologiczna,1,0.423155,0.388342
-j-2025,Warmińsko-mazurskie,Chirurgia onkologiczna,0,0.26287,0.289836
-j-2025,Dolnośląskie,Chirurgia plastyczna,1,0.959457,0.953418
-j-2025,Dolnośląskie,Chirurgia stomatologiczna,1,0.989505,0.986458
-j-2025,Warmińsko-mazurskie,Chirurgia stomatologiczna,1,0.945944,0.955989
-j-2025,Warmińsko-mazurskie,Choroby płuc,1,0.775753,0.797863
-j-2025,Dolnośląskie,Choroby płuc dzieci,1,0.735371,0.702796
-j-2025,Mazowieckie,Choroby płuc dzieci,1,0.931416,0.894046
-j-2025,Warmińsko-mazurskie,Choroby zakaźne,0,0.249753,0.211515
-j-2025,Dolnośląskie,Dermatologia i wenerologia,1,0.990151,0.991844
-j-2025,Mazowieckie,Dermatologia i wenerologia,1,0.993573,0.994717
-j-2025,Dolnośląskie,Diabetologia,1,0.97543,0.967601
-j-2025,Warmińsko-mazurskie,Diabetologia,1,0.931917,0.942378
-j-2025,Mazowieckie,Diagnostyka laboratoryjna,0,0.337781,0.33447
-j-2025,Warmińsko-mazurskie,Diagnostyka laboratoryjna,0,0.168723,0.153802
-j-2025,Dolnośląskie,Endokrynologia,1,0.990851,0.992265
-j-2025,Mazowieckie,Endokrynologia,1,0.997208,0.997606
-j-2025,Dolnośląskie,Endokrynologia i diabetologia dziecięca,1,0.948807,0.955438
-j-2025,Mazowieckie,Endokrynologia i diabetologia dziecięca,1,0.990083,0.990524
-j-2025,Mazowieckie,Farmakologia kliniczna,1,0.716757,0.700302
-j-2025,Dolnośląskie,Gastroenterologia,1,0.913544,0.916651
-j-2025,Mazowieckie,Gastroenterologia dziecięca,1,0.956101,0.956176
-j-2025,Warmińsko-mazurskie,Gastroenterologia dziecięca,1,0.516012,0.487938
-j-2025,Dolnośląskie,Genetyka kliniczna,1,0.706119,0.730143
-j-2025,Dolnośląskie,Kardiochirurgia,1,0.169777,0.197517
-j-2025,Mazowieckie,Kardiochirurgia,1,0.521513,0.543671
-j-2025,Warmińsko-mazurskie,Kardiochirurgia,0,0.118882,0.112958
-j-2025,Dolnośląskie,Kardiologia,1,0.979571,0.980422
-j-2025,Dolnośląskie,Medycyna nuklearna,1,0.718356,0.734753
-j-2025,Dolnośląskie,Medycyna paliatywna,0,0.054386,0.055411
-j-2025,Mazowieckie,Medycyna paliatywna,0,0.34,0.325927
-j-2025,Warmińsko-mazurskie,Medycyna paliatywna,0,0.091849,0.09014
-j-2025,Dolnośląskie,Medycyna pracy,1,0.524585,0.543633
-j-2025,Warmińsko-mazurskie,Medycyna sądowa,1,0.438954,0.434679
-j-2025,Mazowieckie,Mikrobiologia lekarska,0,0.524084,0.518659
-j-2025,Dolnośląskie,Nefrologia,1,0.69664,0.708911
-j-2025,Dolnośląskie,Nefrologia dziecięca,0,0.548313,0.575185
-j-2025,Mazowieckie,Nefrologia dziecięca,1,0.748342,0.761205
-j-2025,Mazowieckie,Neonatologia,1,0.809202,0.825391
-j-2025,Dolnośląskie,Neurochirurgia,1,0.93515,0.943177
-j-2025,Mazowieckie,Neurochirurgia,1,0.993241,0.993671
-j-2025,Warmińsko-mazurskie,Neurochirurgia,1,0.878616,0.889912
-j-2025,Dolnośląskie,Neurologia dziecięca,1,0.893384,0.910883
-j-2025,Mazowieckie,Neurologia dziecięca,1,0.974336,0.976892
-j-2025,Warmińsko-mazurskie,Neurologia dziecięca,0,0.285967,0.292135
-j-2025,Dolnośląskie,Okulistyka,1,0.988113,0.985365
-j-2025,Mazowieckie,Okulistyka,1,0.99867,0.998765
-j-2025,Warmińsko-mazurskie,Onkologia i hematologia dziecięca,1,0.343163,0.330771
-j-2025,Warmińsko-mazurskie,Onkologia kliniczna,0,0.297711,0.31944
-j-2025,Dolnośląskie,Ortodoncja,1,0.974329,0.978509
-j-2025,Mazowieckie,Ortodoncja,1,0.99116,0.992717
-j-2025,Warmińsko-mazurskie,Ortodoncja,1,0.966132,0.954862
-j-2025,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,1,0.97399,0.973603
-j-2025,Dolnośląskie,Otorynolaryngologia,1,0.98595,0.982547
-j-2025,Dolnośląskie,Otorynolaryngologia dziecięca,1,0.955059,0.960908
-j-2025,Mazowieckie,Otorynolaryngologia dziecięca,1,0.990707,0.984338
-j-2025,Mazowieckie,Patomorfologia,1,0.499631,0.536834
-j-2025,Dolnośląskie,Periodontologia,1,0.972994,0.970957
-j-2025,Mazowieckie,Periodontologia,1,0.996461,0.996717
-j-2025,Mazowieckie,Położnictwo i ginekologia,1,0.999795,0.999837
-j-2025,Warmińsko-mazurskie,Położnictwo i ginekologia,1,0.812228,0.835864
-j-2025,Dolnośląskie,Protetyka stomatologiczna,1,0.964409,0.961165
-j-2025,Warmińsko-mazurskie,Psychiatria,1,0.944471,0.935922
-j-2025,Mazowieckie,Psychiatria dzieci i młodzieży,1,0.998316,0.998516
-j-2025,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,1,0.966273,0.97124
-j-2025,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,1,0.956167,0.965401
-j-2025,Mazowieckie,Reumatologia,1,0.993623,0.994939
-j-2025,Warmińsko-mazurskie,Reumatologia,1,0.975181,0.978196
-j-2025,Dolnośląskie,Stomatologia zachowawcza z endodoncją,1,0.955291,0.937255
-j-2025,Dolnośląskie,Toksykologia kliniczna,0,0.360233,0.358651
-j-2025,Mazowieckie,Toksykologia kliniczna,0,0.315779,0.312695
-j-2025,Mazowieckie,Transfuzjologia kliniczna,0,0.143566,0.149585
-j-2025,Mazowieckie,Urologia,1,0.996668,0.997106
-j-2025,Warmińsko-mazurskie,Urologia,1,0.977721,0.980402
-w-2026,Mazowieckie,Anestezjologia i intensywna terapia,1,0.997729,0.997784
-w-2026,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,1,0.85995,0.862476
-w-2026,Dolnośląskie,Balneologia i medycyna fizykalna,1,0.054836,0.034484
-w-2026,Dolnośląskie,Chirurgia dziecięca,1,0.636279,0.602754
-w-2026,Mazowieckie,Chirurgia dziecięca,1,0.928877,0.927434
-w-2026,Mazowieckie,Chirurgia naczyniowa,1,0.955062,0.950586
-w-2026,Warmińsko-mazurskie,Chirurgia naczyniowa,1,0.722329,0.73692
-w-2026,Warmińsko-mazurskie,Chirurgia onkologiczna,0,0.054289,0.055418
-w-2026,Dolnośląskie,Chirurgia stomatologiczna,1,0.925937,0.90731
-w-2026,Mazowieckie,Chirurgia stomatologiczna,1,0.99072,0.993211
-w-2026,Warmińsko-mazurskie,Chirurgia stomatologiczna,0,0.962065,0.968749
-w-2026,Dolnośląskie,Choroby płuc,1,0.750671,0.746196
-w-2026,Mazowieckie,Choroby płuc,1,0.990764,0.990207
-w-2026,Warmińsko-mazurskie,Choroby zakaźne,0,0.018017,0.015038
-w-2026,Dolnośląskie,Dermatologia i wenerologia,1,0.980955,0.985127
-w-2026,Mazowieckie,Dermatologia i wenerologia,1,0.996651,0.997553
-w-2026,Dolnośląskie,Diabetologia,0,0.963845,0.971163
-w-2026,Mazowieckie,Diabetologia,1,0.988004,0.987954
-w-2026,Warmińsko-mazurskie,Diabetologia,1,0.854127,0.865005
-w-2026,Warmińsko-mazurskie,Diagnostyka laboratoryjna,0,0.022185,0.021637
-w-2026,Mazowieckie,Endokrynologia,1,0.995611,0.996075
-w-2026,Mazowieckie,Endokrynologia i diabetologia dziecięca,1,0.967578,0.972134
-w-2026,Dolnośląskie,Gastroenterologia,0,0.915763,0.865733
-w-2026,Mazowieckie,Gastroenterologia,1,0.975092,0.978642
-w-2026,Warmińsko-mazurskie,Geriatria,0,0.035426,0.017995
-w-2026,Dolnośląskie,Kardiochirurgia,1,0.243788,0.231892
-w-2026,Mazowieckie,Medycyna nuklearna,1,0.372163,0.430508
-w-2026,Mazowieckie,Medycyna paliatywna,1,0.065994,0.06934
-w-2026,Warmińsko-mazurskie,Medycyna paliatywna,0,0.017754,0.016824
-w-2026,Warmińsko-mazurskie,Medycyna pracy,0,0.132072,0.124514
-w-2026,Warmińsko-mazurskie,Medycyna ratunkowa,0,0.153815,0.141648
-w-2026,Mazowieckie,Medycyna sportowa,1,0.634074,0.639943
-w-2026,Mazowieckie,Mikrobiologia lekarska,1,0.048019,0.053774
-w-2026,Warmińsko-mazurskie,Nefrologia,0,0.195758,0.19601
-w-2026,Mazowieckie,Nefrologia dziecięca,0,0.388466,0.404112
-w-2026,Dolnośląskie,Neonatologia,0,0.310482,0.300445
-w-2026,Mazowieckie,Neurochirurgia,1,0.961574,0.966802
-w-2026,Dolnośląskie,Neurologia,1,0.606811,0.713305
-w-2026,Mazowieckie,Neurologia dziecięca,1,0.913492,0.914027
-w-2026,Dolnośląskie,Okulistyka,1,0.988733,0.989125
-w-2026,Warmińsko-mazurskie,Okulistyka,1,0.937715,0.949414
-w-2026,Mazowieckie,Onkologia i hematologia dziecięca,0,0.548651,0.584925
-w-2026,Warmińsko-mazurskie,Onkologia i hematologia dziecięca,0,0.255944,0.238406
-w-2026,Warmińsko-mazurskie,Onkologia kliniczna,0,0.021887,0.024205
-w-2026,Dolnośląskie,Ortodoncja,1,0.983432,0.988198
-w-2026,Mazowieckie,Ortodoncja,1,0.996318,0.99716
-w-2026,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,1,0.902378,0.883233
-w-2026,Mazowieckie,Ortopedia i traumatologia narządu ruchu,1,0.98384,0.982979
-w-2026,Mazowieckie,Otorynolaryngologia dziecięca,1,0.949542,0.937936
-w-2026,Mazowieckie,Patomorfologia,1,0.530436,0.54306
-w-2026,Warmińsko-mazurskie,Patomorfologia,0,0.075792,0.07654
-w-2026,Dolnośląskie,Periodontologia,1,0.970375,0.952369
-w-2026,Mazowieckie,Periodontologia,1,0.976674,0.979605
-w-2026,Warmińsko-mazurskie,Periodontologia,1,0.833792,0.815762
-w-2026,Dolnośląskie,Położnictwo i ginekologia,1,0.970484,0.965299
-w-2026,Warmińsko-mazurskie,Położnictwo i ginekologia,1,0.901776,0.891396
-w-2026,Warmińsko-mazurskie,Protetyka stomatologiczna,1,0.519125,0.534477
-w-2026,Warmińsko-mazurskie,Psychiatria,1,0.471426,0.492356
-w-2026,Dolnośląskie,Psychiatria dzieci i młodzieży,1,0.966044,0.965674
-w-2026,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,1,0.920889,0.932898
-w-2026,Dolnośląskie,Radioterapia onkologiczna,0,0.126039,0.141337
-w-2026,Warmińsko-mazurskie,Radioterapia onkologiczna,1,0.007988,0.013315
-w-2026,Dolnośląskie,Reumatologia,1,0.964685,0.955981
-w-2026,Mazowieckie,Reumatologia,1,0.985934,0.989454
-w-2026,Warmińsko-mazurskie,Reumatologia,1,0.91031,0.92066
-w-2026,Dolnośląskie,Stomatologia dziecięca,1,0.964223,0.948242
-w-2026,Mazowieckie,Stomatologia dziecięca,1,0.977382,0.981527
-w-2026,Dolnośląskie,Stomatologia zachowawcza z endodoncją,1,0.780148,0.815398
-w-2026,Mazowieckie,Toksykologia kliniczna,0,0.027458,0.026618
-w-2026,Mazowieckie,Transfuzjologia kliniczna,0,0.027056,0.025135
-w-2026,Mazowieckie,Urologia,1,0.993696,0.993767
+j-2024,Dolnośląskie,Alergologia,0,0.88989,0.888895
+j-2024,Dolnośląskie,Anestezjologia i intensywna terapia,0,0.052743,0.052785
+j-2024,Mazowieckie,Anestezjologia i intensywna terapia,1,0.251129,0.259394
+j-2024,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,1,0.057372,0.056891
+j-2024,Mazowieckie,Audiologia i foniatria,0,0.856126,0.854736
+j-2024,Dolnośląskie,Chirurgia dziecięca,0,0.085084,0.085824
+j-2024,Mazowieckie,Chirurgia dziecięca,1,0.125087,0.122687
+j-2024,Warmińsko-mazurskie,Chirurgia dziecięca,0,0.087238,0.085818
+j-2024,Dolnośląskie,Chirurgia klatki piersiowej,0,0.266257,0.264547
+j-2024,Warmińsko-mazurskie,Chirurgia naczyniowa,1,0.471797,0.478332
+j-2024,Dolnośląskie,Chirurgia ogólna,0,0.024447,0.024826
+j-2024,Mazowieckie,Chirurgia ogólna,0,0.008263,0.008182
+j-2024,Warmińsko-mazurskie,Chirurgia ogólna,0,0.011725,0.01189
+j-2024,Dolnośląskie,Chirurgia onkologiczna,0,0.153479,0.153726
+j-2024,Mazowieckie,Chirurgia onkologiczna,1,0.037824,0.037091
+j-2024,Warmińsko-mazurskie,Chirurgia onkologiczna,0,0.09713,0.096813
+j-2024,Dolnośląskie,Chirurgia plastyczna,1,0.507182,0.514257
+j-2024,Dolnośląskie,Chirurgia stomatologiczna,1,0.950553,0.951239
+j-2024,Mazowieckie,Chirurgia stomatologiczna,1,0.981438,0.979544
+j-2024,Dolnośląskie,Choroby płuc,1,0.317187,0.314824
+j-2024,Mazowieckie,Choroby płuc,0,0.52769,0.515885
+j-2024,Warmińsko-mazurskie,Choroby płuc,1,0.261346,0.266439
+j-2024,Dolnośląskie,Choroby płuc dzieci,0,0.631856,0.622948
+j-2024,Mazowieckie,Choroby płuc dzieci,1,0.565217,0.581705
+j-2024,Warmińsko-mazurskie,Choroby płuc dzieci,1,0.575154,0.564972
+j-2024,Dolnośląskie,Choroby wewnętrzne,0,0.032842,0.032791
+j-2024,Mazowieckie,Choroby wewnętrzne,0,0.020855,0.020646
+j-2024,Warmińsko-mazurskie,Choroby wewnętrzne,0,0.022521,0.022876
+j-2024,Dolnośląskie,Choroby zakaźne,1,0.202853,0.199486
+j-2024,Mazowieckie,Choroby zakaźne,0,0.011615,0.011352
+j-2024,Warmińsko-mazurskie,Choroby zakaźne,1,0.0432,0.045307
+j-2024,Dolnośląskie,Dermatologia i wenerologia,1,0.763442,0.759214
+j-2024,Dolnośląskie,Diabetologia,1,0.915567,0.913853
+j-2024,Mazowieckie,Diabetologia,0,0.786023,0.786014
+j-2024,Warmińsko-mazurskie,Diabetologia,1,0.499418,0.494019
+j-2024,Mazowieckie,Diagnostyka laboratoryjna,0,0.3564,0.356914
+j-2024,Warmińsko-mazurskie,Diagnostyka laboratoryjna,0,0.172601,0.171753
+j-2024,Dolnośląskie,Endokrynologia,1,0.984742,0.984167
+j-2024,Mazowieckie,Endokrynologia,1,0.934478,0.933153
+j-2024,Mazowieckie,Endokrynologia i diabetologia dziecięca,0,0.887993,0.886519
+j-2024,Warmińsko-mazurskie,Endokrynologia i diabetologia dziecięca,1,0.858813,0.85601
+j-2024,Dolnośląskie,Gastroenterologia,1,0.847383,0.848881
+j-2024,Mazowieckie,Gastroenterologia,1,0.962088,0.961235
+j-2024,Dolnośląskie,Gastroenterologia dziecięca,1,0.788774,0.786917
+j-2024,Warmińsko-mazurskie,Gastroenterologia dziecięca,0,0.167902,0.166777
+j-2024,Dolnośląskie,Geriatria,0,0.034297,0.033625
+j-2024,Mazowieckie,Geriatria,0,0.050447,0.050635
+j-2024,Warmińsko-mazurskie,Geriatria,0,0.149301,0.157652
+j-2024,Dolnośląskie,Hematologia,0,0.222966,0.229814
+j-2024,Mazowieckie,Hematologia,0,0.231273,0.22778
+j-2024,Dolnośląskie,Kardiochirurgia,0,0.044464,0.044275
+j-2024,Mazowieckie,Kardiochirurgia,0,0.105489,0.101724
+j-2024,Warmińsko-mazurskie,Kardiochirurgia,0,0.045875,0.045431
+j-2024,Dolnośląskie,Kardiologia,0,0.693725,0.691941
+j-2024,Mazowieckie,Kardiologia,0,0.639456,0.628936
+j-2024,Warmińsko-mazurskie,Kardiologia,0,0.456623,0.45047
+j-2024,Mazowieckie,Kardiologia dziecięca,0,0.462758,0.45971
+j-2024,Dolnośląskie,Medycyna nuklearna,1,0.545888,0.544119
+j-2024,Mazowieckie,Medycyna nuklearna,0,0.103573,0.103269
+j-2024,Warmińsko-mazurskie,Medycyna nuklearna,0,0.12566,0.123979
+j-2024,Dolnośląskie,Medycyna paliatywna,0,0.011307,0.011423
+j-2024,Mazowieckie,Medycyna paliatywna,0,0.317342,0.316425
+j-2024,Warmińsko-mazurskie,Medycyna paliatywna,0,0.056344,0.055492
+j-2024,Mazowieckie,Medycyna pracy,1,0.330823,0.347706
+j-2024,Dolnośląskie,Medycyna ratunkowa,0,0.02318,0.023219
+j-2024,Mazowieckie,Medycyna ratunkowa,0,0.018675,0.018592
+j-2024,Warmińsko-mazurskie,Medycyna ratunkowa,0,0.0067,0.006746
+j-2024,Dolnośląskie,Medycyna rodzinna,0,0.000752,0.000743
+j-2024,Mazowieckie,Medycyna rodzinna,0,0.004722,0.004739
+j-2024,Warmińsko-mazurskie,Medycyna rodzinna,0,0.025028,0.024945
+j-2024,Mazowieckie,Medycyna sportowa,1,0.461438,0.461579
+j-2024,Dolnośląskie,Nefrologia,0,0.029493,0.029396
+j-2024,Mazowieckie,Nefrologia,1,0.346467,0.346001
+j-2024,Warmińsko-mazurskie,Nefrologia,0,0.251168,0.246452
+j-2024,Dolnośląskie,Nefrologia dziecięca,1,0.323219,0.320668
+j-2024,Mazowieckie,Nefrologia dziecięca,1,0.491585,0.487647
+j-2024,Warmińsko-mazurskie,Nefrologia dziecięca,1,0.196636,0.193257
+j-2024,Dolnośląskie,Neonatologia,0,0.013425,0.01367
+j-2024,Mazowieckie,Neonatologia,0,0.016884,0.016543
+j-2024,Warmińsko-mazurskie,Neonatologia,0,0.029129,0.029614
+j-2024,Dolnośląskie,Neurochirurgia,1,0.803111,0.809695
+j-2024,Mazowieckie,Neurochirurgia,1,0.780667,0.777221
+j-2024,Dolnośląskie,Neurologia,1,0.283273,0.282141
+j-2024,Mazowieckie,Neurologia,1,0.159963,0.158004
+j-2024,Warmińsko-mazurskie,Neurologia,0,0.110915,0.111684
+j-2024,Dolnośląskie,Neurologia dziecięca,1,0.711166,0.707205
+j-2024,Mazowieckie,Neurologia dziecięca,1,0.44812,0.44499
+j-2024,Warmińsko-mazurskie,Neurologia dziecięca,1,0.349002,0.345968
+j-2024,Dolnośląskie,Okulistyka,1,0.67462,0.676154
+j-2024,Mazowieckie,Okulistyka,0,0.589213,0.585706
+j-2024,Warmińsko-mazurskie,Okulistyka,1,0.682388,0.680402
+j-2024,Dolnośląskie,Onkologia i hematologia dziecięca,0,0.078008,0.077651
+j-2024,Mazowieckie,Onkologia i hematologia dziecięca,1,0.60612,0.603504
+j-2024,Dolnośląskie,Onkologia kliniczna,0,0.004066,0.004018
+j-2024,Mazowieckie,Onkologia kliniczna,0,0.003602,0.003561
+j-2024,Warmińsko-mazurskie,Onkologia kliniczna,0,0.067934,0.074712
+j-2024,Dolnośląskie,Ortodoncja,1,0.982041,0.981688
+j-2024,Mazowieckie,Ortodoncja,1,0.884524,0.885676
+j-2024,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,0,0.090831,0.089749
+j-2024,Mazowieckie,Ortopedia i traumatologia narządu ruchu,0,0.032805,0.033429
+j-2024,Warmińsko-mazurskie,Ortopedia i traumatologia narządu ruchu,0,0.030144,0.031373
+j-2024,Dolnośląskie,Otorynolaryngologia,1,0.847181,0.844351
+j-2024,Mazowieckie,Otorynolaryngologia,1,0.890898,0.887449
+j-2024,Warmińsko-mazurskie,Otorynolaryngologia,1,0.862649,0.865896
+j-2024,Mazowieckie,Otorynolaryngologia dziecięca,0,0.905656,0.912928
+j-2024,Dolnośląskie,Patomorfologia,0,0.021326,0.021471
+j-2024,Mazowieckie,Patomorfologia,0,0.006933,0.006919
+j-2024,Warmińsko-mazurskie,Patomorfologia,0,0.025726,0.025227
+j-2024,Dolnośląskie,Pediatria,1,0.163123,0.161144
+j-2024,Mazowieckie,Pediatria,0,0.080931,0.0793
+j-2024,Warmińsko-mazurskie,Pediatria,0,0.147626,0.148233
+j-2024,Dolnośląskie,Periodontologia,1,0.870252,0.869769
+j-2024,Dolnośląskie,Położnictwo i ginekologia,0,0.03339,0.034129
+j-2024,Mazowieckie,Położnictwo i ginekologia,1,0.277514,0.27285
+j-2024,Warmińsko-mazurskie,Położnictwo i ginekologia,0,0.042577,0.043544
+j-2024,Dolnośląskie,Protetyka stomatologiczna,1,0.760113,0.762975
+j-2024,Mazowieckie,Protetyka stomatologiczna,1,0.863566,0.862106
+j-2024,Warmińsko-mazurskie,Protetyka stomatologiczna,0,0.246045,0.237431
+j-2024,Dolnośląskie,Psychiatria,0,0.408767,0.41218
+j-2024,Mazowieckie,Psychiatria,0,0.063987,0.062163
+j-2024,Warmińsko-mazurskie,Psychiatria,1,0.040834,0.040636
+j-2024,Dolnośląskie,Psychiatria dzieci i młodzieży,1,0.956636,0.956564
+j-2024,Mazowieckie,Psychiatria dzieci i młodzieży,0,0.688648,0.693307
+j-2024,Dolnośląskie,Radiologia i diagnostyka obrazowa,0,0.420833,0.390889
+j-2024,Mazowieckie,Radiologia i diagnostyka obrazowa,0,0.300291,0.297747
+j-2024,Dolnośląskie,Radioterapia onkologiczna,0,0.070242,0.070007
+j-2024,Mazowieckie,Radioterapia onkologiczna,0,0.07682,0.077302
+j-2024,Dolnośląskie,Rehabilitacja medyczna,0,0.06601,0.065398
+j-2024,Mazowieckie,Rehabilitacja medyczna,0,0.050841,0.053594
+j-2024,Warmińsko-mazurskie,Rehabilitacja medyczna,0,0.024233,0.024677
+j-2024,Dolnośląskie,Reumatologia,0,0.806161,0.806874
+j-2024,Mazowieckie,Reumatologia,1,0.928648,0.922034
+j-2024,Warmińsko-mazurskie,Reumatologia,1,0.58785,0.580598
+j-2024,Dolnośląskie,Stomatologia dziecięca,1,0.802405,0.810614
+j-2024,Mazowieckie,Stomatologia dziecięca,0,0.336877,0.333939
+j-2024,Warmińsko-mazurskie,Stomatologia dziecięca,0,0.433957,0.416905
+j-2024,Dolnośląskie,Stomatologia zachowawcza z endodoncją,1,0.540919,0.54886
+j-2024,Mazowieckie,Stomatologia zachowawcza z endodoncją,0,0.434279,0.436836
+j-2024,Warmińsko-mazurskie,Stomatologia zachowawcza z endodoncją,0,0.434655,0.418421
+j-2024,Dolnośląskie,Toksykologia kliniczna,0,0.203329,0.202076
+j-2024,Mazowieckie,Toksykologia kliniczna,0,0.40398,0.404943
+j-2024,Dolnośląskie,Transfuzjologia kliniczna,0,0.110385,0.109995
+j-2024,Dolnośląskie,Urologia,1,0.948337,0.948392
+j-2024,Mazowieckie,Urologia,0,0.862739,0.865
+j-2024,Warmińsko-mazurskie,Urologia,1,0.796021,0.80936
+w-2025,Dolnośląskie,Alergologia,0,0.789807,0.778644
+w-2025,Warmińsko-mazurskie,Alergologia,1,0.55003,0.549313
+w-2025,Dolnośląskie,Anestezjologia i intensywna terapia,0,0.06348,0.06281
+w-2025,Mazowieckie,Anestezjologia i intensywna terapia,0,0.027854,0.024899
+w-2025,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,1,0.114926,0.136731
+w-2025,Dolnośląskie,Audiologia i foniatria,1,0.528702,0.54292
+w-2025,Dolnośląskie,Chirurgia dziecięca,0,0.064646,0.062845
+w-2025,Mazowieckie,Chirurgia dziecięca,1,0.302723,0.171463
+w-2025,Dolnośląskie,Chirurgia klatki piersiowej,0,0.363537,0.383976
+w-2025,Mazowieckie,Chirurgia klatki piersiowej,0,0.156255,0.15761
+w-2025,Dolnośląskie,Chirurgia naczyniowa,1,0.637145,0.659325
+w-2025,Mazowieckie,Chirurgia naczyniowa,1,0.435409,0.38214
+w-2025,Dolnośląskie,Chirurgia ogólna,0,0.007955,0.007532
+w-2025,Mazowieckie,Chirurgia ogólna,0,0.008489,0.008315
+w-2025,Warmińsko-mazurskie,Chirurgia ogólna,0,0.002245,0.002285
+w-2025,Dolnośląskie,Chirurgia onkologiczna,0,0.060481,0.061207
+w-2025,Mazowieckie,Chirurgia onkologiczna,0,0.038854,0.034969
+w-2025,Warmińsko-mazurskie,Chirurgia onkologiczna,0,0.103605,0.128609
+w-2025,Dolnośląskie,Chirurgia plastyczna,1,0.722784,0.687119
+w-2025,Dolnośląskie,Chirurgia stomatologiczna,0,0.62353,0.629298
+w-2025,Mazowieckie,Chirurgia stomatologiczna,1,0.634977,0.639594
+w-2025,Warmińsko-mazurskie,Chirurgia stomatologiczna,1,0.882835,0.885219
+w-2025,Dolnośląskie,Choroby płuc,0,0.196557,0.175313
+w-2025,Mazowieckie,Choroby płuc,1,0.390231,0.39582
+w-2025,Warmińsko-mazurskie,Choroby płuc,1,0.280532,0.340978
+w-2025,Dolnośląskie,Choroby płuc dzieci,0,0.459121,0.40699
+w-2025,Mazowieckie,Choroby płuc dzieci,0,0.77873,0.780431
+w-2025,Mazowieckie,Choroby wewnętrzne,0,0.02812,0.03015
+w-2025,Warmińsko-mazurskie,Choroby wewnętrzne,0,0.004252,0.004309
+w-2025,Dolnośląskie,Choroby zakaźne,1,0.07764,0.083323
+w-2025,Mazowieckie,Choroby zakaźne,0,0.018373,0.019131
+w-2025,Warmińsko-mazurskie,Choroby zakaźne,0,0.036851,0.037424
+w-2025,Dolnośląskie,Dermatologia i wenerologia,1,0.777812,0.780778
+w-2025,Mazowieckie,Dermatologia i wenerologia,1,0.537203,0.519265
+w-2025,Dolnośląskie,Diabetologia,0,0.614054,0.584636
+w-2025,Mazowieckie,Diabetologia,1,0.5279,0.534058
+w-2025,Warmińsko-mazurskie,Diabetologia,1,0.531797,0.530034
+w-2025,Mazowieckie,Diagnostyka laboratoryjna,0,0.120868,0.121011
+w-2025,Warmińsko-mazurskie,Diagnostyka laboratoryjna,0,0.11573,0.110263
+w-2025,Mazowieckie,Endokrynologia,1,0.785079,0.783793
+w-2025,Mazowieckie,Endokrynologia i diabetologia dziecięca,0,0.629428,0.626729
+w-2025,Dolnośląskie,Gastroenterologia,0,0.918623,0.917516
+w-2025,Mazowieckie,Gastroenterologia,1,0.857883,0.852902
+w-2025,Mazowieckie,Gastroenterologia dziecięca,0,0.425668,0.416606
+w-2025,Dolnośląskie,Genetyka kliniczna,0,0.60762,0.615596
+w-2025,Dolnośląskie,Geriatria,0,0.027704,0.029266
+w-2025,Mazowieckie,Geriatria,0,0.011882,0.012489
+w-2025,Warmińsko-mazurskie,Geriatria,0,0.075979,0.074323
+w-2025,Dolnośląskie,Hematologia,0,0.048883,0.050359
+w-2025,Mazowieckie,Hematologia,0,0.018416,0.019697
+w-2025,Dolnośląskie,Kardiochirurgia,0,0.0293,0.031314
+w-2025,Mazowieckie,Kardiochirurgia,1,0.114067,0.109075
+w-2025,Warmińsko-mazurskie,Kardiochirurgia,1,0.034211,0.034079
+w-2025,Dolnośląskie,Kardiologia,1,0.580363,0.539365
+w-2025,Mazowieckie,Kardiologia,1,0.630166,0.620325
+w-2025,Warmińsko-mazurskie,Kardiologia,0,0.079789,0.083249
+w-2025,Mazowieckie,Medycyna nuklearna,0,0.028065,0.029148
+w-2025,Warmińsko-mazurskie,Medycyna nuklearna,0,0.088297,0.084238
+w-2025,Dolnośląskie,Medycyna paliatywna,0,0.024951,0.023872
+w-2025,Warmińsko-mazurskie,Medycyna paliatywna,0,0.079464,0.077794
+w-2025,Dolnośląskie,Medycyna pracy,0,0.342029,0.350279
+w-2025,Mazowieckie,Medycyna pracy,1,0.158874,0.17432
+w-2025,Warmińsko-mazurskie,Medycyna pracy,0,0.095116,0.089308
+w-2025,Dolnośląskie,Medycyna ratunkowa,0,0.007069,0.006687
+w-2025,Mazowieckie,Medycyna ratunkowa,0,0.00971,0.009435
+w-2025,Dolnośląskie,Medycyna rodzinna,0,0.00635,0.006676
+w-2025,Mazowieckie,Medycyna rodzinna,0,0.011101,0.010789
+w-2025,Warmińsko-mazurskie,Medycyna rodzinna,0,0.003131,0.002806
+w-2025,Dolnośląskie,Medycyna sądowa,0,0.019116,0.020939
+w-2025,Mazowieckie,Mikrobiologia lekarska,0,0.028972,0.029193
+w-2025,Dolnośląskie,Nefrologia,0,0.009876,0.010651
+w-2025,Mazowieckie,Nefrologia,0,0.133708,0.13553
+w-2025,Dolnośląskie,Nefrologia dziecięca,0,0.272189,0.287105
+w-2025,Mazowieckie,Nefrologia dziecięca,0,0.215289,0.216507
+w-2025,Warmińsko-mazurskie,Nefrologia dziecięca,0,0.341764,0.333413
+w-2025,Dolnośląskie,Neonatologia,0,0.010629,0.010917
+w-2025,Mazowieckie,Neonatologia,0,0.006643,0.006605
+w-2025,Warmińsko-mazurskie,Neonatologia,0,0.033397,0.035301
+w-2025,Dolnośląskie,Neurologia,0,0.18958,0.1631
+w-2025,Mazowieckie,Neurologia,0,0.085694,0.084177
+w-2025,Warmińsko-mazurskie,Neurologia,0,0.011737,0.012181
+w-2025,Mazowieckie,Neurologia dziecięca,0,0.446503,0.449124
+w-2025,Dolnośląskie,Okulistyka,1,0.679868,0.669103
+w-2025,Mazowieckie,Okulistyka,0,0.187421,0.189696
+w-2025,Warmińsko-mazurskie,Okulistyka,1,0.652319,0.648775
+w-2025,Dolnośląskie,Onkologia i hematologia dziecięca,1,0.099344,0.106172
+w-2025,Mazowieckie,Onkologia i hematologia dziecięca,1,0.355514,0.353037
+w-2025,Dolnośląskie,Onkologia kliniczna,0,0.007302,0.006817
+w-2025,Mazowieckie,Onkologia kliniczna,0,0.00556,0.004703
+w-2025,Warmińsko-mazurskie,Onkologia kliniczna,0,0.068611,0.077818
+w-2025,Dolnośląskie,Ortodoncja,1,0.933386,0.933949
+w-2025,Mazowieckie,Ortodoncja,1,0.977876,0.977197
+w-2025,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,1,0.012254,0.01178
+w-2025,Mazowieckie,Ortopedia i traumatologia narządu ruchu,1,0.098721,0.107607
+w-2025,Warmińsko-mazurskie,Ortopedia i traumatologia narządu ruchu,0,0.004988,0.005875
+w-2025,Mazowieckie,Otorynolaryngologia,1,0.425549,0.399625
+w-2025,Mazowieckie,Otorynolaryngologia dziecięca,1,0.693191,0.698849
+w-2025,Dolnośląskie,Patomorfologia,0,0.047493,0.045914
+w-2025,Mazowieckie,Patomorfologia,1,0.049611,0.05838
+w-2025,Warmińsko-mazurskie,Patomorfologia,0,0.028669,0.028864
+w-2025,Dolnośląskie,Pediatria,0,0.045118,0.044896
+w-2025,Mazowieckie,Pediatria,0,0.044422,0.048463
+w-2025,Warmińsko-mazurskie,Pediatria,0,0.005062,0.004827
+w-2025,Dolnośląskie,Periodontologia,1,0.765192,0.774555
+w-2025,Dolnośląskie,Położnictwo i ginekologia,0,0.020801,0.019643
+w-2025,Mazowieckie,Położnictwo i ginekologia,1,0.0591,0.054354
+w-2025,Warmińsko-mazurskie,Położnictwo i ginekologia,1,0.156145,0.154852
+w-2025,Dolnośląskie,Protetyka stomatologiczna,1,0.741894,0.751037
+w-2025,Mazowieckie,Protetyka stomatologiczna,0,0.777958,0.776952
+w-2025,Warmińsko-mazurskie,Protetyka stomatologiczna,1,0.204177,0.165811
+w-2025,Dolnośląskie,Psychiatria,0,0.08289,0.07614
+w-2025,Mazowieckie,Psychiatria,0,0.474352,0.473538
+w-2025,Warmińsko-mazurskie,Psychiatria,1,0.103448,0.091153
+w-2025,Dolnośląskie,Psychiatria dzieci i młodzieży,0,0.381797,0.337509
+w-2025,Mazowieckie,Psychiatria dzieci i młodzieży,0,0.24321,0.266834
+w-2025,Dolnośląskie,Radiologia i diagnostyka obrazowa,1,0.053704,0.046282
+w-2025,Mazowieckie,Radiologia i diagnostyka obrazowa,1,0.113515,0.107117
+w-2025,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,1,0.163639,0.149363
+w-2025,Dolnośląskie,Radioterapia onkologiczna,0,0.049942,0.054205
+w-2025,Mazowieckie,Radioterapia onkologiczna,1,0.078572,0.07132
+w-2025,Warmińsko-mazurskie,Radioterapia onkologiczna,0,0.045129,0.045079
+w-2025,Dolnośląskie,Rehabilitacja medyczna,0,0.055818,0.055992
+w-2025,Mazowieckie,Rehabilitacja medyczna,0,0.030074,0.031068
+w-2025,Warmińsko-mazurskie,Rehabilitacja medyczna,0,0.022233,0.021643
+w-2025,Dolnośląskie,Reumatologia,1,0.88475,0.880504
+w-2025,Mazowieckie,Reumatologia,0,0.448425,0.44918
+w-2025,Mazowieckie,Stomatologia dziecięca,1,0.753847,0.759157
+w-2025,Warmińsko-mazurskie,Stomatologia dziecięca,1,0.079858,0.064452
+w-2025,Mazowieckie,Stomatologia zachowawcza z endodoncją,0,0.494717,0.505357
+w-2025,Warmińsko-mazurskie,Stomatologia zachowawcza z endodoncją,0,0.249956,0.192227
+w-2025,Dolnośląskie,Toksykologia kliniczna,0,0.122739,0.122052
+w-2025,Mazowieckie,Toksykologia kliniczna,0,0.251828,0.262772
+w-2025,Dolnośląskie,Transfuzjologia kliniczna,0,0.072598,0.075621
+w-2025,Mazowieckie,Transfuzjologia kliniczna,0,0.042904,0.045976
+w-2025,Dolnośląskie,Urologia,1,0.890675,0.883024
+w-2025,Mazowieckie,Urologia,1,0.679902,0.682347
+w-2025,Warmińsko-mazurskie,Urologia,1,0.506121,0.510912
+j-2025,Dolnośląskie,Alergologia,1,0.736221,0.744409
+j-2025,Mazowieckie,Alergologia,1,0.762921,0.766605
+j-2025,Dolnośląskie,Anestezjologia i intensywna terapia,0,0.161576,0.155993
+j-2025,Mazowieckie,Anestezjologia i intensywna terapia,0,0.387558,0.365896
+j-2025,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,0,0.193708,0.19982
+j-2025,Dolnośląskie,Chirurgia dziecięca,1,0.144286,0.147011
+j-2025,Mazowieckie,Chirurgia dziecięca,1,0.180429,0.18666
+j-2025,Warmińsko-mazurskie,Chirurgia dziecięca,0,0.219236,0.226874
+j-2025,Dolnośląskie,Chirurgia klatki piersiowej,0,0.233008,0.243507
+j-2025,Mazowieckie,Chirurgia klatki piersiowej,0,0.476907,0.479988
+j-2025,Dolnośląskie,Chirurgia naczyniowa,1,0.789054,0.807801
+j-2025,Mazowieckie,Chirurgia naczyniowa,1,0.628323,0.627573
+j-2025,Warmińsko-mazurskie,Chirurgia naczyniowa,1,0.638882,0.649311
+j-2025,Dolnośląskie,Chirurgia ogólna,0,0.029075,0.028399
+j-2025,Mazowieckie,Chirurgia ogólna,0,0.027726,0.026476
+j-2025,Warmińsko-mazurskie,Chirurgia ogólna,0,0.033139,0.031339
+j-2025,Dolnośląskie,Chirurgia onkologiczna,1,0.296895,0.286652
+j-2025,Mazowieckie,Chirurgia onkologiczna,0,0.031727,0.032264
+j-2025,Warmińsko-mazurskie,Chirurgia onkologiczna,0,0.266203,0.267456
+j-2025,Dolnośląskie,Chirurgia plastyczna,1,0.864571,0.856618
+j-2025,Dolnośląskie,Chirurgia stomatologiczna,1,0.949984,0.943203
+j-2025,Mazowieckie,Chirurgia stomatologiczna,0,0.899832,0.903002
+j-2025,Warmińsko-mazurskie,Chirurgia stomatologiczna,1,0.646059,0.663874
+j-2025,Dolnośląskie,Choroby płuc,0,0.384729,0.361635
+j-2025,Mazowieckie,Choroby płuc,0,0.323241,0.328548
+j-2025,Warmińsko-mazurskie,Choroby płuc,1,0.612329,0.632576
+j-2025,Dolnośląskie,Choroby płuc dzieci,1,0.462298,0.426492
+j-2025,Mazowieckie,Choroby płuc dzieci,1,0.805612,0.793038
+j-2025,Dolnośląskie,Choroby wewnętrzne,0,0.054479,0.055969
+j-2025,Mazowieckie,Choroby wewnętrzne,0,0.016302,0.01605
+j-2025,Warmińsko-mazurskie,Choroby wewnętrzne,0,0.017162,0.016254
+j-2025,Dolnośląskie,Choroby zakaźne,0,0.362632,0.387624
+j-2025,Mazowieckie,Choroby zakaźne,0,0.065425,0.066297
+j-2025,Warmińsko-mazurskie,Choroby zakaźne,0,0.118699,0.116849
+j-2025,Dolnośląskie,Dermatologia i wenerologia,1,0.787809,0.798985
+j-2025,Mazowieckie,Dermatologia i wenerologia,1,0.444713,0.450643
+j-2025,Dolnośląskie,Diabetologia,1,0.768304,0.746293
+j-2025,Mazowieckie,Diabetologia,0,0.579702,0.591719
+j-2025,Warmińsko-mazurskie,Diabetologia,1,0.802977,0.807299
+j-2025,Mazowieckie,Diagnostyka laboratoryjna,0,0.303482,0.302136
+j-2025,Warmińsko-mazurskie,Diagnostyka laboratoryjna,0,0.14569,0.140548
+j-2025,Dolnośląskie,Endokrynologia,1,0.96896,0.970377
+j-2025,Mazowieckie,Endokrynologia,1,0.898625,0.900802
+j-2025,Dolnośląskie,Endokrynologia i diabetologia dziecięca,1,0.736233,0.7451
+j-2025,Mazowieckie,Endokrynologia i diabetologia dziecięca,1,0.890214,0.88888
+j-2025,Mazowieckie,Farmakologia kliniczna,1,0.421952,0.413918
+j-2025,Dolnośląskie,Gastroenterologia,1,0.65976,0.660995
+j-2025,Mazowieckie,Gastroenterologia dziecięca,1,0.757759,0.75031
+j-2025,Warmińsko-mazurskie,Gastroenterologia dziecięca,1,0.462635,0.458943
+j-2025,Dolnośląskie,Genetyka kliniczna,1,0.342681,0.346402
+j-2025,Dolnośląskie,Geriatria,0,0.089593,0.09582
+j-2025,Mazowieckie,Geriatria,0,0.072016,0.073359
+j-2025,Warmińsko-mazurskie,Geriatria,0,0.120482,0.11297
+j-2025,Dolnośląskie,Hematologia,0,0.177163,0.178927
+j-2025,Mazowieckie,Hematologia,0,0.064304,0.06829
+j-2025,Warmińsko-mazurskie,Hematologia,0,0.318111,0.327138
+j-2025,Dolnośląskie,Kardiochirurgia,1,0.281982,0.292616
+j-2025,Mazowieckie,Kardiochirurgia,1,0.232182,0.230779
+j-2025,Warmińsko-mazurskie,Kardiochirurgia,0,0.207621,0.218145
+j-2025,Dolnośląskie,Kardiologia,1,0.415276,0.419233
+j-2025,Mazowieckie,Kardiologia,0,0.245716,0.245954
+j-2025,Warmińsko-mazurskie,Kardiologia,0,0.345095,0.359847
+j-2025,Dolnośląskie,Medycyna nuklearna,1,0.315129,0.325816
+j-2025,Mazowieckie,Medycyna nuklearna,0,0.050699,0.052551
+j-2025,Warmińsko-mazurskie,Medycyna nuklearna,0,0.145828,0.14425
+j-2025,Dolnośląskie,Medycyna paliatywna,0,0.025113,0.025269
+j-2025,Mazowieckie,Medycyna paliatywna,0,0.337267,0.342653
+j-2025,Warmińsko-mazurskie,Medycyna paliatywna,0,0.02861,0.028753
+j-2025,Dolnośląskie,Medycyna pracy,1,0.429561,0.446689
+j-2025,Mazowieckie,Medycyna pracy,0,0.250722,0.265417
+j-2025,Warmińsko-mazurskie,Medycyna pracy,0,0.208313,0.20983
+j-2025,Dolnośląskie,Medycyna ratunkowa,0,0.041394,0.03935
+j-2025,Mazowieckie,Medycyna ratunkowa,0,0.050709,0.04901
+j-2025,Warmińsko-mazurskie,Medycyna ratunkowa,0,0.039448,0.039531
+j-2025,Dolnośląskie,Medycyna rodzinna,0,0.048397,0.04733
+j-2025,Mazowieckie,Medycyna rodzinna,0,0.005708,0.005139
+j-2025,Warmińsko-mazurskie,Medycyna rodzinna,0,0.091745,0.086335
+j-2025,Dolnośląskie,Medycyna sądowa,0,0.051202,0.056726
+j-2025,Mazowieckie,Medycyna sądowa,0,0.374753,0.385594
+j-2025,Warmińsko-mazurskie,Medycyna sądowa,1,0.335474,0.338241
+j-2025,Mazowieckie,Mikrobiologia lekarska,0,0.112655,0.11134
+j-2025,Dolnośląskie,Nefrologia,1,0.436098,0.44451
+j-2025,Mazowieckie,Nefrologia,0,0.202387,0.19877
+j-2025,Warmińsko-mazurskie,Nefrologia,0,0.236227,0.23959
+j-2025,Dolnośląskie,Nefrologia dziecięca,0,0.459932,0.467587
+j-2025,Mazowieckie,Nefrologia dziecięca,1,0.602197,0.597635
+j-2025,Dolnośląskie,Neonatologia,0,0.052583,0.05262
+j-2025,Mazowieckie,Neonatologia,1,0.051239,0.051228
+j-2025,Warmińsko-mazurskie,Neonatologia,0,0.152031,0.157172
+j-2025,Dolnośląskie,Neurochirurgia,1,0.763657,0.774774
+j-2025,Mazowieckie,Neurochirurgia,1,0.950047,0.950934
+j-2025,Warmińsko-mazurskie,Neurochirurgia,1,0.464201,0.473655
+j-2025,Dolnośląskie,Neurologia,0,0.157961,0.144827
+j-2025,Mazowieckie,Neurologia,0,0.191505,0.19264
+j-2025,Warmińsko-mazurskie,Neurologia,0,0.105026,0.107723
+j-2025,Dolnośląskie,Neurologia dziecięca,1,0.351888,0.362614
+j-2025,Mazowieckie,Neurologia dziecięca,1,0.890178,0.892237
+j-2025,Warmińsko-mazurskie,Neurologia dziecięca,0,0.506456,0.529201
+j-2025,Dolnośląskie,Okulistyka,1,0.557972,0.534061
+j-2025,Mazowieckie,Okulistyka,1,0.870592,0.870591
+j-2025,Warmińsko-mazurskie,Okulistyka,0,0.600256,0.615001
+j-2025,Mazowieckie,Onkologia i hematologia dziecięca,0,0.198568,0.200255
+j-2025,Warmińsko-mazurskie,Onkologia i hematologia dziecięca,1,0.312334,0.310241
+j-2025,Dolnośląskie,Onkologia kliniczna,0,0.036668,0.035263
+j-2025,Mazowieckie,Onkologia kliniczna,0,0.021335,0.01911
+j-2025,Warmińsko-mazurskie,Onkologia kliniczna,0,0.149048,0.152357
+j-2025,Dolnośląskie,Ortodoncja,1,0.68978,0.706801
+j-2025,Mazowieckie,Ortodoncja,1,0.774797,0.7836
+j-2025,Warmińsko-mazurskie,Ortodoncja,1,0.93465,0.925482
+j-2025,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,1,0.498532,0.489333
+j-2025,Mazowieckie,Ortopedia i traumatologia narządu ruchu,0,0.158702,0.160971
+j-2025,Warmińsko-mazurskie,Ortopedia i traumatologia narządu ruchu,0,0.138293,0.147503
+j-2025,Dolnośląskie,Otorynolaryngologia,1,0.963406,0.960534
+j-2025,Mazowieckie,Otorynolaryngologia,0,0.349097,0.353856
+j-2025,Warmińsko-mazurskie,Otorynolaryngologia,0,0.866902,0.876208
+j-2025,Dolnośląskie,Otorynolaryngologia dziecięca,1,0.85752,0.86508
+j-2025,Mazowieckie,Otorynolaryngologia dziecięca,1,0.945878,0.942736
+j-2025,Dolnośląskie,Patomorfologia,0,0.162678,0.152594
+j-2025,Mazowieckie,Patomorfologia,1,0.195577,0.20091
+j-2025,Warmińsko-mazurskie,Patomorfologia,0,0.089116,0.091658
+j-2025,Dolnośląskie,Pediatria,0,0.136476,0.138636
+j-2025,Mazowieckie,Pediatria,0,0.105598,0.106032
+j-2025,Warmińsko-mazurskie,Pediatria,0,0.096107,0.094204
+j-2025,Dolnośląskie,Periodontologia,1,0.697717,0.700404
+j-2025,Mazowieckie,Periodontologia,1,0.949389,0.950023
+j-2025,Dolnośląskie,Położnictwo i ginekologia,0,0.167408,0.15828
+j-2025,Mazowieckie,Położnictwo i ginekologia,1,0.118909,0.115002
+j-2025,Warmińsko-mazurskie,Położnictwo i ginekologia,1,0.309501,0.325193
+j-2025,Dolnośląskie,Protetyka stomatologiczna,1,0.885356,0.888123
+j-2025,Mazowieckie,Protetyka stomatologiczna,0,0.505693,0.516194
+j-2025,Warmińsko-mazurskie,Protetyka stomatologiczna,0,0.592945,0.562384
+j-2025,Dolnośląskie,Psychiatria,0,0.19653,0.187489
+j-2025,Mazowieckie,Psychiatria,0,0.109047,0.106314
+j-2025,Warmińsko-mazurskie,Psychiatria,1,0.404743,0.408551
+j-2025,Dolnośląskie,Psychiatria dzieci i młodzieży,0,0.683657,0.668655
+j-2025,Mazowieckie,Psychiatria dzieci i młodzieży,1,0.434429,0.450098
+j-2025,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,1,0.877826,0.884843
+j-2025,Dolnośląskie,Radiologia i diagnostyka obrazowa,0,0.498938,0.475169
+j-2025,Mazowieckie,Radiologia i diagnostyka obrazowa,0,0.538109,0.53325
+j-2025,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,1,0.477291,0.493496
+j-2025,Dolnośląskie,Radioterapia onkologiczna,0,0.091987,0.099268
+j-2025,Mazowieckie,Radioterapia onkologiczna,0,0.210657,0.203745
+j-2025,Warmińsko-mazurskie,Radioterapia onkologiczna,0,0.14381,0.147316
+j-2025,Dolnośląskie,Rehabilitacja medyczna,0,0.11831,0.124162
+j-2025,Mazowieckie,Rehabilitacja medyczna,0,0.073124,0.073209
+j-2025,Warmińsko-mazurskie,Rehabilitacja medyczna,0,0.092792,0.092449
+j-2025,Dolnośląskie,Reumatologia,0,0.809835,0.808161
+j-2025,Mazowieckie,Reumatologia,1,0.631714,0.631215
+j-2025,Warmińsko-mazurskie,Reumatologia,1,0.819852,0.822907
+j-2025,Dolnośląskie,Stomatologia dziecięca,0,0.25455,0.270166
+j-2025,Mazowieckie,Stomatologia dziecięca,0,0.582323,0.601271
+j-2025,Warmińsko-mazurskie,Stomatologia dziecięca,0,0.553008,0.529178
+j-2025,Dolnośląskie,Stomatologia zachowawcza z endodoncją,1,0.685788,0.695082
+j-2025,Mazowieckie,Stomatologia zachowawcza z endodoncją,0,0.202978,0.218858
+j-2025,Warmińsko-mazurskie,Stomatologia zachowawcza z endodoncją,0,0.198354,0.185152
+j-2025,Dolnośląskie,Toksykologia kliniczna,0,0.172923,0.17435
+j-2025,Mazowieckie,Toksykologia kliniczna,0,0.423304,0.432893
+j-2025,Dolnośląskie,Transfuzjologia kliniczna,0,0.109348,0.113597
+j-2025,Mazowieckie,Transfuzjologia kliniczna,0,0.107026,0.112082
+j-2025,Mazowieckie,Urologia,1,0.784251,0.795697
+j-2025,Warmińsko-mazurskie,Urologia,1,0.931118,0.936603
+w-2026,Dolnośląskie,Anestezjologia i intensywna terapia,0,0.27117,0.256708
+w-2026,Mazowieckie,Anestezjologia i intensywna terapia,1,0.1526,0.142557
+w-2026,Warmińsko-mazurskie,Anestezjologia i intensywna terapia,1,0.113977,0.114272
+w-2026,Dolnośląskie,Balneologia i medycyna fizykalna,1,0.071336,0.058283
+w-2026,Dolnośląskie,Chirurgia dziecięca,1,0.392398,0.381345
+w-2026,Mazowieckie,Chirurgia dziecięca,1,0.421882,0.427647
+w-2026,Mazowieckie,Chirurgia klatki piersiowej,0,0.051241,0.04874
+w-2026,Mazowieckie,Chirurgia naczyniowa,1,0.757528,0.722242
+w-2026,Warmińsko-mazurskie,Chirurgia naczyniowa,1,0.600007,0.576952
+w-2026,Dolnośląskie,Chirurgia ogólna,0,0.030954,0.030139
+w-2026,Mazowieckie,Chirurgia ogólna,0,0.045216,0.042772
+w-2026,Warmińsko-mazurskie,Chirurgia ogólna,0,0.025102,0.023988
+w-2026,Dolnośląskie,Chirurgia onkologiczna,0,0.077217,0.073032
+w-2026,Mazowieckie,Chirurgia onkologiczna,0,0.06064,0.062753
+w-2026,Warmińsko-mazurskie,Chirurgia onkologiczna,0,0.16957,0.155542
+w-2026,Dolnośląskie,Chirurgia stomatologiczna,1,0.456772,0.445891
+w-2026,Mazowieckie,Chirurgia stomatologiczna,1,0.903649,0.902422
+w-2026,Warmińsko-mazurskie,Chirurgia stomatologiczna,0,0.845788,0.858057
+w-2026,Dolnośląskie,Choroby płuc,1,0.158316,0.155044
+w-2026,Mazowieckie,Choroby płuc,1,0.484358,0.481529
+w-2026,Dolnośląskie,Choroby wewnętrzne,0,0.005589,0.006015
+w-2026,Mazowieckie,Choroby wewnętrzne,0,0.1515,0.16386
+w-2026,Warmińsko-mazurskie,Choroby wewnętrzne,0,0.012383,0.012221
+w-2026,Dolnośląskie,Choroby zakaźne,0,0.089038,0.091682
+w-2026,Mazowieckie,Choroby zakaźne,0,0.025266,0.025827
+w-2026,Warmińsko-mazurskie,Choroby zakaźne,0,0.021789,0.021004
+w-2026,Dolnośląskie,Dermatologia i wenerologia,1,0.735076,0.751848
+w-2026,Mazowieckie,Dermatologia i wenerologia,1,0.626513,0.626799
+w-2026,Dolnośląskie,Diabetologia,0,0.831833,0.84225
+w-2026,Mazowieckie,Diabetologia,1,0.705523,0.710057
+w-2026,Warmińsko-mazurskie,Diabetologia,1,0.682682,0.677197
+w-2026,Warmińsko-mazurskie,Diagnostyka laboratoryjna,0,0.033381,0.032352
+w-2026,Mazowieckie,Endokrynologia,1,0.972543,0.973159
+w-2026,Mazowieckie,Endokrynologia i diabetologia dziecięca,1,0.579027,0.577722
+w-2026,Dolnośląskie,Gastroenterologia,0,0.909606,0.900521
+w-2026,Mazowieckie,Gastroenterologia,1,0.883117,0.885529
+w-2026,Mazowieckie,Gastroenterologia dziecięca,0,0.097347,0.093265
+w-2026,Dolnośląskie,Geriatria,0,0.062069,0.068743
+w-2026,Mazowieckie,Geriatria,0,0.019157,0.02022
+w-2026,Warmińsko-mazurskie,Geriatria,0,0.127453,0.120522
+w-2026,Dolnośląskie,Hematologia,0,0.129453,0.125625
+w-2026,Mazowieckie,Hematologia,0,0.064326,0.069992
+w-2026,Warmińsko-mazurskie,Hematologia,0,0.162971,0.174629
+w-2026,Dolnośląskie,Kardiochirurgia,1,0.453844,0.46146
+w-2026,Mazowieckie,Kardiochirurgia,0,0.230834,0.227075
+w-2026,Dolnośląskie,Kardiologia,0,0.353214,0.360869
+w-2026,Mazowieckie,Kardiologia,0,0.23682,0.241989
+w-2026,Warmińsko-mazurskie,Kardiologia,0,0.263939,0.285333
+w-2026,Mazowieckie,Medycyna nuklearna,1,0.050945,0.050858
+w-2026,Dolnośląskie,Medycyna paliatywna,0,0.037458,0.040259
+w-2026,Mazowieckie,Medycyna paliatywna,1,0.164291,0.173133
+w-2026,Warmińsko-mazurskie,Medycyna paliatywna,0,0.048636,0.048329
+w-2026,Mazowieckie,Medycyna pracy,0,0.1707,0.160342
+w-2026,Warmińsko-mazurskie,Medycyna pracy,0,0.247979,0.253008
+w-2026,Dolnośląskie,Medycyna ratunkowa,0,0.003706,0.003512
+w-2026,Mazowieckie,Medycyna ratunkowa,0,0.020068,0.019885
+w-2026,Warmińsko-mazurskie,Medycyna ratunkowa,0,0.013701,0.013904
+w-2026,Dolnośląskie,Medycyna rodzinna,0,0.01623,0.017097
+w-2026,Mazowieckie,Medycyna rodzinna,0,0.166884,0.176458
+w-2026,Warmińsko-mazurskie,Medycyna rodzinna,0,0.012598,0.012238
+w-2026,Mazowieckie,Medycyna sportowa,1,0.572725,0.577057
+w-2026,Mazowieckie,Mikrobiologia lekarska,1,0.019232,0.018345
+w-2026,Dolnośląskie,Nefrologia,0,0.336853,0.343886
+w-2026,Mazowieckie,Nefrologia,0,0.064511,0.06305
+w-2026,Warmińsko-mazurskie,Nefrologia,0,0.391708,0.403358
+w-2026,Mazowieckie,Nefrologia dziecięca,0,0.342636,0.339897
+w-2026,Dolnośląskie,Neonatologia,0,0.033095,0.033334
+w-2026,Mazowieckie,Neonatologia,0,0.042598,0.046399
+w-2026,Warmińsko-mazurskie,Neonatologia,0,0.131357,0.14195
+w-2026,Mazowieckie,Neurochirurgia,1,0.767708,0.771072
+w-2026,Dolnośląskie,Neurologia,1,0.102519,0.09759
+w-2026,Mazowieckie,Neurologia,0,0.081085,0.080218
+w-2026,Warmińsko-mazurskie,Neurologia,0,0.153833,0.159453
+w-2026,Mazowieckie,Neurologia dziecięca,1,0.791804,0.786959
+w-2026,Dolnośląskie,Okulistyka,1,0.59505,0.598451
+w-2026,Mazowieckie,Okulistyka,0,0.528853,0.540285
+w-2026,Warmińsko-mazurskie,Okulistyka,1,0.523699,0.534064
+w-2026,Mazowieckie,Onkologia i hematologia dziecięca,0,0.239085,0.239223
+w-2026,Warmińsko-mazurskie,Onkologia i hematologia dziecięca,0,0.302955,0.304311
+w-2026,Dolnośląskie,Onkologia kliniczna,0,0.019346,0.017934
+w-2026,Mazowieckie,Onkologia kliniczna,0,0.037128,0.038298
+w-2026,Warmińsko-mazurskie,Onkologia kliniczna,0,0.058663,0.056555
+w-2026,Dolnośląskie,Ortodoncja,1,0.660533,0.680994
+w-2026,Mazowieckie,Ortodoncja,1,0.899064,0.902072
+w-2026,Dolnośląskie,Ortopedia i traumatologia narządu ruchu,1,0.435311,0.422355
+w-2026,Mazowieckie,Ortopedia i traumatologia narządu ruchu,1,0.116946,0.118159
+w-2026,Warmińsko-mazurskie,Ortopedia i traumatologia narządu ruchu,0,0.068296,0.07394
+w-2026,Mazowieckie,Otorynolaryngologia,0,0.570405,0.574651
+w-2026,Mazowieckie,Otorynolaryngologia dziecięca,1,0.333302,0.32127
+w-2026,Dolnośląskie,Patomorfologia,0,0.311415,0.300573
+w-2026,Mazowieckie,Patomorfologia,1,0.377915,0.379932
+w-2026,Warmińsko-mazurskie,Patomorfologia,0,0.058313,0.061794
+w-2026,Dolnośląskie,Pediatria,0,0.023397,0.024551
+w-2026,Mazowieckie,Pediatria,0,0.247597,0.261975
+w-2026,Warmińsko-mazurskie,Pediatria,0,0.038432,0.038794
+w-2026,Dolnośląskie,Periodontologia,1,0.884109,0.878708
+w-2026,Mazowieckie,Periodontologia,1,0.818526,0.825156
+w-2026,Warmińsko-mazurskie,Periodontologia,1,0.504446,0.459241
+w-2026,Dolnośląskie,Położnictwo i ginekologia,1,0.215489,0.208513
+w-2026,Mazowieckie,Położnictwo i ginekologia,0,0.150724,0.145058
+w-2026,Warmińsko-mazurskie,Położnictwo i ginekologia,1,0.371147,0.363683
+w-2026,Mazowieckie,Protetyka stomatologiczna,0,0.320893,0.325744
+w-2026,Warmińsko-mazurskie,Protetyka stomatologiczna,1,0.463225,0.488894
+w-2026,Dolnośląskie,Psychiatria,0,0.179373,0.17047
+w-2026,Mazowieckie,Psychiatria,0,0.108199,0.102391
+w-2026,Warmińsko-mazurskie,Psychiatria,1,0.185174,0.19097
+w-2026,Dolnośląskie,Psychiatria dzieci i młodzieży,1,0.75169,0.756113
+w-2026,Mazowieckie,Psychiatria dzieci i młodzieży,0,0.307644,0.305977
+w-2026,Warmińsko-mazurskie,Psychiatria dzieci i młodzieży,1,0.836147,0.84717
+w-2026,Dolnośląskie,Radiologia i diagnostyka obrazowa,0,0.28719,0.240222
+w-2026,Mazowieckie,Radiologia i diagnostyka obrazowa,0,0.471186,0.477779
+w-2026,Warmińsko-mazurskie,Radiologia i diagnostyka obrazowa,0,0.317317,0.318829
+w-2026,Dolnośląskie,Radioterapia onkologiczna,0,0.034765,0.038795
+w-2026,Mazowieckie,Radioterapia onkologiczna,0,0.054706,0.054588
+w-2026,Warmińsko-mazurskie,Radioterapia onkologiczna,1,0.031643,0.03488
+w-2026,Dolnośląskie,Rehabilitacja medyczna,0,0.095019,0.097438
+w-2026,Mazowieckie,Rehabilitacja medyczna,0,0.070065,0.068562
+w-2026,Dolnośląskie,Reumatologia,1,0.819661,0.809805
+w-2026,Mazowieckie,Reumatologia,1,0.497198,0.4805
+w-2026,Warmińsko-mazurskie,Reumatologia,1,0.704563,0.677231
+w-2026,Dolnośląskie,Stomatologia dziecięca,1,0.73428,0.719936
+w-2026,Mazowieckie,Stomatologia dziecięca,1,0.6974,0.710902
+w-2026,Dolnośląskie,Stomatologia zachowawcza z endodoncją,1,0.128104,0.146175
+w-2026,Mazowieckie,Stomatologia zachowawcza z endodoncją,0,0.19152,0.201988
+w-2026,Warmińsko-mazurskie,Stomatologia zachowawcza z endodoncją,0,0.185589,0.168556
+w-2026,Mazowieckie,Toksykologia kliniczna,0,0.090172,0.092434
+w-2026,Mazowieckie,Transfuzjologia kliniczna,0,0.136637,0.137765
+w-2026,Mazowieckie,Urologia,1,0.749915,0.731061

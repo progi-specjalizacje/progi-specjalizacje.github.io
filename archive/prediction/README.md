@@ -17,6 +17,14 @@
 > wskaż w nich `source_data/cmkp_places.csv` jako plik miejsc i dodaj skrypty
 > `prediction:*` do `package.json` (lista w historii git przed tą zmianą).
 
+> **Korekta (październik 2026).** Trener modelu (`trainThresholdModel.js`, `isFillObservation`) pomijał pule niepełne
+> z zakwalifikowanymi: szukał statusu `niepelna_pula_brak_progu_konkurencyjnego`, którego dataset nie zawiera (nazywa się
+> `niepelna_pula`). Model zapełnienia uczył się więc głównie na pulach pełnych i zawyżał szansę pełnej puli (dla j-2026
+> oczekiwane 589 pełnych pul wobec 351 w j-2025, np. medycyna rodzinna 0,93 przy historii bliskiej 0). Po poprawce
+> oczekiwane są 355 pełne pule, a medycyna rodzinna 0,03. Prognozy progów (`prognoza_modelowa`) i ich MAE (2,74) nie
+> zmieniły się; zmieniły się kolumny `prawdopodobienstwo_pelnej_puli*`, backtest zapełnienia (2884 obserwacje zamiast
+> 1712, Brier surowy 0,137) i pliki pochodne. Liczby w opisach poniżej dotyczące zapełnienia pochodzą sprzed korekty.
+
 # Prognozowanie progów i zapełnienia miejsc
 
 ## Eksperyment dwuczęściowy: pule zagrożone i konkurencyjne
