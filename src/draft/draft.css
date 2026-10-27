@@ -175,3 +175,24 @@
 .draft-table .forecast-range-label b {
   color: #3d3550;
 }
+
+.draft-intro {
+  margin-bottom: 16px;
+  padding: 18px 20px;
+  border: 1px solid #e5deed;
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(40, 25, 62, 0.07);
+}
+
+.draft-intro .forecast-intro {
+  height: auto;
+  overflow: visible;
+  padding: 0;
+  color: #241e30;
+  font-size: 15px;
+}
+
+.draft-intro .forecast-intro p,
+.draft-intro .forecast-intro li {
+  color: #241e30;
+}

@@ -224,10 +224,11 @@ export function ForecastDraft() {
 
   return (
     <main className="draft-page">
+      <section className="draft-intro">
+        <ForecastIntro />
+      </section>
       <header className="draft-header">
         <h1>Szkic: prognoza progów</h1>
-        <p>Robocza strona z prognozami (noindex, bez linków z reszty serwisu). Dane i wygląd mogą się zmieniać.</p>
-        <ForecastIntro />
         <div className="draft-controls">
           <label>
             Specjalizacja

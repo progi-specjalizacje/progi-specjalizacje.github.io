@@ -2291,27 +2291,8 @@ input[type="range"] {
   color: #241e30;
 }
 
-.forecast-cta {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px 14px;
-}
 
-.forecast-cta-button {
-  display: inline-block;
-  padding: 6px 14px;
-  background: #6843a2;
-  color: #ffffff;
-  font-weight: 700;
-  text-decoration: none;
-}
 
-.forecast-footnote {
-  color: #746d80;
-  font-size: 11px;
-  line-height: 1.4;
-}
 
 .forecast-card {
   gap: 8px;

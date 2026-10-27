@@ -5,8 +5,6 @@ import { useFilterStore } from "../state/filterStore";
 import type { ThresholdForecast } from "../types";
 import { formatByType, formatNumber, formatRecruitmentName, pluralize } from "../utils/formatters";
 import { median, toDisplayedScore } from "../utils/reportMetrics";
-import { trackEvent } from "../utils/analytics";
-import { NEWSLETTER_URL } from "../config/newsletter";
 import { InfoTooltip } from "./FilterControls";
 
 // Poniżej tej szansy pełnej obsady prognozowany próg może w ogóle nie powstać (pula zostanie niepełna).
@@ -46,28 +44,6 @@ export function ForecastIntro() {
         Nadal nie jest to satysfakcjonujące. W rekrutacji 2,7 pkt proc. to bardzo dużo: tak szeroki margines może
         decydować o tym, czy ktoś się dostanie, czy nie. Obecnie nie ma jednak lepszej alternatywy. Traktuj prognozę
         orientacyjnie, zwłaszcza dla specjalizacji, w których pule często zostają niepełne.
-      </p>
-      <p className="forecast-cta">
-        <strong>Chcesz poznać nasze wyliczenia? Zapisz się do newslettera.</strong>
-        {NEWSLETTER_URL && (
-          <a
-            className="forecast-cta-button"
-            href={NEWSLETTER_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={() => trackEvent("newsletter-click", { source: "forecast" })}
-          >
-            Zapisz się
-          </a>
-        )}
-      </p>
-      <p className="forecast-footnote">
-        Błędy średnie (MAE) z testu wstecznego: każda runda prognozowana wyłącznie na danych z rund wcześniejszych,
-        952 progi wojewódzkie w pulach konkurencyjnych z rund jesień 2024 – wiosna 2026. Porównanie z progiem sprzed
-        roku obejmuje 545 z nich (tylko tam taki próg istniał). Wynik dotyczy pul, które miały historię pełnych
-        obsad, i został policzony dla specjalizacji lekarskich. Prognozy pokazujemy tylko dla takich pul; dla
-        pozostałych (nigdy dotąd w pełni obsadzonych) oraz dla specjalizacji stomatologicznych prognozy nie ma.
-        Zakresy poszerzamy tam, gdzie warianty modelu się rozjeżdżają albo historia puli jest zmienna.
       </p>
     </section>
   );
