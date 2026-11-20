@@ -45,7 +45,8 @@ python -m pip install pdfplumber
 
 Parser rozpoznaje m.in.:
 
-- date publikacji: `Data publikacji w systemie DD.MM.RRRR`,
+- date publikacji: `Data publikacji w systemie DD.MM.RRRR` (od jesieni 2026 z dwukropkiem po etykiecie),
+- lamane nazwy dziedzin (od jesieni 2026): fragmenty nazwy nad i pod wierszem sa doklejane do najblizszego wiersza bez nazwy wedlug polozenia na stronie (`merge_wrapped_specialty_names`); nazwa przeniesiona w calosci na gore nastepnej strony trafia do ostatniego wiersza poprzedniej strony. Wiersz, ktorego nie udalo sie nazwac, jest pomijany z ostrzezeniem `[WARN]`,
 - date wydruku i numer strony,
 - wojewodztwo,
 - sekcje zwykle i `Miejsca doktoranckie`,

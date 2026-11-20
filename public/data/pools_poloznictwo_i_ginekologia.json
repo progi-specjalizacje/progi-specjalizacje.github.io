@@ -730,6 +730,266 @@
     "status_konkurencyjnosci": "underfilled"
   },
   {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 18,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 79.9,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 71.1,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 7,
+    "liczba_miejsc": 7,
+    "najnizszy_wynik_proc": 68.99,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 60.09,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 16,
+    "liczba_miejsc": 19,
+    "najnizszy_wynik_proc": 63.46,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 79.33,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 61.01,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 14,
+    "liczba_miejsc": 15,
+    "najnizszy_wynik_proc": 84.13,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 32,
+    "najnizszy_wynik_proc": 78.44,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 23,
+    "liczba_miejsc": 25,
+    "najnizszy_wynik_proc": 81.25,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 6,
+    "najnizszy_wynik_proc": 60.38,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 33,
+    "liczba_miejsc": 35,
+    "najnizszy_wynik_proc": 83.65,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 57.27,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 9,
+    "najnizszy_wynik_proc": 66.75,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 10,
+    "liczba_miejsc": 16,
+    "najnizszy_wynik_proc": 74.04,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 12,
+    "najnizszy_wynik_proc": 60.39,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 63.3,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 12,
+    "liczba_miejsc": 12,
+    "najnizszy_wynik_proc": 83.09,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 37,
+    "liczba_miejsc": 40,
+    "najnizszy_wynik_proc": 76.2,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": 51.61,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 7,
+    "liczba_miejsc": 7,
+    "najnizszy_wynik_proc": 54.07,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 9,
+    "liczba_miejsc": 10,
+    "najnizszy_wynik_proc": 79.76,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 71.69,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 30,
+    "liczba_miejsc": 31,
+    "najnizszy_wynik_proc": 77.51,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 67.43,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 84.62,
+    "status_konkurencyjnosci": "full"
+  },
+  {
     "rekrutacja": "w-2023",
     "wojewodztwo": "Dolnośląskie",
     "dziedzina_medycyny": "Położnictwo i ginekologia",
@@ -1656,6 +1916,26 @@
     "tryb_szkolenia": "Pozarezydencki",
     "liczba_zakwalifikowanych": 0,
     "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Położnictwo i ginekologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
     "najnizszy_wynik_proc": null,
     "status_konkurencyjnosci": "no_accepted"
   },

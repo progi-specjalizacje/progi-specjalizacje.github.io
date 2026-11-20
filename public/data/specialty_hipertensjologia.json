@@ -224,6 +224,22 @@
     "doktoranckie_jednostka": ""
   },
   {
+    "rekrutacja": "j-2026",
+    "kolejnosc_plikow": 20261118,
+    "wojewodztwo": "Małopolskie",
+    "lp": 162,
+    "dziedzina_medycyny": "Hipertensjologia",
+    "numer_wniosku": "2026/031337",
+    "tryb_szkolenia": "Pozarezydencki",
+    "punktacja_proc": 73.86,
+    "srednia_arytmetyczna": 4.04,
+    "data_zlozenia_wniosku": "07.10.2026 08:26:17",
+    "ilosc_zakwalifikowanych_w_trybie": 1,
+    "czy_miejsca_doktoranckie": "NIE",
+    "doktoranckie_podmiot": "",
+    "doktoranckie_jednostka": ""
+  },
+  {
     "rekrutacja": "w-2023",
     "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Łódzkie",

@@ -420,6 +420,146 @@
     "status_konkurencyjnosci": "underfilled"
   },
   {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 81.9,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": 80.68,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 83.81,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 79.81,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 54.81,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 85.58,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 14,
+    "najnizszy_wynik_proc": 72.48,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 74.76,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 82.62,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 6,
+    "najnizszy_wynik_proc": 78.37,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 8,
+    "liczba_miejsc": 8,
+    "najnizszy_wynik_proc": 81.43,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 8,
+    "najnizszy_wynik_proc": 73.06,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 12,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 57.69,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 15,
+    "najnizszy_wynik_proc": 68.27,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
     "rekrutacja": "w-2023",
     "wojewodztwo": "Kujawsko-pomorskie",
     "dziedzina_medycyny": "Patomorfologia",
@@ -1096,6 +1236,86 @@
     "tryb_szkolenia": "Rezydencki",
     "liczba_zakwalifikowanych": 0,
     "liczba_miejsc": 16,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Patomorfologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
     "najnizszy_wynik_proc": null,
     "status_konkurencyjnosci": "no_accepted"
   },

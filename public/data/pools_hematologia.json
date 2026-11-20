@@ -560,6 +560,186 @@
     "status_konkurencyjnosci": "underfilled"
   },
   {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 86.67,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 62.27,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 7,
+    "liczba_miejsc": 7,
+    "najnizszy_wynik_proc": 74.76,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 14,
+    "najnizszy_wynik_proc": 75.45,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 8,
+    "najnizszy_wynik_proc": 75.48,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 8,
+    "najnizszy_wynik_proc": 55.71,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 81.25,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 70.91,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 11,
+    "najnizszy_wynik_proc": 65.55,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 9,
+    "liczba_miejsc": 10,
+    "najnizszy_wynik_proc": 79.33,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 86.6,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 78.37,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 7,
+    "liczba_miejsc": 16,
+    "najnizszy_wynik_proc": 62.98,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 7,
+    "najnizszy_wynik_proc": 70.91,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 81.73,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 72.22,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 80.29,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 87.08,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
     "rekrutacja": "w-2023",
     "wojewodztwo": "Dolnośląskie",
     "dziedzina_medycyny": "Hematologia",
@@ -1236,6 +1416,106 @@
     "tryb_szkolenia": "Pozarezydencki",
     "liczba_zakwalifikowanych": 0,
     "liczba_miejsc": 8,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 8,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Hematologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
     "najnizszy_wynik_proc": null,
     "status_konkurencyjnosci": "no_accepted"
   },

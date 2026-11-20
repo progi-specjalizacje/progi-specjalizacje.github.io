@@ -660,6 +660,206 @@
     "status_konkurencyjnosci": "full"
   },
   {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 9,
+    "liczba_miejsc": 9,
+    "najnizszy_wynik_proc": 81.34,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 76.83,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 6,
+    "najnizszy_wynik_proc": 80.38,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 75.23,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 90.87,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 81.73,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 5,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 85.1,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 89.47,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": 80,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 88.57,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 85.71,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 88.24,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 71.06,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 87.08,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 89,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 80,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": 81.73,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 79.91,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 86.12,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 84.62,
+    "status_konkurencyjnosci": "full"
+  },
+  {
     "rekrutacja": "w-2023",
     "wojewodztwo": "Dolnośląskie",
     "dziedzina_medycyny": "Psychiatria dzieci i młodzieży",

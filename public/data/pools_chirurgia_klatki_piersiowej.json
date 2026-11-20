@@ -250,6 +250,116 @@
     "status_konkurencyjnosci": "full"
   },
   {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 84.06,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 86.36,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 61.82,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 76.68,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 71.36,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 89.9,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 75.48,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 80.38,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 71.03,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 84.62,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 78.13,
+    "status_konkurencyjnosci": "full"
+  },
+  {
     "rekrutacja": "w-2023",
     "wojewodztwo": "Dolnośląskie",
     "dziedzina_medycyny": "Chirurgia klatki piersiowej",
@@ -626,6 +736,66 @@
     "tryb_szkolenia": "Pozarezydencki",
     "liczba_zakwalifikowanych": 0,
     "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia klatki piersiowej",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
     "najnizszy_wynik_proc": null,
     "status_konkurencyjnosci": "no_accepted"
   },

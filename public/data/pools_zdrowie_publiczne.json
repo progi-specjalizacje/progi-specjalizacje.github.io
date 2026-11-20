@@ -130,6 +130,16 @@
     "status_konkurencyjnosci": "underfilled"
   },
   {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Zdrowie publiczne",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 61.93,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
     "rekrutacja": "w-2023",
     "wojewodztwo": "Małopolskie",
     "dziedzina_medycyny": "Zdrowie publiczne",

@@ -19,7 +19,8 @@ DEFAULT_INPUT_DIR = SCRIPT_DIR / "pdfs"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR.parent.parent / "source_data"
 
 
-HEADER_PUBLICATION_DATE_RE = re.compile(r"^Data publikacji w systemie\s+(\d{2}\.\d{2}\.\d{4})$")
+# Od jesieni 2026 SMK dopisuje dwukropek po etykiecie ("Data publikacji w systemie: 18.11.2026").
+HEADER_PUBLICATION_DATE_RE = re.compile(r"^Data publikacji w systemie:?\s+(\d{2}\.\d{2}\.\d{4})$")
 HEADER_PRINT_RE = re.compile(
     r"Data wydruku\s+(\d{2}\.\d{2}\.\d{4}\s+\d{2}:\d{2}:\d{2})\s+Strona\s+(\d+)\s+z\s+(\d+)"
 )
@@ -32,6 +33,11 @@ ROW_RE = re.compile(
     r"^(\d+)\s+(.+?)\s+(\d{4}/\d{6})\s+([^\W\d_�]+)\s+"
     r"(\d+\.\d+)%\s+(\d+\.\d+)\s+(\d{2}\.\d{2}\.\d{4})\s+(\d{2}:\d{2}:\d{2})$"
 )
+# Wiersz tabeli bez nazwy dziedziny: od jesieni 2026 długie nazwy są łamane w komórce,
+# a ich fragmenty trafiają do osobnych linii nad i pod wierszem.
+NAMELESS_ROW_RE = re.compile(r"^(\d+)\s+(\d{4}/\d{6}\s+.+)$")
+# Maksymalna odległość pionowa (pt) fragmentu nazwy od wiersza, do którego należy.
+WRAPPED_NAME_MAX_DISTANCE = 14
 PDF_BOILERPLATE_MARKERS = (
     "Status dokumentu",
     "SMK System Monitorowania",
@@ -97,6 +103,72 @@ def is_pdf_boilerplate_line(line: str) -> bool:
     return any(marker in line for marker in PDF_BOILERPLATE_MARKERS)
 
 
+def is_table_row(text: str) -> bool:
+    return bool(ROW_RE.match(text) or NAMELESS_ROW_RE.match(text))
+
+
+def with_specialty_name(row_text: str, name: str) -> str:
+    lp, rest = NAMELESS_ROW_RE.match(row_text).groups()
+    return f"{lp} {name} {rest}"
+
+
+def merge_wrapped_specialty_names(page) -> tuple[list[str], str]:
+    """Skleja łamane nazwy dziedzin z wierszami tabeli na podstawie położenia na stronie.
+
+    Fragment nazwy to linia leżąca w kolumnie dziedziny (na prawo od kolumny Lp.), która
+    nie jest niczym innym. Trafia do najbliższego pionowo wiersza bez nazwy; fragmenty
+    nad wierszem poprzedzają fragmenty pod nim.
+
+    Zwraca też nazwę z fragmentów osieroconych na górze strony (pod nagłówkiem tabeli,
+    przed pierwszym wierszem): to nazwa wiersza, który został na dole poprzedniej strony.
+    """
+    text_lines = [
+        {**line, "text": normalize_pdf_line(line["text"].strip())}
+        for line in page.extract_text_lines(x_tolerance=1, y_tolerance=3)
+        if line["text"].strip()
+    ]
+    anchors = [line for line in text_lines if NAMELESS_ROW_RE.match(line["text"])]
+    header = next((line for line in text_lines if DOCTORAL_TABLE_HEADER_RE.match(line["text"])), None)
+    lp_x0 = header["x0"] if header else min((line["x0"] for line in anchors), default=0)
+
+    def is_fragment(line: dict) -> bool:
+        return (
+            line["x0"] > lp_x0 + 5
+            and not is_table_row(line["text"])
+            and not HEADER_PRINT_RE.search(line["text"])
+            and not DOCTORAL_TABLE_HEADER_RE.match(line["text"])
+        )
+
+    fragments: dict[int, list[dict]] = {id(anchor): [] for anchor in anchors}
+    consumed: set[int] = set()
+    for line in text_lines:
+        if not anchors or not is_fragment(line):
+            continue
+        nearest = min(anchors, key=lambda anchor: abs(anchor["top"] - line["top"]))
+        if abs(nearest["top"] - line["top"]) <= WRAPPED_NAME_MAX_DISTANCE:
+            fragments[id(nearest)].append(line)
+            consumed.add(id(line))
+
+    leading: list[dict] = []
+    if header:
+        for line in text_lines[text_lines.index(header) + 1 :]:
+            if id(line) in consumed or not is_fragment(line):
+                break
+            leading.append(line)
+    consumed.update(id(line) for line in leading)
+
+    result: list[str] = []
+    for line in text_lines:
+        if id(line) in consumed:
+            continue
+        if fragments.get(id(line)):
+            name = " ".join(fragment["text"] for fragment in sorted(fragments[id(line)], key=lambda f: f["top"]))
+            result.append(with_specialty_name(line["text"], name))
+        else:
+            result.append(line["text"])
+    return result, " ".join(line["text"] for line in leading)
+
+
 def extract_pdf_lines(path: Path) -> list[str]:
     try:
         import pdfplumber
@@ -107,10 +179,17 @@ def extract_pdf_lines(path: Path) -> list[str]:
         ) from exc
 
     lines: list[str] = []
+    # Indeks w `lines` wiersza bez nazwy z dołu poprzedniej strony (nazwa przeszła na następną).
+    dangling_row_index: int | None = None
     with pdfplumber.open(path) as pdf:
         for page in pdf.pages:
             text = page.extract_text(x_tolerance=1, y_tolerance=3) or ""
             page_lines = [normalize_pdf_line(line.strip()) for line in text.splitlines() if line.strip()]
+            if dangling_row_index is not None or any(NAMELESS_ROW_RE.match(line) for line in page_lines):
+                page_lines, leading_name = merge_wrapped_specialty_names(page)
+                if dangling_row_index is not None and leading_name:
+                    lines[dangling_row_index] = with_specialty_name(lines[dangling_row_index], leading_name)
+                dangling_row_index = None
             print_line = next((line for line in page_lines if "Data wydruku" in line), "")
 
             if print_line:
@@ -121,6 +200,9 @@ def extract_pdf_lines(path: Path) -> list[str]:
                 for line in page_lines
                 if "Data wydruku" not in line and not is_pdf_boilerplate_line(line)
             )
+            last_row_index = next((i for i in range(len(lines) - 1, -1, -1) if is_table_row(lines[i])), None)
+            if last_row_index is not None and NAMELESS_ROW_RE.match(lines[last_row_index]):
+                dangling_row_index = last_row_index
 
     return lines
 
@@ -129,8 +211,13 @@ def extract_doctoral_location(location_lines: list[str]) -> tuple[str, str]:
     if not location_lines:
         return "", ""
 
-    podmiot = location_lines[0]
-    jednostka = " ".join(location_lines[1:]) if len(location_lines) > 1 else ""
+    # Jesień 2026: SMK dopisuje "(null)" do nazwy podmiotu i poprzedza jednostkę punktorem.
+    cleaned = [re.sub(r"\s*\(null\)$", "", re.sub(r"^[••]\s*", "", line)).strip() for line in location_lines]
+    cleaned = [line for line in cleaned if line]
+    if not cleaned:
+        return "", ""
+    podmiot = cleaned[0]
+    jednostka = " ".join(cleaned[1:]) if len(cleaned) > 1 else ""
     return podmiot, jednostka
 
 
@@ -216,6 +303,10 @@ def parse_file(path: Path) -> list[dict[str, str]]:
                     "doktoranckie_jednostka": ctx.doktoranckie_jednostka if ctx.section == "Miejsca doktoranckie" else "",
                 }
             )
+            continue
+
+        if NAMELESS_ROW_RE.match(line):
+            print(f"[WARN] {path.name}: pominięto wiersz bez nazwy dziedziny: {line}")
             continue
 
         if ctx.section == "Miejsca doktoranckie":

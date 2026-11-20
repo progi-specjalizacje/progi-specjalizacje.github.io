@@ -440,6 +440,136 @@
     "status_konkurencyjnosci": "full"
   },
   {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 4,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": 86.06,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 59.63,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 75.45,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 89.05,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 89.95,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 77.63,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 87.62,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 85.65,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 0,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 81.58,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 82.69,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 86.54,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 88.86,
+    "status_konkurencyjnosci": "full"
+  },
+  {
     "rekrutacja": "w-2023",
     "wojewodztwo": "Dolnośląskie",
     "dziedzina_medycyny": "Chirurgia naczyniowa",
@@ -951,6 +1081,16 @@
   },
   {
     "rekrutacja": "j-2025",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Chirurgia naczyniowa",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
     "wojewodztwo": "Zachodniopomorskie",
     "dziedzina_medycyny": "Chirurgia naczyniowa",
     "tryb_szkolenia": "Rezydencki",

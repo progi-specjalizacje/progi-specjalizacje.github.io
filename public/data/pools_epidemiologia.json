@@ -80,6 +80,36 @@
     "status_konkurencyjnosci": "full"
   },
   {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Epidemiologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 72.27,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Epidemiologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 80.38,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Epidemiologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 6,
+    "najnizszy_wynik_proc": 75.6,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
     "rekrutacja": "w-2023",
     "wojewodztwo": "Dolnośląskie",
     "dziedzina_medycyny": "Epidemiologia",
@@ -148,6 +178,26 @@
     "liczba_miejsc": 1,
     "najnizszy_wynik_proc": 70.91,
     "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Epidemiologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Epidemiologia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
   },
   {
     "rekrutacja": "w-2023",

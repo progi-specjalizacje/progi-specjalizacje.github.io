@@ -140,6 +140,36 @@
     "status_konkurencyjnosci": "underfilled"
   },
   {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 90.91,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 9,
+    "najnizszy_wynik_proc": 71.82,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 73.58,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
     "rekrutacja": "w-2023",
     "wojewodztwo": "Małopolskie",
     "dziedzina_medycyny": "Intensywna terapia",
@@ -291,6 +321,56 @@
   },
   {
     "rekrutacja": "j-2025",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 9,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
+    "rekrutacja": "j-2026",
     "wojewodztwo": "Świętokrzyskie",
     "dziedzina_medycyny": "Intensywna terapia",
     "tryb_szkolenia": "Pozarezydencki",

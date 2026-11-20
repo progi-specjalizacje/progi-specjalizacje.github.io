@@ -87,6 +87,7 @@ export const dziedziny: string[] = [
 ];
 
 export const rekrutacje: string[] = [
+  "j-2026",
   "w-2026",
   "j-2025",
   "w-2025",
@@ -97,9 +98,7 @@ export const rekrutacje: string[] = [
 ];
 
 // Rekrutacje z opublikowaną liczbą miejsc, ale bez wyników (od najnowszej).
-export const zapowiedzianeRekrutacje: string[] = [
-  "j-2026"
-];
+export const zapowiedzianeRekrutacje: string[] = [];
 
 export const tryby: TrybSzkolenia[] = ["Rezydencki", "Pozarezydencki"];
 

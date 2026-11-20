@@ -176,6 +176,38 @@
     "doktoranckie_jednostka": ""
   },
   {
+    "rekrutacja": "j-2026",
+    "kolejnosc_plikow": 20261118,
+    "wojewodztwo": "Lubuskie",
+    "lp": 125,
+    "dziedzina_medycyny": "Urologia dziecięca",
+    "numer_wniosku": "2026/043677",
+    "tryb_szkolenia": "Pozarezydencki",
+    "punktacja_proc": 63.3,
+    "srednia_arytmetyczna": 3.13,
+    "data_zlozenia_wniosku": "28.09.2026 23:07:59",
+    "ilosc_zakwalifikowanych_w_trybie": 1,
+    "czy_miejsca_doktoranckie": "NIE",
+    "doktoranckie_podmiot": "",
+    "doktoranckie_jednostka": ""
+  },
+  {
+    "rekrutacja": "j-2026",
+    "kolejnosc_plikow": 20261118,
+    "wojewodztwo": "Łódzkie",
+    "lp": 451,
+    "dziedzina_medycyny": "Urologia dziecięca",
+    "numer_wniosku": "2026/031375",
+    "tryb_szkolenia": "Pozarezydencki",
+    "punktacja_proc": 80.23,
+    "srednia_arytmetyczna": 3.53,
+    "data_zlozenia_wniosku": "02.09.2026 09:28:56",
+    "ilosc_zakwalifikowanych_w_trybie": 1,
+    "czy_miejsca_doktoranckie": "NIE",
+    "doktoranckie_podmiot": "",
+    "doktoranckie_jednostka": ""
+  },
+  {
     "rekrutacja": "w-2023",
     "kolejnosc_plikow": 20230428,
     "wojewodztwo": "Pomorskie",

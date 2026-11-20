@@ -710,6 +710,246 @@
     "status_konkurencyjnosci": "full"
   },
   {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 14,
+    "liczba_miejsc": 15,
+    "najnizszy_wynik_proc": 86.3,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Dolnośląskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 79.82,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 3,
+    "najnizszy_wynik_proc": 87.44,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Kujawsko-pomorskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 72.94,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 6,
+    "najnizszy_wynik_proc": 88.1,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubelskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 71.33,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Lubuskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 89.47,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 14,
+    "liczba_miejsc": 16,
+    "najnizszy_wynik_proc": 85.34,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Łódzkie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 5,
+    "najnizszy_wynik_proc": 58.45,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 18,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 86.06,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Małopolskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 2,
+    "liczba_miejsc": 2,
+    "najnizszy_wynik_proc": 78.9,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 25,
+    "liczba_miejsc": 25,
+    "najnizszy_wynik_proc": 87.5,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 1,
+    "liczba_miejsc": 1,
+    "najnizszy_wynik_proc": 83.26,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Opolskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 3,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": 85.1,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podkarpackie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 12,
+    "liczba_miejsc": 13,
+    "najnizszy_wynik_proc": 84.13,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Podlaskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 8,
+    "liczba_miejsc": 8,
+    "najnizszy_wynik_proc": 85.58,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Pomorskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 10,
+    "liczba_miejsc": 10,
+    "najnizszy_wynik_proc": 85.1,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 16,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 86.54,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Śląskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 8,
+    "liczba_miejsc": 26,
+    "najnizszy_wynik_proc": 55.71,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Świętokrzyskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 6,
+    "najnizszy_wynik_proc": 84.06,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Warmińsko-mazurskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 6,
+    "liczba_miejsc": 6,
+    "najnizszy_wynik_proc": 84.21,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 18,
+    "liczba_miejsc": 18,
+    "najnizszy_wynik_proc": 86.54,
+    "status_konkurencyjnosci": "full"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Wielkopolskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 15,
+    "liczba_miejsc": 16,
+    "najnizszy_wynik_proc": 62.21,
+    "status_konkurencyjnosci": "underfilled"
+  },
+  {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Zachodniopomorskie",
+    "dziedzina_medycyny": "Anestezjologia i intensywna terapia",
+    "tryb_szkolenia": "Rezydencki",
+    "liczba_zakwalifikowanych": 13,
+    "liczba_miejsc": 13,
+    "najnizszy_wynik_proc": 84.21,
+    "status_konkurencyjnosci": "full"
+  },
+  {
     "rekrutacja": "w-2023",
     "wojewodztwo": "Dolnośląskie",
     "dziedzina_medycyny": "Anestezjologia i intensywna terapia",

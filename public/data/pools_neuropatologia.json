@@ -150,6 +150,16 @@
     "status_konkurencyjnosci": "no_accepted"
   },
   {
+    "rekrutacja": "j-2026",
+    "wojewodztwo": "Mazowieckie",
+    "dziedzina_medycyny": "Neuropatologia",
+    "tryb_szkolenia": "Pozarezydencki",
+    "liczba_zakwalifikowanych": 0,
+    "liczba_miejsc": 4,
+    "najnizszy_wynik_proc": null,
+    "status_konkurencyjnosci": "no_accepted"
+  },
+  {
     "rekrutacja": "w-2023",
     "wojewodztwo": "Łódzkie",
     "dziedzina_medycyny": "Neuropatologia",

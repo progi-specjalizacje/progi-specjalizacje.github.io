@@ -5,6 +5,7 @@ import { getRecruitmentTimeline, placesFor } from "../utils/reportMetrics";
 import { useFilteredPools } from "../hooks/useFilteredPools";
 import { useFilteredPlaces } from "../hooks/useFilteredPlaces";
 import { InfoTooltip } from "./FilterControls";
+import { RegionResultsCard } from "./RegionResultsCard";
 
 interface CardProps {
   /**
@@ -71,6 +72,12 @@ export function Card({ label, tooltip }: CardProps) {
       regionsWithoutPlaces: regions.filter((region) => region.liczba === 0).map((region) => region.wojewodztwo),
     };
   }, [places, pools]);
+
+  // Po ogłoszeniu wyników nie ma już zapowiedzianej rekrutacji. Liczbę miejsc tej rundy pokazuje
+  // karta wyników, więc zamiast niej pokazujemy progi według województw.
+  if (!content.upcoming && content.rekrutacja) {
+    return <RegionResultsCard />;
+  }
 
   const resolvedLabel = label
     .replace("{etap}", content.upcoming ? "Najbliższa rekrutacja" : "Ostatnia rekrutacja")
